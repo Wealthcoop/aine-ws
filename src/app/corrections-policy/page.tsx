@@ -63,7 +63,7 @@ export default function CorrectionsPolicyPage() {
               How to Submit a Factual Correction Request
             </h3>
             <p className="mt-2 text-sm text-slate-600">
-              If you have identified a factual discrepancy, broken link, or inaccurate figure in any article published on AINE.WS, please notify our editorial desk immediately:
+              If you have identified a factual discrepancy, broken link, or inaccurate figure in any article published by AI News, please notify our editorial desk immediately:
             </p>
             <div className="mt-4">
               <Link

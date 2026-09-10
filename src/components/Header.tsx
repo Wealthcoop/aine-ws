@@ -67,7 +67,7 @@ export function Header() {
               <div className="relative h-12 w-48 sm:h-14 sm:w-56">
                 <Image
                   src="/aine-ws-logo.svg"
-                  alt="AINE.WS - Applied Intelligence News Network"
+                  alt="AI News - Applied Intelligence News Network"
                   fill
                   priority
                   className="object-contain object-left"

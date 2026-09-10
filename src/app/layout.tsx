@@ -71,7 +71,7 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <head>
         <OrganizationSchema />
-        <link rel="alternate" type="application/rss+xml" title="AINE.WS RSS Feed" href="/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="AI News RSS Feed" href="/feed.xml" />
         <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="/news-sitemap.xml" />
       </head>
       <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">

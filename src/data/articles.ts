@@ -26,7 +26,7 @@ export const ARTICLES: NewsArticle[] = [
 
 <p>The update specifically impacts high-intent service verticals—including emergency home services, specialized medical practices, and legal representation. Rather than relying solely on traditional proximity and review quantity, Google’s multimodal models are extracting corroborating details from regional news articles, local chamber citations, and verified schema markup.</p>
 
-<p>"The local pack is no longer just a list of three nearby coordinates," stated Justin Davis, Lead Search Analyst at AINE.WS. "It has transitioned into an authoritative summary where the algorithm explains <em>why</em> a specific business is qualified to solve the user’s query."</p>
+<p>"The local pack is no longer just a list of three nearby coordinates," stated Justin Davis, Lead Search Analyst at AI News. "It has transitioned into an authoritative summary where the algorithm explains <em>why</em> a specific business is qualified to solve the user’s query."</p>
 
 <p>Industry observers note that businesses failing to maintain consistent semantic schema and structured citations risk losing organic top-of-funnel discovery, even if their legacy Google Business Profile holds high star ratings.</p>`,
     sources: [
@@ -59,7 +59,7 @@ export const ARTICLES: NewsArticle[] = [
 
 <p>Conversely, when sales representatives delay outreach past the 30-minute mark, the probability of establishing a live dialogue drops twenty-one-fold. By hour two, the majority of prospective buyers have already initiated contact with an alternative market competitor.</p>
 
-<p>"Sales organizations continue to allocate massive budgets to customer acquisition while ignoring response latency at the front door," noted Marcus Vance, Senior Telephony Correspondent at AINE.WS. "When a prospect is on your website, their intent is at its peak. The moment they close the tab, qualification rates plummet off a cliff."</p>
+<p>"Sales organizations continue to allocate massive budgets to customer acquisition while ignoring response latency at the front door," noted Marcus Vance, Senior Telephony Correspondent at AI News. "When a prospect is on your website, their intent is at its peak. The moment they close the tab, qualification rates plummet off a cliff."</p>
 
 <p>The study highlights a growing divide between enterprise teams trapped in multi-seat call center software and agile firms deploying automated whisper routing and instant missed-call SMS notifications.</p>`,
     sources: [

@@ -94,7 +94,7 @@ export default function HomePage() {
                 The New Standard in Algorithmic Journalism
               </h4>
               <p className="mt-2 text-xs text-slate-600 leading-relaxed">
-                &ldquo;AINE.WS was launched to strip away marketing hype and benchmark how applied AI, search models, and telecom automation actually impact commercial balance sheets.&rdquo;
+                &ldquo;AI News was launched to strip away marketing hype and benchmark how applied AI, search models, and telecom automation actually impact commercial balance sheets.&rdquo;
               </p>
               <div className="mt-4 flex items-center gap-3 border-t border-sky-100 pt-3">
                 <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-sky-300 bg-white">
@@ -218,7 +218,7 @@ export default function HomePage() {
                 <Mail className="h-3.5 w-3.5" /> Daily Executive Briefing
               </span>
               <h3 className="mt-3 font-serif text-3xl md:text-4xl font-extrabold tracking-tight text-white">
-                The AINE Daily Dispatch
+                The AI News Daily Dispatch
               </h3>
               <p className="mt-3 text-sm md:text-base text-slate-400 leading-relaxed max-w-xl">
                 Every weekday morning at 7:00 AM EST, our editorial board synthesizes the previous 24 hours of algorithm updates, speed-to-lead benchmarks, and AI code releases into a 5-minute technical briefing.

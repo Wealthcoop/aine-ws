@@ -17,7 +17,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Justin Davis',
     role: 'Publisher & Editor-in-Chief',
     title: 'Founder & Lead Search Analyst',
-    bio: 'Justin Davis is the founder and publisher of AINE.WS. He has spent over a decade analyzing programmatic search infrastructure, algorithmic local ranking systems, and autonomous digital business architecture.',
+    bio: 'Justin Davis is the founder and publisher of AI News (aine.ws). He has spent over a decade analyzing programmatic search infrastructure, algorithmic local ranking systems, and autonomous digital business architecture.',
     avatar: '/authors/justin-davis.jpg',
     linkedin: 'https://www.linkedin.com/in/justin-davis-marketing',
     email: 'j.davis@aine.ws',

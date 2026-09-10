@@ -16,7 +16,7 @@ export function Footer() {
               <div>
                 <h4 className="text-sm font-bold text-white">Trust &amp; Verification Protocol</h4>
                 <p className="mt-1 text-xs text-slate-400 leading-relaxed">
-                  Every article published on AINE.WS undergoes primary source verification, data validation, and strict editorial review prior to publication.
+                  Every article published by AI News undergoes primary source verification, data validation, and strict editorial review prior to publication.
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export function Footer() {
           <div className="md:col-span-4">
             <div className="flex items-center gap-3">
               <span className="font-sans text-2xl font-black tracking-tight text-white">
-                AINE<span className="text-sky-400">.WS</span>
+                AI NE<span className="text-sky-400">.WS</span>
               </span>
             </div>
             <p className="mt-3 text-xs text-slate-400 leading-relaxed max-w-sm">
@@ -200,7 +200,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {SITE_CONFIG.legalName}. All rights reserved. Registered in Delaware, USA.
           </p>
           <p className="mt-2 md:mt-0">
-            AINE.WS is an independent digital news wire.
+            AI News is an independent digital news wire.
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 export const SITE_CONFIG = {
-  name: 'AINE.WS',
-  legalName: 'AINE Applied Intelligence News Network',
+  name: 'AI News',
+  brandName: 'AI NE.WS',
+  legalName: 'AI News Network',
   tagline: 'The Applied AI & Algorithmic Commerce Wire',
   description: 'Independent reporting, empirical benchmarks, and technical analysis on artificial intelligence, algorithmic search, and business automation.',
   url: 'https://aine.ws',

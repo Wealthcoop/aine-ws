@@ -37,7 +37,7 @@ export default function AboutPage() {
             As artificial intelligence accelerates from laboratory research into production software, the lines between commercial marketing, algorithmic hallucination, and factual reality have blurred. Traditional tech journalism frequently regurgitates corporate press releases without code-level scrutiny or empirical verification.
           </p>
           <p>
-            <strong>AINE.WS was established to provide the antidote.</strong> We investigate how machine learning architectures, telephony pipelines, and search algorithms perform under real-world commercial conditions. Whether examining Google’s deployment of multi-entity AI Overviews in local map packs, quantifying phone response latency across B2B sales organizations, or reverse-engineering Generative Engine Optimization (GEO) heuristics, our coverage is anchored in verifiable data.
+            <strong>AI News was established to provide the antidote.</strong> We investigate how machine learning architectures, telephony pipelines, and search algorithms perform under real-world commercial conditions. Whether examining Google’s deployment of multi-entity AI Overviews in local map packs, quantifying phone response latency across B2B sales organizations, or reverse-engineering Generative Engine Optimization (GEO) heuristics, our coverage is anchored in verifiable data.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
             The Editorial Board &amp; Correspondents
           </h2>
           <p className="mt-2 text-sm text-slate-500">
-            All news reports, investigative analyses, and commentary on AINE.WS are produced by accredited journalists and subject-matter analysts.
+            All news reports, investigative analyses, and commentary by AI News are produced by accredited journalists and subject-matter analysts.
           </p>
 
           <div className="mt-8 space-y-8">
@@ -112,7 +112,7 @@ export default function AboutPage() {
           <div className="flex items-center gap-3">
             <ShieldCheck className="h-6 w-6 text-sky-700" />
             <h3 className="font-sans text-xl font-bold text-slate-900">
-              The AINE.WS Verification Protocol
+              The AI News Verification Protocol
             </h3>
           </div>
           <p className="mt-3 text-sm text-slate-700 leading-relaxed">

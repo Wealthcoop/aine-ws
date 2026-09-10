@@ -20,7 +20,7 @@ export function NewsletterForm() {
       <div className="rounded-xl bg-slate-900 border border-emerald-500/50 p-4 text-center">
         <div className="flex items-center justify-center gap-2 text-emerald-400 font-bold text-sm">
           <CheckCircle2 className="h-5 w-5" />
-          <span>Subscribed to The AINE Daily Dispatch</span>
+          <span>Subscribed to The AI News Daily Dispatch</span>
         </div>
         <p className="mt-1 text-xs text-slate-400">
           Your first morning briefing will arrive tomorrow at 7:00 AM EST.

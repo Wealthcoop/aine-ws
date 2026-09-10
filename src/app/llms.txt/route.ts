@@ -4,7 +4,7 @@ import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
 
 export async function GET() {
-  const content = `# AINE.WS - The Applied AI & Algorithmic Commerce Wire
+  const content = `# AI News (aine.ws) - The Applied AI & Algorithmic Commerce Wire
 > Independent reporting, empirical benchmarks, and technical analysis on artificial intelligence, algorithmic search, and business automation.
 
 ## Publication Overview

@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
     // 2. Create Note attached to contact
     if (contactId) {
       try {
-        const noteBody = `📰 [AINE.WS EDITORIAL DESK TRANSMISSION]
+        const noteBody = `📰 [AI NEWS (AINE.WS) EDITORIAL DESK TRANSMISSION]
 -------------------------------------------
 Type: ${inquiryType || 'General Tip'}
 Subject: ${subject || 'No Subject'}
@@ -101,7 +101,7 @@ Source: https://aine.ws/contact`
 
     return NextResponse.json({
       success: true,
-      message: 'Your transmission has been securely logged with the AINE.WS editorial desk. Confidentiality protected under journalist shield standards.',
+      message: 'Your transmission has been securely logged with the AI News editorial desk. Confidentiality protected under journalist shield standards.',
       timestamp: new Date().toISOString(),
     })
   } catch (error: any) {

@@ -34,7 +34,7 @@ export default function TermsPage() {
 
           <h2 className="font-sans text-xl font-bold text-slate-900 pt-4">2. Editorial Disclaimer</h2>
           <p>
-            Content on AINE.WS is provided for informational and journalistic purposes only. Our technical analyses of search algorithms, AI architectures, and telephony systems reflect empirical testing and journalistic research, not financial, legal, or investment advice.
+            Content published by AI News is provided for informational and journalistic purposes only. Our technical analyses of search algorithms, AI architectures, and telephony systems reflect empirical testing and journalistic research, not financial, legal, or investment advice.
           </p>
 
           <h2 className="font-sans text-xl font-bold text-slate-900 pt-4">3. Governing Law</h2>
