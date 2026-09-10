@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png' }],
   },
   other: {
-    'google-site-verification': process.env.NEXT_PUBLIC_GSC_VERIFICATION || 'GSC_VERIFICATION_TOKEN_PENDING',
+    'google-site-verification': process.env.NEXT_PUBLIC_GSC_VERIFICATION || 'ZCEez8R7ae_zvdcPy1nbioBNtFJ1zCpPXUgibCD155Q',
     'news_keywords': 'artificial intelligence, search algorithms, google ai overview, telephony automation, local seo, agent architecture',
   },
 }
