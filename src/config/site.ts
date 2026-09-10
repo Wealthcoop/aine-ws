@@ -21,9 +21,9 @@ export const SITE_CONFIG = {
     correctionsDesk: 'https://aine.ws/contact?type=correction'
   },
   desks: [
-    { id: 'search-algorithms', label: 'Search & Algorithms', description: 'Google AI Overviews, algorithmic ranking updates, and GEO intelligence.' },
-    { id: 'local-business', label: 'Local Business & Maps', description: 'How automation and artificial intelligence impact local service businesses and Google Business Profiles.' },
-    { id: 'telephony-automation', label: 'Sales Telephony & RevOps', description: 'Speed-to-lead benchmarks, whisper voice routing, and CRM pipeline automation.' },
-    { id: 'enterprise-tools', label: 'Enterprise & Creative AI', description: 'Generative video models, autonomous agent architectures, and workflow productivity platforms.' }
+    { id: 'search-ai', label: 'Search & AI Overviews', description: 'Google AI Overviews, algorithmic ranking updates, and GEO intelligence.' },
+    { id: 'local-business', label: 'Local Business & Google Maps', description: 'How automation, review models, and AI impact local businesses and Google Business Profiles.' },
+    { id: 'voice-lead-response', label: 'Voice AI & Lead Response', description: 'Speed-to-lead benchmarks, AI voice receptionists, whisper call routing, and CRM pipeline automation.' },
+    { id: 'ai-tools', label: 'AI Tools & Automation', description: 'Autonomous agent architectures, workflow productivity software, and generative commercial tools.' }
   ]
 }

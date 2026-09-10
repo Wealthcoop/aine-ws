@@ -5,7 +5,7 @@ export interface NewsArticle {
   slug: string
   title: string
   deck: string
-  category: 'search-algorithms' | 'local-business' | 'telephony-automation' | 'enterprise-tools'
+  category: 'search-ai' | 'local-business' | 'voice-lead-response' | 'ai-tools'
   authorId: string
   publishedAt: string
   updatedAt: string

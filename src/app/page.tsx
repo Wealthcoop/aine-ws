@@ -24,10 +24,10 @@ export default function HomePage() {
   const wireHeadlines = ARTICLES.filter((a) => a.id !== leadArticle.id).slice(0, 5)
 
   // Desk grouped articles
-  const searchArticles = ARTICLES.filter((a) => a.category === 'search-algorithms').slice(0, 3)
+  const searchArticles = ARTICLES.filter((a) => a.category === 'search-ai').slice(0, 3)
   const localArticles = ARTICLES.filter((a) => a.category === 'local-business').slice(0, 3)
-  const telephonyArticles = ARTICLES.filter((a) => a.category === 'telephony-automation').slice(0, 3)
-  const enterpriseArticles = ARTICLES.filter((a) => a.category === 'enterprise-tools').slice(0, 3)
+  const voiceArticles = ARTICLES.filter((a) => a.category === 'voice-lead-response').slice(0, 3)
+  const toolsArticles = ARTICLES.filter((a) => a.category === 'ai-tools').slice(0, 3)
 
   return (
     <div className="bg-slate-50 py-8 lg:py-12">
@@ -75,7 +75,7 @@ export default function HomePage() {
 
               <div className="mt-6 border-t border-slate-100 pt-4">
                 <Link
-                  href="/desks/search-algorithms"
+                  href="/desks/search-ai"
                   className="flex items-center justify-center gap-1.5 rounded-lg bg-slate-100 py-2.5 text-xs font-bold text-slate-800 hover:bg-slate-200 transition"
                 >
                   <span>Explore All Wire Archives</span>
@@ -114,17 +114,17 @@ export default function HomePage() {
           </aside>
         </section>
 
-        {/* Category Desk 1: Search & Algorithms */}
-        <section aria-label="Search and Algorithms Desk" className="mt-16">
+        {/* Category Desk 1: Search & AI Overviews */}
+        <section aria-label="Search & AI Overviews Desk" className="mt-16">
           <div className="flex items-center justify-between border-b-2 border-sky-600 pb-3">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-sky-700">Beat Coverage</span>
               <h2 className="font-serif text-2xl md:text-3xl font-bold text-slate-900">
-                Search &amp; Algorithmic Ranking Intelligence
+                Search &amp; AI Overviews
               </h2>
             </div>
             <Link
-              href="/desks/search-algorithms"
+              href="/desks/search-ai"
               className="inline-flex items-center gap-1 text-xs font-bold text-sky-700 hover:text-sky-900 transition"
             >
               <span>View Desk</span>
@@ -138,17 +138,17 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Category Desk 2: Sales Telephony & RevOps */}
-        <section aria-label="Sales Telephony Desk" className="mt-16">
+        {/* Category Desk 2: Voice AI & Lead Response */}
+        <section aria-label="Voice AI & Lead Response Desk" className="mt-16">
           <div className="flex items-center justify-between border-b-2 border-amber-600 pb-3">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-amber-800">Beat Coverage</span>
               <h2 className="font-serif text-2xl md:text-3xl font-bold text-slate-900">
-                Sales Telephony &amp; Pipeline Automation
+                Voice AI &amp; Lead Response
               </h2>
             </div>
             <Link
-              href="/desks/telephony-automation"
+              href="/desks/voice-lead-response"
               className="inline-flex items-center gap-1 text-xs font-bold text-amber-800 hover:text-amber-950 transition"
             >
               <span>View Desk</span>
@@ -156,19 +156,19 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {telephonyArticles.map((art) => (
+            {voiceArticles.map((art) => (
               <ArticleCard key={art.id} article={art} />
             ))}
           </div>
         </section>
 
-        {/* Category Desk 3: Local Business & Maps AI */}
-        <section aria-label="Local Business Desk" className="mt-16">
+        {/* Category Desk 3: Local Business & Google Maps */}
+        <section aria-label="Local Business & Google Maps Desk" className="mt-16">
           <div className="flex items-center justify-between border-b-2 border-emerald-600 pb-3">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-emerald-800">Beat Coverage</span>
               <h2 className="font-serif text-2xl md:text-3xl font-bold text-slate-900">
-                Local Business, Google Maps &amp; Contractor AI
+                Local Business &amp; Google Maps
               </h2>
             </div>
             <Link
@@ -186,17 +186,17 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Category Desk 4: Enterprise & Creative Tools */}
-        <section aria-label="Enterprise Tools Desk" className="mt-16">
+        {/* Category Desk 4: AI Tools & Automation */}
+        <section aria-label="AI Tools & Automation Desk" className="mt-16">
           <div className="flex items-center justify-between border-b-2 border-purple-600 pb-3">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-purple-700">Beat Coverage</span>
               <h2 className="font-serif text-2xl md:text-3xl font-bold text-slate-900">
-                Enterprise Architectures &amp; Creative Tooling
+                AI Tools &amp; Automation
               </h2>
             </div>
             <Link
-              href="/desks/enterprise-tools"
+              href="/desks/ai-tools"
               className="inline-flex items-center gap-1 text-xs font-bold text-purple-700 hover:text-purple-900 transition"
             >
               <span>View Desk</span>
@@ -204,7 +204,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {enterpriseArticles.map((art) => (
+            {toolsArticles.map((art) => (
               <ArticleCard key={art.id} article={art} />
             ))}
           </div>

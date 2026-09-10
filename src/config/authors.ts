@@ -21,23 +21,23 @@ export const AUTHORS: Record<string, Author> = {
     avatar: '/authors/justin-davis.jpg',
     linkedin: 'https://www.linkedin.com/in/justin-davis-marketing',
     email: 'j.davis@aine.ws',
-    beats: ['Search Algorithms', 'GEO Intelligence', 'Enterprise Architecture']
+    beats: ['Search & AI Overviews', 'GEO Intelligence', 'Autonomous Tools']
   },
   'marcus-vance': {
     id: 'marcus-vance',
     name: 'Marcus Vance',
-    role: 'Senior Telephony & Automation Reporter',
-    title: 'Senior Telecom & RevOps Correspondent',
-    bio: 'Marcus Vance investigates real-time sales telephony, inbound call routing architectures, and CRM pipeline automation. He previously covered enterprise B2B software and VoIP engineering.',
+    role: 'Senior Voice AI & Lead Response Reporter',
+    title: 'Lead Voice AI Correspondent',
+    bio: 'Marcus Vance investigates real-time sales voice AI, inbound call routing architectures, and automated speed-to-lead pipelines. He previously covered enterprise B2B software and telecom engineering.',
     avatar: '/authors/marcus-vance.jpg',
     email: 'm.vance@aine.ws',
-    beats: ['Sales Telephony', 'Voice AI', 'Speed-to-Lead', 'CRM Infrastructure']
+    beats: ['Voice AI', 'Speed-to-Lead', 'Missed-Call Text Back', 'Lead Response Automation']
   },
   'elena-chen': {
     id: 'elena-chen',
     name: 'Elena Chen',
-    role: 'Local Commerce & Maps Contributor',
-    title: 'Local Search & Retail Tech Analyst',
+    role: 'Local Business & Google Maps Contributor',
+    title: 'Local Search & Maps Tech Analyst',
     bio: 'Elena Chen covers local business technology, Google Business Profile algorithmic fluctuations, and how small-to-midsize service businesses deploy artificial intelligence to compete with national franchises.',
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',

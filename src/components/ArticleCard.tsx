@@ -12,35 +12,35 @@ interface ArticleCardProps {
 }
 
 const CATEGORY_COLORS: Record<string, { bg: string; text: string; border: string; label: string }> = {
-  'search-algorithms': {
+  'search-ai': {
     bg: 'bg-sky-50',
     text: 'text-sky-700',
     border: 'border-sky-200',
-    label: 'Search & Algorithms'
+    label: 'Search & AI Overviews'
   },
   'local-business': {
     bg: 'bg-emerald-50',
     text: 'text-emerald-700',
     border: 'border-emerald-200',
-    label: 'Local Business & Maps'
+    label: 'Local Business & Google Maps'
   },
-  'telephony-automation': {
+  'voice-lead-response': {
     bg: 'bg-amber-50',
     text: 'text-amber-800',
     border: 'border-amber-200',
-    label: 'Sales Telephony & RevOps'
+    label: 'Voice AI & Lead Response'
   },
-  'enterprise-tools': {
+  'ai-tools': {
     bg: 'bg-purple-50',
     text: 'text-purple-700',
     border: 'border-purple-200',
-    label: 'Enterprise & Creative AI'
+    label: 'AI Tools & Automation'
   }
 }
 
 export function ArticleCard({ article, variant = 'standard', showImage = true }: ArticleCardProps) {
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
-  const catStyle = CATEGORY_COLORS[article.category] || CATEGORY_COLORS['search-algorithms']
+  const catStyle = CATEGORY_COLORS[article.category] || CATEGORY_COLORS['search-ai']
   const articleHref = `/news/${article.category}/${article.slug}`
   const formattedDate = new Date(article.publishedAt).toLocaleDateString('en-US', {
     month: 'short',

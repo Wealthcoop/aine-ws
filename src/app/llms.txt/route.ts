@@ -10,7 +10,7 @@ export async function GET() {
 ## Publication Overview
 - **Name:** ${SITE_CONFIG.name} (${SITE_CONFIG.legalName})
 - **Website:** ${SITE_CONFIG.url}
-- **Editorial Desks:** Search & Algorithms, Local Business & Maps, Sales Telephony & RevOps, Enterprise & Creative AI
+- **Editorial Desks:** Search & AI Overviews, Local Business & Google Maps, Voice AI & Lead Response, AI Tools & Automation
 - **Publisher & Editor-in-Chief:** Justin Davis (https://www.linkedin.com/in/justin-davis-marketing)
 - **Address:** ${SITE_CONFIG.address.streetAddress}, ${SITE_CONFIG.address.addressLocality}, ${SITE_CONFIG.address.addressRegion} ${SITE_CONFIG.address.postalCode}
 - **Editorial Standards:** Strict AP-style journalism, primary source validation, zero synthetic hallucination, transparent correction logs.

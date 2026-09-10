@@ -231,7 +231,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
         {/* Native Sponsor Slot (Strictly controlled by MONETIZATION_CONFIG) */}
         <SponsorSlot
           vertical={
-            article.category === 'telephony-automation'
+            article.category === 'voice-lead-response'
               ? 'telephony'
               : 'local-seo'
           }
