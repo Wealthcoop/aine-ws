@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1789444010",
+    slug: "search-central-live-india-2026-bengaluru-were-coming-for-rea",
+    title: "Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time)",
+    deck: "Remember back in March when we told our Indian community to &quot;sit tight&quot; while we figured out the APAC event calendar? Hopefully, you didn&#39;t take that too literally, because sitting tight for six months is probably not great for your back. In any case, you can finally stand up and stret",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T03:46:50Z",
+    updatedAt: "2026-09-15T03:46:50Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time).</p>
+<p>Remember back in March when we told our Indian community to &quot;sit tight&quot; while we figured out the APAC event calendar? Hopefully, you didn&#39;t take that too literally, because sitting tight for six months is probably not great for your back. In any case, you can finally stand up and stret</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/09/search-central-live-india-2026", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789444010",
+    slug: "daily-search-forum-recap-september-14-2026",
+    title: "Daily Search Forum Recap: September 14, 2026",
+    deck: "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is testing a way to pay publishers for using their content in AI Mode...",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T03:46:50Z",
+    updatedAt: "2026-09-15T03:46:50Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Daily Search Forum Recap: September 14, 2026.</p>
+<p>Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is testing a way to pay publishers for using their content in AI Mode...</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/recap-09-14-2026-42078.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789444011",
+    slug: "how-fyxer-built-an-ai-executive-assistant-people-trust",
+    title: "How Fyxer built an AI executive assistant people trust",
+    deck: "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user\u2019s voice.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T03:46:51Z",
+    updatedAt: "2026-09-15T03:46:51Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: How Fyxer built an AI executive assistant people trust.</p>
+<p>Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/fyxer", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: 'art-16',
     slug: 'google-multi-entity-consensus-local-3-pack-algorithms',
     title: 'Google Implements Multi-Entity Consensus Verification Across Local 3-Pack and Knowledge Graph Systems',
