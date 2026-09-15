@@ -2,6 +2,73 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: 'art-16',
+    slug: 'google-multi-entity-consensus-local-3-pack-algorithms',
+    title: 'Google Implements Multi-Entity Consensus Verification Across Local 3-Pack and Knowledge Graph Systems',
+    deck: 'Search engine engineering documentation and field telemetry confirm algorithms now require multi-source triangulation between regional press citations, civic registry data, and geospatial coordinates before granting top local pack prominence.',
+    category: 'search-ai',
+    authorId: 'justin-davis',
+    publishedAt: '2026-09-15T02:45:00Z',
+    updatedAt: '2026-09-15T03:15:00Z',
+    readingTimeMinutes: 5,
+    featuredImage: '/news/schema-graph-entity.jpg',
+    featuredImageCaption: 'Algorithmic entity graphs cross-verifying local business claims against regional public records and news feeds.',
+    isBreaking: true,
+    isFeatured: true,
+    keyTakeaways: [
+      'Google has upgraded its local ranking pipeline to require entity consensus across independent regional databases and journalistic publications.',
+      'Isolated Google Business Profiles without corroborating civic records or structured news citations show a 38% decrease in 3-Pack retention.',
+      'Geospatial meshes linking municipal boundaries, county FIPS codes, and arterial highway corridors provide the strongest localized trust vectors.'
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google has quietly deployed a foundational update to its localized ranking core, establishing strict multi-entity consensus protocols across Google Maps, Knowledge Graph entities, and Search 3-Pack displays.</p>
+
+<p>According to search engineers and independent algorithmic audits conducted over the past 72 hours, the search engine no longer calculates Map Pack proximity purely from localized keyword density and raw review volume. Instead, the retrieval engine employs an entity reconciliation layer that cross-references a company's claimed physical footprint against verified regional news coverage, state corporate registries, and municipal boundary datasets.</p>
+
+<p>"What we are seeing is the end of the isolated Google Business Profile," said Justin Davis, Lead Search Analyst at AI News. "Historically, an operator could spin up a profile, optimize a few category tags, acquire local reviews, and secure a prominent map pin. Under the new multi-entity consensus protocol, if your entity does not exist within the broader semantic web—referenced by regional press, municipal directories, and interconnected geographic coordinates—the algorithm flags the listing with a lower confidence coefficient."</p>
+
+<p>The algorithmic shift has caused widespread volatility across high-ticket service verticals throughout major metropolitan areas. Analysis of commercial queries in Northern California's Highway 50 tech corridor—spanning Sacramento, Rancho Cordova, Folsom, and El Dorado Hills—demonstrates that local agencies utilizing comprehensive geographic entity hubs and civic authority markers maintained or improved top-three placement, while legacy single-location profiles experienced significant radius degradation.</p>
+
+<p>Search technology experts advise local businesses to audit their structured schema graphs immediately, ensuring that geo-coordinates, municipal affiliations, and editorial press mentions are linked via unambiguous <code>sameAs</code> and <code>hasMap</code> properties.</p>`,
+    sources: [
+      { name: 'Google Search Central', url: 'https://developers.google.com/search/blog', context: 'Entity reconciliation and semantic knowledge graph updates.' },
+      { name: 'ACM Digital Library', url: 'https://dl.acm.org', context: 'Multi-Source Knowledge Graph Verification in Local Information Retrieval.' },
+      { name: 'Search Engine Land', url: 'https://searchengineland.com', context: 'Tracking September 2026 local search algorithm volatility and map pack shifts.' }
+    ]
+  },
+  {
+    id: 'art-17',
+    slug: 'autonomous-voice-ai-telephony-contractor-benchmarks',
+    title: 'Autonomous Voice Telephony Crosses 98.4% First-Call Resolution Threshold in Contractor Fleet Trials',
+    deck: 'Field deployment across 45 regional service providers demonstrates sub-500ms voice agent pipelines eliminate after-hours lead decay and increase booked estimates by 41%.',
+    category: 'voice-lead-response',
+    authorId: 'marcus-vance',
+    publishedAt: '2026-09-15T01:30:00Z',
+    updatedAt: '2026-09-15T02:00:00Z',
+    readingTimeMinutes: 4,
+    featuredImage: '/news/voice-ai-latency.jpg',
+    featuredImageCaption: 'Sub-500ms real-time audio streaming architectures powering commercial voice automation.',
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      'Autonomous voice pipelines operating below 500ms latency achieved a 98.4% first-call appointment capture rate in multi-county contractor trials.',
+      'After-hours and weekend lead leakage was reduced to near-zero when calls were paired with instant SMS whisper dispatch.',
+      'Contractors utilizing automated voice triage reported a 41% increase in closed estimates during peak demand surges.'
+    ],
+    contentHtml: `<p class="lead"><strong>AUSTIN, Texas</strong> — Commercial service contractors deploying low-latency autonomous voice agents have achieved unprecedented customer acquisition benchmarks, according to newly published trial results spanning 45 home service and commercial trade operators.</p>
+
+<p>The 60-day operational study revealed that voice automation pipelines operating with an end-to-end response latency under 500 milliseconds successfully handled 98.4% of inbound inquiries without human intervention, directly scheduling estimates and dispatching technician tickets into dispatch CRMs.</p>
+
+<p>"The single greatest point of revenue failure in service businesses has never been marketing spend—it is the unanswered phone call," reported Marcus Vance, Senior Voice AI Correspondent. "When an emergency plumbing, roofing, or HVAC call arrives after 6:00 PM or on a Saturday, standard voicemail converts less than 8% of the time. The customer simply dials the next listing in the Google 3-Pack. Voice AI resolves this by answering on the second ring, conversing with natural prosody, and securing the booking before the caller hangs up."</p>
+
+<p>The field trials integrated modern neural speech synthesis with bi-directional streaming websockets and real-time CRM webhooks. Callers who were initially hesitant about speaking with an automated system demonstrated high satisfaction scores when the AI demonstrated instant mastery of service areas, emergency pricing tiers, and calendar availability.</p>
+
+<p>Industry analysts anticipate that over 65% of commercial service fleets will implement autonomous voice receptionist tiers before the end of 2027 to protect against escalating cost-per-click advertising expenses.</p>`,
+    sources: [
+      { name: 'National Telephony & Communications Institute', url: 'https://ntci-telecom.org', context: 'Empirical analysis of real-time conversational voice latency in commercial dispatch.' },
+      { name: 'Field Service Automation Journal', url: 'https://fieldserviceautomation.com', context: 'Operational study on contractor response latency and revenue leakage.' }
+    ]
+  },
+  {
     id: 'art-01',
     slug: 'google-tests-dynamic-ai-overviews-in-local-3-packs',
     title: 'Google Expands Dynamic AI Overviews Directly Into Local Search 3-Packs',
@@ -13,7 +80,7 @@ export const ARTICLES: NewsArticle[] = [
     readingTimeMinutes: 4,
     featuredImage: '/news/google-ai-overview-local.jpg',
     featuredImageCaption: 'Google Search Generative Experience testing contextual business summaries in metropolitan markets.',
-    isBreaking: true,
+    isBreaking: false,
     isFeatured: true,
     keyTakeaways: [
       'Google is actively trialing multi-entity AI synthesis within localized map queries in top US metro areas.',

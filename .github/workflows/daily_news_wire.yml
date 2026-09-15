@@ -1,0 +1,42 @@
+name: Daily Autonomous News Wire
+
+on:
+  schedule:
+    # 6:00 AM PST (13:00 UTC) Monday through Friday
+    - cron: '0 13 * * 1-5'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  publish-wire:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Newsroom Wire Ingestion Pipeline
+        run: |
+          python3 scripts/newsroom_wire.py
+
+      - name: Commit and Push New Wire Articles
+        run: |
+          git config user.name "AINE News Wire Bot"
+          git config user.email "bot@aine.ws"
+          if [ -n "$(git status --porcelain src/data/articles.ts)" ]; then
+            git add src/data/articles.ts
+            git commit -m "chore(newsroom): publish automated daily wire dispatches [skip ci]"
+            git push origin main
+            echo "Successfully committed and published new articles to wire."
+          else
+            echo "All news wire feeds are up to date. No new articles to commit today."
+          fi
