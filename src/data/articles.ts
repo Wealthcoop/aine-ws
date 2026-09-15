@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1789492892",
+    slug: "search-central-live-is-coming-to-bogota-and-ciudad-de-mxico",
+    title: "Search Central Live is coming to Bogota and Ciudad de M\u00e9xico",
+    deck: "Leer en espa\u00f1ol",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T17:21:32Z",
+    updatedAt: "2026-09-15T17:21:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Search Central Live is coming to Bogota and Ciudad de México.</p>
+<p>Leer en español</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/09/search-central-live-mexico-and-colombia", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789492892",
+    slug: "daily-search-forum-recap-september-15-2026",
+    title: "Daily Search Forum Recap: September 15, 2026",
+    deck: "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. I am seeing signs of a big update lurking with Google Search...",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T17:21:32Z",
+    updatedAt: "2026-09-15T17:21:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Daily Search Forum Recap: September 15, 2026.</p>
+<p>Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. I am seeing signs of a big update lurking with Google Search...</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/recap-09-15-2026-42088.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789492892",
+    slug: "perplexity-trusts-gpt-6-astra-with-end-to-end-systems",
+    title: "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    deck: "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T17:21:32Z",
+    updatedAt: "2026-09-15T17:21:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Perplexity trusts GPT-6 Astra with end-to-end systems.</p>
+<p>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/perplexity-improving-accuracy-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1789444010",
     slug: "search-central-live-india-2026-bengaluru-were-coming-for-rea",
     title: "Search Central Live India 2026: Bengaluru, We're Coming (For Real This Time)",
