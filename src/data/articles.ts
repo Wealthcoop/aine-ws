@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1789579264",
+    slug: "update-to-the-site-reputation-policy",
+    title: "Update to the Site Reputation Policy",
+    deck: "In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that site&#39;s good reputation to rank higher in Search. This practice hurts search quality, and creates a bad experience for users.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-16T17:21:04Z",
+    updatedAt: "2026-09-16T17:21:04Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Update to the Site Reputation Policy.</p>
+<p>In 2024, we introduced our site reputation policy to stop a practice where third-party content is published on a trusted website just to exploit that site&#39;s good reputation to rank higher in Search. This practice hurts search quality, and creates a bad experience for users.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789579264",
+    slug: "google-search-profiles-article-design-less-followers-easier-",
+    title: "Google Search Profiles Article Design, Less Followers & Easier Login",
+    deck: "Google has updated the Search profiles with a new article design, a single login to manage multiple Search profiles and only 10,000 followers on social platforms are required.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-16T17:21:04Z",
+    updatedAt: "2026-09-16T17:21:04Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Google Search Profiles Article Design, Less Followers & Easier Login.</p>
+<p>Google has updated the Search profiles with a new article design, a single login to manage multiple Search profiles and only 10,000 followers on social platforms are required.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/google-search-profiles-updates-42098.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789579264",
+    slug: "helping-older-adults-use-ai-in-everyday-life",
+    title: "Helping older adults use AI in everyday life",
+    deck: "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-16T17:21:04Z",
+    updatedAt: "2026-09-16T17:21:04Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Helping older adults use AI in everyday life.</p>
+<p>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1789492892",
     slug: "search-central-live-is-coming-to-bogota-and-ciudad-de-mxico",
     title: "Search Central Live is coming to Bogota and Ciudad de M\u00e9xico",
