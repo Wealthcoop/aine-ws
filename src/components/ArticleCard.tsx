@@ -61,11 +61,11 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
                 {catStyle.label}
               </Link>
               {article.isBreaking && (
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-600 px-3 py-1 font-bold uppercase tracking-wider text-white">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-700 px-3 py-1 font-bold uppercase tracking-wider text-white">
                   <span className="h-1.5 w-1.5 rounded-full bg-white animate-pulse" /> Breaking News
                 </span>
               )}
-              <time dateTime={article.publishedAt} className="text-slate-500">
+              <time dateTime={article.publishedAt} className="text-slate-600">
                 {formattedDate}
               </time>
             </div>
@@ -132,7 +132,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
               {catStyle.label}
             </Link>
             <span className="text-slate-300">•</span>
-            <time dateTime={article.publishedAt} className="text-slate-400">
+            <time dateTime={article.publishedAt} className="text-slate-600 font-medium">
               {formattedDate}
             </time>
           </div>
@@ -142,7 +142,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
             </Link>
           </h3>
         </div>
-        <div className="mt-2 flex items-center justify-between text-[11px] text-slate-500">
+        <div className="mt-2 flex items-center justify-between text-[11px] text-slate-600">
           <Link href={`/authors/${author.id}`} className="hover:text-slate-800 transition">
             By {author.name}
           </Link>
@@ -176,7 +176,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
           >
             {catStyle.label}
           </Link>
-          <time dateTime={article.publishedAt} className="text-slate-400 text-xs">
+          <time dateTime={article.publishedAt} className="text-slate-600 font-medium text-xs">
             {formattedDate}
           </time>
         </div>
@@ -192,12 +192,12 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
         </p>
       </div>
 
-      <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3 text-xs text-slate-500">
+      <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3 text-xs text-slate-600">
         <Link
           href={`/authors/${author.id}`}
           className="flex items-center gap-1.5 font-medium text-slate-700 hover:text-sky-700 transition"
         >
-          <User className="h-3 w-3 text-slate-400" />
+          <User className="h-3 w-3 text-slate-500" />
           <span>{author.name}</span>
         </Link>
         <div className="flex items-center gap-1">

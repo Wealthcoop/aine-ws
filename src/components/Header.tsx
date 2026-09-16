@@ -51,7 +51,7 @@ export function Header() {
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-1 rounded bg-sky-600 px-2 py-0.5 text-[11px] font-bold text-white transition hover:bg-sky-500"
+              className="inline-flex items-center gap-1 rounded bg-sky-700 px-2 py-0.5 text-[11px] font-bold text-white transition hover:bg-sky-800"
             >
               Newsroom Desk <ArrowRight className="h-3 w-3" />
             </Link>
@@ -75,10 +75,10 @@ export function Header() {
               </div>
             </Link>
             <div className="hidden lg:block border-l border-slate-200 pl-6">
-              <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-wider text-slate-600">
                 Independent Editorial Reporting
               </p>
-              <p className="text-[11px] text-slate-400">
+              <p className="text-[11px] text-slate-600">
                 Tracking applied AI, algorithmic search updates &amp; commercial automation
               </p>
             </div>

@@ -37,11 +37,11 @@ export default function HomePage() {
           {/* Main Lead Story */}
           <div className="lg:col-span-8">
             <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-rose-600">
+              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-rose-700">
                 <Radio className="h-4 w-4 animate-pulse" />
                 <span>Lead Investigation</span>
               </div>
-              <span className="text-xs font-medium text-slate-500">
+              <span className="text-xs font-medium text-slate-600">
                 Updated Continuously
               </span>
             </div>
