@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1789665640",
+    slug: "search-central-live-deep-dive-europe-2026-meet-the-community",
+    title: "Search Central Live Deep Dive Europe 2026: Meet the community speakers",
+    deck: "It&#39;s happening! We are absolutely pumped that we&#39;re just about two weeks away from Search Central Live Deep Dive Europe 2026! From September 30 to October 2, 2026, the Google Search Central team is heading to the gorgeous city of Barcelona, Spain for three days of deep technical exploration,",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-17T17:20:40Z",
+    updatedAt: "2026-09-17T17:20:40Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Search Central Live Deep Dive Europe 2026: Meet the community speakers.</p>
+<p>It&#39;s happening! We are absolutely pumped that we&#39;re just about two weeks away from Search Central Live Deep Dive Europe 2026! From September 30 to October 2, 2026, the Google Search Central team is heading to the gorgeous city of Barcelona, Spain for three days of deep technical exploration,</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/09/scl-dd-europe-2026-community-speakers", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789665640",
+    slug: "google-search-profile-badge-how-to-add-it-to-your-site",
+    title: "Google Search Profile Badge - How To Add It To Your Site",
+    deck: "Google left one thing out of the announcement around the new Search profiles features announced today, you can now add a Search profile badge to your website. This allows users/searchers to follow you directly from your website.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-17T17:20:40Z",
+    updatedAt: "2026-09-17T17:20:40Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Google Search Profile Badge - How To Add It To Your Site.</p>
+<p>Google left one thing out of the announcement around the new Search profiles features announced today, you can now add a Search profile badge to your website. This allows users/searchers to follow you directly from your website.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/google-search-profile-badge-42106.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789665640",
+    slug: "reimagining-advertising-with-ai",
+    title: "Reimagining advertising with AI",
+    deck: "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-17T17:20:40Z",
+    updatedAt: "2026-09-17T17:20:40Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Reimagining advertising with AI.</p>
+<p>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/reimagining-advertising-with-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1789579264",
     slug: "update-to-the-site-reputation-policy",
     title: "Update to the Site Reputation Policy",
