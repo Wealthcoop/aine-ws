@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1789749967",
+    slug: "platform-properties-roll-out-globally-plus-a-new-social-and-",
+    title: "Platform properties roll out globally, plus a new social and video performance guide",
+    deck: "Earlier this month, we announced platform properties for Search Console, allowing you to track how your social and video posts on Instagram, TikTok, X, and YouTube perform on Google Search, Discover, and Google News. Today, platform properties are globally available to everyone.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-18T16:46:07Z",
+    updatedAt: "2026-09-18T16:46:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Platform properties roll out globally, plus a new social and video performance guide.</p>
+<p>Earlier this month, we announced platform properties for Search Console, allowing you to track how your social and video posts on Instagram, TikTok, X, and YouTube perform on Google Search, Discover, and Google News. Today, platform properties are globally available to everyone.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789749967",
+    slug: "daily-search-forum-recap-september-18-2026",
+    title: "Daily Search Forum Recap: September 18, 2026",
+    deck: "Here is a recap of what happened in the search forums today...",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-18T16:46:07Z",
+    updatedAt: "2026-09-18T16:46:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Daily Search Forum Recap: September 18, 2026.</p>
+<p>Here is a recap of what happened in the search forums today...</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/recap-09-18-2026-42117.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1789749967",
+    slug: "how-cooley-is-accelerating-ipo-work-with-chatgpt",
+    title: "How Cooley is accelerating IPO work with ChatGPT",
+    deck: "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-18T16:46:07Z",
+    updatedAt: "2026-09-18T16:46:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: How Cooley is accelerating IPO work with ChatGPT.</p>
+<p>Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/cooley-gopublic", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1789665640",
     slug: "search-central-live-deep-dive-europe-2026-meet-the-community",
     title: "Search Central Live Deep Dive Europe 2026: Meet the community speakers",
