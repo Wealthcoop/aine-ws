@@ -28,6 +28,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${author.name} - ${author.title}`,
     description: author.bio,
+    alternates: {
+      canonical: `${SITE_CONFIG.url}/authors/${params.slug}`,
+    },
     openGraph: {
       title: `${author.name} | Editorial Masthead | ${SITE_CONFIG.name}`,
       description: author.bio,

@@ -6,6 +6,9 @@ import { SITE_CONFIG } from '@/config/site'
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: `Privacy policy and data governance practices of ${SITE_CONFIG.name}.`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/privacy-policy`,
+  },
 }
 
 export default function PrivacyPolicyPage() {

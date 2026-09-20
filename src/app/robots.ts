@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/'],
+        disallow: ['/api/', '/wp-includes/', '/wp-admin/', '/*?cat=*', '/*?ver=*'],
       },
       {
         userAgent: 'Googlebot-News',

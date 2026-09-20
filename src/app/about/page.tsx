@@ -9,6 +9,9 @@ import { ShieldCheck, Award, MapPin, Mail, Globe, ArrowRight, ExternalLink } fro
 export const metadata: Metadata = {
   title: 'Masthead & About the Publication',
   description: `About ${SITE_CONFIG.name} (${SITE_CONFIG.legalName}): Mission, journalistic standards, masthead, and editorial leadership.`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/about`,
+  },
 }
 
 export default function AboutPage() {

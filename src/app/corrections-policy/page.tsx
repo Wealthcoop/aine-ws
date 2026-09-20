@@ -7,6 +7,9 @@ import { CheckCircle2, AlertCircle, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Corrections Policy & Public Verification Log',
   description: `The formal corrections and factual clarification policy for ${SITE_CONFIG.name}, including our public corrections log.`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/corrections-policy`,
+  },
 }
 
 export default function CorrectionsPolicyPage() {

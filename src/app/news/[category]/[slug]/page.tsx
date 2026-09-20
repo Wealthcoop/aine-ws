@@ -49,6 +49,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: article.deck,
     authors: [{ name: author.name, url: `${SITE_CONFIG.url}/authors/${author.id}` }],
     category: article.category,
+    alternates: {
+      canonical: `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`,
+    },
     openGraph: {
       type: 'article',
       title: article.title,

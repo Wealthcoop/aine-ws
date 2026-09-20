@@ -7,6 +7,9 @@ import { ShieldCheck, CheckCircle2, FileCheck, AlertTriangle } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Editorial Standards & Ethics Policy',
   description: `The editorial standards, fact-checking guidelines, and AI disclosure framework governing ${SITE_CONFIG.name}.`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/editorial-policy`,
+  },
 }
 
 export default function EditorialPolicyPage() {

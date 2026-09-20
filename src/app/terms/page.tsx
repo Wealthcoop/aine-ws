@@ -6,6 +6,9 @@ import { SITE_CONFIG } from '@/config/site'
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description: `Terms of service governing the use of ${SITE_CONFIG.name}.`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/terms`,
+  },
 }
 
 export default function TermsPage() {

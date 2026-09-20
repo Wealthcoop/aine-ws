@@ -27,6 +27,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${desk.label} Desk - Latest News & Benchmarks`,
     description: desk.description,
+    alternates: {
+      canonical: `${SITE_CONFIG.url}/desks/${desk.id}`,
+    },
     openGraph: {
       title: `${desk.label} Desk | ${SITE_CONFIG.name}`,
       description: desk.description,

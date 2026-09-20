@@ -7,6 +7,9 @@ import { Building2, ShieldCheck, DollarSign, Users } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Ownership & Funding Disclosure',
   description: `Ownership, governance, and financial funding disclosure for ${SITE_CONFIG.name} (${SITE_CONFIG.legalName}).`,
+  alternates: {
+    canonical: `${SITE_CONFIG.url}/ownership`,
+  },
 }
 
 export default function OwnershipPage() {

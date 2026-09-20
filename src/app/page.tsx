@@ -17,6 +17,14 @@ import {
   Mail,
   CheckCircle2
 } from 'lucide-react'
+import { Metadata } from 'next'
+import { SITE_CONFIG } from '@/config/site'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: SITE_CONFIG.url,
+  },
+}
 
 export default function HomePage() {
   const leadArticle = ARTICLES.find((a) => a.isFeatured && a.isBreaking) || ARTICLES[0]
