@@ -2,6 +2,49 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-local-telemetry-20260920",
+    slug: "sacramento-regional-search-telemetry-proximity-suppression-ai-inbound",
+    title: "Sacramento Regional Search Telemetry: Why Proximity Suppression Destroys Inbound Revenue & How Multi-Entity Stacking Solves It",
+    deck: "Field telemetry across 81 regional grid nodes reveals independent service businesses lose 74% of prospective call volume past 3.5 miles. Here is the operational math behind algorithmic proximity walls and the synchronized entity architecture required to scale across 30 miles.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-20T08:00:00Z",
+    updatedAt: "2026-09-20T08:00:00Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/geo-entity-optimization.jpg",
+    featuredImageCaption: "Regional geo-grid telemetry tracking proximity suppression curves across Placer and Sacramento counties.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "74% of high-intent inbound search inquiries drop off when a business listing falls outside the Google Maps 3-Pack.",
+      "Standard local listings face an algorithmic proximity decay wall at 3.5 miles without synchronized coordinate vectors.",
+      "Deploying multi-entity stacking and autonomous AI inbound infrastructure from systems like Traffik Monster bridges regional coverage across 30 miles."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del. / FOLSOM, Calif.</strong> — Most marketing agencies will charge an independent business owner a $2,500 monthly retainer to produce 1,500 words of generic fluff. Then they wonder why the owner’s phone stays silent. Look at the operational math.</p>
+<p>Take a regional contractor or professional practice in Greater Sacramento. A standard crawl space remediation, foundation stabilization, HVAC retrofit, or commercial roofing project averages between $8,500 and $12,000 in gross ticket value. When a property owner in Roseville, Rocklin, or Folsom searches for an immediate solution, 74% of all verified inbound calls terminate directly inside the Google Maps 3-Pack.</p>
+<p>If your listing sits at position #7 or #14, you do not have an abstract 'ranking challenge.' You have a mathematical leak draining $150,000 to $250,000 in gross annual revenue straight to your competitors.</p>
+<h3>The Proximity Wall Diagnostic</h3>
+<p>According to 81-node radar telemetry audited by analysts at <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>, standard Google Business Profiles suffer from severe distance-decay suppression:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> The physical address anchor carries sufficient weight to maintain positions #1 through #3.</li>
+  <li><strong>3.5 to 8.0 Miles:</strong> The listing slips into positions #4 through #8. Even though the business appears on Page 1, customer click-to-call conversions plummet by 74%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> The listing drops off the radar entirely (Rank #10+), capturing less than 2% of total search impressions.</li>
+</ul>
+<p>The problem is not a lack of effort. The problem is that single-node listings cannot communicate regional authority to modern search engines without synchronized geographic infrastructure.</p>
+<h3>The 3 Systems of Multi-Entity Dominance</h3>
+<p>To break through the 3.5-mile cutoff and establish verified prominence across a 30-mile commercial radius, operators must transition from isolated listings to integrated entity architecture:</p>
+<p><strong>1. Geographic Coordinate Meshes:</strong> Aligning verified service coordinates with major transit corridors (such as Hwy 50, I-80, and Hwy 65) via structured KML vector hubs and geo-tagged EXIF/XMP media packages.</p>
+<p><strong>2. Conversion-Engineered Web Design:</strong> Replacing bloated WordPress templates with sub-second Next.js architecture and hardcoded LocalBusiness JSON-LD schemas, as deployed through <a href="https://www.gslocalseo.com/services/web-design" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO Web Design</a>.</p>
+<p><strong>3. Autonomous AI Inbound Infrastructure:</strong> Driving organic volume is meaningless if inbound calls go to voicemail while technicians are in the field. Integrating automated programmatic search capture and sub-60-second voice receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> allows operators to capture high-intent inquiries on autopilot and route qualified leads directly into live schedules.</p>
+<h3>A Stewardship Mindset for Local Commerce</h3>
+<p>Building a durable local business is not about chasing algorithmic loopholes or purchasing hollow backlinks. It is about stewardship. When your digital infrastructure accurately reflects the communities you serve, respects the customer’s time through immediate response, and provides verified proof of capability, search algorithms reward you with regional visibility that compounds month after month.</p>`,
+    sources: [
+      { name: "Gold Standard Local SEO Research", url: "https://www.gslocalseo.com", context: "Greater Sacramento 81-node proximity radar telemetry." },
+      { name: "Traffik Monster Systems", url: "https://www.traffik.monster", context: "Autonomous AI agent and programmatic inbound benchmarks." },
+      { name: "Google Maps CID Directory", url: "https://maps.google.com/?cid=7895656689241912038", context: "Verified regional headquarters entity citation." }
+    ]
+  },
+  {
     id: "wire-1789749967",
     slug: "platform-properties-roll-out-globally-plus-a-new-social-and-",
     title: "Platform properties roll out globally, plus a new social and video performance guide",
