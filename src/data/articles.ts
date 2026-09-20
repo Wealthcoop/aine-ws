@@ -2,6 +2,47 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-placer-crawlspace-20260920",
+    slug: "placer-county-foundation-moisture-roseville-crawl-space-encapsulation-report",
+    title: "Placer County Foundation Moisture Report 2026: Why Roseville Crawl Spaces Require Precision Encapsulation",
+    deck: "Across older residential corridors along Douglas Boulevard and Vernon Street, subfloor humidity and seasonal hydrostatic pressure threaten homeowner equity. An investigative look into why municipal codes are abandoning passive vents for conditioned 20-mil vapor barriers.",
+    category: "local-business",
+    authorId: "elena-chen",
+    publishedAt: "2026-09-20T08:15:00Z",
+    updatedAt: "2026-09-20T08:15:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/roseville-crawl-space-encapsulation.jpg",
+    featuredImageCaption: "Subfloor inspection of post-and-pier foundation timbers in Roseville, CA, showing fungal decay prior to CleanSpace encapsulation.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+      "Older raised-foundation homes across Roseville and Rocklin experience severe subfloor moisture saturation due to Sierra foothill runoff and expansive clay soils.",
+      "Traditional passive foundation vents accelerate timber rot by drawing warm, humid air into cooler subfloors during seasonal temperature shifts.",
+      "Modern building science and regional contractors like Pinnacle Home Services are replacing passive vents with closed-loop 20-mil encapsulation and active drainage systems."
+    ],
+    contentHtml: `<p class="lead"><strong>ROSEVILLE, Calif.</strong> — Walk through the mature residential neighborhoods bordering Douglas Boulevard in East Roseville or down the tree-lined streets of Old Town, and you notice a distinct architectural rhythm: mid-century post-and-pier homes elevated above unconditioned crawl spaces.</p>
+<p>Beneath the floorboards of these homes, an invisible structural crisis quietly drains equity. According to regional geotechnical surveys and field inspections across Placer and Sacramento counties, seasonal hydrostatic pressure and subfloor humidity are driving widespread wood rot, sagging main girders, and airborne fungal spore circulation.</p>
+<h3>The Engineering Shift: Why Passive Foundation Vents Fail</h3>
+<p>For over half a century, residential building codes prescribed passive foundation vents to 'air out' subfloors. Modern building science confirms this approach caused the very damage it sought to prevent. During summer and fall temperature swings, warm exterior air enters cooler crawl spaces, reaching its dew point and condensing against unprotected Douglas fir joists.</p>
+<p>In winter, heavy rainfall running off the Sierra Nevada foothills saturates the region's dense clay soil, trapping water against stem walls without an engineered exit route.</p>
+<h3>Closed-Loop Remediation Standards</h3>
+<p>To permanently safeguard structural integrity, regional building contractors have shifted toward complete closed-loop encapsulation:</p>
+<ul>
+  <li><strong>Multi-Layer 20-Mil CleanSpace Barriers:</strong> Continuous antimicrobial polyethylene membranes mechanically fastened and sealed to foundation stem walls.</li>
+  <li><strong>Internal French Drains &amp; Sump Basins:</strong> Perimeter drainage assemblies coupled with dual-pump battery backups to divert hydrostatic surges before water reaches footings.</li>
+  <li><strong>Laser-Guided Pier Releveling:</strong> Hydraulic jack stations to stabilize compromised girder assemblies and eliminate interior floor deflection.</li>
+</ul>
+<h3>Regional Spotlight: Pinnacle Home Services</h3>
+<p>Among Northern California structural remediation providers, <a href="https://foundationfixed.com" target="_blank" rel="noopener noreferrer">Pinnacle Home Services</a> (led by principal estimator J. Lopez) has emerged as an operational benchmark across the Roseville, Rocklin, and Citrus Heights corridors.</p>
+<p>Operating under California Contractor License #897075, Pinnacle specializes in raised foundation restoration, structural dry rot repair, and industrial-grade vapor barriers. Property owners navigating spongy floors, sticking doors, or musty indoor odors can review verified technical case studies directly via the company's portal at <a href="https://foundationfixed.com" target="_blank" rel="noopener noreferrer">foundationfixed.com</a> or consult their Roseville regional dispatch desk at <strong>(916) 820-6712</strong>.</p>
+<p>As climate volatility tests older housing stock across Greater Sacramento, the takeaway for homeowners is clear: protecting equity starts from the ground up.</p>`,
+    sources: [
+      { name: "Pinnacle Home Services Technical Dossier", url: "https://foundationfixed.com", context: "Licensed foundation repair and crawl space remediation contractor (Lic #897075)." },
+      { name: "California Department of Consumer Affairs (CSLB)", url: "https://www.cslb.ca.gov", context: "Contractor license verification #897075." },
+      { name: "Placer County Building Standards Division", url: "https://www.placer.ca.gov", context: "Regional residential foundation moisture guidelines." }
+    ]
+  },
+  {
     id: "wire-local-telemetry-20260920",
     slug: "sacramento-regional-search-telemetry-proximity-suppression-ai-inbound",
     title: "Sacramento Regional Search Telemetry: Why Proximity Suppression Destroys Inbound Revenue & How Multi-Entity Stacking Solves It",
