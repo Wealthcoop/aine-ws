@@ -9,6 +9,7 @@ import { SITE_CONFIG } from '@/config/site'
 import { NewsArticleSchema } from '@/components/NewsArticleSchema'
 import { SponsorSlot } from '@/components/SponsorSlot'
 import { ArticleCard } from '@/components/ArticleCard'
+import { VideoPlayer } from '@/components/VideoPlayer'
 import {
   ChevronRight,
   Clock,
@@ -223,6 +224,17 @@ export default function ArticleReaderPage({ params }: PageProps) {
               ))}
             </ul>
           </div>
+        )}
+
+        {/* Executive Telemetry Video Briefing */}
+        {article.videoUrl && (
+          <VideoPlayer
+            src={article.videoUrl}
+            poster={article.videoThumbnail}
+            title={article.videoTitle || article.title}
+            duration="0:38"
+            authorName={author.name}
+          />
         )}
 
         {/* Main Article Body (AP Style) */}

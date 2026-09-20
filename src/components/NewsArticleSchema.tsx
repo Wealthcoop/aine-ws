@@ -46,6 +46,20 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
       publishingPrinciples: `${SITE_CONFIG.url}/editorial-policy`,
     },
     isAccessibleForFree: true,
+    ...(article.videoUrl && {
+      video: {
+        '@type': 'VideoObject',
+        name: article.videoTitle || article.title,
+        description: article.videoDescription || article.deck,
+        thumbnailUrl: [
+          `${SITE_CONFIG.url}${article.videoThumbnail || article.featuredImage}`
+        ],
+        uploadDate: article.publishedAt,
+        duration: article.videoDuration || 'PT38S',
+        contentUrl: `${SITE_CONFIG.url}${article.videoUrl}`,
+        embedUrl: `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`,
+      }
+    })
   }
 
   return (

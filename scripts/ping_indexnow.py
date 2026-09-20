@@ -8,6 +8,7 @@ and Google Cloud Indexing API endpoints.
 import json
 import urllib.request
 import urllib.error
+import ssl
 
 HOST = "aine.ws"
 KEY = "e4b98c3641774d8bb23a5cfc02b38914"
@@ -60,20 +61,22 @@ def submit_indexnow():
     ]
     
     print(f"[*] Pinging IndexNow with {len(URL_LIST)} URLs from {HOST}...")
+    ctx = ssl._create_unverified_context()
     for endpoint in endpoints:
         req = urllib.request.Request(
             endpoint,
             data=data,
             headers={
                 "Content-Type": "application/json; charset=utf-8",
-                "User-Agent": "AINE-WS-Indexer/1.0"
+                "User-Agent": "IndexNowSubmitter/1.0"
             }
         )
         try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                print(f"  [+] {endpoint} -> HTTP {resp.status} (Success)")
+            with urllib.request.urlopen(req, context=ctx, timeout=10) as response:
+                code = response.getcode()
+                print(f"  [+] {endpoint} -> HTTP {code} (Accepted)")
         except urllib.error.HTTPError as e:
-            print(f"  [-] {endpoint} -> HTTP {e.code}: {e.read().decode('utf-8', errors='ignore')}")
+            print(f"  [!] {endpoint} returned HTTP {e.code}: {e.read().decode('utf-8')}")
         except Exception as e:
             print(f"  [-] {endpoint} error: {e}")
 

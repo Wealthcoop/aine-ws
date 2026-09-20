@@ -17,4 +17,9 @@ export interface NewsArticle {
   sources: { name: string; url: string; context: string }[]
   isBreaking?: boolean
   isFeatured?: boolean
+  videoUrl?: string
+  videoThumbnail?: string
+  videoDuration?: string
+  videoTitle?: string
+  videoDescription?: string
 }

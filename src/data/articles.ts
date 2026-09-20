@@ -56,6 +56,11 @@ export const ARTICLES: NewsArticle[] = [
     featuredImageCaption: "Regional geo-grid telemetry tracking proximity suppression curves across Placer and Sacramento counties.",
     isBreaking: false,
     isFeatured: true,
+    videoUrl: "/videos/sacramento-regional-search-telemetry.mp4",
+    videoThumbnail: "/videos/sacramento-regional-telemetry-poster.jpg",
+    videoDuration: "PT38S",
+    videoTitle: "Sacramento Regional Search Telemetry: 81-Node Proximity Suppression Audit",
+    videoDescription: "Field telemetry audit across 81 regional grid nodes showing a 74% drop in call volume beyond 3.5 miles, and how multi-entity stacking breaks through Google Maps proximity walls.",
     keyTakeaways: [
       "74% of high-intent inbound search inquiries drop off when a business listing falls outside the Google Maps 3-Pack.",
       "Standard local listings face an algorithmic proximity decay wall at 3.5 miles without synchronized coordinate vectors.",
