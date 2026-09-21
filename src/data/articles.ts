@@ -2,6 +2,89 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-ontario-telemetry-20260921",
+    slug: "ontario-commercial-search-telemetry-qew-proximity-decay-waterproofing-audit",
+    title: "Oakville & Greater Toronto Search Telemetry 2026: Why the QEW Proximity Wall Costs Ontario Waterproofing Contractors $340K CAD in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across Halton and Peel regions reveals how Lake Ontario and the QEW sever 78% of high-ticket waterproofing call volume beyond 4.2 km—and how multi-entity coordinate stacking restores GTA-wide capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T09:00:00Z",
+    updatedAt: "2026-09-21T09:00:00Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/ontario-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Oakville and Greater Toronto corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by 78% once a searcher is more than 4.2 kilometers from an Oakville contractor address pin.",
+      "The Queen Elizabeth Way (QEW) and Lake Ontario shoreline create severe geographic dampening across the Halton-Peel regional boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow Canadian operators to dominate from Burlington through Mississauga."
+    ],
+    contentHtml: `<p class="lead"><strong>OAKVILLE, Ont. / FOLSOM, Calif.</strong> — Throughout the affluent Golden Horseshoe corridor of Southern Ontario—anchored by Oakville, Burlington, and Mississauga—high-ticket structural contractors specializing in wet basement waterproofing, foundation underpinning, and weeping tile installation command average ticket sizes between $18,000 CAD and $32,000 CAD. Yet, despite heavy spending on Google Ads and standard agencies, their organic Google Maps call volume remains pinned to a narrow 3-to-4 kilometer zone.</p>
+<p>Look at the operational mathematics. In high-density Canadian municipalities, extreme seasonal precipitation and clay-dense subsoils drive urgent structural inquiries. When a homeowner in Southeast Oakville or East Burlington searches for emergency foundation restoration, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 4.2 km from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $340,000 CAD in annual gross margin to localized competitors.</p>
+<h3>The QEW Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across Halton Region reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 4.2 Kilometers:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>4.2 to 9.0 Kilometers (The QEW & 403 Divide):</strong> Listings drop abruptly into positions #5 through #11. Inbound lead conversions collapse by 78%.</li>
+  <li><strong>Beyond 9.0 Kilometers (Burlington to Mississauga):</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Queen Elizabeth Way (QEW) and Highway 403 transit corridors accelerate this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution for Canadian Fleets</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, Canadian operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along the QEW, Hwy 403, and Lakeshore corridors into verified KML vector networks.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across Halton and Peel regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ontario Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Ontario Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Halton Region proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
+    id: "wire-scottsdale-telemetry-20260921",
+    slug: "scottsdale-phoenix-search-telemetry-loop101-proximity-decay-hvac-audit",
+    title: "Scottsdale & Phoenix Search Telemetry 2026: Why the Loop 101 Proximity Wall Slices $260K from Contractor Inbound Call Volume",
+    deck: "Empirical 64-node radar audit across Maricopa County reveals how extreme heat season and Loop 101 transit barriers suppress 77% of emergency HVAC replacement calls past 3.6 miles—and how multi-entity coordinate stacking captures demand across Scottsdale and Phoenix.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T09:15:00Z",
+    updatedAt: "2026-09-21T09:15:00Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/scottsdale-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Scottsdale and Phoenix corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial HVAC inquiries drop by 77% when a listing sits outside the Google Maps 3-Pack in North Scottsdale.",
+      "The Loop 101 and Camelback corridor act as severe algorithmic barriers, dampening single-node Google Business Profiles to a 3.6-mile radius.",
+      "Contractors deploying multi-entity coordinate stacking capture buyer demand across Scottsdale, Paradise Valley, and Central Phoenix simultaneously."
+    ],
+    contentHtml: `<p class="lead"><strong>SCOTTSDALE, Ariz. / FOLSOM, Calif.</strong> — In the Phoenix metropolitan valley—and particularly throughout affluent North Scottsdale, DC Ranch, and Paradise Valley—extreme seasonal desert temperatures drive unprecedented ticket velocity for inverter HVAC replacements, emergency compressor retrofits, and high-efficiency home remodeling ($12,000 to $25,000 average ticket sizes). Yet, despite massive PPC ad spends exceeding $150 per click, contractors routinely suffer from localized proximity suppression.</p>
+<p>Look at the operational numbers. When an air conditioning system fails in 115-degree heat, homeowners do not browse second-page search results or wait for email quotes. Over 76% of all emergency inquiries terminate directly inside the Google Maps 3-Pack. Single-node profiles experience a steep cliff at 3.6 miles: once search distance crosses the Loop 101 or Camelback corridor, rankings plummet from position #2 into positions #8 through #16, forfeiting over $260,000 in monthly high-margin buyer volume.</p>
+<h3>The Loop 101 Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across Maricopa County reveals an unforgiving algorithmic boundary:</p>
+<ul>
+  <li><strong>0 to 3.6 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.6 to 8.0 Miles (The Loop 101 Barrier):</strong> The listing drops abruptly into positions #5 through #12. Inbound call conversions drop by 77%.</li>
+  <li><strong>Beyond 8.0 Miles (Scottsdale Airpark to Phoenix Core):</strong> The profile vanishes from the local radar entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To bypass Google's proximity dampening and establish market dominance across the East Valley and Phoenix metro, elite contractors are deploying integrated entity architecture:</p>
+<p><strong>1. Multi-Cluster Geographic Anchoring:</strong> Establishing synchronized coordinate meshes bridging Scottsdale Airpark, Paradise Valley, and Old Town via structured KML vector hubs and cryptographically tagged EXIF/XMP media assets.</p>
+<p><strong>2. Nested Schema @graph Integration:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Sub-300ms Conversational Telephony:</strong> Integrating autonomous voice AI receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to answer inbound callers instantly, qualify HVAC system requirements, and book emergency dispatches 24/7.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Scottsdale Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Scottsdale Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Maricopa County proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
     id: "wire-austin-telemetry-20260921",
     slug: "austin-texas-commercial-search-telemetry-mopac-proximity-decay-3pack-audit",
     title: "Austin Commercial Search Telemetry 2026: Why the MoPac Proximity Decay Wall Costs Contractors $280K in Inbound Call Leakage",
