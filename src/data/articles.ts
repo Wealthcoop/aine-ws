@@ -2,6 +2,48 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-austin-telemetry-20260921",
+    slug: "austin-texas-commercial-search-telemetry-mopac-proximity-decay-3pack-audit",
+    title: "Austin Commercial Search Telemetry 2026: Why the MoPac Proximity Decay Wall Costs Contractors $280K in Inbound Call Leakage",
+    deck: "Empirical 64-node radar audit across Travis County, Round Rock, and South Congress reveals how Google Maps proximity walls sever 76% of high-intent contractor call volume across the Colorado River divide—and how multi-entity coordinate stacking restores county-wide capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T08:30:00Z",
+    updatedAt: "2026-09-21T08:30:00Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/austin-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Austin and Travis County corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by 76% when an Austin contractor listing drops below Google Maps position #3.",
+      "The Colorado River and MoPac Expressway act as severe algorithmic barriers, dampening single-node Google Business Profiles to a 3.8-mile radius.",
+      "Commercial operators in Travis County are deploying synchronized multi-entity coordinate stacking to recapture up to $280,000 in monthly high-intent search demand."
+    ],
+    contentHtml: `<p class="lead"><strong>AUSTIN, Texas / FOLSOM, Calif.</strong> — Across the booming Austin commercial corridor, high-ticket home service contractors—including commercial roofing crews, emergency HVAC technicians, and specialized civil contractors—routinely commit between $4,500 and $8,000 per month to digital agencies for cosmetic blog posts and PPC ad clicks. Yet their dispatchers sit idle while nearby competitors monopolize inbound buyer volume. Look at the operational mathematics.</p>
+<p>In high-growth metros like Austin, high-intent emergency and replacement projects average between $9,500 and $16,000 in gross ticket value. When a commercial facility manager in The Domain or a homeowner in Westlake searches for an urgent service provider, over 75% of all click-to-call conversions terminate directly inside the Google Maps 3-Pack. If your business sits at position #5 or #11, you do not have an advertising problem—you are hemorrhaging upwards of $280,000 in annual gross margin straight across town.</p>
+<h3>The 3.8-Mile MoPac Proximity Decay Cliff</h3>
+<p>According to empirical 64-node radar telemetry audited across Travis County, standard single-node Google Business Profiles encounter an insurmountable proximity cliff:</p>
+<ul>
+  <li><strong>0 to 3.8 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.8 to 8.5 Miles (The MoPac Divide):</strong> The listing drops abruptly into positions #4 through #8. Click-to-call customer conversions plummet by 76%.</li>
+  <li><strong>Beyond 8.5 Miles (Round Rock to Buda):</strong> The profile vanishes from the local radar entirely (positions #12 to #20+), capturing under 2% of total search impressions.</li>
+</ul>
+<p>In Austin, this proximity decay is amplified by natural transit bottlenecks. Lady Bird Lake and the Colorado River divide create an algorithmic canyon: businesses physically anchored in South Congress or Sunset Valley achieve virtually zero organic visibility north of US-183 without synchronized geographic infrastructure.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile Austin metropolitan footprint, elite operators are abandoning isolated profiles in favor of integrated entity stacking:</p>
+<p><strong>1. Multi-Cluster Geographic Anchoring:</strong> Deploying localized coordinate meshes that bridge major transit arteries (MoPac Expy, I-35, and Hwy 71) via structured KML vector hubs and cryptographically tagged EXIF/XMP media assets.</p>
+<p><strong>2. Nested Schema @graph Synchronization:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Autonomous AI Telephony Bridges:</strong> Capturing top-3 map rankings is only half the equation. When technicians are in the field, missed calls represent immediate cash incinerated. By deploying sub-300ms conversational AI voice receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a>, contractors qualify inbound callers and book estimates directly into dispatch software 24/7 without dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown, geographic node coordinates, and proximity curves in our official publication: <a href="/reports/austin-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Austin Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Austin Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/austin-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Travis County proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
     id: "wire-placer-crawlspace-20260920",
     slug: "placer-county-foundation-moisture-roseville-crawl-space-encapsulation-report",
     title: "Placer County Foundation Moisture Report 2026: Why Roseville Crawl Spaces Require Precision Encapsulation",
