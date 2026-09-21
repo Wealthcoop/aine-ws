@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790014895",
+    slug: "see-how-content-from-social-and-video-platforms-performs-on-",
+    title: "See how content from social and video platforms performs on Google Search",
+    deck: "Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators&amp;mdash;even those without their own website&amp;mdash;to ge",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T18:21:35Z",
+    updatedAt: "2026-09-21T18:21:35Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: See how content from social and video platforms performs on Google Search.</p>
+<p>Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators&amp;mdash;even those without their own website&amp;mdash;to ge</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790014895",
+    slug: "programming-note-offline-monday-for-yom-kippur-5787",
+    title: "Programming Note: Offline Monday For Yom Kippur 5787",
+    deck: "This is a programming note: I will be 100% offline from Sunday night (September 20th) through Monday night (September 21st) for Yom Kippur. I am not scheduling any stories tomorrow, Monday, Yom Kippur; nothing will be posted.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T18:21:35Z",
+    updatedAt: "2026-09-21T18:21:35Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Programming Note: Offline Monday For Yom Kippur 5787.</p>
+<p>This is a programming note: I will be 100% offline from Sunday night (September 20th) through Monday night (September 21st) for Yom Kippur. I am not scheduling any stories tomorrow, Monday, Yom Kippur; nothing will be posted.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/yom-kippur-5787-42114.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790014895",
+    slug: "advisory-group-on-mathematics-and-artificial-intelligence",
+    title: "Advisory Group on Mathematics and Artificial Intelligence",
+    deck: "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T18:21:35Z",
+    updatedAt: "2026-09-21T18:21:35Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Advisory Group on Mathematics and Artificial Intelligence.</p>
+<p>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/advisory-group-on-mathematics-and-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-olympia-telemetry-202609210233",
     slug: "olympia-west-coast-commercial-search-telemetry-proximity-audit",
     title: "Olympia & West Coast Search Telemetry 2026: Why the Budd Inlet & I-5 Corridor Proximity Wall Costs Contractors $14,500 in Suppressed Leads",
