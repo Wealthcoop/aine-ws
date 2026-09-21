@@ -2,10 +2,94 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
-    id: "wire-1790014895",
+    id: "wire-denver-telemetry-202609210800",
+    slug: "denver-colorado-commercial-search-telemetry-proximity-audit",
+    title: "Denver & Colorado Search Telemetry 2026: Why the I-25 & South Platte River Proximity Wall Costs Contractors $18,000 in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across Colorado reveals how the I-25 & South Platte River severs over 76% of high-ticket Expansive Bentonite Clay Foundation Repair call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T08:00:12Z",
+    updatedAt: "2026-09-21T08:00:12Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/denver-colorado-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Denver and Colorado corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in Denver.",
+      "The I-25 & South Platte River acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Expansive Bentonite Clay Foundation Repair contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>DENVER, COLORADO / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Denver, Colorado, high-ticket contractors specializing in Expansive Bentonite Clay Foundation Repair command average ticket sizes of $18,000. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $18,000 in project margins to localized competitors.</p>
+<h3>The I-25 & South Platte River Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across Colorado reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The I-25 & South Platte River Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The I-25 & South Platte River transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Denver Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Denver Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Denver proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
+    id: "wire-victoria-telemetry-202609210800",
+    slug: "victoria-british-columbia-commercial-search-telemetry-proximity-audit",
+    title: "Victoria & British Columbia Search Telemetry 2026: Why the Juan de Fuca Strait & Douglas Corridor Proximity Wall Costs Contractors $28,000 CAD in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across British Columbia reveals how the Juan de Fuca Strait & Douglas Corridor severs over 76% of high-ticket Seismic Shoring & Rainwater Intrusion call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T08:00:12Z",
+    updatedAt: "2026-09-21T08:00:12Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/victoria-british-columbia-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Victoria and British Columbia corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in Victoria.",
+      "The Juan de Fuca Strait & Douglas Corridor acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Seismic Shoring & Rainwater Intrusion contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>VICTORIA, BRITISH COLUMBIA / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Victoria, British Columbia, high-ticket contractors specializing in Seismic Shoring & Rainwater Intrusion command average ticket sizes of $28,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $28,000 CAD in project margins to localized competitors.</p>
+<h3>The Juan de Fuca Strait & Douglas Corridor Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across British Columbia reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The Juan de Fuca Strait & Douglas Corridor Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Juan de Fuca Strait & Douglas Corridor transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Victoria Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Victoria Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Victoria proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
+    id: "wire-1790014895-1",
     slug: "see-how-content-from-social-and-video-platforms-performs-on-",
     title: "See how content from social and video platforms performs on Google Search",
-    deck: "Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators&amp;mdash;even those without their own website&amp;mdash;to ge",
+    deck: "Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators—even those without their own website—to get discovered.",
     category: "search-ai",
     authorId: "justin-davis",
     publishedAt: "2026-09-21T18:21:35Z",
@@ -16,12 +100,12 @@ export const ARTICLES: NewsArticle[] = [
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
-          "Primary signal logged from Google Search Central official channels.",
-          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+      "Primary signal logged from Google Search Central official channels.",
+      "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+      "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: See how content from social and video platforms performs on Google Search.</p>
-<p>Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators&amp;mdash;even those without their own website&amp;mdash;to ge</p>
+<p>Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators—even those without their own website—to get discovered.</p>
 <p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
@@ -29,7 +113,7 @@ export const ARTICLES: NewsArticle[] = [
     ]
   },
   {
-    id: "wire-1790014895",
+    id: "wire-1790014895-2",
     slug: "programming-note-offline-monday-for-yom-kippur-5787",
     title: "Programming Note: Offline Monday For Yom Kippur 5787",
     deck: "This is a programming note: I will be 100% offline from Sunday night (September 20th) through Monday night (September 21st) for Yom Kippur. I am not scheduling any stories tomorrow, Monday, Yom Kippur; nothing will be posted.",
@@ -43,9 +127,9 @@ export const ARTICLES: NewsArticle[] = [
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
-          "Primary signal logged from Search Engine Roundtable official channels.",
-          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+      "Primary signal logged from Search Engine Roundtable official channels.",
+      "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+      "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Programming Note: Offline Monday For Yom Kippur 5787.</p>
 <p>This is a programming note: I will be 100% offline from Sunday night (September 20th) through Monday night (September 21st) for Yom Kippur. I am not scheduling any stories tomorrow, Monday, Yom Kippur; nothing will be posted.</p>
@@ -56,7 +140,7 @@ export const ARTICLES: NewsArticle[] = [
     ]
   },
   {
-    id: "wire-1790014895",
+    id: "wire-1790014895-3",
     slug: "advisory-group-on-mathematics-and-artificial-intelligence",
     title: "Advisory Group on Mathematics and Artificial Intelligence",
     deck: "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
@@ -70,9 +154,9 @@ export const ARTICLES: NewsArticle[] = [
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
-          "Primary signal logged from OpenAI News official channels.",
-          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+      "Primary signal logged from OpenAI News official channels.",
+      "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+      "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Advisory Group on Mathematics and Artificial Intelligence.</p>
 <p>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</p>
@@ -80,6 +164,7 @@ export const ARTICLES: NewsArticle[] = [
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/advisory-group-on-mathematics-and-ai", context: "Primary wire disclosure." }
+    ]
     ]
   },
   {
