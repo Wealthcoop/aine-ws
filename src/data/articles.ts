@@ -2,6 +2,90 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-olympia-telemetry-202609210233",
+    slug: "olympia-west-coast-commercial-search-telemetry-proximity-audit",
+    title: "Olympia & West Coast Search Telemetry 2026: Why the Budd Inlet & I-5 Corridor Proximity Wall Costs Contractors $14,500 in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across West Coast reveals how the Budd Inlet & I-5 Corridor severs over 76% of high-ticket Pacific Northwest Crawl Space Encapsulation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T02:33:46Z",
+    updatedAt: "2026-09-21T02:33:46Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/olympia-west-coast-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Olympia and West Coast corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in Olympia.",
+      "The Budd Inlet & I-5 Corridor acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Pacific Northwest Crawl Space Encapsulation contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>OLYMPIA, WEST COAST / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Olympia, West Coast, high-ticket contractors specializing in Pacific Northwest Crawl Space Encapsulation command average ticket sizes of $14,500. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $14,500 in project margins to localized competitors.</p>
+<h3>The Budd Inlet & I-5 Corridor Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across West Coast reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The Budd Inlet & I-5 Corridor Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Budd Inlet & I-5 Corridor transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Olympia Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Olympia Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Olympia proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
+    id: "wire-ottawa-telemetry-202609210233",
+    slug: "ottawa-ontario-commercial-search-telemetry-proximity-audit",
+    title: "Ottawa & Ontario Search Telemetry 2026: Why the Rideau Canal & Ottawa River Proximity Wall Costs Contractors $22,000 CAD in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across Ontario reveals how the Rideau Canal & Ottawa River severs over 76% of high-ticket Commercial Roofing & Moisture Remediation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T02:33:46Z",
+    updatedAt: "2026-09-21T02:33:46Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/ottawa-ontario-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Ottawa and Ontario corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in Ottawa.",
+      "The Rideau Canal & Ottawa River acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Commercial Roofing & Moisture Remediation contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>OTTAWA, ONTARIO / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Ottawa, Ontario, high-ticket contractors specializing in Commercial Roofing & Moisture Remediation command average ticket sizes of $22,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $22,000 CAD in project margins to localized competitors.</p>
+<h3>The Rideau Canal & Ottawa River Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across Ontario reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The Rideau Canal & Ottawa River Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Rideau Canal & Ottawa River transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ottawa Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Ottawa Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Ottawa proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
     id: "wire-ontario-telemetry-20260921",
     slug: "ontario-commercial-search-telemetry-qew-proximity-decay-waterproofing-audit",
     title: "Oakville & Greater Toronto Search Telemetry 2026: Why the QEW Proximity Wall Costs Ontario Waterproofing Contractors $340K CAD in Suppressed Leads",
