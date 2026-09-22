@@ -136,18 +136,18 @@ def generate_article_obj(item, feed_source):
         "updatedAt": now_iso,
         "readingTimeMinutes": 4,
         "featuredImage": feed_source.get("image", "/news/google-core-update.jpg"),
-        "featuredImageCaption": f"Technical telemetry tracked via {feed_source['name']} public disclosures.",
+        "featuredImageCaption": f"Industry search intelligence tracked via {feed_source['name']} public updates.",
         "isBreaking": False,
         "isFeatured": False,
         "keyTakeaways": [
-            f"Primary signal logged from {feed_source['name']} official channels.",
-            "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-            "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+            f"Official update documented from {feed_source['name']} technical disclosures.",
+            "Analysis focuses on how search visibility, ranking criteria, and AI citations are impacted.",
+            "AINE.WS editorial desk is tracking real-world ranking shifts across local and national search markets."
         ],
-        "contentHtml": f"""<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from {feed_source['name']}: {item['title']}.</p>
+        "contentHtml": f"""<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is covering a new search development from {feed_source['name']}: {item['title']}.</p>
 <p>{clean_summary}</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
-<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>""",
+<p>According to analysis from the AINE.WS editorial desk, the update directly influences how search engines evaluate business authority, answer local queries, and surface commercial listings.</p>
+<p>Business operators and search professionals are advised to review site performance and structured schema to ensure uninterrupted organic search reach.</p>""",
         "sources": [
             {
                 "name": feed_source['name'],

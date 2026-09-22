@@ -12,7 +12,7 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-22T17:24:26Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/google-core-update.jpg",
-    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via Google Search Central public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -22,7 +22,7 @@ export const ARTICLES: NewsArticle[] = [
     ],
     contentHtml: `<p class="lead"><strong>BARCELONA, Spain</strong> — The Google Search Central team has officially confirmed dates and venue parameters for Search Central Live Deep Dive Europe 2026, selecting Barcelona as the host city from September 30 through October 2, 2026.</p>
 <p>The intensive multi-day technical conference brings together search system engineers, site architects, and performance specialists to review modern crawling infrastructure, entity resolution benchmarks, and programmatic web delivery standards.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the European session will place special emphasis on structured data validation, multilingual hreflang consistency, and real-time indexing speeds across high-volume enterprise web properties.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the European session will place special emphasis on structured data validation, multilingual hreflang consistency, and real-time indexing speeds across high-volume enterprise web properties.</p>
 <p>Registration windows and accreditation requirements will open through official Search Central developer channels ahead of the autumn convene.</p>`,
     sources: [
       { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/07/search-central-live-deep-dive-europe-2026", context: "Primary wire disclosure." }
@@ -39,7 +39,7 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-22T17:24:26Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/google-ai-overview-local.jpg",
-    featuredImageCaption: "E-commerce transactional telemetry tracked via Google Merchant Center protocols.",
+    featuredImageCaption: "E-commerce transactional updates tracked via Google Merchant Center protocols.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -93,17 +93,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-21T18:21:35Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/google-core-update.jpg",
-    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via Google Search Central public disclosures.",
     isBreaking: true,
     isFeatured: true,
     keyTakeaways: [
       "Primary signal logged from Google Search Central official channels.",
       "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-      "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+      "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: See how content from social and video platforms performs on Google Search.</p>
 <p>Content creators and publishers use many channels beyond their own websites to reach their audiences. As people gravitate toward firsthand perspectives and different content formats, we want to make it easier for site owners and creators—even those without their own website—to get discovered.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms", context: "Primary wire disclosure." }
@@ -120,41 +120,41 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-21T18:21:35Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: true,
     keyTakeaways: [
       "Primary signal logged from OpenAI News official channels.",
       "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-      "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+      "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Advisory Group on Mathematics and Artificial Intelligence.</p>
 <p>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/advisory-group-on-mathematics-and-ai", context: "Primary wire disclosure." }
     ]
   },
   {
-    id: "wire-local-telemetry-20260920",
-    slug: "sacramento-regional-search-telemetry-proximity-suppression-ai-inbound",
-    title: "Sacramento Regional Search Telemetry: Why Proximity Suppression Destroys Inbound Revenue & How Multi-Entity Stacking Solves It",
-    deck: "Field telemetry across 81 regional grid nodes reveals independent service businesses lose 74% of prospective call volume past 3.5 miles. Here is the operational math behind algorithmic proximity walls and the synchronized entity architecture required to scale across 30 miles.",
+    id: "wire-local-ranking data-20260920",
+    slug: "sacramento-regional-search-ranking data-proximity-suppression-ai-inbound",
+    title: "Sacramento Google Maps Ranking Audit: Why Proximity Drops Inbound Calls & How Service Area Stacking Solves It",
+    deck: "Ranking data across 81 regional search nodes reveals independent service businesses lose 74% of prospective call volume past 3.5 miles. Here is the operational math behind algorithmic proximity walls and the synchronized entity architecture required to scale across 30 miles.",
     category: "local-business",
     authorId: "justin-davis",
     publishedAt: "2026-09-20T08:00:00Z",
     updatedAt: "2026-09-20T08:00:00Z",
     readingTimeMinutes: 5,
     featuredImage: "/news/geo-entity-optimization.jpg",
-    featuredImageCaption: "Regional geo-grid telemetry tracking proximity suppression curves across Placer and Sacramento counties.",
+    featuredImageCaption: "Local Google Maps geo-grid scan tracking ranking drop-offs across Placer and Sacramento counties.",
     isBreaking: false,
     isFeatured: true,
-    videoUrl: "/videos/sacramento-regional-search-telemetry.mp4",
-    videoThumbnail: "/videos/sacramento-regional-telemetry-poster.jpg",
+    videoUrl: "/videos/sacramento-regional-search-ranking data.mp4",
+    videoThumbnail: "/videos/sacramento-regional-ranking data-poster.jpg",
     videoDuration: "PT38S",
-    videoTitle: "Sacramento Regional Search Telemetry: 81-Node Proximity Suppression Audit",
-    videoDescription: "Field telemetry audit across 81 regional grid nodes showing a 74% drop in call volume beyond 3.5 miles, and how multi-entity stacking breaks through Google Maps proximity walls.",
+    videoTitle: "Sacramento Google Maps Ranking Audit: 81-Grid Proximity Scan",
+    videoDescription: "Field ranking data audit across 81 regional grid nodes showing a 74% drop in call volume beyond 3.5 miles, and how multi-entity stacking breaks through Google Maps proximity walls.",
     keyTakeaways: [
       "74% of high-intent inbound search inquiries drop off when a business listing falls outside the Google Maps 3-Pack.",
       "Standard local listings face an algorithmic proximity decay wall at 3.5 miles without synchronized coordinate vectors.",
@@ -164,7 +164,7 @@ export const ARTICLES: NewsArticle[] = [
 <p>Take a regional contractor or professional practice in Greater Sacramento. A standard crawl space remediation, foundation stabilization, HVAC retrofit, or commercial roofing project averages between $8,500 and $12,000 in gross ticket value. When a property owner in Roseville, Rocklin, or Folsom searches for an immediate solution, 74% of all verified inbound calls terminate directly inside the Google Maps 3-Pack.</p>
 <p>If your listing sits at position #7 or #14, you do not have an abstract 'ranking challenge.' You have a mathematical leak draining $150,000 to $250,000 in gross annual revenue straight to your competitors.</p>
 <h3>The Proximity Wall Diagnostic</h3>
-<p>According to 81-node radar telemetry audited by analysts at <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>, standard Google Business Profiles suffer from severe distance-decay suppression:</p>
+<p>According to 81-grid Google Maps ranking audit audited by analysts at <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>, standard Google Business Profiles suffer from severe distance-decay suppression:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> The physical address anchor carries sufficient weight to maintain positions #1 through #3.</li>
   <li><strong>3.5 to 8.0 Miles:</strong> The listing slips into positions #4 through #8. Even though the business appears on Page 1, customer click-to-call conversions plummet by 74%.</li>
@@ -179,7 +179,7 @@ export const ARTICLES: NewsArticle[] = [
 <h3>A Stewardship Mindset for Local Commerce</h3>
 <p>Building a durable local business is not about chasing algorithmic loopholes or purchasing hollow backlinks. It is about stewardship. When your digital infrastructure accurately reflects the communities you serve, respects the customer’s time through immediate response, and provides verified proof of capability, search algorithms reward you with regional visibility that compounds month after month.</p>`,
     sources: [
-      { name: "Gold Standard Local SEO Research", url: "https://www.gslocalseo.com", context: "Greater Sacramento 81-node proximity radar telemetry." },
+      { name: "Gold Standard Local SEO Research", url: "https://www.gslocalseo.com", context: "Greater Sacramento 81-grid Google Maps ranking scan." },
       { name: "Traffik Monster Systems", url: "https://www.traffik.monster", context: "Autonomous AI agent and programmatic inbound benchmarks." },
       { name: "Google Maps CID Directory", url: "https://maps.google.com/?cid=7895656689241912038", context: "Verified regional headquarters entity citation." }
     ]
@@ -229,7 +229,7 @@ export const ARTICLES: NewsArticle[] = [
     id: 'art-16',
     slug: 'google-multi-entity-consensus-local-3-pack-algorithms',
     title: 'Google Implements Multi-Entity Consensus Verification Across Local 3-Pack and Knowledge Graph Systems',
-    deck: 'Search engine engineering documentation and field telemetry confirm algorithms now require multi-source triangulation between regional press citations, civic registry data, and geospatial coordinates before granting top local pack prominence.',
+    deck: 'Search engine engineering documentation and field ranking audits confirm algorithms now require multi-source triangulation between regional press citations, civic registry data, and geospatial coordinates before granting top local pack prominence.',
     category: 'search-ai',
     authorId: 'justin-davis',
     publishedAt: '2026-09-15T02:45:00Z',
@@ -346,7 +346,7 @@ export const ARTICLES: NewsArticle[] = [
     ],
     contentHtml: `<p class="lead"><strong>AUSTIN, Texas</strong> — The window of opportunity for converting high-intent commercial buyers has compressed from days to minutes, according to a comprehensive review of over 250,000 inbound sales touchpoints conducted across modern revenue operations.</p>
 
-<p>The findings, corroborated by historical telemetry from lead response researchers, show that organizations initiating contact within 60 seconds of form submission experience a 391% surge in qualified appointments compared to the baseline median.</p>
+<p>The findings, corroborated by historical lead response data researchers, show that organizations initiating contact within 60 seconds of form submission experience a 391% surge in qualified appointments compared to the baseline median.</p>
 
 <p>Conversely, when sales representatives delay outreach past the 30-minute mark, the probability of establishing a live dialogue drops twenty-one-fold. By hour two, the majority of prospective buyers have already initiated contact with an alternative market competitor.</p>
 
@@ -369,17 +369,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-18T16:46:07Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from OpenAI News official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: How Cooley is accelerating IPO work with ChatGPT.</p>
 <p>Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/cooley-gopublic", context: "Primary wire disclosure." }
@@ -396,17 +396,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-17T17:20:40Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from OpenAI News official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Reimagining advertising with AI.</p>
 <p>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/reimagining-advertising-with-ai", context: "Primary wire disclosure." }
@@ -423,17 +423,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-16T17:21:04Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from OpenAI News official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Helping older adults use AI in everyday life.</p>
 <p>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life", context: "Primary wire disclosure." }
@@ -450,17 +450,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-15T17:21:32Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from OpenAI News official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Perplexity trusts GPT-6 Astra with end-to-end systems.</p>
 <p>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/perplexity-improving-accuracy-with-astra", context: "Primary wire disclosure." }
@@ -477,17 +477,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-15T03:46:50Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/google-ai-overview-local.jpg",
-    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via Search Engine Roundtable public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from Search Engine Roundtable official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Daily Search Forum Recap: September 14, 2026.</p>
 <p>Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web. Google is testing a way to pay publishers for using their content in AI Mode...</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/recap-09-14-2026-42078.html", context: "Primary wire disclosure." }
@@ -504,17 +504,17 @@ export const ARTICLES: NewsArticle[] = [
     updatedAt: "2026-09-15T03:46:51Z",
     readingTimeMinutes: 4,
     featuredImage: "/news/mcp-agent-architecture.jpg",
-    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    featuredImageCaption: "Official search intelligence documented via OpenAI News public disclosures.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
           "Primary signal logged from OpenAI News official channels.",
           "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
-          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+          "AINE.WS editorial desk is monitoring local ranking shifts across metropolitan search markets."
     ],
     contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: How Fyxer built an AI executive assistant people trust.</p>
 <p>Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</p>
-<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>According to ranking data and search documentation tracked by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/fyxer", context: "Primary wire disclosure." }
@@ -700,7 +700,7 @@ export const ARTICLES: NewsArticle[] = [
 
 <p>"The fundamental flaw of traditional CRM design is that it treats high-performing salespeople like data clerks," stated Marcus Vance. "Modern revenue operations are replacing manual logging with automated event listeners that detect calendar bookings, transcribe recorded calls, and update lifecycle stages automatically."</p>
 
-<p>By automating back-office telemetry, organizations are liberating sales reps to focus entirely on consultative qualification and closing transactions.</p>`,
+<p>By automating back-office lead routing, organizations are liberating sales reps to focus entirely on consultative qualification and closing transactions.</p>`,
     sources: [
       { name: 'Salesforce State of Sales Report', url: 'https://www.salesforce.com', context: 'Global benchmark on rep time allocation and administrative burden.' },
       { name: 'HubSpot Research', url: 'https://www.hubspot.com', context: 'Sales enablement and automated pipeline velocity metrics.' }
@@ -820,7 +820,7 @@ export const ARTICLES: NewsArticle[] = [
     ],
     contentHtml: `<p class="lead"><strong>DALLAS</strong> — The battle for mobile search supremacy among local contractors is rapidly expanding beyond static text pages into interactive video carousels embedded directly within Google search results.</p>
 
-<p>According to search telemetry data, mobile queries for trade services such as roofing, plumbing, and HVAC increasingly surface video snippets when available. By embedding automated 9:16 vertical video assets containing geotagged metadata and complete <code>VideoObject</code> structured data, local operators are securing visual placement above standard blue hyperlinks.</p>
+<p>According to Google search ranking data, mobile queries for trade services such as roofing, plumbing, and HVAC increasingly surface video snippets when available. By embedding automated 9:16 vertical video assets containing geotagged metadata and complete <code>VideoObject</code> structured data, local operators are securing visual placement above standard blue hyperlinks.</p>
 
 <p>"A homeowner facing a flooded basement responds much faster to a professional, branded video answering their immediate concern than a generic wall of text," noted Elena Chen. "When that video is marked up with proper timestamps and local coordinates, Google frequently gives it pride of place in mobile results."</p>`,
     sources: [
@@ -916,8 +916,8 @@ export const ARTICLES: NewsArticle[] = [
     ]
   },
   {
-    id: "wire-bellevue-telemetry-202609212032",
-    slug: "bellevue-washington-commercial-search-telemetry-proximity-audit",
+    id: "wire-bellevue-ranking data-202609212032",
+    slug: "bellevue-washington-commercial-search-ranking data-proximity-audit",
     title: "Lake Washington & I-405: How Puget Sound Geography Impacts Local Contractor Rankings",
     deck: "Empirical 64-node radar audit across Washington reveals how the Lake Washington & I-405 Divide severs over 76% of high-ticket Seismic Foundation Retrofitting & Drainage call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -925,8 +925,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T20:32:13Z",
     updatedAt: "2026-09-21T20:32:13Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/bellevue-washington-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Bellevue and Washington corridors.",
+    featuredImage: "/news/bellevue-washington-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Bellevue and Washington corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -937,7 +937,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>BELLEVUE, WASHINGTON / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Bellevue, Washington, high-ticket contractors specializing in Seismic Foundation Retrofitting & Drainage command average ticket sizes of $26,000. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $26,000 in project margins to localized competitors.</p>
 <h3>The Lake Washington & I-405 Divide Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across Washington reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across Washington reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The Lake Washington & I-405 Divide Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -950,16 +950,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Bellevue Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/bellevue-washington-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Bellevue Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Bellevue Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Bellevue proximity decay audit." },
+      { name: "Bellevue Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/bellevue-washington-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Bellevue proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-west-vancouver-telemetry-202609212032",
-    slug: "west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit",
+    id: "wire-west-vancouver-ranking data-202609212032",
+    slug: "west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit",
     title: "The Sea-to-Sky Divide: Why Mountain and Coastal Geometry Limit Single-Pin Reach",
     deck: "Empirical 64-node radar audit across British Columbia reveals how the Burrard Inlet & Sea-to-Sky Highway severs over 76% of high-ticket Luxury Mountain Envelope Restoration call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -967,8 +967,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T20:32:13Z",
     updatedAt: "2026-09-21T20:32:13Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/west-vancouver-british-columbia-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across West Vancouver and British Columbia corridors.",
+    featuredImage: "/news/west-vancouver-british-columbia-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across West Vancouver and British Columbia corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -979,7 +979,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>WEST VANCOUVER, BRITISH COLUMBIA / FOLSOM, Calif.</strong> — Throughout the commercial corridors of West Vancouver, British Columbia, high-ticket contractors specializing in Luxury Mountain Envelope Restoration command average ticket sizes of $45,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $45,000 CAD in project margins to localized competitors.</p>
 <h3>The Burrard Inlet & Sea-to-Sky Highway Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across British Columbia reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across British Columbia reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The Burrard Inlet & Sea-to-Sky Highway Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -992,16 +992,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the West Vancouver Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the West Vancouver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "West Vancouver Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node West Vancouver proximity decay audit." },
+      { name: "West Vancouver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit.pdf", context: "64-node West Vancouver proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-denver-telemetry-202609210800",
-    slug: "denver-colorado-commercial-search-telemetry-proximity-audit",
+    id: "wire-denver-ranking data-202609210800",
+    slug: "denver-colorado-commercial-search-ranking data-proximity-audit",
     title: "Inside Denver's Expansive Soils: How Foundation Contractors Expand Past the South Platte River",
     deck: "Empirical 64-node radar audit across Colorado reveals how the I-25 & South Platte River severs over 76% of high-ticket Expansive Bentonite Clay Foundation Repair call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -1009,8 +1009,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:00:12Z",
     updatedAt: "2026-09-21T08:00:12Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/denver-colorado-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Denver and Colorado corridors.",
+    featuredImage: "/news/denver-colorado-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Denver and Colorado corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1021,7 +1021,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>DENVER, COLORADO / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Denver, Colorado, high-ticket contractors specializing in Expansive Bentonite Clay Foundation Repair command average ticket sizes of $18,000. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $18,000 in project margins to localized competitors.</p>
 <h3>The I-25 & South Platte River Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across Colorado reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across Colorado reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The I-25 & South Platte River Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -1034,16 +1034,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Denver Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/denver-colorado-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Denver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Denver Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Denver proximity decay audit." },
+      { name: "Denver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/denver-colorado-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Denver proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-victoria-telemetry-202609210800",
-    slug: "victoria-british-columbia-commercial-search-telemetry-proximity-audit",
+    id: "wire-victoria-ranking data-202609210800",
+    slug: "victoria-british-columbia-commercial-search-ranking data-proximity-audit",
     title: "Island Infrastructure and Moisture Mitigation: Why Google Maps Rankings Drop Across Saanich",
     deck: "Empirical 64-node radar audit across British Columbia reveals how the Juan de Fuca Strait & Douglas Corridor severs over 76% of high-ticket Seismic Shoring & Rainwater Intrusion call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -1051,8 +1051,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:00:12Z",
     updatedAt: "2026-09-21T08:00:12Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/victoria-british-columbia-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Victoria and British Columbia corridors.",
+    featuredImage: "/news/victoria-british-columbia-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Victoria and British Columbia corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1063,7 +1063,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>VICTORIA, BRITISH COLUMBIA / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Victoria, British Columbia, high-ticket contractors specializing in Seismic Shoring & Rainwater Intrusion command average ticket sizes of $28,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $28,000 CAD in project margins to localized competitors.</p>
 <h3>The Juan de Fuca Strait & Douglas Corridor Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across British Columbia reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across British Columbia reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The Juan de Fuca Strait & Douglas Corridor Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -1076,16 +1076,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Victoria Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/victoria-british-columbia-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Victoria Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Victoria Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Victoria proximity decay audit." },
+      { name: "Victoria Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/victoria-british-columbia-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Victoria proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-olympia-telemetry-202609210233",
-    slug: "olympia-west-coast-commercial-search-telemetry-proximity-audit",
+    id: "wire-olympia-ranking data-202609210233",
+    slug: "olympia-west-coast-commercial-search-ranking data-proximity-audit",
     title: "Pacific Northwest Crawl Space Encapsulation: Bridging the Budd Inlet Proximity Gap",
     deck: "Empirical 64-node radar audit across West Coast reveals how the Budd Inlet & I-5 Corridor severs over 76% of high-ticket Pacific Northwest Crawl Space Encapsulation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -1093,8 +1093,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T02:33:46Z",
     updatedAt: "2026-09-21T02:33:46Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/olympia-west-coast-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Olympia and West Coast corridors.",
+    featuredImage: "/news/olympia-west-coast-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Olympia and West Coast corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1105,7 +1105,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>OLYMPIA, WEST COAST / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Olympia, West Coast, high-ticket contractors specializing in Pacific Northwest Crawl Space Encapsulation command average ticket sizes of $14,500. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $14,500 in project margins to localized competitors.</p>
 <h3>The Budd Inlet & I-5 Corridor Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across West Coast reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across West Coast reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The Budd Inlet & I-5 Corridor Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -1118,16 +1118,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Olympia Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/olympia-west-coast-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Olympia Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Olympia Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Olympia proximity decay audit." },
+      { name: "Olympia Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/olympia-west-coast-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Olympia proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-ottawa-telemetry-202609210233",
-    slug: "ottawa-ontario-commercial-search-telemetry-proximity-audit",
+    id: "wire-ottawa-ranking data-202609210233",
+    slug: "ottawa-ontario-commercial-search-ranking data-proximity-audit",
     title: "Ottawa Commercial Roofing: Crossing Canal and River Boundaries in Local Search",
     deck: "Empirical 64-node radar audit across Ontario reveals how the Rideau Canal & Ottawa River severs over 76% of high-ticket Commercial Roofing & Moisture Remediation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
@@ -1135,8 +1135,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T02:33:46Z",
     updatedAt: "2026-09-21T02:33:46Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/ottawa-ontario-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Ottawa and Ontario corridors.",
+    featuredImage: "/news/ottawa-ontario-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Ottawa and Ontario corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1147,7 +1147,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>OTTAWA, ONTARIO / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Ottawa, Ontario, high-ticket contractors specializing in Commercial Roofing & Moisture Remediation command average ticket sizes of $22,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
 <p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $22,000 CAD in project margins to localized competitors.</p>
 <h3>The Rideau Canal & Ottawa River Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across Ontario reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across Ontario reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.5 to 8.0 Miles (The Rideau Canal & Ottawa River Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
@@ -1160,16 +1160,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ottawa Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ottawa-ontario-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ottawa Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Ottawa Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Ottawa proximity decay audit." },
+      { name: "Ottawa Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ottawa-ontario-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Ottawa proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-ontario-telemetry-20260921",
-    slug: "ontario-commercial-search-telemetry-qew-proximity-decay-waterproofing-audit",
+    id: "wire-ontario-ranking data-20260921",
+    slug: "ontario-commercial-search-ranking data-qew-proximity-decay-waterproofing-audit",
     title: "The Greater Toronto Service Area Challenge: Why Commercial Waterproofers Struggle Across the QEW",
     deck: "Empirical 64-node radar audit across Halton and Peel regions reveals how Lake Ontario and the QEW sever 78% of high-ticket waterproofing call volume beyond 4.2 km—and how multi-entity coordinate stacking restores GTA-wide capture.",
     category: "local-business",
@@ -1177,8 +1177,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T09:00:00Z",
     updatedAt: "2026-09-21T09:00:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/ontario-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Oakville and Greater Toronto corridors.",
+    featuredImage: "/news/ontario-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Oakville and Greater Toronto corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1189,7 +1189,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>OAKVILLE, Ont. / FOLSOM, Calif.</strong> — Throughout the affluent Golden Horseshoe corridor of Southern Ontario—anchored by Oakville, Burlington, and Mississauga—high-ticket structural contractors specializing in wet basement waterproofing, foundation underpinning, and weeping tile installation command average ticket sizes between $18,000 CAD and $32,000 CAD. Yet, despite heavy spending on Google Ads and standard agencies, their organic Google Maps call volume remains pinned to a narrow 3-to-4 kilometer zone.</p>
 <p>Look at the operational mathematics. In high-density Canadian municipalities, extreme seasonal precipitation and clay-dense subsoils drive urgent structural inquiries. When a homeowner in Southeast Oakville or East Burlington searches for emergency foundation restoration, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 4.2 km from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $340,000 CAD in annual gross margin to localized competitors.</p>
 <h3>The QEW Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across Halton Region reveals an acute algorithmic decay cliff:</p>
+<p>Our empirical 64-node Google Maps ranking audit across Halton Region reveals an acute algorithmic decay cliff:</p>
 <ul>
   <li><strong>0 to 4.2 Kilometers:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>4.2 to 9.0 Kilometers (The QEW & 403 Divide):</strong> Listings drop abruptly into positions #5 through #11. Inbound lead conversions collapse by 78%.</li>
@@ -1202,16 +1202,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across Halton and Peel regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ontario Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ontario-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ontario Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Ontario Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Halton Region proximity decay audit." },
+      { name: "Ontario Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ontario-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Halton Region proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-scottsdale-telemetry-20260921",
-    slug: "scottsdale-phoenix-search-telemetry-loop101-proximity-decay-hvac-audit",
+    id: "wire-scottsdale-ranking data-20260921",
+    slug: "scottsdale-phoenix-search-ranking data-loop101-proximity-decay-hvac-audit",
     title: "The Desert Cooling Surge: How Summer Heat Drives High-Ticket HVAC Demand in North Scottsdale",
     deck: "Empirical 64-node radar audit across Maricopa County reveals how extreme heat season and Loop 101 transit barriers suppress 77% of emergency HVAC replacement calls past 3.6 miles—and how multi-entity coordinate stacking captures demand across Scottsdale and Phoenix.",
     category: "local-business",
@@ -1219,8 +1219,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T09:15:00Z",
     updatedAt: "2026-09-21T09:15:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/scottsdale-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Scottsdale and Phoenix corridors.",
+    featuredImage: "/news/scottsdale-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Scottsdale and Phoenix corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1231,7 +1231,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>SCOTTSDALE, Ariz. / FOLSOM, Calif.</strong> — In the Phoenix metropolitan valley—and particularly throughout affluent North Scottsdale, DC Ranch, and Paradise Valley—extreme seasonal desert temperatures drive unprecedented ticket velocity for inverter HVAC replacements, emergency compressor retrofits, and high-efficiency home remodeling ($12,000 to $25,000 average ticket sizes). Yet, despite massive PPC ad spends exceeding $150 per click, contractors routinely suffer from localized proximity suppression.</p>
 <p>Look at the operational numbers. When an air conditioning system fails in 115-degree heat, homeowners do not browse second-page search results or wait for email quotes. Over 76% of all emergency inquiries terminate directly inside the Google Maps 3-Pack. Single-node profiles experience a steep cliff at 3.6 miles: once search distance crosses the Loop 101 or Camelback corridor, rankings plummet from position #2 into positions #8 through #16, forfeiting over $260,000 in monthly high-margin buyer volume.</p>
 <h3>The Loop 101 Proximity Decay Cliff</h3>
-<p>Our empirical 64-node radar telemetry audit across Maricopa County reveals an unforgiving algorithmic boundary:</p>
+<p>Our empirical 64-node Google Maps ranking audit across Maricopa County reveals an unforgiving algorithmic boundary:</p>
 <ul>
   <li><strong>0 to 3.6 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.6 to 8.0 Miles (The Loop 101 Barrier):</strong> The listing drops abruptly into positions #5 through #12. Inbound call conversions drop by 77%.</li>
@@ -1243,16 +1243,16 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Nested Schema @graph Integration:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Sub-300ms Conversational Telephony:</strong> Integrating autonomous voice AI receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to answer inbound callers instantly, qualify HVAC system requirements, and book emergency dispatches 24/7.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Scottsdale Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/scottsdale-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Scottsdale Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Scottsdale Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Maricopa County proximity decay audit." },
+      { name: "Scottsdale Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/scottsdale-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Maricopa County proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
   },
   {
-    id: "wire-austin-telemetry-20260921",
-    slug: "austin-texas-commercial-search-telemetry-mopac-proximity-decay-3pack-audit",
+    id: "wire-austin-ranking data-20260921",
+    slug: "austin-texas-commercial-search-ranking data-mopac-proximity-decay-3pack-audit",
     title: "Navigating the Colorado River Divide: How Austin Trade Contractors Expand Beyond Single-Shop Radii",
     deck: "Empirical 64-node radar audit across Travis County, Round Rock, and South Congress reveals how Google Maps proximity walls sever 76% of high-intent contractor call volume across the Colorado River divide—and how multi-entity coordinate stacking restores county-wide capture.",
     category: "local-business",
@@ -1260,8 +1260,8 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:30:00Z",
     updatedAt: "2026-09-21T08:30:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/austin-commercial-search-telemetry-radar.jpg",
-    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Austin and Travis County corridors.",
+    featuredImage: "/news/austin-commercial-search-ranking data-radar.jpg",
+    featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Austin and Travis County corridors.",
     isBreaking: false,
     isFeatured: false,
     keyTakeaways: [
@@ -1272,7 +1272,7 @@ export const ARTICLES: NewsArticle[] = [
     contentHtml: `<p class="lead"><strong>AUSTIN, Texas / FOLSOM, Calif.</strong> — Across the booming Austin commercial corridor, high-ticket home service contractors—including commercial roofing crews, emergency HVAC technicians, and specialized civil contractors—routinely commit between $4,500 and $8,000 per month to digital agencies for cosmetic blog posts and PPC ad clicks. Yet their dispatchers sit idle while nearby competitors monopolize inbound buyer volume. Look at the operational mathematics.</p>
 <p>In high-growth metros like Austin, high-intent emergency and replacement projects average between $9,500 and $16,000 in gross ticket value. When a commercial facility manager in The Domain or a homeowner in Westlake searches for an urgent service provider, over 75% of all click-to-call conversions terminate directly inside the Google Maps 3-Pack. If your business sits at position #5 or #11, you do not have an advertising problem—you are hemorrhaging upwards of $280,000 in annual gross margin straight across town.</p>
 <h3>The 3.8-Mile MoPac Proximity Decay Cliff</h3>
-<p>According to empirical 64-node radar telemetry audited across Travis County, standard single-node Google Business Profiles encounter an insurmountable proximity cliff:</p>
+<p>According to empirical 64-node Google Maps ranking audited across Travis County, standard single-node Google Business Profiles encounter an insurmountable proximity cliff:</p>
 <ul>
   <li><strong>0 to 3.8 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
   <li><strong>3.8 to 8.5 Miles (The MoPac Divide):</strong> The listing drops abruptly into positions #4 through #8. Click-to-call customer conversions plummet by 76%.</li>
@@ -1285,9 +1285,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Nested Schema @graph Synchronization:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Autonomous AI Telephony Bridges:</strong> Capturing top-3 map rankings is only half the equation. When technicians are in the field, missed calls represent immediate cash incinerated. By deploying sub-300ms conversational AI voice receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a>, contractors qualify inbound callers and book estimates directly into dispatch software 24/7 without dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown, geographic node coordinates, and proximity curves in our official publication: <a href="/reports/austin-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Austin Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown, geographic node coordinates, and proximity curves in our official publication: <a href="/reports/austin-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Austin Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Austin Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/austin-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Travis County proximity decay audit." },
+      { name: "Austin Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/austin-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Travis County proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
