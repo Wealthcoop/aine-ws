@@ -28,6 +28,10 @@ jobs:
         run: |
           python3 scripts/newsroom_wire.py
 
+      - name: Run Automated Indexing Health Audit
+        run: |
+          python3 scripts/audit_indexing_health.py
+
       - name: Commit and Push New Wire Articles & Dedup State
         run: |
           git config user.name "AINE News Wire Bot"

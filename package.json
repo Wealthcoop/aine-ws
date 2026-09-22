@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "python3 scripts/audit_indexing_health.py",
     "build": "next build",
+    "audit:seo": "python3 scripts/audit_indexing_health.py",
     "start": "next start",
     "lint": "next lint"
   },
