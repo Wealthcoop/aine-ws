@@ -414,13 +414,17 @@ def format_article_ts(art):
     sources: {sources_str}
   }}"""
 
-# ── IndexNow Instant Submission ──────────────────────────────────────────────
-def submit_indexnow(new_slugs):
-    if not new_slugs:
+# ── Instant Multi-Engine Search Indexing ──────────────────────────────────────
+def push_search_engine_indexing(new_articles):
+    if not new_articles:
         return
     host = "aine.ws"
     key = "e4b98c3641774d8bb23a5cfc02b38914"
-    url_list = [f"https://{host}/news/{slug}" for slug in new_slugs] + [f"https://{host}/"]
+    url_list = [f"https://{host}/news/{art['category']}/{art['slug']}" for art in new_articles] + [
+        f"https://{host}/",
+        f"https://{host}/news-sitemap.xml",
+        f"https://{host}/sitemap.xml"
+    ]
     payload = json.dumps({
         "host": host,
         "key": key,
@@ -428,16 +432,33 @@ def submit_indexnow(new_slugs):
         "urlList": url_list
     }).encode('utf-8')
 
-    req = urllib.request.Request(
+    # 1. IndexNow API (Bing, Yandex, Seznam, Naver)
+    endpoints = [
         "https://api.indexnow.org/indexnow",
-        data=payload,
-        headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "AINE.WS Bot"}
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=5, context=_UNVERIFIED_CTX) as resp:
-            print(f"IndexNow notification sent: HTTP {resp.status} for {len(url_list)} URLs.")
-    except Exception as e:
-        print(f"Notice: IndexNow ping skipped or timed out: {e}")
+        "https://www.bing.com/indexnow"
+    ]
+    for ep in endpoints:
+        req = urllib.request.Request(
+            ep,
+            data=payload,
+            headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "AINE.WS Indexing Bot/1.0"}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=5, context=_UNVERIFIED_CTX) as resp:
+                print(f"IndexNow notification sent to {ep}: HTTP {resp.status} for {len(url_list)} URLs.")
+        except Exception as e:
+            print(f"Notice: IndexNow ping to {ep} skipped: {e}")
+
+    # 2. Google Sitemap Pings
+    sitemaps = [f"https://{host}/news-sitemap.xml", f"https://{host}/sitemap.xml"]
+    for sm in sitemaps:
+        ping_url = f"https://www.google.com/ping?sitemap={urllib.parse.quote(sm)}"
+        try:
+            req = urllib.request.Request(ping_url, headers={"User-Agent": "AINE.WS Indexing Bot/1.0"})
+            with urllib.request.urlopen(req, timeout=5, context=_UNVERIFIED_CTX) as resp:
+                print(f"Google sitemap ping sent for {sm}: HTTP {resp.status}")
+        except Exception as e:
+            print(f"Notice: Google sitemap ping for {sm}: {e}")
 
 # ── Main Orchestration ───────────────────────────────────────────────────────
 def main():
@@ -538,8 +559,8 @@ def main():
 
     print(f"Published {len(new_articles)} article(s) to {articles_ts_path}!")
 
-    # Ping IndexNow
-    submit_indexnow([art['slug'] for art in new_articles])
+    # Push real-time indexing notifications to search engines
+    push_search_engine_indexing(new_articles)
 
 if __name__ == '__main__':
     main()

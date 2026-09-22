@@ -53,6 +53,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     openGraph: {
       type: 'article',
       title: article.title,
@@ -64,7 +75,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       authors: [`${SITE_CONFIG.url}/authors/${author.id}`],
       images: [
         {
-          url: article.featuredImage,
+          url: `${SITE_CONFIG.url}${article.featuredImage}`,
           width: 1200,
           height: 675,
           alt: article.title,
@@ -75,7 +86,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title: article.title,
       description: article.deck,
-      images: [article.featuredImage],
+      images: [`${SITE_CONFIG.url}${article.featuredImage}`],
     },
   }
 }

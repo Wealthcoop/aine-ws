@@ -7,7 +7,7 @@ import { AUTHORS } from '@/config/authors'
 import { ARTICLES } from '@/data/articles'
 import { SITE_CONFIG } from '@/config/site'
 import { ArticleCard } from '@/components/ArticleCard'
-import { Mail, ExternalLink, ShieldCheck, Newspaper, Award } from 'lucide-react'
+import { Mail, ExternalLink, ShieldCheck, Newspaper, ChevronRight } from 'lucide-react'
 
 interface PageProps {
   params: {
@@ -25,16 +25,47 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Author Not Found' }
   }
 
+  const avatarUrl = author.avatar.startsWith('http')
+    ? author.avatar
+    : `${SITE_CONFIG.url}${author.avatar}`
+
   return {
     title: `${author.name} - ${author.title}`,
     description: author.bio,
     alternates: {
       canonical: `${SITE_CONFIG.url}/authors/${params.slug}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     openGraph: {
+      type: 'profile',
       title: `${author.name} | Editorial Masthead | ${SITE_CONFIG.name}`,
       description: author.bio,
-      images: [{ url: author.avatar }],
+      url: `${SITE_CONFIG.url}/authors/${params.slug}`,
+      siteName: SITE_CONFIG.name,
+      images: [
+        {
+          url: avatarUrl,
+          width: 400,
+          height: 400,
+          alt: author.name,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary',
+      title: `${author.name} | ${SITE_CONFIG.name}`,
+      description: author.bio,
+      images: [avatarUrl],
     },
   }
 }
@@ -49,9 +80,87 @@ export default function AuthorProfilePage({ params }: PageProps) {
   const authorArticles = ARTICLES.filter((a) => a.authorId === author.id)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
+  const authorUrl = `${SITE_CONFIG.url}/authors/${author.id}`
+  const avatarUrl = author.avatar.startsWith('http')
+    ? author.avatar
+    : `${SITE_CONFIG.url}${author.avatar}`
+
+  // Structured Data Schema (BreadcrumbList + ProfilePage + Person)
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${authorUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'About & Masthead',
+            item: `${SITE_CONFIG.url}/about`,
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: author.name,
+            item: authorUrl,
+          },
+        ],
+      },
+      {
+        '@type': 'ProfilePage',
+        '@id': `${authorUrl}#profile`,
+        url: authorUrl,
+        name: `${author.name} - Editorial Profile`,
+        isPartOf: {
+          '@type': 'WebSite',
+          name: SITE_CONFIG.name,
+          url: SITE_CONFIG.url,
+        },
+        mainEntity: {
+          '@type': 'Person',
+          '@id': `${authorUrl}#person`,
+          name: author.name,
+          jobTitle: author.title,
+          description: author.bio,
+          image: avatarUrl,
+          url: authorUrl,
+          worksFor: {
+            '@type': 'NewsMediaOrganization',
+            '@id': `${SITE_CONFIG.url}/#organization`,
+            name: SITE_CONFIG.name,
+            url: SITE_CONFIG.url,
+          },
+          sameAs: author.linkedin ? [author.linkedin] : undefined,
+        },
+      },
+    ],
+  }
+
   return (
     <div className="bg-slate-50 py-12 lg:py-16">
+      {/* Schema.org ProfilePage + Person JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
+          <ChevronRight className="h-3 w-3" />
+          <Link href="/about" className="hover:text-slate-900 transition">Masthead</Link>
+          <ChevronRight className="h-3 w-3" />
+          <span className="font-semibold text-slate-900">{author.name}</span>
+        </nav>
+
         {/* Author Header Card */}
         <div className="rounded-2xl border border-slate-200 bg-white p-6 md:p-10 shadow-sm">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">

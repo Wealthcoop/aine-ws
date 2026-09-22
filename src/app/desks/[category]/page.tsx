@@ -4,9 +4,8 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { SITE_CONFIG } from '@/config/site'
 import { ARTICLES } from '@/data/articles'
-import { AUTHORS } from '@/config/authors'
 import { ArticleCard } from '@/components/ArticleCard'
-import { Newspaper, ChevronRight, Layers } from 'lucide-react'
+import { ChevronRight, Layers } from 'lucide-react'
 
 interface PageProps {
   params: {
@@ -30,9 +29,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: `${SITE_CONFIG.url}/desks/${desk.id}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     openGraph: {
+      type: 'website',
       title: `${desk.label} Desk | ${SITE_CONFIG.name}`,
       description: desk.description,
+      url: `${SITE_CONFIG.url}/desks/${desk.id}`,
+      siteName: SITE_CONFIG.name,
+      images: [
+        {
+          url: `${SITE_CONFIG.url}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${desk.label} Desk - ${SITE_CONFIG.name}`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${desk.label} Desk | ${SITE_CONFIG.name}`,
+      description: desk.description,
+      images: [`${SITE_CONFIG.url}/og-image.jpg`],
     },
   }
 }
@@ -49,9 +76,63 @@ export default function DeskArchivePage({ params }: PageProps) {
 
   const leadArticle = deskArticles[0]
   const otherArticles = deskArticles.slice(1)
+  const deskUrl = `${SITE_CONFIG.url}/desks/${desk.id}`
+
+  // Structured Data Schema (BreadcrumbList + CollectionPage)
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${deskUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: `${desk.label} Desk`,
+            item: deskUrl,
+          },
+        ],
+      },
+      {
+        '@type': 'CollectionPage',
+        '@id': `${deskUrl}#collection`,
+        url: deskUrl,
+        name: `${desk.label} Desk - Latest AI News & Benchmarks`,
+        description: desk.description,
+        publisher: {
+          '@type': 'NewsMediaOrganization',
+          '@id': `${SITE_CONFIG.url}/#organization`,
+          name: SITE_CONFIG.name,
+          url: SITE_CONFIG.url,
+        },
+        mainEntity: {
+          '@type': 'ItemList',
+          itemListElement: deskArticles.slice(0, 15).map((art, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            url: `${SITE_CONFIG.url}/news/${art.category}/${art.slug}`,
+            name: art.title,
+          })),
+        },
+      },
+    ],
+  }
 
   return (
     <div className="bg-slate-50 py-10 lg:py-14">
+      {/* Schema.org CollectionPage + Breadcrumbs */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumbs */}
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
