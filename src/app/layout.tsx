@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -72,6 +73,25 @@ export default function RootLayout({
         <OrganizationSchema />
         <link rel="alternate" type="application/rss+xml" title="AI News RSS Feed" href="/feed.xml" />
         <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="/news-sitemap.xml" />
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RD10J8RQYW"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RD10J8RQYW', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </head>
       <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
         <Header />
