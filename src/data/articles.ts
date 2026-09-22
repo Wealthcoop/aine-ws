@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790112659",
+    slug: "higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-astra",
+    title: "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    deck: "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-22T21:30:59Z",
+    updatedAt: "2026-09-22T21:30:59Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Industry technological intelligence documented via OpenAI Official News public disclosures.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Official disclosure verified via OpenAI Official News technical communication channels.",
+          "Deployment benchmarks emphasize accelerated execution speed, developer availability, and model reasoning integrity.",
+          "System architects are evaluating enterprise integration timelines across production AI pipelines."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has officially issued a technical release detailing major operational updates: <strong>Higgsfield AI ships new video features in a day with GPT-6 Astra</strong>.</p>
+<p>With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.</p>
+<p>Search engineers and enterprise systems architects are assessing the architectural implications of this update. Across commercial environments, benchmark verification and structured API performance remain paramount as autonomous multi-step reasoning capabilities expand.</p>
+<p>Full implementation specifications and public test documentation are accessible directly via the primary disclosure below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790112651",
+    slug: "priorities-and-principles-for-effective-third-party-assessments",
+    title: "Priorities and principles for effective third party assessments",
+    deck: "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-22T21:30:51Z",
+    updatedAt: "2026-09-22T21:30:51Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Industry technological intelligence documented via OpenAI Official News public disclosures.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Official disclosure verified via OpenAI Official News technical communication channels.",
+          "Deployment benchmarks emphasize accelerated execution speed, developer availability, and model reasoning integrity.",
+          "System architects are evaluating enterprise integration timelines across production AI pipelines."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has officially issued a technical release detailing major operational updates: <strong>Priorities and principles for effective third party assessments</strong>.</p>
+<p>OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.</p>
+<p>Search engineers and enterprise systems architects are assessing the architectural implications of this update. Across commercial environments, benchmark verification and structured API performance remain paramount as autonomous multi-step reasoning capabilities expand.</p>
+<p>Full implementation specifications and public test documentation are accessible directly via the primary disclosure below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/priorities-principles-third-party-assessments", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-anthropic-claude-opus-5-5-launch",
     slug: "anthropic-releases-claude-opus-5-5-cost-reduction-multi-step-reasoning",
     title: "Anthropic Releases Claude Opus 5.5: Benchmarks Reveal 40% Cost Reduction and Enhanced Multi-Step Reasoning",
