@@ -75,3 +75,24 @@ Never use these words or phrases under any circumstances:
 * `navigating the complexities of`
 * `a testament to`
 * `in today's fast-paced digital world`
+
+### Banned Pseudo-Technical Jargon (Zero Tolerance)
+Never use these sci-fi / robotic buzzwords in any article, report, or headline:
+* `telemetry` or `search telemetry` (Use: *local ranking audit* or *search data*)
+* `64-node radar array / mesh` (Use: *10-mile radius scan* or *local search map*)
+* `proximity wall / decay cliff` (Use: *why rankings drop 3 to 5 miles out*)
+* `algorithmic velocity` (Use: *strong local authority*)
+* `coordinate stacking` or `multi-entity mesh` (Use: *service area pages for surrounding cities*)
+* `sub-300ms autonomous telephony` (Use: *answering missed calls and leads within 60 seconds*)
+* `injected payload / buffer` (Use: *published case study / verified profile*)
+* `perceptual hash variant` (Use: *high-resolution image*)
+
+---
+
+## Mandatory Pre-Writing Requirement: PAA (People Also Ask) Integration
+Before drafting ANY article under the AINE.WS masthead:
+1. Search local PAA queries for the targeted city and trade vertical (or national PAA for macro analyses).
+2. Append all queries to `PAA_INTELLIGENCE_DATABASE.csv`.
+3. Select the top 2-3 questions and answer them directly as H3 subheadings within the article in Justin Davis's 70% Hormozi / 30% Covey voice.
+4. This is essential for ranking across Google Search, Google AI Overviews, Perplexity, and ChatGPT search citations.
+
