@@ -2,6 +2,90 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-bellevue-telemetry-202609212032",
+    slug: "bellevue-washington-commercial-search-telemetry-proximity-audit",
+    title: "Bellevue & Washington Search Telemetry 2026: Why the Lake Washington & I-405 Divide Proximity Wall Costs Contractors $26,000 in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across Washington reveals how the Lake Washington & I-405 Divide severs over 76% of high-ticket Seismic Foundation Retrofitting & Drainage call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T20:32:13Z",
+    updatedAt: "2026-09-21T20:32:13Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/bellevue-washington-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across Bellevue and Washington corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in Bellevue.",
+      "The Lake Washington & I-405 Divide acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Seismic Foundation Retrofitting & Drainage contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>BELLEVUE, WASHINGTON / FOLSOM, Calif.</strong> — Throughout the commercial corridors of Bellevue, Washington, high-ticket contractors specializing in Seismic Foundation Retrofitting & Drainage command average ticket sizes of $26,000. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $26,000 in project margins to localized competitors.</p>
+<h3>The Lake Washington & I-405 Divide Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across Washington reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The Lake Washington & I-405 Divide Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Lake Washington & I-405 Divide transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Bellevue Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "Bellevue Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Bellevue proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
+    id: "wire-west-vancouver-telemetry-202609212032",
+    slug: "west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit",
+    title: "West Vancouver & British Columbia Search Telemetry 2026: Why the Burrard Inlet & Sea-to-Sky Highway Proximity Wall Costs Contractors $45,000 CAD in Suppressed Leads",
+    deck: "Empirical 64-node radar audit across British Columbia reveals how the Burrard Inlet & Sea-to-Sky Highway severs over 76% of high-ticket Luxury Mountain Envelope Restoration call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
+    category: "local-business",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T20:32:13Z",
+    updatedAt: "2026-09-21T20:32:13Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/west-vancouver-british-columbia-commercial-search-telemetry-radar.jpg",
+    featuredImageCaption: "64-node geo-grid radar telemetry tracking contractor Google Maps 3-Pack proximity decay across West Vancouver and British Columbia corridors.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "Inbound commercial call volume collapses by over 75% once a searcher is more than 3.5 to 4.2 miles from a physical address pin in West Vancouver.",
+      "The Burrard Inlet & Sea-to-Sky Highway acts as an acute algorithmic dampener, suppressing single-node listings outside the immediate neighborhood boundary.",
+      "Multi-entity coordinate stacking and nested schema @graph networks allow elite Luxury Mountain Envelope Restoration contractors to command 30-mile regional dominance."
+    ],
+    contentHtml: `<p class="lead"><strong>WEST VANCOUVER, BRITISH COLUMBIA / FOLSOM, Calif.</strong> — Throughout the commercial corridors of West Vancouver, British Columbia, high-ticket contractors specializing in Luxury Mountain Envelope Restoration command average ticket sizes of $45,000 CAD. Yet, despite aggressive spending on Google Ads and conventional marketing retainers, their organic Google Maps inbound call volume remains trapped within an artificial 3-to-4 mile perimeter.</p>
+<p>Look at the operational numbers. In high-density commercial markets, seasonal environmental stressors and infrastructure demands drive urgent high-ticket calls. When a commercial buyer or residential owner searches for emergency assistance, over 74% of verified click-to-call actions terminate directly inside the Google Maps 3-Pack. The moment an inquiry originates more than 3.5 miles from the contractor's physical location, rankings drop from position #2 into positions #7 through #14, forfeiting upwards of $45,000 CAD in project margins to localized competitors.</p>
+<h3>The Burrard Inlet & Sea-to-Sky Highway Proximity Decay Cliff</h3>
+<p>Our empirical 64-node radar telemetry audit across British Columbia reveals an acute algorithmic decay cliff:</p>
+<ul>
+  <li><strong>0 to 3.5 Miles:</strong> Verified physical address signals carry enough algorithmic velocity to anchor top-3 map pack positions.</li>
+  <li><strong>3.5 to 8.0 Miles (The Burrard Inlet & Sea-to-Sky Highway Divide):</strong> Listings drop abruptly into positions #5 through #12. Inbound lead conversions collapse by over 76%.</li>
+  <li><strong>Beyond 8.0 Miles:</strong> Single-node profiles vanish from map pack visibility entirely, capturing under 2% of total search impressions.</li>
+</ul>
+<p>The Burrard Inlet & Sea-to-Sky Highway transit corridor accelerates this dampening: businesses without verified multi-entity coordinate meshes lose hundreds of thousands of dollars in high-margin client flow.</p>
+<h3>The Multi-Entity Architectural Solution</h3>
+<p>To eliminate proximity decay and capture qualified buyer inquiries across the entire 30-mile commercial corridor, leading operators are deploying synchronized entity architecture:</p>
+<p><strong>1. Trans-Regional Coordinate Stacking:</strong> Binding localized GPS coordinates along major transit and commercial corridors into verified KML vector networks and geotagged media assets.</p>
+<p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
+<p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
+<h3>The Empirical Field Report</h3>
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the West Vancouver Commercial Search Telemetry Audit (PDF)</strong></a>.</p>`,
+    sources: [
+      { name: "West Vancouver Search Telemetry Report (AINE.WS)", url: "https://aine.ws/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node West Vancouver proximity decay audit." },
+      { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
+      { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
+    ]
+  },
+  {
     id: "wire-denver-telemetry-202609210800",
     slug: "denver-colorado-commercial-search-telemetry-proximity-audit",
     title: "Denver & Colorado Search Telemetry 2026: Why the I-25 & South Platte River Proximity Wall Costs Contractors $18,000 in Suppressed Leads",
@@ -164,7 +248,6 @@ export const ARTICLES: NewsArticle[] = [
 <p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
     sources: [
       { name: "OpenAI News", url: "https://openai.com/index/advisory-group-on-mathematics-and-ai", context: "Primary wire disclosure." }
-    ]
     ]
   },
   {
