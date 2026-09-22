@@ -10,23 +10,22 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/wp-includes/', '/wp-admin/', '/*?cat=*', '/*?ver=*'],
       },
       {
-        userAgent: 'Googlebot-News',
-        allow: '/',
-      },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-      },
-      {
-        userAgent: 'GPTBot',
-        allow: '/',
-      },
-      {
-        userAgent: 'ClaudeBot',
-        allow: '/',
-      },
-      {
-        userAgent: 'PerplexityBot',
+        userAgent: [
+          'Googlebot-News',
+          'Googlebot',
+          'GPTBot',
+          'ClaudeBot',
+          'PerplexityBot',
+          'DuckDuckBot',
+          'Bingbot',
+          'YandexBot',
+          'Baiduspider',
+          'NaverBot',
+          'Sogou web spider',
+          'Bravebot',
+          'Qwantify',
+          'Bytespider'
+        ],
         allow: '/',
       },
     ],
