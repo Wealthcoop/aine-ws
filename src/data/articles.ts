@@ -109,7 +109,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-22T17:24:26Z",
     updatedAt: "2026-09-22T17:24:26Z",
     readingTimeMinutes: 4,
-    featuredImage: "/news/google-core-update.jpg",
+    featuredImage: "/news/barcelona-search-conference.jpg",
     featuredImageCaption: "Official search intelligence documented via Google Search Central public disclosures.",
     isBreaking: false,
     isFeatured: false,
@@ -163,7 +163,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-22T17:24:26Z",
     updatedAt: "2026-09-22T17:24:26Z",
     readingTimeMinutes: 4,
-    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImage: "/news/contractor-video-seo.jpg",
     featuredImageCaption: "Video generative model architecture analysis via OpenAI News benchmarks.",
     isBreaking: false,
     isFeatured: false,
@@ -248,8 +248,8 @@ export const ARTICLES: NewsArticle[] = [
     featuredImageCaption: "Local Google Maps geo-grid scan tracking ranking drop-offs across Placer and Sacramento counties.",
     isBreaking: false,
     isFeatured: false,
-    videoUrl: "/videos/sacramento-regional-search-ranking data.mp4",
-    videoThumbnail: "/videos/sacramento-regional-ranking data-poster.jpg",
+    videoUrl: "/videos/sacramento-regional-search-telemetry.mp4",
+    videoThumbnail: "/videos/sacramento-regional-telemetry-poster.jpg",
     videoDuration: "PT38S",
     videoTitle: "Sacramento Google Maps Ranking Audit: 81-Grid Proximity Scan",
     videoDescription: "Field ranking data audit across 81 regional grid nodes showing a 74% drop in call volume beyond 3.5 miles, and how multi-entity stacking breaks through Google Maps proximity walls.",
@@ -1023,7 +1023,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T20:32:13Z",
     updatedAt: "2026-09-21T20:32:13Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/bellevue-washington-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/bellevue-washington-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Bellevue and Washington corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1048,9 +1048,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/bellevue-washington-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Bellevue Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Bellevue Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Bellevue Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/bellevue-washington-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Bellevue proximity decay audit." },
+      { name: "Bellevue Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/bellevue-washington-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Bellevue proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1065,7 +1065,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T20:32:13Z",
     updatedAt: "2026-09-21T20:32:13Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/west-vancouver-british-columbia-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/west-vancouver-british-columbia-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across West Vancouver and British Columbia corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1090,9 +1090,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the West Vancouver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the West Vancouver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "West Vancouver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit.pdf", context: "64-node West Vancouver proximity decay audit." },
+      { name: "West Vancouver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/west-vancouver-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node West Vancouver proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1107,7 +1107,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:00:12Z",
     updatedAt: "2026-09-21T08:00:12Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/denver-colorado-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/denver-colorado-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Denver and Colorado corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1132,9 +1132,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/denver-colorado-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Denver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Denver Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Denver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/denver-colorado-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Denver proximity decay audit." },
+      { name: "Denver Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/denver-colorado-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Denver proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1149,7 +1149,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:00:12Z",
     updatedAt: "2026-09-21T08:00:12Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/victoria-british-columbia-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/victoria-british-columbia-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Victoria and British Columbia corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1174,9 +1174,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/victoria-british-columbia-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Victoria Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Victoria Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Victoria Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/victoria-british-columbia-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Victoria proximity decay audit." },
+      { name: "Victoria Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/victoria-british-columbia-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Victoria proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1191,7 +1191,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T02:33:46Z",
     updatedAt: "2026-09-21T02:33:46Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/olympia-west-coast-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/olympia-west-coast-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Olympia and West Coast corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1216,9 +1216,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/olympia-west-coast-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Olympia Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Olympia Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Olympia Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/olympia-west-coast-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Olympia proximity decay audit." },
+      { name: "Olympia Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/olympia-west-coast-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Olympia proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1233,7 +1233,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T02:33:46Z",
     updatedAt: "2026-09-21T02:33:46Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/ottawa-ontario-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/ottawa-ontario-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Ottawa and Ontario corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1258,9 +1258,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ottawa-ontario-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ottawa Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ottawa Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Ottawa Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ottawa-ontario-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Ottawa proximity decay audit." },
+      { name: "Ottawa Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ottawa-ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Ottawa proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1275,7 +1275,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T09:00:00Z",
     updatedAt: "2026-09-21T09:00:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/ontario-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/ontario-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Oakville and Greater Toronto corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1300,9 +1300,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Schema.org Nested Graph Deployments:</strong> Synchronizing LocalBusiness, GeoCoordinates, and areaServed across Halton and Peel regional municipalities, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Automated Sub-300ms Voice Telephony:</strong> Connecting inbound calls into autonomous voice AI bridges through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to qualify emergency callers and book estimates directly into dispatch software 24/7 without human dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ontario-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ontario Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/ontario-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Ontario Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Ontario Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ontario-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Halton Region proximity decay audit." },
+      { name: "Ontario Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/ontario-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Halton Region proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1317,7 +1317,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T09:15:00Z",
     updatedAt: "2026-09-21T09:15:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/scottsdale-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/scottsdale-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Scottsdale and Phoenix corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1341,9 +1341,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Nested Schema @graph Integration:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Sub-300ms Conversational Telephony:</strong> Integrating autonomous voice AI receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a> to answer inbound callers instantly, qualify HVAC system requirements, and book emergency dispatches 24/7.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/scottsdale-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Scottsdale Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown and node coordinates in our official publication: <a href="/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Scottsdale Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Scottsdale Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/scottsdale-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Maricopa County proximity decay audit." },
+      { name: "Scottsdale Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/scottsdale-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Maricopa County proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
@@ -1358,7 +1358,7 @@ export const ARTICLES: NewsArticle[] = [
     publishedAt: "2026-09-21T08:30:00Z",
     updatedAt: "2026-09-21T08:30:00Z",
     readingTimeMinutes: 5,
-    featuredImage: "/news/austin-commercial-search-ranking data-radar.jpg",
+    featuredImage: "/news/austin-commercial-search-telemetry-radar.jpg",
     featuredImageCaption: "64-node geo-grid local ranking audit tracking contractor Google Maps 3-Pack proximity decay across Austin and Travis County corridors.",
     isBreaking: false,
     isFeatured: false,
@@ -1383,9 +1383,9 @@ export const ARTICLES: NewsArticle[] = [
 <p><strong>2. Nested Schema @graph Synchronization:</strong> Interlinking LocalBusiness schemas, verified service areas, and Google Knowledge Graph nodes to present Google with an unassailable regional authority footprint, as engineered by <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a>.</p>
 <p><strong>3. Autonomous AI Telephony Bridges:</strong> Capturing top-3 map rankings is only half the equation. When technicians are in the field, missed calls represent immediate cash incinerated. By deploying sub-300ms conversational AI voice receptionists through <a href="https://www.traffik.monster" target="_blank" rel="noopener noreferrer">Traffik Monster</a>, contractors qualify inbound callers and book estimates directly into dispatch software 24/7 without dispatcher overhead.</p>
 <h3>The Empirical Field Report</h3>
-<p>Operators and search engineers can review the full mathematical breakdown, geographic node coordinates, and proximity curves in our official publication: <a href="/reports/austin-commercial-search-ranking data-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Austin Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
+<p>Operators and search engineers can review the full mathematical breakdown, geographic node coordinates, and proximity curves in our official publication: <a href="/reports/austin-commercial-search-telemetry-proximity-audit.pdf" target="_blank" rel="noopener noreferrer"><strong>Download the Austin Google Maps Ranking Audit (PDF)</strong></a>.</p>`,
     sources: [
-      { name: "Austin Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/austin-commercial-search-ranking data-proximity-audit.pdf", context: "64-node Travis County proximity decay audit." },
+      { name: "Austin Local Ranking Report (AINE.WS)", url: "https://aine.ws/reports/austin-commercial-search-telemetry-proximity-audit.pdf", context: "64-node Travis County proximity decay audit." },
       { name: "Gold Standard Local SEO Core Architecture", url: "https://www.gslocalseo.com", context: "Multi-entity coordinate stacking and schema engineering." },
       { name: "Traffik Monster Telephony Infrastructure", url: "https://www.traffik.monster", context: "Autonomous sub-300ms speed-to-lead voice dispatch." }
     ]
