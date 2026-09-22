@@ -139,7 +139,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-local-ranking data-20260920",
     slug: "sacramento-regional-search-ranking data-proximity-suppression-ai-inbound",
-    title: "Sacramento Google Maps Ranking Audit: Why Proximity Drops Inbound Calls & How Service Area Stacking Solves It",
+    title: "Does Adding Service Areas to Google Business Profile Actually Expand Your Ranking Radius?",
     deck: "Ranking data across 81 regional search nodes reveals independent service businesses lose 74% of prospective call volume past 3.5 miles. Here is the operational math behind algorithmic proximity walls and the synchronized entity architecture required to scale across 30 miles.",
     category: "local-business",
     authorId: "justin-davis",
@@ -918,7 +918,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-bellevue-ranking data-202609212032",
     slug: "bellevue-washington-commercial-search-ranking data-proximity-audit",
-    title: "Lake Washington & I-405: How Puget Sound Geography Impacts Local Contractor Rankings",
+    title: "Bellevue Crawl Space Encapsulation Costs & Why Glacial Till Soil Traps Water Under Eastside Homes",
     deck: "Empirical 64-node radar audit across Washington reveals how the Lake Washington & I-405 Divide severs over 76% of high-ticket Seismic Foundation Retrofitting & Drainage call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -960,7 +960,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-west-vancouver-ranking data-202609212032",
     slug: "west-vancouver-british-columbia-commercial-search-ranking data-proximity-audit",
-    title: "The Sea-to-Sky Divide: Why Mountain and Coastal Geometry Limit Single-Pin Reach",
+    title: "Coastal Drainage & Mountain Runoff: What British Columbia Waterfront Homes Require for Moisture Defense",
     deck: "Empirical 64-node radar audit across British Columbia reveals how the Burrard Inlet & Sea-to-Sky Highway severs over 76% of high-ticket Luxury Mountain Envelope Restoration call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1002,7 +1002,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-denver-ranking data-202609210800",
     slug: "denver-colorado-commercial-search-ranking data-proximity-audit",
-    title: "Inside Denver's Expansive Soils: How Foundation Contractors Expand Past the South Platte River",
+    title: "Denver Foundation Repair Economics: What Expansive Bentonite Clay Means for Homeowners and Local Contractors",
     deck: "Empirical 64-node radar audit across Colorado reveals how the I-25 & South Platte River severs over 76% of high-ticket Expansive Bentonite Clay Foundation Repair call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1044,7 +1044,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-victoria-ranking data-202609210800",
     slug: "victoria-british-columbia-commercial-search-ranking data-proximity-audit",
-    title: "Island Infrastructure and Moisture Mitigation: Why Google Maps Rankings Drop Across Saanich",
+    title: "Vancouver Island Perimeter Drainage: Navigating High Water Tables and Saanich Peninsula Moisture",
     deck: "Empirical 64-node radar audit across British Columbia reveals how the Juan de Fuca Strait & Douglas Corridor severs over 76% of high-ticket Seismic Shoring & Rainwater Intrusion call volume beyond 3.5 miles—and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1086,7 +1086,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-olympia-ranking data-202609210233",
     slug: "olympia-west-coast-commercial-search-ranking data-proximity-audit",
-    title: "Pacific Northwest Crawl Space Encapsulation: Bridging the Budd Inlet Proximity Gap",
+    title: "South Puget Sound Crawl Space Moisture: Sump Pumps, Vapor Barriers, and High Water Tables",
     deck: "Empirical 64-node radar audit across West Coast reveals how the Budd Inlet & I-5 Corridor severs over 76% of high-ticket Pacific Northwest Crawl Space Encapsulation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1128,7 +1128,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-ottawa-ranking data-202609210233",
     slug: "ottawa-ontario-commercial-search-ranking data-proximity-audit",
-    title: "Ottawa Commercial Roofing: Crossing Canal and River Boundaries in Local Search",
+    title: "Ottawa Commercial Roofing & Winter Ice Damming: Navigating Freeze-Thaw Structural Stress",
     deck: "Empirical 64-node radar audit across Ontario reveals how the Rideau Canal & Ottawa River severs over 76% of high-ticket Commercial Roofing & Moisture Remediation call volume beyond 3.5 miles\u2014and how multi-entity coordinate stacking restores regional capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1170,7 +1170,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-ontario-ranking data-20260921",
     slug: "ontario-commercial-search-ranking data-qew-proximity-decay-waterproofing-audit",
-    title: "The Greater Toronto Service Area Challenge: Why Commercial Waterproofers Struggle Across the QEW",
+    title: "Greater Toronto Basement Waterproofing: Interior French Drains, Sump Fleets, and Clay Soil Hydrostatic Pressure",
     deck: "Empirical 64-node radar audit across Halton and Peel regions reveals how Lake Ontario and the QEW sever 78% of high-ticket waterproofing call volume beyond 4.2 km—and how multi-entity coordinate stacking restores GTA-wide capture.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1212,7 +1212,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-scottsdale-ranking data-20260921",
     slug: "scottsdale-phoenix-search-ranking data-loop101-proximity-decay-hvac-audit",
-    title: "The Desert Cooling Surge: How Summer Heat Drives High-Ticket HVAC Demand in North Scottsdale",
+    title: "Scottsdale Emergency AC Replacement: The 5,000 Rule, Summer Surcharges, and SRP Rebates",
     deck: "Empirical 64-node radar audit across Maricopa County reveals how extreme heat season and Loop 101 transit barriers suppress 77% of emergency HVAC replacement calls past 3.6 miles—and how multi-entity coordinate stacking captures demand across Scottsdale and Phoenix.",
     category: "local-business",
     authorId: "justin-davis",
@@ -1253,7 +1253,7 @@ export const ARTICLES: NewsArticle[] = [
   {
     id: "wire-austin-ranking data-20260921",
     slug: "austin-texas-commercial-search-ranking data-mopac-proximity-decay-3pack-audit",
-    title: "Navigating the Colorado River Divide: How Austin Trade Contractors Expand Beyond Single-Shop Radii",
+    title: "Austin Slab Leaks & Foundation Heave: Why Black Gumbo Soil Costs Homeowners $8,000+",
     deck: "Empirical 64-node radar audit across Travis County, Round Rock, and South Congress reveals how Google Maps proximity walls sever 76% of high-intent contractor call volume across the Colorado River divide—and how multi-entity coordinate stacking restores county-wide capture.",
     category: "local-business",
     authorId: "justin-davis",
