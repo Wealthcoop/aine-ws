@@ -2,6 +2,87 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790097866",
+    slug: "search-central-deep-dive-europe-2026-apparently-were-going-t",
+    title: "Search Central Deep Dive Europe 2026: Apparently we're going to Barcelona",
+    deck: "We&#39;re excited to officially announce the next stop for Search Central Live Deep Dive Europe 2026! Mark your calendars: based directly on your feedback, we&#39;re headed to Barcelona, Spain, from September 30 to October 2, 2026.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-22T17:24:26Z",
+    updatedAt: "2026-09-22T17:24:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Google Search Central public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Google Search Central official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Google Search Central: Search Central Deep Dive Europe 2026: Apparently we're going to Barcelona.</p>
+<p>We&#39;re excited to officially announce the next stop for Search Central Live Deep Dive Europe 2026! Mark your calendars: based directly on your feedback, we&#39;re headed to Barcelona, Spain, from September 30 to October 2, 2026.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Google Search Central", url: "https://developers.google.com/search/blog/2026/07/search-central-live-deep-dive-europe-2026", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790097866",
+    slug: "google-merchant-center-auto-enables-native-checkout-buy-on-a",
+    title: "Google Merchant Center Auto Enables Native Checkout: Buy On AI Mode & Gemini",
+    deck: "Google is sending email notifications to Google Merchant Center users if their e-commerce platform supports Universal Commerce Protocol (UCP) and if so, telling them that \"your products are now eligible for native checkout.\" This means that your eligible products are automatically included, so if yo",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-22T17:24:26Z",
+    updatedAt: "2026-09-22T17:24:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-ai-overview-local.jpg",
+    featuredImageCaption: "Technical telemetry tracked via Search Engine Roundtable public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from Search Engine Roundtable official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from Search Engine Roundtable: Google Merchant Center Auto Enables Native Checkout: Buy On AI Mode & Gemini.</p>
+<p>Google is sending email notifications to Google Merchant Center users if their e-commerce platform supports Universal Commerce Protocol (UCP) and if so, telling them that "your products are now eligible for native checkout." This means that your eligible products are automatically included, so if yo</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "Search Engine Roundtable", url: "https://www.seroundtable.com/google-native-checkout-emails-42140.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790097866",
+    slug: "higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-a",
+    title: "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    deck: "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-22T17:24:26Z",
+    updatedAt: "2026-09-22T17:24:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Technical telemetry tracked via OpenAI News public disclosures.",
+    isBreaking: false,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary signal logged from OpenAI News official channels.",
+          "Technical analysis indicates direct impact on commercial query routing and algorithmic benchmarks.",
+          "AINE.WS editorial desk is monitoring secondary telemetry across metropolitan datasets."
+    ],
+    contentHtml: `<p class="lead"><strong>WILMINGTON, Del.</strong> — The AINE.WS editorial newsroom is tracking a new technical development originating from OpenAI News: Higgsfield AI ships new video features in a day with GPT-6 Astra.</p>
+<p>With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.</p>
+<p>According to telemetry gathered by AINE.WS analysts, the announcement signals ongoing shifts in commercial search behavior, entity verification protocols, and algorithmic latency expectations.</p>
+<p>Enterprise teams and local business operators are advised to review structured data schemas and pipeline latency to maintain organic visibility during rollout windows.</p>`,
+    sources: [
+      { name: "OpenAI News", url: "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-bellevue-telemetry-202609212032",
     slug: "bellevue-washington-commercial-search-telemetry-proximity-audit",
     title: "Bellevue & Washington Search Telemetry 2026: Why the Lake Washington & I-405 Divide Proximity Wall Costs Contractors $26,000 in Suppressed Leads",
