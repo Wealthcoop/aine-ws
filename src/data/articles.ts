@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790169962",
+    slug: "openai-extends-cyber-access-to-ukraine-for-civilian-def",
+    title: "OpenAI extends cyber access to Ukraine for civilian defense",
+    deck: "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T13:00:00Z",
+    updatedAt: "2026-09-23T13:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense o...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>OpenAI extends cyber access to Ukraine for civilian defense</strong>.</p>
+<p>OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790169962",
+    slug: "devfest-is-back-architecture-and-benchmark-analysis",
+    title: "DevFest is back: Architecture and Benchmark Analysis",
+    deck: "DevFest 2026 is back and here's how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-14T16:00:00Z",
+    updatedAt: "2026-09-14T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: DevFest 2026 is back and here's how you can connect with one of the more than 800 global events to build, secu...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>DevFest is back: Architecture and Benchmark Analysis</strong>.</p>
+<p>DevFest 2026 is back and here's how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790148583",
     slug: "expanding-openai-academy-with-new-learning-paths",
     title: "Expanding OpenAI Academy with new learning paths",
