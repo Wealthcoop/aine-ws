@@ -11,6 +11,7 @@ import { SponsorSlot } from '@/components/SponsorSlot'
 import { ArticleCard } from '@/components/ArticleCard'
 import { VideoPlayer } from '@/components/VideoPlayer'
 import GooglePreferredSource from '@/components/GooglePreferredSource'
+import TrendingTools from '@/components/TrendingTools'
 import {
   ChevronRight,
   Clock,
@@ -269,6 +270,11 @@ export default function ArticleReaderPage({ params }: PageProps) {
               : 'local-seo'
           }
         />
+
+        {/* Trending AI Tools & Capital Pre-Check Card */}
+        <div className="my-10">
+          <TrendingTools />
+        </div>
 
         {/* Primary Sources & Attributions (Google News Requirement) */}
         {article.sources && article.sources.length > 0 && (

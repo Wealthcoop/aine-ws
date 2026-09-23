@@ -5,6 +5,7 @@ import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterForm } from '@/components/NewsletterForm'
+import TrendingTools from '@/components/TrendingTools'
 import {
   Radio,
   Flame,
@@ -118,6 +119,11 @@ export default function HomePage() {
                   <span className="text-slate-500">Publisher &amp; Editor-in-Chief</span>
                 </div>
               </div>
+            </div>
+
+            {/* Trending Tools Showcase */}
+            <div className="mt-6">
+              <TrendingTools />
             </div>
           </aside>
         </section>
