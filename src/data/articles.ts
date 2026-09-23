@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790121967",
+    slug: "building-standards-for-the-next-phase-of-ai",
+    title: "Building standards for the next phase of AI",
+    deck: "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T10:00:00Z",
+    updatedAt: "2026-09-21T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Industry technological intelligence documented via OpenAI Official News public disclosures.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Official disclosure verified via OpenAI Official News technical communication channels.",
+          "Deployment benchmarks emphasize accelerated execution speed, developer availability, and model reasoning integrity.",
+          "System architects are evaluating enterprise integration timelines across production AI pipelines."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has officially issued a technical release detailing major operational updates: <strong>Building standards for the next phase of AI</strong>.</p>
+<p>OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.</p>
+<p>Search engineers and enterprise systems architects are assessing the architectural implications of this update. Across commercial environments, benchmark verification and structured API performance remain paramount as autonomous multi-step reasoning capabilities expand.</p>
+<p>Full implementation specifications and public test documentation are accessible directly via the primary disclosure below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/building-standards-next-phase-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790121968",
+    slug: "new-insights-from-googles-ai-economy-atlas",
+    title: "New insights from Google's AI & Economy ATLAS",
+    deck: "We've translated ATLAS's millions of global data points into an interactive, open-access experience.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-15T13:00:00Z",
+    updatedAt: "2026-09-15T13:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Industry technological intelligence documented via Google AI News public disclosures.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Official disclosure verified via Google AI News technical communication channels.",
+          "Deployment benchmarks emphasize accelerated execution speed, developer availability, and model reasoning integrity.",
+          "System architects are evaluating enterprise integration timelines across production AI pipelines."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has officially issued a technical release detailing major operational updates: <strong>New insights from Google's AI & Economy ATLAS</strong>.</p>
+<p>We've translated ATLAS's millions of global data points into an interactive, open-access experience.</p>
+<p>Search engineers and enterprise systems architects are assessing the architectural implications of this update. Across commercial environments, benchmark verification and structured API performance remain paramount as autonomous multi-step reasoning capabilities expand.</p>
+<p>Full implementation specifications and public test documentation are accessible directly via the primary disclosure below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790112659",
     slug: "higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-astra",
     title: "Higgsfield AI ships new video features in a day with GPT-6 Astra",
