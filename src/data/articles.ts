@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790148583",
+    slug: "expanding-openai-academy-with-new-learning-paths",
+    title: "Expanding OpenAI Academy with new learning paths",
+    deck: "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T07:00:00Z",
+    updatedAt: "2026-09-21T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Expanding OpenAI Academy with new learning paths</strong>.</p>
+<p>Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/expanding-openai-academy-with-new-learning-paths", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790148584",
+    slug: "watch-astronaut-christina-koch-and-googles-james-manyik",
+    title: "Watch astronaut Christina Koch and Google's James Manyika discuss space, technology, and discovery.",
+    deck: "Christina Koch sits down with James Manyika, Google's Senior Vice President of Research, Labs, Technology & Society.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-14T19:00:00Z",
+    updatedAt: "2026-09-14T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Christina Koch sits down with James Manyika, Google's Senior Vice President of Research, Labs, Technology & So...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>Watch astronaut Christina Koch and Google's James Manyika discuss space, technology, and discovery.</strong>.</p>
+<p>Christina Koch sits down with James Manyika, Google's Senior Vice President of Research, Labs, Technology & Society.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790121967",
     slug: "building-standards-for-the-next-phase-of-ai",
     title: "Building standards for the next phase of AI",
