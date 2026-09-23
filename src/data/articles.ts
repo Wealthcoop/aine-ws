@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790187478",
+    slug: "ringgs-ai-agents-resolve-up-to-65-of-customer-calls-wit",
+    title: "Ringg's AI agents resolve up to 65% of customer calls with OpenAI",
+    deck: "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-24T12:00:00Z",
+    updatedAt: "2026-09-24T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GP...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Ringg's AI agents resolve up to 65% of customer calls with OpenAI</strong>.</p>
+<p>Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/ringg", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790187479",
+    slug: "google-beam-expands-with-new-regions-partners-and-custo",
+    title: "Google Beam expands with new regions, partners, and customers",
+    deck: "We're expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T18:00:00Z",
+    updatedAt: "2026-09-23T18:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: We're expanding Google Beam to five new countries, and partnering with Industrious for an extended network....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>Google Beam expands with new regions, partners, and customers</strong>.</p>
+<p>We're expanding Google Beam to five new countries, and partnering with Industrious for an extended network.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-expansion/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790169962",
     slug: "openai-extends-cyber-access-to-ukraine-for-civilian-def",
     title: "OpenAI extends cyber access to Ukraine for civilian defense",
