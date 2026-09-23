@@ -56,7 +56,7 @@ export function VideoPlayer({
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
           </span>
           <span className="font-mono text-xs font-bold uppercase tracking-wider text-sky-400">
-            Executive Telemetry Briefing
+            Executive Video Briefing
           </span>
           <span className="text-slate-600 hidden sm:inline">•</span>
           <span className="text-xs text-slate-400 font-sans truncate max-w-xs hidden sm:inline">

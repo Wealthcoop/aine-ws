@@ -51,7 +51,7 @@ export default function EditorialPolicyPage() {
               Factual integrity is non-negotiable. Our reporters follow a three-tier verification protocol:
             </p>
             <ul className="mt-3 space-y-2 list-disc pl-5">
-              <li><strong>Empirical Telemetry:</strong> Whenever an algorithm update or latency claim is reported (e.g. speed-to-lead benchmarks, map-pack fluctuations), reporters must reference documented test methodology, sample size, and date range.</li>
+              <li><strong>Empirical Data &amp; Field Benchmarks:</strong> Whenever an algorithm update or latency claim is reported (e.g. speed-to-lead response times, map-pack ranking shifts), reporters must reference documented test methodology, sample size, and date range.</li>
               <li><strong>Primary Documentation:</strong> Claims attributing official statements or technical capabilities to platforms (such as Google, OpenAI, Anthropic, or the FCC) must directly link to official engineering blogs, patent filings, or public regulatory filings.</li>
               <li><strong>Corroboration:</strong> Breaking stories relying on anonymous industry insiders require at least two independent corroborating sources before editorial clearance is granted.</li>
             </ul>
@@ -69,7 +69,7 @@ export default function EditorialPolicyPage() {
             </p>
             <ul className="mt-3 space-y-2 text-sm text-sky-950 list-disc pl-5">
               <li><strong>Zero Synthetic Hallucination:</strong> AI News does not publish unverified, fully automated synthetic articles. All stories are drafted, reviewed, contextualized, and approved by named human journalists on our masthead.</li>
-              <li><strong>Automated Telemetry Tools:</strong> Our newsroom employs proprietary scrapers and RSS monitoring pipelines (such as our newsroom wire) to monitor public SERP indices, patent databases, and code releases. These tools surface raw signals; human editors synthesize and report the story.</li>
+              <li><strong>Automated Newsroom Pipelines:</strong> Our newsroom employs real-time RSS and wire monitoring pipelines to track public announcements, API releases, and model benchmarks. These tools surface raw signals; human editors synthesize and report the story.</li>
               <li><strong>Accountability:</strong> Byline authors take full professional and legal responsibility for every sentence, graphic, and metric appearing under their names.</li>
             </ul>
           </section>

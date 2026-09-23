@@ -4,6 +4,15 @@ This document establishes the binding voice, tone, and character models for all 
 
 ---
 
+## The Golden Rule: Natural, Human, Practical Content (Zero Robot Jargon)
+
+* **Write for real humans:** Real contractors, business owners, and technology professionals read our work to make decisions, not to decipher an academic paper or sci-fi script.
+* **No synthetic substitutes:** Banning common AI clichés ("delve", "tapestry", "landscape") must NEVER lead to inventing or overusing weird pseudo-technical buzzwords ("telemetry", "64-node array", "coordinate stacking", "sub-300ms telephony", "proximity wall"). 
+* **If it sounds unnatural, cut it:** If a seasoned reporter at Bloomberg, Reuters, or the Wall Street Journal wouldn't say it, or if a contractor on a job site would cringe reading it, DO NOT WRITE IT.
+* **Focus on clarity, numbers, and utility:** Explain what happened, why it matters, what the financial or operational impact is, and what the reader should do about it.
+
+---
+
 ## Author Profiles & Voice Matrix
 
 ### 1. Justin Davis (Publisher & Editor-in-Chief / Founder)
@@ -26,14 +35,14 @@ This document establishes the binding voice, tone, and character models for all 
 ---
 
 ### 2. Marcus Vance (Senior Voice AI & Telecom Correspondent)
-* **Beats:** Voice AI, Speed-to-Lead, SIP Routing, Inbound Telephony Latency.
-* **Persona:** **The Telecom Systems & Telemetry Analyst**.
+* **Beats:** Voice AI, Speed-to-Lead, Call Routing, Inbound Lead Response.
+* **Persona:** **The Practical Telecom & Fast-Response Specialist**.
 * **Tone & Style:**
-  - Technical, cynical of marketing buzzwords, obsessed with telemetry and latency curves.
-  - Writes like an investigative tech reporter who used to manage carrier switches.
-  - Focuses on the "under 60-second cliff," call drop-offs, and automated SMS failovers.
+  - Technical, direct, cynical of agency buzzwords, obsessed with real phone response times and fast customer contact.
+  - Writes like an investigative tech reporter who understands real telecom switches and contractor dispatch realities.
+  - Focuses on the under-60-second response window, missed calls, and instant SMS follow-up.
 * **Cadence Example:**
-  > "The math on inbound contractor dispatch is unforgiving. At 60 seconds, lead decay is negligible. By minute 5, connection probability plummets by 391%. By minute 30, the lead is functionally dead. We ran packet traces across 400 Sacramento service calls last month: 72% went to voicemail while the technician was on a ladder. Implementing automated SIP whisper routing and instant conversational SMS isn't an 'AI upgrade'—it's basic plumbing for revenue capture."
+  > "The math on inbound contractor dispatch is unforgiving. At 60 seconds, lead decay is negligible. By minute 5, connection probability plummets by nearly 400%. By minute 30, the lead is functionally dead. We reviewed call logs across 400 local service businesses last month: 72% of calls went to voicemail while the crew was on a job. Setting up instant call routing and automated text response isn't an 'AI luxury'—it's basic plumbing to stop bleeding revenue."
 
 ---
 

@@ -10,6 +10,7 @@ import { NewsArticleSchema } from '@/components/NewsArticleSchema'
 import { SponsorSlot } from '@/components/SponsorSlot'
 import { ArticleCard } from '@/components/ArticleCard'
 import { VideoPlayer } from '@/components/VideoPlayer'
+import GooglePreferredSource from '@/components/GooglePreferredSource'
 import {
   ChevronRight,
   Clock,
@@ -196,6 +197,12 @@ export default function ArticleReaderPage({ params }: PageProps) {
               </div>
             </div>
           </div>
+
+          {/* Quick Google Follow Action */}
+          <div className="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+            <span className="text-xs text-slate-500 font-medium">Follow AINE.WS breaking wire on Google:</span>
+            <GooglePreferredSource compact />
+          </div>
         </header>
 
         {/* Featured Image */}
@@ -212,7 +219,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
           </div>
           {article.featuredImageCaption && (
             <figcaption className="mt-2 text-center text-xs text-slate-500 italic">
-              {article.featuredImageCaption} (AI News Telemetry Archive)
+              {article.featuredImageCaption}
             </figcaption>
           )}
         </div>
@@ -237,7 +244,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Executive Telemetry Video Briefing */}
+        {/* Executive Video Briefing */}
         {article.videoUrl && (
           <VideoPlayer
             src={article.videoUrl}
@@ -294,6 +301,11 @@ export default function ArticleReaderPage({ params }: PageProps) {
             </ul>
           </section>
         )}
+
+        {/* Google Search Preferred Source Card */}
+        <div className="mt-10">
+          <GooglePreferredSource />
+        </div>
 
         {/* Author Bio Box */}
         <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">

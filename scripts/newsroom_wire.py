@@ -412,18 +412,18 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
     dateline = feed_source.get('dateline', 'WILMINGTON, Del.')
     source_name = feed_source['name']
 
-    # 6. Auto-generate 3 hard-hitting takeaways
+    # 6. Generate 3 informative, story-specific takeaways
     takeaways = [
-        f"Official disclosure verified via {source_name} technical communication channels.",
-        f"Deployment benchmarks emphasize accelerated execution speed, developer availability, and model reasoning integrity.",
-        "System architects are evaluating enterprise integration timelines across production AI pipelines."
+        f"Verified announcement published directly by {source_name}.",
+        f"Key focus: {repaired_deck[:110]}...",
+        "Full technical documentation and release notes are available in the official disclosure linked below."
     ]
 
-    # 7. Auto-format clean AP-style body HTML
-    content_html = f"""<p class="lead"><strong>{dateline}</strong> — {source_name} has officially issued a technical release detailing major operational updates: <strong>{repaired_title}</strong>.</p>
+    # 7. Auto-format clean, readable journalistic body HTML
+    content_html = f"""<p class="lead"><strong>{dateline}</strong> — {source_name} has announced key updates regarding <strong>{repaired_title}</strong>.</p>
 <p>{repaired_deck}</p>
-<p>Search engineers and enterprise systems architects are assessing the architectural implications of this update. Across commercial environments, benchmark verification and structured API performance remain paramount as autonomous multi-step reasoning capabilities expand.</p>
-<p>Full implementation specifications and public test documentation are accessible directly via the primary disclosure below.</p>"""
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>"""
 
     article = {
         "id": f"wire-{int(datetime.now().timestamp())}",
@@ -436,7 +436,7 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
         "updatedAt": repaired_date,
         "readingTimeMinutes": 4,
         "featuredImage": chosen_image,
-        "featuredImageCaption": f"Industry technological intelligence documented via {source_name} public disclosures.",
+        "featuredImageCaption": f"Documentation and technical briefing released by {source_name}.",
         "isBreaking": True,
         "isFeatured": False,
         "keyTakeaways": takeaways,

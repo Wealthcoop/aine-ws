@@ -123,14 +123,14 @@ export default function AboutPage() {
           </p>
           <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc pl-5">
             <li><strong>Original Source Citation:</strong> We do not publish second-hand rumors. All claims link to original research, API documentation, or named on-the-record witnesses.</li>
-            <li><strong>Rigorous Human Oversight:</strong> While automated data pipelines assist in telemetry monitoring, every published story is written, fact-checked, and approved by human editors.</li>
+            <li><strong>Rigorous Human Oversight:</strong> While automated feeds assist in monitoring public disclosures, every published story is written, fact-checked, and approved by human editors.</li>
             <li><strong>Clear Separation of Editorial &amp; Commercial Interests:</strong> Advertisers and sponsors have zero influence over beat coverage, investigative targets, or algorithmic ratings.</li>
           </ul>
         </div>
 
         {/* Corporate Headquarters */}
         <div className="mt-14 border-t border-slate-200 pt-8">
-          <h3 className="font-sans text-lg font-bold text-slate-900">Corporate &amp; Bureau Coordinates</h3>
+          <h3 className="font-sans text-lg font-bold text-slate-900">Corporate &amp; Bureau Offices</h3>
           <div className="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 text-sm text-slate-600">
             <div>
               <p className="font-semibold text-slate-900">{SITE_CONFIG.legalName}</p>

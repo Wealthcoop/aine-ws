@@ -34,9 +34,9 @@ export function Footer() {
             <div className="flex items-start gap-3">
               <FileText className="h-6 w-6 text-amber-400 shrink-0 mt-0.5" />
               <div>
-                <h4 className="text-sm font-bold text-white">Autonomous &amp; Empirical Standards</h4>
+                <h4 className="text-sm font-bold text-white">Independent &amp; Grounded Standards</h4>
                 <p className="mt-1 text-xs text-slate-400 leading-relaxed">
-                  We cover AI, telephony, and local search based on measurable latency, code audits, and empirical algorithm telemetry.
+                  We cover AI, telephony, and local search based on measurable benchmarks, verified code audits, and live field data.
                 </p>
               </div>
             </div>
@@ -139,6 +139,16 @@ export function Footer() {
                 <Link href="/privacy-policy" className="hover:text-white transition block">
                   Privacy Policy (GDPR / CCPA)
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/preferences/source?q=aine.ws"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition block text-sky-400 font-semibold"
+                >
+                  Follow on Google (Preferred Source)
+                </a>
               </li>
               <li>
                 <Link href="/terms" className="hover:text-white transition block">
