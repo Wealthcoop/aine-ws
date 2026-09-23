@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790203664",
+    slug: "two-years-of-openai-academy",
+    title: "Two years of OpenAI Academy",
+    deck: "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T16:00:00Z",
+    updatedAt: "2026-09-23T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Marking two years of OpenAI Academy and bringing AI skills to even more communities....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Two years of OpenAI Academy</strong>.</p>
+<p>Marking two years of OpenAI Academy and bringing AI skills to even more communities.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/two-years-of-openai-academy", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790203665",
+    slug: "recreating-a-70-year-love-story-frame-by-frame",
+    title: "Recreating a 70-year love story frame by frame",
+    deck: "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-09T16:00:00Z",
+    updatedAt: "2026-09-09T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>Recreating a 70-year love story frame by frame</strong>.</p>
+<p>Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film "Love, Rendered."</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790187478",
     slug: "ringgs-ai-agents-resolve-up-to-65-of-customer-calls-wit",
     title: "Ringg's AI agents resolve up to 65% of customer calls with OpenAI",
