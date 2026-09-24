@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790279507",
+    slug: "introducing-mentalhealthbench",
+    title: "Introducing MentalHealthBench",
+    deck: "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T10:00:00Z",
+    updatedAt: "2026-09-23T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realisti...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Introducing MentalHealthBench</strong>.</p>
+<p>MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-mentalhealthbench", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790279507",
+    slug: "3-new-ways-to-plan-and-book-travel-in-search",
+    title: "3 new ways to plan and book travel in Search",
+    deck: "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-27T16:00:00Z",
+    updatedAt: "2026-08-27T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>3 new ways to plan and book travel in Search</strong>.</p>
+<p>Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790260874",
     slug: "how-invideo-improves-color-grading-3x-with-gpt6-astra",
     title: "How invideo improves color grading 3x with GPT\u20116 Astra",
