@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790240714",
+    slug: "harvey-turns-legal-context-into-stronger-drafts-with-gp",
+    title: "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+    deck: "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T12:00:00Z",
+    updatedAt: "2026-09-23T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Harvey turns legal context into stronger drafts with GPT-6 Astra</strong>.</p>
+<p>GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/harvey-from-context-to-confidence-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790240714",
+    slug: "the-latest-ai-news-we-announced-in-august-2026",
+    title: "The latest AI news we announced in August 2026",
+    deck: "Here are Google's latest AI updates from August 2026",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-01T20:45:00Z",
+    updatedAt: "2026-09-01T20:45:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Here are Google's latest AI updates from August 2026...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>The latest AI news we announced in August 2026</strong>.</p>
+<p>Here are Google's latest AI updates from August 2026</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790221326",
     slug: "sam-altmans-remarks-at-the-united-nations-security-coun",
     title: "Sam Altman's remarks at the United Nations Security Council",
