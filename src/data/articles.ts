@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790221326",
+    slug: "sam-altmans-remarks-at-the-united-nations-security-coun",
+    title: "Sam Altman's remarks at the United Nations Security Council",
+    deck: "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T12:00:00Z",
+    updatedAt: "2026-09-23T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the Unit...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Sam Altman's remarks at the United Nations Security Council</strong>.</p>
+<p>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/sam-altman-un-security-council-remarks", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790221326",
+    slug: "proactive-cyber-defense-for-governments-and-enterprises",
+    title: "Proactive cyber defense for governments and enterprises",
+    deck: "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-02T15:40:00Z",
+    updatedAt: "2026-09-02T15:40:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>Proactive cyber defense for governments and enterprises</strong>.</p>
+<p>The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790203664",
     slug: "two-years-of-openai-academy",
     title: "Two years of OpenAI Academy",
