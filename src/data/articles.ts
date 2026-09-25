@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790348576",
+    slug: "introducing-the-australian-youth-safety-blueprint",
+    title: "Introducing the Australian Youth Safety Blueprint",
+    deck: "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-18T12:00:00Z",
+    updatedAt: "2026-09-18T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that pr...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Introducing the Australian Youth Safety Blueprint</strong>.</p>
+<p>OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/australian-youth-safety-blueprint", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790348577",
+    slug: "anthropics-claude-spots-an-unexplained-system-in-viral",
+    title: "Anthropic's Claude spots an unexplained system in viral DNA - The Rundown AI",
+    deck: "Anthropic's Claude spots an unexplained system in viral DNA The Rundown AI",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-25T14:47:02Z",
+    updatedAt: "2026-09-25T14:47:02Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's Claude spots an unexplained system in viral DNA The Rundown AI...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Anthropic's Claude spots an unexplained system in viral DNA - The Rundown AI</strong>.</p>
+<p>Anthropic's Claude spots an unexplained system in viral DNA The Rundown AI</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QcUhjNjQxdVFmRGM4Z2JNY29GZVN3VEJIbzZfUjZSUG4wLXZrXzU5eDBYNU9RQlhQUHM4THVFNE1IUmJ1Q0k0ZlY0X3FqLVVxbUV3NDdreGRFbFFITk5xd2tNZFVZcnVvVTlkcDJ6TVpfcVE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790328753",
     slug: "v7-cuts-costs-78-while-boosting-accuracy-with-gpt-56-lu",
     title: "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
