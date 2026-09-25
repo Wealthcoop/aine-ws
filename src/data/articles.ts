@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790366031",
+    slug: "proaction-boosts-sales-60-and-saves-75-hours-with-codex",
+    title: "Proaction boosts sales 60% and saves 75+ hours with Codex",
+    deck: "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-25T19:00:00Z",
+    updatedAt: "2026-09-25T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Proaction boosts sales 60% and saves 75+ hours with Codex</strong>.</p>
+<p>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/proaction", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790366032",
+    slug: "measurements-for-understanding-the-pace-of-ai-developme",
+    title: "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
+    deck: "Measurements for understanding the pace of AI development inside frontier labs Anthropic",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-25T19:25:19Z",
+    updatedAt: "2026-09-25T19:25:19Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Measurements for understanding the pace of AI development inside frontier labs Anthropic...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Measurements for understanding the pace of AI development inside frontier labs - Anthropic</strong>.</p>
+<p>Measurements for understanding the pace of AI development inside frontier labs Anthropic</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790348576",
     slug: "introducing-the-australian-youth-safety-blueprint",
     title: "Introducing the Australian Youth Safety Blueprint",
