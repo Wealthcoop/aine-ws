@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790328753",
+    slug: "v7-cuts-costs-78-while-boosting-accuracy-with-gpt-56-lu",
+    title: "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
+    deck: "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-21T00:00:00Z",
+    updatedAt: "2026-09-21T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna</strong>.</p>
+<p>Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/v7", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790328753",
+    slug: "get-closer-to-the-game-with-gemini-and-pixel",
+    title: "Get closer to the game with Gemini and Pixel",
+    deck: "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-17T08:00:00Z",
+    updatedAt: "2026-08-17T08:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>Get closer to the game with Gemini and Pixel</strong>.</p>
+<p>Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790308688",
     slug: "grab-and-openai-bring-practical-ai-skills-to-southeast",
     title: "Grab and OpenAI bring practical AI skills to Southeast Asia",
