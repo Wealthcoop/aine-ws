@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790308688",
+    slug: "grab-and-openai-bring-practical-ai-skills-to-southeast",
+    title: "Grab and OpenAI bring practical AI skills to Southeast Asia",
+    deck: "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-23T00:00:00Z",
+    updatedAt: "2026-09-23T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI ski...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Grab and OpenAI bring practical AI skills to Southeast Asia</strong>.</p>
+<p>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/grab-openai-ai-skills-southeast-asia", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790308688",
+    slug: "5-new-ways-to-level-up-your-learning-with-search",
+    title: "5 new ways to level up your learning with Search",
+    deck: "Here's how you can use Google Search tools to study for classes and standardized tests.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-19T19:00:00Z",
+    updatedAt: "2026-08-19T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Here's how you can use Google Search tools to study for classes and standardized tests....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> — Google AI News has announced key updates regarding <strong>5 new ways to level up your learning with Search</strong>.</p>
+<p>Here's how you can use Google Search tools to study for classes and standardized tests.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790291077",
     slug: "airbnb-widens-access-to-gpt-6-astra-and-openai-frontier",
     title: "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
