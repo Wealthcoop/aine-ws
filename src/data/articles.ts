@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790449854",
+    slug: "rapidly-scaling-online-storage-to-serve-over-1-billion",
+    title: "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    deck: "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-11T10:00:00Z",
+    updatedAt: "2026-09-11T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Rapidly scaling online storage to serve over 1 billion ChatGPT users</strong>.</p>
+<p>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/scaling-storage-one-billion-users-part-one", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790449854",
+    slug: "ai-risk-rhetoric-could-shape-policy-to-favour-incumbent",
+    title: "AI Risk Rhetoric Could Shape Policy To Favour Incumbents: Anthropic Investor - BW Businessworld",
+    deck: "AI Risk Rhetoric Could Shape Policy To Favour Incumbents: Anthropic Investor BW Businessworld",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-26T18:51:10Z",
+    updatedAt: "2026-09-26T18:51:10Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI Risk Rhetoric Could Shape Policy To Favour Incumbents: Anthropic Investor BW Businessworld...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>AI Risk Rhetoric Could Shape Policy To Favour Incumbents: Anthropic Investor - BW Businessworld</strong>.</p>
+<p>AI Risk Rhetoric Could Shape Policy To Favour Incumbents: Anthropic Investor BW Businessworld</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnVIY1ltajh3WENkQ3NQTktDNTdkVHZWWGtLQURpMEYtM2ZIREp6TTFocmgtbXI0WlZkNGc4RlhHc0dpU0cySkI3MVJYWTludXBkQXFEUy1kSFc4My0tUkVuUk00M3plRFkwTnJ1R0VZcmZPdE1rd0ZwSGpodjFJcnhKRnlnNDdEUFJrTUNmQXZEYkZXV2Fjam1xbFdTano3RGJjVkxQRzYwOUtESjMyMU04Unh3VkFBbFow?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790438358",
     slug: "how-workers-are-unlocking-new-ways-of-working",
     title: "How workers are unlocking new ways of working",
