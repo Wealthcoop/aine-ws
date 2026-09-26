@@ -20,7 +20,7 @@ export const ARTICLES: NewsArticle[] = [
           "Key focus: New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become...",
           "Full technical documentation and release notes are available in the official disclosure linked below."
     ],
-    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>How workers are unlocking new ways of working</strong>.</p>
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong>  -  OpenAI Official News has announced key updates regarding <strong>How workers are unlocking new ways of working</strong>.</p>
 <p>New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.</p>
 <p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
 <p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
@@ -47,7 +47,7 @@ export const ARTICLES: NewsArticle[] = [
           "Key focus: Google, OpenAI, Anthropic Plan Frontier AI Standards Body BankInfoSecurity...",
           "Full technical documentation and release notes are available in the official disclosure linked below."
     ],
-    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Google, OpenAI, Anthropic Plan Frontier AI Standards Body - BankInfoSecurity</strong>.</p>
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong>  -  Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Google, OpenAI, Anthropic Plan Frontier AI Standards Body - BankInfoSecurity</strong>.</p>
 <p>Google, OpenAI, Anthropic Plan Frontier AI Standards Body BankInfoSecurity</p>
 <p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
 <p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
@@ -74,7 +74,7 @@ export const ARTICLES: NewsArticle[] = [
           "Key focus: OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six report...",
           "Full technical documentation and release notes are available in the official disclosure linked below."
     ],
-    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Our framework for reporting model misalignment</strong>.</p>
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong>  -  OpenAI Official News has announced key updates regarding <strong>Our framework for reporting model misalignment</strong>.</p>
 <p>OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</p>
 <p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
 <p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
@@ -101,7 +101,7 @@ export const ARTICLES: NewsArticle[] = [
           "Key focus: US court sides with Pentagon in Anthropic AI ban The Standard (HK)...",
           "Full technical documentation and release notes are available in the official disclosure linked below."
     ],
-    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>US court sides with Pentagon in Anthropic AI ban - The Standard (HK</strong>.</p>
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong>  -  Anthropic Wire (Google News 1h) has announced key updates regarding <strong>US court sides with Pentagon in Anthropic AI ban - The Standard (HK</strong>.</p>
 <p>US court sides with Pentagon in Anthropic AI ban The Standard (HK)</p>
 <p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
 <p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
