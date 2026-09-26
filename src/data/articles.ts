@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790461701",
+    slug: "cognition-helps-devin-test-its-own-work-with-gpt6-astra",
+    title: "Cognition helps Devin test its own work with GPT\u20116 Astra",
+    deck: "GPT\u20116 Astra improves Devin's ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-11T16:00:00Z",
+    updatedAt: "2026-09-11T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT\u20116 Astra improves Devin's ability to test software and show that it works, with the goal of helping enginee...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Cognition helps Devin test its own work with GPT‑6 Astra</strong>.</p>
+<p>GPT‑6 Astra improves Devin's ability to test software and show that it works, with the goal of helping engineers review less code and ship more.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/cognition-devin-testing-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790461702",
+    slug: "as-ai-makes-law-firms-more-efficient-clients-ask-wheres",
+    title: "As A.I. Makes Law Firms More Efficient, Clients Ask: 'Where's My Discount?' - The New York Times",
+    deck: "As A.I. Makes Law Firms More Efficient, Clients Ask: 'Where's My Discount?' The New York Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-26T21:35:53Z",
+    updatedAt: "2026-09-26T21:35:53Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: As A.I. Makes Law Firms More Efficient, Clients Ask: 'Where's My Discount?' The New York Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>As A.I. Makes Law Firms More Efficient, Clients Ask: 'Where's My Discount?' - The New York Times</strong>.</p>
+<p>As A.I. Makes Law Firms More Efficient, Clients Ask: 'Where's My Discount?' The New York Times</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3Jub1NoeFN0N3RLRlFSdk5lenpQUTYtMEc1dGRTY2xkRjVpSXIwQ3c5SWdtMTV2M2g0NUE1Z2NldFhoYktSSFhQSzd2WEdtVXpSM2gxcFB3N29QNkh3TmZ2b0JSY0pEUDJyU2ptRFlBb3g3ZWs0OGJiTFlqOHVOdGNHN0lrdlEyNFZ2SkdWYkQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790449854",
     slug: "rapidly-scaling-online-storage-to-serve-over-1-billion",
     title: "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
