@@ -51,7 +51,7 @@ export default function CorrectionsPolicyPage() {
               Our Commitment to Immediate Rectification
             </h2>
             <p className="mt-3">
-              We distinguish between minor typographical errata and substantive factual errors. Typographical fixes that do not alter the meaning of a report are corrected directly in the content management system. Substantive errors—such as incorrect metrics, misattributed statements, or flawed legal interpretations—require:
+              We distinguish between minor typographical errata and substantive factual errors. Typographical fixes that do not alter the meaning of a report are corrected directly in the content management system. Substantive errors, such as incorrect metrics, misattributed statements, or flawed legal interpretations, require:
             </p>
             <ul className="mt-3 space-y-2 list-disc pl-5">
               <li>Immediate factual verification by the beat editor or Editor-in-Chief.</li>
