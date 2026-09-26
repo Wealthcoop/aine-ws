@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790395394",
+    slug: "hex-turns-complex-analysis-into-visual-reports-with-gpt",
+    title: "Hex turns complex analysis into visual reports with GPT\u20116 Astra",
+    deck: "GPT-6 Astra helps Hex's data agents turn answers into interactive visualizations that employees are proud to share.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-16T12:00:00Z",
+    updatedAt: "2026-09-16T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra helps Hex's data agents turn answers into interactive visualizations that employees are proud to s...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Hex turns complex analysis into visual reports with GPT‑6 Astra</strong>.</p>
+<p>GPT-6 Astra helps Hex's data agents turn answers into interactive visualizations that employees are proud to share.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/hex-gpt-6-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790395395",
+    slug: "federal-court-says-pentagon-can-label-anthropic-a-suppl",
+    title: "Federal court says Pentagon can label Anthropic a supply chain risk - GreenevilleSun.com",
+    deck: "Federal court says Pentagon can label Anthropic a supply chain risk GreenevilleSun.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-26T03:30:00Z",
+    updatedAt: "2026-09-26T03:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Federal court says Pentagon can label Anthropic a supply chain risk GreenevilleSun.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Federal court says Pentagon can label Anthropic a supply chain risk - GreenevilleSun.com</strong>.</p>
+<p>Federal court says Pentagon can label Anthropic a supply chain risk GreenevilleSun.com</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPS0pscFJNQk10cFdBcVZXTk1IUElqSWgzU0U4X0RiQ1BLM1ZTREFkWTVRSTVibnp6eWNmMnVLa2hTRVdWYXJRa2FUSDlXR0loTDRaTmwxVU82dW9jUE52NmNTdTFDbUdoUUxUX0xIMlMzTTh6a3YxX21WclU5UW5YY0FCc1Vaak8wZ0RLU2pRQ05DemE3RzJWQjlrek1IOFR3WlNMTm5Cam5zQjR4RGJrUWNWb2h6SlFaNHpqdTRWNk1rYXl0aUxUdXJja2tkc2JGeXdwaEY4NGNVRnhfeTZ6dzQxTXNhY1ZzempfYnNlbEFjMmlESVRGcHI0dDlYQQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790377774",
     slug: "introducing-astra-for-law",
     title: "Introducing Astra for Law",
