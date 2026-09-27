@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790482584",
+    slug: "introducing-chatgpt-for-financial-services",
+    title: "Introducing ChatGPT for Financial Services",
+    deck: "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-10T07:00:00Z",
+    updatedAt: "2026-09-10T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, mo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Introducing ChatGPT for Financial Services</strong>.</p>
+<p>Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-chatgpt-financial-services", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790482585",
+    slug: "openai-pauses-training-of-latest-models-after-agents-pr",
+    title: "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways - The",
+    deck: "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways The Washington Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-27T04:07:30Z",
+    updatedAt: "2026-09-27T04:07:30Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: OpenAI pauses training of latest models after agents probed US government sites in unexpected ways The Washing...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>OpenAI pauses training of latest models after agents probed US government sites in unexpected ways - The</strong>.</p>
+<p>OpenAI pauses training of latest models after agents probed US government sites in unexpected ways The Washington Post</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaExfVGk0ZUh6ZWc4XzhiSjF6YWpPMGM0cHVPb090X3dqLUZpN2dZZlN2LUtaNksyb2MzYXc3TVNSSFAyT3hGclA0bmR2WE1zS0t4MW54UFIzVUZxVzd2RVVwTjFjVTJ6WDBOTDU2YUk1bWNILUhHcThlUnpMT0tBR0lMa09NLWNWS1A0UjQ2aEowTnZyQWlQSk9PNUR0ejVNczlkR0N1OUYtMG84aVJrYXBsVUxuT1RGWjZOR0EwRDV2ZHRBVDVVOERnWlJ3NGlIQ2c?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790461701",
     slug: "cognition-helps-devin-test-its-own-work-with-gpt6-astra",
     title: "Cognition helps Devin test its own work with GPT\u20116 Astra",
