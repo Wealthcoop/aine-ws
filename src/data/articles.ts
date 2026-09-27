@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790542968",
+    slug: "gpt-6-astra-the-next-generation-in-intelligence-for-wor",
+    title: "GPT-6 Astra: The next generation in intelligence for work",
+    deck: "Meet GPT-6 Astra, OpenAI's most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-09T11:00:00Z",
+    updatedAt: "2026-09-09T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Meet GPT-6 Astra, OpenAI's most capable model for business, with advanced reasoning, computer use, and stronge...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>GPT-6 Astra: The next generation in intelligence for work</strong>.</p>
+<p>Meet GPT-6 Astra, OpenAI's most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-6-astra-next-generation-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790542968",
+    slug: "anthropics-ceo-is-about-to-have-dinner-with-president-t",
+    title: "Anthropic's CEO is about to have dinner with President Trump",
+    deck: "Anthropic's CEO is about to have dinner with President Trump TechCrunch",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-27T20:34:28Z",
+    updatedAt: "2026-09-27T20:34:28Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's CEO is about to have dinner with President Trump TechCrunch...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Anthropic's CEO is about to have dinner with President Trump</strong>.</p>
+<p>Anthropic's CEO is about to have dinner with President Trump TechCrunch</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUhaZ0QyUEIyRFpKalV4WHdSU05uU3ZZVVpFenpKNk9aNEgwT19kVTJXLXZpR192RFhPUkxKLXVFZHlmSzM1SmFrSGFfdnUzWXJFNjRfVHpoRGZkaDY3c0dJak44LXRiT2pCMHk1SDJaUElPaDVIT3V3UWxBWmRFRW9kYVJHVEN6Zk1uamNWcGxFcVJNWHJLMDBn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790526959",
     slug: "build-more-natural-voice-experiences-with-gptlive1-in-t",
     title: "Build more natural voice experiences with GPT\u2011Live\u20111 in the API",
