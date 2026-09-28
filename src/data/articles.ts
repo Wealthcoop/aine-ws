@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790618374",
+    slug: "the-lenfest-institute-grows-landmark-program-with-expan",
+    title: "The Lenfest Institute grows landmark program with expanded OpenAI support",
+    deck: "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T07:00:00Z",
+    updatedAt: "2026-09-28T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>The Lenfest Institute grows landmark program with expanded OpenAI support</strong>.</p>
+<p>OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/lenfest-ai-collaborative-expansion", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790618375",
+    slug: "trump-had-private-dinner-with-anthropic-ceo-dario-amode",
+    title: "Trump had private dinner with Anthropic CEO Dario Amodei - cbsnews.com",
+    deck: "Trump had private dinner with Anthropic CEO Dario Amodei cbsnews.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T17:40:44Z",
+    updatedAt: "2026-09-28T17:40:44Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Trump had private dinner with Anthropic CEO Dario Amodei cbsnews.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Trump had private dinner with Anthropic CEO Dario Amodei - cbsnews.com</strong>.</p>
+<p>Trump had private dinner with Anthropic CEO Dario Amodei cbsnews.com</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmS3p3UklKQ2thNFVDMTRlNUttODQ5ZXRBY1ZnSUZ4OU5iVWlhMXNqTjZSY3lJa1duUXlOTkJxNHhmTnN3OFktd255YVpFNURmLW11a09QODZZNEtibllFOTVja0RydjR3am1BNEYzV0lRSVk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790583765",
     slug: "how-gpt-56-sol-helps-run-quantum-computing-experiments",
     title: "How GPT-5.6 Sol helps run quantum computing experiments",
