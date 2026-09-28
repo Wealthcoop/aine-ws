@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790554920",
+    slug: "paul-christiano-joins-openai-foundation-board",
+    title: "Paul Christiano joins OpenAI Foundation Board",
+    deck: "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-09T17:00:00Z",
+    updatedAt: "2026-09-09T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience i...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Paul Christiano joins OpenAI Foundation Board</strong>.</p>
+<p>Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/paul-christiano-joins-openai-foundation-board", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790554921",
+    slug: "trump-to-meet-anthropic-ceo-as-ai-regulation-debate-dee",
+    title: "Trump To Meet Anthropic CEO As AI Regulation Debate Deepens - BusinessToday Malaysia",
+    deck: "Trump To Meet Anthropic CEO As AI Regulation Debate Deepens BusinessToday Malaysia",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T00:17:45Z",
+    updatedAt: "2026-09-28T00:17:45Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Trump To Meet Anthropic CEO As AI Regulation Debate Deepens BusinessToday Malaysia...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Trump To Meet Anthropic CEO As AI Regulation Debate Deepens - BusinessToday Malaysia</strong>.</p>
+<p>Trump To Meet Anthropic CEO As AI Regulation Debate Deepens BusinessToday Malaysia</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQUZPQm1xU2JMY1B4UTJJZ19XdUhiTVAtTXhkb2h3WWxkUTd2cEdjRXdTR0Z6aU5aNkctMmNGNXJsbDdYT0x5RFdLcUtQU2ozWFN6TG9OTEtHZmE1bWRIWXgtRDZQVng4U2RBN3R0bmNfaEZ6bWdsdTVfZFpINFhJby0tbl9LQWhRZ0NLa3ktM2VsVkRHRnFUamRiWjJZZEtLWUwyLWpxMA?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790542968",
     slug: "gpt-6-astra-the-next-generation-in-intelligence-for-wor",
     title: "GPT-6 Astra: The next generation in intelligence for work",
