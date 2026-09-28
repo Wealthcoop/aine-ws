@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790637121",
+    slug: "basis-completes-a-tax-workbook-2x-faster-with-gpt-6-ast",
+    title: "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+    deck: "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T00:00:00Z",
+    updatedAt: "2026-09-28T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of us...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Basis completes a tax workbook 2x faster with GPT-6 Astra</strong>.</p>
+<p>GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/basis-tax-workbook-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790637121",
+    slug: "anthropic-brings-claude-lesson-planning-to-68000-ghana",
+    title: "Anthropic brings Claude lesson planning to 68,000 Ghana teachers | ETIH EdTech News - EdTech Innovation Hub",
+    deck: "Anthropic brings Claude lesson planning to 68,000 Ghana teachers | ETIH EdTech News EdTech Innovation Hub",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T23:06:03Z",
+    updatedAt: "2026-09-28T23:06:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic brings Claude lesson planning to 68,000 Ghana teachers | ETIH EdTech News EdTech Innovation Hub...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Anthropic brings Claude lesson planning to 68,000 Ghana teachers | ETIH EdTech News - EdTech Innovation Hub</strong>.</p>
+<p>Anthropic brings Claude lesson planning to 68,000 Ghana teachers | ETIH EdTech News EdTech Innovation Hub</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbUZQUjM2YzB0UTdVZ1Z1dFdmeXhJczdLUEFyWGgzQzRvSFlrX2dzMnczakxRaWtxSG00X2VxUXlKTVZuc09vdTA4bGg2dkJiX2U4Y2tBWGVKcVowM21oWGs5UVhhQ2NYSEU5MTBUN3ZuZ0ZmMkpYSGY2X2NMZGJJcmQ0QWM1bjEzSmRfU2Q2aHM5VDNxZlhNZGdLaGpwaFpBYUdaMlRVUWtkUG42V0Z6N0xBZW9OS2VtZXB2Snln?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790618374",
     slug: "the-lenfest-institute-grows-landmark-program-with-expan",
     title: "The Lenfest Institute grows landmark program with expanded OpenAI support",
