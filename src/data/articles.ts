@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790583765",
+    slug: "how-gpt-56-sol-helps-run-quantum-computing-experiments",
+    title: "How GPT-5.6 Sol helps run quantum computing experiments",
+    deck: "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-08T17:00:00Z",
+    updatedAt: "2026-09-08T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analy...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>How GPT-5.6 Sol helps run quantum computing experiments</strong>.</p>
+<p>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/codex-quantum-computing-experiments", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790583766",
+    slug: "could-akamais-116-billion-tie-up-with-anthropic-be-as-b",
+    title: "Could Akamai's $11.6 billion tie-up with Anthropic be as big an AI security tipping point as Project Glasswing?",
+    deck: "Could Akamai's $11.6 billion tie-up with Anthropic be as big an AI security tipping point as Project Glasswing? diginomica",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-28T07:35:01Z",
+    updatedAt: "2026-09-28T07:35:01Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Could Akamai's $11.6 billion tie-up with Anthropic be as big an AI security tipping point as Project Glasswing...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Could Akamai's $11.6 billion tie-up with Anthropic be as big an AI security tipping point as Project Glasswing?</strong>.</p>
+<p>Could Akamai's $11.6 billion tie-up with Anthropic be as big an AI security tipping point as Project Glasswing? diginomica</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXFuVXB0RXBWLVlaTlJTX2xwRjg3dU53TGJMaDdrSjVXcGFReGhmWEFnQ21LQ0FsbFMwTHVqV2lpYzdJYXAwZk9hNWoxS2YxVnNkTS1fSmYyOG9RNEJIcmFWWFFMUlhaa0JqVmp0R2ljVzNnQTkxbGE0WE9NYkJ1VHRFOU1GNFZ6U3VZTDhSaXdGMUpQSE5oNGgyQmVzdzJnNzFnRWtkU3B4MFBkU2VwWjQ5dw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790554920",
     slug: "paul-christiano-joins-openai-foundation-board",
     title: "Paul Christiano joins OpenAI Foundation Board",
