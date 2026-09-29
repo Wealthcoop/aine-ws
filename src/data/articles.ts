@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790684454",
+    slug: "openai-expands-initiatives-to-support-journalism-from-c",
+    title: "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    deck: "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-08T11:00:00Z",
+    updatedAt: "2026-09-08T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, jou...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>OpenAI expands initiatives to support journalism from classrooms to newsrooms</strong>.</p>
+<p>OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790684454",
+    slug: "whats-in-anthropics-ipo-filing-the-new-york-times",
+    title: "What's In Anthropic's I.P.O. Filing - The New York Times",
+    deck: "What's In Anthropic's I.P.O. Filing The New York Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-29T11:58:36Z",
+    updatedAt: "2026-09-29T11:58:36Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: What's In Anthropic's I.P.O. Filing The New York Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>What's In Anthropic's I.P.O. Filing - The New York Times</strong>.</p>
+<p>What's In Anthropic's I.P.O. Filing The New York Times</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZS1LM2l5WFJ4SVlnOTFVNmlhSm54RUlXZktOeUJUeDlsRDFwa2I0Rm9adE9qUG9rQ0lMN0p2Q1ZYZ2M5dDd3TW9DSllQNkt5ZWhMYm52VGFIdm1MWVVnZmhhaUNlMUI0Z0QxTlo3empUaGItYW84ZXpaaFBxb2xIMGtYQmRvT2k0?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790657317",
     slug: "how-we-will-do-better-for-australia",
     title: "How we will do better for Australia",
