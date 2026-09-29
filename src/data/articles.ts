@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790724696",
+    slug: "introducing-gpt-61-sol-architecture-and-benchmark-analy",
+    title: "Introducing GPT-6.1 Sol: Architecture and Benchmark Analysis",
+    deck: "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra's standard API input and output token prices.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-29T10:00:00Z",
+    updatedAt: "2026-09-29T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astr...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Introducing GPT-6.1 Sol: Architecture and Benchmark Analysis</strong>.</p>
+<p>Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra's standard API input and output token prices.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-gpt-6-1-sol", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790724697",
+    slug: "trump-ai-ceos-sign-voluntary-safety-pact-back-data-cent",
+    title: "Trump, AI CEOs sign voluntary safety pact, back data center expansion",
+    deck: "Trump, AI CEOs sign voluntary safety pact, back data center expansion Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-29T22:45:58Z",
+    updatedAt: "2026-09-29T22:45:58Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Trump, AI CEOs sign voluntary safety pact, back data center expansion Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Trump, AI CEOs sign voluntary safety pact, back data center expansion</strong>.</p>
+<p>Trump, AI CEOs sign voluntary safety pact, back data center expansion Reuters</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbnRqUzdYZGRGeF82aU9Kc3BzNk9rLWZwTjJBNWhVNTRfcXU1UEtWWC1XNndCWGNHZDZhekREX2k4bUg1VjNNLUpMSV82U281RTJqMUZjMjFVRzhXaGZ1Q1B0TG9XWG9OVFBHSGZlZnZmX3lBcHp0a2Nrb3daZGliamtZY2kwNUEtRm9Mb092bDVxemtaVGlRME5WM2xXRHZOX25IQWk2cURXc09paHJVNEdmT1Q4UTg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790709066",
     slug: "devday-2026-recap-architecture-and-benchmark-analysis",
     title: "DevDay 2026 Recap: Architecture and Benchmark Analysis",
