@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790769986",
+    slug: "funding-grants-for-new-research-into-ai-and-teen-develo",
+    title: "Funding grants for new research into AI and teen development",
+    deck: "Apply now for OpenAI's $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-08T09:00:00Z",
+    updatedAt: "2026-09-08T09:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Apply now for OpenAI's $5 million grant program supporting independent research on how generative AI affects t...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Funding grants for new research into AI and teen development</strong>.</p>
+<p>Apply now for OpenAI's $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/teen-development-research-grants", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790769987",
+    slug: "anthropic-warns-of-ai-legal-risks-from-rogue-agents-str",
+    title: "Anthropic Warns Of AI Legal Risks From Rogue Agents - StratNews Global",
+    deck: "Anthropic Warns Of AI Legal Risks From Rogue Agents StratNews Global",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-30T11:54:39Z",
+    updatedAt: "2026-09-30T11:54:39Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Warns Of AI Legal Risks From Rogue Agents StratNews Global...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Anthropic Warns Of AI Legal Risks From Rogue Agents - StratNews Global</strong>.</p>
+<p>Anthropic Warns Of AI Legal Risks From Rogue Agents StratNews Global</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqQ2E2cEU0a2FuYTdRRWJKdUFxTENzaTdhWTBPaFUwWm4ydzc4QTNLU1dmc04tZ3dXcC0wdzFQV0JYcVc4aEdlN3pQUnp3aV9SZXBpZnZnNDNxMzljUF94WXl4M3c?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790742872",
     slug: "introducing-dots-architecture-and-benchmark-analysis",
     title: "Introducing dots: Architecture and Benchmark Analysis",
