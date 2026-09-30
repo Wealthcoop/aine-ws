@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790742872",
+    slug: "introducing-dots-architecture-and-benchmark-analysis",
+    title: "Introducing dots: Architecture and Benchmark Analysis",
+    deck: "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-29T00:00:00Z",
+    updatedAt: "2026-09-29T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Lear...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Introducing dots: Architecture and Benchmark Analysis</strong>.</p>
+<p>Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-dots", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790742873",
+    slug: "the-crucial-things-anthropics-jumbo-risk-factors-wont-t",
+    title: "The crucial things Anthropic's jumbo 'risk factors' won't tell you - Financial Times",
+    deck: "The crucial things Anthropic's jumbo 'risk factors' won't tell you Financial Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-30T04:00:25Z",
+    updatedAt: "2026-09-30T04:00:25Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: The crucial things Anthropic's jumbo 'risk factors' won't tell you Financial Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>The crucial things Anthropic's jumbo 'risk factors' won't tell you - Financial Times</strong>.</p>
+<p>The crucial things Anthropic's jumbo 'risk factors' won't tell you Financial Times</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGxIVFVUbHBzc0d5SHFPLUUzUVYtb25iODMwV1BSaEU5YmJ0N1JwWHhYZjBRcWR2a0hETWtVaXQxWnJZZHpERExid1BhUVpNSFRnVU1XWDRQNjRYV0dXUV9keDRyNlhJcDB4eThtYy1Da0FLdjlWZGhfTmpqVVRSX1lfNHk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790724696",
     slug: "introducing-gpt-61-sol-architecture-and-benchmark-analy",
     title: "Introducing GPT-6.1 Sol: Architecture and Benchmark Analysis",
