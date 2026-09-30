@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790794342",
+    slug: "disrupting-a-coordinated-model-distillation-campaign",
+    title: "Disrupting a coordinated model-distillation campaign",
+    deck: "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-30T10:30:00Z",
+    updatedAt: "2026-09-30T10:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses again...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Disrupting a coordinated model-distillation campaign</strong>.</p>
+<p>Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790794343",
+    slug: "ftc-opens-probe-into-ai-giants-including-anthropic-and",
+    title: "FTC opens probe into AI giants including Anthropic and OpenAI",
+    deck: "FTC opens probe into AI giants including Anthropic and OpenAI Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-30T18:17:19Z",
+    updatedAt: "2026-09-30T18:17:19Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: FTC opens probe into AI giants including Anthropic and OpenAI Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>FTC opens probe into AI giants including Anthropic and OpenAI</strong>.</p>
+<p>FTC opens probe into AI giants including Anthropic and OpenAI Reuters</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzYzcTVSY1JmRld3cFRBRlRaX0w0YVZHTjU3NWVvVG5BcXFIZGFwdXViLXBLNnhJQ3d0RS13T2VURWdNQ19ySkJuVXNlV2NWX0E3LUExYUZQaFBsTTVEaC1NMXJtR0RGYlllQVotQmM3VlRaVmd2em04YWdzTXFkMjhsUlQ0b1JlcVJBRENNRFFBT1NLcU00YUtqU0N5LUlJa0YxaEhzdU1mR1lkUTJ0MFhLMjA3a1FJVlQ5RXpMOEIxdw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790769986",
     slug: "funding-grants-for-new-research-into-ai-and-teen-develo",
     title: "Funding grants for new research into AI and teen development",
