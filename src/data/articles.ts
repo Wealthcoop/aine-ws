@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790829955",
+    slug: "supporting-independent-journalism-in-ukraine",
+    title: "Supporting independent journalism in Ukraine",
+    deck: "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-07T00:00:00Z",
+    updatedAt: "2026-09-07T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, r...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Supporting independent journalism in Ukraine</strong>.</p>
+<p>OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/supporting-independent-journalism-in-ukraine", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790829956",
+    slug: "ftc-investigating-openai-and-anthropic-over-possible-ri",
+    title: "FTC investigating OpenAI and Anthropic over possible risks to consumers - Indianapolis Business Journal",
+    deck: "FTC investigating OpenAI and Anthropic over possible risks to consumers Indianapolis Business Journal",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-01T04:15:45Z",
+    updatedAt: "2026-10-01T04:15:45Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: FTC investigating OpenAI and Anthropic over possible risks to consumers Indianapolis Business Journal...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>FTC investigating OpenAI and Anthropic over possible risks to consumers - Indianapolis Business Journal</strong>.</p>
+<p>FTC investigating OpenAI and Anthropic over possible risks to consumers Indianapolis Business Journal</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWVZ2X200dlpnR0lQaDlkNUxJQUNrcGVBckRRZmRhQzNzejNiY1VEZG9KaUZtRHZzNXlNMGVPMjQ1M3dOQzVxUmMtSXZFLWhtekVQaGJrRXlXelk3cjktVE1oQWpDQVhHUTdBRWI2NGlGcFZWcHl1S1dNTGdLRWZwVnEybF8wamJiX3lvTWVPaUFtLTE3bE4yc0JrWGN0S0ZEN1VsZWUybFFlSzlKWWxKa0xuYkVvVlNKZzRoQ0Q4aFJMTlFoYzVMTzhMQWZrSWE0UkpZVzQtRzNyODQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790811159",
     slug: "helping-small-businesses-put-ai-to-work",
     title: "Helping small businesses put AI to work",
