@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790858390",
+    slug: "research-acceleration-the-view-inside-openai",
+    title: "Research acceleration: The view inside OpenAI",
+    deck: "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-06T08:00:00Z",
+    updatedAt: "2026-09-06T08:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>Research acceleration: The view inside OpenAI</strong>.</p>
+<p>Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/research-acceleration-view-inside-openai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790858391",
+    slug: "broadcom-to-lend-anthropic-up-to-42-billion-to-lease-it",
+    title: "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says - CNBC",
+    deck: "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-01T12:20:57Z",
+    updatedAt: "2026-10-01T12:20:57Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says - CNBC</strong>.</p>
+<p>Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says CNBC</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTDVlTE1GRTBsOGtKWlFMUEtqMV9hbFNDMXVBZ1kxeGkzT1hFOHRwcmJUdjZYMXZOeUExZVFyT19oeFZ0WktIY1BHVFJfX25MeGJOSkdRZTM0WWV0VGNIdUtkM1M2dUNYdmZsMDhkV0lBcDZBUmZ0eUtyYW1sMUl2VkdCR295NFA5N0N1MnpkN19nQdIBlwFBVV95cUxOWjJLbklNcUVaLXR6ekNvRmhpbm45Zi1sSEFlOG53eXpMSnJmX05YdURRN0ZiekU5Wk5oY3F2THpmR1ZOY0c2SThxTzh2Yk9jTzMyMFN5TUdzQndMQm9uejVOakdLb1QyeThUdjZiR2hac2t3MnFnMENUWlEyVEpJT3BqOUY1UnhiOE1mV0t5MW13NXBlOEVB?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790829955",
     slug: "supporting-independent-journalism-in-ukraine",
     title: "Supporting independent journalism in Ukraine",
