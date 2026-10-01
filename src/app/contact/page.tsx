@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react'
 import { Metadata } from 'next'
-import { ShieldCheck, Mail, MapPin, CheckCircle2, AlertCircle, Send, Lock } from 'lucide-react'
+import Link from 'next/link'
+import { ShieldCheck, Mail, MapPin, CheckCircle2, AlertCircle, Send, Lock, ChevronRight } from 'lucide-react'
 import { SITE_CONFIG } from '@/config/site'
 
 export default function ContactPage() {
@@ -49,7 +50,14 @@ export default function ContactPage() {
   return (
     <div className="bg-slate-50 py-12 lg:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        {/* Header Breadcrumb & Title */}
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-8">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
+          <ChevronRight className="h-3 w-3" />
+          <span className="font-semibold text-slate-900">Contact Newsroom</span>
+        </nav>
+
+        {/* Title & Desk Intro */}
         <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-sky-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-sky-800">
             <Lock className="h-3 w-3" /> Secure Editorial Desk

@@ -3,6 +3,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { SITE_CONFIG } from '@/config/site'
 
+import { ChevronRight } from 'lucide-react'
+
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: `Privacy policy and data governance practices of ${SITE_CONFIG.name}.`,
@@ -12,9 +14,44 @@ export const metadata: Metadata = {
 }
 
 export default function PrivacyPolicyPage() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_CONFIG.url}/privacy-policy#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Privacy Policy',
+            item: `${SITE_CONFIG.url}/privacy-policy`,
+          },
+        ],
+      },
+    ],
+  }
+
   return (
     <div className="bg-white py-12 lg:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
+          <ChevronRight className="h-3 w-3" />
+          <span className="font-semibold text-slate-900">Privacy Policy</span>
+        </nav>
+
         <h1 className="font-serif text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900">
           Privacy Policy
         </h1>

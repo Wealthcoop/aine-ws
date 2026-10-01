@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
-import { ShieldCheck, Award, MapPin, Mail, Globe, ArrowRight, ExternalLink, CheckCircle2, MessageSquare, Clock, Users, Wrench, Database } from 'lucide-react'
+import { ShieldCheck, Award, MapPin, Mail, Globe, ArrowRight, ExternalLink, CheckCircle2, MessageSquare, Clock, Users, Wrench, Database, ChevronRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About AI News | Algorithmic Search & Generative Engine Intelligence',
@@ -23,6 +23,24 @@ export default function AboutPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_CONFIG.url}/about#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'About',
+            item: `${SITE_CONFIG.url}/about`,
+          },
+        ],
+      },
       {
         '@type': 'AboutPage',
         '@id': `${SITE_CONFIG.url}/about#webpage`,
@@ -69,6 +87,13 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 flex flex-col gap-12">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
+          <ChevronRight className="h-3 w-3" />
+          <span className="font-semibold text-slate-900">About</span>
+        </nav>
+
         {/* Section 1: Header & Value Proposition */}
         <header className="border-b border-slate-200 pb-8 flex flex-col gap-4">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-slate-800 w-fit">

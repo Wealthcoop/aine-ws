@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { SITE_CONFIG } from '@/config/site'
-import { CheckCircle2, AlertCircle, ArrowRight } from 'lucide-react'
+import { CheckCircle2, AlertCircle, ArrowRight, ChevronRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Corrections Policy & Public Verification Log',
@@ -13,6 +13,30 @@ export const metadata: Metadata = {
 }
 
 export default function CorrectionsPolicyPage() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_CONFIG.url}/corrections-policy#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Corrections Policy',
+            item: `${SITE_CONFIG.url}/corrections-policy`,
+          },
+        ],
+      },
+    ],
+  }
+
   const correctionsLog = [
     {
       date: '2026-08-28',
@@ -30,7 +54,18 @@ export default function CorrectionsPolicyPage() {
 
   return (
     <div className="bg-white py-12 lg:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+          <Link href="/" className="hover:text-slate-900 transition">Home</Link>
+          <ChevronRight className="h-3 w-3" />
+          <span className="font-semibold text-slate-900">Corrections Policy</span>
+        </nav>
+
         {/* Header */}
         <div className="border-b border-slate-200 pb-8">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-amber-900">
