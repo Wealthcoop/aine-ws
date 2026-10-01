@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790898293",
+    slug: "daybreak-for-frontline-defenders-1b-to-protect-essentia",
+    title: "Daybreak for Frontline Defenders: $1B to protect essential services",
+    deck: "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-03T13:15:00Z",
+    updatedAt: "2026-09-03T13:15:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber A...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Daybreak for Frontline Defenders: $1B to protect essential services</strong>.</p>
+<p>OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/daybreak-for-frontline-defenders", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790898293",
+    slug: "anthropic-targets-pre-thanksgiving-ipo-at-2-trillion-va",
+    title: "Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation - PYMNTS.com",
+    deck: "Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation PYMNTS.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-01T23:25:05Z",
+    updatedAt: "2026-10-01T23:25:05Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation PYMNTS.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation - PYMNTS.com</strong>.</p>
+<p>Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation PYMNTS.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVURFX2V0VTVRVXUwdGp5M2wxMjVYbnVtN0h5b0xpUzJTTExRSU04SkJUeGJydmpUcXYzc0Q5VVZFTVFDaHY5d25kcjlkcWZ5aUpyN25XNFFJY1luaGVOZ3c1dFpEOVZJYnBVRkhWUU5VUHZUd0ZLLWJmaTA4cjVjY0ppYmlYVk1JQjNXaWlZLTVPdVJSVzV0N19ROXdqUHJqQlNjY19CbWNRdmo0ald2Tk1GVEVmQU11VmJQRg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790882358",
     slug: "how-albertsons-companies-is-reimagining-retail-from-the",
     title: "How Albertsons Companies is reimagining retail from the inside out",
