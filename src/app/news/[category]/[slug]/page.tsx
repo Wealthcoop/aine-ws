@@ -150,11 +150,11 @@ export default function ArticleReaderPage({ params }: PageProps) {
             )}
           </div>
 
-          <h1 className="mt-4 font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+          <h1 className="article-headline mt-4 font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
             {article.title}
           </h1>
 
-          <p className="mt-4 text-lg sm:text-xl text-slate-600 font-serif leading-relaxed">
+          <p className="article-deck mt-4 text-lg sm:text-xl text-slate-600 font-serif leading-relaxed">
             {article.deck}
           </p>
 
@@ -227,7 +227,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
 
         {/* Key Takeaways Callout */}
         {article.keyTakeaways && article.keyTakeaways.length > 0 && (
-          <div className="mt-8 rounded-2xl border border-sky-200 bg-sky-50/60 p-6 shadow-sm">
+          <div className="key-takeaways mt-8 rounded-2xl border border-sky-200 bg-sky-50/60 p-6 shadow-sm">
             <div className="flex items-center gap-2 text-sky-900 font-bold text-sm uppercase tracking-wider">
               <FileCheck className="h-4 w-4 text-sky-700" />
               <span>Key Editorial Takeaways</span>

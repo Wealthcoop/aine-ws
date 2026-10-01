@@ -107,6 +107,33 @@ FEED_SOURCES = [
         "authorId": "justin-davis",
         "dateline": "MOUNTAIN VIEW, Calif.",
         "type": "rss"
+    },
+    {
+        "id": "seroundtable-local",
+        "name": "Search Engine Roundtable (Maps & Local)",
+        "url": "https://www.seroundtable.com/category/google-maps/feed",
+        "category": "local-business",
+        "authorId": "marcus-vance",
+        "dateline": "NEW YORK",
+        "type": "rss"
+    },
+    {
+        "id": "google-gbp-wire",
+        "name": "Google Business Profile Breaking Wire",
+        "url": "https://news.google.com/rss/search?q=%22Google+Business+Profile%22+OR+%22Google+Maps%22+local+when:24h&hl=en-US&gl=US&ceid=US:en",
+        "category": "local-business",
+        "authorId": "marcus-vance",
+        "dateline": "MOUNTAIN VIEW, Calif.",
+        "type": "rss"
+    },
+    {
+        "id": "google-local-pack-wire",
+        "name": "Local SEO & Map Pack Wire",
+        "url": "https://news.google.com/rss/search?q=%22Local+SEO%22+OR+%22Local+Pack%22+OR+%22Local+Services+Ads%22+when:24h&hl=en-US&gl=US&ceid=US:en",
+        "category": "local-business",
+        "authorId": "marcus-vance",
+        "dateline": "SAN FRANCISCO",
+        "type": "rss"
     }
 ]
 
@@ -142,7 +169,9 @@ AI_KEYWORDS_REGEX = re.compile(
     r'\b(OpenAI|Anthropic|Google|DeepMind|Gemini|Claude|GPT|GPT-4|GPT-5|'
     r'Llama|Mistral|Hugging Face|Transformer|Weights|Benchmark|Reasoning|'
     r'Search Central|Algorithm|Core Update|Voice AI|Speed-to-Lead|'
-    r'Telephony|LLM|Agentic|Fine-Tuning|Multimodal|Sora|DeepSeek|Qwen|NVIDIA)\b',
+    r'Telephony|LLM|Agentic|Fine-Tuning|Multimodal|Sora|DeepSeek|Qwen|NVIDIA|'
+    r'Google Business Profile|GBP|Google Maps|Local SEO|Local Pack|Map Pack|'
+    r'Local Services Ads|AEO|GEO|Perplexity|SearchGPT|Generative Engine)\b',
     re.IGNORECASE
 )
 
@@ -379,6 +408,48 @@ def parse_feed_items(raw_xml):
         print(f"Warning: XML parsing error: {e}", file=sys.stderr)
     return items
 
+# ── You.com Real-Time News API Fetcher ───────────────────────────────────────
+def fetch_you_news(query, limit=5):
+    """
+    Fetches real-time breaking news stories directly from the You.com News API.
+    Activated when YOU_API_KEY or YDC_API_KEY environment variable is configured.
+    """
+    api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY")
+    if not api_key:
+        return []
+
+    url = f"https://api.ydc-index.io/news?query={urllib.parse.quote(query)}&count={limit}"
+    req = urllib.request.Request(
+        url,
+        headers={
+            'X-API-Key': api_key,
+            'User-Agent': 'AINE-Newsroom/1.0'
+        }
+    )
+    items = []
+    for ctx in (_SSL_CTX, _UNVERIFIED_CTX):
+        try:
+            with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
+                payload = json.loads(response.read().decode('utf-8'))
+                results = payload.get('news', {}).get('results', [])
+                for r in results:
+                    title = r.get('title', '').strip()
+                    link = r.get('url', '').strip()
+                    desc = r.get('description', '').strip()
+                    pub = r.get('page_age') or datetime.now(timezone.utc).isoformat()
+                    if title and link:
+                        items.append({
+                            'title': title,
+                            'link': link,
+                            'summary': desc,
+                            'published': str(pub)
+                        })
+                return items
+        except Exception as e:
+            print(f"Notice: You.com News API attempt failed for '{query}': {e}", file=sys.stderr)
+            continue
+    return items
+
 # ── Visual Diversity Image Selector ──────────────────────────────────────────
 def pick_diverse_image(category, recent_images):
     pool = IMAGE_POOLS.get(category, IMAGE_POOLS['ai-tools'])
@@ -419,11 +490,11 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
         "Full technical documentation and release notes are available in the official disclosure linked below."
     ]
 
-    # 7. Auto-format clean, readable journalistic body HTML
-    content_html = f"""<p class="lead"><strong>{dateline}</strong> — {source_name} has announced key updates regarding <strong>{repaired_title}</strong>.</p>
+    # 7. Auto-format clean, readable journalistic body HTML (Strict anti-slop, no em dashes)
+    content_html = f"""<p class="lead"><strong>{dateline}</strong> - {source_name} has published details on <strong>{repaired_title}</strong>.</p>
 <p>{repaired_deck}</p>
-<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
-<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>"""
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>"""
 
     article = {
         "id": f"wire-{int(datetime.now().timestamp())}",
@@ -567,6 +638,52 @@ def main():
     print(f"Audited recent image memory: {recent_images[:3]}")
 
     new_articles = []
+
+    # 1. Real-Time You.com News API Ingestion (If configured)
+    you_api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY")
+    if you_api_key:
+        print("\n[You.com API] Active key detected. Scanning live breaking news...")
+        you_queries = [
+            {
+                "query": "Google Business Profile algorithm update OR Google Maps local SEO news",
+                "name": "You.com Google Local News",
+                "category": "local-business",
+                "authorId": "marcus-vance",
+                "dateline": "MOUNTAIN VIEW, Calif."
+            },
+            {
+                "query": "Frontier AI models OpenAI Anthropic Google breaking news",
+                "name": "You.com AI Wire",
+                "category": "ai-tools",
+                "authorId": "justin-davis",
+                "dateline": "SAN FRANCISCO"
+            }
+        ]
+        for y_src in you_queries:
+            if len(new_articles) >= limit:
+                break
+            print(f"  -> Querying You.com for: '{y_src['query'][:45]}...'")
+            y_items = fetch_you_news(y_src["query"], limit=3)
+            for item in y_items:
+                if len(new_articles) >= limit:
+                    break
+                full_text = f"{item['title']} {item['summary']}"
+                if not AI_KEYWORDS_REGEX.search(full_text):
+                    continue
+                is_dup, _ = db.is_duplicate(item['link'], item['title'])
+                if is_dup:
+                    continue
+                try:
+                    article_obj = synthesize_and_repair_article(item, y_src, existing_slugs, recent_images)
+                    new_articles.append(article_obj)
+                    recent_images.insert(0, article_obj['featuredImage'])
+                    existing_slugs.add(article_obj['slug'])
+                    db.record_seen(item['link'], article_obj['title'], y_src['name'], published=True)
+                    print(f"  + [INGESTED via You.com] {article_obj['title']} ({article_obj['slug']})")
+                except Exception as e:
+                    print(f"  -> Error repairing You.com story: {e}")
+
+    # 2. Multi-Source RSS & Google News Wire Ingestion
     for feed in FEED_SOURCES:
         if len(new_articles) >= limit:
             break

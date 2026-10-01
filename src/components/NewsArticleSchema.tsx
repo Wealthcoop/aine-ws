@@ -97,6 +97,10 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
           publishingPrinciples: `${SITE_CONFIG.url}/editorial-policy`,
         },
         isAccessibleForFree: true,
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['.article-headline', '.article-deck', '.key-takeaways'],
+        },
         ...(article.videoUrl && {
           video: {
             '@type': 'VideoObject',
