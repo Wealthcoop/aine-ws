@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790882358",
+    slug: "how-albertsons-companies-is-reimagining-retail-from-the",
+    title: "How Albertsons Companies is reimagining retail from the inside out",
+    deck: "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-01T16:00:00Z",
+    updatedAt: "2026-10-01T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shop...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — OpenAI Official News has announced key updates regarding <strong>How Albertsons Companies is reimagining retail from the inside out</strong>.</p>
+<p>Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/albertsons-reimagining-retail", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790882358",
+    slug: "anthropic-ipo-to-come-right-before-thanksgiving-report",
+    title: "Anthropic IPO to Come Right Before Thanksgiving, Report Says. Why the Timing Matters. - Barron's",
+    deck: "Anthropic IPO to Come Right Before Thanksgiving, Report Says. Why the Timing Matters. Barron's",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-01T19:01:00Z",
+    updatedAt: "2026-10-01T19:01:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO to Come Right Before Thanksgiving, Report Says. Why the Timing Matters. Barron's...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> — Anthropic Wire (Google News 1h) has announced key updates regarding <strong>Anthropic IPO to Come Right Before Thanksgiving, Report Says. Why the Timing Matters. - Barron's</strong>.</p>
+<p>Anthropic IPO to Come Right Before Thanksgiving, Report Says. Why the Timing Matters. Barron's</p>
+<p>The announcement underscores continued improvements in practical AI capabilities, developer tooling, and workflow automation. For operators and engineering teams, these updates provide clear visibility into how modern AI ecosystems are evolving.</p>
+<p>Readers can review the full announcement, specifications, and reference materials through the verified primary source below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3BwdTVWSHRGVDN5ckdOSl85Z1NVX3lnb3k0aUJZaTUySmxlTFk1ZmFxWmlJdWtkQjcxeXo1dnkzellVaFVHSmJjSURTNHg5RkUzNzBZWTE0c2F6NzVCU2EwYjNMemhmM21BUXJRdHRCcjVyYk1BNnlkV0VfV0F3QjVGazB5LWxxS202alphcS0?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790858390",
     slug: "research-acceleration-the-view-inside-openai",
     title: "Research acceleration: The view inside OpenAI",
