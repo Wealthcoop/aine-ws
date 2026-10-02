@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790967743",
+    slug: "a-model-guide-for-the-gpt-6-family",
+    title: "A model guide for the GPT-6 family",
+    deck: "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T16:15:00Z",
+    updatedAt: "2026-10-02T16:15:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tool...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>A model guide for the GPT-6 family</strong>.</p>
+<p>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/practical-guide-building-gpt-6", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790967744",
+    slug: "the-latest-ai-news-we-announced-in-september-2026",
+    title: "The latest AI news we announced in September 2026",
+    deck: "Here are Google's latest AI updates from September 2026",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T15:00:00Z",
+    updatedAt: "2026-10-02T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Here are Google's latest AI updates from September 2026...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> - Google AI News has published details on <strong>The latest AI news we announced in September 2026</strong>.</p>
+<p>Here are Google's latest AI updates from September 2026</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790942643",
     slug: "playco-cut-manual-fixes-50-prototyping-games-with-gpt-6",
     title: "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
