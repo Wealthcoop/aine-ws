@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790984168",
+    slug: "chatham-scales-its-capital-markets-expertise-with-opena",
+    title: "Chatham scales its capital markets expertise with OpenAI",
+    deck: "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T00:00:00Z",
+    updatedAt: "2026-10-02T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Chatham scales its capital markets expertise with OpenAI</strong>.</p>
+<p>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/chatham-financial", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790984169",
+    slug: "claude-frontier-academy-100m-to-train-10000-engineers-a",
+    title: "Claude Frontier Academy: $100M to train 10,000 engineers - Anthropic",
+    deck: "Claude Frontier Academy: $100M to train 10,000 engineers Anthropic",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T23:01:00Z",
+    updatedAt: "2026-10-02T23:01:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Claude Frontier Academy: $100M to train 10,000 engineers Anthropic...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Claude Frontier Academy: $100M to train 10,000 engineers - Anthropic</strong>.</p>
+<p>Claude Frontier Academy: $100M to train 10,000 engineers Anthropic</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790967743",
     slug: "a-model-guide-for-the-gpt-6-family",
     title: "A model guide for the GPT-6 family",
