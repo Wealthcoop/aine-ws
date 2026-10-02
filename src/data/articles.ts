@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790942643",
+    slug: "playco-cut-manual-fixes-50-prototyping-games-with-gpt-6",
+    title: "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    deck: "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-03T12:00:00Z",
+    updatedAt: "2026-09-03T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% few...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Playco cut manual fixes 50% prototyping games with GPT-6 Astra</strong>.</p>
+<p>Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/playco-game-prototyping-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790942644",
+    slug: "exclusive-anthropic-warns-government-attitudes-may-hurt",
+    title: "EXCLUSIVE: Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows",
+    deck: "EXCLUSIVE: Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T11:09:17Z",
+    updatedAt: "2026-10-02T11:09:17Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: EXCLUSIVE: Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>EXCLUSIVE: Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows</strong>.</p>
+<p>EXCLUSIVE: Anthropic warns government attitudes may hurt customer ties, IPO prospectus shows Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUlJTYWFXYlJBZ3IyVUJ4WVNFeXhuWnpUMklldThsaE02Q1lndjFNLU1vUVh2cUp2S1FQRjVUUmVic19pX3RxRTFWZ0lCOFRpM0gtQW1oZUx6MEdpalU3WGlJeXBuMTRKRGRGTnBQa3hGdTYyd0w2bnJkWTlPVlAycEx0ZVYzZFY3dEdWTGRHZDhDbkJXQ0RiN1RTSkVkOEZrRGROMUhxTXphTHpqbmdSZDZmU3BWZWI0LUtSQ2oxdE5tR1NtNXNPS1Y2emQtRmdjbjF2S2pn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790915845",
     slug: "legora-reviewed-41-documents-in-minutes-with-gpt-6-astr",
     title: "Legora reviewed 41 documents in minutes with GPT-6 Astra",
