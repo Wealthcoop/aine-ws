@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1790915845",
+    slug: "legora-reviewed-41-documents-in-minutes-with-gpt-6-astr",
+    title: "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    deck: "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-03T12:00:00Z",
+    updatedAt: "2026-09-03T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performan...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Legora reviewed 41 documents in minutes with GPT-6 Astra</strong>.</p>
+<p>Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/legora-financial-statement-review-with-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1790915847",
+    slug: "broadcom-starts-amassing-60-billion-to-fund-chips-for-a",
+    title: "Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic - Bloomberg.com",
+    deck: "Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic Bloomberg.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-02T04:12:00Z",
+    updatedAt: "2026-10-02T04:12:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic Bloomberg.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic - Bloomberg.com</strong>.</p>
+<p>Broadcom Starts Amassing $60 Billion to Fund Chips for Anthropic Bloomberg.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcTlfRWNuNFBkcjRyVVY3bDNtdHZWT2hUekpza3RXVkhpbFc0dThLRmlYclBtQlNDSlFqRlVKalhZeThNNjNQNlR4N1NpbzktUXoyUTh4RFI1YjdIay04cWpxbzdaOGhzWXBxYjVvZ2FBNi1WSGxNN192MFRxX0NBMXdSSmFlVWJIemZqR0ZicGJqLWVTeUZHc1MtbnNHYUY3ak80WURIenVnYjJ6WHp1cEl4Rmw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790898293",
     slug: "daybreak-for-frontline-defenders-1b-to-protect-essentia",
     title: "Daybreak for Frontline Defenders: $1B to protect essential services",
