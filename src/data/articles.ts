@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791054267",
+    slug: "openai-supports-californias-bill-to-advance-youth-ai-sa",
+    title: "OpenAI supports California's bill to advance youth AI safety",
+    deck: "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-31T07:00:00Z",
+    updatedAt: "2026-08-31T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI supports California's bill to advance youth AI safety</strong>.</p>
+<p>OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791054268",
+    slug: "sen-rounds-anthropic-leaders-talk-ais-future-at-south-d",
+    title: "Sen. Rounds, Anthropic leaders talk AI's future at South Dakota Mines - KOTA Territory News",
+    deck: "Sen. Rounds, Anthropic leaders talk AI's future at South Dakota Mines KOTA Territory News",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-03T18:30:00Z",
+    updatedAt: "2026-10-03T18:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Sen. Rounds, Anthropic leaders talk AI's future at South Dakota Mines KOTA Territory News...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Sen. Rounds, Anthropic leaders talk AI's future at South Dakota Mines - KOTA Territory News</strong>.</p>
+<p>Sen. Rounds, Anthropic leaders talk AI's future at South Dakota Mines KOTA Territory News</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYWhXOFk2RHJpTndfQkNIX0NyM3M0U2pkMXZFcDdTR0Q4UEE3WVNjS3ZHeXpwamNVZFVHNXBXcHRqQkFkX1VUd3RpSWNEVHh0em1JTWFqTkJFZ3ZBRlgyVkpQX0NjOWdreXZwOG5GTEN1SVdVUmkyLTc4N1lwYnc5bHZOdGZYUlpqUVk5b2V4RzNMYTgxNE8yZWNyZURPZm_SAbMBQVVfeXFMTkZiWmJMdk44UVo2aE5YcFFCbFNOTk43ZGhuWFludFBVWnJCaWdzWUwyb2VwMDBfenZfRHY0UWRieGNUajR4RW5wQ1RLNkJIWmpJaEU4djhfd0JuakdFMkZxanpWMFFTaUNMeTV1QWZKQldIeG8zRndmb3ZQUEhPQlJFcFVBdjFLdWFqOHIxVzNvQzdlNXBsU3VsaHlmeUFMcmtfb1JUWW12aWl3R1pBcGlUVFU?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791042817",
     slug: "how-law-firm-gilbert-tobin-governs-and-scales-ai-with-o",
     title: "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
