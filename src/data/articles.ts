@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791001192",
+    slug: "safety-overview-gpt-6-astra",
+    title: "Safety overview: GPT-6 Astra",
+    deck: "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-03T00:00:00Z",
+    updatedAt: "2026-09-03T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecur...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Safety overview: GPT-6 Astra</strong>.</p>
+<p>GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/safety-overview-gpt-6-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791001193",
+    slug: "anthropic-commits-100-million-to-train-ai-engineers-as",
+    title: "Anthropic Commits $100 Million to Train AI Engineers as Businesses Struggle to Turn AI Experiments Into Results",
+    deck: "Anthropic Commits $100 Million to Train AI Engineers as Businesses Struggle to Turn AI Experiments Into Results Times Square Chronicles",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-03T04:02:46Z",
+    updatedAt: "2026-10-03T04:02:46Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Commits $100 Million to Train AI Engineers as Businesses Struggle to Turn AI Experiments Into Result...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Commits $100 Million to Train AI Engineers as Businesses Struggle to Turn AI Experiments Into Results</strong>.</p>
+<p>Anthropic Commits $100 Million to Train AI Engineers as Businesses Struggle to Turn AI Experiments Into Results Times Square Chronicles</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2laNkszZVEtc3BldDF4aWJxenFsZFdpeUhIUUZEZmMzTDlSQTF4d2J3djBVQUw1WV9fcDdrdmtoVlltRWhMdFdZT2NTTnMyN0dOa190YUFGX2dLbVFwUXpTSHdTbzRxOHh3cDFOdDlaYjJvMkZyN2JSYmxlVVZsTGVxN0xHRk0taXVRck1MamxBbGJfM3hIbmZMd2ZPTUl4b1ByQUFRbWJISWFTUDlOaWFtY3FzVHRXQUdIaks4XzNvalJNU0ZFSEdFcnZTdw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1790984168",
     slug: "chatham-scales-its-capital-markets-expertise-with-opena",
     title: "Chatham scales its capital markets expertise with OpenAI",
