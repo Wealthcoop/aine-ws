@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791067439",
+    slug: "polimill-builds-japans-next-generation-public-ai-infras",
+    title: "Polimill builds Japan's next-generation public AI infrastructure",
+    deck: "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-31T07:00:00Z",
+    updatedAt: "2026-08-31T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Polimill builds Japan's next-generation public AI infrastructure</strong>.</p>
+<p>Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/polimill", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791067440",
+    slug: "nuclear-doomsday-mag-says-ai-doomerism-is-bad-science-m",
+    title: "Nuclear doomsday mag says, AI Doomerism is bad science - mindmatters.ai",
+    deck: "Nuclear doomsday mag says, AI Doomerism is bad science mindmatters.ai",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-03T22:20:58Z",
+    updatedAt: "2026-10-03T22:20:58Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Nuclear doomsday mag says, AI Doomerism is bad science mindmatters.ai...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Nuclear doomsday mag says, AI Doomerism is bad science - mindmatters.ai</strong>.</p>
+<p>Nuclear doomsday mag says, AI Doomerism is bad science mindmatters.ai</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc2lpLTJsNWVONjYxN0M2eVU3dWNNRUxYV3BJS3g3Q2NlcFpkMEQyMDBJQTJIOXJOYWt6YlB6WW1oX0tFZjhHYU9peU1KUDRnbkFTd200RUFaVEFQU29zOE1CcVZHcC1IWGd0SDI4dWJPUHdkTFl0WG5rX0dyalpjQkN3UWFKRURGN1A4?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791054267",
     slug: "openai-supports-californias-bill-to-advance-youth-ai-sa",
     title: "OpenAI supports California's bill to advance youth AI safety",
