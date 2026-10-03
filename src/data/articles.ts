@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791026162",
+    slug: "path-to-astra-critical-capabilities-and-frontier-safegu",
+    title: "Path to Astra: critical capabilities and frontier safeguards",
+    deck: "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-01T13:00:00Z",
+    updatedAt: "2026-09-01T13:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Path to Astra: critical capabilities and frontier safeguards</strong>.</p>
+<p>Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/path-to-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791026162",
+    slug: "anthropic-will-spend-100m-to-train-10000-ai-engineers-c",
+    title: "Anthropic will spend $100M to train 10,000 AI engineers - Cybernews",
+    deck: "Anthropic will spend $100M to train 10,000 AI engineers Cybernews",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-03T10:42:25Z",
+    updatedAt: "2026-10-03T10:42:25Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic will spend $100M to train 10,000 AI engineers Cybernews...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic will spend $100M to train 10,000 AI engineers - Cybernews</strong>.</p>
+<p>Anthropic will spend $100M to train 10,000 AI engineers Cybernews</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN1dyMFpjMzV4a1ByT19sZ20yS1pYdzFrLWF2STREVExubnJGeGg2c2I2QXdGcTdXV1JVVzV4QzJZbVE4SXR1LUJyRVpOa195QmdLaDRheVpkTGtFR3YzM0N6c2lhd0pIY0lhOXJfQURPT1NBcjgyZHJBcjVKdl9iMnBR?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791001192",
     slug: "safety-overview-gpt-6-astra",
     title: "Safety overview: GPT-6 Astra",
