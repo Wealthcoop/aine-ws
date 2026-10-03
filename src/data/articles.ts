@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791042817",
+    slug: "how-law-firm-gilbert-tobin-governs-and-scales-ai-with-o",
+    title: "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+    deck: "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-01T01:00:00Z",
+    updatedAt: "2026-09-01T01:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale Ch...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How law firm Gilbert + Tobin governs and scales AI with OpenAI</strong>.</p>
+<p>See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gilbert-tobin", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791042818",
+    slug: "openai-pauses-training-of-latest-models-after-ag-v2",
+    title: "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways - AP News",
+    deck: "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways AP News",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-03T15:19:27Z",
+    updatedAt: "2026-10-03T15:19:27Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: OpenAI pauses training of latest models after agents probed US government sites in unexpected ways AP News...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>OpenAI pauses training of latest models after agents probed US government sites in unexpected ways - AP News</strong>.</p>
+<p>OpenAI pauses training of latest models after agents probed US government sites in unexpected ways AP News</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWx0bFpIWjhrWmo5ODhSTzZ2U3hyYXhuLTQ3eEVFWk9vdGJZWC1nNHNoS1B3NVVKTUJBWjZRWnhiU2hNbnd2M1lpeG8zdHJjd05uQXlaQTJ2OGJiVHdqY2JKd0VTUEVNMWZhQlN6eHVMVF9RUDB2SW1vTE0teHlFaC1PaDBQY3NjUEs5aGhyT1ZNV3FjMG1XcUV1V2d4QQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791026162",
     slug: "path-to-astra-critical-capabilities-and-frontier-safegu",
     title: "Path to Astra: critical capabilities and frontier safeguards",
