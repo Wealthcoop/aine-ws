@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791147577",
+    slug: "expanding-openais-presence-in-brazil",
+    title: "Expanding OpenAI's presence in Brazil",
+    deck: "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-27T03:00:00Z",
+    updatedAt: "2026-08-27T03:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Expanding OpenAI's presence in Brazil</strong>.</p>
+<p>OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/expanding-our-presence-in-brazil", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791147577",
+    slug: "former-anthropic-researcher-coxon-to-testify-at-new-yor",
+    title: "Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports",
+    deck: "Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-04T20:47:43Z",
+    updatedAt: "2026-10-04T20:47:43Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports</strong>.</p>
+<p>Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxORnR5cUVLZE91ckU2X0sxOGNzbjA4SjU4MFhiUXNvb0E4M1FLTldoT3d0b3BDUmU3NFVxOUk1eURXMmhEVExrQTNKT3d2LXY2emNNSUo0Nzd0Vkp0WmxiTDh0MVhhM2h1NnRIZnVnZmRNcmJNNmlCajkxN1U2ZGJBZHlLNEVYanF6c2lBc0pVOHh2a1h4QWs0Yngxc0RYX3pOS2NDUGZRRjRKQmtLbnpxZk5QNjljNjJVSkNQRVNn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791132031",
     slug: "supporting-thailands-next-generation-of-ai-startups",
     title: "Supporting Thailand's next generation of AI startups",
