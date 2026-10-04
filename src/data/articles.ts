@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791089467",
+    slug: "gpt-6-astra-a-new-generation-of-intelligence",
+    title: "GPT-6 Astra: A new generation of intelligence",
+    deck: "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-03T11:00:00Z",
+    updatedAt: "2026-09-03T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>GPT-6 Astra: A new generation of intelligence</strong>.</p>
+<p>Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-6-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791089468",
+    slug: "ai-is-going-rogue-who-should-be-held-responsible-the-ne",
+    title: "A.I. Is Going Rogue. Who Should Be Held Responsible? - The New York Times",
+    deck: "A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-04T04:35:42Z",
+    updatedAt: "2026-10-04T04:35:42Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>A.I. Is Going Rogue. Who Should Be Held Responsible? - The New York Times</strong>.</p>
+<p>A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTUhrakN2TGFTTmdhM0VtY2s5UjBjOVB5cnRRM1NHOWxPV1FGYTdfYjRrQkNZeFFBeHVkSXI1Q29DOE96WmNnSndCb1hwU1c4UGpxanNmMlJsNkJkYVRZNEpBSzdLdG55cXN5Z3hBYWVZSVVkQ1B2OV81Q1hEbExJUUJR?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791067439",
     slug: "polimill-builds-japans-next-generation-public-ai-infras",
     title: "Polimill builds Japan's next-generation public AI infrastructure",
