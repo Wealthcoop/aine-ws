@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791132031",
+    slug: "supporting-thailands-next-generation-of-ai-startups",
+    title: "Supporting Thailand's next generation of AI startups",
+    deck: "OpenAI and Thailand's MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-28T02:00:00Z",
+    updatedAt: "2026-08-28T02:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Thailand's MHESI launch an eight-week accelerator helping 10 health, wellness, and education startu...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Supporting Thailand's next generation of AI startups</strong>.</p>
+<p>OpenAI and Thailand's MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/supporting-next-generation-ai-startups-thailand", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791132031",
+    slug: "claude-ai-account-black-market-thrives-in-china",
+    title: "Claude AI Account Black Market Thrives in China - \uc870\uc120\uc77c\ubcf4",
+    deck: "Claude AI Account Black Market Thrives in China \uc870\uc120\uc77c\ubcf4",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-04T15:44:28Z",
+    updatedAt: "2026-10-04T15:44:28Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Claude AI Account Black Market Thrives in China \uc870\uc120\uc77c\ubcf4...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Claude AI Account Black Market Thrives in China - 조선일보</strong>.</p>
+<p>Claude AI Account Black Market Thrives in China 조선일보</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVEtBQmd3VXE2cFp4MHNEd0lhUnJxd1dzbkx3c25DakwyakU1dFI4VFF2eHhwOXJ2QzQxdTJsS045MWpMWHNWNXp3VlVvbkVhaVBWMGpRUllxZFlSMXQ2X2pSeWVBY2RMMEVldEJ2VV9oazhfajhScFVwTlpJcFR1SXpma2JPSllY?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791114957",
     slug: "our-decision-on-cursor-following-its-acquisition-by-spa",
     title: "Our decision on Cursor following its acquisition by SpaceX",
