@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791189267",
+    slug: "the-hugging-face-incident-and-the-road-ahead",
+    title: "The Hugging Face incident and the road ahead",
+    deck: "OpenAI shares findings from the Hugging Face security incident and the steps we're taking to strengthen AI model security, monitoring, and alignment.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-26T00:00:00Z",
+    updatedAt: "2026-08-26T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI shares findings from the Hugging Face security incident and the steps we're taking to strengthen AI mod...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>The Hugging Face incident and the road ahead</strong>.</p>
+<p>OpenAI shares findings from the Hugging Face security incident and the steps we're taking to strengthen AI model security, monitoring, and alignment.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/hugging-face-incident-and-the-road-ahead", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791189268",
+    slug: "4-major-winners-from-an-anthropic-ipo-foolcom",
+    title: "4 Major Winners From an Anthropic IPO - fool.com",
+    deck: "4 Major Winners From an Anthropic IPO fool.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-05T08:31:04Z",
+    updatedAt: "2026-10-05T08:31:04Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: 4 Major Winners From an Anthropic IPO fool.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>4 Major Winners From an Anthropic IPO - fool.com</strong>.</p>
+<p>4 Major Winners From an Anthropic IPO fool.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYjVEdjR0M0RxemhyOS16NS1NeEI2UllqT2dxdko2b28xUklleVZiSmZLZlNmM3dHaU5nRExaRXB4RmR1V0MxM0NSRl80M2pYcmkxUHZldVp5OTZSOWtfb0k5c3pjdHVZMjcxbHZyeDR4a2hTVXBScVZtODJfUmhuOTR0c3FpSkE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791160274",
     slug: "learning-never-stops-how-ai-makes-learning-continuous",
     title: "Learning never stops: How AI makes learning continuous",
