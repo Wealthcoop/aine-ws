@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791227212",
+    slug: "our-approach-to-eu-text-provenance-rules",
+    title: "Our approach to EU text provenance rules",
+    deck: "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-05T15:00:00Z",
+    updatedAt: "2026-10-05T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works,...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Our approach to EU text provenance rules</strong>.</p>
+<p>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/eu-text-provenance", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791227244",
+    slug: "sources-meta-and-microsoft-are-working-to-cut-their-emp",
+    title: "Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code",
+    deck: "The Information : Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code have dropped to ~30K from ~60K earlier this...",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-05T18:30:00Z",
+    updatedAt: "2026-10-05T18:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Techmeme AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Techmeme AI Wire.",
+          "Key focus: The Information : Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employee...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>NEW YORK</strong> - Techmeme AI Wire has published details on <strong>Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code</strong>.</p>
+<p>The Information : Sources: Meta and Microsoft are working to cut their employees' use of Claude; Meta employees using Claude Code have dropped to ~30K from ~60K earlier this...</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Techmeme AI Wire", url: "https://www.techmeme.com/261005/p29#a261005p29", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791189267",
     slug: "the-hugging-face-incident-and-the-road-ahead",
     title: "The Hugging Face incident and the road ahead",
