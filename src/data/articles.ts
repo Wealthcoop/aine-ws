@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791160274",
+    slug: "learning-never-stops-how-ai-makes-learning-continuous",
+    title: "Learning never stops: How AI makes learning continuous",
+    deck: "OpenAI's new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-26T10:00:00Z",
+    updatedAt: "2026-08-26T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI's new report explores how students and educators use ChatGPT to make learning more continuous, with sup...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Learning never stops: How AI makes learning continuous</strong>.</p>
+<p>OpenAI's new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/learning-never-stops", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791160275",
+    slug: "google-rolls-out-new-ai-model-gradually-amid-safety-con",
+    title: "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 - WSJ",
+    deck: "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-04T23:59:16Z",
+    updatedAt: "2026-10-04T23:59:16Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 - WSJ</strong>.</p>
+<p>Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 WSJ</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU1keF9rZ0tJY1VWOVdQNTJOLV9NbndpOGc0TENacTlSTWI2Vnh5empUTENqRlJDeTZjQk1VMFBNTFpqamhpdTgzYzI0c2JEc0d5WVRTLUR4RFpJX3F0dEtmWXJLdU1PMzdyOGluRFJPRzlaR1o3NWJjZ3JtQlMyeHIyMjcxeUpLa0pPbXBJZ0RndG40NklXS2VzeTJCdUxrWDVn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791147577",
     slug: "expanding-openais-presence-in-brazil",
     title: "Expanding OpenAI's presence in Brazil",
