@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791325662",
+    slug: "advancing-computer-use-with-ironclad",
+    title: "Advancing computer use with Ironclad",
+    deck: "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T10:00:00Z",
+    updatedAt: "2026-10-06T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advanc...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing computer use with Ironclad</strong>.</p>
+<p>Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/advancing-computer-use-with-ironclad", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791325663",
+    slug: "openai-and-anthropic-face-rising-price-pressure-from-bi",
+    title: "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users - Bloomberg.com",
+    deck: "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users Bloomberg.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T21:33:40Z",
+    updatedAt: "2026-10-06T21:33:40Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: OpenAI and Anthropic Face Rising Price Pressure From Big AI Users Bloomberg.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>OpenAI and Anthropic Face Rising Price Pressure From Big AI Users - Bloomberg.com</strong>.</p>
+<p>OpenAI and Anthropic Face Rising Price Pressure From Big AI Users Bloomberg.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRHhUUnpNdE5CR1VFVEx2Q1NsTjg5cjNCb2VYazhWeERKMVpMOWdlQVFteW52b1o5UTRONGt4TmdJbE8xbld4RHFkaE5vSHQ2MHBFdVlOY1ZSeVJsamNVc0VERHp3dE5xUmV6Ymk5S1FvblZlcTU4REVZQ2kwVHRBck9Ma1dkVk9Bb3VfVUphN3V3X1FsNThpVzlMTktSSGV4SHlhZzU1MEZicW5vQTQ3SlNoUldWcFBMVlMw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791304399",
     slug: "how-loveholidays-is-making-everyone-a-builder-with-code",
     title: "How loveholidays is making everyone a builder with Codex",
