@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791304399",
+    slug: "how-loveholidays-is-making-everyone-a-builder-with-code",
+    title: "How loveholidays is making everyone a builder with Codex",
+    deck: "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-26T00:00:00Z",
+    updatedAt: "2026-08-26T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helpi...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How loveholidays is making everyone a builder with Codex</strong>.</p>
+<p>Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/loveholidays", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791304400",
+    slug: "anthropic-expands-claude-startups-program-in-bid-to-sna",
+    title: "Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies - CNBC",
+    deck: "Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T16:00:28Z",
+    updatedAt: "2026-10-06T16:00:28Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies - CNBC</strong>.</p>
+<p>Anthropic expands Claude Startups program in bid to snag founders and fast-growing companies CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrMXU1ams3ZHlMaE4yVnNKLUFKUEREMjJGRkVJQ09UVHRYbzBiXzdQSlFqS2lsY3dtSWZmLUpoZFRkb0tEZHh4YlBvbUVVQVBCcUFQMlVyNTJuOVdscHhabW5SY1oyRzZLU2ZsT1BwSlJoUHRiYVNrSmlR0gF_QVVfeXFMUFlncV9mdTFCd3ZGSVZqeGVEUVVfVl9mRzc0UzhEQ2dncnNRN1Y0NE9LWHpvREFYcVljSG90RXl3UGRIVnVhaEc3NldUSjlZSTdDTHJSRGxEekZXQUJaejVWSGtiOW45RHZuZHA0RlFzVzdGa3M4NEIySjJEWWdIdw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791276096",
     slug: "wayfair-boosts-catalog-accuracy-and-support-speed-with",
     title: "Wayfair boosts catalog accuracy and support speed with OpenAI",
