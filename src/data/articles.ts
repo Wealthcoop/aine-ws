@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791276096",
+    slug: "wayfair-boosts-catalog-accuracy-and-support-speed-with",
+    title: "Wayfair boosts catalog accuracy and support speed with OpenAI",
+    deck: "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-25T00:00:00Z",
+    updatedAt: "2026-09-25T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Wayfair boosts catalog accuracy and support speed with OpenAI</strong>.</p>
+<p>Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/wayfair", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791276097",
+    slug: "anthropic-is-aiming-for-the-biggest-ipo-ever-heres-the",
+    title: "Anthropic Is Aiming for the Biggest IPO Ever -- Here's the Chip Stock to Buy Before It Lists - The Motley Fool",
+    deck: "Anthropic Is Aiming for the Biggest IPO Ever -- Here's the Chip Stock to Buy Before It Lists The Motley Fool",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T07:52:27Z",
+    updatedAt: "2026-10-06T07:52:27Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Is Aiming for the Biggest IPO Ever -- Here's the Chip Stock to Buy Before It Lists The Motley Fool...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Is Aiming for the Biggest IPO Ever -- Here's the Chip Stock to Buy Before It Lists - The Motley Fool</strong>.</p>
+<p>Anthropic Is Aiming for the Biggest IPO Ever -- Here's the Chip Stock to Buy Before It Lists The Motley Fool</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDBTN2d6dTh3ZlJub0JXTzhhYnlsMWE0SHhyZ3JEX2xIQ1pCSC1jNlNuOWRoRmZPYWdWaHhrLTREaHRadHFVWkNCalhhWTNPSTY3WHI2aUptQm8zTlYyS011S2F2amJpOUdsWDlTSTE1ZGRSdG9ZdUJnd1ZhZzRMNlJTSkk3Q05YQlR2QXRPMG5qaEJDWmVydjF6ZzB6c1A5aFpGUmZxSDY2SVhrVzlNTUNMSkVQWW0xRDl1b2cxQXEweVlfOElSX0tERVk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791249066",
     slug: "building-advertising-for-the-way-people-use-ai",
     title: "Building advertising for the way people use AI",
