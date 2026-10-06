@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791249066",
+    slug: "building-advertising-for-the-way-people-use-ai",
+    title: "Building advertising for the way people use AI",
+    deck: "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-05T10:00:00Z",
+    updatedAt: "2026-10-05T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, a...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Building advertising for the way people use AI</strong>.</p>
+<p>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/new-chatgpt-ads-format-and-measurement", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791249066",
+    slug: "corporate-ai-costs-are-falling-but-companies-are-using",
+    title: "Corporate AI costs are falling, but companies are using the savings to deploy more AI - Cryptopolitan",
+    deck: "Corporate AI costs are falling, but companies are using the savings to deploy more AI Cryptopolitan",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T00:23:53Z",
+    updatedAt: "2026-10-06T00:23:53Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Corporate AI costs are falling, but companies are using the savings to deploy more AI Cryptopolitan...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Corporate AI costs are falling, but companies are using the savings to deploy more AI - Cryptopolitan</strong>.</p>
+<p>Corporate AI costs are falling, but companies are using the savings to deploy more AI Cryptopolitan</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rZERzVHlfenhTNnpxTXV1QnBJVTE1NW53eFNEd0tVb0RXR1hjY0Roemk2QWlQMUlFMkhiUUxFQWZ4NktQM1ctRmlQdFJ2X1JBTlBPQVk5NTJIaWVkMWlydDhmRTh2OEJyTG1vQ1l6dUpBWnNseTV0cG9kaVcyVGc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791227212",
     slug: "our-approach-to-eu-text-provenance-rules",
     title: "Our approach to EU text provenance rules",
