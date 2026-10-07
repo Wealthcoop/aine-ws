@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791348856",
+    slug: "how-jump-trading-is-scaling-quant-research-with-chatgpt",
+    title: "How Jump Trading is scaling quant research with ChatGPT",
+    deck: "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T12:00:00Z",
+    updatedAt: "2026-10-06T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How Jump Trading is scaling quant research with ChatGPT</strong>.</p>
+<p>Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/jump-trading", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791348856",
+    slug: "jamie-dimon-says-anthropics-mythos-supercharged-ai-cybe",
+    title: "Jamie Dimon says Anthropic's Mythos supercharged AI cybersecurity risks - Business Insider",
+    deck: "Jamie Dimon says Anthropic's Mythos supercharged AI cybersecurity risks Business Insider",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T04:31:01Z",
+    updatedAt: "2026-10-07T04:31:01Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Jamie Dimon says Anthropic's Mythos supercharged AI cybersecurity risks Business Insider...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Jamie Dimon says Anthropic's Mythos supercharged AI cybersecurity risks - Business Insider</strong>.</p>
+<p>Jamie Dimon says Anthropic's Mythos supercharged AI cybersecurity risks Business Insider</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdTh1RURaRjBrQThfSFZjOGk1S1lBVm9Wc0VMbnMzSk15YmtjSUZ1cEsxeTZnWjhGcndKUm11Q2x4SHBQbzZwSVo1ZzY0OGxkRzFpck5lbk5RMG5EU0NlUm5uajZVSXVCemJqcHhKZFBVSEJMdU00OUI1X0tlTGZwNG83SE9CdXRLeXh0cVBoakFDbmNUQ2hJU09GVUpMdXZBWHBldGItaDQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791325662",
     slug: "advancing-computer-use-with-ironclad",
     title: "Advancing computer use with Ironclad",
