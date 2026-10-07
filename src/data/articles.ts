@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791377494",
+    slug: "sharing-ai-progress-in-mathematics",
+    title: "Sharing AI progress in mathematics",
+    deck: "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-06T12:00:00Z",
+    updatedAt: "2026-10-06T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean p...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Sharing AI progress in mathematics</strong>.</p>
+<p>OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/sharing-ai-progress-in-mathematics", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791377494",
+    slug: "japanese-firm-confirms-it-sold-books-to-anthropic-the-j",
+    title: "Japanese firm confirms it sold books to Anthropic - The Japan Times",
+    deck: "Japanese firm confirms it sold books to Anthropic The Japan Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T12:29:00Z",
+    updatedAt: "2026-10-07T12:29:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Japanese firm confirms it sold books to Anthropic The Japan Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Japanese firm confirms it sold books to Anthropic - The Japan Times</strong>.</p>
+<p>Japanese firm confirms it sold books to Anthropic The Japan Times</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MMEgzSjhjR01DZFVBbzVIQjhGQ2RtZW84WllyYnh3SzBhbE80dkJCeW1WM29zQTg2UzQ2VkMtU0xNRGJZTWFWVFpxSXhkRWgtZHh0em51NllFNGZDcktZQnlSbUFqWE9KbHp1cFFfNzJPYnY2WkV4eA?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791348856",
     slug: "how-jump-trading-is-scaling-quant-research-with-chatgpt",
     title: "How Jump Trading is scaling quant research with ChatGPT",
