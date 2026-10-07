@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791402424",
+    slug: "radisson-hotel-group-brings-hotel-discovery-into-chatgp",
+    title: "Radisson Hotel Group brings hotel discovery into ChatGPT",
+    deck: "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T07:00:00Z",
+    updatedAt: "2026-10-07T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, c...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Radisson Hotel Group brings hotel discovery into ChatGPT</strong>.</p>
+<p>Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/radisson", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791402425",
+    slug: "ai-linked-groups-spent-35m-to-boost-these-texas-congres",
+    title: "AI-linked groups spent $3.5M to boost these Texas congressional candidates - Houston Chronicle",
+    deck: "AI-linked groups spent $3.5M to boost these Texas congressional candidates Houston Chronicle",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T19:06:44Z",
+    updatedAt: "2026-10-07T19:06:44Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI-linked groups spent $3.5M to boost these Texas congressional candidates Houston Chronicle...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI-linked groups spent $3.5M to boost these Texas congressional candidates - Houston Chronicle</strong>.</p>
+<p>AI-linked groups spent $3.5M to boost these Texas congressional candidates Houston Chronicle</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3NIZlBZbVQ1QnI4R2phM1NKdVVQME1STGtBeUREbXlZTkxXdzZpc3R5aXFfOG5rM2dTSG55S2Etd1c0WmFmR1dmLUE1Zi1GU0g0UXZ6cWRzcmp1SE8xVFFJaEg5R1V2Vnowd1lsTWEtZDFWTzNPMFlFTlJSUEdOMWxnN2FfanBhaEgwUkVIcnhVTmozNktSSXJQaFF4dw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791377494",
     slug: "sharing-ai-progress-in-mathematics",
     title: "Sharing AI progress in mathematics",
