@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791500598",
+    slug: "pollo-ai-turns-creative-ideas-into-campaigns-with-opena",
+    title: "Pollo AI turns creative ideas into campaigns with OpenAI",
+    deck: "With GPT-5.6, GPT-6 Astra, and GPT\u2011Image\u20112.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-08T12:00:00Z",
+    updatedAt: "2026-10-08T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: With GPT-5.6, GPT-6 Astra, and GPT\u2011Image\u20112.5, Pollo AI helps creators turn bold ideas into detailed images and...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Pollo AI turns creative ideas into campaigns with OpenAI</strong>.</p>
+<p>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/pollo-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791500598",
+    slug: "anthropic-bans-ai-model-abuse-tightens-rules-on-decepti",
+    title: "Anthropic Bans AI Model Abuse, Tightens Rules on Deception - BankInfoSecurity",
+    deck: "Anthropic Bans AI Model Abuse, Tightens Rules on Deception BankInfoSecurity",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-08T22:17:14Z",
+    updatedAt: "2026-10-08T22:17:14Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Bans AI Model Abuse, Tightens Rules on Deception BankInfoSecurity...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Bans AI Model Abuse, Tightens Rules on Deception - BankInfoSecurity</strong>.</p>
+<p>Anthropic Bans AI Model Abuse, Tightens Rules on Deception BankInfoSecurity</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGFpZW1aSEx1SnBnNXlwdThSZlFCNTZKYm9kLURZTmV3V1JOSGFkSWoyN1FEdWZMQU5lT3lFVzNHcTRvOU5yUkR6b0ZERENKRm03RUhGTnZXLWxJTEdnTWFMSWRXeHBEVXpNUHJTOU5PdHF6WWMzZndnZ2V6VGhvNFdhRnNGS0l1RUNQWXBzMVdqWXB1VmhXc1pfNW5xVjA?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791479716",
     slug: "disrupting-ai-enabled-false-front-operations",
     title: "Disrupting AI-enabled \"false front\" operations",
