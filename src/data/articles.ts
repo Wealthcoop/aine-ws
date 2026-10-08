@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791479716",
+    slug: "disrupting-ai-enabled-false-front-operations",
+    title: "Disrupting AI-enabled \"false front\" operations",
+    deck: "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-08T00:00:00Z",
+    updatedAt: "2026-10-08T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spr...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Disrupting AI-enabled "false front" operations</strong>.</p>
+<p>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/disrupting-ai-enabled-false-front-operations", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791479716",
+    slug: "anthropic-bans-abusive-or-cruel-behavior-towards-claude",
+    title: "Anthropic bans 'abusive or cruel behavior' towards Claude",
+    deck: "Anthropic bans 'abusive or cruel behavior' towards Claude The Verge",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-08T17:00:00Z",
+    updatedAt: "2026-10-08T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic bans 'abusive or cruel behavior' towards Claude The Verge...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic bans 'abusive or cruel behavior' towards Claude</strong>.</p>
+<p>Anthropic bans 'abusive or cruel behavior' towards Claude The Verge</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791448361",
     slug: "atlassian-and-openai-expand-partnership-to-turn-enterpr",
     title: "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
