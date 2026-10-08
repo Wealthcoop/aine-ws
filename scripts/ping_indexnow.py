@@ -43,7 +43,9 @@ URL_LIST = [
     "https://aine.ws/news/voice-lead-response/zero-data-entry-crm-architectures-cut-sales-churn",
     "https://aine.ws/news/ai-tools/anthropic-releases-model-context-protocol-enterprise-tools",
     "https://aine.ws/news/ai-tools/fcc-tightens-lead-generation-consent-rules",
-    "https://aine.ws/news/ai-tools/helping-older-adults-use-ai-in-everyday-life"
+    "https://aine.ws/news/ai-tools/helping-older-adults-use-ai-in-everyday-life",
+    "https://aine.ws/news/ai-tools/hubspot-vs-gohighlevel-2026-cost-ai-agents-b2b-pipeline-audit",
+    "https://aine.ws/news/ai-tools/hubspot-vs-salesforce-2026-b2b-crm-total-cost-audit"
 ]
 
 def submit_indexnow():

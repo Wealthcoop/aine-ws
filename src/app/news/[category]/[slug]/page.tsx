@@ -267,6 +267,8 @@ export default function ArticleReaderPage({ params }: PageProps) {
           vertical={
             article.category === 'voice-lead-response'
               ? 'telephony'
+              : article.category === 'ai-tools'
+              ? 'enterprise'
               : 'local-seo'
           }
         />
