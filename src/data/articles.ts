@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791417763",
+    slug: "gpt-6-and-intelligent-ui-for-everyone",
+    title: "GPT-6 and Intelligent UI for everyone",
+    deck: "GPT\u20116 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T00:00:00Z",
+    updatedAt: "2026-10-07T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT\u20116 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and int...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>GPT-6 and Intelligent UI for everyone</strong>.</p>
+<p>GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-6-for-everyone", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791417764",
+    slug: "china-already-has-spies-at-us-ai-labs-claims-ex-anthrop",
+    title: "China already has spies' at US AI labs, claims ex-Anthropic researcher - South China Morning Post",
+    deck: "'China already has spies' at US AI labs, claims ex-Anthropic researcher South China Morning Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-07T23:39:15Z",
+    updatedAt: "2026-10-07T23:39:15Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: 'China already has spies' at US AI labs, claims ex-Anthropic researcher South China Morning Post...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>China already has spies' at US AI labs, claims ex-Anthropic researcher - South China Morning Post</strong>.</p>
+<p>'China already has spies' at US AI labs, claims ex-Anthropic researcher South China Morning Post</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLWktLVFoNWs4WWFDZnB5ODdqRmZCTmhKM3liRC1lN01zMlpNLUV0V0VBaVBUNzVsME0zYzg2NmVtclZ3bFlMRVJUT3dtekhWQmVqQ0NBY1NlWDJlV3dfMDdWbVNZbHgyTTBSSUFUTldRS3EwUkhZemYzUnFYaTRpbDVJaUNrS0dyOHRLSWNQMlRVMENyVVlyVC0yTG1Vc0stcXpFS3ZyMC1IWXNSYm1HLUN3UzBPMnF4Z2RtMU5LUmfSAcABQVVfeXFMTThmbkk1d3lIczl2SEEzSnUtbHpodWxyUVA3VEY5bkNZLVFKSHMwXzMzVVpOTEdjWFYyaW1BdllMOEFITDk3aTgycHppR3Qtby1IYWR5ZW9jUGZaamU0Z3lSckMyQmh0Y3ZKNkp1YWI5TW92UklhZm8xZmp5Sm51T3hfem1SN2pDVkpaeVdZdnk4YUpkRkcxQVhfN05kVnFpaGlTTUdGZkpnQ1JVcFR6SGVQYWxQbVNNRVMybXFvMXJj?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791402424",
     slug: "radisson-hotel-group-brings-hotel-discovery-into-chatgp",
     title: "Radisson Hotel Group brings hotel discovery into ChatGPT",
