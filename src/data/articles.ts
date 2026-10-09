@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791549999",
+    slug: "sophos-cuts-threat-investigation-time-by-96-with-openai",
+    title: "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+    deck: "Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T07:00:00Z",
+    updatedAt: "2026-10-09T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of M...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</strong>.</p>
+<p>Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/sophos", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791550000",
+    slug: "anthropic-just-banned-being-cruel-to-claude-the-reason",
+    title: "Anthropic Just Banned Being Cruel to Claude. The Reason Should Concern Us All - Inc.com",
+    deck: "Anthropic Just Banned Being Cruel to Claude. The Reason Should Concern Us All Inc.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T12:24:48Z",
+    updatedAt: "2026-10-09T12:24:48Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Just Banned Being Cruel to Claude. The Reason Should Concern Us All Inc.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Just Banned Being Cruel to Claude. The Reason Should Concern Us All - Inc.com</strong>.</p>
+<p>Anthropic Just Banned Being Cruel to Claude. The Reason Should Concern Us All Inc.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcGl4TVplNlRrcUw1OHQ0dDRsMGJFdlVjbVN4ejdjSmpyc2ZzUFpycjdQdGZISm5MQkdFOS1mZkY2WllkQVFFZjdhSDVuN0NxdVlYVW1aS25OZzRZeWFpblJQdzdPRjh3MlVfOVVTdUk4bTVyb1E4NjE0NElKYy1pWjZJSzYzaXBTYWZBREdzWG1SRS1Fb19xM1Nnd2UwMVJKY3BNMUthNW44bFgyMTl0cWEwUkJ1RVE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791522446",
     slug: "the-full-stack-behind-abundant-intelligence",
     title: "The full stack behind abundant intelligence",
