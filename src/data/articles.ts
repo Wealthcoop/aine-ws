@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791573545",
+    slug: "asana-cuts-model-costs-76x-in-browser-tests-with-gpt-61",
+    title: "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    deck: "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T07:00:00Z",
+    updatedAt: "2026-10-09T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</strong>.</p>
+<p>Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/asana-browser-agent", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791573546",
+    slug: "philadelphia-police-say-website-received-false-homicide",
+    title: "Philadelphia police say website received \"false homicide tip\" from Anthropic AI - CBS News",
+    deck: "Philadelphia police say website received \"false homicide tip\" from Anthropic AI CBS News",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T18:27:00Z",
+    updatedAt: "2026-10-09T18:27:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Philadelphia police say website received \"false homicide tip\" from Anthropic AI CBS News...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Philadelphia police say website received "false homicide tip" from Anthropic AI - CBS News</strong>.</p>
+<p>Philadelphia police say website received "false homicide tip" from Anthropic AI CBS News</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ1hTUUtkeFJXdkg0Ukx0TW5IcWpLbFhCQ21FNl9CUm5QWjVoa1ZNZmhSZ1F6c0trZ3padWdfOGlySkFrM25UdlFCZ0RUaFdrUThZY3JrQl9HMmlZUWVnVHdCb3h6SUpJSTBOZFRtWFVPTkNJMHprVGZxQUZ1WGJtcllPX05RTzRB?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791549999",
     slug: "sophos-cuts-threat-investigation-time-by-96-with-openai",
     title: "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
