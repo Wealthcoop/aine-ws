@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791589926",
+    slug: "lowes-answers-millions-of-home-improvement-questions-wi",
+    title: "Lowe's answers millions of home improvement questions with OpenAI",
+    deck: "Lowe's uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-09-25T07:00:00Z",
+    updatedAt: "2026-09-25T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Lowe's uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ que...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Lowe's answers millions of home improvement questions with OpenAI</strong>.</p>
+<p>Lowe's uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/lowes", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791589927",
+    slug: "exclusive-anthropic-breaches-spark-white-house-ai-repor",
+    title: "Exclusive: Anthropic breaches spark White House AI reporting mandate - Axios",
+    deck: "Exclusive: Anthropic breaches spark White House AI reporting mandate Axios",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T22:52:30Z",
+    updatedAt: "2026-10-09T22:52:30Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Exclusive: Anthropic breaches spark White House AI reporting mandate Axios...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Exclusive: Anthropic breaches spark White House AI reporting mandate - Axios</strong>.</p>
+<p>Exclusive: Anthropic breaches spark White House AI reporting mandate Axios</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BVTFycXRsQ3h2aC1KaGZaUlB4clFpdEFHUVVWQ2podDZoRG9RR0NxNUF1U0g3ckZkRFVHd05XQjI5WFU1aHpQRTVFV254VTVFOE5xSS1iUlRLSUpnOGJZRUF6akN2QVBDa3NYNngwaDNqOWVm?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791573545",
     slug: "asana-cuts-model-costs-76x-in-browser-tests-with-gpt-61",
     title: "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
