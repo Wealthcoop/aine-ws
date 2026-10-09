@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791522446",
+    slug: "the-full-stack-behind-abundant-intelligence",
+    title: "The full stack behind abundant intelligence",
+    deck: "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-25T07:05:00Z",
+    updatedAt: "2026-08-25T07:05:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver m...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>The full stack behind abundant intelligence</strong>.</p>
+<p>OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/the-full-stack-behind-abundant-intelligence", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791522446",
+    slug: "hexaware-technologies-share-price-jumps-over-12-after-p",
+    title: "Hexaware Technologies Share Price Jumps Over 12% After Partnership With Anthropic Claude For AI Services - NDTV",
+    deck: "Hexaware Technologies Share Price Jumps Over 12% After Partnership With Anthropic Claude For AI Services NDTV Profit",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-09T04:51:50Z",
+    updatedAt: "2026-10-09T04:51:50Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Hexaware Technologies Share Price Jumps Over 12% After Partnership With Anthropic Claude For AI Services NDTV ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Hexaware Technologies Share Price Jumps Over 12% After Partnership With Anthropic Claude For AI Services - NDTV</strong>.</p>
+<p>Hexaware Technologies Share Price Jumps Over 12% After Partnership With Anthropic Claude For AI Services NDTV Profit</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVjVNS3pBOXk4UnB4cFpIdTVfRGFhd25qUWFrNVBZS3NfeXV5YW83WWU5MHIwNE5ZbkcxMnM3aE4wc282cWNva0kzY3N4aWpybDdzUHBMejZLMFNzNlpqRlpQVlNyMUl2U1VmTXFPcXRiVzItU3NqSE42dXpaV1BuQWdYVHdQb2htdGx1S1l2cXNFcERzcS1UNWJHYmZyREgzTHhXeG1ZcVVTSHduZ2pHZWd6Z2ZZNllBSEl5RDBoQU54eEFKbUk0NHF1V0QzcWJVR25zTV9ubU1neVlSNUozX9IB6AFBVV95cUxPaFhLSjZnSmJHYXFTY1lWZ29WTDlmZ1I2WThNaThJYklvbXVBazFVMVFVM0xtenN2Z3FGbC1jbUpLSVpZYmUwOG1taEVWcTAzN09nTmtiWFI0SGhXSkUwWEgxLWFDalJlLXdENkR5X0hzRmx0UTVhTXd0OUlWbjdMWjIwX0tLTV9aNHk4QUIzMFQ1MXY5US02S1ZGMUZ2U3N4bTR6Mk0xOC05VGFSYTJadlB3R29FSm5Qb08teFRMcjUwcnhubDdUZEpWYUFKN1FxbmQ5U0JEeWxfTlJZNnhkdVl4eUp1OTIw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "comp-hubspot-vs-ghl-2026",
     slug: "hubspot-vs-gohighlevel-2026-cost-ai-agents-b2b-pipeline-audit",
     title: "HubSpot vs GoHighLevel (2026): Real 12-Month Cost, AI Agents & B2B Pipeline Audit",
