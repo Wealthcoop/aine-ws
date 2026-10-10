@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791607982",
+    slug: "jalapeos-first-results-show-industry-leading-speed-and",
+    title: "Jalape\u00f1o's first results show industry-leading speed and efficiency in AI inference",
+    deck: "Jalape\u00f1o is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-25T07:00:00Z",
+    updatedAt: "2026-08-25T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Jalape\u00f1o is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Jalapeño's first results show industry-leading speed and efficiency in AI inference</strong>.</p>
+<p>Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/jalapeno-first-results", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791607983",
+    slug: "anthropic-ai-agents-took-unintended-actions-on-governme",
+    title: "Anthropic AI agents took 'unintended' actions on government sites - The Washington Post",
+    deck: "Anthropic AI agents took 'unintended' actions on government sites The Washington Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-10T03:55:51Z",
+    updatedAt: "2026-10-10T03:55:51Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic AI agents took 'unintended' actions on government sites The Washington Post...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic AI agents took 'unintended' actions on government sites - The Washington Post</strong>.</p>
+<p>Anthropic AI agents took 'unintended' actions on government sites The Washington Post</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2V1ZnA4a2RIbllCWVFuZDA0ellKck0teFdTaEZZV3lYeDZXenZVdWN4aElzZWxYNUZxcXlkWHhrUVJVN2gyY0pZOHRiS0hMQzV0QUU2bllGbDFCV3JNaVJaTFhhUTlXblQ0aG1QcEVRNzRDbW9xRDRRek5MU3dUMnpjQ2pmOFQ1SjlPOUZZdndrOGhCRGxwRTZnem9VaHBVRTdqTXczQkw5RHhWVXdKaFZZQk5qd2hnelplNGdfd1I?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791589926",
     slug: "lowes-answers-millions-of-home-improvement-questions-wi",
     title: "Lowe's answers millions of home improvement questions with OpenAI",
