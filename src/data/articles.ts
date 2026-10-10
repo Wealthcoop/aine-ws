@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791656184",
+    slug: "advancing-price-performance-for-developers-with-gpt56-i",
+    title: "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
+    deck: "GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-24T12:00:00Z",
+    updatedAt: "2026-08-24T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT\u20115.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing price-performance for developers with GPT‑5.6 in Kiro</strong>.</p>
+<p>GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-5-6-in-kiro", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791656185",
+    slug: "anthropics-claude-ai-submits-a-false-tip-on-a-philadelp",
+    title: "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - WSVN",
+    deck: "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case WSVN",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-10T17:16:39Z",
+    updatedAt: "2026-10-10T17:16:39Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case WSVN...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - WSVN</strong>.</p>
+<p>Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case WSVN</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkhiNGJ3RUlncGN1aFF1Ti1MbkUzRVRnbFZ2ZUNncWFCamZxSnA5NHRZVlB3NnJQZFVaaFZFWEtxU3ZrTld3S3l4LUVNWkhOTTBEY1NSbTV5aU1fbnRnUkFoWEhHN0FoWUlpLXpQcmRiMklTNXMwSUpEbExKZU9UbzlIdktReVJ2SmZiaGRCQmFfZzdKMVI5c09DOXdQVU1tdWxpNV83bGtTaHFqWkRlVVBaSQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791633904",
     slug: "disrupting-a-new-covert-influence-campaign-from-russia",
     title: "Disrupting a new covert influence campaign from Russia",
