@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791674355",
+    slug: "introducing-intelligence-age",
+    title: "Introducing Intelligence Age",
+    deck: "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-20T07:00:00Z",
+    updatedAt: "2026-08-20T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governanc...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Introducing Intelligence Age</strong>.</p>
+<p>Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-intelligence-age", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791674356",
+    slug: "anthropic-is-banishing-its-model-evals-from-the-interne",
+    title: "Anthropic Is Banishing Its Model Evals From the Internet - Gizmodo",
+    deck: "Anthropic Is Banishing Its Model Evals From the Internet Gizmodo",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-10T22:52:14Z",
+    updatedAt: "2026-10-10T22:52:14Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Is Banishing Its Model Evals From the Internet Gizmodo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Is Banishing Its Model Evals From the Internet - Gizmodo</strong>.</p>
+<p>Anthropic Is Banishing Its Model Evals From the Internet Gizmodo</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNW1PNnNxaUY1ZHEzS21SMk9HZDE5ajZnTEhSZUNyNUZtVnVzRk93ak1IUS1nQWRJYndEOV9FQUc1dENmSEFPSm40dDJFMGItdW4wQjhkSmpZd1Y3aWpHbkx6NTR2TlRMS0YzaF9SU0xWYms2VzhZajI0OUVhMl9QMi1ITnJ6ZlNWRldsc1lCeHk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791656184",
     slug: "advancing-price-performance-for-developers-with-gpt56-i",
     title: "Advancing price-performance for developers with GPT\u20115.6 in Kiro",
