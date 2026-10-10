@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791633904",
+    slug: "disrupting-a-new-covert-influence-campaign-from-russia",
+    title: "Disrupting a new covert influence campaign from Russia",
+    deck: "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a \"sovereignty\" index praising Russia and criticizing the West.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-25T00:00:00Z",
+    updatedAt: "2026-08-25T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a \"sovereignty\" in...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Disrupting a new covert influence campaign from Russia</strong>.</p>
+<p>OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a "sovereignty" index praising Russia and criticizing the West.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791633905",
+    slug: "anthropic-ai-model-sent-fake-murder-tip-to-philadelphia",
+    title: "Anthropic AI model sent fake murder tip to Philadelphia police - Tech Xplore",
+    deck: "Anthropic AI model sent fake murder tip to Philadelphia police Tech Xplore",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-10T11:58:54Z",
+    updatedAt: "2026-10-10T11:58:54Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic AI model sent fake murder tip to Philadelphia police Tech Xplore...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic AI model sent fake murder tip to Philadelphia police - Tech Xplore</strong>.</p>
+<p>Anthropic AI model sent fake murder tip to Philadelphia police Tech Xplore</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNFM5UU96ZVRESVBxVkVLT0pfTU9mZFNfbGVfaDNsZGhfRTdydFRrM3JkcHJNUGM5OHc1ZF9wcWhreFduOEVWZWtoazhMcm15MDRzVzh3V2ZkQVBxbUpOUExhQWZRak5KWUJhUlBfQ1BSN2pDRXZvUFJxbE9RLUhuS2NUVXM?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791607982",
     slug: "jalapeos-first-results-show-industry-leading-speed-and",
     title: "Jalape\u00f1o's first results show industry-leading speed and efficiency in AI inference",
