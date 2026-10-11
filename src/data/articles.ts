@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791721097",
+    slug: "replit-expands-access-to-software-creation-with-gpt-56",
+    title: "Replit expands access to software creation with GPT-5.6 Luna",
+    deck: "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-19T07:00:00Z",
+    updatedAt: "2026-08-19T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without w...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Replit expands access to software creation with GPT-5.6 Luna</strong>.</p>
+<p>Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/replit", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791721097",
+    slug: "anthropic-launches-free-ai-security-scanner-to-help-ope",
+    title: "Anthropic Launches Free AI Security Scanner To Help Open-Source Projects Find and Fix Vulnerabilities - LinkedIn",
+    deck: "Anthropic Launches Free AI Security Scanner To Help Open-Source Projects Find and Fix Vulnerabilities LinkedIn",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-11T12:00:29Z",
+    updatedAt: "2026-10-11T12:00:29Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Launches Free AI Security Scanner To Help Open-Source Projects Find and Fix Vulnerabilities LinkedIn...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Launches Free AI Security Scanner To Help Open-Source Projects Find and Fix Vulnerabilities - LinkedIn</strong>.</p>
+<p>Anthropic Launches Free AI Security Scanner To Help Open-Source Projects Find and Fix Vulnerabilities LinkedIn</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHlibEVybjAyaC1PUHpjMFN2X2cxUUdnWUVuNi1VMThxLXA2SHYwYUtFNkJUOUViQzBMdzdBNmhlcGpTSFo0ZkRJbzVPRk5aSk5zU0hQM2RSbktJOFlvY3JqVHJKbkFjVHUzVU9MSDdCNUFNZ0NlUzRMam9BT1NDQU9uWFhkQ0ZvN2ZhWkNR?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791693591",
     slug: "offering-zero-data-retention-for-frontier-models",
     title: "Offering Zero Data Retention for frontier models",
