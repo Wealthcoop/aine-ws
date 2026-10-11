@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791744042",
+    slug: "strengthening-democratic-oversight-in-national-security",
+    title: "Strengthening democratic oversight in national security",
+    deck: "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-18T19:00:00Z",
+    updatedAt: "2026-08-18T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting govern...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Strengthening democratic oversight in national security</strong>.</p>
+<p>OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/strengthening-democratic-oversight-in-national-security", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791744043",
+    slug: "anthropic-halved-sonnet-55-cache-reads-and-its-own-tool",
+    title: "Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days - MIXED Reality News",
+    deck: "Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days MIXED Reality News",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-11T18:13:50Z",
+    updatedAt: "2026-10-11T18:13:50Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days MIXED Reality News...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days - MIXED Reality News</strong>.</p>
+<p>Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days MIXED Reality News</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUFuWXF1Wk5Ca1ZzV3BpX3hnRVlWeHVHcUt5ZHJ2ZkJhTXZWQ3hBUGMzemY1YjE3eG05SHdEdldGQk5aalA3QmlEMDRENDRsczRDTFRBNnZkSHVDYXpLdXZqRHZqdGFhTUxmajZ5WmY1dnQxR1c0dE80WUpRWmdCaUpWNEM1NTRkRUw2VFJoSy0yZHBKZHc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791721097",
     slug: "replit-expands-access-to-software-creation-with-gpt-56",
     title: "Replit expands access to software creation with GPT-5.6 Luna",
