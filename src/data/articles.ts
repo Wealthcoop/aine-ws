@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791761372",
+    slug: "partnering-with-codeai-to-prepare-the-first-ai-generati",
+    title: "Partnering with CodeAI to prepare the first AI generation",
+    deck: "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-18T11:00:00Z",
+    updatedAt: "2026-08-18T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop th...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Partnering with CodeAI to prepare the first AI generation</strong>.</p>
+<p>OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/partnering-with-codeai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791761373",
+    slug: "exclusive-moonshot-execs-in-talks-to-settle-dispute-wit",
+    title: "Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say - WTVB",
+    deck: "Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say WTVB",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-11T23:26:09Z",
+    updatedAt: "2026-10-11T23:26:09Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say WTVB...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say - WTVB</strong>.</p>
+<p>Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say WTVB</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMTRHNTlnNGh6eVBRZzF1TlJlN0J1V0pIMlZTWG9tdEhCU2IzOEN0RTQtMl9jcU5LWk1sQ3pkUnZ0MXJoa25LU3NZMndYVTdRVURsQzFGcHdDYjV1VlJ1WlJud0ZONEZJWmg4cHI1ZHozMUFQWXRKSEJTZUdTbzliaWx3ZktZdGZVTmREVm5WS2xsTFJrWHlKWFlRX05Edm9WVmRkczMxd2FQbXBkMlpRNFBNVjl2aENMeXZ6Y3N1Y29HdkhST2RLWkhtWQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791744042",
     slug: "strengthening-democratic-oversight-in-national-security",
     title: "Strengthening democratic oversight in national security",
