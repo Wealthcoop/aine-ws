@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791845218",
+    slug: "asana-completed-a-years-long-code-migration-in-2-weeks",
+    title: "Asana completed a years-long code migration in 2 weeks with Codex",
+    deck: "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-18T07:00:00Z",
+    updatedAt: "2026-08-18T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infra...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Asana completed a years-long code migration in 2 weeks with Codex</strong>.</p>
+<p>Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/asana", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791845219",
+    slug: "do-ai-labs-like-anthropic-and-openai-have-economic-moat",
+    title: "Do AI Labs Like Anthropic and OpenAI Have Economic Moats? - Morningstar",
+    deck: "Do AI Labs Like Anthropic and OpenAI Have Economic Moats? Morningstar",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-12T22:24:21Z",
+    updatedAt: "2026-10-12T22:24:21Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Do AI Labs Like Anthropic and OpenAI Have Economic Moats? Morningstar...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Do AI Labs Like Anthropic and OpenAI Have Economic Moats? - Morningstar</strong>.</p>
+<p>Do AI Labs Like Anthropic and OpenAI Have Economic Moats? Morningstar</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUIzQm5ZMldyemRuX3U2eEhRRlh3aDFiQjJpQlkwTVFxV3N6OG9yNUlOUGcxMlZXeF9SaUtrd2hvbXFOOW5TTHpTLU55aVJPd2R5U2t3TVdaZGFPcHhkVTFvbzJGZVl6SkNvSmlvWGUwTTJkclEzNkV1N3UzQzNtbG1mR081akIwWEh1UlIzSUE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791816231",
     slug: "how-nvidia-scales-expertise-with-chatgpt-work",
     title: "How NVIDIA scales expertise with ChatGPT Work",
