@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791780911",
+    slug: "pacing-model-development-in-an-era-of-cyber-critical-ca",
+    title: "Pacing model development in an era of cyber-critical capabilities",
+    deck: "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-18T11:00:00Z",
+    updatedAt: "2026-08-18T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Pacing model development in an era of cyber-critical capabilities</strong>.</p>
+<p>OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/pacing-model-development-cyber-capabilities", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791780911",
+    slug: "anthropic-ai-model-went-rogue-submitted-fake-unsolved-m",
+    title: "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
+    deck: "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-12T04:48:27Z",
+    updatedAt: "2026-10-12T04:48:27Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ</strong>.</p>
+<p>Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791761372",
     slug: "partnering-with-codeai-to-prepare-the-first-ai-generati",
     title: "Partnering with CodeAI to prepare the first AI generation",
