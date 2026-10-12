@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791816231",
+    slug: "how-nvidia-scales-expertise-with-chatgpt-work",
+    title: "How NVIDIA scales expertise with ChatGPT Work",
+    deck: "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-18T00:00:00Z",
+    updatedAt: "2026-08-18T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workfl...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How NVIDIA scales expertise with ChatGPT Work</strong>.</p>
+<p>NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/nvidia/chatgpt-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791816232",
+    slug: "iren-stock-rises-on-reported-anthropic-ai-deal-schaeffe",
+    title: "IREN Stock Rises on Reported Anthropic AI Deal - Schaeffer's Investment Research",
+    deck: "IREN Stock Rises on Reported Anthropic AI Deal Schaeffer's Investment Research",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-12T14:40:40Z",
+    updatedAt: "2026-10-12T14:40:40Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: IREN Stock Rises on Reported Anthropic AI Deal Schaeffer's Investment Research...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>IREN Stock Rises on Reported Anthropic AI Deal - Schaeffer's Investment Research</strong>.</p>
+<p>IREN Stock Rises on Reported Anthropic AI Deal Schaeffer's Investment Research</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXQtYnZsVzNGM1JpcjBsdXUtdmNWSEFidjhmRHVjdkEtYkFZVW9RMjZJWDR6MXNCQUlHRVFzaFhkRl9XWGp1aDR1bWJEeXV2d3h1U1Y2MmJ2cFJ2Wl9PNTFKS054UXF2Q1QwMXdGRmc4YVZTbzBxVVBRR1hsYVpraWI4TTdCTlhUbEFKcS05aW1tdlpaY3ZHNzFocUxEWmdYd3FGQUFVZHY?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791780911",
     slug: "pacing-model-development-in-an-era-of-cyber-critical-ca",
     title: "Pacing model development in an era of cyber-critical capabilities",
