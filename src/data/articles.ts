@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791899911",
+    slug: "openai-joins-ports-pike-project",
+    title: "OpenAI joins PORTS-Pike project",
+    deck: "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-17T05:00:00Z",
+    updatedAt: "2026-08-17T05:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI joins PORTS-Pike project</strong>.</p>
+<p>OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-joins-ports-pike-project", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791899911",
+    slug: "iren-slides-5-as-anthropic-cloud-report-buzz-fades-core",
+    title: "IREN Slides 5% as Anthropic Cloud Report Buzz Fades; Core Scientific Falls 3% - 24/7 Wall St.",
+    deck: "IREN Slides 5% as Anthropic Cloud Report Buzz Fades; Core Scientific Falls 3% 24/7 Wall St.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-13T13:48:00Z",
+    updatedAt: "2026-10-13T13:48:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: IREN Slides 5% as Anthropic Cloud Report Buzz Fades; Core Scientific Falls 3% 24/7 Wall St....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>IREN Slides 5% as Anthropic Cloud Report Buzz Fades; Core Scientific Falls 3% - 24/7 Wall St.</strong>.</p>
+<p>IREN Slides 5% as Anthropic Cloud Report Buzz Fades; Core Scientific Falls 3% 24/7 Wall St.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY1JSVkFJWnZZUi1lRE1OOFFwZGRxSjdfTGhRMGZmMEY4U0haRTJ4V210X1dJRWxHVnFDbktQQnlmNE4wcFFpdWNsamhPZmRqaVI0VjhycWFoVXcyaGt5Q3h0R2t5UDlJNVpfNjR5b3FyTXBSNGhjN2hta2YyOGRLallUMkNDVE9uc0dyMHF4NnRyQU1oRVgxcFRsQV9PcS10ejR2R3ItT1kwdXFQSXZjNmV2ZXhUQi1obGc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791871008",
     slug: "the-defenders-window-architecture-and-benchmark-analysi",
     title: "The Defender's Window: Architecture and Benchmark Analysis",
