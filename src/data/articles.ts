@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791871008",
+    slug: "the-defenders-window-architecture-and-benchmark-analysi",
+    title: "The Defender's Window: Architecture and Benchmark Analysis",
+    deck: "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-17T05:30:00Z",
+    updatedAt: "2026-08-17T05:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defense...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>The Defender's Window: Architecture and Benchmark Analysis</strong>.</p>
+<p>AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/the-defenders-window", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791871008",
+    slug: "ai-models-may-soon-self-replicate-without-access-to-dat",
+    title: "AI models may soon self-replicate without access to data centers, Anthropic warns",
+    deck: "AI models may soon self-replicate without access to data centers, Anthropic warns Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-13T05:14:00Z",
+    updatedAt: "2026-10-13T05:14:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI models may soon self-replicate without access to data centers, Anthropic warns Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI models may soon self-replicate without access to data centers, Anthropic warns</strong>.</p>
+<p>AI models may soon self-replicate without access to data centers, Anthropic warns Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVFZnZHFlY0QxWV9XbURPeDVpQnlMcWFqaTlDMHRjcWhhLXRhR1hfbTdNeVl3c3dyR3V6V211Wmp5aXNZT1VpN1kwdUs3ZFdBTXB5Z2tEN1JfV2FnUk5FRHpVa2lfRWxENndHaDdNWmRZVUJfQkFody00VG1BNk8wb29Sel9Wd011ampEWXlOQk9xM2x0bkVwTXBib0hEMndtOWNuZXdDWFlEcTRuZzVLRDYxUDFfek9XRTNna3dhZw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791845218",
     slug: "asana-completed-a-years-long-code-migration-in-2-weeks",
     title: "Asana completed a years-long code migration in 2 weeks with Codex",
