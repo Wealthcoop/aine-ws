@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791922244",
+    slug: "higgsfield-takes-ai-video-from-1-minute-to-over-10",
+    title: "Higgsfield takes AI video from 1 minute to over 10",
+    deck: "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-13T12:00:00Z",
+    updatedAt: "2026-10-13T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to v...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Higgsfield takes AI video from 1 minute to over 10</strong>.</p>
+<p>Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/higgsfield-longer-videos-voice", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791922245",
+    slug: "gemini-4-argon-built-to-solve-your-hardest-problems",
+    title: "Gemini 4 Argon: Built to solve your hardest problems",
+    deck: "We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-13T16:00:00Z",
+    updatedAt: "2026-10-13T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> - Google AI News has published details on <strong>Gemini 4 Argon: Built to solve your hardest problems</strong>.</p>
+<p>We're giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791899911",
     slug: "openai-joins-ports-pike-project",
     title: "OpenAI joins PORTS-Pike project",
