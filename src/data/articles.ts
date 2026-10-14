@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792018899",
+    slug: "sentinelone-cuts-malware-analysis-from-weeks-to-hours",
+    title: "SentinelOne cuts malware analysis from weeks to hours",
+    deck: "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T12:00:00Z",
+    updatedAt: "2026-10-14T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate mo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>SentinelOne cuts malware analysis from weeks to hours</strong>.</p>
+<p>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/sentinelone", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792018900",
+    slug: "anthropics-q3-revenue-surges-45-to-nearly-17-billion",
+    title: "Anthropic's Q3 revenue surges 45% to nearly $17 billion",
+    deck: "Anthropic's Q3 revenue surges 45% to nearly $17 billion Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T22:48:23Z",
+    updatedAt: "2026-10-14T22:48:23Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's Q3 revenue surges 45% to nearly $17 billion Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's Q3 revenue surges 45% to nearly $17 billion</strong>.</p>
+<p>Anthropic's Q3 revenue surges 45% to nearly $17 billion Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRHl4NDlfRl9CaVdHZzdFMUYzM3Rka2RvbXlYcXR4ZGEwWGt5LS1rSlZmUkx0SFhxMnlCb1AtSElVcWJoT29UX19jcnRlMFpQOW0zOXQ1cXd0eHNpeFZKdkdxM2JCMjZrOXRXTmhWRExOZHY5OGpxcmY1MHJ5QlVRc2hDejdubVcydi1oYmJRc2RKaWRBOWFLbFREY2VEblZ4SVRpdQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792002150",
     slug: "amp-puts-ai-agents-to-work-beyond-code-with-openai-mode",
     title: "Amp puts AI agents to work beyond code with OpenAI models",
