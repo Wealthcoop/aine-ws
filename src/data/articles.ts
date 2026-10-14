@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791962094",
+    slug: "the-builders-guide-to-gpt56",
+    title: "The builder's guide to GPT\u20115.6",
+    deck: "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-13T11:00:00Z",
+    updatedAt: "2026-08-13T11:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>The builder's guide to GPT‑5.6</strong>.</p>
+<p>Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/builders-guide-to-gpt-5-6", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791962095",
+    slug: "lg-cns-aims-high-in-global-ax-market-in-partnerships-wi",
+    title: "LG CNS aims high in global AX market in partnerships with Anthropic, Japan's KDDI - KED Global",
+    deck: "LG CNS aims high in global AX market in partnerships with Anthropic, Japan's KDDI KED Global",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T06:50:48Z",
+    updatedAt: "2026-10-14T06:50:48Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: LG CNS aims high in global AX market in partnerships with Anthropic, Japan's KDDI KED Global...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>LG CNS aims high in global AX market in partnerships with Anthropic, Japan's KDDI - KED Global</strong>.</p>
+<p>LG CNS aims high in global AX market in partnerships with Anthropic, Japan's KDDI KED Global</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UQmtrSlgxcnZwc0psUXBYWEhxazRpOXdnN2l6cnlWem5Md3NaM1VWRG9RYk5DSTBKQ2x6V2pPal9nOE44cWVLY0p4RmM0UkpTc19peFlVd1Y3dHpjdU45SWZHYlcwWE5mZEs5VVZaVFlELUlTaXlKcWNydUV4V1k?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791939386",
     slug: "new-policy-ideas-for-the-intelligence-age",
     title: "New policy ideas for the Intelligence Age",
