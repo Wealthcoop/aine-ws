@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792002150",
+    slug: "amp-puts-ai-agents-to-work-beyond-code-with-openai-mode",
+    title: "Amp puts AI agents to work beyond code with OpenAI models",
+    deck: "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T12:00:00Z",
+    updatedAt: "2026-10-14T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in wit...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Amp puts AI agents to work beyond code with OpenAI models</strong>.</p>
+<p>See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/amp-beyond-coding", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792002150",
+    slug: "anthropic-warns-of-ai-worms-that-might-infect-smart-hom",
+    title: "Anthropic warns of 'AI worms' that might infect smart homes - Fox Business",
+    deck: "Anthropic warns of 'AI worms' that might infect smart homes Fox Business",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T17:26:21Z",
+    updatedAt: "2026-10-14T17:26:21Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic warns of 'AI worms' that might infect smart homes Fox Business...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic warns of 'AI worms' that might infect smart homes - Fox Business</strong>.</p>
+<p>Anthropic warns of 'AI worms' that might infect smart homes Fox Business</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbEliWWJ6RTRodnNQRVVfbHhZOTFpcWR6ZVBuTXBfYjVYRHlMQmRNZVRkWHdHdGl6VEx6cHUzbjlZRjMtd2lsYTZnNzQ1S0JISV9ORVl5ZUk0N2c?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791984306",
     slug: "the-eus-next-chapter-in-ai-is-agentic",
     title: "The EU's next chapter in AI is agentic",
