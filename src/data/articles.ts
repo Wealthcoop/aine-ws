@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791939386",
+    slug: "new-policy-ideas-for-the-intelligence-age",
+    title: "New policy ideas for the Intelligence Age",
+    deck: "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-17T03:15:00Z",
+    updatedAt: "2026-08-17T03:15:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strength...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>New policy ideas for the Intelligence Age</strong>.</p>
+<p>OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/new-policy-ideas-for-the-intelligence-age", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791939387",
+    slug: "anthropic-seeks-rehearing-of-case-over-pentagons-securi",
+    title: "Anthropic seeks rehearing of case over Pentagon's security risk branding",
+    deck: "Anthropic seeks rehearing of case over Pentagon's security risk branding Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T00:50:00Z",
+    updatedAt: "2026-10-14T00:50:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic seeks rehearing of case over Pentagon's security risk branding Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic seeks rehearing of case over Pentagon's security risk branding</strong>.</p>
+<p>Anthropic seeks rehearing of case over Pentagon's security risk branding Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQlUyMjJEVkZpNDJXTXQtc09tN1BTTFl5T2JoUjBpa29Ud0dCQUk5am9ndUxQbElNdjBSTHJMNExaaDRCa2hkdThOOE9aTGVpNmt3WEJmbU93dEIwSmlSMlNXRVBvME1rcDNKZ3lGYWpJY1VOVFVYeEItdXNDeFlMQzIyTGIzUG9ITmFtVUNBcnZhVVdMX0pfVS1wVEZfU3lqZ0ZrNHJZQ1RESVRfSHN6QjYyNkh2dVJ5elhwRkp3?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791922244",
     slug: "higgsfield-takes-ai-video-from-1-minute-to-over-10",
     title: "Higgsfield takes AI video from 1 minute to over 10",
