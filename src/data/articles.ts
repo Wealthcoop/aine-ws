@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1791984306",
+    slug: "the-eus-next-chapter-in-ai-is-agentic",
+    title: "The EU's next chapter in AI is agentic",
+    deck: "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses\u2014and where deeper use could unlock more value.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T00:00:00Z",
+    updatedAt: "2026-10-14T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses\u2014and where dee...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>The EU's next chapter in AI is agentic</strong>.</p>
+<p>New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1791984307",
+    slug: "anthropic-warns-small-ai-models-could-self-replicate-th",
+    title: "Anthropic warns small AI models could self-replicate through IoT devices",
+    deck: "Anthropic warns small AI models could self-replicate through IoT devices Ars Technica",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T12:55:06Z",
+    updatedAt: "2026-10-14T12:55:06Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic warns small AI models could self-replicate through IoT devices Ars Technica...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic warns small AI models could self-replicate through IoT devices</strong>.</p>
+<p>Anthropic warns small AI models could self-replicate through IoT devices Ars Technica</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcll6TXkzdEQ3b0VLVnFVX1hHYXBNUncxU2YtVWNvSjhVMV9kUlkxbVluYXNVYmtsQmc2YWN0MGtXV213RjIwc0VsOTFkeWxKZkVFNWxpa1gzcG1hc0RkRVo4a0taSVlZQlZ5bmFDcTdQVlRSSEZGbmp6SG9fdTBybU1tNDhxVk9tWV9OeHVQaDVHS1hac1BRbTFmTVA4NlZOQnhfMW5la0xBNGZONWp1bWtlLWk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1791962094",
     slug: "the-builders-guide-to-gpt56",
     title: "The builder's guide to GPT\u20115.6",
