@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792104944",
+    slug: "bringing-gpt-rosalind-to-academic-research-labs",
+    title: "Bringing GPT-Rosalind to academic research labs",
+    deck: "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T19:00:00Z",
+    updatedAt: "2026-10-15T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and t...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Bringing GPT-Rosalind to academic research labs</strong>.</p>
+<p>Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-the-rosalind-academic-plan", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792104944",
+    slug: "anthropic-makes-code-review-generally-available-with-50",
+    title: "Anthropic makes Code Review generally available, with $50,000 in credits attached - The Next Web",
+    deck: "Anthropic makes Code Review generally available, with $50,000 in credits attached The Next Web",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T22:45:28Z",
+    updatedAt: "2026-10-15T22:45:28Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic makes Code Review generally available, with $50,000 in credits attached The Next Web...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic makes Code Review generally available, with $50,000 in credits attached - The Next Web</strong>.</p>
+<p>Anthropic makes Code Review generally available, with $50,000 in credits attached The Next Web</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxYTh2YzlldTFFWDBDTnRIUEpQQXZkRkpWQWhnNVBOM0VHbl9zMzB4M1NMWW1UYVFPWVo4c0ZaSU01ZXJVbHpPMU1lb2lxVDRyVEZ3RVA0SHpSa3B0OFlEMXRRQTJXQkh0dzN1WEFHS1R5bEk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792093497",
     slug: "openai-appoints-dali-rajic-as-chief-revenue-officer",
     title: "OpenAI appoints Dali Rajic as Chief Revenue Officer",
