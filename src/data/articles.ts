@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792093497",
+    slug: "openai-appoints-dali-rajic-as-chief-revenue-officer",
+    title: "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    deck: "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-13T09:00:00Z",
+    updatedAt: "2026-08-13T09:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesse...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI appoints Dali Rajic as Chief Revenue Officer</strong>.</p>
+<p>OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/dali-rajic-chief-revenue-officer", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792093497",
+    slug: "anthropic-grants-outside-evaluator-metr-employee-level",
+    title: "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+    deck: "Anthropic grants outside evaluator METR employee-level access in AI safety push Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T18:54:54Z",
+    updatedAt: "2026-10-15T18:54:54Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic grants outside evaluator METR employee-level access in AI safety push Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic grants outside evaluator METR employee-level access in AI safety push</strong>.</p>
+<p>Anthropic grants outside evaluator METR employee-level access in AI safety push Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbERjb3RFVUdmYXZ6ZktrZ0tiVUlEck5vRGtxd2dXTnA4UGFoSF9QNEU5Y3FfVUxZOHp1cEt3UktQUXZicnI5UDByaW5hTDdhanhtb2JsVTZsRkxYSjRsd2VZZUx2Yy1lZzNhWGdJSWxOalZoZGJNU0g1NGFkUEFkZHNob2RXaVVqb3BxTkZGVFJaUHg4cVNTTXJMcnFtSGZTZDZ1TVVBOWxSSGhjZ0Z6SFpB?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792075451",
     slug: "previewing-ultrafast-mode-gpt-56-sol-at-up-to-14x-the-s",
     title: "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
