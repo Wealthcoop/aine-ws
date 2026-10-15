@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792075451",
+    slug: "previewing-ultrafast-mode-gpt-56-sol-at-up-to-14x-the-s",
+    title: "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    deck: "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14\u00d7 faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-13T10:00:00Z",
+    updatedAt: "2026-08-13T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14\u00d7 faster. Powered by Cerebras, ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed</strong>.</p>
+<p>Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/previewing-ultrafast", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792075455",
+    slug: "aws-anthropic-race-to-deploy-army-of-specialized-engine",
+    title: "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off - CNBC",
+    deck: "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T14:10:14Z",
+    updatedAt: "2026-10-15T14:10:14Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off - CNBC</strong>.</p>
+<p>AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGJvUHpEanQzY2pYeGNxamNzdUxwQWluVS1vQWtyS3NELWRTU0hQRVRZb0pjQnoxTW5VOVU4Z3JrZjNILV8xYXNMbW55RmViZHd1dERoT0VWVDlaZzZETWNzZkJYc1VmOWpOTE5YREZmQlkyVFJCMlNNTVhZdEIyOXVyanh5WFJJLWpwclEtcFhiWkJCNklDMlBRbkcwSWhYU2fSAacBQVVfeXFMTzZSeHZNOHRQcl8tS1hwZTdFYWw4UWx3bFVYLXBFWmNFaVRqejB3cGtOWlhTakprOHI4VzBPd3B6R3JFR1JFLVJxMEVER1dmbVByN0JFaVVjcmo5bWMxTjRzZkJieW9aaEY2SkJRU3FRWFhhbndiOWpMMUFEYXBHRTB2MDdIbUhRajBYMWNQcnN1MmpBSkdWUERfLW1hR2ZUbE1lbHE3VkU?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792054660",
     slug: "how-block-is-building-ai-powered-security-with-openai-t",
     title: "How Block is building AI-powered security with OpenAI technology",
