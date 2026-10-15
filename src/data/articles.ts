@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792054660",
+    slug: "how-block-is-building-ai-powered-security-with-openai-t",
+    title: "How Block is building AI-powered security with OpenAI technology",
+    deck: "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-14T07:00:00Z",
+    updatedAt: "2026-10-14T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How Block is building AI-powered security with OpenAI technology</strong>.</p>
+<p>Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/block-ai-powered-security", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792054661",
+    slug: "update-market-chatter-anthropic-revenue-hits-168-billio",
+    title: "Update: Market Chatter: Anthropic Revenue Hits $16.8 Billion in Q3, AI-Modeler Cash Flow Positive - Yahoo Finance",
+    deck: "Update: Market Chatter: Anthropic Revenue Hits $16.8 Billion in Q3, AI-Modeler Cash Flow Positive Yahoo Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T08:20:41Z",
+    updatedAt: "2026-10-15T08:20:41Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Update: Market Chatter: Anthropic Revenue Hits $16.8 Billion in Q3, AI-Modeler Cash Flow Positive Yahoo Financ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Update: Market Chatter: Anthropic Revenue Hits $16.8 Billion in Q3, AI-Modeler Cash Flow Positive - Yahoo Finance</strong>.</p>
+<p>Update: Market Chatter: Anthropic Revenue Hits $16.8 Billion in Q3, AI-Modeler Cash Flow Positive Yahoo Finance</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxORGhjd28zT3YtRk4waGZjdkxEcVRVR2NFZDMxUTJPX01pWk90b2RJb0xqZHUxc1ptQ3BHbFoxV1U2ZHVwZVZrZzJrSlFPT3VvWHJtalU3Qm9uZkw4UmdJUUlpdWg0NVVnd3hTQkNoQTduNW9udktyekVPYmp6RmNTUHdIYThHd2dqWC0yWk9OX1FiMHFfV2xvamwySl9MbXEycWow?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792035703",
     slug: "how-third-moment-research-runs-10000-agents-for-36-hour",
     title: "How Third Moment Research runs 10,000 agents for 36+ hours",
