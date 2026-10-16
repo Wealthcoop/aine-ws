@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792140557",
+    slug: "from-assistance-to-execution-how-enterprises-put-ai-to",
+    title: "From assistance to execution: How enterprises put AI to work",
+    deck: "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-12T06:00:00Z",
+    updatedAt: "2026-08-12T06:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier fir...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>From assistance to execution: How enterprises put AI to work</strong>.</p>
+<p>OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-enterprises-put-ai-to-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792140558",
+    slug: "anthropic-ipo-could-come-in-weeks-not-months-top-hedge",
+    title: "Anthropic IPO Could Come in 'Weeks, Not Months' - Top Hedge Fund Manager Sees $500 Billion Demand, Draws - Benzinga",
+    deck: "Anthropic IPO Could Come in 'Weeks, Not Months' \u2014 Top Hedge Fund Manager Sees $500 Billion Demand, Draws Benzinga",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-16T08:26:02Z",
+    updatedAt: "2026-10-16T08:26:02Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO Could Come in 'Weeks, Not Months' \u2014 Top Hedge Fund Manager Sees $500 Billion Demand, Draws Benzi...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic IPO Could Come in 'Weeks, Not Months' - Top Hedge Fund Manager Sees $500 Billion Demand, Draws - Benzinga</strong>.</p>
+<p>Anthropic IPO Could Come in 'Weeks, Not Months' — Top Hedge Fund Manager Sees $500 Billion Demand, Draws Benzinga</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLXZBQzlXMExBWmtCc3VNVGx0Y1NFYU1ER1ZaYWZlWHNMUkJEdkhTNzNKQWF1TXRfaVJ6b1A2R3JUUGpiTDQxRm9kRzRCbjRyTFZFQ2pIWTRvc0pXRGJtYzhieXpNRktNcXhKOVBreFl1QzM5S0lpdjBtVFljQkF1U3Z2SnJVeXBIQ3B5YzVHdlVLRVpBN09kYXFUNVJxbWt3LUFvODVfelNId0U0SGlmYlZGLVNFdHRGWDEwQzI0SktaSlc0N05JdHpHby13c2NPemtwZDhDdWJ5cUdJUWxIR2xRN3dZT1hQVzhnMWNkN1FWVDhVM2MydmxrY3pCM1c5VFE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792121880",
     slug: "sullivan-cromwell-brings-legal-expertise-into-agreement",
     title: "Sullivan & Cromwell brings legal expertise into agreement review",
