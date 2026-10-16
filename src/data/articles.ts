@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792161482",
+    slug: "testing-ads-in-chatgpt-architecture-and-benchmark-analy",
+    title: "Testing ads in ChatGPT: Architecture and Benchmark Analysis",
+    deck: "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-11T10:00:00Z",
+    updatedAt: "2026-08-11T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Testing ads in ChatGPT: Architecture and Benchmark Analysis</strong>.</p>
+<p>OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/testing-ads-in-chatgpt", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792161482",
+    slug: "anthropic-might-be-worth-only-15-trillion-why-it-isnt-a",
+    title: "Anthropic Might Be Worth 'Only' $1.5 Trillion. Why It Isn't a Disaster for the AI Trade. - Barron's",
+    deck: "Anthropic Might Be Worth 'Only' $1.5 Trillion. Why It Isn't a Disaster for the AI Trade. Barron's",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-16T13:50:00Z",
+    updatedAt: "2026-10-16T13:50:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Might Be Worth 'Only' $1.5 Trillion. Why It Isn't a Disaster for the AI Trade. Barron's...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Might Be Worth 'Only' $1.5 Trillion. Why It Isn't a Disaster for the AI Trade. - Barron's</strong>.</p>
+<p>Anthropic Might Be Worth 'Only' $1.5 Trillion. Why It Isn't a Disaster for the AI Trade. Barron's</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqZ1VyWHh2WGc3c2JHWWc4VGJfdHd0TldRal8wSTY2OGd1TGJIcE9vNmZkV0g4QkJhaURKYWZ4b3pMY0s3RlVHNWhZSXF5LVk2RWt1XzRxZjFTU3cxbksxcEpnbU84a3VPMUU3ODhvd21ua0k?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792140557",
     slug: "from-assistance-to-execution-how-enterprises-put-ai-to",
     title: "From assistance to execution: How enterprises put AI to work",
