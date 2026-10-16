@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792121880",
+    slug: "sullivan-cromwell-brings-legal-expertise-into-agreement",
+    title: "Sullivan & Cromwell brings legal expertise into agreement review",
+    deck: "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-15T00:00:00Z",
+    updatedAt: "2026-10-15T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying iss...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Sullivan & Cromwell brings legal expertise into agreement review</strong>.</p>
+<p>In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/sullivan-cromwell", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792121881",
+    slug: "openais-2026-revenue-estimate-just-got-cut-by-20-billio",
+    title: "OpenAI's 2026 Revenue Estimate Just Got Cut by $20 Billion. Anthropic's Quarterly Revenue Just Climbed to $16.8",
+    deck: "OpenAI's 2026 Revenue Estimate Just Got Cut by $20 Billion. Anthropic's Quarterly Revenue Just Climbed to $16.8 Billion. The Motley Fool",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-16T03:06:46Z",
+    updatedAt: "2026-10-16T03:06:46Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: OpenAI's 2026 Revenue Estimate Just Got Cut by $20 Billion. Anthropic's Quarterly Revenue Just Climbed to $16....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>OpenAI's 2026 Revenue Estimate Just Got Cut by $20 Billion. Anthropic's Quarterly Revenue Just Climbed to $16.8</strong>.</p>
+<p>OpenAI's 2026 Revenue Estimate Just Got Cut by $20 Billion. Anthropic's Quarterly Revenue Just Climbed to $16.8 Billion. The Motley Fool</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM3I4UTVHd0xyUFVEcnB3VmR6QnhFb0M5WUppR3pUd1R3Wi1WOExHT2E2ODVuODU2M21QWmQ4ZmczTVlfa3hPWTNPeEFtdUdHazlEUFp6Znh0Y1l6aHlmUWo3NHYyams0dUVBVU9RelRUa2ZOZTI1SjZJeXRJSGhSTlhubDU5UmxjbTVHX3g4by1ZdDN3UzZMag?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792104944",
     slug: "bringing-gpt-rosalind-to-academic-research-labs",
     title: "Bringing GPT-Rosalind to academic research labs",
