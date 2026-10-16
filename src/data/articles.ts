@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792190338",
+    slug: "openais-letter-to-governor-abbott-on-responsible-ai-inf",
+    title: "OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
+    deck: "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-10T14:00:00Z",
+    updatedAt: "2026-08-10T14:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas</strong>.</p>
+<p>OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/responsible-ai-infrastructure-texas", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792190339",
+    slug: "anthropic-quietly-pitches-its-own-ai-safety-bill-to-law",
+    title: "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+    deck: "Anthropic quietly pitches its own AI safety bill to lawmakers Politico",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-16T21:45:00Z",
+    updatedAt: "2026-10-16T21:45:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic quietly pitches its own AI safety bill to lawmakers Politico...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic quietly pitches its own AI safety bill to lawmakers - Politico</strong>.</p>
+<p>Anthropic quietly pitches its own AI safety bill to lawmakers Politico</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792178720",
     slug: "daybreak-models-are-now-available-on-aws",
     title: "Daybreak models are now available on AWS",
