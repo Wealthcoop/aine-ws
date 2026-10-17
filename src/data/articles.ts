@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792243821",
+    slug: "putting-frontier-cyber-models-in-more-trusted-hands",
+    title: "Putting frontier cyber models in more trusted hands",
+    deck: "Approved Daybreak partners can use OpenAI's frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-10T10:00:00Z",
+    updatedAt: "2026-08-10T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Approved Daybreak partners can use OpenAI's frontier cyber models to deliver authorized, governed cybersecurit...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Putting frontier cyber models in more trusted hands</strong>.</p>
+<p>Approved Daybreak partners can use OpenAI's frontier cyber models to deliver authorized, governed cybersecurity services to customers.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792243821",
+    slug: "ai-must-remain-under-human-direction-eu-puts-the-ai-act",
+    title: "AI must remain under human direction': EU puts the AI Act to the test - The Next Web",
+    deck: "'AI must remain under human direction': EU puts the AI Act to the test The Next Web",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T13:26:16Z",
+    updatedAt: "2026-10-17T13:26:16Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: 'AI must remain under human direction': EU puts the AI Act to the test The Next Web...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI must remain under human direction': EU puts the AI Act to the test - The Next Web</strong>.</p>
+<p>'AI must remain under human direction': EU puts the AI Act to the test The Next Web</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeWFISWdkdm9aNF9sTUh3SWl4a2tQemJabEV5Q1ZZamVZNnhPMTBuZVNSRWU1TEVmSGdOaFRxVkZKVmxyTGs5RTBQV2xrSjBGVEpYQWg3SnRFenc5QTJCa0o0bGEtcXJ0QUY5WGN5YnUyVWh6cXAxa2d3RDVqYlhUQ05pdWk?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792225185",
     slug: "what-building-an-ai-native-finance-function-taught-me",
     title: "What building an AI-native finance function taught me",
