@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792256047",
+    slug: "expanding-daybreak-as-the-cyber-defense-window-narrows",
+    title: "Expanding Daybreak as the Cyber Defense Window Narrows",
+    deck: "Meet GPT-5.6-Cyber, OpenAI's cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-10T10:00:00Z",
+    updatedAt: "2026-08-10T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Meet GPT-5.6-Cyber, OpenAI's cybersecurity-specific model available through Daybreak Red for authorized vulner...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Expanding Daybreak as the Cyber Defense Window Narrows</strong>.</p>
+<p>Meet GPT-5.6-Cyber, OpenAI's cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792256048",
+    slug: "anthropic-proposes-its-own-ai-rules-for-the-us-root-nat",
+    title: "Anthropic Proposes Its Own AI Rules for the US - Root-Nation.com",
+    deck: "Anthropic Proposes Its Own AI Rules for the US Root-Nation.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T16:09:32Z",
+    updatedAt: "2026-10-17T16:09:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Proposes Its Own AI Rules for the US Root-Nation.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Proposes Its Own AI Rules for the US - Root-Nation.com</strong>.</p>
+<p>Anthropic Proposes Its Own AI Rules for the US Root-Nation.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GUG85LTg5UkduaktoR2pDTnJ4bm55YXF6SXVEdUJsR211djJ4WWZlNEdKa2l5akswenpkeFh5YUY4ZDZzMEI3cDVoZ1l6N1h5RC1iVWhkVjdCc01xaUx5S1pNVzBFNGEyMVBvbjBGMVdQVFVaNFdKQg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792243821",
     slug: "putting-frontier-cyber-models-in-more-trusted-hands",
     title: "Putting frontier cyber models in more trusted hands",
