@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792268213",
+    slug: "responding-to-the-next-frontier-of-critical-cyber-capab",
+    title: "Responding to the next frontier of critical cyber capabilities",
+    deck: "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we're taking to strengthen safeguards and security controls.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-07T15:20:00Z",
+    updatedAt: "2026-08-07T15:20:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we're taking to strengthen saf...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Responding to the next frontier of critical cyber capabilities</strong>.</p>
+<p>OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we're taking to strengthen safeguards and security controls.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792268214",
+    slug: "anthropics-ai-safety-bill-has-an-alarming-threshold-for",
+    title: "Anthropic's AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
+    deck: "Anthropic's AI Safety Bill Has an Alarming Threshold for Government Action Mother Jones",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T19:20:55Z",
+    updatedAt: "2026-10-17T19:20:55Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's AI Safety Bill Has an Alarming Threshold for Government Action Mother Jones...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones</strong>.</p>
+<p>Anthropic's AI Safety Bill Has an Alarming Threshold for Government Action Mother Jones</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk85UDhheTRLWlR3YUtHQ2FjUnU2dVg5Q3dIa1Y4b1p5bS1XajV1REJSMWotUUN4XzZLZGNIajBmRm45M0p5aTdBb0p3R082SHJFNVVXcFRKXzZBZGJsRURfWXhBNmRNdEJYYnJsaGVGM3ZNSXV5UE1NSkZTS0hSU2FsSS1nUVBnSGtBdGk2Sm11S0xqUkZNT3dRTDNTNVpwel9lS0pycU9jZHkxZUFRb1FCemdJdDdKUkhr?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792256047",
     slug: "expanding-daybreak-as-the-cyber-defense-window-narrows",
     title: "Expanding Daybreak as the Cyber Defense Window Narrows",
