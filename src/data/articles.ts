@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792225185",
+    slug: "what-building-an-ai-native-finance-function-taught-me",
+    title: "What building an AI-native finance function taught me",
+    deck: "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-10T17:00:00Z",
+    updatedAt: "2026-08-10T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecast...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>What building an AI-native finance function taught me</strong>.</p>
+<p>OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/building-an-ai-native-finance-function", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792225185",
+    slug: "anthropics-claude-designs-leaner-quantum-circuits-reduc",
+    title: "Anthropic's Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The",
+    deck: "Anthropic's Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations The Quantum Insider",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T08:12:30Z",
+    updatedAt: "2026-10-17T08:12:30Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations The Quantum...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The</strong>.</p>
+<p>Anthropic's Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations The Quantum Insider</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYURjUkQ4Wk91LUpUaXNlYmdUS0Q3UmNFTUFvSEN5c1pYRUx2NXgwTmhUQS16MV9oLW9ZNmJJR2laeGwxRFlxMmtxZUVkaGR3dHlocUlYMFpKYVkzbzNHYUJ2WFUtcnNQVDhuSHQxTTdkUi1vYXR3SVZQOXJkVmhXeVB4Z1BlSDZVRE9XaWZ6YWt0TWFiQmlieklTMnZDdGJLbDdXTzNKc3VnSEhwRW5IaUxFeUdtQ2R1NS0wSVdHNHA2bmNTWUgxTmF6Y1lmc0t4a0gxcg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792207670",
     slug: "model-ml-completes-finance-work-more-efficiently-with-g",
     title: "Model ML completes finance work more efficiently with GPT-5.6 Sol",
