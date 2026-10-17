@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792281025",
+    slug: "improving-gpt56-sol-in-chatgpt-and-expanding-access-to",
+    title: "Improving GPT\u20115.6 Sol in ChatGPT - and expanding access to GPT-5.6 Luna for free users",
+    deck: "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-06T10:00:00Z",
+    updatedAt: "2026-08-06T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free us...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Improving GPT‑5.6 Sol in ChatGPT - and expanding access to GPT-5.6 Luna for free users</strong>.</p>
+<p>ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792281025",
+    slug: "ai-rapidly-improving-could-vastly-boost-us-gdp-anthropi",
+    title: "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers - CNBC",
+    deck: "AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T23:04:00Z",
+    updatedAt: "2026-10-17T23:04:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers - CNBC</strong>.</p>
+<p>AI rapidly improving, could vastly boost U.S. GDP, Anthropic's Clark tells policymakers CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BOXg1cnVLam5kdlRzekpwZ2ppalNIaHlYU1poOW9IQlJUMDlOc09zX2RZU2NtckE0bE9KWW1hQ3VGS185MTdSaHNFYnBlYTg0UVY2V2xKWEZUbWlTLTJlX0tFU053c05kaW1heTNxT2nSAXZBVV95cUxNMjJTd05DdHhXYVlhNDdrTWdhTk5XYkpYbEFORE9QeFJZLXhIU21ISjV4akVoVUt4b0w3VHZuUzBnQ3gyQm5Ec2swaGJKMFlqbkRkcm5KcjI3QkFlR04tVHJSalZDQUl2WFJHSDhyUVVGeWpMT1NR?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792268213",
     slug: "responding-to-the-next-frontier-of-critical-cyber-capab",
     title: "Responding to the next frontier of critical cyber capabilities",
