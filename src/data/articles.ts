@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792207670",
+    slug: "model-ml-completes-finance-work-more-efficiently-with-g",
+    title: "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    deck: "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-10T12:00:00Z",
+    updatedAt: "2026-08-10T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Model ML completes finance work more efficiently with GPT-5.6 Sol</strong>.</p>
+<p>Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/model-ml", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792207671",
+    slug: "anthropic-quietly-pushes-ai-safety-bill-that-would-limi",
+    title: "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law",
+    deck: "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models Law Commentary",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-17T02:44:47Z",
+    updatedAt: "2026-10-17T02:44:47Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models Law Commen...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models - Law</strong>.</p>
+<p>Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models Law Commentary</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUUpETGxDdXo5QzRMMEdKUko5cWxsQzJSeDhRUUVZYV94Q2RKc1FjV2JaT1hmTUxBanF2WGN5bGFObkdXVTExVV80WFVpY2NfenEzOWFOUnFGbDRkbHBPcjRvcmJkbk5TYVRTV1U5NXNZajRlYVE5TTRKak1zYXNQNjlIUzNmVEw3?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792190338",
     slug: "openais-letter-to-governor-abbott-on-responsible-ai-inf",
     title: "OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
