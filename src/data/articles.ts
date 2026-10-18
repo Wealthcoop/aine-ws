@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792343290",
+    slug: "apple-is-getting-this-wrong",
+    title: "Apple is getting this wrong",
+    deck: "OpenAI addresses Apple's baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-03T22:00:00Z",
+    updatedAt: "2026-08-03T22:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI addresses Apple's baseless lawsuit, corrects claims about its employees, and shares messages documentin...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Apple is getting this wrong</strong>.</p>
+<p>OpenAI addresses Apple's baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/apple-is-getting-this-wrong", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792343290",
+    slug: "ai-could-boost-us-gdp-to-44t-by-2030-briefs-finance",
+    title: "AI Could Boost US GDP to $44T by 2030 - Briefs Finance",
+    deck: "AI Could Boost US GDP to $44T by 2030 Briefs Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T16:34:54Z",
+    updatedAt: "2026-10-18T16:34:54Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI Could Boost US GDP to $44T by 2030 Briefs Finance...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI Could Boost US GDP to $44T by 2030 - Briefs Finance</strong>.</p>
+<p>AI Could Boost US GDP to $44T by 2030 Briefs Finance</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTF9IYllUWTNycWNnX0JvTE1vQ0VhY3pJMlpPUk5zZGdpWHNKUGZRc2F2WlZuTVhLMm0wUFk3RFJ5djE0cFRtejJheUZmdUpqNzRIelNIcC15SFNNRmU3S2M5aTVPZXotVy1wempWbnpXNnR1anZkXzJDUU00bi1xcDItZ1lYQUlqaU01Q25ZcXpXdw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792331323",
     slug: "third-party-cyber-evaluations-involving-openai-models",
     title: "Third-party cyber evaluations involving OpenAI models",
