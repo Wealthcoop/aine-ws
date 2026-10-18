@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792294485",
+    slug: "working-with-the-american-psychological-association-on",
+    title: "Working with the American Psychological Association on youth mental health and AI",
+    deck: "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-06T06:00:00Z",
+    updatedAt: "2026-08-06T06:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards f...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Working with the American Psychological Association on youth mental health and AI</strong>.</p>
+<p>OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792294485",
+    slug: "how-could-a-super-intelligent-ai-dominate-the-world-vie",
+    title: "How could a super-intelligent AI dominate the world? - Vietnam.vn",
+    deck: "How could a super-intelligent AI dominate the world? Vietnam.vn",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T03:02:26Z",
+    updatedAt: "2026-10-18T03:02:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: How could a super-intelligent AI dominate the world? Vietnam.vn...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>How could a super-intelligent AI dominate the world? - Vietnam.vn</strong>.</p>
+<p>How could a super-intelligent AI dominate the world? Vietnam.vn</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNDlKanNTWVFYdGcyLW94RzlHank0ME9IWXR4TVZuZUhoNzU1UDBqTHZaTWZnVFlHVzd2aWNnVW0waHNvaDcwNEdiX2IwT1duNEV2S0lrd3JCcW02LV9CRGdGUW5sS1VYTjFHNll5U0tVNEFMSGNVUFZWVWRKdFhjME5pa0ItSmdWR0xr?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792281025",
     slug: "improving-gpt56-sol-in-chatgpt-and-expanding-access-to",
     title: "Improving GPT\u20115.6 Sol in ChatGPT - and expanding access to GPT-5.6 Luna for free users",
