@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792312806",
+    slug: "from-asking-to-doing-how-the-world-is-putting-chatgpt-t",
+    title: "From asking to doing: How the world is putting ChatGPT to work",
+    deck: "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-06T00:00:00Z",
+    updatedAt: "2026-08-06T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>From asking to doing: How the world is putting ChatGPT to work</strong>.</p>
+<p>New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792312807",
+    slug: "anthropic-proposes-ai-models-can-be-blocked-only-if-the",
+    title: "Anthropic proposes AI models can be blocked only if they risk $1 billion damage or 50 deaths - India Today",
+    deck: "Anthropic proposes AI models can be blocked only if they risk $1 billion damage or 50 deaths India Today",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T08:34:19Z",
+    updatedAt: "2026-10-18T08:34:19Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic proposes AI models can be blocked only if they risk $1 billion damage or 50 deaths India Today...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic proposes AI models can be blocked only if they risk $1 billion damage or 50 deaths - India Today</strong>.</p>
+<p>Anthropic proposes AI models can be blocked only if they risk $1 billion damage or 50 deaths India Today</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVDJYZDY2ZjNJTEJFYnR2bExXTEFIZU5TeTNUMmMyU2FlU2NTZmdxTFdZNXdaWWNPOEpKVXRRNm5TalpKMk81Nkw3QjRGaUpoOUJVUFY5MWRwbldVVjJfaGkyRC12Qm9GODhaZWd0Z0ZEQkNuQ2lPYlhKLWo3cl9way1LOUpoWDR4czlHSUp6amNOa1BiS1M0YUhjNzZhWE8yeFU0Z1BaTGViWk5ldnBJRlpFY1lQeHA3bzkydDdBcFFLRDBxV0FZN21qODU0eDQ4TUkzeC1DZFZrVEdROWNheE1vTmMzMnloSlZOMGxPZUFwSUZO0gH0AUFVX3lxTE1UMlhkNjZmM0lMQkVidHZsTFdMQUhlTlN5M1QyYzJTYWVTY1NmZ3FMV1k1d1pZY084SkpVdFE2blNqWkoyTzU2TDdCNEZpSmg5QlVQVjkxZHBuV1VWMl9oaTJELXZCb0Y4OFplZ3RnRkRCQ25DaU9iWEotajdyX3BrLUs5SmhYNHhzOUdJSnpqY05rUGJLUzRhSGM3NmFYTzJ4VTRnUFpMZWJaTmV2cElGWkVjWVB4cDdvOTJ0N0FwUUtEMHFXQVk3bWo4NTR4NDhNSTN4LUNkVmtUR1E5Y2F4TW9OYzMyeWhKVk4wbE9lQXBJRk4?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792294485",
     slug: "working-with-the-american-psychological-association-on",
     title: "Working with the American Psychological Association on youth mental health and AI",
