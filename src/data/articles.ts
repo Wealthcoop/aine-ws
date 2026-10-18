@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792367887",
+    slug: "circles-powers-telco-personalization-with-openai-techno",
+    title: "Circles powers telco personalization with OpenAI technology",
+    deck: "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-03T00:00:00Z",
+    updatedAt: "2026-08-03T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing c...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Circles powers telco personalization with OpenAI technology</strong>.</p>
+<p>Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/circles", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792367888",
+    slug: "anthropic-to-commit-5-of-its-shares-to-new-public-benef",
+    title: "Anthropic to Commit 5% of Its Shares to New 'Public Benefit' Fund - WSJ",
+    deck: "Anthropic to Commit 5% of Its Shares to New 'Public Benefit' Fund WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T23:23:00Z",
+    updatedAt: "2026-10-18T23:23:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic to Commit 5% of Its Shares to New 'Public Benefit' Fund WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic to Commit 5% of Its Shares to New 'Public Benefit' Fund - WSJ</strong>.</p>
+<p>Anthropic to Commit 5% of Its Shares to New 'Public Benefit' Fund WSJ</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNXpEalNTRTc3MS04dnVkR0VjRHBocDJVbVlKQlIyaUJ4aHRHSVUwLTMtelNvRXUxWmNULU9iUnhPMmdWS1V5dUVQaUZRaXZMYnRMeGpzbWZFb2FKd3ZqcElOa0FRVlM4TXJoc2w2eG51eFVQZ2hTNENFY1phSzg5RjFNbXFEMDNNel96T2hCVFJlaXN6dnpmeVozTHdpMzkz?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792354546",
     slug: "how-we-built-a-realtime-system-for-responsive-voice-ai",
     title: "How we built a realtime system for responsive voice AI in six months",
