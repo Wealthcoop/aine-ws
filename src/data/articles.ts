@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792331323",
+    slug: "third-party-cyber-evaluations-involving-openai-models",
+    title: "Third-party cyber evaluations involving OpenAI models",
+    deck: "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-04T19:00:00Z",
+    updatedAt: "2026-08-04T19:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthe...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Third-party cyber evaluations involving OpenAI models</strong>.</p>
+<p>OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792331324",
+    slug: "what-are-self-replicating-ai-worms-and-why-is-anthropic",
+    title: "What are self-replicating 'AI worms', and why is Anthropic worried about them? - The Guardian",
+    deck: "What are self-replicating 'AI worms', and why is Anthropic worried about them? The Guardian",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T13:30:00Z",
+    updatedAt: "2026-10-18T13:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: What are self-replicating 'AI worms', and why is Anthropic worried about them? The Guardian...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>What are self-replicating 'AI worms', and why is Anthropic worried about them? - The Guardian</strong>.</p>
+<p>What are self-replicating 'AI worms', and why is Anthropic worried about them? The Guardian</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVjB4YWJlM1piXzhhQzJFa1ZMWXh1dC1lZHJpaUJhVFhoZGdZbkwxUzRmeUdXdktLU2M5eFdRTG04am5UNDdtYlMwZWxLVW0zejBZWWtTTlExMTRTUlpnY3NUZGZ3V1JsMVlVY0RTWVdVQUhvWU0xZWdzNEgwdFJzQmdR?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792312806",
     slug: "from-asking-to-doing-how-the-world-is-putting-chatgpt-t",
     title: "From asking to doing: How the world is putting ChatGPT to work",
