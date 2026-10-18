@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792354546",
+    slug: "how-we-built-a-realtime-system-for-responsive-voice-ai",
+    title: "How we built a realtime system for responsive voice AI in six months",
+    deck: "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-03T07:00:00Z",
+    updatedAt: "2026-08-03T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architect...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How we built a realtime system for responsive voice AI in six months</strong>.</p>
+<p>GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/continuous-voice-interaction-with-gpt-live", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792354546",
+    slug: "anthropic-pledges-5-of-shares-to-new-public-benefit-fun",
+    title: "Anthropic pledges 5% of shares to new public benefit fund - Anadolu Ajans\u0131",
+    deck: "Anthropic pledges 5% of shares to new public benefit fund Anadolu Ajans\u0131",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-18T20:11:11Z",
+    updatedAt: "2026-10-18T20:11:11Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic pledges 5% of shares to new public benefit fund Anadolu Ajans\u0131...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic pledges 5% of shares to new public benefit fund - Anadolu Ajansı</strong>.</p>
+<p>Anthropic pledges 5% of shares to new public benefit fund Anadolu Ajansı</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVzhnVFVDZVk3Q01HWUE0Q2E0aUFGRm1lSjB1VDdlUzBJeVNWeEtrVTVVN0FvYU9keXBDNmNNNGllMzRhdDBkM2QzdkVPRjRGLTlfWENIdGd3cVZXLVJqZnpZcG5LcV9jeTByMUp5TTc2TjB3aVdqaWlQRHBacjNocGN6b1hEUDVJMWp0YjEtOXdQR1YyWTA1WDdSRGVpUFZBWl9Xc2NkTQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792343290",
     slug: "apple-is-getting-this-wrong",
     title: "Apple is getting this wrong",
