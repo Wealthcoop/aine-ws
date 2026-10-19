@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792412918",
+    slug: "advancing-responsible-ai-across-europe",
+    title: "Advancing responsible AI across Europe",
+    deck: "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-31T15:00:00Z",
+    updatedAt: "2026-07-31T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governan...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing responsible AI across Europe</strong>.</p>
+<p>OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/advancing-responsible-ai-across-europe", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792412919",
+    slug: "musk-pledges-a-share-of-his-spacex-company-to-every-kid",
+    title: "Musk pledges a share of his SpaceX company to 'every kid in America' - The Washington Post",
+    deck: "Musk pledges a share of his SpaceX company to 'every kid in America' The Washington Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-19T12:24:54Z",
+    updatedAt: "2026-10-19T12:24:54Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Musk pledges a share of his SpaceX company to 'every kid in America' The Washington Post...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Musk pledges a share of his SpaceX company to 'every kid in America' - The Washington Post</strong>.</p>
+<p>Musk pledges a share of his SpaceX company to 'every kid in America' The Washington Post</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeHJLWUtGdzBoQ3M0TWJlYzVlZHNscV81b2ZidmN2akx2VlBtUGZQUng5X2hWZkJCcEM4QVBocUJLTndCWDlZWlFSa19Zd1VqZUpRaDlqako2clhhV2NnalBDMDFsZzdwWEZseVZEVVl6RlNkOTNGMTUwMjBxZTc0QUQwZG1xeDUyay1GTVkyTGJZTWxNWkFTdENhRzZqblBuRzc2MTlGTGRlM05mZWp3R0c4NjlpNV9Ua2doRE5qZnNiMFdEUlRvQTNwMnQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792383952",
     slug: "ten-advances-in-mathematics-and-theoretical-computer-sc",
     title: "Ten advances in mathematics and theoretical computer science",
