@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792383952",
+    slug: "ten-advances-in-mathematics-and-theoretical-computer-sc",
+    title: "Ten advances in mathematics and theoretical computer science",
+    deck: "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-08-01T00:00:00Z",
+    updatedAt: "2026-08-01T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, incl...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Ten advances in mathematics and theoretical computer science</strong>.</p>
+<p>OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/ten-advances-in-mathematics", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792383953",
+    slug: "anthropic-says-it-will-commit-5-of-shares-to-public-ben",
+    title: "Anthropic says it will commit 5% of shares to 'public benefit' fund - Al Jazeera",
+    deck: "Anthropic says it will commit 5% of shares to 'public benefit' fund Al Jazeera",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-19T03:33:45Z",
+    updatedAt: "2026-10-19T03:33:45Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic says it will commit 5% of shares to 'public benefit' fund Al Jazeera...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic says it will commit 5% of shares to 'public benefit' fund - Al Jazeera</strong>.</p>
+<p>Anthropic says it will commit 5% of shares to 'public benefit' fund Al Jazeera</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZUlxRm1wUHpkRHNDLTBnN1d0TlNDQjdseE5ZcldzTnllaEJ5NEk0ekdibHNZWExFdzcwUWNnOGJlbVdTMFJjMDBSbHJnbzBPR3B6d0VzbFpkT3hlbnB0LUtuQ1V0bldTamtOQVdrSGFQYTZRbjgwTF9rUDRhZkZzNkFvUTZ2ODNaTnk1VGU2N1diWnNYQ1R5blRWbmVMOUQwUzhNeDZ4Y2hxSGIxZ3fSAbMBQVVfeXFMTllaOEVZTjN2ZXZEX1F2YVZQMElmdkFrWW9WQ1ZTcGxkZ3FabTNadnNGR1dkWXZpSElyOTNNUTNxR0JibjRscXBUMC1temdNNmlDUkxpQlNDRjlrbnJJX0txNHpnWU9Sd0cxWDJhekRaX2FhVXU4X2w2NDl4bVd2YmZSRjdYaFdjem9BYWpmdHAyUFI5NG5SVHA2MGEzNGNLbHFqQVVDckJfRzJKUDJiNEN4Um8?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792367887",
     slug: "circles-powers-telco-personalization-with-openai-techno",
     title: "Circles powers telco personalization with OpenAI technology",
