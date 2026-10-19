@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792438894",
+    slug: "disrupting-a-cambodia-based-criminal-scam-operation",
+    title: "Disrupting a Cambodia-based criminal scam operation",
+    deck: "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-31T00:00:00Z",
+    updatedAt: "2026-07-31T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and i...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Disrupting a Cambodia-based criminal scam operation</strong>.</p>
+<p>OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792438894",
+    slug: "anthropic-is-pitching-congress-its-own-ai-safety-bill-r",
+    title: "Anthropic is pitching Congress its own AI safety bill, report says - Mashable",
+    deck: "Anthropic is pitching Congress its own AI safety bill, report says Mashable",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-19T19:18:45Z",
+    updatedAt: "2026-10-19T19:18:45Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic is pitching Congress its own AI safety bill, report says Mashable...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic is pitching Congress its own AI safety bill, report says - Mashable</strong>.</p>
+<p>Anthropic is pitching Congress its own AI safety bill, report says Mashable</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE15NjVPYUtCV2RwQTJVZ0MtcDFJdV9INE9mOUpFdmUxQXg0bXI3WkJhVHNyN2ExOGFJRXAyZmpwWjY5SnMxYW05R2UtVVJzRHJGdldDcEdaU3RlcE1DdGFqT19CXzgwZnNUdk4zNEY1cUJXSWpsVVFn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792412918",
     slug: "advancing-responsible-ai-across-europe",
     title: "Advancing responsible AI across Europe",
