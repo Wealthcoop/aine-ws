@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792452301",
+    slug: "advancing-coding-in-low-resource-programming-languages",
+    title: "Advancing Coding in Low-Resource Programming Languages",
+    deck: "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-19T12:00:00Z",
+    updatedAt: "2026-10-19T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for soft...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing Coding in Low-Resource Programming Languages</strong>.</p>
+<p>Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/low-resource-programming-languages", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792452302",
+    slug: "nvidia-backed-nscale-anthropic-in-talks-for-new-45-bill",
+    title: "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says",
+    deck: "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-19T22:59:41Z",
+    updatedAt: "2026-10-19T22:59:41Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says</strong>.</p>
+<p>Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792438894",
     slug: "disrupting-a-cambodia-based-criminal-scam-operation",
     title: "Disrupting a Cambodia-based criminal scam operation",
