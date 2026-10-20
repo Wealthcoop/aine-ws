@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792468565",
+    slug: "advancing-the-price-performance-frontier-with-gpt-56",
+    title: "Advancing the price-performance frontier with GPT-5.6",
+    deck: "Explore lower GPT\u20115.6 pricing for Luna and Terra\u2014and how OpenAI's more efficient models help enterprises deploy AI workflows at scale.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-30T10:00:00Z",
+    updatedAt: "2026-07-30T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Explore lower GPT\u20115.6 pricing for Luna and Terra\u2014and how OpenAI's more efficient models help enterprises deplo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing the price-performance frontier with GPT-5.6</strong>.</p>
+<p>Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI's more efficient models help enterprises deploy AI workflows at scale.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792468566",
+    slug: "ai-tech-brief-anthropics-leaked-bill-the-washington-pos",
+    title: "AI & Tech Brief: Anthropic's leaked bill - The Washington Post",
+    deck: "AI & Tech Brief: Anthropic's leaked bill The Washington Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T03:38:23Z",
+    updatedAt: "2026-10-20T03:38:23Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI & Tech Brief: Anthropic's leaked bill The Washington Post...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI & Tech Brief: Anthropic's leaked bill - The Washington Post</strong>.</p>
+<p>AI & Tech Brief: Anthropic's leaked bill The Washington Post</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZSeFlQcXJNaWYwT0RBeGN4WVhTWjRma2FRdHhzSlFRNmFZRnNOYzBSbDd3eE95ZFNqTkx1OEV0dkFXTXJCWFZsSEV4NHlLTjE4eU5rVDdzN0pfMnNWcFNmWk5jb0xnWHFyRUFZc1lsUFVUa2x6LVFjb214Ul9zU0dvQkh5emJZRWozVVFqNXU5SWN4dzBuZWc5Rm9JYURtMEV2ZE5qTzhDQ1Jlemc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792452301",
     slug: "advancing-coding-in-low-resource-programming-languages",
     title: "Advancing Coding in Low-Resource Programming Languages",
