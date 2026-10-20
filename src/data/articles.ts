@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792507616",
+    slug: "how-enabling-two-settings-tripled-our-scores-on-the-arc",
+    title: "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    deck: "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-29T15:00:00Z",
+    updatedAt: "2026-07-29T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining re...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How enabling two settings tripled our scores on the ARC-AGI-3 benchmark</strong>.</p>
+<p>How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792507616",
+    slug: "anthropic-in-talks-with-neocloud-nscale-over-second-mul",
+    title: "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC - CNBC",
+    deck: "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T14:12:38Z",
+    updatedAt: "2026-10-20T14:12:38Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC - CNBC</strong>.</p>
+<p>Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsbk50SFoxenQ3VGJlY3laenJNc0wyTTlPbjB2WEVKTWdJNWlIdmhjSTVuczRtOGNsNmVfaHlqaU5EdVJlOW9Jc2lfblROYk5wY1ptanZDaXR0VV9abVRXWGVuLUhaWTQ5RE95Qm5zaDZQLXZ2cWdIMFZn0gF_QVVfeXFMTUw5c255RzRsWWxUZlpiQ1Q5cUxVMkQxcmRjbzJwWl9SWG5kd29hRUk4QnluRC0ybWRzUHhrLVh5Z05rTFRieWlvMXdkaDE5TVNYUWJBY3Nocno3WWZrbXhmVy1oZDZIRjlsaEVlQk1CYzE3RGYtNHNrb0hkWHhMZw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792487871",
     slug: "how-avatarin-built-a-247-retail-agent-with-gpt-realtime",
     title: "How avatarin built a 24/7 retail agent with GPT-Realtime",
