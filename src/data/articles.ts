@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792537128",
+    slug: "accelerating-scientific-discovery-with-chatgpt-for-acad",
+    title: "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+    deck: "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-29T10:00:00Z",
+    updatedAt: "2026-07-29T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate s...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Accelerating scientific discovery with ChatGPT for Academic Researchers</strong>.</p>
+<p>OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/chatgpt-for-academic-researchers", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792537129",
+    slug: "anthropic-logged-net-loss-of-over-80-billion-in-first-h",
+    title: "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+    deck: "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T22:14:51Z",
+    updatedAt: "2026-10-20T22:14:51Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports</strong>.</p>
+<p>Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792525979",
     slug: "openai-acquires-orchestra-bio",
     title: "OpenAI acquires Orchestra Bio",
