@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792487871",
+    slug: "how-avatarin-built-a-247-retail-agent-with-gpt-realtime",
+    title: "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    deck: "avatarin uses OpenAI's GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-30T00:00:00Z",
+    updatedAt: "2026-07-30T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: avatarin uses OpenAI's GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How avatarin built a 24/7 retail agent with GPT-Realtime</strong>.</p>
+<p>avatarin uses OpenAI's GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/avatarin", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792487872",
+    slug: "nscale-anthropic-in-talks-for-45-billion-cloud-computin",
+    title: "Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal - Yahoo Finance",
+    deck: "Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal Yahoo Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T09:05:02Z",
+    updatedAt: "2026-10-20T09:05:02Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal Yahoo Finance...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal - Yahoo Finance</strong>.</p>
+<p>Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal Yahoo Finance</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWVIwVm5tNENQUGxYWWp4NFB2UEtSanlObXNXS1daZTA5aS1XTTl5Z1lfOXdRMUtmOTdwNnlmSW5QLWFVZ3lELTd1eDgxZ1RhRzNORVNHY3dteFpCRlR3cFZ0dW5yT28tZWRTX2NSaGdVSFNwN202N3J4UlNCSmc4Mm4wTDVuNldmeUVHYzV1SXlqYUZBRlZEUVZ3?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792468565",
     slug: "advancing-the-price-performance-frontier-with-gpt-56",
     title: "Advancing the price-performance frontier with GPT-5.6",
