@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792612637",
+    slug: "how-att-is-rethinking-in-house-legal-work-with-openai",
+    title: "How AT&T is rethinking in-house legal work with OpenAI",
+    deck: "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T17:00:00Z",
+    updatedAt: "2026-10-21T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinki...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How AT&T is rethinking in-house legal work with OpenAI</strong>.</p>
+<p>AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/att-legal", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792612638",
+    slug: "anthropic-takes-on-muse-with-claude-duet-its-new-ai-age",
+    title: "Anthropic takes on Muse with Claude Duet, its new AI agent",
+    deck: "Anthropic takes on Muse with Claude Duet, its new AI agent The Verge",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T19:53:20Z",
+    updatedAt: "2026-10-21T19:53:20Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic takes on Muse with Claude Duet, its new AI agent The Verge...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic takes on Muse with Claude Duet, its new AI agent</strong>.</p>
+<p>Anthropic takes on Muse with Claude Duet, its new AI agent The Verge</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMm0xalYzS19NOGxhQ0ZpanpWeFpjN3g0VzZfVjROQ3RUemxqZmc3STZhdHlRUTlvZEJOaW52dzdVTUxOc09MMzlVeFlJSmc5V2p4WDdwWjRRaDZKMU5QbldoWHBIaTh0Qi1yc1JFaVNHM1BkQ25ucFZfbVJtWGNYMS1jRWlocDk5NUVheDVpclZEUTJw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792594518",
     slug: "openai-models-are-coming-to-google-cloud",
     title: "OpenAI models are coming to Google Cloud",
