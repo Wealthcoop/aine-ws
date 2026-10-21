@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792594518",
+    slug: "openai-models-are-coming-to-google-cloud",
+    title: "OpenAI models are coming to Google Cloud",
+    deck: "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden, available through Google Cloud Marketplace.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T12:00:00Z",
+    updatedAt: "2026-10-21T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden, available t...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI models are coming to Google Cloud</strong>.</p>
+<p>OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini's Model Garden, available through Google Cloud Marketplace.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-models-google-cloud", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792594519",
+    slug: "anthropic-music-publishers-to-make-key-arguments-in-ai",
+    title: "Anthropic, music publishers to make key arguments in AI training case",
+    deck: "Anthropic, music publishers to make key arguments in AI training case Reuters",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T14:43:25Z",
+    updatedAt: "2026-10-21T14:43:25Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic, music publishers to make key arguments in AI training case Reuters...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic, music publishers to make key arguments in AI training case</strong>.</p>
+<p>Anthropic, music publishers to make key arguments in AI training case Reuters</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT3pZQUU3NTI4WFhrZkxldDBxUTRpT20za0J4X2JkYTUxdExnbFdaUEoyam5PWmFTa2xNWHpTTGZqdTl6SWhuOW4tcXMyNE9uOHNqcHlIRGhHendlM2JyYkJVRjE1RnNSUDhpVjFZNEY3Vy1kamtSVTJXaFdiWE1oYXlxS2Q1Ylg4NV9kNmhLMElBOTAxdXJVa0E1eEt6NUkxWU9UcTU1MGIyeDdBUy1jcXFvR04?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792573896",
     slug: "how-gpt-56-fuses-frontier-intelligence-with-frontier-ef",
     title: "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
