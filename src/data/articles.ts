@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792573896",
+    slug: "how-gpt-56-fuses-frontier-intelligence-with-frontier-ef",
+    title: "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    deck: "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-29T00:00:00Z",
+    updatedAt: "2026-07-29T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful in...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How GPT-5.6 fuses frontier intelligence with frontier efficiency</strong>.</p>
+<p>GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792573897",
+    slug: "why-anthropics-draft-bill-sets-1-billion-threshold-for",
+    title: "Why Anthropic's draft bill sets $1 billion threshold for AI risk - Politico",
+    deck: "Why Anthropic's draft bill sets $1 billion threshold for AI risk Politico",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T09:00:00Z",
+    updatedAt: "2026-10-21T09:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Why Anthropic's draft bill sets $1 billion threshold for AI risk Politico...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Why Anthropic's draft bill sets $1 billion threshold for AI risk - Politico</strong>.</p>
+<p>Why Anthropic's draft bill sets $1 billion threshold for AI risk Politico</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792554365",
     slug: "terminal-x-matches-senior-investor-judgment-886-with-gp",
     title: "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
