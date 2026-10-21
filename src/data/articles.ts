@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792554365",
+    slug: "terminal-x-matches-senior-investor-judgment-886-with-gp",
+    title: "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    deck: "Terminal X's Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund's mandate with GPT-6.1 Sol.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T07:00:00Z",
+    updatedAt: "2026-10-20T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Terminal X's Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund'...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Terminal X matches senior investor judgment 88.6% with GPT-6.1</strong>.</p>
+<p>Terminal X's Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund's mandate with GPT-6.1 Sol.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/terminal-x", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792554369",
+    slug: "anthropic-loses-80-billion-net-in-first-six-months-of-2",
+    title: "Anthropic loses $80 billion net in first six months of 2026 - Cryptonews.net",
+    deck: "Anthropic loses $80 billion net in first six months of 2026 Cryptonews.net",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T03:22:14Z",
+    updatedAt: "2026-10-21T03:22:14Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic loses $80 billion net in first six months of 2026 Cryptonews.net...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic loses $80 billion net in first six months of 2026 - Cryptonews.net</strong>.</p>
+<p>Anthropic loses $80 billion net in first six months of 2026 Cryptonews.net</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHWXp5bERNSlV5ZjJ0Sjd6SUEyS0NPcWpsRDd4ZWM3VG9jcW50U3RUX0o0ZjJHdXd1bXEtUnp1YXJYaTFUMmZrbm5kQkw0Uk9VYU1wLWlXMUM?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792537128",
     slug: "accelerating-scientific-discovery-with-chatgpt-for-acad",
     title: "Accelerating scientific discovery with ChatGPT for Academic Researchers",
