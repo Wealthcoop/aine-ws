@@ -37,7 +37,9 @@ export const ARTICLES: NewsArticle[] = [
       { name: "Google Search Central Announcement", url: "https://twitter.com/googlesearchc/status/1471546117125029889", context: "Official update conclusion notice." },
       { name: "Gold Standard Local SEO Telemetry Desk", url: "https://www.gslocalseo.com", context: "Regional geo-grid coordinate observations." },
       { name: "Traffik Monster Search Intelligence", url: "https://www.traffik.monster", context: "Local search ranking distribution data." }
-
+    ]
+  },
+  {
     id: "wire-1792698515",
     slug: "uber-brings-chatgpt-work-to-all-employees-with-openai",
     title: "Uber brings ChatGPT Work to all employees with OpenAI",
