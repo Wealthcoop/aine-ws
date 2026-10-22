@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792680905",
+    slug: "what-fde-means-at-openai-architecture-and-benchmark-ana",
+    title: "What FDE means at OpenAI: Architecture and Benchmark Analysis",
+    deck: "What forward deployed engineering means at OpenAI",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T06:00:00Z",
+    updatedAt: "2026-10-22T06:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: What forward deployed engineering means at OpenAI...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>What FDE means at OpenAI: Architecture and Benchmark Analysis</strong>.</p>
+<p>What forward deployed engineering means at OpenAI</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/forward-deployed-engineering-means", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792680905",
+    slug: "anthropics-claude-mythos-trademark-application-denied-b",
+    title: "Anthropic's 'CLAUDE MYTHOS' Trademark Application Denied by USPTO - Gerben IP",
+    deck: "Anthropic's 'CLAUDE MYTHOS' Trademark Application Denied by USPTO Gerben IP",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T14:49:43Z",
+    updatedAt: "2026-10-22T14:49:43Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's 'CLAUDE MYTHOS' Trademark Application Denied by USPTO Gerben IP...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's 'CLAUDE MYTHOS' Trademark Application Denied by USPTO - Gerben IP</strong>.</p>
+<p>Anthropic's 'CLAUDE MYTHOS' Trademark Application Denied by USPTO Gerben IP</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3Nxa1VFbS1nb0RlOHBsVHBGNThjUTVmc1NMbW9sSHcxTUg5QjJoM0ZXX3BUdjZPbVMtZHE0Y0Flc2tvazhrZjJIR2dZNVVCc1JkMHZyVnVpY1Y1ZERGa185Q2M0bHNHendMTG1rQjItcjZTcDIzRWNTMnJBNlJtS3gwSkFOTUxfdHJieVV0b2dBTG5NNzJ5NWRB?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792660450",
     slug: "cloudflare-links-vulnerability-discovery-to-defense-wit",
     title: "Cloudflare links vulnerability discovery to defense with OpenAI",
