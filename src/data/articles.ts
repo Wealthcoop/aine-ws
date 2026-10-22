@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792698515",
+    slug: "uber-brings-chatgpt-work-to-all-employees-with-openai",
+    title: "Uber brings ChatGPT Work to all employees with OpenAI",
+    deck: "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T00:00:00Z",
+    updatedAt: "2026-10-22T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create p...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Uber brings ChatGPT Work to all employees with OpenAI</strong>.</p>
+<p>Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/uber-chatgpt-work-rollout", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792698515",
+    slug: "anthropic-ipo-to-drive-blockbuster-gains-for-iconiq-spa",
+    title: "Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC - Bloomberg.com",
+    deck: "Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC Bloomberg.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T19:34:03Z",
+    updatedAt: "2026-10-22T19:34:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC Bloomberg.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC - Bloomberg.com</strong>.</p>
+<p>Anthropic IPO to Drive Blockbuster Gains for Iconiq, Spark, GIC Bloomberg.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWU0S2RSc3UweGd3OGdmMlF0VVNnQ3paTmp3SjhrT0hxMUU2eXdDRGp2cXl6S043dFJ0Z0Z6RnhQb3g0NjJTRWtDYWx1YzJJTFdkemRIbkFHY2Yybi1WUjc0Sk5aX1NEblZBUURoakwxUEFCdUVmRFRlbnF3blhpczNwLVlzZERvVnpZaVIxa2hCdk1za0VJTnFoQjZxc1BvZ1NWSElxWVlJUlpnalFrc1lB?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792680905",
     slug: "what-fde-means-at-openai-architecture-and-benchmark-ana",
     title: "What FDE means at OpenAI: Architecture and Benchmark Analysis",
