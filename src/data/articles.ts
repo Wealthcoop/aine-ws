@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792710081",
+    slug: "how-we-built-chatgpts-novel-ad-stack-for-user-trust-and",
+    title: "How we built ChatGPT's novel ad stack for user trust and relevance",
+    deck: "Learn how OpenAI built ChatGPT's LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T07:00:00Z",
+    updatedAt: "2026-10-21T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI built ChatGPT's LLM-powered ad stack to understand conversational intent, keep ads separate f...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How we built ChatGPT's novel ad stack for user trust and relevance</strong>.</p>
+<p>Learn how OpenAI built ChatGPT's LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/building-chatgpt-ad-stack", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792710082",
+    slug: "open-call-for-guest-investigators-in-the-life-sciences",
+    title: "Open call for guest investigators in the life sciences - Anthropic",
+    deck: "Open call for guest investigators in the life sciences Anthropic",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T22:03:06Z",
+    updatedAt: "2026-10-22T22:03:06Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Open call for guest investigators in the life sciences Anthropic...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Open call for guest investigators in the life sciences - Anthropic</strong>.</p>
+<p>Open call for guest investigators in the life sciences Anthropic</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE93eS1EdWp1NUVXZG1jYXF5OHRWZjgtakZ2WXh6WmY3OHRfWndmTEZlVmRaZGJjSExGdGZvZDZjSEgwbDVKNmZ4WlZxVUliWGdRdE82VzdzVFF6OE0xNEtDeXdaaFJlUXNzdDRNNzJic2lSeHhKWHhKZ3l5MkVGaWc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "study-vicinity-update-proximity-2026",
     slug: "google-vicinity-update-proximity-telemetry-local-search",
     title: "Empirical Study: Proximity Weighting and Keyword Attenuation in Google Local Search Following the Vicinity Update",
