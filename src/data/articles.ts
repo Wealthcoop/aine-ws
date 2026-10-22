@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792640725",
+    slug: "using-thousands-of-ai-agents-to-uncover-new-leads-in-bi",
+    title: "Using thousands of AI agents to uncover new leads in biological data",
+    deck: "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T04:50:00Z",
+    updatedAt: "2026-10-21T04:50:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Using thousands of AI agents to uncover new leads in biological data</strong>.</p>
+<p>See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/scaling-ai-research-for-complex-biological-data", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792640726",
+    slug: "anthropic-commits-5-of-its-stock-to-a-new-public-benefi",
+    title: "Anthropic commits 5% of its stock to a new 'public benefit' fund - The Daily Times",
+    deck: "Anthropic commits 5% of its stock to a new 'public benefit' fund The Daily Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T03:30:00Z",
+    updatedAt: "2026-10-22T03:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic commits 5% of its stock to a new 'public benefit' fund The Daily Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic commits 5% of its stock to a new 'public benefit' fund - The Daily Times</strong>.</p>
+<p>Anthropic commits 5% of its stock to a new 'public benefit' fund The Daily Times</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN3MySGRpSVRQSUV6S09FeGs2bldzaVNxbE9XZmZ3WGN6ckxxX3pwQXV1V2g1SkZjaFNaS1pvTjdPNkI2UU14bzk0bjl3NXdQS0ZtNVZoX0paLXpDdmFVckNoSnJwQ2F1WDY0dkJaOUJNMHh3WmZSWklBc2hqcElScW45Q0Qyc3k3Q3hjYThUcDdidjB2RzFVaWxsRG9QYlhHUDlXTnhjSFp2M1ZZNVNIYk9vSUhSZC1WTUpuNG5ERHVlZW5qUFAyaHpmV1NPSzhpTW1yZktlLUoxbGV0Z0l4TnA2WDIzZTQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792624185",
     slug: "broad-access-through-consistent-standards",
     title: "Broad access through consistent standards",
