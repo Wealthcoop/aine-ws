@@ -3385,7 +3385,6 @@ export const ARTICLES: NewsArticle[] = [
 <p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
     sources: [
       { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcGl4TVplNlRrcUw1OHQ0dDRsMGJFdlVjbVN4ejdjSmpyc2ZzUFpycjdQdGZISm5MQkdFOS1mZkY2WllkQVFFZjdhSDVuN0NxdVlYVW1aS25OZzRZeWFpblJQdzdPRjh3MlVfOVVTdUk4bTVyb1E4NjE0NElKYy1pWjZJSzYzaXBTYWZBREdzWG1SRS1Fb19xM1Nnd2UwMVJKY3BNMUthNW44bFgyMTl0cWEwUkJ1RVE?oc=5", context: "Primary wire disclosure." }
- (feat(telemetry): publish empirical study on proximity weighting in local search algorithms)
     ]
   },
   {
