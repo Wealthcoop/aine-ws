@@ -84,10 +84,10 @@ export default function HomePage() {
 
               <div className="mt-6 border-t border-slate-100 pt-4">
                 <Link
-                  href="/desks/search-ai"
-                  className="flex items-center justify-center gap-1.5 rounded-lg bg-slate-100 py-2.5 text-xs font-bold text-slate-800 hover:bg-slate-200 transition"
+                  href="/archive"
+                  className="flex items-center justify-center gap-1.5 rounded-lg bg-sky-50 py-2.5 text-xs font-bold text-sky-800 hover:bg-sky-100 transition"
                 >
-                  <span>Explore All Wire Archives</span>
+                  <span>Explore Master News Wire Archive ({ARTICLES.length} Reports)</span>
                   <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
               </div>

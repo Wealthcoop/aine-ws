@@ -22,7 +22,10 @@ import {
   ExternalLink,
   Share2,
   FileCheck,
-  ArrowRight
+  ArrowRight,
+  ArrowLeft,
+  Layers,
+  Database
 } from 'lucide-react'
 
 interface PageProps {
@@ -113,9 +116,30 @@ export default function ArticleReaderPage({ params }: PageProps) {
     timeZoneName: 'short',
   })
 
-  // Related articles from same or adjacent categories
-  const relatedArticles = ARTICLES.filter((a) => a.id !== article.id)
-    .slice(0, 3)
+  // Category-specific internal linking & bidirectional crawl chain
+  const categoryArticles = ARTICLES.filter((a) => a.category === article.category)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+
+  const currentIndex = categoryArticles.findIndex((a) => a.id === article.id)
+
+  const prevArticle = currentIndex > 0
+    ? categoryArticles[currentIndex - 1]
+    : categoryArticles[categoryArticles.length - 1]
+
+  const nextArticle = currentIndex < categoryArticles.length - 1
+    ? categoryArticles[currentIndex + 1]
+    : categoryArticles[0]
+
+  // Contextual related investigations from same beat (or adjacent if small beat)
+  const sameCategoryPool = categoryArticles.filter((a) => a.id !== article.id)
+  let relatedArticles = sameCategoryPool.slice(0, 3)
+  if (relatedArticles.length < 3) {
+    const crossCategoryPool = ARTICLES.filter((a) => a.id !== article.id && a.category !== article.category)
+      .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    relatedArticles = [...relatedArticles, ...crossCategoryPool.slice(0, 3 - relatedArticles.length)]
+  }
+
+  const currentDesk = SITE_CONFIG.desks.find((d) => d.id === article.category)
 
   return (
     <article className="bg-white py-8 lg:py-12">
@@ -366,12 +390,88 @@ export default function ArticleReaderPage({ params }: PageProps) {
           </Link>
         </div>
 
+        {/* Bidirectional Article Crawl Navigation */}
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-b border-slate-200 py-6">
+          {prevArticle && (
+            <Link
+              href={`/news/${prevArticle.category}/${prevArticle.slug}`}
+              className="group flex flex-col p-4 rounded-xl border border-slate-200 hover:border-sky-300 hover:bg-sky-50/50 transition"
+            >
+              <span className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                <ArrowLeft className="h-3.5 w-3.5 transition group-hover:-translate-x-1" />
+                Previous in {currentDesk?.label || 'Beat'}
+              </span>
+              <span className="mt-2 text-sm font-bold text-slate-900 group-hover:text-sky-700 transition line-clamp-2">
+                {prevArticle.title}
+              </span>
+            </Link>
+          )}
+
+          {nextArticle && (
+            <Link
+              href={`/news/${nextArticle.category}/${nextArticle.slug}`}
+              className="group flex flex-col items-end text-right p-4 rounded-xl border border-slate-200 hover:border-sky-300 hover:bg-sky-50/50 transition"
+            >
+              <span className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                Next in {currentDesk?.label || 'Beat'}
+                <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-1" />
+              </span>
+              <span className="mt-2 text-sm font-bold text-slate-900 group-hover:text-sky-700 transition line-clamp-2">
+                {nextArticle.title}
+              </span>
+            </Link>
+          )}
+        </div>
+
+        {/* Editorial Desk Hub Callout */}
+        <div className="mt-8 rounded-2xl border border-sky-100 bg-sky-50/60 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="rounded-xl bg-sky-600 p-2.5 text-white">
+              <Layers className="h-5 w-5" />
+            </div>
+            <div>
+              <span className="text-xs font-bold uppercase tracking-wider text-sky-800">
+                Editorial Beat Archive
+              </span>
+              <h4 className="text-sm font-bold text-slate-900">
+                {currentDesk?.label} Desk ({categoryArticles.length} Investigative Reports)
+              </h4>
+              <p className="text-xs text-slate-600 mt-0.5">
+                {currentDesk?.description}
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            <Link
+              href={`/desks/${article.category}`}
+              className="rounded-lg bg-sky-700 px-3.5 py-2 text-xs font-bold text-white hover:bg-sky-800 transition"
+            >
+              Explore Desk
+            </Link>
+            <Link
+              href="/archive"
+              className="rounded-lg bg-white border border-slate-200 px-3.5 py-2 text-xs font-bold text-slate-700 hover:bg-slate-50 transition"
+            >
+              Master Archive
+            </Link>
+          </div>
+        </div>
+
         {/* Related Articles */}
         <div className="mt-14 border-t border-slate-200 pt-10">
-          <h2 className="font-serif text-2xl font-bold text-slate-900">
-            Related Investigations
-          </h2>
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="font-serif text-2xl font-bold text-slate-900">
+              Related {currentDesk?.label || 'Beat'} Investigations
+            </h2>
+            <Link
+              href={`/desks/${article.category}`}
+              className="text-xs font-bold text-sky-700 hover:text-sky-900 transition flex items-center gap-1"
+            >
+              <span>View All {categoryArticles.length} Stories</span>
+              <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
             {relatedArticles.map((rel) => (
               <ArticleCard key={rel.id} article={rel} />
             ))}

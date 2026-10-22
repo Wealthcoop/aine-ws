@@ -16,6 +16,7 @@ KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
 
 URL_LIST = [
     "https://aine.ws/",
+    "https://aine.ws/archive",
     "https://aine.ws/about",
     "https://aine.ws/contact",
     "https://aine.ws/editorial-policy",
@@ -32,6 +33,7 @@ URL_LIST = [
     "https://aine.ws/authors/elena-chen",
     "https://aine.ws/news/search-ai/generative-engine-optimization-geo-replaces-legacy-backlinks",
     "https://aine.ws/news/search-ai/google-tests-dynamic-ai-overviews-in-local-3-packs",
+    "https://aine.ws/news/search-ai/google-vicinity-update-proximity-telemetry-local-search",
     "https://aine.ws/news/local-business/ai-review-summaries-reshape-consumer-choice-in-local-maps",
     "https://aine.ws/news/local-business/contractor-seo-video-automation-rich-snippets",
     "https://aine.ws/news/local-business/local-businesses-deploy-whisper-routing-to-fight-off-hours-burnout",

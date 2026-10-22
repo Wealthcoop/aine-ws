@@ -163,6 +163,14 @@ export function Footer() {
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Feeds &amp; Index</h4>
             <ul className="mt-3 space-y-2 text-xs">
               <li>
+                <Link
+                  href="/archive"
+                  className="font-bold text-sky-400 hover:text-white transition block"
+                >
+                  Master Wire Archive
+                </Link>
+              </li>
+              <li>
                 <a
                   href="/news-sitemap.xml"
                   target="_blank"
