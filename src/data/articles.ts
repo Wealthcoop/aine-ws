@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792660450",
+    slug: "cloudflare-links-vulnerability-discovery-to-defense-wit",
+    title: "Cloudflare links vulnerability discovery to defense with OpenAI",
+    deck: "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T00:00:00Z",
+    updatedAt: "2026-10-21T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers us...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Cloudflare links vulnerability discovery to defense with OpenAI</strong>.</p>
+<p>Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/cloudflare-cyber", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792660450",
+    slug: "why-anthropic-is-racing-to-ipo-while-openai-waits-until",
+    title: "Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 - The Motley Fool",
+    deck: "Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 The Motley Fool",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T09:06:18Z",
+    updatedAt: "2026-10-22T09:06:18Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 The Motley Fool...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 - The Motley Fool</strong>.</p>
+<p>Why Anthropic Is Racing to IPO While OpenAI Waits Until 2027 The Motley Fool</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTAyUEhpNV9xZUtuLXhvZlRobW83eXhoMXc1TkJRU2FoaC1aZzdTVVdDcDgtZGV0Si1QVEhUZG9mZGhHVkVEWlFlcGhFVUR2bkZoSDUzM2hvcVA4NXlzT200aVY2NDRCS2RBYUh3d2VMdy1ROWZQQ2xXVnV0aThvbTRJcER6bWlRdHhYREhIc2tveHR3bEJV?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792640725",
     slug: "using-thousands-of-ai-agents-to-uncover-new-leads-in-bi",
     title: "Using thousands of AI agents to uncover new leads in biological data",
