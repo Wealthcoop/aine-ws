@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792796197",
+    slug: "securing-our-frontier-model-training-environment",
+    title: "Securing our frontier model training environment",
+    deck: "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T10:00:00Z",
+    updatedAt: "2026-10-23T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Securing our frontier model training environment</strong>.</p>
+<p>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/securing-our-frontier-model-training-environment", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792796197",
+    slug: "will-anthropic-pull-off-a-november-ipo-time-is-running",
+    title: "Will Anthropic pull off a November IPO? Time is running out to file key paperwork. - MarketWatch",
+    deck: "Will Anthropic pull off a November IPO? Time is running out to file key paperwork. MarketWatch",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T22:00:00Z",
+    updatedAt: "2026-10-23T22:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Will Anthropic pull off a November IPO? Time is running out to file key paperwork. MarketWatch...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Will Anthropic pull off a November IPO? Time is running out to file key paperwork. - MarketWatch</strong>.</p>
+<p>Will Anthropic pull off a November IPO? Time is running out to file key paperwork. MarketWatch</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTFJNeGlNaWk2VGtvUkxlb243b1oxaWhVRXdnQjhHRVhrWmJjM1R5Vnpia1E4ZFlEQmtMY1ZVeTg4SzZ6YXFPOXNLdFU2cWd0UGZidFJnRGQ0TDBwOW9kVEUydUpmcGFKU3BhTFB3eTFmb1loLTlHLUhxU041ZXZVMEtPMTF4TnNrNHY4MEJlSzdTczQtUWh2aEF1c25fSDVCLWlKSVU5cEoxNXVoOGo3OU5wVmFlX0dmV3NfemVIXzM?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792785011",
     slug: "rapidly-scaling-online-storage-to-serve-over-1-b-v2",
     title: "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II",
