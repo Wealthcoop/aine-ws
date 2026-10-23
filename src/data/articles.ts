@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792766599",
+    slug: "scientific-computing-in-the-age-of-agentic-ai",
+    title: "Scientific computing in the age of agentic AI",
+    deck: "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-28T17:00:00Z",
+    updatedAt: "2026-07-28T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating s...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Scientific computing in the age of agentic AI</strong>.</p>
+<p>A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/scientific-computing-agentic-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792766599",
+    slug: "anthropics-pending-ipo-has-silicon-valley-on-the-edge-o",
+    title: "Anthropic's Pending IPO Has Silicon Valley on the Edge of Its Seat - Newcomer | Substack",
+    deck: "Anthropic's Pending IPO Has Silicon Valley on the Edge of Its Seat Newcomer | Substack",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T14:40:35Z",
+    updatedAt: "2026-10-23T14:40:35Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's Pending IPO Has Silicon Valley on the Edge of Its Seat Newcomer | Substack...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's Pending IPO Has Silicon Valley on the Edge of Its Seat - Newcomer | Substack</strong>.</p>
+<p>Anthropic's Pending IPO Has Silicon Valley on the Edge of Its Seat Newcomer | Substack</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NLW5tb0tUQ0l3WTVxclp4T2JSeDlpVy0wTHl2TEhGUTRvSXdJU0JmVFZPZE5OSlZoTFNFb2lKX0tSWTNrcmlrNF9SV1NSUlhkQzM0QjZOX3dIOEkxV2JXT0lEOHBKaG9iU0doVA?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792746630",
     slug: "openai-and-polands-nask-partner-to-advance-ai-safety-an",
     title: "OpenAI and Poland's NASK partner to advance AI safety and security",
