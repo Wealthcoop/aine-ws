@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792746630",
+    slug: "openai-and-polands-nask-partner-to-advance-ai-safety-an",
+    title: "OpenAI and Poland's NASK partner to advance AI safety and security",
+    deck: "OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T00:00:00Z",
+    updatedAt: "2026-10-23T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguard...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI and Poland's NASK partner to advance AI safety and security</strong>.</p>
+<p>OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-nask-ai-safety-security-partnership", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792746631",
+    slug: "anthropic-adds-opt-in-security-scanning-for-critical-op",
+    title: "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects - infoq.com",
+    deck: "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects infoq.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T09:00:26Z",
+    updatedAt: "2026-10-23T09:00:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects infoq.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects - infoq.com</strong>.</p>
+<p>Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects infoq.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZN0RCRFFnR0d4aWVBbUwwcXZwdGNrNG9XdHh2eHJiR3R1QXNhUU5xbktFa1I2akMwNm14b1R3NW9UMmMwOW1rLVo5UzhtS2d5VXMwLWJJY05pazhKcmQ5a3hRY01YelVjX3BoR3I0a2x4TG1x?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792727397",
     slug: "democratic-governance-of-frontier-ai-part-ii-empowering",
     title: "Democratic governance of frontier AI, part II: Empowering cyber defenders",
