@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792862109",
+    slug: "advancing-the-next-era-of-national-science",
+    title: "Advancing the next era of national science",
+    deck: "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-22T12:00:00Z",
+    updatedAt: "2026-07-22T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and na...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Advancing the next era of national science</strong>.</p>
+<p>OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/advancing-the-next-era-of-national-science", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792862110",
+    slug: "claudes-reverse-engineering-capabilities-used-to-recomp",
+    title: "Claude's Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed - Kotaku",
+    deck: "Claude's Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed Kotaku",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-24T16:48:26Z",
+    updatedAt: "2026-10-24T16:48:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Claude's Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed Kotaku...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Claude's Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed - Kotaku</strong>.</p>
+<p>Claude's Reverse Engineering Capabilities Used To Recompile Games May Have Been Quietly Nerfed Kotaku</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUFh3c25pSGU0bG1JbkNfcVo2T3RuLTM5Skp6VVpKaWswVFZqRVRPVFFQeFRLU25aS2FxTGZpWVpzSWYwVWZST2hLRlg0NjBReGRPWjA3bzZuRVNiVFk1SDAtQzRVeFNDN0M1UDVKODRRQ200a081bHhYVzJ2cU5XeDgxMVZaRjdDdENtbi1EUm9HZGt5NEdPWDlzc3UxempJN3RiTWsxYzBWR05ENGlicmNfaWFPVmVBcWtjR2JpWmQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792849941",
     slug: "how-news-organizations-are-using-ai-to-advance-their-vi",
     title: "How news organizations are using AI to advance their vital missions",
