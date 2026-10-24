@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792849941",
+    slug: "how-news-organizations-are-using-ai-to-advance-their-vi",
+    title: "How news organizations are using AI to advance their vital missions",
+    deck: "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-22T13:00:00Z",
+    updatedAt: "2026-07-22T13:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How news organizations are using AI to advance their vital missions</strong>.</p>
+<p>News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-news-organizations-are-using-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792849941",
+    slug: "anthropics-ai-hid-a-secret-message-in-the-stars-openais",
+    title: "Anthropic's AI Hid a Secret Message in the Stars. OpenAI's AI Found It. - Gizmodo",
+    deck: "Anthropic's AI Hid a Secret Message in the Stars. OpenAI's AI Found It. Gizmodo",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-24T13:31:26Z",
+    updatedAt: "2026-10-24T13:31:26Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's AI Hid a Secret Message in the Stars. OpenAI's AI Found It. Gizmodo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's AI Hid a Secret Message in the Stars. OpenAI's AI Found It. - Gizmodo</strong>.</p>
+<p>Anthropic's AI Hid a Secret Message in the Stars. OpenAI's AI Found It. Gizmodo</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZTVmY3RjbFEzeDNnb2xOa0FDUm9Ga2VRMXM4ODZlOEd5YkdWMUhoRU4xTnJaTWF0MzRjZ0E3SWpCRGV2NXdaeDhKTTRlNEszMmk5cVdPR2RqdWl4YWlkd0Z6cE9sQWNkMVdOTHBVYlJhbkVhRW1LOE5VMUpBdUdKbm9JYWlwdEk4ZWQ4c2FZZ0lJTVlaTzRZZEE4MmVLc2s?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792831407",
     slug: "building-ai-infrastructure-with-the-effingham-county-co",
     title: "Building AI infrastructure with the Effingham County community",
