@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792813465",
+    slug: "how-ai-is-expanding-what-people-do-at-work",
+    title: "How AI is expanding what people do at work",
+    deck: "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-27T03:30:00Z",
+    updatedAt: "2026-07-27T03:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How AI is expanding what people do at work</strong>.</p>
+<p>New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792813466",
+    slug: "a-timeline-of-developments-in-ai-safety-since-the-attac",
+    title: "A Timeline of Developments in AI Safety Since the Attack on Hugging Face - Kiripost",
+    deck: "A Timeline of Developments in AI Safety Since the Attack on Hugging Face Kiripost",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-24T03:35:24Z",
+    updatedAt: "2026-10-24T03:35:24Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: A Timeline of Developments in AI Safety Since the Attack on Hugging Face Kiripost...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>A Timeline of Developments in AI Safety Since the Attack on Hugging Face - Kiripost</strong>.</p>
+<p>A Timeline of Developments in AI Safety Since the Attack on Hugging Face Kiripost</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdFRmTXk1bHJjbGJsR2pleU9RM2JvZENKWVIyNEdBS1paQ3VjWU9UMXk1U1NNZTV4dmM1bnFYNjZ2V0k2VmhlTnlMVnJsLUdITUJ6RGJRVzlucDFmbV9lbTIwTFV2Ulk1OS0xZ1NLTVYwSFhlYXBiU250YlJNdmg5bFNLU1N2X3RZOGo5Slhfd1J5eklFdUZkTHBBMHh1YVNkM1Zn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792796197",
     slug: "securing-our-frontier-model-training-environment",
     title: "Securing our frontier model training environment",
