@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792831407",
+    slug: "building-ai-infrastructure-with-the-effingham-county-co",
+    title: "Building AI infrastructure with the Effingham County community",
+    deck: "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-22T13:00:00Z",
+    updatedAt: "2026-07-22T13:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, commun...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Building AI infrastructure with the Effingham County community</strong>.</p>
+<p>OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792831407",
+    slug: "the-ultimate-wedding-gift-bloombergcom",
+    title: "The Ultimate Wedding Gift - Bloomberg.com",
+    deck: "Official operational release from Anthropic Wire (Google News 1h) detailing The Ultimate Wedding Gift - Bloomberg.com and its performance benchmarks across commercial AI systems.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-24T08:00:01Z",
+    updatedAt: "2026-10-24T08:00:01Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Official operational release from Anthropic Wire (Google News 1h) detailing The Ultimate Wedding Gift - Bloomb...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>The Ultimate Wedding Gift - Bloomberg.com</strong>.</p>
+<p>Official operational release from Anthropic Wire (Google News 1h) detailing The Ultimate Wedding Gift - Bloomberg.com and its performance benchmarks across commercial AI systems.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUFVJeGdpNXUzY3NXclRJWjJHTUtoN0RUZEo2Q2RuZm9yY29fTy1qUVQwYW0ybXllbDg3SWVHOUJQSkRIQmFuQ0pmZ1hUTm9XTktUTVNwLW1NRzJuVGY4MWF6WVhEWFh0dHVQVDdDUEdkZnlTOXl3Zk9GNVlhR1dMc3pGaVdVbFYta3VyN1Q3WlNBdUR1QWlWdVlpSTVwX1NXNUkxNU9OLVViNUZ1dHc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792813465",
     slug: "how-ai-is-expanding-what-people-do-at-work",
     title: "How AI is expanding what people do at work",
