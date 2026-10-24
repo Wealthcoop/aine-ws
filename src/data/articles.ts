@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792873485",
+    slug: "introducing-openai-presence",
+    title: "Introducing OpenAI Presence",
+    deck: "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-22T05:30:00Z",
+    updatedAt: "2026-07-22T05:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voi...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Introducing OpenAI Presence</strong>.</p>
+<p>Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-openai-presence", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792873486",
+    slug: "anthropic-integrates-agent-capabilities-into-enterprise",
+    title: "Anthropic Integrates Agent Capabilities into Enterprise Claude, Offering Four Controls to Prevent Billing Bloat",
+    deck: "Anthropic Integrates Agent Capabilities into Enterprise Claude, Offering Four Controls to Prevent Billing Bloat BigGo Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-24T19:35:00Z",
+    updatedAt: "2026-10-24T19:35:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Integrates Agent Capabilities into Enterprise Claude, Offering Four Controls to Prevent Billing Bloa...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Integrates Agent Capabilities into Enterprise Claude, Offering Four Controls to Prevent Billing Bloat</strong>.</p>
+<p>Anthropic Integrates Agent Capabilities into Enterprise Claude, Offering Four Controls to Prevent Billing Bloat BigGo Finance</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZNW1RSlhSZmd0SXBWZW9PdF9DcUl6OHg3YkptY3Bzci15ZnJhV1ZOVTNhcEhKeW5SRENvdktjb0tQNzhIV3h3cS1aZzhGcWhROXByd204SklqREZXT1NlQkxGYnA3OE81Zi1McU05Q2tuTjlMNEE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792862109",
     slug: "advancing-the-next-era-of-national-science",
     title: "Advancing the next era of national science",
