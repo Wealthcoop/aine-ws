@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1792972513",
+    slug: "rapidly-scaling-online-storage-to-serve-over-1-b-v2",
+    title: "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II",
+    deck: "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12\u00d7 faster reads for ChatGPT.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T17:00:00Z",
+    updatedAt: "2026-10-23T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II</strong>.</p>
+<p>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/scaling-storage-one-billion-users-part-two", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1792972514",
+    slug: "ai-bot-tied-to-anthropic-reaches-public-georgia-data-hu",
+    title: "AI bot tied to Anthropic reaches public Georgia data hub - FOX 5 Atlanta",
+    deck: "AI bot tied to Anthropic reaches public Georgia data hub FOX 5 Atlanta",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-25T23:33:35Z",
+    updatedAt: "2026-10-25T23:33:35Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI bot tied to Anthropic reaches public Georgia data hub FOX 5 Atlanta...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI bot tied to Anthropic reaches public Georgia data hub - FOX 5 Atlanta</strong>.</p>
+<p>AI bot tied to Anthropic reaches public Georgia data hub FOX 5 Atlanta</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWlJvR0lQaXp6MHlOVkR6ejFSUzdwY1Y3VXpxRkVzZHZUcnd1czB0MmVIaWxOSnQ3UGlkeTdzdTNOR25vUUV2WXlFWkNVUGtfZUpYa1FQeHUtVFhpRF93dkhKN3BjUlZ4bVJIb2hXSTRWQU1tVVZESkJjT29XeEZ1R3hrRzFHR21wck9NajdEUmM3T2V0?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "investigation-google-vicinity-update",
     slug: "google-vicinity-update-local-search-proximity",
     title: "Google's Vicinity Update: How Proximity and Name Spam Rebalancing Reshaped Local Search",
