@@ -2,6 +2,45 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "investigation-google-vicinity-update",
+    slug: "google-vicinity-update-local-search-proximity",
+    title: "Google's Vicinity Update: How Proximity and Name Spam Rebalancing Reshaped Local Search",
+    deck: "An analysis of Google's December 2021 local algorithm update, why the search community named it the Vicinity Update, and how tighter proximity rules curtailed business name keyword stuffing.",
+    category: "local-business",
+    authorId: "elena-chen",
+    publishedAt: "2024-10-25T12:00:00Z",
+    updatedAt: "2024-10-25T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Analysis of Google local search algorithm shifts and physical proximity weights.",
+    isBreaking: false,
+    isFeatured: true,
+    keyTakeaways: [
+      "The December 2021 local search algorithm update was widely designated as the Vicinity Update by industry professionals due to its aggressive tightening of local search radius boundaries.",
+      "The update introduced an algorithmic rebalancing that devalued keyword-stuffed business names, reversing years of artificial ranking advantages for listings packed with extra city and trade keywords.",
+      "Post-update field data confirms that physical proximity between the searcher and the verified business location became a dominant ranking weight in Google Maps 3-Pack results."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO / SACRAMENTO</strong>: In late 2021, Google confirmed the completion of a major rebalancing to its local search ranking algorithm. While Google officially referred to the rollout simply as the \"November 2021 local search update,\" search marketing professionals and data tracking platforms universally adopted the term <strong>\"Vicinity Update\"</strong> to describe the fundamental shift in local search mechanics.</p>
+<p>The name \"Vicinity\" was coined because the update's most immediate and noticeable effect was a drastic reduction in the geographic radius across which a single business location could rank. Before the update, businesses could frequently achieve top-3 Google Maps visibility across entire metropolitan regions. Following the rollout, proximity to the searcher became a substantially more restrictive filter, confining organic map visibility much closer to the physical vicinity of the verified address.</p>
+<h3>The Crackdown on Business Name Keyword Stuffing</h3>
+<p>For years leading up to the update, one of the most prominent loopholes in Google Maps optimization was the excessive weight placed on keywords within the business name. Businesses that added descriptors, city names, or service terms to their Google Business Profile name (such as \"Apex Roofing Sacramento Emergency Roof Repair\") consistently outranked legitimately named competitors, despite Google's stated guidelines prohibiting artificial name modifications.</p>
+<p>The Vicinity Update represented Google's first major automated algorithmic intervention against this practice:</p>
+<ul>
+  <li><strong>Devaluation of Extraneous Keywords:</strong> The update significantly diminished the ranking advantage gained by stuffing keywords into business titles.</li>
+  <li><strong>Leveling the Field for Authentic Brands:</strong> Legitimate local businesses with clean, legal trade names saw immediate rank recoveries against competitors using keyword-stuffed titles.</li>
+  <li><strong>Tighter Proximity Boundaries:</strong> A business with an address on one side of a city could no longer rely on keyword stuffing to dominate search results on the opposite side of town.</li>
+</ul>
+<h3>Field Ranking Observations</h3>
+<p>Independent tracking and field audits conducted across regional trade and contractor markets revealed that the Vicinity Update produced some of the largest ranking fluctuations seen in local search since Google's Pigeon update in 2014.</p>
+<p>Local search ranking data and geo-grid telemetry compiled in partnership with <a href="https://www.gslocalseo.com" target="_blank" rel="noopener noreferrer">Gold Standard Local SEO</a> confirmed that businesses within a 3-mile to 5-mile core radius experienced increased stability, while listings attempting to project artificial reach beyond 10 miles experienced steep ranking drop-offs.</p>
+<h3>Long-Term Industry Significance</h3>
+<p>The Vicinity Update permanently reshaped how local search functions. By rebalancing relevance, prominence, and proximity, Google signaled that physical location and genuine local presence outweigh artificial keyword manipulation. For local service operators, success post-Vicinity relies on building authentic local entity authority, maintaining clean business profile data, and securing steady customer reviews within their actual service territory.</p>`,
+    sources: [
+      { name: "Google Search Central Announcement", url: "https://twitter.com/googlesearchc/status/1471546117125029889", context: "Official confirmation of November/December 2021 local search update conclusion." },
+      { name: "Gold Standard Local SEO Field Telemetry", url: "https://www.gslocalseo.com", context: "Local search proximity tracking and business profile ranking analysis." }
+    ]
+  },
+  {
     id: "wire-1792343290",
     slug: "apple-is-getting-this-wrong",
     title: "Apple is getting this wrong",
