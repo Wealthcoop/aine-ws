@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793032616",
+    slug: "how-fanatics-and-openai-streamline-the-fan-experience",
+    title: "How Fanatics and OpenAI streamline the fan experience",
+    deck: "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T07:00:00Z",
+    updatedAt: "2026-10-26T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 3...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How Fanatics and OpenAI streamline the fan experience</strong>.</p>
+<p>Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/fanatics-streamline-fan-experience", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793032616",
+    slug: "our-newest-ai-quest-mapping-the-human-brain",
+    title: "Our newest AI Quest: Mapping the human brain",
+    deck: "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, \"Polar Peaks.\"",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T16:00:00Z",
+    updatedAt: "2026-10-26T16:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Learn AI literacy via Google's latest AI Quests lesson on neuroscience, \"Polar Peaks.\"...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>MOUNTAIN VIEW, Calif.</strong> - Google AI News has published details on <strong>Our newest AI Quest: Mapping the human brain</strong>.</p>
+<p>Learn AI literacy via Google's latest AI Quests lesson on neuroscience, "Polar Peaks."</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793008335",
     slug: "openai-and-polands-nask-partner-to-advance-ai-safety-an",
     title: "OpenAI and Poland's NASK partner to advance AI safety and security",
