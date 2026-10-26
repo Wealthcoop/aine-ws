@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793053463",
+    slug: "gpt-61-sol-helps-coderabbit-strengthen-security-across",
+    title: "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+    deck: "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T13:45:00Z",
+    updatedAt: "2026-10-26T13:45:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps d...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases</strong>.</p>
+<p>CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793053464",
+    slug: "anthropic-files-for-ipo-heres-what-we-learned-forbes",
+    title: "Anthropic Files For IPO: Here's What We Learned - Forbes",
+    deck: "Anthropic Files For IPO: Here's What We Learned Forbes",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T21:24:42Z",
+    updatedAt: "2026-10-26T21:24:42Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Files For IPO: Here's What We Learned Forbes...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Files For IPO: Here's What We Learned - Forbes</strong>.</p>
+<p>Anthropic Files For IPO: Here's What We Learned Forbes</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNOU0tMHd1M2Fwc042MGtwdVAxSkY0VXJkVHBJT0xVek5GZ2Zfc1IzRFRkR3ZSaF8ybnFPRk0ydnQ2TVMwMkVJUXhSb0labTdNVkJyTFRPSmZtNXJUMi1mNXJoVFJlaUc5bmxsVUxZZ1RyTVR2T2taVWJFeHBSWnZtMVU5dDZ2NjJQSk82VUZrZmQwOVN0UmZ3RE9BNENYZw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793032616",
     slug: "how-fanatics-and-openai-streamline-the-fan-experience",
     title: "How Fanatics and OpenAI streamline the fan experience",
