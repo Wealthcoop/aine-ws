@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793008335",
+    slug: "openai-and-polands-nask-partner-to-advance-ai-safety-an",
+    title: "OpenAI and Poland's NASK partner to advance AI safety and security",
+    deck: "OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T00:00:00Z",
+    updatedAt: "2026-10-23T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguard...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI and Poland's NASK partner to advance AI safety and security</strong>.</p>
+<p>OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-nask-ai-safety-security-partnership", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793008336",
+    slug: "whats-riding-on-anthropics-market-debut-nearly-everythi",
+    title: "What's Riding on Anthropic's Market Debut? Nearly Everything. - The New York Times",
+    deck: "What's Riding on Anthropic's Market Debut? Nearly Everything. The New York Times",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T09:02:15Z",
+    updatedAt: "2026-10-26T09:02:15Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: What's Riding on Anthropic's Market Debut? Nearly Everything. The New York Times...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>What's Riding on Anthropic's Market Debut? Nearly Everything. - The New York Times</strong>.</p>
+<p>What's Riding on Anthropic's Market Debut? Nearly Everything. The New York Times</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1YyNGJtUkRGOXJNZXYtMi0ybGpKZVRKRkluVGgwVXljRk9mbEZlMTRLalkySnFXUjMxX2lqcGNnZkl6MUU5MjN3RkJMOTVkRUplQ0VQSmRDZDRQS1Axc3NFdlByU2R4LXhOS0Fpc3Vtak4wZFpWQ1ZOUms3VDM3Yy0yZGJ3WkU?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1792986472",
     slug: "securing-our-frontier-model-training-environment",
     title: "Securing our frontier model training environment",
