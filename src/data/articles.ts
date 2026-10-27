@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793138099",
+    slug: "how-check-point-accelerates-vulnerability-research-with",
+    title: "How Check Point accelerates vulnerability research with Daybreak",
+    deck: "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T00:00:00Z",
+    updatedAt: "2026-10-27T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analyst...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How Check Point accelerates vulnerability research with Daybreak</strong>.</p>
+<p>With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/check-point-daybreak", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793138099",
+    slug: "chart-anthropics-cash-pile-towers-over-nearly-every-us",
+    title: "Chart: Anthropic's cash pile towers over nearly every U.S. company - CNBC",
+    deck: "Chart: Anthropic's cash pile towers over nearly every U.S. company CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T21:12:55Z",
+    updatedAt: "2026-10-27T21:12:55Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Chart: Anthropic's cash pile towers over nearly every U.S. company CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Chart: Anthropic's cash pile towers over nearly every U.S. company - CNBC</strong>.</p>
+<p>Chart: Anthropic's cash pile towers over nearly every U.S. company CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwRlJ6YmptbDNmWFNOakJqd242MXFXWHlMZWlvNWlKRHRQTWRoSEdrUFdldVhUejVRcmRVMVlUYkdINEY0NU1UV2hyTGlPVnhIT0tpbHJzRjROODU1d3hyR05pZS1udmY5QkNoVWdzRXJ6Zkh5MHfSAXtBVV95cUxPcm9OSHFiTElodzF4SUFVQllqOXBraHVXS1E1NWNfMkVNWjJwcW8yLUd5MVhmaTEzUHV3a3A3anZsNXVHMmlsUUNJd2tnN04yYW1MOG1fdkR2anlxMVFqUVF0a0hMWEdidkFsMGhwd1VXMXlMd1ZaNGVTNDA?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793122778",
     slug: "openai-expands-partnership-with-oracle-to-bring-its-app",
     title: "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
