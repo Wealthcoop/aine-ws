@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793074150",
+    slug: "greptile-takes-bug-detection-beyond-code-review-with-gp",
+    title: "Greptile takes bug detection beyond code review with GPT-6 Astra",
+    deck: "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T22:00:00Z",
+    updatedAt: "2026-10-26T22:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rew...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Greptile takes bug detection beyond code review with GPT-6 Astra</strong>.</p>
+<p>How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/greptile-code-review-codex-astra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793074151",
+    slug: "the-risk-that-ai-wakes-up-and-other-warnings-in-anthrop",
+    title: "The risk that AI wakes up and other warnings in Anthropic's unusual IPO filing - The Washington Post",
+    deck: "The risk that AI wakes up and other warnings in Anthropic's unusual IPO filing The Washington Post",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T04:03:33Z",
+    updatedAt: "2026-10-27T04:03:33Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: The risk that AI wakes up and other warnings in Anthropic's unusual IPO filing The Washington Post...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>The risk that AI wakes up and other warnings in Anthropic's unusual IPO filing - The Washington Post</strong>.</p>
+<p>The risk that AI wakes up and other warnings in Anthropic's unusual IPO filing The Washington Post</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkhmVGUzeUdLR0pBUUEwV2IwM2lRdVlWRDRSMk5yR2kzR1NDeWlMOFJpSVlNZDhZTGROLXVILWFEaXJtREI5LWpPQTM0Sll4YVBCZkhOUWE4cXNRZUtORFdMVE5mREFnYTF3ZlEzZlI4b1dZdG50SXFXVENfLXhfMWhMT2FfX0VZRlpkRlB2VlR2d0NsNi13aF9oOWtjcFJOOVpWSExENXVKbWp6UlBSeUpKZFpfMW9X?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793053463",
     slug: "gpt-61-sol-helps-coderabbit-strengthen-security-across",
     title: "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
