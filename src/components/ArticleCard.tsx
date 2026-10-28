@@ -104,8 +104,8 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
           </div>
         </div>
 
-        <div className="lg:col-span-5 relative overflow-hidden rounded-xl bg-slate-900 aspect-[16/10] lg:aspect-auto">
-          <Link href={articleHref} tabIndex={-1} aria-hidden="true" className="block h-full w-full">
+        <div className="lg:col-span-5 relative overflow-hidden rounded-xl bg-slate-950 aspect-[16/9] w-full self-center shadow-inner">
+          <Link href={articleHref} tabIndex={-1} aria-hidden="true" className="block h-full w-full relative">
             <Image
               src={article.featuredImage}
               alt={article.title}
