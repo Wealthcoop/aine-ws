@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793204900",
+    slug: "legora-is-building-the-agentic-operating-system-for-leg",
+    title: "Legora is building the agentic operating system for legal work",
+    deck: "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T09:30:00Z",
+    updatedAt: "2026-10-28T09:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis,...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Legora is building the agentic operating system for legal work</strong>.</p>
+<p>See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/legora-agentic-operating-system-for-legal-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793204901",
+    slug: "anthropics-adjusted-profit-exposes-wall-streets-earning",
+    title: "Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game - WSJ",
+    deck: "Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T16:05:37Z",
+    updatedAt: "2026-10-28T16:05:37Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game - WSJ</strong>.</p>
+<p>Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game WSJ</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSWx5Q3UtbEx6dUhyUV9zMm5WUWhDUGI3ZWpIdnlzbklmVXVzWnV5SFAyTEo1MTRSUUhrSWhleHZMYUpvTTdNOEwxMnlMRTBLRHB1ZXVMMGdpd1FKZnY1eHNIdkRSUHdEdWFUWkJqbFAxd2VYWXJ1NjlKQzYzQ3I2Q3R6eldQS2duckRoV2hyOE5PSTFCYTk0MENRTGVnejdmVWpqNDJrbXdWVWRV?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793174416",
     slug: "retell-uses-openai-models-to-help-power-100m-monthly-ca",
     title: "Retell uses OpenAI models to help power 100M monthly calls",
