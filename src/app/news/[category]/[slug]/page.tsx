@@ -46,6 +46,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
+  const imageUrl = article.featuredImage.startsWith('http')
+    ? article.featuredImage
+    : `${SITE_CONFIG.url}${article.featuredImage}`
 
   return {
     title: article.title,
@@ -77,7 +80,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       authors: [`${SITE_CONFIG.url}/authors/${author.id}`],
       images: [
         {
-          url: `${SITE_CONFIG.url}${article.featuredImage}`,
+          url: imageUrl,
           width: 1200,
           height: 675,
           alt: article.title,
@@ -88,7 +91,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title: article.title,
       description: article.deck,
-      images: [`${SITE_CONFIG.url}${article.featuredImage}`],
+      images: [imageUrl],
     },
   }
 }

@@ -28,15 +28,21 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  const leadArticle = ARTICLES.find((a) => a.isFeatured && a.isBreaking) || ARTICLES[0]
-  const secondaryFeatured = ARTICLES.filter((a) => a.id !== leadArticle.id && a.isFeatured).slice(0, 2)
-  const wireHeadlines = ARTICLES.filter((a) => a.id !== leadArticle.id).slice(0, 5)
+  // Sort all articles by published date descending (freshest first)
+  const sortedArticles = [...ARTICLES].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  )
 
-  // Desk grouped articles
-  const searchArticles = ARTICLES.filter((a) => a.category === 'search-ai').slice(0, 3)
-  const localArticles = ARTICLES.filter((a) => a.category === 'local-business').slice(0, 3)
-  const voiceArticles = ARTICLES.filter((a) => a.category === 'voice-lead-response').slice(0, 3)
-  const toolsArticles = ARTICLES.filter((a) => a.category === 'ai-tools').slice(0, 3)
+  // Lead article is the newest breaking or featured story, or the absolute freshest story
+  const leadArticle = sortedArticles[0]
+  const secondaryFeatured = sortedArticles.slice(1, 3)
+  const wireHeadlines = sortedArticles.slice(3, 8)
+
+  // Desk grouped articles sorted by recency
+  const searchArticles = sortedArticles.filter((a) => a.category === 'search-ai').slice(0, 3)
+  const localArticles = sortedArticles.filter((a) => a.category === 'local-business').slice(0, 3)
+  const voiceArticles = sortedArticles.filter((a) => a.category === 'voice-lead-response').slice(0, 3)
+  const toolsArticles = sortedArticles.filter((a) => a.category === 'ai-tools').slice(0, 3)
 
   return (
     <div className="bg-slate-50 py-8 lg:py-12">

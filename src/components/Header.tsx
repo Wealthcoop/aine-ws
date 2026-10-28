@@ -1,15 +1,34 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X, Radio, ArrowRight, ShieldCheck, Newspaper } from 'lucide-react'
 import { SITE_CONFIG } from '@/config/site'
+import { ARTICLES } from '@/data/articles'
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [currentDate, setCurrentDate] = useState('Tuesday, October 27, 2026')
 
-  const currentDate = 'Thursday, September 10, 2026'
+  useEffect(() => {
+    try {
+      const now = new Date()
+      const formatted = now.toLocaleDateString('en-US', {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+      })
+      setCurrentDate(formatted)
+    } catch {}
+  }, [])
+
+  // Find the freshest breaking news story
+  const sortedArticles = [...ARTICLES].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  )
+  const latestBreaking = sortedArticles.find((a) => a.isBreaking) || sortedArticles[0]
 
   return (
     <header className="w-full border-b border-slate-200 bg-white sticky top-0 z-40">
@@ -24,19 +43,27 @@ export function Header() {
       {/* Top Utility Bar */}
       <div className="border-b border-slate-100 bg-slate-900 text-white text-[12px]">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-1.5 font-semibold text-sky-400">
+          <div className="flex items-center gap-3 overflow-hidden">
+            <span className="inline-flex items-center gap-1.5 font-semibold text-sky-400 shrink-0">
               <Radio className="h-3 w-3 animate-pulse text-sky-400" />
               LIVE WIRE
             </span>
-            <span className="hidden sm:inline text-slate-400">|</span>
-            <span className="hidden sm:inline text-slate-300 font-medium">
+            <span className="hidden sm:inline text-slate-400 shrink-0">|</span>
+            <span className="hidden sm:inline text-slate-300 font-medium shrink-0">
               {currentDate}
             </span>
-            <span className="hidden md:inline text-slate-400">|</span>
-            <span className="hidden md:inline text-slate-300 truncate max-w-md">
-              <strong className="text-white">BREAKING:</strong> Google Expands Dynamic AI Overviews Directly Into Local 3-Packs
-            </span>
+            <span className="hidden md:inline text-slate-400 shrink-0">|</span>
+            {latestBreaking && (
+              <span className="hidden md:inline text-slate-300 truncate max-w-xl">
+                <Link
+                  href={`/news/${latestBreaking.category}/${latestBreaking.slug}`}
+                  className="hover:text-white transition group inline-flex items-center gap-1.5 truncate"
+                >
+                  <strong className="text-amber-400 uppercase tracking-wide text-[11px] font-bold shrink-0">BREAKING:</strong>
+                  <span className="truncate group-hover:underline text-slate-200">{latestBreaking.title}</span>
+                </Link>
+              </span>
+            )}
           </div>
 
           <div className="flex items-center gap-4 text-slate-300">
