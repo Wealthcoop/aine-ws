@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793225948",
+    slug: "openai-and-servicenow-expand-partnership-across-enterpr",
+    title: "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    deck: "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T13:15:00Z",
+    updatedAt: "2026-10-28T13:15:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNo...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI and ServiceNow expand partnership across enterprise workflows</strong>.</p>
+<p>OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-servicenow-partnership-expansion", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793225949",
+    slug: "anthropics-public-benefit-structure-creates-unusual-ris",
+    title: "Anthropic's public benefit structure creates unusual risks for IPO investors - CNBC",
+    deck: "Anthropic's public benefit structure creates unusual risks for IPO investors CNBC",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T21:48:17Z",
+    updatedAt: "2026-10-28T21:48:17Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's public benefit structure creates unusual risks for IPO investors CNBC...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's public benefit structure creates unusual risks for IPO investors - CNBC</strong>.</p>
+<p>Anthropic's public benefit structure creates unusual risks for IPO investors CNBC</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxNelBxRXdTMXd2cXlSM2haZGI3d0xUekJ4Y082TzBwekJrVHRIYUp4NGxpR3B2Q3RfZGlTZjM5bG8taWdKUGczdUxtU3B0cUZRQktvLTBDUXBSZzg3TGhHcHhQdjRlUTAydVQ5MXFGU2RPM1lURFlzY2piTkd5aTB6cm1iNGg0SnZsX29VdzVpNG1kdGJs0gGaAUFVX3lxTFAyakJWQllhd0lLR1NmVmh2UGlnUWxPOWNjRkRRWlhZZGJoY0RwS2FiVDJ3WjJGdEMya1UzNDNXcTFlaEtMbEZqM1lJWG9LNFVCSlVkaVYyZ2NPNGZlT3dBTnFtaXJoRWVwLWF6TnQzS0hVSG9lMld1VTFSM1VvdGtvWHdxYktqcmQxdVNIMUtVQ0FjX3Bla2RSQXc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793204900",
     slug: "legora-is-building-the-agentic-operating-system-for-leg",
     title: "Legora is building the agentic operating system for legal work",
