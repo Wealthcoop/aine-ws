@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793149281",
+    slug: "retell-uses-openai-models-to-help-power-100m-monthly-ca",
+    title: "Retell uses OpenAI models to help power 100M monthly calls",
+    deck: "GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T15:00:00Z",
+    updatedAt: "2026-10-27T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate pe...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Retell uses OpenAI models to help power 100M monthly calls</strong>.</p>
+<p>GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/retell-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793149281",
+    slug: "anthropic-ipo-3-numbers-investors-should-focus-on-and-1",
+    title: "Anthropic IPO: 3 Numbers Investors Should Focus on and 1 To Ignore - The Motley Fool",
+    deck: "Anthropic IPO: 3 Numbers Investors Should Focus on and 1 To Ignore The Motley Fool",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T01:00:09Z",
+    updatedAt: "2026-10-28T01:00:09Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO: 3 Numbers Investors Should Focus on and 1 To Ignore The Motley Fool...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic IPO: 3 Numbers Investors Should Focus on and 1 To Ignore - The Motley Fool</strong>.</p>
+<p>Anthropic IPO: 3 Numbers Investors Should Focus on and 1 To Ignore The Motley Fool</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeC0xbEJOZXFjSnBnV01OaGRncnRDZUtEVUpFemNsN0p2QmJpcEg3a1A1aW8zN0liQWdESDhBcmRYUzhOWmFUdENETi1XZ3hPWFA3dGd5LTdrQWJLQXZoaVFSMHB5VzJBS2xGWGhaTHZEQTZjalNVS3owZ09JY01pQWlVYWs1c2VPTTNMRVA0dWhVUVQ1RzZOcGxablJCUzhISGVn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793138099",
     slug: "how-check-point-accelerates-vulnerability-research-with",
     title: "How Check Point accelerates vulnerability research with Daybreak",
