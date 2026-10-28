@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793174416",
+    slug: "retell-uses-openai-models-to-help-power-100m-monthly-ca",
+    title: "Retell uses OpenAI models to help power 100M monthly calls",
+    deck: "GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T15:00:00Z",
+    updatedAt: "2026-10-27T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate pe...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Retell uses OpenAI models to help power 100M monthly calls</strong>.</p>
+<p>GPT-6 Astra tops Retell's voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/retell-ai", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793174417",
+    slug: "anthropics-s-1-reveals-two-areas-where-openai-could-hav",
+    title: "Anthropic's S-1 reveals two areas where OpenAI could have the upper hand, experts say - Fortune",
+    deck: "Anthropic's S-1 reveals two areas where OpenAI could have the upper hand, experts say Fortune",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-28T07:41:36Z",
+    updatedAt: "2026-10-28T07:41:36Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's S-1 reveals two areas where OpenAI could have the upper hand, experts say Fortune...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's S-1 reveals two areas where OpenAI could have the upper hand, experts say - Fortune</strong>.</p>
+<p>Anthropic's S-1 reveals two areas where OpenAI could have the upper hand, experts say Fortune</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNUpoQjhGTkZ4NVYwWU0ySXNyNWlQQUNRVHA3Z2xqVXpMdHlFdFVoX0YxU25CYWV5T0RsUy1fbDQtQmJTaUdVaWtsS2lQOW1xMGVBam9BVkgzQ1AtZ0dsSXBUakFjZmZuREpTYUVLWUljanVOSlBmb3RFR0prcUtUSEdiUGRpQQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "column-20261027",
     slug: "state-of-ai-search-2026-10-27",
     title: "The State of AI Search in 2026: Why Direct Answers Beat Keyword Stuffing",
