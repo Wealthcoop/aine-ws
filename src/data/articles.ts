@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793317784",
+    slug: "how-we-detect-frontier-model-misalignment",
+    title: "How we detect frontier model misalignment",
+    deck: "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T09:00:00Z",
+    updatedAt: "2026-10-29T09:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so respon...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How we detect frontier model misalignment</strong>.</p>
+<p>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/how-we-detect-frontier-model-misalignment", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793317785",
+    slug: "anthropic-ipo-how-to-buy-shares-and-what-to-expect-on-d",
+    title: "Anthropic IPO: How to Buy Shares and What to Expect on Day 1 - The Motley Fool",
+    deck: "Anthropic IPO: How to Buy Shares and What to Expect on Day 1 The Motley Fool",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T23:24:30Z",
+    updatedAt: "2026-10-29T23:24:30Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO: How to Buy Shares and What to Expect on Day 1 The Motley Fool...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic IPO: How to Buy Shares and What to Expect on Day 1 - The Motley Fool</strong>.</p>
+<p>Anthropic IPO: How to Buy Shares and What to Expect on Day 1 The Motley Fool</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUHUyNjBVMHJHeWFPQmlYb0NuM2xrcE1MUThRYnoza0ZFbk5GZnNYd05SRE55V2xPdVBsSlNpdThwTVJLVWttR3F0Ti1sV0QzSnc5alE3WUZGM2dNdzlXYkpuekF6SGdNV3dJRVRud1Q1bTRpbHRqLURhS1F2ZUtFNnQ1U3dRSnp3M0EybDRkbmtxWnZ6T09uaQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793301982",
     slug: "an-updated-model-spec-for-more-capable-and-beneficial-a",
     title: "An updated Model Spec for more capable and beneficial AI",
