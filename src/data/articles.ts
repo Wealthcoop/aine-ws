@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793301982",
+    slug: "an-updated-model-spec-for-more-capable-and-beneficial-a",
+    title: "An updated Model Spec for more capable and beneficial AI",
+    deck: "OpenAI's updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T17:00:00Z",
+    updatedAt: "2026-10-29T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI's updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human ag...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>An updated Model Spec for more capable and beneficial AI</strong>.</p>
+<p>OpenAI's updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/updated-model-spec", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793301983",
+    slug: "anthropics-financials-are-surprisingly-strong-understan",
+    title: "Anthropic's financials are surprisingly strong - Understanding AI | Timothy B. Lee",
+    deck: "Anthropic's financials are surprisingly strong Understanding AI | Timothy B. Lee",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T19:10:41Z",
+    updatedAt: "2026-10-29T19:10:41Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's financials are surprisingly strong Understanding AI | Timothy B. Lee...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic's financials are surprisingly strong - Understanding AI | Timothy B. Lee</strong>.</p>
+<p>Anthropic's financials are surprisingly strong Understanding AI | Timothy B. Lee</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFByaHZWbjdzYUFQeU9KTkpiaFdCV1lOdUN2Z2ZZaUFfNDRpVHU0MW5uWlNNdk1XeGhlcUhNMEVTLWg2T1hCazNaQkhrUFNOZldWQmM2cDRCOThiai0yNFEwSFdXZzA1dnZKeWF3cmxrVW1XbVRLUGtQeW5HNFg?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793276931",
     slug: "how-check-point-accelerates-vulnerability-research-with",
     title: "How Check Point accelerates vulnerability research with Daybreak",
