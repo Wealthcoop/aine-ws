@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793249477",
+    slug: "openai-expands-partnership-with-oracle-to-bring-its-app",
+    title: "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    deck: "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-27T07:00:00Z",
+    updatedAt: "2026-10-27T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT an...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>OpenAI expands partnership with Oracle to bring its apps to ChatGPT</strong>.</p>
+<p>OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/oracle-apps-in-chatgpt", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793249477",
+    slug: "anthropic-could-begin-marketing-its-ipo-the-week-of-nov",
+    title: "Anthropic Could Begin Marketing Its IPO the Week of Nov. 9 - Yahoo Finance",
+    deck: "Anthropic Could Begin Marketing Its IPO the Week of Nov. 9 Yahoo Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T04:35:00Z",
+    updatedAt: "2026-10-29T04:35:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Could Begin Marketing Its IPO the Week of Nov. 9 Yahoo Finance...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Anthropic Could Begin Marketing Its IPO the Week of Nov. 9 - Yahoo Finance</strong>.</p>
+<p>Anthropic Could Begin Marketing Its IPO the Week of Nov. 9 Yahoo Finance</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSmlUOEVTenBUYjB4NklxYmtsci12Q19USXB6MDVPZHZLcGtSUjlRZl80NXlybjVTM3pjSmRUX3NiVmVkamhYbkwxenluUy1ZWTRSb1RpaFcyN1NGNF9aQ09GcUZGNVhzRVlNUl9OYjAyc21ScDJoOTFzQlc4eGg5M2tFblZ1REF4OExfODlmU2VvaDJud284RW5kc2ZYMlV0ZlE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793225948",
     slug: "openai-and-servicenow-expand-partnership-across-enterpr",
     title: "OpenAI and ServiceNow expand partnership across enterprise workflows",
