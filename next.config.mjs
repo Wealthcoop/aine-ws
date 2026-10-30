@@ -20,15 +20,6 @@ const nextConfig = {
       ],
     },
   ],
-  async redirects() {
-    return [
-      {
-        source: '/news/search-ai/google-vicinity-update-proximity-telemetry-local-search',
-        destination: '/news/local-business/google-vicinity-update-local-search-proximity',
-        permanent: true,
-      },
-    ];
-  },
 }
 
 export default nextConfig
