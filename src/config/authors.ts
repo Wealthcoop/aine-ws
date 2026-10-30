@@ -36,11 +36,11 @@ export const AUTHORS: Record<string, Author> = {
   'elena-chen': {
     id: 'elena-chen',
     name: 'Elena Chen',
-    role: 'Local Business & Google Maps Contributor',
-    title: 'Local Search & Maps Tech Analyst',
-    bio: 'Elena Chen covers local business technology, Google Business Profile algorithmic fluctuations, and how small-to-midsize service businesses deploy artificial intelligence to compete with national franchises.',
+    role: 'Local Business & SMB Technology Reporter',
+    title: 'Local Commerce & AI Telemetry Analyst',
+    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at AI News (aine.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile telemetry, AI review filtering systems, and automated voice telephony for trade contractors.',
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',
-    beats: ['Google Maps AI', 'Local 3-Pack', 'Review Automation', 'SMB Tech']
+    beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Telemetry']
   }
 }
