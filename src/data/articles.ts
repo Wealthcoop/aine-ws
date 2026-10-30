@@ -829,7 +829,7 @@ export const ARTICLES: NewsArticle[] = [
       "The update introduced an algorithmic rebalancing that devalued keyword-stuffed business names, reversing years of artificial ranking advantages for listings packed with extra city and trade keywords.",
       "Post-update field data confirms that physical proximity between the searcher and the verified business location became a dominant ranking weight in Google Maps 3-Pack results."
     ],
-    contentHtml: `<h2>The Historical Timeline &amp; Rollout of Google's December 2021 Local Search Update (Vicinity) - Part 1</h2>
+    contentHtml: `<p class="lead font-medium text-slate-700 text-lg mb-6"><strong>SAN FRANCISCO / SACRAMENTO</strong>: In the first week of December 2021, local businesses and search analysts began reporting massive ranking fluctuations across Google Maps that broke conventional search assumptions. Within nine days, physical proximity to the searcher suddenly overshadowed domain strength, while businesses artificially stuffing keywords into their Google Business Profile names saw their rankings abruptly drop.</p>
 
 <p>In the first week of December 2021, local SEO practitioners across the United States began reporting a pattern they had seen before but could not immediately explain: map pack rankings for small and mid-sized businesses were shifting in ways that correlated less with content quality or backlink profiles and more with a single variable, physical proximity to the searcher. What followed was a nine day window of algorithmic turbulence that data tracking firms would eventually label the "Vicinity" update, a name that stuck not because Google used it, but because the evidence pointed so clearly in that direction.</p>
 
@@ -912,9 +912,9 @@ export const ARTICLES: NewsArticle[] = [
   </table>
 </div>
 
-Section 3: The Algorithmic Devaluation of Google Business Profile Name Spam</h2>
+The Algorithmic Devaluation of Business Name Keyword Spam</h2>
 
-<h3>3.1 The Pre-2021 Loophole: Keyword Stuffing as a Ranking Shortcut</h3>
+<h3>The Pre-2021 Loophole: Artificial Names Over Genuine Brands</h3>
 
 <p>
 Prior to the Vicinity update, the Google Business Profile (GBP) ranking system exhibited a well-documented and widely exploited vulnerability: the business name field carried disproportionate weight in the local pack and map pack algorithms relative to its intended function as an identity descriptor. Google's own guidelines for GBP, dating back to the Google My Business era, explicitly instructed business owners to use only their "real-world" legal or trade name, prohibiting the insertion of keywords, locations, or descriptors not part of the business's established brand identity. Despite this guidance, enforcement mechanisms were largely reactive (dependent on manual suggested edits, competitor flagging, or periodic spam sweeps) rather than embedded directly into the ranking algorithm itself.
@@ -932,7 +932,7 @@ The mechanism behind this effect was straightforward from an information retriev
 This loophole produced a systemic distortion in local search competition. Businesses that adhered strictly to GBP naming guidelines, maintaining their legal or registered trade name without embellishment, were structurally disadvantaged relative to competitors willing to violate stated policy. The asymmetry rewarded policy non-compliance and effectively penalized brand integrity, producing a race-to-the-bottom dynamic across numerous high-competition verticals including home services, legal services, medical practices, and emergency repair industries, where "near me" and service-plus-location queries carried substantial commercial intent and search volume.
 </p>
 
-<h3>3.2 The Vicinity Update: Algorithmic Recalibration of Title Keyword Matching</h3>
+<h3>Algorithmic Recalibration: Leveling the Playing Field for Legitimate Businesses</h3>
 
 <p>
 The Vicinity update represents a structural recalibration of how the local ranking algorithm weighs the business name field relative to other relevance and proximity signals. Rather than relying solely on manual enforcement or policy-based takedown requests, Vicinity appears to have introduced an algorithmic dampener, a weighting adjustment applied at the ranking model level that discounts the relevance contribution of keyword matches found within the business name field when those keywords are not corroborated by other independent trust and identity signals (such as matching legal registration records, consistent NAP citations across the web, or domain name alignment).
@@ -945,7 +945,7 @@ This dampening mechanism does not appear to constitute an outright name-spam det
 <p>
 The practical consequence of this recalibration has been a marked leveling of the competitive landscape. Businesses operating under clean, legally accurate names no longer face the structural penalty previously imposed by competitors' keyword-stuffed listings, because the ranking benefit once derived from name manipulation has been substantially reduced. Observed data across multiple local verticals following the Vicinity rollout indicates that listings previ
 <section>
-<h2>Section 4: From Vicinity to Multi-Entity Consensus: The Architectural Legacy</h2>
+<h2>The Legacy: How Vicinity Paved the Way for Modern Entity Verification</h2>
 
 <p>The Vicinity update, when examined in retrospect, cannot be properly understood as a singular corrective measure aimed at curbing keyword-stuffed business names or suppressing distance-manipulation tactics. Rather, it functioned as a structural inflection point, the architectural foundation upon which nearly every subsequent generation of local search algorithms has been built. Analysts who treat Vicinity as an isolated patch misread its significance. The update did not merely adjust a ranking variable; it redefined the evidentiary standard by which Google would evaluate local relevance going forward, establishing proximity and verifiable entity signals as co-dependent pillars rather than independently optimizable levers.</p>
 
