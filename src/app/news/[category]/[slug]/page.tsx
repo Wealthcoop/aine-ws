@@ -116,9 +116,15 @@ export default function ArticleReaderPage({ params }: PageProps) {
     timeZoneName: 'short',
   })
 
-  // Related articles from same or adjacent categories
-  const relatedArticles = ARTICLES.filter((a) => a.id !== article.id)
-    .slice(0, 3)
+  // Related articles prioritized by same category desk first, then same author, then latest
+  const sameCategory = ARTICLES.filter((a) => a.id !== article.id && a.category === article.category)
+  const sameAuthor = ARTICLES.filter(
+    (a) => a.id !== article.id && a.category !== article.category && a.authorId === article.authorId
+  )
+  const fallbackOther = ARTICLES.filter(
+    (a) => a.id !== article.id && a.category !== article.category && a.authorId !== article.authorId
+  )
+  const relatedArticles = [...sameCategory, ...sameAuthor, ...fallbackOther].slice(0, 6)
 
   return (
     <article className="bg-white py-8 lg:py-12">

@@ -26,9 +26,32 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
   const modDate = article.updatedAt || pubDate
   const pubYear = new Date(pubDate).getFullYear() || 2026
 
-  const schemaGraph = {
-    '@context': 'https://schema.org',
-    '@graph': [
+  // Extract Q&A pairs from <h2>Question?</h2><p>Direct answer...</p> or <h3>Question?</h3><p>Direct answer...</p> for FAQPage schema
+  const faqItems: Array<{ '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }> = []
+  if (article.contentHtml) {
+    const qaRegex = /<h[23][^>]*>([^<]*\?)<\/h[23]>\s*<p[^>]*>([\s\S]*?)<\/p>/gi
+    let match: RegExpExecArray | null
+    while ((match = qaRegex.exec(article.contentHtml)) !== null && faqItems.length < 8) {
+      const question = match[1].replace(/<[^>]+>/g, '').trim()
+      const answer = match[2].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+      if (question.length > 12 && answer.length > 30) {
+        faqItems.push({
+          '@type': 'Question',
+          name: question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: answer,
+          },
+        })
+      }
+    }
+  }
+
+  const citationUrls = (article.sources || [])
+    .map((s) => s.url)
+    .filter((u) => u && (u.startsWith('http://') || u.startsWith('https://')))
+
+  const graphNodes: Record<string, unknown>[] = [
       // 1. BreadcrumbList Schema for Google Rich Snippets
       {
         '@type': 'BreadcrumbList',
@@ -97,6 +120,7 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
           publishingPrinciples: `${SITE_CONFIG.url}/editorial-policy`,
         },
         isAccessibleForFree: true,
+        ...(citationUrls.length > 0 && { citation: citationUrls }),
         speakable: {
           '@type': 'SpeakableSpecification',
           cssSelector: ['.article-headline', '.article-deck', '.key-takeaways'],
@@ -116,7 +140,19 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
           },
         }),
       },
-    ],
+  ]
+
+  if (faqItems.length >= 2) {
+    graphNodes.push({
+      '@type': 'FAQPage',
+      '@id': `${articleUrl}#faq`,
+      mainEntity: faqItems,
+    })
+  }
+
+  const schemaGraph = {
+    '@context': 'https://schema.org',
+    '@graph': graphNodes,
   }
 
   return (
