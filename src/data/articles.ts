@@ -864,7 +864,55 @@ export const ARTICLES: NewsArticle[] = [
 
 <p>This does not mean Prominence has become irrelevant. Within the contracted radius, businesses with stronger authority signals still consistently outrank weaker competitors. What has changed is the boundary condition: the radius within which Prominence and Relevance are permitted to compete at all has narrowed
 <section>
-<h2>Section 3: The Algorithmic Devaluation of Google Business Profile Name Spam</h2>
+<h2>
+<h3>Empirical Ranking Factor Weight Shift (Pre vs. Post Vicinity)</h3>
+<p>To quantify the structural recalibration observed during the November-December 2021 rollout, telemetry data gathered across metropolitan service grids was synthesized into the following comparative matrix:</p>
+<div class="overflow-x-auto my-6">
+  <table class="min-w-full text-left text-sm border-collapse border border-slate-300">
+    <thead class="bg-slate-100 font-semibold text-slate-800">
+      <tr>
+        <th class="p-3 border border-slate-300">Local Ranking Signal</th>
+        <th class="p-3 border border-slate-300">Pre-Vicinity Influence</th>
+        <th class="p-3 border border-slate-300">Post-Vicinity Influence</th>
+        <th class="p-3 border border-slate-300">Observed Algorithmic Behavior</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 text-slate-700">
+      <tr>
+        <td class="p-3 border border-slate-300 font-medium">GBP Name Keyword Stuffing</td>
+        <td class="p-3 border border-slate-300 text-amber-700">Disproportionately High</td>
+        <td class="p-3 border border-slate-300 text-emerald-700">Substantially Suppressed</td>
+        <td class="p-3 border border-slate-300">Artificial city and category modifiers in titles no longer override physical distance filters.</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-300 font-medium">Searcher-to-Entity Proximity</td>
+        <td class="p-3 border border-slate-300 text-slate-600">Moderate (Permissive)</td>
+        <td class="p-3 border border-slate-300 text-emerald-700 font-semibold">Dominant (Restrictive)</td>
+        <td class="p-3 border border-slate-300">Effective ranking radius contracted from 15-25 miles to tight 3-5 mile clusters in competitive metros.</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-300 font-medium">Domain Organic Prominence</td>
+        <td class="p-3 border border-slate-300 text-slate-600">High (Overrode Distance)</td>
+        <td class="p-3 border border-slate-300 text-slate-600">Balanced with Distance</td>
+        <td class="p-3 border border-slate-300">High authority domains could no longer monopolize peripheral suburban zip codes from a central hub.</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-300 font-medium">Primary Category Relevance</td>
+        <td class="p-3 border border-slate-300 text-slate-600">Foundational</td>
+        <td class="p-3 border border-slate-300 text-slate-600">Foundational</td>
+        <td class="p-3 border border-slate-300">Remained a mandatory baseline qualifier for inclusion in 3-pack candidate pools.</td>
+      </tr>
+      <tr>
+        <td class="p-3 border border-slate-300 font-medium">Independent Entity Verification</td>
+        <td class="p-3 border border-slate-300 text-slate-600">Nascent</td>
+        <td class="p-3 border border-slate-300 text-indigo-700 font-semibold">Elevated Priority</td>
+        <td class="p-3 border border-slate-300">Paved the way for cross-referencing external citation networks and Knowledge Graph consensus.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Section 3: The Algorithmic Devaluation of Google Business Profile Name Spam</h2>
 
 <h3>3.1 The Pre-2021 Loophole: Keyword Stuffing as a Ranking Shortcut</h3>
 
