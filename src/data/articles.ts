@@ -816,7 +816,7 @@ export const ARTICLES: NewsArticle[] = [
     title: "Google's Vicinity Update: How Proximity and Name Spam Rebalancing Reshaped Local Search",
     deck: "An analysis of Google's December 2021 local algorithm update, why the search community named it the Vicinity Update, and how tighter proximity rules curtailed business name keyword stuffing.",
     category: "local-business",
-    authorId: "elena-chen",
+    authorId: "justin-davis",
     publishedAt: "2024-10-25T12:00:00Z",
     updatedAt: "2024-10-25T12:00:00Z",
     readingTimeMinutes: 4,
