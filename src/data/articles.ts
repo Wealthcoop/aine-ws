@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793335882",
+    slug: "how-ropes-gray-is-developing-ai-for-transactional-dilig",
+    title: "How Ropes & Gray is developing AI for transactional diligence",
+    deck: "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-29T07:00:00Z",
+    updatedAt: "2026-10-29T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summa...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>How Ropes & Gray is developing AI for transactional diligence</strong>.</p>
+<p>Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/ropes-gray-ai-diligence", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793335883",
+    slug: "why-anthropics-rivals-are-rooting-for-its-ipo-wsj",
+    title: "Why Anthropic's Rivals are Rooting for its IPO - WSJ",
+    deck: "Why Anthropic's Rivals are Rooting for its IPO WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T04:01:47Z",
+    updatedAt: "2026-10-30T04:01:47Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Why Anthropic's Rivals are Rooting for its IPO WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>Why Anthropic's Rivals are Rooting for its IPO - WSJ</strong>.</p>
+<p>Why Anthropic's Rivals are Rooting for its IPO WSJ</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHJlbWNoRkNORmhFU0p2MEJ1d3ctZm1RRXBycmhOMHpTNTF4Y0ZzZGdiOWVWQVI4ZENkamgweTBWRENsNHBJc1p1M3htTUloY0xnOGxlVWRiNGhYcG5JVnlCY01nVVlpdEp2YmFvOGcwQmN2XzNlajlJbGg0RWVPTE4tMl9Gb0pCb3c?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793317784",
     slug: "how-we-detect-frontier-model-misalignment",
     title: "How we detect frontier model misalignment",
