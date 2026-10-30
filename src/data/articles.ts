@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793386890",
+    slug: "making-it-easier-for-websites-to-express-ai-training-pr",
+    title: "Making it easier for websites to express AI training preferences",
+    deck: "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T09:30:00Z",
+    updatedAt: "2026-10-30T09:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferenc...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Making it easier for websites to express AI training preferences</strong>.</p>
+<p>OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/helping-websites-express-ai-training-preferences", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793386890",
+    slug: "ai-startup-founded-by-ex-doge-staffers-gets-inside-anth",
+    title: "AI startup founded by ex-DOGE staffers gets inside Anthropic. Here's how - Cleveland.com",
+    deck: "AI startup founded by ex-DOGE staffers gets inside Anthropic. Here's how Cleveland.com",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T18:38:00Z",
+    updatedAt: "2026-10-30T18:38:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: AI startup founded by ex-DOGE staffers gets inside Anthropic. Here's how Cleveland.com...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>AI startup founded by ex-DOGE staffers gets inside Anthropic. Here's how - Cleveland.com</strong>.</p>
+<p>AI startup founded by ex-DOGE staffers gets inside Anthropic. Here's how Cleveland.com</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjFqckpVRnpFTnplekhhSk05N0Z0eFAxTG1WR1VWT0VOWHpmZFJJa2NIRjJUVjRGMmg5WkFiX0NDdzVCT2x4MHYxVTBxN1NGMnJxSWNoQ3hRVVBxbnhsYUFPbk1UTmJtSG5TWU1Pc3Z0ZHVIYURlMEtBUzBNS0hXUWFhMW9Sc3hVOEVkU1RCRFN1Zkh5RE96S25WWTAxb2cyMkMzbzRLcDI4RmNubl9RMlhvOFbSAcgBQVVfeXFMT3hkYWtOeTRpbUdhazNqQ2JxaU9UQUkwbHItNGdtMkpaX2U1NzcwVjZIOW5iSzVLaVJzZnAxNUlicjc0WkJsbnB0cVFTcktwR3Y1RWVydnpBTGNxV1hQWkdSNjVTVWdZcUd4NkJfR0E2R2xLbmRLWDlSVzA1SXltZzdmVko0M0h0ckVlaGtRTUtwaXhXamQ1OEJqS3pkRHFOYkFzUm1OT3A5d3p1V0NTMnV0eUZNTF9qeFFrSEVBTWFqYWxqSlBZSDQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793362840",
     slug: "greptile-takes-bug-detection-beyond-code-review-with-gp",
     title: "Greptile takes bug detection beyond code review with GPT-6 Astra",
