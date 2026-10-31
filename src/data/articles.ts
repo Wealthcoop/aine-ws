@@ -2,6 +2,109 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793465905",
+    slug: "chatgpts-expanding-world-of-work",
+    title: "ChatGPT's expanding world of work",
+    deck: "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T10:00:00Z",
+    updatedAt: "2026-10-26T10:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatG...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  OpenAI has published a new dataset tracking how ChatGPT is used across 165 distinct work activities in nearly 100 countries, offering the clearest picture yet of the chatbot's role in global labor. The data, released as part of OpenAI's Signals research effort, shows usage patterns shifting from simple writing help toward more complex analytical and coding tasks.</p>
+
+<h2>What Did OpenAI's New Data Reveal?</h2>
+<p>OpenAI's Signals dataset shows that ChatGPT usage for work has broadened significantly, moving beyond drafting emails into research, coding, and data analysis. The company says this shift reflects both growing user trust and expanding model capability since ChatGPT launched in 2022.</p>
+
+<p>The report draws on anonymized usage logs mapped against the O*NET occupational database, which catalogs thousands of work tasks across industries. OpenAI says this allows researchers to see which job functions are adopting AI tools fastest and which remain largely untouched.</p>
+
+<h2>Which Countries Use ChatGPT Most for Work?</h2>
+<p>The United States, India, and Brazil show the highest volume of work-related ChatGPT activity, according to OpenAI's figures. Smaller economies in Southeast Asia and Eastern Europe are showing the fastest growth rates, even though their total usage remains lower.</p>
+
+<p>OpenAI attributes the growth in emerging markets partly to mobile-first access and partly to the rollout of cheaper subscription tiers. The company did not disclose exact user counts by country, citing privacy commitments tied to the Signals methodology.</p>
+
+<h2>How Has Usage Changed Since ChatGPT Launched?</h2>
+<p>Early ChatGPT usage was dominated by writing assistance, such as editing text and generating short drafts. OpenAI's new data shows that pattern has given way to a mix of coding, data interpretation, and multi-step research tasks that require the model to reason across several steps.</p>
+
+<p>The company frames this as evidence that users are entrusting the tool with higher-stakes work. OpenAI researchers note that activities once considered too complex for a chatbot, including financial modeling support and technical documentation, now represent a measurable share of total queries.</p>
+
+<h2>What Work Activities Show the Fastest Growth?</h2>
+<p>Coding assistance and data analysis are the two fastest-growing categories in the Signals dataset. OpenAI says these categories have expanded faster than writing-related tasks over the past year, signaling a shift toward technical use cases.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Work Category</th><th>Share of Activity</th><th>Growth Trend</th></tr>
+<tr><td>Writing & Editing</td><td>Largest single category</td><td>Stable</td></tr>
+<tr><td>Coding & Technical Support</td><td>Fast-growing segment</td><td>Rising</td></tr>
+<tr><td>Data Analysis</td><td>Expanding share</td><td>Rising</td></tr>
+<tr><td>Research & Summarization</td><td>Mid-sized segment</td><td>Steady</td></tr>
+<tr><td>Customer Communication</td><td>Smaller segment</td><td>Flat</td></tr>
+</table>
+
+<h3>Does This Data Show AI Replacing Jobs?</h3>
+<p>OpenAI's report does not claim ChatGPT is replacing jobs outright, instead describing the data as evidence of task-level augmentation. The company says most usage patterns point to people incorporating ChatGPT into existing workflows rather than eliminating roles entirely.</p>
+
+<p>Independent labor economists cited in the report caution that usage volume alone cannot confirm productivity gains or job displacement. They argue that longer-term employment data, not query logs, will be needed to settle that debate.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/chatgpt-expanding-world-of-work", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793465923",
+    slug: "anthropic-ipo-1300-growth-163-billion-in-revenue-and-an",
+    title: "Anthropic IPO: 1,300% Growth, $16.3 Billion in Revenue, and an $80.7 Billion Loss. Here Are the Numbers to",
+    deck: "Anthropic IPO: 1,300% Growth, $16.3 Billion in Revenue, and an $80.7 Billion Loss. Here Are the Numbers to Watch. Yahoo Finance",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-31T16:28:00Z",
+    updatedAt: "2026-10-31T16:28:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic IPO: 1,300% Growth, $16.3 Billion in Revenue, and an $80.7 Billion Loss. Here Are the Numbers to Wat...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO ,  Anthropic has filed paperwork signaling one of the most closely watched artificial intelligence listings in market history. The company disclosed revenue of $16.3 billion alongside a net loss of $80.7 billion, numbers that reveal both the scale of enterprise AI demand and the staggering cost of building frontier models.</p>
+
+<h2>What Are Anthropic's Key IPO Numbers?</h2>
+<p>Anthropic reported 1,300% year over year revenue growth, reaching $16.3 billion while absorbing an $80.7 billion net loss tied to compute spending and model training. The filing positions the company among the fastest growing software businesses ever to approach public markets, even as its losses dwarf those of prior tech debuts.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Metric</th><th>Reported Figure</th></tr>
+<tr><td>Annual Revenue</td><td>$16.3 billion</td></tr>
+<tr><td>Year Over Year Growth</td><td>1,300%</td></tr>
+<tr><td>Net Loss</td><td>$80.7 billion</td></tr>
+<tr><td>Primary Cost Driver</td><td>Compute and model training</td></tr>
+<tr><td>Core Product</td><td>Claude model family and API</td></tr>
+<tr><td>Customer Base</td><td>Enterprise and developer accounts</td></tr>
+</table>
+
+<h2>Why Is Anthropic Posting An $80.7 Billion Loss Despite Revenue Growth?</h2>
+<p>The loss stems largely from the cost of training and running large language models, which requires sustained spending on data center capacity, specialized chips, and long term cloud contracts. Anthropic has prioritized model capability and compute access over near term profitability, a strategy shared by competitors racing to stay ahead in the foundation model market.</p>
+
+<p>Unlike traditional software companies, frontier AI labs carry fixed costs that scale with model size rather than customer count. Training a single next generation model can cost billions of dollars before a single enterprise contract is signed. That dynamic explains why a company generating double digit billions in revenue can still report a loss exceeding five times that figure, since depreciation, chip procurement, and energy contracts are booked well ahead of revenue recognition.</p>
+
+<h3>How Does Anthropic's Growth Compare To Rivals?</h3>
+<p>Anthropic's 1,300% growth rate outpaces most enterprise software peers and even several AI competitors reporting triple digit expansion. The company's revenue is driven primarily by Claude's adoption inside coding tools, customer service platforms, and enterprise data workflows, where usage based pricing accelerates revenue as adoption spreads.</p>
+
+<p>Analysts note that this growth trajectory mirrors early cloud computing providers, where infrastructure investment preceded profitability by years. The difference now is the sheer size of the numbers involved, with losses measured in tens of billions rather than hundreds of millions.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeTZOWF9VTXpRQVB4cFdVclZqX1NVaUdrME9hemZRS3laODBSbU5Kbnd0WHpvNlE2elVfS0loVnVMYllRZ2llWExCSHJXRktJM3J6SmdBbk1saFhwYWV1NXRyZmx2YkpJMFFrUlRfNEM3WmtucExrZWJVT0xkYmJMd3pFeUN3NWkzVFlyOWkwc2F4ZnJDaVE?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793447491",
     slug: "working-with-academic-communities-to-build-scientific-u",
     title: "Working with academic communities to build scientific understanding",
