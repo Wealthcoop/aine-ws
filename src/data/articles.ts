@@ -2,6 +2,60 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793421417",
+    slug: "fair-use-benefits-everyone",
+    title: "Fair use benefits everyone",
+    deck: "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T00:00:00Z",
+    updatedAt: "2026-10-30T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, a...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - OpenAI Official News has published details on <strong>Fair use benefits everyone</strong>.</p>
+<p>OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/fair-use-benefits-everyone", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793421417",
+    slug: "us-ipo-weekly-recap-anthropic-files-for-potentially-rec",
+    title: "U.S. IPO Weekly Recap: Anthropic Files For Potentially Record-Breaking IPO - Seeking Alpha",
+    deck: "U.S. IPO Weekly Recap: Anthropic Files For Potentially Record-Breaking IPO Seeking Alpha",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-31T04:30:00Z",
+    updatedAt: "2026-10-31T04:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: U.S. IPO Weekly Recap: Anthropic Files For Potentially Record-Breaking IPO Seeking Alpha...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p class="lead"><strong>SAN FRANCISCO</strong> - Anthropic Wire (Google News 1h) has published details on <strong>U.S. IPO Weekly Recap: Anthropic Files For Potentially Record-Breaking IPO - Seeking Alpha</strong>.</p>
+<p>U.S. IPO Weekly Recap: Anthropic Files For Potentially Record-Breaking IPO Seeking Alpha</p>
+<p>The update highlights key shifts in software systems, search visibility, and workflow automation. For operators and businesses tracking search rankings and machine intelligence, these changes require close attention to documentation and technical deployment standards.</p>
+<p>Readers and engineering teams can review the full release notes, official documentation, and source links in the verification box below.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGh2UHFkd05QRXQ4Z3NuSWVOeFhmdEhjalBlRWwxdzRZMUViX1lEUWlqYi1nZ085cnNjT3czUXhZaXBRbEF5bG5DRW82bmlyV3hKYXlFa1F4ZXFQd3dfWWdaZ0pTUkk3ckR0MWpiQV84bFlzWlRqSmxkMWpFZjdnS0VuM1lQUzFqd3lUOGY0M2tuUUZPUEgyQk1Saw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793403000",
     slug: "community-safety-report-and-new-protections-for-teens",
     title: "Community safety report and new protections for teens",
