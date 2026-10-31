@@ -110,7 +110,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
               src={article.featuredImage}
               alt={article.title}
               fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
+              sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 420px"
               priority
               className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             />
@@ -163,7 +163,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
                 alt={article.title}
                 fill
                 loading="lazy"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 360px"
                 className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
               />
             </Link>

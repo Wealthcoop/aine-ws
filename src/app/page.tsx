@@ -112,12 +112,13 @@ export default function HomePage() {
                 &ldquo;AI News was launched to strip away marketing hype and benchmark how applied AI, search models, and telecom automation actually impact commercial balance sheets.&rdquo;
               </p>
               <div className="mt-4 flex items-center gap-3 border-t border-sky-100 pt-3">
-                <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full border border-sky-300 bg-white">
+                <div className="h-9 w-9 shrink-0 overflow-hidden rounded-full border border-sky-300 bg-white">
                   <Image
                     src={AUTHORS['justin-davis'].avatar}
                     alt="Justin Davis"
-                    fill
-                    className="object-cover"
+                    width={36}
+                    height={36}
+                    className="h-full w-full object-cover"
                   />
                 </div>
                 <div className="text-xs">

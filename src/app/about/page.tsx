@@ -252,6 +252,7 @@ export default function AboutPage() {
                     src={author.avatar}
                     alt={author.name}
                     fill
+                    sizes="96px"
                     className="object-cover"
                   />
                 </div>

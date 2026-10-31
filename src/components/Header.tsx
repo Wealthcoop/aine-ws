@@ -78,9 +78,9 @@ export function Header() {
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-1 rounded bg-sky-700 px-3 py-1.5 text-[11px] font-bold text-white transition hover:bg-sky-800 min-h-[36px]"
+              className="inline-flex items-center gap-1.5 rounded bg-sky-700 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-sky-800 min-h-[44px]"
             >
-              Newsroom Desk <ArrowRight className="h-3 w-3" />
+              Newsroom Desk <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
         </div>
@@ -90,16 +90,19 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-sky-600 rounded-lg">
-              <div className="relative h-12 w-48 sm:h-14 sm:w-56">
-                <Image
-                  src="/aine-ws-logo.svg"
-                  alt="AI News - Applied Intelligence News Network"
-                  fill
-                  priority
-                  className="object-contain object-left"
-                />
-              </div>
+            <Link
+              href="/"
+              aria-label="AI News Homepage"
+              className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-sky-600 rounded-lg"
+            >
+              <Image
+                src="/aine-ws-logo.svg"
+                alt="AI News - Applied Intelligence News Network"
+                width={224}
+                height={56}
+                priority
+                className="h-12 w-auto sm:h-14 object-contain object-left"
+              />
             </Link>
             <div className="hidden lg:block border-l border-slate-200 pl-6">
               <p className="text-xs font-semibold uppercase tracking-wider text-slate-600">
@@ -119,7 +122,7 @@ export function Header() {
             </div>
             <Link
               href="/contact?type=tip"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-900 bg-slate-900 px-3.5 py-1.5 text-xs font-semibold text-white transition hover:bg-slate-800"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-900 bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition hover:bg-slate-800 min-h-[44px]"
             >
               <Newspaper className="h-3.5 w-3.5" />
               <span>Submit News Tip</span>

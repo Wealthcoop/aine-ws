@@ -85,7 +85,14 @@ export default function RootLayout({
         <OrganizationSchema />
         <link rel="alternate" type="application/rss+xml" title="AI News RSS Feed" href="/feed.xml" />
         <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="/news-sitemap.xml" />
-        {/* Google tag (gtag.js) */}
+      </head>
+      <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
+        <Header />
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
+        <Footer />
+        {/* Google tag (gtag.js) deferred to browser idle to protect FCP and LCP */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-RD10J8RQYW"
           strategy="lazyOnload"
@@ -104,13 +111,6 @@ export default function RootLayout({
             `,
           }}
         />
-      </head>
-      <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
-        <Header />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
       </body>
     </html>
   )

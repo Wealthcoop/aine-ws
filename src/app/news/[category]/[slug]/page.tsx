@@ -171,12 +171,13 @@ export default function ArticleReaderPage({ params }: PageProps) {
           {/* Author Byline & Timestamps */}
           <div className="mt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-slate-200 bg-slate-50/70 p-4">
             <div className="flex items-center gap-3">
-              <Link href={`/authors/${author.id}`} className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-200">
+              <Link href={`/authors/${author.id}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-200">
                 <Image
                   src={author.avatar}
                   alt={author.name}
-                  fill
-                  className="object-cover"
+                  width={48}
+                  height={48}
+                  className="h-full w-full object-cover"
                 />
               </Link>
               <div>
@@ -330,12 +331,13 @@ export default function ArticleReaderPage({ params }: PageProps) {
         {/* Author Bio Box */}
         <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-100">
+            <div className="h-16 w-16 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-100">
               <Image
                 src={author.avatar}
                 alt={author.name}
-                fill
-                className="object-cover"
+                width={64}
+                height={64}
+                className="h-full w-full object-cover"
               />
             </div>
             <div className="flex-1 text-center sm:text-left">

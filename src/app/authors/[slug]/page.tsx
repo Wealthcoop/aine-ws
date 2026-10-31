@@ -170,6 +170,7 @@ export default function AuthorProfilePage({ params }: PageProps) {
                 alt={author.name}
                 fill
                 priority
+                sizes="(max-width: 768px) 128px, 160px"
                 className="object-cover"
               />
             </div>
