@@ -1,4 +1,15 @@
-import legacyRedirects from './src/config/legacy_wire_redirects.json' assert { type: 'json' }
+import fs from 'node:fs'
+import path from 'node:path'
+
+const redirectsFilePath = path.join(process.cwd(), 'src/config/legacy_wire_redirects.json')
+let legacyRedirects = []
+if (fs.existsSync(redirectsFilePath)) {
+  try {
+    legacyRedirects = JSON.parse(fs.readFileSync(redirectsFilePath, 'utf-8'))
+  } catch (e) {
+    console.error('Failed to parse legacy redirects:', e)
+  }
+}
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
