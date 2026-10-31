@@ -3790,7 +3790,7 @@ export const ARTICLES: NewsArticle[] = [
 <p>Telecom-style response discipline applies here directly. If a lead routing rule breaks on a Friday afternoon and your fix depends on a consultant's calendar, you've already lost the deal cycle. HubSpot's workflow and automation builder puts that fix inside the sales ops team's own hands, which is the same logic driving teams to evaluate alternatives documented in our <a href="/news/ai-tools/hubspot-vs-gohighlevel-2026-cost-ai-agents-b2b-pipeline-audit">HubSpot vs GoHighLevel 12-month audit</a>. The pattern is consistent across every platform comparison we've run this year: teams are pricing in admin dependency as a hard cost, not a soft inconvenience.</p>`,
     sources: [
       { name: "HubSpot Smart CRM Enterprise & Pro Specifications", url: "https://go.try-hubspot.com/c/7635911/976131/12893", context: "2026 platform licensing and unified data model documentation." },
-      { name: "Gold Standard Search & Revenue Engineering", url: "https://www.goldstandardlocalseo.com", context: "B2B pipeline attribution and organic search conversion studies." }
+      { name: "Gartner IT & CRM Market Research Analysis", url: "https://www.gartner.com/en/information-technology/research/crm", context: "B2B pipeline attribution and organic search conversion studies." }
     ]
   },
   {

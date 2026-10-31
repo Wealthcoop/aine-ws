@@ -282,10 +282,12 @@ export default function ArticleReaderPage({ params }: PageProps) {
           }
         />
 
-        {/* Trending AI Tools & Capital Pre-Check Card */}
-        <div className="my-10">
-          <TrendingTools />
-        </div>
+        {/* Trending AI Tools & Capital Pre-Check Card (Suppressed during editorial audit) */}
+        {MONETIZATION_CONFIG.IN_ARTICLE_RECOMMENDATION && (
+          <div className="my-10">
+            <TrendingTools />
+          </div>
+        )}
 
         {/* Primary Sources & Attributions (Google News Requirement) */}
         {article.sources && article.sources.length > 0 && (

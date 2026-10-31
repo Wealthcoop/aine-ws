@@ -94,7 +94,7 @@ export function SponsorSlot({ type = 'inline', vertical = 'local-seo' }: Sponsor
         <span className="rounded bg-blue-100 px-2 py-0.5 text-[10px] text-blue-800">Agency Audit</span>
       </div>
       <h4 className="mt-3 text-lg font-bold tracking-tight text-slate-900">
-        Gold Standard Local SEO: Entity-Driven Map Pack Dominance
+        Local Search Architecture: Entity-Driven Map Pack Investigation
       </h4>
       <p className="mt-2 text-sm text-slate-600 leading-relaxed">
         Engineered specifically for high-ticket contractors and service firms navigating Google AI Overviews and Google Maps algorithm fluctuations.
@@ -102,7 +102,7 @@ export function SponsorSlot({ type = 'inline', vertical = 'local-seo' }: Sponsor
       <div className="mt-4 flex items-center justify-between">
         <span className="text-xs text-slate-500">Empirical 3-pack case studies</span>
         <a
-          href="https://www.goldstandardlocalseo.com"
+          href="/news/local-business/local-seo-schema-citation-audit-guide"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 rounded-lg bg-blue-600 px-4 py-2 text-xs font-bold text-white transition hover:bg-blue-700"
