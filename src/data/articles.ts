@@ -2,6 +2,102 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793480996",
+    slug: "how-ultrafast-cut-incident-investigation-from-hours-to",
+    title: "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+    deck: "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T07:00:00Z",
+    updatedAt: "2026-10-26T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security anal...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  OpenAI says its internal engineering teams have slashed incident investigation time from hours to minutes using Codex Ultrafast, a faster variant of its coding model built for rapid-response debugging. The company detailed the shift in an official post describing how security analysis, code tracing, and postmortem work now happen at a pace that was not possible with earlier tooling.</p>
+
+<h2>What did OpenAI announce about Codex Ultrafast?</h2>
+<p>OpenAI announced that its own engineers are using Codex Ultrafast, a low-latency version of Codex, to investigate production incidents far faster than before. The company reports that tasks which once took hours of manual log review and code tracing now resolve in minutes.</p>
+<p>The announcement frames Ultrafast not as a research demo but as a production tool already embedded in OpenAI's internal operations. Engineers reportedly use it during live incidents to pull relevant code paths, cross-reference logs, and surface likely root causes while the issue is still unfolding, rather than after the fact.</p>
+
+<h2>How does Codex Ultrafast speed up incident investigation?</h2>
+<p>Codex Ultrafast speeds up investigation by running fast, iterative code searches and log correlations that a human engineer would otherwise do by hand. Instead of manually grepping through repositories and service logs, engineers describe the symptom and the model returns candidate causes and relevant code snippets almost immediately.</p>
+<p>OpenAI says the model's speed matters as much as its accuracy here. During an active incident, every minute spent searching for the right file or log line delays mitigation, and a faster response loop lets on-call engineers test hypotheses and rule them out in rapid succession rather than waiting on long search queries.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<caption>Incident Investigation: Before and After Codex Ultrafast</caption>
+<tr><th>Metric</th><th>Before</th><th>After Codex Ultrafast</th></tr>
+<tr><td>Average investigation time</td><td>Several hours</td><td>Minutes</td></tr>
+<tr><td>Primary method</td><td>Manual log review and code search</td><td>Model-assisted code and log correlation</td></tr>
+<tr><td>Who performs initial triage</td><td>On-call engineer alone</td><td>On-call engineer with Ultrafast assistance</td></tr>
+<tr><td>Use cases cited</td><td>Debugging only</td><td>Security analysis, refactoring, daily workflows</td></tr>
+</table>
+
+<h3>What does this mean for engineering teams?</h3>
+<p>For engineering teams, the change means incident response shifts from a slow, manual search process to a faster, guided one where engineers verify model-suggested leads instead of starting from scratch. OpenAI frames this as freeing engineers to focus on judgment calls and fixes rather than repetitive searching.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/openai-cut-incident-investigation", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793481018",
+    slug: "anthropics-late-900k-push-into-california-democratic-po",
+    title: "Anthropic's late $900K push into California Democratic politics - The San Francisco Standard",
+    deck: "Anthropic's late $900K push into California Democratic politics The San Francisco Standard",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-31T20:10:00Z",
+    updatedAt: "2026-10-31T20:10:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic's late $900K push into California Democratic politics The San Francisco Standard...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  Anthropic has funneled roughly $900,000 into California Democratic political committees in the closing weeks before a major filing deadline, according to disclosures reviewed by The San Francisco Standard. The donations mark one of the clearest signs yet that the Claude maker is building a direct line into state-level politics as Sacramento weighs new artificial intelligence rules.</p>
+
+<h2>What did Anthropic actually spend money on?</h2>
+<p>Anthropic directed approximately $900,000 to California Democratic Party committees and allied political funds in a late filing window. The donations were reported just ahead of a disclosure deadline, drawing attention to the timing as much as the sum itself.</p>
+<p>The contributions flowed primarily through the Anthropic PAC and corporate giving channels tied to the company's public policy division. Recipients included state party infrastructure accounts and committees linked to legislators who sit on technology and commerce committees. The filings do not specify line-item intent, a common practice for party transfers, but the pattern lines up with lawmakers who have shaped recent AI safety and transparency bills.</p>
+
+<h3>Why is the timing of the donations significant?</h3>
+<p>The money arrived shortly before a campaign finance reporting deadline, a window political strategists say is often used to maximize influence while minimizing early public scrutiny. Late filings still become public record, but they compress the time reporters and rivals have to analyze giving patterns before votes or endorsements occur.</p>
+<p>California requires semi-annual disclosure for most committee activity, meaning donations made near the cutoff appear in the same batch as months of other transactions. That clustering can obscure a single donor's relative weight unless journalists isolate the entries, as The San Francisco Standard did in its review of the filings.</p>
+
+<h2>How does this fit Anthropic's broader political strategy?</h2>
+<p>Anthropic has positioned itself publicly as the safety-focused alternative to OpenAI and Google DeepMind, but its lobbying spending shows a company increasingly willing to play conventional political hardball. The $900,000 push follows smaller, earlier contributions and a growing Sacramento lobbying presence disclosed in state records.</p>
+<p>The company has supported some AI safety disclosure requirements while opposing provisions it views as overly broad, including parts of California's SB 1047 debate last year. Political analysts say the donations likely aim to maintain access to legislators drafting the next generation of state AI rules, including audit mandates and liability standards for frontier models.</p>
+
+<h3>What has Anthropic said about the contributions?</h3>
+<p>Anthropic has not issued a detailed public statement explaining the specific allocation of the $900,000, referring inquiries to standard disclosure filings. A company spokesperson previously told reporters that Anthropic engages in policy advocacy "to ensure safety-focused voices are represented" in AI regulation debates.</p>
+<p>Critics, including some consumer advocacy groups, argue that framing understates the practical effect of direct party giving, which tends to build goodwill across a broader slate of candidates rather than targeting single-issue outcomes. Neither the California Democratic Party nor named recipient committees have responded publicly to requests for comment on the donations.</p>
+
+<h2>What does this mean for California's AI policy fights ahead?</h2>
+<p>The donations position Anthropic alongside other major tech firms now treating state capitols as frontline battlegrounds, not just Washington. With new AI transparency and liability bills expected in the next legislative session, money given now could translate into relationships that matter when votes are counted.</p>
+
+<table>
+<tr><th>Detail</th><th>Figure</th></tr>
+<tr><td>Total contribution</td><td>~$900,000</td></tr>
+<tr><td>Recipient type</td><td>California Democratic Party committees</td></tr>
+<tr><td>Disclosure timing</td><td>Late filing, pre-deadline batch</td></tr>
+<tr><td>Prior policy stance</td><td>Mixed support/opposition on SB 1047</td></tr>
+<tr><td>Reporting outlet</td><td>The San Francisco Standard</td></tr>
+</table>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOGhtSWhxVzUtMk9nZjVRUFFNMTdaenBjbEowaGotanB2TEVodDdiLUt5U0Z4dk0tQnZQNTFPVTQ0TnVGSEFPM2RaM0xNdlF1Qi1OZ29TajJDeWhxcXU3UlNud2xLQXh6N0V1NmNTdG1iNlNPLU0zTnR1Ym91ZllPQzd1VGg4aGFrWUs0?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793465905",
     slug: "chatgpts-expanding-world-of-work",
     title: "ChatGPT's expanding world of work",
