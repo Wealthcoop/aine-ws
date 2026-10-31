@@ -110,8 +110,9 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
               src={article.featuredImage}
               alt={article.title}
               fill
-              sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 420px"
+              sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 420px"
               priority
+              quality={80}
               className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             />
           </Link>

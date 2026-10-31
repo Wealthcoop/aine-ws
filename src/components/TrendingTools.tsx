@@ -61,10 +61,11 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
       {/* Banner Graphic Header */}
       <div className="relative w-full overflow-hidden border-b border-slate-200 bg-[#f0f8d8]">
         <Image
-          src="/images/trending-tools-banner.png"
+          src="/images/trending-tools-banner.webp"
           alt="Trending Tools"
           width={1024}
           height={201}
+          sizes="(max-width: 640px) 92vw, (max-width: 1024px) 380px, 340px"
           priority={false}
           className="h-auto w-full object-cover"
         />
@@ -95,7 +96,7 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
         </ul>
 
         {/* Editorial Disclosure */}
-        <div className="mt-5 border-t border-slate-100 pt-3 text-[11px] text-slate-400">
+        <div className="mt-5 border-t border-slate-100 pt-3 text-[11px] text-slate-600 font-medium">
           <span>Editorial disclosure: Tools featured are independently vetted by the AINE.WS research desk.</span>
         </div>
       </div>

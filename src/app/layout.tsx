@@ -5,6 +5,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { OrganizationSchema } from '@/components/OrganizationSchema'
 import { SITE_CONFIG } from '@/config/site'
+import { ARTICLES } from '@/data/articles'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
@@ -79,15 +80,27 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  // Find freshest breaking news story once on server (keeps client bundle lean)
+  const sortedArticles = [...ARTICLES].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  )
+  const latest = sortedArticles.find((a) => a.isBreaking) || sortedArticles[0]
+  const breakingStory = latest ? {
+    title: latest.title,
+    category: latest.category,
+    slug: latest.slug,
+  } : null
+
   return (
     <html lang="en" className="h-full">
       <head>
         <OrganizationSchema />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="alternate" type="application/rss+xml" title="AI News RSS Feed" href="/feed.xml" />
         <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="/news-sitemap.xml" />
       </head>
       <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
-        <Header />
+        <Header breakingStory={breakingStory} />
         <main id="main-content" className="flex-1">
           {children}
         </main>

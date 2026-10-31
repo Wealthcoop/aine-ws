@@ -47,8 +47,8 @@ export function NewsletterForm() {
           Join Dispatch
         </button>
       </form>
-      <p className="mt-2 text-[11px] text-slate-300">
-        Protected by our <Link href="/privacy-policy" className="underline text-slate-100 hover:text-white">Privacy Policy</Link>. You may unsubscribe at any time.
+      <p className="mt-2 text-[11px] text-slate-200">
+        Protected by our <Link href="/privacy-policy" className="underline font-semibold text-white hover:text-slate-100">Privacy Policy</Link>. You may unsubscribe at any time.
       </p>
     </div>
   )

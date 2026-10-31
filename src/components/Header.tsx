@@ -5,9 +5,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X, Radio, ArrowRight, ShieldCheck, Newspaper } from 'lucide-react'
 import { SITE_CONFIG } from '@/config/site'
-import { ARTICLES } from '@/data/articles'
 
-export function Header() {
+export interface BreakingStoryHeadline {
+  title: string
+  category: string
+  slug: string
+}
+
+interface HeaderProps {
+  breakingStory?: BreakingStoryHeadline | null
+}
+
+export function Header({ breakingStory }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [currentDate, setCurrentDate] = useState('Tuesday, October 27, 2026')
 
@@ -24,12 +33,6 @@ export function Header() {
     } catch {}
   }, [])
 
-  // Find the freshest breaking news story
-  const sortedArticles = [...ARTICLES].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
-  const latestBreaking = sortedArticles.find((a) => a.isBreaking) || sortedArticles[0]
-
   return (
     <header className="w-full border-b border-slate-200 bg-white sticky top-0 z-40">
       {/* Accessibility Skip Link */}
@@ -42,43 +45,52 @@ export function Header() {
 
       {/* Top Utility Bar */}
       <div className="border-b border-slate-100 bg-slate-900 text-white text-[12px]">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1 sm:px-6 lg:px-8 min-h-[48px]">
           <div className="flex items-center gap-3 overflow-hidden">
             <span className="inline-flex items-center gap-1.5 font-semibold text-sky-400 shrink-0">
               <Radio className="h-3 w-3 animate-pulse text-sky-400" />
               LIVE WIRE
             </span>
             <span className="hidden sm:inline text-slate-400 shrink-0">|</span>
-            <span className="hidden sm:inline text-slate-300 font-medium shrink-0">
+            <span className="hidden sm:inline text-slate-200 font-medium shrink-0">
               {currentDate}
             </span>
             <span className="hidden md:inline text-slate-400 shrink-0">|</span>
-            {latestBreaking && (
+            {breakingStory && (
               <span className="hidden md:inline text-slate-300 truncate max-w-xl">
                 <Link
-                  href={`/news/${latestBreaking.category}/${latestBreaking.slug}`}
-                  className="hover:text-white transition group inline-flex items-center gap-1.5 truncate py-2 min-h-[44px]"
+                  href={`/news/${breakingStory.category}/${breakingStory.slug}`}
+                  className="hover:text-white transition group inline-flex items-center gap-1.5 truncate py-2.5 px-1 min-h-[48px]"
                 >
                   <strong className="text-amber-400 uppercase tracking-wide text-[11px] font-bold shrink-0">BREAKING:</strong>
-                  <span className="truncate group-hover:underline text-slate-200">{latestBreaking.title}</span>
+                  <span className="truncate group-hover:underline text-slate-200">{breakingStory.title}</span>
                 </Link>
               </span>
             )}
           </div>
 
-          <div className="flex items-center gap-1 sm:gap-2 text-slate-300">
-            <Link href="/about" className="hover:text-white transition py-2 px-2.5 inline-flex items-center min-h-[44px]">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 text-slate-200">
+            <Link
+              href="/about"
+              className="hover:text-white transition px-3 py-2.5 inline-flex items-center justify-center min-h-[48px] min-w-[48px] text-xs font-medium"
+            >
               About
             </Link>
-            <Link href="/editorial-policy" className="hover:text-white transition hidden sm:inline-flex py-2 px-2.5 items-center min-h-[44px]">
+            <Link
+              href="/editorial-policy"
+              className="hover:text-white transition hidden sm:inline-flex px-3 py-2.5 items-center justify-center min-h-[48px] min-w-[48px] text-xs font-medium"
+            >
               Standards
             </Link>
-            <Link href="/corrections-policy" className="hover:text-white transition hidden sm:inline-flex py-2 px-2.5 items-center min-h-[44px]">
+            <Link
+              href="/corrections-policy"
+              className="hover:text-white transition hidden sm:inline-flex px-3 py-2.5 items-center justify-center min-h-[48px] min-w-[48px] text-xs font-medium"
+            >
               Corrections
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-1.5 rounded bg-sky-700 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-sky-800 min-h-[44px]"
+              className="inline-flex items-center gap-1.5 rounded bg-sky-700 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-sky-800 min-h-[48px]"
             >
               Newsroom Desk <ArrowRight className="h-3.5 w-3.5" />
             </Link>

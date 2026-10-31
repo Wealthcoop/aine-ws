@@ -6,7 +6,7 @@ import { ShieldCheck, Mail, MapPin, Rss, FileText, CheckCircle2 } from 'lucide-r
 
 export function Footer() {
   return (
-    <footer className="border-t border-slate-800 bg-slate-950 text-slate-300">
+    <footer className="border-t border-slate-800 bg-slate-950 text-slate-200">
       {/* Upper Trust & Transparency Banner */}
       <div className="border-b border-slate-800 bg-slate-900/60 py-6">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -15,7 +15,7 @@ export function Footer() {
               <ShieldCheck className="h-6 w-6 text-sky-400 shrink-0 mt-0.5" />
               <div>
                 <h4 className="text-sm font-bold text-white">Trust &amp; Verification Protocol</h4>
-                <p className="mt-1 text-xs text-slate-300 leading-relaxed">
+                <p className="mt-1 text-xs text-slate-200 leading-relaxed">
                   Every article published by AI News undergoes primary source verification, data validation, and strict editorial review prior to publication.
                 </p>
               </div>
@@ -25,7 +25,7 @@ export function Footer() {
               <CheckCircle2 className="h-6 w-6 text-emerald-400 shrink-0 mt-0.5" />
               <div>
                 <h4 className="text-sm font-bold text-white">Transparent Corrections</h4>
-                <p className="mt-1 text-xs text-slate-300 leading-relaxed">
+                <p className="mt-1 text-xs text-slate-200 leading-relaxed">
                   We acknowledge factual errors transparently. Any substantive revision is accompanied by a timestamped editorial correction note.
                 </p>
               </div>
@@ -35,7 +35,7 @@ export function Footer() {
               <FileText className="h-6 w-6 text-amber-400 shrink-0 mt-0.5" />
               <div>
                 <h4 className="text-sm font-bold text-white">Independent &amp; Grounded Standards</h4>
-                <p className="mt-1 text-xs text-slate-300 leading-relaxed">
+                <p className="mt-1 text-xs text-slate-200 leading-relaxed">
                   We cover AI, telephony, and local search based on measurable benchmarks, verified code audits, and live field data.
                 </p>
               </div>
@@ -54,11 +54,11 @@ export function Footer() {
                 AI NE<span className="text-sky-400">.WS</span>
               </span>
             </div>
-            <p className="mt-3 text-xs text-slate-300 leading-relaxed max-w-sm">
+            <p className="mt-3 text-xs text-slate-200 leading-relaxed max-w-sm">
               {SITE_CONFIG.legalName} is an independent digital news wire and research publication delivering investigative reporting on applied AI, search algorithms, and commercial automation infrastructure.
             </p>
 
-            <div className="mt-4 space-y-2 text-xs text-slate-300">
+            <div className="mt-4 space-y-2 text-xs text-slate-200">
               <div className="flex items-center gap-2">
                 <MapPin className="h-3.5 w-3.5 text-slate-400 shrink-0" />
                 <span>
@@ -67,7 +67,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-3.5 w-3.5 text-slate-400 shrink-0" />
-                <Link href="/contact" className="hover:text-white transition py-1 inline-block">
+                <Link href="/contact" className="hover:text-white transition py-1 inline-block text-slate-200">
                   Contact Editorial Newsroom Desk
                 </Link>
               </div>
@@ -82,24 +82,24 @@ export function Footer() {
                 <li key={desk.id}>
                   <Link
                     href={`/desks/${desk.id}`}
-                    className="hover:text-white transition block py-1"
+                    className="hover:text-white transition inline-flex items-center py-1 text-slate-200"
                   >
                     {desk.label}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/authors/justin-davis" className="hover:text-white transition block py-1">
+                <Link href="/authors/justin-davis" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Lead Search Beat (Justin Davis)
                 </Link>
               </li>
               <li>
-                <Link href="/authors/marcus-vance" className="hover:text-white transition block py-1">
+                <Link href="/authors/marcus-vance" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Telephony &amp; RevOps Beat (Marcus Vance)
                 </Link>
               </li>
               <li>
-                <Link href="/authors/elena-chen" className="hover:text-white transition block py-1">
+                <Link href="/authors/elena-chen" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Local Commerce Beat (Elena Chen)
                 </Link>
               </li>
@@ -111,32 +111,32 @@ export function Footer() {
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Trust &amp; Governance</h4>
             <ul className="mt-3 space-y-2 text-xs">
               <li>
-                <Link href="/about" className="hover:text-white transition block py-1">
+                <Link href="/about" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   About the Publication &amp; Masthead
                 </Link>
               </li>
               <li>
-                <Link href="/editorial-policy" className="hover:text-white transition block py-1">
+                <Link href="/editorial-policy" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Editorial Standards &amp; AI Ethics
                 </Link>
               </li>
               <li>
-                <Link href="/corrections-policy" className="hover:text-white transition block py-1">
+                <Link href="/corrections-policy" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Corrections Policy &amp; Public Log
                 </Link>
               </li>
               <li>
-                <Link href="/ownership" className="hover:text-white transition block py-1">
+                <Link href="/ownership" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Ownership &amp; Funding Disclosure
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white transition block py-1 text-sky-400 font-semibold">
+                <Link href="/contact" className="hover:text-white transition inline-flex items-center py-1 text-sky-400 font-semibold">
                   Submit News Tip / Inquiries
                 </Link>
               </li>
               <li>
-                <Link href="/privacy-policy" className="hover:text-white transition block py-1">
+                <Link href="/privacy-policy" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Privacy Policy (GDPR / CCPA)
                 </Link>
               </li>
@@ -145,13 +145,13 @@ export function Footer() {
                   href="https://www.google.com/preferences/source?q=aine.ws"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white transition block py-1 text-sky-400 font-semibold"
+                  className="hover:text-white transition inline-flex items-center py-1 text-sky-400 font-semibold"
                 >
                   Follow on Google (Preferred Source)
                 </a>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-white transition block py-1">
+                <Link href="/terms" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
                   Terms of Service
                 </Link>
               </li>
@@ -166,7 +166,7 @@ export function Footer() {
                 <a
                   href="/news-sitemap.xml"
                   target="_blank"
-                  className="flex items-center gap-1.5 hover:text-white transition py-1"
+                  className="flex items-center gap-1.5 hover:text-white transition py-1 text-slate-200"
                 >
                   <Rss className="h-3 w-3 text-amber-500" />
                   <span>Google News XML</span>
@@ -176,7 +176,7 @@ export function Footer() {
                 <a
                   href="/feed.xml"
                   target="_blank"
-                  className="flex items-center gap-1.5 hover:text-white transition py-1"
+                  className="flex items-center gap-1.5 hover:text-white transition py-1 text-slate-200"
                 >
                   <Rss className="h-3 w-3 text-sky-400" />
                   <span>RSS 2.0 / Newsstand</span>
@@ -186,7 +186,7 @@ export function Footer() {
                 <a
                   href="/sitemap.xml"
                   target="_blank"
-                  className="hover:text-white transition block py-1"
+                  className="hover:text-white transition inline-flex items-center py-1 text-slate-200"
                 >
                   Standard Sitemap
                 </a>
@@ -205,7 +205,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Copyright & Disclaimer */}
-        <div className="mt-10 border-t border-slate-800 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-slate-300">
+        <div className="mt-10 border-t border-slate-800 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-slate-200">
           <p>
             &copy; {new Date().getFullYear()} {SITE_CONFIG.legalName}. All rights reserved. Registered in Delaware, USA.
           </p>
