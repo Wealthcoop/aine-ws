@@ -153,7 +153,7 @@ export default function AuthorProfilePage({ params }: PageProps) {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">
           <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <ChevronRight className="h-3 w-3" />
           <Link href="/about" className="hover:text-slate-900 transition">Masthead</Link>

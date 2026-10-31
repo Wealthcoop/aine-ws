@@ -38,17 +38,17 @@ export function NewsletterForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your executive email..."
-          className="flex-1 rounded-lg border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-white placeholder-slate-500 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500"
+          className="flex-1 rounded-lg border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-white placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 min-h-[44px]"
         />
         <button
           type="submit"
-          className="rounded-lg bg-sky-500 px-6 py-3 text-sm font-bold text-slate-950 transition hover:bg-sky-400 shrink-0"
+          className="rounded-lg bg-sky-500 px-6 py-3 text-sm font-bold text-slate-950 transition hover:bg-sky-400 shrink-0 min-h-[44px] inline-flex items-center justify-center"
         >
           Join Dispatch
         </button>
       </form>
-      <p className="mt-2 text-[11px] text-slate-500">
-        Protected by our <Link href="/privacy-policy" className="underline hover:text-slate-400">Privacy Policy</Link>. You may unsubscribe at any time.
+      <p className="mt-2 text-[11px] text-slate-300">
+        Protected by our <Link href="/privacy-policy" className="underline text-slate-100 hover:text-white">Privacy Policy</Link>. You may unsubscribe at any time.
       </p>
     </div>
   )

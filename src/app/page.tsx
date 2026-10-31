@@ -122,7 +122,7 @@ export default function HomePage() {
                 </div>
                 <div className="text-xs">
                   <strong className="block text-slate-900">Justin Davis</strong>
-                  <span className="text-slate-500">Publisher &amp; Editor-in-Chief</span>
+                  <span className="text-slate-600 font-medium">Publisher &amp; Editor-in-Chief</span>
                 </div>
               </div>
             </div>
@@ -145,10 +145,12 @@ export default function HomePage() {
             </div>
             <Link
               href="/desks/search-ai"
-              className="inline-flex items-center gap-1 text-xs font-bold text-sky-700 hover:text-sky-900 transition"
+              aria-label="View Search &amp; AI Overviews desk"
+              className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-xs font-bold text-sky-700 hover:text-sky-900 hover:bg-sky-50 transition min-h-[44px]"
             >
               <span>View Desk</span>
-              <ArrowRight className="h-3.5 w-3.5" />
+              <span className="sr-only">for Search &amp; AI Overviews</span>
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -169,10 +171,12 @@ export default function HomePage() {
             </div>
             <Link
               href="/desks/voice-lead-response"
-              className="inline-flex items-center gap-1 text-xs font-bold text-amber-800 hover:text-amber-950 transition"
+              aria-label="View Voice AI &amp; Lead Response desk"
+              className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-xs font-bold text-amber-800 hover:text-amber-950 hover:bg-amber-50 transition min-h-[44px]"
             >
               <span>View Desk</span>
-              <ArrowRight className="h-3.5 w-3.5" />
+              <span className="sr-only">for Voice AI &amp; Lead Response</span>
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -193,10 +197,12 @@ export default function HomePage() {
             </div>
             <Link
               href="/desks/local-business"
-              className="inline-flex items-center gap-1 text-xs font-bold text-emerald-800 hover:text-emerald-950 transition"
+              aria-label="View Local Business &amp; Google Maps desk"
+              className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-xs font-bold text-emerald-800 hover:text-emerald-950 hover:bg-emerald-50 transition min-h-[44px]"
             >
               <span>View Desk</span>
-              <ArrowRight className="h-3.5 w-3.5" />
+              <span className="sr-only">for Local Business &amp; Google Maps</span>
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -217,10 +223,12 @@ export default function HomePage() {
             </div>
             <Link
               href="/desks/ai-tools"
-              className="inline-flex items-center gap-1 text-xs font-bold text-purple-700 hover:text-purple-900 transition"
+              aria-label="View AI Tools &amp; Automation desk"
+              className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-xs font-bold text-purple-700 hover:text-purple-900 hover:bg-purple-50 transition min-h-[44px]"
             >
               <span>View Desk</span>
-              <ArrowRight className="h-3.5 w-3.5" />
+              <span className="sr-only">for AI Tools &amp; Automation</span>
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
             </Link>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -240,10 +248,10 @@ export default function HomePage() {
               <h3 className="mt-3 font-serif text-3xl md:text-4xl font-extrabold tracking-tight text-white">
                 The AI News Daily Dispatch
               </h3>
-              <p className="mt-3 text-sm md:text-base text-slate-400 leading-relaxed max-w-xl">
+              <p className="mt-3 text-sm md:text-base text-slate-300 leading-relaxed max-w-xl">
                 Every weekday morning at 7:00 AM EST, our editorial board synthesizes the previous 24 hours of algorithm updates, speed-to-lead benchmarks, and AI code releases into a 5-minute technical briefing.
               </p>
-              <div className="mt-4 flex items-center gap-4 text-xs text-slate-400">
+              <div className="mt-4 flex items-center gap-4 text-xs text-slate-300">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" /> Zero spam
                 </span>

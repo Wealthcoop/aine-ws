@@ -57,7 +57,7 @@ export function Header() {
               <span className="hidden md:inline text-slate-300 truncate max-w-xl">
                 <Link
                   href={`/news/${latestBreaking.category}/${latestBreaking.slug}`}
-                  className="hover:text-white transition group inline-flex items-center gap-1.5 truncate"
+                  className="hover:text-white transition group inline-flex items-center gap-1.5 truncate py-2 min-h-[44px]"
                 >
                   <strong className="text-amber-400 uppercase tracking-wide text-[11px] font-bold shrink-0">BREAKING:</strong>
                   <span className="truncate group-hover:underline text-slate-200">{latestBreaking.title}</span>
@@ -66,19 +66,19 @@ export function Header() {
             )}
           </div>
 
-          <div className="flex items-center gap-4 text-slate-300">
-            <Link href="/about" className="hover:text-white transition">
+          <div className="flex items-center gap-1 sm:gap-2 text-slate-300">
+            <Link href="/about" className="hover:text-white transition py-2 px-2.5 inline-flex items-center min-h-[44px]">
               About
             </Link>
-            <Link href="/editorial-policy" className="hover:text-white transition hidden sm:inline">
+            <Link href="/editorial-policy" className="hover:text-white transition hidden sm:inline-flex py-2 px-2.5 items-center min-h-[44px]">
               Standards
             </Link>
-            <Link href="/corrections-policy" className="hover:text-white transition hidden sm:inline">
+            <Link href="/corrections-policy" className="hover:text-white transition hidden sm:inline-flex py-2 px-2.5 items-center min-h-[44px]">
               Corrections
             </Link>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-1 rounded bg-sky-700 px-2 py-0.5 text-[11px] font-bold text-white transition hover:bg-sky-800"
+              className="inline-flex items-center gap-1 rounded bg-sky-700 px-3 py-1.5 text-[11px] font-bold text-white transition hover:bg-sky-800 min-h-[36px]"
             >
               Newsroom Desk <ArrowRight className="h-3 w-3" />
             </Link>
@@ -131,7 +131,7 @@ export function Header() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="inline-flex items-center justify-center rounded-lg p-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-sky-600"
+              className="inline-flex items-center justify-center rounded-lg p-2.5 text-slate-700 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-sky-600 min-h-[48px] min-w-[48px]"
               aria-expanded={mobileMenuOpen}
               aria-label="Toggle navigation menu"
             >
@@ -144,11 +144,11 @@ export function Header() {
       {/* Category Desk Navigation */}
       <nav aria-label="Editorial Desks" className="border-t border-slate-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <ul className="hidden md:flex items-center space-x-1 lg:space-x-4 py-2 text-sm font-semibold text-slate-700">
+          <ul className="hidden md:flex items-center space-x-1 lg:space-x-4 py-1 text-sm font-semibold text-slate-700">
             <li>
               <Link
                 href="/"
-                className="inline-block rounded-md px-3 py-1.5 text-slate-900 transition hover:bg-slate-100"
+                className="inline-flex items-center rounded-md px-3 py-2 text-slate-900 transition hover:bg-slate-100 min-h-[44px]"
               >
                 Top Stories
               </Link>
@@ -157,7 +157,7 @@ export function Header() {
               <li key={desk.id}>
                 <Link
                   href={`/desks/${desk.id}`}
-                  className="inline-block rounded-md px-3 py-1.5 transition hover:bg-slate-100 hover:text-sky-700"
+                  className="inline-flex items-center rounded-md px-3 py-2 transition hover:bg-slate-100 hover:text-sky-700 min-h-[44px]"
                 >
                   {desk.label}
                 </Link>
@@ -166,7 +166,7 @@ export function Header() {
             <li>
               <Link
                 href="/about"
-                className="inline-block rounded-md px-3 py-1.5 text-slate-500 transition hover:bg-slate-100 hover:text-slate-900"
+                className="inline-flex items-center rounded-md px-3 py-2 text-slate-600 transition hover:bg-slate-100 hover:text-slate-900 min-h-[44px]"
               >
                 Masthead
               </Link>
@@ -180,7 +180,7 @@ export function Header() {
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-900 hover:bg-slate-100"
+              className="flex items-center rounded-lg px-3 py-3 text-base font-semibold text-slate-900 hover:bg-slate-100 min-h-[44px]"
             >
               Top Stories
             </Link>
@@ -189,7 +189,7 @@ export function Header() {
                 key={desk.id}
                 href={`/desks/${desk.id}`}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-700 hover:bg-slate-100 hover:text-sky-700"
+                className="flex items-center rounded-lg px-3 py-3 text-base font-semibold text-slate-700 hover:bg-slate-100 hover:text-sky-700 min-h-[44px]"
               >
                 {desk.label}
               </Link>
@@ -198,28 +198,28 @@ export function Header() {
               <Link
                 href="/about"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-1.5 hover:text-slate-900"
+                className="flex items-center px-3 py-2.5 hover:text-slate-900 min-h-[44px]"
               >
                 Masthead &amp; About
               </Link>
               <Link
                 href="/editorial-policy"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-1.5 hover:text-slate-900"
+                className="flex items-center px-3 py-2.5 hover:text-slate-900 min-h-[44px]"
               >
                 Editorial Standards &amp; AI Policy
               </Link>
               <Link
                 href="/corrections-policy"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-1.5 hover:text-slate-900"
+                className="flex items-center px-3 py-2.5 hover:text-slate-900 min-h-[44px]"
               >
                 Corrections Policy
               </Link>
               <Link
                 href="/contact"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-1.5 font-bold text-sky-700"
+                className="flex items-center px-3 py-2.5 font-bold text-sky-700 min-h-[44px]"
               >
                 Submit News Tip / Contact Desk
               </Link>

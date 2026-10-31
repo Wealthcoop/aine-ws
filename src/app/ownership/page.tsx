@@ -45,7 +45,7 @@ export default function OwnershipPage() {
       />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">
           <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <ChevronRight className="h-3 w-3" />
           <span className="font-semibold text-slate-900">Ownership &amp; Funding</span>

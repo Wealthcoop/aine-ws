@@ -134,14 +134,14 @@ export default function ArticleReaderPage({ params }: PageProps) {
 
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
-          <Link href="/" className="hover:text-slate-900 transition">Wire</Link>
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">
+          <Link href="/" className="hover:text-slate-900 transition py-1">Wire</Link>
           <ChevronRight className="h-3 w-3" />
-          <Link href={`/desks/${article.category}`} className="hover:text-slate-900 transition uppercase font-semibold">
+          <Link href={`/desks/${article.category}`} className="hover:text-slate-900 transition uppercase font-semibold py-1">
             {article.category.replace('-', ' ')}
           </Link>
           <ChevronRight className="h-3 w-3" />
-          <span className="text-slate-400 truncate max-w-xs">{article.title}</span>
+          <span className="text-slate-600 truncate max-w-xs">{article.title}</span>
         </nav>
 
         {/* Article Header */}
@@ -191,19 +191,19 @@ export default function ArticleReaderPage({ params }: PageProps) {
                     Verified
                   </span>
                 </div>
-                <p className="text-xs text-slate-500">{author.title}</p>
+                <p className="text-xs text-slate-600">{author.title}</p>
               </div>
             </div>
 
-            <div className="flex flex-col sm:items-end text-xs text-slate-500 space-y-0.5">
+            <div className="flex flex-col sm:items-end text-xs text-slate-600 space-y-0.5">
               <div className="flex items-center gap-1.5">
-                <Calendar className="h-3.5 w-3.5 text-slate-400" />
+                <Calendar className="h-3.5 w-3.5 text-slate-500" />
                 <time dateTime={article.publishedAt}>
                   Published: {formattedPublishDate} at {formattedPublishTime}
                 </time>
               </div>
               <div className="flex items-center gap-1.5">
-                <Clock className="h-3.5 w-3.5 text-slate-400" />
+                <Clock className="h-3.5 w-3.5 text-slate-500" />
                 <span>Reading Time: {article.readingTimeMinutes} minutes</span>
               </div>
             </div>
@@ -211,7 +211,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
 
           {/* Quick Google Follow Action */}
           <div className="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
-            <span className="text-xs text-slate-500 font-medium">Follow AINE.WS breaking wire on Google:</span>
+            <span className="text-xs text-slate-600 font-medium">Follow AINE.WS breaking wire on Google:</span>
             <GooglePreferredSource compact />
           </div>
         </header>
@@ -229,7 +229,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
             />
           </div>
           {article.featuredImageCaption && (
-            <figcaption className="mt-2 text-center text-xs text-slate-500 italic">
+            <figcaption className="mt-2 text-center text-xs text-slate-600 italic">
               {article.featuredImageCaption}
             </figcaption>
           )}

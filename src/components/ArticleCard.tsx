@@ -81,7 +81,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
             </p>
           </div>
 
-          <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-4 text-xs text-slate-500">
+          <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-4 text-xs text-slate-600">
             <Link
               href={`/authors/${author.id}`}
               className="flex items-center gap-2 font-medium text-slate-800 hover:text-sky-700 transition"
@@ -110,7 +110,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
               src={article.featuredImage}
               alt={article.title}
               fill
-              sizes="(max-width: 1024px) 100vw, 40vw"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
               priority
               className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
             />
@@ -162,6 +162,7 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
                 src={article.featuredImage}
                 alt={article.title}
                 fill
+                loading="lazy"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
               />

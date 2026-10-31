@@ -88,7 +88,7 @@ export default function AboutPage() {
       />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 flex flex-col gap-12">
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600">
           <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <ChevronRight className="h-3 w-3" />
           <span className="font-semibold text-slate-900">About</span>

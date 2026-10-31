@@ -135,10 +135,10 @@ export default function DeskArchivePage({ params }: PageProps) {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumbs */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">
           <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <ChevronRight className="h-3 w-3" />
-          <span className="text-slate-400">Editorial Desks</span>
+          <span className="text-slate-600">Editorial Desks</span>
           <ChevronRight className="h-3 w-3" />
           <span className="font-semibold text-slate-900">{desk.label}</span>
         </nav>

@@ -51,7 +51,7 @@ export default function ContactPage() {
     <div className="bg-slate-50 py-12 lg:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
-        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-500 mb-8">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-8">
           <Link href="/" className="hover:text-slate-900 transition">Home</Link>
           <ChevronRight className="h-3 w-3" />
           <span className="font-semibold text-slate-900">Contact Newsroom</span>
