@@ -28,26 +28,18 @@ export function SponsorSlot({ type = 'inline', vertical = 'local-seo' }: Sponsor
           HubSpot Smart CRM + Breeze AI Agents: Unified Revenue &amp; Pipeline Engine
         </h4>
         <p className="mt-2 text-sm text-slate-300 leading-relaxed">
-          Consolidate marketing automation, B2B sales pipelines, AI lead scoring, and multi-touch revenue attribution in one workspace. Start free or lock in Starter/Pro platform pricing.
+          Consolidate marketing automation, B2B sales pipelines, AI lead scoring, and multi-touch revenue attribution in one workspace.
         </p>
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-          <span className="text-xs text-slate-400">Verified Partner Link • Free Pipeline Setup Template Included</span>
+          <span className="text-xs text-slate-400">Editorial Analysis • Pipeline Setup Template</span>
           <div className="flex flex-wrap items-center gap-2.5">
             <a
-              href="https://go.try-hubspot.com/c/7635911/976131/12893"
-              target="_blank"
-              rel="sponsored nofollow noopener"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-orange-500 px-4 py-2 text-xs font-bold text-white transition hover:bg-orange-400"
-            >
-              Launch HubSpot Free / Starter <ArrowUpRight className="h-3.5 w-3.5" />
-            </a>
-            <a
-              href="https://www.traffik.monster/speed-to-lead"
+              href="https://www.hubspot.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-700 bg-slate-800 px-3.5 py-2 text-xs font-semibold text-slate-200 transition hover:bg-slate-700"
+              className="inline-flex items-center gap-1.5 rounded-lg bg-orange-500 px-4 py-2 text-xs font-bold text-white transition hover:bg-orange-400"
             >
-              Need Done-For-You CRM + Voice AI Setup? <ArrowUpRight className="h-3.5 w-3.5" />
+              Explore HubSpot Platform <ArrowUpRight className="h-3.5 w-3.5" />
             </a>
           </div>
         </div>
@@ -65,20 +57,18 @@ export function SponsorSlot({ type = 'inline', vertical = 'local-seo' }: Sponsor
           <span className="rounded bg-slate-800 px-2 py-0.5 text-[10px] text-slate-300">Verified System</span>
         </div>
         <h4 className="mt-3 text-lg font-bold tracking-tight text-white">
-          Traffik Monster: Instant Speed-to-Lead &amp; AI Whisper Routing
+          Inbound Telephony: Speed-to-Lead &amp; AI Whisper Routing
         </h4>
         <p className="mt-2 text-sm text-slate-300 leading-relaxed">
-          Never let an inbound prospect wait. Instant 60-second call connection, whisper briefing for reps, and automated missed-call SMS recovery for $29/mo flat.
+          Fast inbound response under 60 seconds with automated whisper briefing for reps and instant SMS fallback.
         </p>
         <div className="mt-4 flex items-center justify-between">
-          <span className="text-xs text-slate-400">Deployed across 400+ service teams</span>
+          <span className="text-xs text-slate-400">Inbound benchmarks</span>
           <a
-            href="https://www.traffik.monster/speed-to-lead"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/news/voice-lead-response/b2b-speed-to-lead-benchmark-21x-drop"
             className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-500 px-4 py-2 text-xs font-bold text-slate-950 transition hover:bg-emerald-400"
           >
-            Review Telephony Line <ArrowUpRight className="h-3.5 w-3.5" />
+            Review Benchmark Data <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
         </div>
       </aside>

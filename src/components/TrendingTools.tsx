@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { MONETIZATION_CONFIG } from '@/config/monetization'
 
 export interface TrendingTool {
   name: string
@@ -12,38 +13,31 @@ export interface TrendingTool {
 export const TRENDING_TOOLS: TrendingTool[] = [
   {
     name: 'HubSpot',
-    url: 'https://go.try-hubspot.com/c/7635911/976131/12893',
+    url: 'https://www.hubspot.com',
     emoji: '🧡',
-    description: 'All-in-one AI agent customer platform for marketing automation, sales pipelines, and smart CRM workflows.',
+    description: 'Customer platform for marketing automation, sales pipelines, and CRM workflows.',
     category: 'CRM & Marketing Automation',
   },
   {
     name: 'Hailuo AI',
-    url: 'https://hailuoai.pxf.io/c/7635911/3866417/51611',
+    url: 'https://hailuoai.video',
     emoji: '🎬',
-    description: 'Generate cinema-grade video clips and lifelike AI animations in seconds directly from text prompts.',
+    description: 'Video generation engine and AI animations from text prompts.',
     category: 'Generative AI Video',
   },
   {
-    name: 'GlobalGPT',
-    url: 'https://globalgpt.sjv.io/c/7635911/4003393/56788',
-    emoji: '🌐',
-    description: 'Access every top frontier AI model (chat, image, video, search, and autonomous agents) under one single workspace.',
-    category: 'Universal AI Workspace',
+    name: 'Claude',
+    url: 'https://claude.ai',
+    emoji: '🤖',
+    description: 'Frontier AI assistant by Anthropic for analysis, code synthesis, and deep research.',
+    category: 'Frontier AI Workspace',
   },
   {
     name: 'InVideo',
-    url: 'https://invideo.sjv.io/c/7635911/883681/12258',
+    url: 'https://invideo.io',
     emoji: '⚡',
-    description: 'Turn ideas, blog posts, and scripts into studio-ready marketing videos with autonomous voiceovers and b-roll.',
+    description: 'Video creation platform with automated voiceovers and editing tools.',
     category: 'Video Production',
-  },
-  {
-    name: 'Business Capital Pre-Check',
-    url: 'https://www.traffik.monster/buying-power',
-    emoji: '💼',
-    description: 'Check your commercial buying power and get pre-approved for up to $250,000 in zero-percent working capital with no impact on personal credit.',
-    category: 'Commercial Funding & Growth Capital',
   },
 ]
 
@@ -53,6 +47,10 @@ interface TrendingToolsProps {
 }
 
 export default function TrendingTools({ className = '', limit }: TrendingToolsProps) {
+  if (!MONETIZATION_CONFIG.SHOW_SPONSORSHIPS) {
+    return null
+  }
+
   const tools = limit ? TRENDING_TOOLS.slice(0, limit) : TRENDING_TOOLS
 
   return (
@@ -72,7 +70,7 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
         />
       </div>
 
-      {/* Tools List matching exact screenshot styling */}
+      {/* Tools List */}
       <div className="p-6 sm:p-7">
         <ul className="space-y-4 text-sm sm:text-[15px] leading-relaxed text-slate-800">
           {tools.map((tool) => (
@@ -85,7 +83,7 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
                 <a
                   href={tool.url}
                   target="_blank"
-                  rel="sponsored nofollow noopener"
+                  rel="noopener noreferrer"
                   className="font-semibold text-blue-600 underline decoration-blue-400 underline-offset-2 hover:text-blue-800 transition"
                 >
                   {tool.name}
@@ -96,11 +94,12 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
           ))}
         </ul>
 
-        {/* Transparent Compliance Disclosure */}
+        {/* Editorial Disclosure */}
         <div className="mt-5 border-t border-slate-100 pt-3 text-[11px] text-slate-400">
-          <span>Editorial disclosure: Tools featured are independently vetted by the AINE.WS research desk. Links may contain affiliate partnerships at zero extra cost to you.</span>
+          <span>Editorial disclosure: Tools featured are independently vetted by the AINE.WS research desk.</span>
         </div>
       </div>
     </aside>
   )
 }
+
