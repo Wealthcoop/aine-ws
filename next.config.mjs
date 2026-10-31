@@ -1,3 +1,5 @@
+import legacyRedirects from './src/config/legacy_wire_redirects.json' assert { type: 'json' }
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -9,6 +11,9 @@ const nextConfig = {
       { protocol: 'http', hostname: '**' }
     ],
   },
+  redirects: async () => [
+    ...legacyRedirects
+  ],
   headers: async () => [
     {
       source: '/(.*)',
