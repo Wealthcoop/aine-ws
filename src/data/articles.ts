@@ -2,6 +2,191 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-claude-workspace-1793427284",
+    slug: "anthropic-claude-google-workspace-docs-sheets-slides-integration",
+    title: "Anthropic Rolls Out Claude Sidebar for Google Workspace: Direct Editing Inside Docs, Sheets, and Slides",
+    deck: "Anthropic has launched an official Claude integration for Google Workspace, allowing users to analyze, draft, and modify documents and spreadsheets directly without toggling between browser tabs.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T22:30:00Z",
+    updatedAt: "2026-10-30T22:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Anthropic Claude integration interface inside Google Workspace applications.",
+    isBreaking: true,
+    isFeatured: true,
+    keyTakeaways: [
+      "Anthropic launched a direct sidebar integration for Google Docs, Sheets, and Slides across all paid Claude plans.",
+      "Users can now edit documents in place, write complex spreadsheet formulas, and structure presentation decks without copy-pasting between tabs.",
+      "Bi-directional file linking allows users to either invoke Claude via Extensions inside Workspace or paste Google Drive file URLs into Claude web chat."
+    ],
+    contentHtml: `<p>Anthropic has launched an official Claude sidebar for Google Workspace that allows users to read, edit, and manipulate Google Docs, Sheets, and Slides directly within the document interface. The native integration eliminates the friction of copying and pasting text across browser tabs while bringing advanced reasoning directly into day-to-day enterprise productivity workflows.</p>
+
+<p>The rollout marks Anthropic's most direct challenge yet to Google's own Gemini assistant, which sits natively inside Workspace apps. By inserting Claude as a competing extension rather than a bolt-on browser tool, Anthropic is betting that enterprise users will trade convenience for the model's stronger reasoning on long documents and complex spreadsheets. The move also signals Anthropic's broader strategy of meeting knowledge workers where they already operate instead of requiring a separate app or tab.</p>
+
+<h2>How Does the Claude Google Workspace Sidebar Function in Real-World Operations?</h2>
+<p>The sidebar installs through the Google Workspace Marketplace under Extensions, then Claude, and appears as a persistent panel beside any open Doc, Sheet, or Slide. Once authenticated, Claude can read the full content of the active file and make direct edits, insert formulas, or restructure slides without the user leaving the document.</p>
+
+<p>In practice, a user drafting a quarterly report can highlight a paragraph and ask Claude to tighten the language, and the suggested edit appears inline for approval rather than in a separate chat window. In Sheets, Claude can inspect raw data, build pivot tables, and write formulas directly into cells. Anthropic has built the tool around existing Workspace permissions, meaning IT administrators retain control over which accounts can activate the extension and what data it can access.</p>
+
+<h2>How Does Claude in Workspace Compare to Native Google Gemini Integration?</h2>
+<p>Claude generally outperforms Gemini on multi-step reasoning and complex formula construction, while Gemini retains a slight edge in raw integration speed since it is built directly into Google's infrastructure. Data privacy controls differ meaningfully, with Claude offering enterprise customers more granular options for excluding content from model training.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr>
+<th>Capability</th>
+<th>Native Gemini in Workspace</th>
+<th>Claude Workspace Integration</th>
+</tr>
+<tr>
+<td>Reasoning Depth</td>
+<td>Adequate for summaries and short edits</td>
+<td>Stronger on multi-step logic and long documents</td>
+</tr>
+<tr>
+<td>Formula Generation</td>
+<td>Basic to intermediate formulas</td>
+<td>Handles nested and conditional formulas reliably</td>
+</tr>
+<tr>
+<td>Multi-Turn Refinement</td>
+<td>Limited context retention across edits</td>
+<td>Maintains context through extended editing sessions</td>
+</tr>
+<tr>
+<td>Data Privacy Controls</td>
+<td>Standard Google Workspace policies</td>
+<td>Enterprise-grade exclusion from model training</td>
+</tr>
+</table>
+
+<h3>Why Does Live In-Document Editing Accelerate Knowledge Worker Output?</h3>
+<p>Live in-document editing removes the repeated cycle of switching tabs, copying text, prompting a chatbot, and pasting results back, which independent productivity studies estimate consumes several minutes per task. Eliminating that friction lets professionals stay in a single continuous workflow, reducing context-switching costs that compound across dozens of daily edits.</p>
+
+<p>For teams managing financial models or lengthy client proposals, that time savings scales quickly. A single analyst correcting formulas across a 50-tab spreadsheet no longer needs to re-explain context in a separate chat window each time. Early enterprise adopters cited faster turnaround on first drafts and fewer formatting errors as immediate benefits, though full productivity data from large-scale deployment has not yet been published.</p>`,
+    sources: [
+      { name: "Anthropic Support & Release Documentation", url: "https://support.claude.com/en/articles/16951679-use-claude-in-google-docs-sheets-and-slides", context: "Official launch documentation for Claude in Google Docs, Sheets, and Slides." },
+      { name: "Anthropic Workspace Connectors Disclosure", url: "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors", context: "Technical briefing on Google Workspace file synchronization and live document editing." }
+    ]
+  },
+  {
+    id: "wire-nano-banana-1793427284",
+    slug: "alphabet-launches-nano-banana-2-1-and-embeddinggemma-2",
+    title: "Alphabet Launches Nano Banana 2.1 and Releases Open Multimodal EmbeddingGemma 2 Model",
+    deck: "Alphabet has begun rolling out Nano Banana 2.1 across Gemini platform surfaces alongside EmbeddingGemma 2, its first open multimodal embedding architecture designed for semantic image and text retrieval.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-30T22:30:00Z",
+    updatedAt: "2026-10-30T22:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/geo-entity-optimization.jpg",
+    featuredImageCaption: "Alphabet frontier model architecture and multimodal embedding benchmarks.",
+    isBreaking: true,
+    isFeatured: true,
+    keyTakeaways: [
+      "Alphabet released Nano Banana 2.1 across consumer and enterprise Gemini endpoints with notable upgrades in subject consistency and visual editing.",
+      "Alongside the visual release, Google dropped EmbeddingGemma 2, an open-weights multimodal embedding model for developer retrieval pipelines.",
+      "Multimodal embedding architectures allow developers to map text, imagery, and video into a shared semantic vector space with lower compute overhead."
+    ],
+    contentHtml: `<p>Alphabet has officially deployed Nano Banana 2.1 across its Gemini platform ecosystem, delivering significant gains in visual prompt consistency, complex editing, and layout fidelity. Simultaneously, the company released EmbeddingGemma 2, marking its first open-weights multimodal embedding model designed to power high-speed semantic retrieval across combined text and image databases.</p>
+
+<h2>What Capabilities Distinguish Nano Banana 2.1 From Previous Generation Models?</h2>
+<p>Nano Banana 2.1 distinguishes itself through tighter adherence to multi-step editing instructions and more stable subject identity across sequential image generations. The model also introduces improved text rendering inside generated graphics, a persistent weak point for diffusion-based systems until this release.</p>
+<p>Engineers at Alphabet tuned the model specifically for what the company calls compositional editing, meaning users can issue chained instructions such as changing lighting, then swapping a background, then adjusting clothing texture, without the model losing track of earlier constraints. In internal benchmarks shared with press, Nano Banana 2.1 reduced instruction drift by a measurable margin compared to the prior build. The practical effect is fewer regeneration cycles for designers and marketing teams who previously had to restart prompts from scratch after minor edits failed to apply correctly.</p>
+<p>Layout fidelity also improved, particularly for interface mockups and infographic-style outputs where text alignment and spacing previously broke down under complex prompts. Alphabet positions this as a direct response to enterprise feedback from Workspace and Vertex AI customers who use generative image tools for production assets rather than casual content.</p>
+
+<h2>Why Does EmbeddingGemma 2 Matter for Enterprise RAG and Search Systems?</h2>
+<p>EmbeddingGemma 2 matters because it gives developers a freely licensed model capable of embedding text and images into a shared vector space, eliminating the need to run separate retrieval pipelines for each data type. This consolidation cuts infrastructure complexity and allows retrieval-augmented generation systems to search mixed-media knowledge bases with a single query path.</p>
+<p>Most production RAG systems today still rely on text-only dense retrieval, which forces teams to caption images separately before indexing them, introducing both cost and semantic loss. EmbeddingGemma 2 removes that intermediate step by encoding raw pixels and raw text into comparable vectors directly.</p>
+
+<table>
+<tr><th>Metric</th><th>Text-Only Dense Retrieval</th><th>Multimodal Vector Embedding</th></tr>
+<tr><td>Cross-Modal Accuracy</td><td>Low, requires manual image captioning</td><td>High, native image-text alignment</td></tr>
+<tr><td>Database Storage Footprint</td><td>Smaller per document</td><td>Larger due to combined vector dimensions</td></tr>
+<tr><td>Latency per Query</td><td>Faster for pure text lookups</td><td>Slightly higher but single-pass for mixed content</td></tr>
+<tr><td>Open-Weights Availability</td><td>Common across many providers</td><td>Limited, EmbeddingGemma 2 among first at this scale</td></tr>
+</table>
+
+<p>For enterprises running internal document search across PDFs, screenshots, and product catalogs, this means one indexing pipeline instead of two or three bolted together with glue code. Alphabet is distributing the weights under a permissive license, which lowers the barrier for startups that cannot afford proprietary multimodal embedding APIs at scale.</p>
+
+<h3>How Do Open Multimodal Embeddings Shift the Economics of Visual Search?</h3>
+<p>Open multimodal embeddings shift visual search economics by letting companies run inference on their own hardware instead of paying per-call fees to closed APIs. This changes the cost structure from a variable expense tied to query volume into a fixed infrastructure cost that scales more predictably as usage grows.</p>`,
+    sources: [
+      { name: "Google Technology & Frontier AI Announcements", url: "https://blog.google/technology/ai/", context: "Official disclosures on Gemini platform updates and multimodal model deployments." },
+      { name: "Hugging Face Open Weights Release Repository", url: "https://huggingface.co/google", context: "EmbeddingGemma 2 model card and open-weights release specifications." }
+    ]
+  },
+  {
+    id: "wire-hark-pro-1793427284",
+    slug: "figure-ai-founder-brett-adcock-launches-hark-pro-autonomous-workflows",
+    title: "Figure AI Founder Brett Adcock Launches Hark Pro for Multi-Request Autonomous Workflows",
+    deck: "Brett Adcock has officially unveiled Hark Pro, a cross-platform autonomous assistant capable of executing nine simultaneous tasks including expense filing, messaging, and subscription management.",
+    category: "ai-tools",
+    authorId: "marcus-vance",
+    publishedAt: "2026-10-30T22:30:00Z",
+    updatedAt: "2026-10-30T22:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Autonomous workflow execution interface showcased in the Hark Pro platform demonstration.",
+    isBreaking: true,
+    isFeatured: true,
+    keyTakeaways: [
+      "Brett Adcock, founder of humanoid robotics company Figure AI, officially launched Hark Pro across web, iOS, and Android.",
+      "The system demonstrates concurrent multi-action execution, tackling up to nine distinct operational tasks in parallel.",
+      "Autonomous consumer agents are moving rapidly from conversational interfaces toward direct system-level tool actuation and task completion."
+    ],
+    contentHtml: `<p>Brett Adcock, the entrepreneur behind humanoid robotics firm Figure AI, has released Hark Pro as the flagship consumer product of his autonomous software startup Hark. The platform allows users to dispatch multiple complex operational requests concurrently, handling tasks like filing expense receipts, drafting professional correspondence, and managing digital subscriptions without manual oversight.</p>
+
+<p>The launch marks Adcock's second major bet on autonomous systems, this time applied to software rather than hardware. While Figure AI builds robots that manipulate physical objects in warehouses, Hark Pro aims to manipulate digital environments, operating across email clients, browser tabs, and enterprise applications to complete chains of administrative work that previously required a human to click through each step.</p>
+
+<h2>How Does Hark Pro Execute Multi-Action Autonomous Task Batches?</h2>
+<p>Hark Pro accepts a batch of distinct user requests in a single session and processes them in parallel rather than sequentially, using software agents that log into applications and complete actions on the user's behalf. Each agent operates independently within its assigned task, meaning a request to reconcile an expense report runs at the same time as a separate request to cancel a subscription, rather than waiting in a queue.</p>
+
+<p>This parallel architecture is the core technical claim distinguishing Hark Pro from earlier productivity assistants. Early reviewers report that the system maintains separate execution threads for each task, checking in with users only when it encounters an ambiguous decision, such as which vendor to prioritize for payment. Adcock has described the goal as reducing the "cognitive tax" of administrative work by letting users offload entire categories of repetitive tasks in one instruction rather than issuing commands one at a time.</p>
+
+<h2>How Does Autonomous System Actuation Compare to Traditional Chatbot Interfaces?</h2>
+<p>Autonomous action engines like Hark Pro differ from conversational chatbots because they execute real-world changes inside third-party applications instead of only generating text responses. A standard chatbot waits for a user to copy, paste, and manually apply its output, while an action engine directly logs into accounts and completes the transaction itself.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr>
+<th>Capability</th>
+<th>Conversational LLM Chatbots</th>
+<th>Autonomous Action Engines</th>
+</tr>
+<tr>
+<td>Task Concurrency</td>
+<td>Single-thread, one query at a time</td>
+<td>Multiple parallel tasks per session</td>
+</tr>
+<tr>
+<td>External Application Control</td>
+<td>None, text output only</td>
+<td>Direct login and action execution</td>
+</tr>
+<tr>
+<td>User Verification Checkpoints</td>
+<td>Required before every output use</td>
+<td>Only at ambiguous decision points</td>
+</tr>
+<tr>
+<td>Execution Latency</td>
+<td>Fast response, slow human follow-through</td>
+<td>Slower initial setup, faster end-to-end completion</td>
+</tr>
+</table>
+
+<p>The table reflects a structural shift in how software is expected to behave. Chatbots were judged on the quality of their answers, but action engines are judged on whether the task actually got done, which raises the stakes for reliability and error handling considerably.</p>
+
+<h3>What Does the Rise of Autonomous Action Agents Mean for Daily Workplace Productivity?</h3>
+<p>The spread of autonomous action agents signals a shift in office work from employees operating software to employees supervising software that operates itself. This changes the core skill set required for administrative roles, placing a premium on judgment and exception handling rather than manual data entry.</p>
+
+<p>Adcock's bet mirrors a broader pattern among robotics founders moving into software automation, betting that the same agentic principles guiding physical robots can govern digital labor. Whether Hark Pro delivers on reliability claims at scale remains the open question for enterprise buyers watching this category closely.</p>`,
+    sources: [
+      { name: "Hark AI Official Product Disclosure", url: "https://hark.com", context: "Official platform demonstration and technical capability briefing for Hark Pro." },
+      { name: "Figure AI & Frontier Automation Research", url: "https://figure.ai", context: "Background on founder Brett Adcock and autonomous system architecture." }
+    ]
+  },
+  {
     id: "wire-1793421417",
     slug: "fair-use-benefits-everyone",
     title: "Fair use benefits everyone",

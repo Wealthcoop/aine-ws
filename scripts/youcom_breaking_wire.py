@@ -20,6 +20,7 @@ import ssl
 import sqlite3
 import urllib.request
 import urllib.parse
+import time
 from datetime import datetime, timezone
 from PIL import Image, ImageDraw, ImageFont
 
@@ -34,6 +35,43 @@ YDC_API_KEY = os.environ.get("YDC_API_KEY", "ydc-sk-ad77719b3933f5e1-YUmlb4x2xLY
 _SSL_CTX = ssl.create_default_context()
 _SSL_CTX.check_hostname = False
 _SSL_CTX.verify_mode = ssl.CERT_NONE
+
+FINEST_API_URL = 'https://gateway.finest.so/gateway/openai/v1/chat/completions'
+FINEST_KEYS = [
+    os.environ.get('FINEST_API_KEY', 'fk_GsGMicGoEi-eu5-iWOJyNSaEQHYj1Gmo'),
+    'fk_nZb9pbqyBF80RsTX_Ay1qj3oVH6QZMm6'
+]
+
+def ask_finest_generator(system_prompt, user_prompt, max_tokens=1500):
+    for attempt in range(4):
+        key = FINEST_KEYS[attempt % len(FINEST_KEYS)]
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': f'Bearer {key}',
+            'User-Agent': 'AINE-Newsroom/1.0'
+        }
+        data = {
+            'model': 'claude-sonnet-5',
+            'messages': [
+                {'role': 'system', 'content': system_prompt},
+                {'role': 'user', 'content': user_prompt}
+            ],
+            'max_tokens': max_tokens
+        }
+        req = urllib.request.Request(FINEST_API_URL, data=json.dumps(data).encode('utf-8'), headers=headers)
+        try:
+            with urllib.request.urlopen(req, context=_SSL_CTX, timeout=90) as resp:
+                res = json.loads(resp.read().decode('utf-8'))
+                txt = res['choices'][0]['message']['content'].strip()
+                txt = re.sub(r'^```html\s*', '', txt)
+                txt = re.sub(r'\s*```$', '', txt)
+                txt = txt.replace('—', ', ').replace('--', ', ')
+                return txt
+        except Exception as e:
+            print(f"[!] Finest API attempt {attempt+1} failed: {e}")
+            time.sleep(2)
+    return None
+
 
 CATEGORIES = {
     "search-ai": {
@@ -321,7 +359,39 @@ def ingest_wire_stories(limit=3):
                 "Primary source documentation and full disclosure links are included below."
             ]
 
-            content_html = f"""<p class="lead"><strong>{topic['dateline']}</strong>, {author_name} reports on <strong>{clean_title}</strong>.</p>
+            # Generate substantive 600-word article via Finest API
+            system_prompt = f"""You are {author_name} at AI News (aine.ws).
+Voice: Authoritative, practical, direct (Stratechery meets Reuters).
+STRICT RULES:
+1. NEVER use em dashes or double hyphens.
+2. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh, sub-300ms.
+3. Every <h2> and <h3> must be a clear question ending with a question mark (?).
+4. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
+5. Include an HTML <table> or structured specification box.
+6. Keep total output between 550 and 700 words. End with a closed </p> tag.
+"""
+            user_prompt = f"""Write a 600-word journalistic news report on '{clean_title}'.
+Source URL: {url}
+Context / Snippets: {deck}
+Dateline: {topic['dateline']}
+Close all HTML tags cleanly."""
+
+            generated_html = ask_finest_generator(system_prompt, user_prompt)
+            if generated_html:
+                dangling_patterns = [
+                    r'<p>\s*(?:Here(?: is|'s) the (?:sequence|build order|structure|breakdown)[^<]*)\s*</p>\s*$',
+                    r'<p>\s*(?:The structure that works every time:?)\s*</p>\s*$'
+                ]
+                for pat in dangling_patterns:
+                    generated_html = re.sub(pat, '', generated_html, flags=re.IGNORECASE)
+                if not generated_html.endswith('>'):
+                    last_tag = max(generated_html.rfind('</p>'), generated_html.rfind('</table>'), generated_html.rfind('</ul>'), generated_html.rfind('</ol>'))
+                    if last_tag != -1:
+                        end_tag = generated_html[last_tag:generated_html.find('>', last_tag)+1]
+                        generated_html = generated_html[:last_tag] + end_tag
+                content_html = generated_html.strip()
+            else:
+                content_html = f"""<p class="lead"><strong>{topic['dateline']}</strong>, {author_name} reports on <strong>{clean_title}</strong>.</p>
 <p>{deck}</p>
 <p>For independent business owners, service companies, and growth teams, keeping track of these system changes is essential. Rather than getting bogged down in complex industry jargon, operators should focus on real-world search ranking, direct customer phone response, and automated workflow speed.</p>
 <p>Official statements, documentation, and original disclosure links are available in the verification sources below.</p>"""
