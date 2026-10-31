@@ -2,6 +2,100 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793447491",
+    slug: "working-with-academic-communities-to-build-scientific-u",
+    title: "Working with academic communities to build scientific understanding",
+    deck: "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics\u2014and how researchers can verify and build on them.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T14:30:00Z",
+    updatedAt: "2026-10-26T14:30:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics\u2014...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO, March 2024 ,  OpenAI has published a set of results showing how its models engaged with three difficult open problems in mathematics, theoretical computer science, and physics: the Kakeya conjecture, the Exponential Time Hypothesis, and aspects of quantum chromodynamics. The company says the goal is not to claim solved proofs but to invite academic researchers to check the work, stress test the reasoning, and extend it where it holds up.</p>
+
+<h2>What did OpenAI announce about academic collaboration?</h2>
+<p>OpenAI released detailed transcripts and technical writeups showing how its reasoning models approached three unsolved or partially solved problems, then opened the material for outside verification. The company framed the release as an experiment in how AI labs and university researchers can jointly build scientific understanding rather than treat model outputs as finished claims.</p>
+<p>The announcement, posted to OpenAI's official news channel, describes the effort as collaborative rather than promotional. Researchers across mathematics and physics departments were given early access to the model's chain of reasoning on each problem, along with annotated commentary pointing out where the approach matched known techniques and where it diverged into untested territory.</p>
+
+<h2>What specific research problems were addressed?</h2>
+<p>The three cases span pure mathematics, computational complexity theory, and particle physics, each chosen because progress has been slow and the stakes for verification are high. OpenAI says the model produced partial arguments and new angles of attack rather than complete proofs.</p>
+<table>
+<tr><th>Problem</th><th>Field</th><th>Status Before Release</th><th>Model Contribution</th></tr>
+<tr><td>Kakeya Conjecture</td><td>Geometric Measure Theory</td><td>Open in general dimensions</td><td>Partial argument structure, new bounding approach</td></tr>
+<tr><td>Exponential Time Hypothesis</td><td>Computational Complexity</td><td>Unresolved conjecture</td><td>Alternative reduction pathway for review</td></tr>
+<tr><td>Quantum Chromodynamics</td><td>Theoretical Physics</td><td>Active research area</td><td>Simplified lattice calculation proposal</td></tr>
+</table>
+<p>In each case, OpenAI researchers worked alongside academic specialists to annotate where the model's reasoning aligned with established literature and where it introduced assumptions that still need formal scrutiny.</p>
+
+<h2>How can researchers verify the results?</h2>
+<p>OpenAI has published full reasoning traces, source references, and code where applicable so that mathematicians and physicists can independently check each step. The company says it deliberately avoided summarizing the results in a way that would obscure gaps, instead leaving the raw reasoning visible for scrutiny.</p>
+<p>Academic partners quoted in the release said the transparency matters more than the headline claims. One mathematician involved in reviewing the Kakeya material noted that even a flawed argument can be useful if the error location is findable, since that narrows the search space for the next attempt. OpenAI has set up a feedback channel for researchers to submit corrections, counterexamples, or extensions, and says it plans to update the public record as responses come in.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/building-scientific-understanding-with-academic-communities", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793447510",
+    slug: "opinion-anthropics-ipo-will-be-a-national-security-win",
+    title: "Opinion | Anthropic's IPO Will Be a National-Security Win for Taiwan - WSJ",
+    deck: "Opinion | Anthropic's IPO Will Be a National-Security Win for Taiwan WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-31T11:22:08Z",
+    updatedAt: "2026-10-31T11:22:08Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Opinion | Anthropic's IPO Will Be a National-Security Win for Taiwan WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h2>Why Does Anthropic's Potential IPO Matter for Taiwan?</h2>
+<p>A prospective Anthropic initial public offering would funnel fresh capital into Taiwan's semiconductor supply chain at a moment when Washington wants that relationship tightened, not loosened. The opinion piece in The Wall Street Journal frames the listing as a strategic asset that binds American AI ambitions to Taiwanese chip manufacturing, reinforcing a partnership both governments view as a hedge against Chinese pressure.</p>
+
+<p>Anthropic, the maker of the Claude family of models, has built its business on massive compute demand. That compute runs almost entirely on chips fabricated by Taiwan Semiconductor Manufacturing Company. An IPO would not just raise cash for Anthropic. It would publicly cement, in dollar terms, how dependent the leading edge of American AI development has become on Taiwanese fabrication capacity.</p>
+
+<h2>What Is the National-Security Argument Here?</h2>
+<p>The national-security argument is that deeper financial entanglement between a major U.S. AI company and Taiwan's chip industry raises the cost of any disruption to that island, making its defense a shared economic imperative rather than an abstract geopolitical one. Analysts quoted in the piece argue that capital markets, not just military pacts, are becoming tools of deterrence.</p>
+
+<p>The logic follows a pattern Washington has used before. When American firms have skin in the game through supply contracts, equity stakes, or public shareholder exposure, protecting that interest becomes a matter of economic self-preservation. An Anthropic IPO, structured around a company whose entire product line depends on TSMC wafers, would make that dependency visible to every public market investor, pension fund, and index tracker in the United States.</p>
+
+<h3>How Does This Compare to Other AI Companies?</h3>
+<p>Anthropic is not unique in its reliance on Taiwanese fabrication, but its IPO would be among the most direct public signals of that reliance to date. OpenAI, Google DeepMind, and Meta all source advanced chips from the same limited set of foundries, yet none of those businesses trade as standalone public equities tied so closely to AI compute demand.</p>
+
+<table>
+<tr><th>Factor</th><th>Detail</th></tr>
+<tr><td>Company</td><td>Anthropic (Claude AI models)</td></tr>
+<tr><td>Key Dependency</td><td>TSMC-fabricated chips</td></tr>
+<tr><td>Strategic Angle</td><td>Public listing deepens US-Taiwan economic interdependence</td></tr>
+<tr><td>Source</td><td>WSJ Opinion, via Google News / Anthropic Wire</td></tr>
+<tr><td>Dateline</td><td>San Francisco</td></tr>
+</table>
+
+<h2>What Are the Risks If the IPO Does Not Happen?</h2>
+<p>Without a public listing, the financial linkage between American AI growth and Taiwanese manufacturing remains largely invisible to retail investors and lawmakers who set policy. That opacity, the opinion piece argues, weakens the political urgency needed to defend Taiwan's chip infrastructure against coercion from Beijing.</p>
+
+<p>Private funding rounds, which have sustained Anthropic through multibillion-dollar raises from Amazon and Google, do not carry the same public disclosure requirements or market signaling power. An IPO prospectus would force Anthropic to detail its supply chain exposure in filings reviewed by the Securities and Exchange Commission, creating a paper trail that connects America's AI leadership directly to a single foreign fabrication ecosystem concentrated in Taiwan.</p>
+
+<h3>What Happens Next?</h3>
+<p>Anthropic has not confirmed a timeline for going public, and the WSJ piece is opinion commentary rather than reporting on an announced filing. Investors and policymakers will likely watch for any S-1 filing or funding disclosure that clarifies how closely the company's valuation is tied to continued, uninterrupted access to Taiwanese chip production.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd1VWYTBUOF9hZnNhY2pSTnU2SUFmYVRVVHhiVHM2Wm5sMzVCcGpRTDBzanFhWjN3Zk1zUElEVnoxQXVJcjU5YzlYS1NzT19ib2szY2RNU2xFeVdKbHVRVTlXcmNNWHNhMWEwWndxeFNMZDVfVDlPRGJnaG1JNDlZWk9CY205eWJlSUtyd1hJcXJtVzFMYjgxOTZn?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-claude-workspace-1793427284",
     slug: "anthropic-claude-google-workspace-docs-sheets-slides-integration",
     title: "Anthropic Rolls Out Claude Sidebar for Google Workspace: Direct Editing Inside Docs, Sheets, and Slides",
