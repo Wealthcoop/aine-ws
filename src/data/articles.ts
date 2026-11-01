@@ -2,6 +2,100 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793494015",
+    slug: "introducing-gpt-61-terra",
+    title: "Introducing GPT-6.1 Terra",
+    deck: "Bringing fast and capable computer use to everyone",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-26T00:00:00Z",
+    updatedAt: "2026-10-26T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Bringing fast and capable computer use to everyone...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+<p>SAN FRANCISCO. OpenAI on Tuesday introduced GPT-6.1 Terra, a new model built to operate computers directly through screen reading and input control. The company says the release marks its broadest push yet to bring autonomous computer use out of research previews and into mainstream products.</p>
+
+<h2>What Is GPT-6.1 Terra?</h2>
+<p>GPT-6.1 Terra is OpenAI's latest flagship model, designed to combine fast reasoning with native computer control through screenshots, clicks, and keyboard input. OpenAI describes it as the first model in the GPT-6 line built for everyday consumer and enterprise use rather than limited testing groups.</p>
+<p>The model reads a live screen, decides on an action, and executes it without a human manually relaying instructions back and forth. OpenAI says this closes a gap between chat based assistants and tools that can actually finish tasks inside software people already use, such as spreadsheets, browsers, and internal business dashboards.</p>
+
+<h3>How Does Terra Handle Computer Use Differently?</h3>
+<p>Terra processes screen state and user intent together in a single pass, which OpenAI says cuts response times compared to earlier computer use models from the company. This architecture change is why OpenAI is marketing the release around speed as much as capability.</p>
+<p>Earlier systems, including the original computer use preview released in 2024, often required multiple seconds per action and struggled with cluttered interfaces. OpenAI claims Terra completes common multi step tasks, such as filling out forms or reconciling data across two applications, in roughly a third of the time its prior models needed, based on internal benchmarks the company published alongside the announcement.</p>
+
+<h3>What Are the Key Specifications?</h3>
+<p>OpenAI released a technical summary comparing Terra to its predecessor and to the base GPT-5 model. The table below reflects figures published in OpenAI's official announcement.</p>
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Feature</th><th>GPT-5</th><th>GPT-6.1 Terra</th></tr>
+<tr><td>Computer use support</td><td>Limited preview</td><td>Native, general release</td></tr>
+<tr><td>Average action latency</td><td>2.1 seconds</td><td>0.7 seconds</td></tr>
+<tr><td>Context window</td><td>256,000 tokens</td><td>512,000 tokens</td></tr>
+<tr><td>Supported input modes</td><td>Text, image</td><td>Text, image, screen, voice</td></tr>
+<tr><td>Availability</td><td>API and ChatGPT</td><td>API, ChatGPT, enterprise console</td></tr>
+</table>
+
+<h2>How Does Terra Compare to Rivals Working on Computer Use?</h2>
+<p>Terra enters a field where Anthropic and Google have both shipped their own computer control features over the past year, though OpenAI claims Terra is faster at completing real workflows rather than isolated demo tasks. OpenAI did not publish direct side by side benchmarks against competitor models in its announcement.</p>
+<p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/introducing-gpt-6-1-terra", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793494036",
+    slug: "were-living-in-the-age-of-the-imperial-ceo-wsj",
+    title: "We're Living in the Age of the Imperial CEO - WSJ",
+    deck: "We're Living in the Age of the Imperial CEO WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-01T00:22:32Z",
+    updatedAt: "2026-11-01T00:22:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: We're Living in the Age of the Imperial CEO WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  A new class of chief executive has emerged in Silicon Valley and beyond, one who answers to fewer checks than at almost any point in modern corporate history. The Wall Street Journal's reporting on the "Imperial CEO" era lands as boards at companies from Tesla to Meta to Anthropic have ceded unusual latitude to founder-leaders, a shift that is reshaping how technology companies are governed and how fast they can move.</p>
+
+<h2>What does the term imperial CEO actually mean?</h2>
+<p>An imperial CEO is a chief executive who operates with minimal board oversight, often holding super-voting shares, personally appointing loyal directors, or controlling a nonprofit structure that insulates them from shareholder pressure. The term describes a governance pattern, not a personality trait, and it applies to leaders across industries who have consolidated decision-making power once shared with boards and investors.</p>
+<p>The pattern has accelerated as capital-intensive AI companies prioritize speed over consensus. Investors who once demanded independent boards now accept concentrated control in exchange for access to high-growth equity, particularly in companies building large language models where technical judgment calls happen faster than quarterly board cycles.</p>
+
+<h2>Why is this happening now in the AI industry specifically?</h2>
+<p>AI labs require rapid, high-stakes decisions on compute spending, safety tradeoffs, and model releases that traditional board processes were not built to handle. That urgency has given founders like Sam Altman, Elon Musk, and Anthropic's leadership team justification to centralize authority, with boards increasingly playing an advisory rather than restraining role.</p>
+<p>Anthropic's own structure, built around a Long Term Benefit Trust, was designed explicitly to balance commercial pressure against safety commitments. Critics argue these hybrid structures still leave enormous discretion in the hands of a small executive circle, even when framed as accountability mechanisms.</p>
+
+<h3>How does this compare with past eras of CEO power?</h3>
+<p>Corporate America cycled through imperial CEOs before, notably in the 1990s and early 2000s before Sarbanes-Oxley reforms tightened board independence rules. Today's version differs because it is enabled by dual-class share structures and nonprofit or trust-based governance models rather than simple boardroom deference.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Era</th><th>Governance Lever</th><th>Example</th></tr>
+<tr><td>1990s-2000s</td><td>Weak board independence</td><td>Enron, WorldCom</td></tr>
+<tr><td>2010s</td><td>Dual-class voting shares</td><td>Meta, Alphabet</td></tr>
+<tr><td>2020s</td><td>Trust and nonprofit control</td><td>OpenAI, Anthropic</td></tr>
+</table>
+
+<h3>What are the risks investors and regulators are watching?</h3>
+<p>The central risk is that concentrated executive power removes the institutional brakes that typically catch bad bets before they become catastrophic, whether financial, ethical, or safety-related. Regulators and large institutional shareholders are now pushing for disclosure rules that would force AI companies to detail exactly how much authority rests with a single executive versus a board.</p>
+<p>Proxy advisory firms including ISS and Glass Lewis have flagged several AI and tech firms this year for governance scores well below industry median, citing insufficient board independence. Some pension funds have begun voting against director slates at companies where founder control exceeds 50 percent of voting power.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3N0ZlF1dzhaZkYzV0RpanUyVDczaDFGWWh2dDJFbldQclhJSmdWUFNYaThpLTdQUkc0UGluZVQ1aXJmZ1FYblBWNVgyd1BsY0dfVmVPa0drRGlaZzV6THVNX3NDWmozVWhqM0pVd3pyOHd4RFNNM3BFcjdyUWRXcXhwT1FzampSYkgw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793480996",
     slug: "how-ultrafast-cut-incident-investigation-from-hours-to",
     title: "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
