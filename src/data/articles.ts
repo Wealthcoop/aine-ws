@@ -2,6 +2,107 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793551059",
+    slug: "what-fde-means-at-openai-architecture-and-benchmark-ana",
+    title: "What FDE means at OpenAI: Architecture and Benchmark Analysis",
+    deck: "What forward deployed engineering means at OpenAI",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T06:00:00Z",
+    updatedAt: "2026-10-22T06:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: What forward deployed engineering means at OpenAI...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO ,  OpenAI has published an internal account of its forward deployed engineering practice, offering the clearest public description yet of how the company embeds technical staff inside customer organizations to build production AI systems. The document, released this week, frames forward deployed engineering not as a support function but as a core method for closing the gap between model capability and real-world deployment.</p>
+
+<h2>What Is Forward Deployed Engineering At OpenAI?</h2>
+<p>Forward deployed engineering at OpenAI refers to a team of engineers who work directly inside customer environments to design, build, and ship AI applications using OpenAI's models. These engineers sit between research and commercial deployment, translating raw model capability into working software for specific enterprise problems.</p>
+<p>The role traces its lineage to Palantir's forward deployed engineer model, but OpenAI's version is tuned around rapid iteration with frontier models rather than static data pipelines. According to the company, these engineers spend the majority of their time writing code alongside client teams rather than managing relationships or scoping requirements from a distance.</p>
+
+<h3>How Does The Architecture Of An FDE Engagement Work?</h3>
+<p>An FDE engagement typically follows a three-stage architecture: discovery, embedded build, and handoff. Engineers start by mapping a customer's workflow, then build a working prototype inside the client's own infrastructure before transferring ownership to the customer's internal team.</p>
+<p>This structure differs from traditional professional services, where consultants document requirements and hand specifications to a separate build team. OpenAI's approach keeps the person who understands the model's behavior in direct contact with the code until the system is stable in production.</p>
+
+<h3>What Does The Benchmark Data Show?</h3>
+<p>OpenAI's internal benchmarks indicate that embedded engagements cut deployment timelines significantly compared to standalone consulting handoffs, with the company citing faster time to first production use. The data also shows higher retention of custom-built tools after the engineering team exits the account.</p>
+<table border="1" cellpadding="6" cellspacing="0">
+<thead>
+<tr><th>Metric</th><th>Traditional Consulting Handoff</th><th>OpenAI FDE Model</th></tr>
+</thead>
+<tbody>
+<tr><td>Time to first working prototype</td><td>6 to 10 weeks</td><td>2 to 3 weeks</td></tr>
+<tr><td>Tool retention after 6 months</td><td>Low to moderate</td><td>High</td></tr>
+<tr><td>Engineer-to-client code contact</td><td>Indirect</td><td>Direct, daily</td></tr>
+<tr><td>Primary deliverable</td><td>Requirements document</td><td>Working application</td></tr>
+</tbody>
+</table>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/forward-deployed-engineering-means", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793551078",
+    slug: "anthropic-orders-ai-tool-claude-to-stop-remaking-video",
+    title: "Anthropic orders AI tool Claude to stop remaking video games - Game Developer",
+    deck: "Anthropic orders AI tool Claude to stop remaking video games Game Developer",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-01T16:30:21Z",
+    updatedAt: "2026-11-01T16:30:21Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic orders AI tool Claude to stop remaking video games Game Developer...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h2>Why did Anthropic tell Claude to stop remaking video games?</h2>
+<p>Anthropic updated Claude's usage policies to bar the AI model from reproducing commercial video games, closing a loophole that let users prompt the chatbot into recreating copyrighted titles. The move follows mounting pressure from game publishers and legal experts who warned that AI-generated clones of existing games could expose Anthropic to copyright infringement claims.</p>
+
+<p>The restriction, reported by Game Developer, targets a specific use case that had gone viral on social media: users asking Claude to write code that replicated classic or popular games, sometimes down to near-identical mechanics, level layouts, and visual assets. Anthropic's updated usage policy now explicitly classifies this behavior as a violation, placing game recreation alongside other prohibited activities like generating malware or disinformation.</p>
+
+<h2>What exactly changed in Claude's usage policy?</h2>
+<p>Anthropic added language prohibiting Claude from being used to recreate copyrighted games, including their code, assets, or distinctive gameplay systems. The policy shift applies across Claude's consumer chat interface and its developer-facing API, meaning both casual users and third-party app builders face the same restriction.</p>
+
+<p>Prior to this update, Claude would often comply with requests to rebuild games like Flappy Bird, Tetris, or Pong clones, sometimes producing playable code within minutes. That capability became a popular demonstration of large language models' coding skills but also raised flags among intellectual property attorneys who noted that even simplified clones could trigger infringement claims if they copied distinctive assets, music, or trade dress.</p>
+
+<h3>How does this fit into the broader AI copyright fight?</h3>
+<p>Anthropic's policy change arrives as the company faces active litigation from authors and publishers over training data, making it cautious about any additional copyright exposure tied to model outputs. Game publishers have been notably aggressive in protecting intellectual property, and Anthropic appears to be preempting similar legal challenges before they materialize.</p>
+
+<p>The company has already settled a major class action with book authors over training data use, agreeing to a $1.5 billion payment disclosed in 2025 court filings. That settlement underscored how costly copyright disputes can become, even when AI companies argue their training practices fall under fair use. Restricting game recreation output, rather than training inputs, represents a narrower but more direct intervention aimed at stopping obviously infringing results.</p>
+
+<h3>What does this mean for developers using Claude?</h3>
+<p>Developers who relied on Claude to prototype game mechanics or study classic design patterns will need to adjust workflows, since direct recreation requests will now be refused or redirected. Anthropic has indicated that Claude can still assist with original game concepts, general programming logic, and engine-level troubleshooting that does not involve replicating a specific existing title.</p>
+
+<p>The policy does not appear to restrict educational discussion of game design principles, only the generation of functional or near-functional copies. API users building games with Claude's help will likely see similar guardrails enforced through content filtering on outputs rather than blanket topic bans.</p>
+
+<table>
+<tr><th>Detail</th><th>Information</th></tr>
+<tr><td>Company</td><td>Anthropic</td></tr>
+<tr><td>Product affected</td><td>Claude (chat and API)</td></tr>
+<tr><td>Change</td><td>Prohibits recreating copyrighted video games</td></tr>
+<tr><td>Reason</td><td>Copyright infringement risk</td></tr>
+<tr><td>Prior related case</td><td>$1.5 billion author settlement (2025)</td></tr>
+<tr><td>Source</td><td>Game Developer, via Anthropic Wire</td></tr>
+</table>
+
+<h3>Will other AI companies follow suit?</h3>
+<p>Industry analysts expect competitors like OpenAI and Google to face similar pressure to restrict game-cloning outputs, since the underlying legal risk applies broadly to any model capable of generating functional code. No rival company has announced matching policy changes yet, but Anthropic's move sets a precedent that publishers may cite when pressing other AI firms for comparable restrictions.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbkRTbnBaVVk2ZEkzamZJZXpfMWlpWDJuRXJLa3RnUEI2SGJvYVJrd3dhUWhsRUh0Qi1NS0x1ZnJDTUNsY0FpUkVOaGpraTRzXy1ZV2g1bFhMemdEeWUwZzI1QkxRNExMSmxKUzYyeEEtUzJqTG1nS1NrcGRrWTRuMHhrcHJQQ1B6OFlwbXVjVXoxQjYzUTdJb0NCRFF4Q0lfUmRrd2ZMSXdtS25YR25HVjN2OU52SEp3Sncw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793523151",
     slug: "anima-helps-clinics-cut-call-waits-by-75-with-gpt-6-and",
     title: "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
