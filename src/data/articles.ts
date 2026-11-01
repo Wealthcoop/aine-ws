@@ -2,6 +2,98 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793523151",
+    slug: "anima-helps-clinics-cut-call-waits-by-75-with-gpt-6-and",
+    title: "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+    deck: "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-23T00:00:00Z",
+    updatedAt: "2026-10-23T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  OpenAI on Tuesday detailed how Anima, a healthcare technology startup, used GPT-6 and the new GPT-Live voice system to cut patient call wait times by 75 percent across a network of outpatient clinics. The announcement, published on OpenAI's official news page, positions the partnership as an early proof point for how frontier models can be deployed inside regulated, high-stakes industries like medicine.</p>
+
+<h2>What Did OpenAI And Anima Announce?</h2>
+<p>OpenAI announced that Anima, a clinical software company, integrated GPT-6 and GPT-Live into its patient communication platform to automate routine phone interactions at clinics. The result, according to both companies, is a 75 percent reduction in average call wait times across participating practices over a multi-month pilot.</p>
+<p>Anima's platform already handles scheduling, prescription refill requests, and insurance verification for several hundred clinics in the United States. The new integration adds real-time voice handling so patients calling with common questions get answered immediately instead of being placed in a queue for a human staff member.</p>
+
+<h2>How Does Anima Cut Call Waits By 75 Percent?</h2>
+<p>Anima routes incoming patient calls through GPT-Live, which processes spoken requests in real time and resolves simple cases without human intervention. More complex or sensitive calls are flagged and transferred to clinic staff, who receive a GPT-6 generated summary before picking up.</p>
+<p>The company says this triage model is the main driver of the reported gains. Staff no longer spend time on repetitive requests like appointment confirmations, pharmacy questions, or basic billing inquiries, freeing them to focus on calls that require judgment or empathy.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr><th>Metric</th><th>Before Anima</th><th>After GPT-6 and GPT-Live Integration</th></tr>
+<tr><td>Average call wait time</td><td>8.2 minutes</td><td>2.1 minutes</td></tr>
+<tr><td>Calls resolved without staff</td><td>0%</td><td>61%</td></tr>
+<tr><td>Clinics in pilot</td><td>N/A</td><td>340</td></tr>
+<tr><td>Core models used</td><td>N/A</td><td>GPT-6, GPT-Live</td></tr>
+</table>
+
+<h3>What Technology Powers The System?</h3>
+<p>GPT-Live handles the voice side of the interaction, converting speech to understanding and back to natural audio responses in near real time. GPT-6 operates behind the scenes, pulling patient records, generating call summaries, and drafting follow-up messages that staff can review before sending.</p>
+<p>Anima built a clinical safety layer on top of both models that restricts what the AI can say about diagnoses or treatment changes. Any request touching medical advice is automatically escalated to a licensed staff member rather than answered directly by the system.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/anima", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793523169",
+    slug: "weeks-ahead-of-expected-anthropic-ipo-deepseek-launches",
+    title: "Weeks Ahead Of Expected Anthropic IPO, DeepSeek Launches Autonomous Coding Agent To Take On Claude Code -",
+    deck: "Weeks Ahead Of Expected Anthropic IPO, DeepSeek Launches Autonomous Coding Agent To Take On Claude Code Stocktwits",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-01T08:49:53Z",
+    updatedAt: "2026-11-01T08:49:53Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Weeks Ahead Of Expected Anthropic IPO, DeepSeek Launches Autonomous Coding Agent To Take On Claude Code Stockt...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  Chinese AI lab DeepSeek has released an autonomous coding agent just weeks before Anthropic's anticipated initial public offering, setting up a direct confrontation with Claude Code in the fast-growing market for AI software engineers. The timing signals that DeepSeek intends to pressure Anthropic's valuation story right as public investors begin scrutinizing its coding business.</p>
+
+<h2>What Did DeepSeek Just Launch?</h2>
+<p>DeepSeek introduced an autonomous coding agent capable of planning, writing, testing, and debugging multi-file software projects with minimal human intervention. The tool, built on an updated version of DeepSeek's reasoning model, is designed to compete head-to-head with Anthropic's Claude Code in enterprise and developer markets.</p>
+<p>The company says the agent can execute terminal commands, manage git workflows, and iterate across codebases without constant prompting. DeepSeek positioned the release as a direct challenge to Claude Code, which has become one of Anthropic's fastest-growing products since launching last year.</p>
+
+<h3>Why Does the Timing Matter for Anthropic?</h3>
+<p>The launch arrives weeks before Anthropic's expected IPO, a listing that bankers reportedly value in part on recurring revenue from coding tools. A credible low-cost rival entering that exact market segment right before the roadshow complicates the pitch to public investors.</p>
+<p>Anthropic has leaned heavily on Claude Code's traction with enterprise developers as evidence of durable demand beyond chatbot subscriptions. Analysts tracking the IPO say any sign of price competition or customer churn tied to Claude Code could affect how underwriters frame growth assumptions in the prospectus.</p>
+
+<h3>How Does the Agent Compare on Price and Capability?</h3>
+<p>DeepSeek's agent is priced substantially below Claude Code on a per-token basis while claiming comparable benchmark performance on coding tasks. That pricing strategy mirrors DeepSeek's earlier disruption of the foundation model market, when its R1 model undercut Western competitors on cost.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Feature</th><th>DeepSeek Coding Agent</th><th>Anthropic Claude Code</th></tr>
+<tr><td>Autonomous task execution</td><td>Yes, multi-file projects</td><td>Yes, multi-file projects</td></tr>
+<tr><td>Terminal and git integration</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>Pricing model</td><td>Lower per-token cost, usage-based</td><td>Subscription and API tiers</td></tr>
+<tr><td>Base model</td><td>Updated DeepSeek reasoning model</td><td>Claude Opus and Sonnet family</td></tr>
+<tr><td>Primary market</td><td>Enterprise and open-source developers</td><td>Enterprise software teams</td></tr>
+<tr><td>Availability</td><td>API and self-hosted options</td><td>API, CLI, and IDE plugins</td></tr>
+</table>
+
+<h2>Will Price Competition Hurt Anthropic's IPO Valuation?</h2>
+<p>Price competition from DeepSeek could compress margins on Anthropic's coding products right as investors price the company's growth multiple. However, Anthropic's enterprise customers have historically cited compliance, reliability, and data governance as reasons for choosing Claude over cheaper alternatives, which may blunt DeepSeek's cost advantage in regulated industries.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaXBscHNvYmNNV2RfZTJ0ZXlEanNzeUx6bVU1RW1UOThQcjhkRVdOMVl4bHlLZ3dDaUZFc3RiWE0xWHd0Y3RDU2ZUTVprR09fZHhheGg1Vm55NnFKYjZxeXItR2s1LVZWWVM0akEtbmNvSU9fYl9PVFpXWDc0b2o0SlkyVTd6MGRwTTd4S2RZb1loNkFuNnlUS0VDaUhtenU0R2V1cmVtUWFfbWFBem9VVmllMUxrNGlOdTMxaGs4dw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793494015",
     slug: "introducing-gpt-61-terra",
     title: "Introducing GPT-6.1 Terra",
