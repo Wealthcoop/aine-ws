@@ -2,6 +2,112 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793569712",
+    slug: "uber-brings-chatgpt-work-to-all-employees-with-openai",
+    title: "Uber brings ChatGPT Work to all employees with OpenAI",
+    deck: "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-22T00:00:00Z",
+    updatedAt: "2026-10-22T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create p...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  Uber is deploying ChatGPT Work across its entire global workforce, marking one of the largest enterprise rollouts of OpenAI's workplace tool to date. The ride-hailing giant confirmed the move in a joint announcement with OpenAI, signaling a deeper push toward embedding generative AI into daily corporate operations.</p>
+
+<h2>What is Uber doing with ChatGPT Work?</h2>
+<p>Uber is giving more than 30,000 employees access to ChatGPT Work, OpenAI's enterprise-grade AI assistant built for business tasks. The rollout covers teams across engineering, operations, finance, and marketing, making it one of the broadest corporate deployments OpenAI has announced this year.</p>
+
+<h3>How many employees will get access?</h3>
+<p>Uber confirmed that the full rollout will reach over 30,000 employees worldwide, spanning every major department at the company. That scale places Uber among the largest single-company adopters of ChatGPT's enterprise tier, according to OpenAI's announcement.</p>
+
+<h3>What will employees use it for?</h3>
+<p>Employees will use ChatGPT Work for research, data analysis, presentation building, and multi-step workflow automation. OpenAI said the tool is designed to handle complex, cross-functional tasks that previously required multiple software platforms or manual coordination between teams.</p>
+
+<h3>Why is Uber making this move now?</h3>
+<p>Uber is betting that company-wide AI access will cut time spent on repetitive analytical work and speed up internal decision-making. The company has increasingly leaned on AI tools for logistics optimization and customer support, and this rollout extends that strategy to general office productivity.</p>
+
+<h2>What does the Uber-OpenAI deal actually include?</h2>
+<p>The agreement grants Uber employees enterprise-level access to ChatGPT Work's full feature set, including data analysis, document generation, and workflow integration tools. OpenAI structured the deal as a direct enterprise partnership rather than a limited pilot program.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr><th>Detail</th><th>Information</th></tr>
+<tr><td>Company</td><td>Uber Technologies</td></tr>
+<tr><td>AI Partner</td><td>OpenAI</td></tr>
+<tr><td>Product</td><td>ChatGPT Work</td></tr>
+<tr><td>Employees Covered</td><td>30,000+</td></tr>
+<tr><td>Core Use Cases</td><td>Research, data analysis, presentations, workflow automation</td></tr>
+<tr><td>Deployment Type</td><td>Company-wide enterprise rollout</td></tr>
+<tr><td>Source</td><td>OpenAI Official News</td></tr>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/uber-chatgpt-work-rollout", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793569731",
+    slug: "anthropic-updates-claude-to-stop-it-from-recreating-exi",
+    title: "Anthropic Updates Claude To Stop It From Recreating Existing Video Games - Engadget",
+    deck: "Anthropic Updates Claude To Stop It From Recreating Existing Video Games Engadget",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-01T21:08:32Z",
+    updatedAt: "2026-11-01T21:08:32Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Anthropic Updates Claude To Stop It From Recreating Existing Video Games Engadget...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  Anthropic has updated its Claude AI models to prevent them from reproducing copyrighted video game code, a move that arrives as the company fights a lawsuit over similar claims involving its coding assistants.</p>
+
+<h2>What Did Anthropic Change About Claude?</h2>
+<p>Anthropic added new guardrails to Claude that detect and block requests asking the model to recreate existing commercial video games. The update targets situations where users prompt Claude to generate code that closely mirrors copyrighted game mechanics, assets, or structure rather than original work.</p>
+
+<p>The change applies across Claude's model family, including the coding-focused Claude Code product that developers use to build applications. Anthropic has not published the exact technical mechanism behind the block, but the company confirmed the update is live and affects how Claude responds to game-cloning prompts.</p>
+
+<h2>Why Is Anthropic Doing This Now?</h2>
+<p>The update follows mounting legal pressure over AI models reproducing copyrighted material, including a specific case involving Claude generating code resembling existing games. Anthropic is positioning the change as a proactive compliance measure rather than waiting for courts to force restrictions.</p>
+
+<p>Game publishers have grown increasingly vocal about AI tools that can output code or assets closely resembling licensed properties. Several studios have raised concerns that large language models trained on public code repositories absorbed game logic, dialogue trees, and level structures without permission. Anthropic's move signals it wants to get ahead of a legal theory that has already proven costly to other AI firms in copyright disputes over images and text.</p>
+
+<h2>How Does This Fit Into The Broader AI Copyright Fight?</h2>
+<p>This update is part of a wider pattern of AI companies tightening output restrictions after facing copyright lawsuits from publishers, authors, and artists. Anthropic itself settled a major lawsuit with authors over book piracy used in training data, and the game-related restriction suggests the company is extending that cautious posture to other content categories.</p>
+
+<p>Video games present a unique legal challenge because they combine code, art, music, and narrative design into a single copyrighted work. Unlike a song or a paragraph of text, a game can be partially recreated through functional code alone, even without copying visual assets directly. That makes enforcement harder and increases the stakes for AI companies whose models can generate working software.</p>
+
+<h3>What Are The Specifics Of The Update?</h3>
+<p>Anthropic's update targets prompt patterns associated with game recreation rather than banning game development assistance outright. Claude can still help developers build original games, but it will refuse or modify requests that ask it to clone specific named titles or their core systems.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr><th>Detail</th><th>Information</th></tr>
+<tr><td>Company</td><td>Anthropic</td></tr>
+<tr><td>Product Affected</td><td>Claude models, including Claude Code</td></tr>
+<tr><td>Change Type</td><td>New restriction on game-cloning prompts</td></tr>
+<tr><td>Trigger</td><td>Requests to recreate existing commercial video games</td></tr>
+<tr><td>Legal Context</td><td>Ongoing copyright litigation over AI-generated code</td></tr>
+<tr><td>Status</td><td>Live update, already deployed</td></tr>
+</table>
+
+<h2>What Happens Next For AI And Game Developers?</h2>
+<p>Developers using Claude for game-related projects should expect tighter restrictions when prompts reference specific existing titles by name or describe their mechanics in detail. The update does not eliminate Claude's usefulness for original game development, but it narrows the space where users can push the model toward reproducing protected intellectual property.</p>
+
+<p>Other AI companies are likely watching how this plays out, since similar restrictions could become standard practice across the industry if litigation trends continue favoring copyright holders. Anthropic's decision to self-impose limits before a court mandate suggests the company expects legal exposure in this area to grow rather than shrink. For now, the update stands as one of the clearest examples of an AI company altering model behavior specifically to address video game copyright concerns.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWdaMk1uTzMzRnFaWXdrRVVBTWZHNGp0WDAxR010U0pxM0owYjNzeWd2dHRlLWdEOWZRRjh6YWhkWEtpYjg5cWt6SXBqSGtrU0VhUi1uZzY2eXZqVkpmT04wZXhjWHRBS1NDZDJhbTBrVTJLREoyREhfZXIycjhyUVNmOURIMmMxaXhSSXIyOWlwR0ctOW5oRzZjZEdTV3J0UW9CTUlhdW5UUQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793551059",
     slug: "what-fde-means-at-openai-architecture-and-benchmark-ana",
     title: "What FDE means at OpenAI: Architecture and Benchmark Analysis",
