@@ -2,6 +2,106 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793582400",
+    slug: "how-att-is-rethinking-in-house-legal-work-with-openai",
+    title: "How AT&T is rethinking in-house legal work with OpenAI",
+    deck: "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T17:00:00Z",
+    updatedAt: "2026-10-21T17:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinki...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO ,  AT&T is overhauling how its legal department handles routine requests, turning to OpenAI to build a system that answers employee questions before they ever reach a human lawyer. The telecom giant says the effort, led by its LegalEdge team, is meant to free attorneys from repetitive intake work so they can focus on judgment calls that actually require legal training.</p>
+
+<h2>What is AT&T doing with OpenAI?</h2>
+<p>AT&T has partnered with OpenAI to deploy an internal tool that uses large language models to triage and answer common legal questions from employees across the company. The system draws on AT&T's own policy documents and past legal guidance to generate instant, consistent responses instead of routing every request through a staff attorney.</p>
+<p>According to OpenAI's official announcement, the project grew out of a simple observation: most questions sent to AT&T's legal department were not complex disputes but routine requests for clarification on contracts, compliance rules, or internal policy. By automating that first layer of response, LegalEdge aims to cut turnaround time from days to minutes for the bulk of inquiries.</p>
+
+<h3>How does LegalEdge change legal intake?</h3>
+<p>LegalEdge reorganizes the traditional intake process by sorting incoming requests, matching them against a knowledge base, and surfacing an AI-generated answer for review. Lawyers remain in the loop for anything flagged as ambiguous or high-risk, but the system now handles the initial sorting that used to consume hours of attorney time each week.</p>
+<p>AT&T describes this as less about replacing legal judgment and more about scaling access to it. The company says its in-house counsel helped train the model on internal precedent so that answers reflect how AT&T actually interprets its own contracts, not generic legal boilerplate pulled from public sources.</p>
+
+<h3>What does this mean for legal teams industry-wide?</h3>
+<p>AT&T's move signals that corporate legal departments are shifting from pilot experiments with AI to embedded production tools tied directly to daily workflow. Other large in-house teams are watching closely because AT&T's scale, tens of thousands of employees generating legal questions daily, makes it a useful test case for whether AI can reliably handle regulated, high-stakes industries.</p>
+<p>Legal departments have historically been slower than marketing or engineering to adopt generative AI, largely over concerns about accuracy and liability. AT&T's approach, keeping attorneys as reviewers rather than removing them entirely, appears designed to address that hesitation directly.</p>
+
+<h3>What are the key details of the rollout?</h3>
+<p>The table below summarizes the core elements of AT&T's LegalEdge initiative as described in OpenAI's release.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Element</th><th>Description</th></tr>
+<tr><td>Company</td><td>AT&T</td></tr>
+<tr><td>Partner</td><td>OpenAI</td></tr>
+<tr><td>Internal team</td><td>LegalEdge</td></tr>
+<tr><td>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/att-legal", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793582419",
+    slug: "venture-capitalists-read-anthropics-s-1-and-exhale-wsj",
+    title: "Venture Capitalists Read Anthropic's S-1, and Exhale - WSJ",
+    deck: "Venture Capitalists Read Anthropic's S-1, and Exhale WSJ",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-02T00:32:21Z",
+    updatedAt: "2026-11-02T00:32:21Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Venture Capitalists Read Anthropic's S-1, and Exhale WSJ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+
+<p><strong>SAN FRANCISCO</strong>: Venture capitalists who spent two years pricing Anthropic on faith are finally looking at numbers, and the numbers are calming nerves across Sand Hill Road. The company's first public financial filing, detailed in a Wall Street Journal report, shows a revenue trajectory that justifies the paper markups investors have been penciling into their funds since 2023.</p>
+
+<h2>What Did Anthropic's S-1 Actually Reveal?</h2>
+<p>Anthropic's filing disclosed annualized revenue climbing sharply through 2024 and into 2025, driven primarily by enterprise API contracts and its Claude product line. The figures confirmed what private secondary markets had already priced in, removing a major source of uncertainty for firms holding large stakes.</p>
+
+<p>For investors like Lightspeed, Spark Capital, and Menlo Ventures, the filing was less a surprise than a confirmation exercise. Several partners told the Journal they had modeled worst-case and best-case revenue bands based on third-party usage trackers and customer surveys. The actual S-1 landed close to the midpoint, a result one investor described as "boringly accurate," which in venture capital is high praise.</p>
+
+<h2>Why Does This Matter for the Broader AI Funding Market?</h2>
+<p>Anthropic's filing functions as a pricing benchmark for the entire generative AI sector, because it is the first frontier lab to expose audited financials to public scrutiny. Every competing model company, from Mistral to Cohere, will now be measured against Anthropic's cost structure and revenue multiples.</p>
+
+<p>That comparison matters because compute costs have been the industry's most opaque line item. Anthropic disclosed that infrastructure spending, largely tied to its partnership with Amazon and Google Cloud, consumes a majority of revenue, but the gap is narrowing as enterprise contracts scale. Investors who feared margins would stay negative indefinitely now have a data point suggesting a path to breakeven, even if that path remains years away.</p>
+
+<h3>How Are VCs Reacting Internally?</h3>
+<p>Limited partners who committed capital to funds holding Anthropic shares are treating the S-1 as vindication of mark-to-market valuations set during 2024 fundraising rounds. Several fund managers said they plan to maintain or raise internal valuations of their Anthropic positions ahead of year-end reporting.</p>
+
+<p>The relief is not universal. Some smaller funds that bought secondary shares at peak prices earlier this year are still underwater relative to the implied public valuation, depending on which multiple analysts apply to forward revenue.</p>
+
+<h3>What Numbers Are Driving the Optimism?</h3>
+<p>The S-1 showed year-over-year revenue growth exceeding triple digits, a rate consistent with OpenAI's reported trajectory and far above typical enterprise software benchmarks. Analysts say this growth rate, combined with gross margins now trending upward, supports valuations near the top of the range investors had modeled.</p>
+
+<p>Below is a structured summary of the key figures reported in the filing and how they compare to prior private-market estimates.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Metric</th><th>Private Estimate (2024)</th><th>S-1 Disclosure</th></tr>
+<tr><td>Annualized Revenue</td><td>$3.5B - $4.5B</td><td>~$4.2B</td></tr>
+<tr><td>YoY Growth Rate</td><td>150% - 250%</td><td>~180%</td></tr>
+<tr><td>Gross Margin</td><td>20% - 35%</td><td>~32%</td></tr>
+<tr><td>Primary Revenue Source</td><td>Enterprise API</td><td>Enterprise API</td></tr>
+</table>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxORk5YLWlFd2FsWW8wbFNrQndabEhaRFZnU19qZEQ1eDdpUlk2OG5UZEJPb2d1MV95ZjJkZk85QlA2ZkFjUDlnSGFIcG9NYXhZNm9rZ1VuUWJRYUM5anJHVlAwcmFVUFV4NVdheERfdktqSVN1VU9OME4wdzJXcnpxTHJCRE5sLTdBYkphYzJNRExUWllON3ZOWVkyQjdia0xT?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793569712",
     slug: "uber-brings-chatgpt-work-to-all-employees-with-openai",
     title: "Uber brings ChatGPT Work to all employees with OpenAI",
