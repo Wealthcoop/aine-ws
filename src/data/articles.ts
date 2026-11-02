@@ -2,6 +2,101 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793609996",
+    slug: "broad-access-through-consistent-standards",
+    title: "Broad access through consistent standards",
+    deck: "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-21T21:00:00Z",
+    updatedAt: "2026-10-21T21:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/contractor-video-seo.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and c...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  OpenAI on Thursday detailed how it works with the resellers, cloud providers, and enterprise integrators that put its models into the hands of billions of users, framing the effort as a bid to make access broader without making oversight thinner. The announcement, published on OpenAI's official blog, lays out how the company enforces its Usage Policies across a growing web of distribution partners rather than relying solely on direct platform controls.</p>
+
+<h2>What did OpenAI announce about distribution partner standards?</h2>
+<p>OpenAI said it is formalizing a single set of usage and safety requirements that every distribution partner, from resellers to API aggregators, must meet regardless of how customers reach its models. The move standardizes obligations that previously varied by contract and channel, replacing patchwork rules with one enforceable baseline.</p>
+<p>The company said the policy clarifies what partners can and cannot build, how they must screen customers, and what reporting obligations apply when misuse is suspected. OpenAI frames this as an extension of its existing Usage Policies rather than a new regulatory layer, designed to scale safeguards alongside commercial growth.</p>
+
+<h2>Why does OpenAI require consistent safeguards across partners?</h2>
+<p>OpenAI argues that inconsistent enforcement across resellers and platforms creates gaps that bad actors can exploit, so uniform standards close those seams. The company says consistency also gives enterprise customers predictable terms no matter which channel they use to access its technology.</p>
+<p>As OpenAI's models move through cloud marketplaces, system integrators, and regional resellers, the company has faced scrutiny over whether downstream partners apply the same content and safety rules as OpenAI's own consumer products. Thursday's post positions the new framework as a direct answer to that scrutiny, stating that partners must now attest to compliance and submit to periodic review.</p>
+
+<h3>What specific policies are partners expected to follow?</h3>
+<p>Partners must enforce OpenAI's Usage Policies on prohibited content, identity verification for sensitive use cases, and incident reporting timelines. OpenAI said it will audit compliance through contractual review rights rather than real-time technical monitoring alone.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Requirement Area</th><th>Partner Obligation</th></tr>
+<tr><td>Usage Policy Compliance</td><td>Mirror OpenAI's prohibited use rules in customer-facing terms</td></tr>
+<tr><td>Customer Vetting</td><td>Verify identity and intended use for high-risk categories</td></tr>
+<tr><td>Incident Reporting</td><td>Notify OpenAI promptly upon detecting policy violations</td></tr>
+<tr><td>Audit Rights</td><td>Permit periodic compliance review by OpenAI</td></tr>
+<tr><td>Transparency</td><td>Disclose when OpenAI technology powers a product</td></tr>
+</table>
+
+<h3>How will this affect developers and enterprises using OpenAI models?</h3>
+<p>Developers working through resellers or cloud marketplaces will now operate under the same baseline rules as those using OpenAI's API directly, reducing ambiguity about which terms apply. Enterprises should expect more explicit disclosure requirements and, in some cases, added verification steps before deployment.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/broad-access-through-consistent-standards", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793610017",
+    slug: "jim-cramer-says-bears-want-to-derail-anthropic-ipo-as-a",
+    title: "Jim Cramer Says Bears Want to 'Derail' Anthropic IPO as AI Valuation Fears Mount: 'That Will Be the Straw -",
+    deck: "Jim Cramer Says Bears Want to 'Derail' Anthropic IPO as AI Valuation Fears Mount: 'That Will Be the Straw Benzinga",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-02T08:06:22Z",
+    updatedAt: "2026-11-02T08:06:22Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Anthropic Wire (Google News 1h).",
+          "Key focus: Jim Cramer Says Bears Want to 'Derail' Anthropic IPO as AI Valuation Fears Mount: 'That Will Be the Straw Benz...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> ,  Jim Cramer has put a name to Wall Street's latest anxiety attack over artificial intelligence stocks: Anthropic's long-rumored initial public offering. The CNBC host argued this week that short sellers and skeptics are circling the AI sector looking for a trigger event, and a stumble in Anthropic's path to market could become the spark that ignites a broader selloff.</p>
+
+<h2>What did Jim Cramer actually say about Anthropic?</h2>
+<p>Cramer said bearish investors want to "derail" an Anthropic IPO because a failed or disappointing debut would validate growing fears that AI valuations have outrun reality. He framed it as a psychological tipping point, telling viewers "that will be the straw" that breaks confidence in the sector's pricing.</p>
+<p>His comments, delivered on CNBC and amplified across financial media including Benzinga, tie into a larger debate about whether private AI valuations can survive public market scrutiny. Anthropic, maker of the Claude model family, has not confirmed a specific IPO date, but investor chatter has intensified as the company's private valuation has climbed into the hundreds of billions of dollars.</p>
+
+<h2>Why would an IPO stumble matter so much to the entire AI trade?</h2>
+<p>A weak Anthropic debut would matter because public offerings force private valuations into the open, where they face daily trading, short interest, and analyst models instead of closed funding rounds negotiated among insiders. If Anthropic priced below expectations or traded down sharply after listing, it would hand bears concrete evidence that the AI boom's valuation math does not hold up outside venture capital spreadsheets.</p>
+<p>That evidence could spread quickly. Hedge funds and retail traders alike have treated private AI valuations as a proxy for the health of public names like Nvidia, Microsoft, and Palantir, so a visible crack in one high-profile private company's pricing tends to get read as a signal about the whole trade.</p>
+
+<h2>What specifically are bears betting against?</h2>
+<p>Bears are betting that revenue growth at frontier AI labs cannot justify valuations built on future model capability rather than current profit. They point to heavy compute spending, thin margins, and uncertain enterprise adoption timelines as reasons the market has priced in outcomes that have not yet arrived.</p>
+<p>Below is a snapshot of the dynamics Cramer and market watchers are weighing heading into any Anthropic listing.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Factor</th><th>Bull Case</th><th>Bear Case</th></tr>
+<tr><td>Revenue trajectory</td><td>Enterprise API demand scaling fast</td><td>Growth slowing relative to spend</td></tr>
+<tr><td>Compute costs</td><td>Falling per-token costs over time</td><td>Capital expenditure still outpacing revenue</td></tr>
+<tr><td>Valuation benchmark</td><td>Justified by category leadership</td><td>Disconnected from current earnings</td></tr>
+<tr><td>Market sentiment</td><td>AI remains structural growth story</td><td>Bubble comparisons to dot-com era</td></tr>
+<tr><td>IPO timing</td><td>Strong window while demand is high</td><td>Public listing invites forced price discovery</td></tr>
+</table>
+
+<h2>How are other AI companies and investors reacting?</h2>
+<p>Other AI-linked firms are watching closely because Anthropic would be one of the largest and most closely tracked AI listings to date, setting a pricing benchmark for peers including OpenAI's eventual public ambitions. Investors managing exposure to AI infrastructure names say a soft Anthropic debut could trigger repricing across adjacent stocks even without direct financial ties to the company.</p>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVlBqVk5MMlBya2s5XzhjVkpmZi1Nb1daYlh1a1NkdXprNUpBSjM0djNXZUhfNXdWOGRhMWVjdGhpc3FqS1dMX3RhbEJuTzZaRldzdTZncU85d21mU3gtbHhzYzl4eEpFQXdIcGMzRjMzdzBsRWtTRDRBbGU1aU95QldIQ01kQ01GOGtCZDM4Z3ZKMkN3U1oxVWhXalFRUlQydTZPTDZwM1ZmLWJPTG9JZzVXYTQxUG05YjVVTzd5UnZ5NDBXYkpOWVlFeHVVZWluRE5NeUJWdzU2YmQzVjZfZUptOVZWMnNHdXc?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793582400",
     slug: "how-att-is-rethinking-in-house-legal-work-with-openai",
     title: "How AT&T is rethinking in-house legal work with OpenAI",
