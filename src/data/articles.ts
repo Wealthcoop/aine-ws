@@ -2,6 +2,90 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793649730",
+    slug: "introducing-the-grid-protectors-program",
+    title: "Introducing the Grid Protectors Program",
+    deck: "OpenAI's Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-02T15:00:00Z",
+    updatedAt: "2026-11-02T15:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/crm-automation-blueprint.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI's Grid Protectors Program will work with utilities to help future compute campuses support grid reliabi...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO ,  OpenAI announced Thursday a new initiative called the Grid Protectors Program, an effort to work directly with electric utilities as the company builds out its next generation of compute campuses. The program is designed to address a growing concern among regulators and ratepayers: that massive AI data center buildouts could strain regional power grids and push up household electricity bills.</p>
+
+<h2>What Is the Grid Protectors Program?</h2>
+<p>The Grid Protectors Program is a partnership framework through which OpenAI will coordinate with utility companies before and during the construction of large compute campuses. The goal is to align new data center power demand with grid capacity planning so that existing customers do not absorb higher costs or face reliability problems.</p>
+<p>According to OpenAI's announcement, the company will share long-term load forecasts with utility partners, fund grid upgrades tied directly to its own facilities, and agree to flexible power consumption arrangements that let utilities reduce data center draw during periods of peak regional demand. OpenAI framed the move as a response to criticism that AI companies have expanded computing capacity faster than utilities can plan for it.</p>
+
+<h2>Why Is OpenAI Partnering With Utilities Now?</h2>
+<p>OpenAI is launching the program now because electricity demand from AI data centers has become a political and economic flashpoint in states where new campuses are planned. Utility commissions in several states have raised concerns that data center growth could raise rates for ordinary households and businesses.</p>
+<p>Power consumption from large AI training clusters has grown sharply over the past two years, and utilities have warned that unplanned demand spikes can force costly infrastructure upgrades. By committing to advance planning and cost-sharing arrangements, OpenAI is positioning itself to avoid regulatory backlash and public opposition that has slowed data center projects in other markets.</p>
+
+<h2>How Will the Program Protect Consumer Electricity Costs?</h2>
+<p>OpenAI says the program will protect consumer costs by requiring its compute campuses to fund grid infrastructure upgrades rather than passing those costs to ratepayers through utility bills. The company will also commit to demand flexibility agreements that reduce its own power draw during grid stress events.</p>
+<p>Under the arrangement, OpenAI facilities would temporarily throttle or shift nonurgent computing workloads when utilities signal strain on the system, similar to demand response programs already used by large industrial customers. OpenAI said this approach should keep new campuses from becoming a net burden on regional power systems, though it did not specify financial penalties for noncompliance.</p>
+
+<h3>What Does the Program's Framework Look Like?</h3>
+<p>The framework rests on four main commitments that OpenAI says will apply to future compute campuses built under the program. These include forecasting transparency, direct infrastructure funding, demand flexibility, and ongoing utility coordination.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Commitment</th><th>Description</th></tr>
+<tr><td>Forecasting Transparency</td><td>Share long-term power demand projections with utility partners before construction begins</td></tr>
+<tr><td>Infrastructure Funding</td><td>Cover costs of grid upgrades specific to new compute campuses</td></tr>
+<tr><td>Demand Flexibility</td><td>Reduce or shift computing load during peak grid stress periods</td></tr>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/grid-protectors-program", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793649749",
+    slug: "the-latest-ai-news-we-announced-in-october-2026",
+    title: "The latest AI news we announced in October 2026",
+    deck: "Here are Google's latest AI updates from October 2026",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-02T17:45:00Z",
+    updatedAt: "2026-11-02T17:45:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/barcelona-search-conference.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Here are Google's latest AI updates from October 2026...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> ,  Google used its October 2026 AI roundup to detail a batch of updates spanning its Gemini model family, search products, enterprise software, and safety policy. The announcement, published on the Google AI blog, consolidates roughly a dozen separate product changes that rolled out across the month.</p>
+
+<h2>What did Google announce in its October 2026 AI update?</h2>
+<p>Google confirmed a set of updates covering Gemini model improvements, new AI features in Search and Workspace, expanded enterprise tooling through Google Cloud, and additional safety guardrails for generative tools. The company framed the release as a routine monthly checkpoint rather than a single flagship launch, consistent with its 2026 cadence of smaller, frequent updates instead of large annual releases.</p>
+
+<h3>What changed in Gemini?</h3>
+<p>Google rolled out performance tuning for its Gemini model line aimed at faster response times and lower compute cost per query. The update also expanded context handling for long documents and added improved citation accuracy when Gemini pulls from web sources.</p>
+<p>Engineers described the changes as incremental rather than a full model generation shift, with most gains coming from retrieval tuning and inference optimization. Google said the updates are rolling out gradually across the Gemini app and API tiers through November.</p>
+
+<h3>How is Google expanding AI in Search?</h3>
+<p>Google extended AI Overviews and AI Mode to additional query categories, including local shopping and travel planning, while adding clearer source attribution links. The company said these changes are meant to reduce the need for users to open multiple tabs for comparison research.</p>
+<p>Google also said it is testing a feature that lets users refine AI-generated search summaries through follow-up prompts without leaving the results page. That feature remains limited to a subset of English-language users in the United States as of this report.</p>
+
+<h3>What new enterprise tools did Google release?</h3>
+<p>Google Cloud introduced updated Vertex AI tooling for enterprise customers, including simplified fine-tuning workflows and expanded data connectors for internal company systems. The company said the goal is to shorten deployment timelines for businesses building custom AI agents on Google's infrastructure.</p>
+<p>Workspace also received updates, with Gmail and Docs gaining deeper Gemini integration for drafting, summarizing, and meeting-note generation. Google said these features are available now to Workspace Business and Enterprise subscribers, with wider rollout expected later in the quarter.</p>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793609996",
     slug: "broad-access-through-consistent-standards",
     title: "Broad access through consistent standards",
