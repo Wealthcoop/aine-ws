@@ -2,6 +2,200 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793724602",
+    slug: "heimstaden-is-changing-residential-real-estate-manageme",
+    title: "Heimstaden is changing residential real estate management with AI",
+    deck: "Discover how Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-03T08:00:00Z",
+    updatedAt: "2026-11-03T08:00:00Z",
+    readingTimeMinutes: 6,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Discover how Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong>, the residential real estate sector has largely sat on the sidelines of the generative AI boom, but Heimstaden, one of Europe's largest private residential landlords, is positioning itself as an early proof point that property management can be rebuilt around large language models rather than legacy software stacks. The company, which owns and operates roughly 160,000 rental homes across Northern and Continental Europe, has deployed OpenAI's ChatGPT Enterprise and Codex across its workforce, according to a case study published by OpenAI.</p>
+
+<h2>What Is Heimstaden Actually Doing With OpenAI's Tools?</h2>
+<p>Heimstaden has rolled out ChatGPT Enterprise company-wide and is using OpenAI's Codex coding agent to let non-engineering staff build internal software tools. The result, per OpenAI's account, is a company where property managers, customer service agents, and finance staff are automating tasks that previously required either manual labor or a ticket to the IT department.</p>
+<p>The deployment reflects a broader pattern among European real estate operators: rather than purchasing a single vertical SaaS product for AI, Heimstaden chose a general-purpose enterprise AI platform and let employees across departments find their own use cases. That decision matters because residential property management is an operationally fragmented business, spanning leasing, maintenance dispatch, tenant communication, regulatory compliance, and financial reporting, often across multiple countries with different languages and legal regimes.</p>
+
+<h3>Why Does a Landlord Need Codex, a Coding Tool?</h3>
+<p>Codex matters here because it lets Heimstaden employees without formal software engineering backgrounds build and modify internal applications, shrinking the gap between identifying an operational problem and shipping a fix. Instead of routing every workflow idea through a centralized IT backlog, teams closer to the problem can prototype and deploy tools themselves.</p>
+<p>This is a notable departure from how most real estate firms have historically approached technology. Property management software has traditionally been purchased from vertical vendors such as Yardi, RealPage, or MRI Software, with customization requiring vendor contracts or in-house developer teams. By giving frontline staff access to an AI coding agent, Heimstaden is effectively testing whether internal "citizen development" can replace some of that vendor dependency, at least for narrower, company-specific workflows.</p>
+
+<h2>What Problem Is Heimstaden Actually Trying to Solve?</h2>
+<p>Heimstaden operates at a scale where even small inefficiencies multiply across tens of thousands of units and multiple national markets. Administrative overhead, including tenant correspondence, lease documentation, maintenance coordination, and compliance reporting, consumes staff time that could otherwise go toward higher-value tenant relationship work or portfolio strategy.</p>
+<p>Large residential landlords in Europe face a structural cost problem: rental yields are thin, regulatory scrutiny over tenant treatment is intensifying in markets like Sweden, Germany, and the Netherlands, and headcount growth doesn't scale cleanly with portfolio growth. Heimstaden's bet, as described in OpenAI's case study, is that AI tools embedded directly into daily workflows can absorb some of that administrative burden without requiring proportional hiring.</p>
+
+<h3>How Does This Compare to Past Real Estate Tech Cycles?</h3>
+<p>Real estate has gone through previous technology waves, including PropTech-branded SaaS platforms, IoT sensors for building management, and data analytics for portfolio valuation, but most of those tools required specialized vendors and lengthy integration projects. Heimstaden's approach differs by centering the employee as the builder, using general-purpose AI tools that don't require a dedicated PropTech vendor relationship for every use case.</p>
+<p>That shift is consistent with what OpenAI and other large language model providers have pitched to enterprise customers broadly over the past two years: instead of buying narrow point solutions, companies deploy a general model across the organization and let department-level staff identify where it saves time. Heimstaden's case, as presented by OpenAI, is being used as an example of that philosophy applied to a historically slow-moving, operationally heavy sector.</p>
+
+<h2>What Results Has Heimstaden Reported?</h2>
+<p>OpenAI's case study on Heimstaden frames the deployment around three themes: cost reduction, employee empowerment, and scale across European operations. The company has used ChatGPT Enterprise broadly across its staff and Codex specifically to enable internal tool-building, with OpenAI positioning the result as a transformation of how property management work gets done.</p>
+<p>Specific quantified metrics from Heimstaden's internal reporting were not broken out in granular detail within the publicly available source material, but the directional claim from OpenAI is that administrative and operational costs have been reduced through automation of previously manual processes, while employees who are not software engineers have been able to build functional internal tools using Codex. This marks a continuation of a trend OpenAI has promoted with other enterprise customers: using Codex not just for professional software engineering teams, but for business-side staff solving operational problems directly.</p>
+
+<h3>What Does This Mean for Property Managers and Tenants?</h3>
+<p>For the people managing Heimstaden's buildings day to day, the practical effect is fewer manual steps between identifying a problem and resolving it, whether that is drafting tenant communications, processing maintenance requests, or compiling reports for regulators and investors. For tenants, the theoretical benefit is faster response times and more consistent communication, assuming the automation is implemented without degrading service quality.</p>
+<p>The risk, which OpenAI's promotional case study does not address in depth, is that aggressive automation in landlord operations has historically drawn scrutiny from tenant advocacy groups and regulators, particularly in markets where Heimstaden operates, such as Sweden and Germany, where tenant protection laws are strict. Automating tenant-facing communication or lease enforcement decisions carries reputational and legal risk if not carefully bounded, a tension that sits underneath any large-scale AI deployment in residential housing.</p>
+
+<h2>Why Does OpenAI Care About a Residential Landlord?</h2>
+<p>For OpenAI, Heimstaden functions as a marketing proof point in a specific, less glamorous enterprise category: real asset management rather than software or finance. Most of OpenAI's widely publicized enterprise customers come from tech, media, and professional services. A large-scale European property manager offers a different kind of validation, showing that ChatGPT Enterprise and Codex can embed into operationally heavy, geographically distributed, non-tech-native businesses.</p>
+<p>This matters for OpenAI's broader enterprise sales strategy. The company is competing with Microsoft Copilot, Google's Gemini for Workspace, and Anthropic's Claude for enterprise seats across every major industry vertical, and case studies in traditionally slower-moving sectors like real estate, logistics, and manufacturing serve as evidence that generative AI adoption is not confined to software companies.</p>
+
+<h3>What Should the Industry Watch Next?</h3>
+<p>The real test for Heimstaden's AI deployment will be whether the efficiency gains OpenAI describes hold up over a longer operating period, across multiple national regulatory environments, and under scrutiny from tenant groups and labor representatives. Residential real estate is a politically sensitive sector in much of Europe, and any AI-driven workforce changes, including reduced hiring or role restructuring, will likely draw attention beyond the tech press.</p>
+<p>Investors and competitors in the PropTech and institutional landlord space will also be watching whether Heimstaden's build-it-yourself model, powered by Codex, scales cleanly or creates governance and consistency problems as more employees build their own internal tools without centralized software engineering oversight. That tension between speed and control is not unique to real estate, but it is particularly consequential in a sector handling tenant data, lease compliance, and housing as a basic need rather than a discretionary product.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>Category</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Company</td>
+<td>Heimstaden</td>
+</tr>
+<tr>
+<td>Sector</td>
+<td>Residential real estate management</td>
+</tr>
+<tr>
+<td>Portfolio size</td>
+<td>Approximately 160,000 rental homes</td>
+</tr>
+<tr>
+<td>Geographic footprint</td>
+<td>Northern and Continental Europe</td>
+</tr>
+<tr>
+<td>AI tools deployed</td>
+<td>ChatGPT Enterprise, Codex</td>
+</tr>
+<tr>
+<td>Provider</td>
+<td>OpenAI</td>
+</tr>
+<tr>
+<td>Primary stated goals</td>
+<td>Cost reduction, employee empowerment, operational automation</td>
+</tr>
+<tr>
+<td>Source</td>
+<td>OpenAI official case study, openai.com/index/heimstaden</td>
+</tr>
+</tbody>
+</table>
+
+<p>Heimstaden's case study, published directly by OpenAI, is one data point in a sector that has been slower than finance or media to publicly disclose generative AI deployments at this scale. Whether it becomes a template for other large European landlords, or a cautionary example if automation friction surfaces in tenant relations, will depend on operational details that have not yet been independently verified outside OpenAI's own account.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/heimstaden", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793725211",
+    slug: "openai-hires-ex-us-army-secretary-dan-driscoll-to-overs",
+    title: "OpenAI hires ex-US Army Secretary Dan Driscoll to oversee national security modernization, as it pushes to",
+    deck: "Gareth Vipers / Wall Street Journal : OpenAI hires ex-US Army Secretary Dan Driscoll to oversee national security modernization, as it pushes to secure government contracts...",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-03T11:25:01Z",
+    updatedAt: "2026-11-03T11:25:01Z",
+    readingTimeMinutes: 5,
+    featuredImage: "/news/google-core-update.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Techmeme AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Techmeme AI Wire.",
+          "Key focus: Gareth Vipers / Wall Street Journal : OpenAI hires ex-US Army Secretary Dan Driscoll to oversee national secur...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h2>What Did OpenAI Announce About Dan Driscoll?</h2>
+<p>OpenAI has hired Dan Driscoll, who served as United States Army Secretary, to lead a new push on national security modernization, according to a Wall Street Journal report by Gareth Vipers. The move signals the company's intent to deepen its ties with the Pentagon and other federal agencies as competition for government artificial intelligence contracts intensifies.</p>
+
+<p>The hire places a former senior defense official inside one of the world's most valuable AI companies at a moment when Washington is racing to define how large language models get deployed across military and intelligence operations. Driscoll's background gives OpenAI a direct line into procurement processes, force modernization priorities, and the institutional culture of the Department of Defense, areas where technology vendors have historically struggled to gain traction.</p>
+
+<h2>Who Is Dan Driscoll?</h2>
+<p>Dan Driscoll served as Secretary of the Army, the civilian official responsible for overseeing the branch's manning, training, equipping, and modernization programs. His tenure placed him at the center of debates over how the Army should integrate software, data, and automation into legacy weapons systems and logistics networks.</p>
+
+<p>As Army Secretary, Driscoll held authority over budget priorities that determine which technology vendors win contracts worth billions of dollars annually. That experience, according to the Journal's reporting, is precisely what OpenAI is betting on as it tries to convert its commercial AI dominance into a foothold within the defense establishment, an environment governed by security clearances, compliance regimes, and acquisition rules that differ sharply from the enterprise software market OpenAI has already conquered.</p>
+
+<h3>Why Is OpenAI Building a National Security Team Now?</h3>
+<p>OpenAI is building out its national security operations because the federal government represents one of the largest remaining untapped markets for frontier AI models, and rivals are already moving aggressively to claim it. The company has spent the past two years shifting from a research lab wary of military applications to an active bidder for defense and intelligence contracts.</p>
+
+<p>That shift became formal when OpenAI updated its usage policies to permit national security work, reversing an earlier blanket restriction on military applications. The company subsequently rolled out ChatGPT Gov, a version of its chatbot tailored for federal agencies with stricter data handling requirements, and it has discussed work with defense contractors on tools meant to support military personnel rather than autonomous weapons. Driscoll's hiring extends that trajectory, giving OpenAI a credentialed insider who can navigate the Pentagon's bureaucracy and speak the language of military procurement officers.</p>
+
+<h3>How Does This Fit OpenAI's Broader Government Strategy?</h3>
+<p>This hire fits a pattern of OpenAI systematically recruiting former government officials and opening physical offices near centers of federal power. The company established a Washington, D.C. presence specifically to court agency relationships, and it has layered in policy and government affairs staff pulled from past administrations.</p>
+
+<p>The strategy mirrors moves by other major AI labs. Anthropic, Google, and Microsoft have each built government-facing sales and compliance teams to compete for classified and unclassified contracts across defense, intelligence, and civilian agencies. OpenAI's addition of a former Army Secretary raises the stakes in that competition because it brings someone who has sat on the other side of the negotiating table, someone who understands exactly what criteria shape multi-year modernization budgets and how vendors get shortlisted for sensitive programs.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr>
+<th>Detail</th>
+<th>Information</th>
+</tr>
+<tr>
+<td>Hire</td>
+<td>Dan Driscoll, former U.S. Army Secretary</td>
+</tr>
+<tr>
+<td>New Role</td>
+<td>Oversight of national security modernization at OpenAI</td>
+</tr>
+<tr>
+<td>Reporting Outlet</td>
+<td>Wall Street Journal (Gareth Vipers)</td>
+</tr>
+<tr>
+<td>Strategic Goal</td>
+<td>Secure government and defense contracts</td>
+</tr>
+<tr>
+<td>Related Product</td>
+<td>ChatGPT Gov, deployed for federal agency use</td>
+</tr>
+<tr>
+<td>Industry Context</td>
+<td>Rivals Anthropic, Google, and Microsoft also expanding government AI sales teams</td>
+</tr>
+</table>
+
+<h2>What Does This Mean for OpenAI's Relationship With the Pentagon?</h2>
+<p>This hire gives OpenAI a more credible path into Pentagon decision making because Driscoll understands the internal mechanics of military modernization from direct experience. Defense officials tend to trust vendors who have already operated inside the system, and a former Army Secretary carries institutional legitimacy that outside technology executives typically lack.</p>
+
+<p>The Department of Defense has been under pressure from Congress and successive administrations to modernize decades-old IT infrastructure, logistics systems, and decision support tools. Commercial AI companies see an opening in that pressure, arguing that large language models can accelerate everything from intelligence analysis to equipment maintenance scheduling. Driscoll's job, as described in the Journal's reporting, will be to help translate OpenAI's commercial technology into formats that satisfy military requirements around security, reliability, and accountability, requirements that have slowed adoption of consumer-grade AI tools inside classified environments.</p>
+
+<h3>How Does This Compare to Rivals in the Defense AI Race?</h3>
+<p>OpenAI's move puts it in direct competition with Anduril, Palantir, and other firms that have spent years building specialized relationships with the Pentagon. Those companies built their businesses from the outset around defense contracting, giving them a head start in security clearances, compliance infrastructure, and trusted relationships with procurement officers.</p>
+
+<p>OpenAI, by contrast, built its reputation and revenue on consumer and enterprise products such as ChatGPT and its developer API. Catching up in the defense sector requires more than technical capability. It requires the kind of institutional knowledge that comes from having actually run a branch of the military, which is exactly what Driscoll provides. His hiring suggests OpenAI recognizes that technical superiority alone will not win government contracts in a sector where trust, process, and security track records matter as much as model performance.</p>
+
+<h2>What Are the Risks and Open Questions?</h2>
+<p>The central risk is reputational, since OpenAI's deeper entry into defense work revives longstanding tension between Silicon Valley's AI labs and employees who object to military applications of their technology. Google faced internal revolt over its Project Maven contract with the Pentagon, and OpenAI itself originally barred military use of its models before reversing course.</p>
+
+<p>Open questions also remain about the scope of Driscoll's authority, which specific contracts or agencies OpenAI is targeting, and how the company will handle the safety and oversight commitments it has made publicly about avoiding autonomous weapons applications. The Journal's report frames the hire as part of a broader push to secure government contracts, but the practical boundaries of what OpenAI will and will not build for the military remain to be clarified in public statements from the company.</p>
+
+<h3>What Happens Next?</h3>
+<p>The next phase will likely involve OpenAI formalizing specific agency partnerships and expanding its government sales and compliance staff to support Driscoll's mandate. Expect additional hires with defense and intelligence backgrounds as the company builds out infrastructure capable of meeting federal security certification standards.</p>
+
+<p>Industry observers will also be watching whether competitors respond with their own high-profile defense hires, a pattern already visible across the AI sector as labs race to position themselves ahead of an expected surge in federal AI procurement spending. The outcome of that race will shape not just which companies profit from government contracts, but how artificial intelligence gets embedded into military decision making for years to come.</p>`,
+    sources: [
+      { name: "Techmeme AI Wire", url: "https://www.techmeme.com/261103/p9#a261103p9", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793649730",
     slug: "introducing-the-grid-protectors-program",
     title: "Introducing the Grid Protectors Program",
