@@ -2,6 +2,113 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793746324",
+    slug: "google-business-profile-optimization-guide-for-2026",
+    title: "Google Business Profile Optimization Guide for 2026",
+    deck: "How to optimize a Google Business Profile in 2026: what moves the map pack, the order to do it in, what stopped working and how to read the numbers.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-03T22:51:28Z",
+    updatedAt: "2026-11-03T22:51:28Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/local-citation-audit.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: How to optimize a Google Business Profile in 2026: what moves the map pack, the order to do it in, what stoppe...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> A new optimization checklist for Google Business Profile, published this week by digital strategist CW Brannan and circulating through local-search channels, lays out a specific, sequenced approach to managing the free listings that determine map pack visibility for millions of small businesses heading into 2026. The guide arrives as merchants and marketing agencies scramble to adapt their local listings to a search environment increasingly filtered through Google's AI Overviews before a user ever sees a traditional result.</p>
+
+<h2>What is driving the push for a new Google Business Profile guide in 2026?</h2>
+<p>The catalyst is a shift in how Google surfaces local results: AI-generated summaries and zero-click answers now sit above or alongside the map pack, meaning an incomplete or stale profile can get skipped entirely before a business ever competes on traditional ranking signals. That has pushed consultants like Brannan to reframe profile optimization as an ongoing data-maintenance task rather than a one-time setup chore.</p>
+<p>Local businesses have treated Google Business Profile as a "set it and forget it" listing for years, filling in an address and hours once and moving on. The 2026 guide argues that approach now actively hurts visibility, because Google's local algorithm weighs freshness and consistency alongside the three factors it has long disclosed publicly: relevance, distance and prominence.</p>
+
+<h2>What does the 2026 checklist actually prioritize, and in what order?</h2>
+<p>The checklist sequences work from foundational data accuracy to ongoing engagement signals, arguing that posts, photos and review responses only help once the profile's structural data (category, service area, name-address-phone consistency) is locked down. Skipping straight to review generation or photo uploads without fixing categories and NAP data, the guide warns, wastes effort because Google cannot match the listing to relevant searches in the first place.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Priority</th><th>Action Area</th><th>Why It Comes First or Later</th></tr>
+<tr><td>1</td><td>Primary and secondary category selection</td><td>Determines which searches the profile is eligible to appear in at all</td></tr>
+<tr><td>2</td><td>Name, address, phone (NAP) consistency across the web</td><td>Inconsistent data undermines trust signals tied to prominence</td></tr>
+<tr><td>3</td><td>Service area and hours accuracy</td><td>Affects distance-based matching for mobile and "near me" queries</td></tr>
+<tr><td>4</td><td>Review volume, recency and owner responses</td><td>Signals ongoing legitimacy and customer engagement</td></tr>
+<tr><td>5</td><td>Geo-tagged photos and video updates</td><td>Reinforces location relevance and keeps the listing active</td></tr>
+<tr><td>6</td><td>Google Posts, Q&A seeding and booking/messaging setup</td><td>Lower-weight engagement signals, most effective once the base is solid</td></tr>
+</table>
+
+<h2>Who gains and who loses once this checklist becomes standard practice?</h2>
+<p>Businesses with the staff or agency support to treat their profile as a living asset, updating hours, answering reviews weekly, and rotating fresh photos, stand to pull ahead of competitors who still log into their listing once a year. Multi-location franchises and single-location independents with consistent NAP data across directories are positioned to benefit most, since Google's prominence signal rewards that cross-web consistency.</p>
+<p>Businesses that lose ground include those with duplicate or unmanaged listings, incorrect categories chosen years ago, or a backlog of unanswered negative reviews. Agencies that sold static "profile setup" packages without ongoing maintenance plans will also find their past work underperforming against competitors now following the sequenced approach.</p>
+
+<h3>What are the real limits and risks businesses should weigh before chasing this checklist?</h3>
+<p>Google does not publish a ranking formula, so any checklist, including this one, is built from observed patterns rather than confirmed algorithm code. Businesses should treat the guide as a disciplined best-practice framework, not a guaranteed ranking lever, and should be wary of any claim that a specific tactic produces a predictable map pack jump.</p>
+<p>There are also enforcement risks baked into the process. Google has suspended profiles for category misuse, fake review clusters and address spoofing, so businesses optimizing aggressively around category stacking or incentivized reviews risk profile suspension rather than improved visibility, a trade-off the checklist flags but one many operators underweight.</p>
+
+<h2>What should businesses and marketers expect going into 2026?</h2>
+<p>Expect profile maintenance to become a recurring line item in local marketing budgets rather than a one-time onboarding task, as AI Overviews and zero-click search put more weight on data freshness. The full checklist, including screenshots and step-by-step sequencing, is available from the original publisher, CW Brannan, at cwbrannan.com, and businesses evaluating their own listings should treat it as a starting framework to adapt rather than a fixed script to copy without local testing.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://cwbrannan.com/blog/google-business-profile-optimization-checklist", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793746350",
+    slug: "google-maps-proximity-update-what-to-do-now-distribb",
+    title: "Google Maps Proximity Update: What to Do Now | Distribb",
+    deck: "Matt Hammerton's scans show a Google Maps proximity update shrinking ranking radiuses. Here is how to test your listing and what to do next.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-03T22:52:04Z",
+    updatedAt: "2026-11-03T22:52:04Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/ai-review-analysis.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Matt Hammerton's scans show a Google Maps proximity update shrinking ranking radiuses. Here is how to test you...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> Google Maps appears to be narrowing the geographic radius it uses to rank local business listings, according to scan data published this week by local search researcher Matt Hammerton. The shift, which Hammerton's monitoring tools first flagged in recent ranking snapshots, is already changing which businesses surface in "near me" searches across dense metro areas.</p>
+
+<h2>What Did Matt Hammerton's Scans Actually Find?</h2>
+<p>Hammerton's tracking data shows that businesses previously ranking within a three to five mile radius of a searcher are now dropping out of top local pack results at distances as short as one to two miles in some test markets. The pattern held across multiple verticals he monitored, suggesting a platform-level change rather than an isolated glitch in one industry category.</p>
+<p>The scans, run through Distribb's listing-monitoring pipeline, compared ranking positions for identical search queries at staggered distances from a fixed point. Listings that held steady positions a month earlier showed measurable rank decay once the searcher's simulated location moved beyond the newly observed threshold.</p>
+
+<h2>Why Is This Surfacing Now?</h2>
+<p>Google has not issued a public announcement confirming a proximity algorithm change, which is typical of the company's approach to local search adjustments. Local pack rankings have historically been among the least transparent parts of Google's search stack, and operators often learn about shifts only through third-party monitoring rather than official changelogs.</p>
+<p>The timing coincides with a broader push by Google to tighten relevance signals in Maps results as the platform fields growing search volume from mobile users expecting hyper-local answers. Distribb's team notes that proximity has long been one of the three core local ranking factors alongside relevance and prominence, and tightening that radius would align with Google's stated preference for serving the closest viable match.</p>
+
+<h2>What Does the Evidence Show So Far?</h2>
+<p>Hammerton's data set spans multiple cities and business categories, with consistent before-and-after comparisons rather than a single anomalous reading. The pattern repeats across different query types, which strengthens the case that this reflects a ranking mechanism change rather than noise in search results.</p>
+<table>
+<tr><th>Observation</th><th>Prior Behavior</th><th>Post-Shift Behavior</th></tr>
+<tr><td>Effective ranking radius</td><td>3 to 5 miles</td><td>1 to 2 miles (reported range)</td></tr>
+<tr><td>Markets tested</td><td>Multiple metro areas</td><td>Same markets, repeat scans</td></tr>
+<tr><td>Verticals affected</td><td>Cross-category</td><td>Cross-category, consistent pattern</td></tr>
+<tr><td>Official Google confirmation</td><td>None</td><td>None as of this report</td></tr>
+</table>
+<p>No Google spokesperson has confirmed or denied an algorithm update tied to proximity weighting, and the company's public documentation on local ranking factors has not been revised to reflect a new radius standard.</p>
+
+<h2>Who Wins and Who Loses From a Tighter Radius?</h2>
+<p>Businesses located in the center of dense commercial corridors stand to gain visibility, since a shrinking radius concentrates ranking opportunity around the searcher's immediate location. Multi-location franchises and service-area businesses that relied on wider catchment zones to appear across a metro area are the likely losers, particularly plumbers, contractors, and other trades that previously ranked for searches well outside their physical storefront.</p>
+<p>Businesses in suburban or lower-density areas may see reduced competition from distant rivals muscling into their search results, which could offset losses for some operators even as others lose reach entirely.</p>
+
+<h2>What Are the Hurdles and Trade-offs Here?</h2>
+<p>Hammerton's findings come from scan-based monitoring rather than a Google-confirmed policy statement, so the exact mechanics, permanence, and rollout scope of the change remain unverified. Ranking fluctuations in local search are frequently tied to account-specific signals, review velocity, or temporary testing cohorts, meaning some of the observed shifts could resolve without a formal algorithm update ever being confirmed.</p>
+<p>Business owners should treat the data as an early warning rather than a settled fact, since Google has reversed or softened local ranking changes before without public notice.</p>
+
+<h2>What Should Businesses Do Right Now?</h2>
+<p>Distribb recommends that local businesses run their own distance-based scans using varied searcher locations to see whether their listings show the same drop-off pattern Hammerton documented. Operators should also audit their Google Business Profile for accurate service-area settings, since proximity weighting changes tend to penalize listings with outdated or overly broad service radius claims.</p>
+<p>Until Google issues an official statement, the practical move is defensive: tighten service-area accuracy, reinforce review and citation signals that support relevance and prominence, and monitor ranking positions weekly rather than assuming historical performance will hold. Hammerton's scans will likely draw scrutiny from other local SEO researchers in coming weeks, and corroborating data from independent monitoring tools would be the clearest signal that this is a durable platform shift rather than a temporary fluctuation.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://distribb.io/blog/google-maps-proximity-update", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793724602",
     slug: "heimstaden-is-changing-residential-real-estate-manageme",
     title: "Heimstaden is changing residential real estate management with AI",
