@@ -1,9 +1,9 @@
 name: Autonomous AI News Wire Pipeline
 
 on:
-  schedule:
-    # Runs every 2 hours around the clock
-    - cron: '0 */2 * * *'
+  # schedule:
+  #   # Paused until manual review and quality gate confirmation
+  #   - cron: '0 */2 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI
 
 permissions:

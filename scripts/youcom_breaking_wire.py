@@ -42,9 +42,9 @@ FINEST_KEYS = [
     'fk_nZb9pbqyBF80RsTX_Ay1qj3oVH6QZMm6'
 ]
 
-def ask_finest_generator(system_prompt, user_prompt, max_tokens=1500):
-    for attempt in range(4):
-        key = FINEST_KEYS[attempt % len(FINEST_KEYS)]
+def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
+    for attempt in range(len(FINEST_KEYS)):
+        key = FINEST_KEYS[attempt]
         headers = {
             'Content-Type': 'application/json',
             'Authorization': f'Bearer {key}',
@@ -60,7 +60,7 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=1500):
         }
         req = urllib.request.Request(FINEST_API_URL, data=json.dumps(data).encode('utf-8'), headers=headers)
         try:
-            with urllib.request.urlopen(req, context=_SSL_CTX, timeout=90) as resp:
+            with urllib.request.urlopen(req, context=_SSL_CTX, timeout=60) as resp:
                 res = json.loads(resp.read().decode('utf-8'))
                 txt = res['choices'][0]['message']['content'].strip()
                 txt = re.sub(r'^```html\s*', '', txt)
@@ -68,8 +68,36 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=1500):
                 txt = txt.replace('—', ', ').replace('--', ', ')
                 return txt
         except Exception as e:
-            print(f"[!] Finest API attempt {attempt+1} failed: {e}")
-            time.sleep(2)
+            print(f"[!] You.com wire Finest API attempt {attempt+1} failed: {e}")
+            time.sleep(1)
+
+    # Fallback to OpenRouter if available
+    openrouter_key = os.environ.get('OPENROUTER_API_KEY')
+    if openrouter_key:
+        try:
+            headers = {
+                'Authorization': f'Bearer {openrouter_key}',
+                'Content-Type': 'application/json'
+            }
+            payload = {
+                'model': 'google/gemini-2.5-flash',
+                'messages': [
+                    {'role': 'system', 'content': system_prompt},
+                    {'role': 'user', 'content': user_prompt}
+                ],
+                'max_tokens': max_tokens
+            }
+            req = urllib.request.Request('https://openrouter.ai/api/v1/chat/completions', data=json.dumps(payload).encode('utf-8'), headers=headers)
+            with urllib.request.urlopen(req, context=_SSL_CTX, timeout=60) as resp:
+                res = json.loads(resp.read().decode('utf-8'))
+                txt = res['choices'][0]['message']['content'].strip()
+                txt = re.sub(r'^```html\s*', '', txt)
+                txt = re.sub(r'\s*```$', '', txt)
+                txt = txt.replace('—', ', ').replace('--', ', ')
+                return txt
+        except Exception as e:
+            print(f"[!] You.com wire OpenRouter fallback failed: {e}")
+
     return None
 
 
@@ -359,42 +387,70 @@ def ingest_wire_stories(limit=3):
                 "Primary source documentation and full disclosure links are included below."
             ]
 
-            # Generate substantive 600-word article via Finest API
+            # Generate comprehensive in-depth article (minimum 1,100 to 1,500 words)
             system_prompt = f"""You are {author_name} at AI News (aine.ws).
 Voice: Authoritative, practical, direct (Stratechery meets Reuters).
 STRICT RULES:
-1. NEVER use em dashes or double hyphens.
+1. NEVER use em dashes or double hyphens anywhere. Use colons, commas, parentheses, or separate sentences.
 2. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh, sub-300ms.
 3. Every <h2> and <h3> must be a clear question ending with a question mark (?).
 4. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
 5. Include an HTML <table> or structured specification box.
-6. Keep total output between 550 and 700 words. End with a closed </p> tag.
+6. Minimum depth: Total output must be at least 1,100 to 1,500 words of thorough, substantive reporting. Close all HTML tags cleanly.
 """
-            user_prompt = f"""Write a 600-word journalistic news report on '{clean_title}'.
+            user_prompt = f"""Write an authoritative, comprehensive 1,200-word journalistic news report on '{clean_title}'.
 Source URL: {url}
 Context / Snippets: {deck}
 Dateline: {topic['dateline']}
 Close all HTML tags cleanly."""
 
             generated_html = ask_finest_generator(system_prompt, user_prompt)
-            if generated_html:
-                dangling_patterns = [
-                    r'<p>\s*(?:Here(?: is|'s) the (?:sequence|build order|structure|breakdown)[^<]*)\s*</p>\s*$',
-                    r'<p>\s*(?:The structure that works every time:?)\s*</p>\s*$'
-                ]
-                for pat in dangling_patterns:
-                    generated_html = re.sub(pat, '', generated_html, flags=re.IGNORECASE)
-                if not generated_html.endswith('>'):
-                    last_tag = max(generated_html.rfind('</p>'), generated_html.rfind('</table>'), generated_html.rfind('</ul>'), generated_html.rfind('</ol>'))
-                    if last_tag != -1:
-                        end_tag = generated_html[last_tag:generated_html.find('>', last_tag)+1]
-                        generated_html = generated_html[:last_tag] + end_tag
-                content_html = generated_html.strip()
-            else:
-                content_html = f"""<p class="lead"><strong>{topic['dateline']}</strong>, {author_name} reports on <strong>{clean_title}</strong>.</p>
-<p>{deck}</p>
-<p>For independent business owners, service companies, and growth teams, keeping track of these system changes is essential. Rather than getting bogged down in complex industry jargon, operators should focus on real-world search ranking, direct customer phone response, and automated workflow speed.</p>
-<p>Official statements, documentation, and original disclosure links are available in the verification sources below.</p>"""
+            if not generated_html:
+                print(f"  [!] Skipping {clean_title}: Failed to generate text.")
+                continue
+
+            dangling_patterns = [
+                r'<p>\s*(?:Here(?: is|\'s) the (?:sequence|build order|structure|breakdown)[^<]*)\s*</p>\s*$',
+                r'<p>\s*(?:The structure that works every time:?)\s*</p>\s*$'
+            ]
+            for pat in dangling_patterns:
+                generated_html = re.sub(pat, '', generated_html, flags=re.IGNORECASE)
+
+            content_html = generated_html.strip()
+            clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
+            if clean_words < 900:
+                print(f"  [!] Quality Gate Reject: {clean_title} only has {clean_words} words (minimum 900 required).")
+                continue
+
+            from html.parser import HTMLParser
+            class TagValidator(HTMLParser):
+                def __init__(self):
+                    super().__init__()
+                    self.stack = []
+                    self.errors = []
+                def handle_starttag(self, tag, attrs):
+                    if tag not in ['img', 'br', 'hr', 'input']:
+                        self.stack.append(tag)
+                def handle_endtag(self, tag):
+                    if tag in ['img', 'br', 'hr', 'input']: return
+                    if not self.stack:
+                        self.errors.append(f"Unexpected closing tag </{tag}>")
+                    elif self.stack[-1] == tag:
+                        self.stack.pop()
+                    else:
+                        self.errors.append(f"Mismatched tag: expected </{self.stack[-1]}>, got </{tag}>")
+
+            val = TagValidator()
+            val.feed(content_html)
+            if val.stack or val.errors:
+                print(f"  [!] Quality Gate Reject: Malformed HTML in {clean_title}: unclosed={val.stack}, errors={val.errors}")
+                continue
+
+            if not any(content_html.endswith(end) for end in ['</p>', '</table>', '</ul>', '</ol>', '</article>', '</div>']):
+                print(f"  [!] Quality Gate Reject: {clean_title} does not end with closed block tag.")
+                continue
+
+            reading_time = max(4, round(clean_words / 225))
 
             article = {
                 "id": f"wire-{int(datetime.now().timestamp())}-{len(new_articles)}",
@@ -405,7 +461,7 @@ Close all HTML tags cleanly."""
                 "authorId": author_id,
                 "publishedAt": now_iso,
                 "updatedAt": now_iso,
-                "readingTimeMinutes": 3,
+                "readingTimeMinutes": reading_time,
                 "featuredImage": image_path,
                 "featuredImageCaption": f"Documentation and reporting verified by AI News Wire.",
                 "isBreaking": True,
