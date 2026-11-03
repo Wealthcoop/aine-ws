@@ -7,6 +7,7 @@ export interface Author {
   avatar: string
   linkedin?: string
   twitter?: string
+  facebook?: string
   email: string
   beats: string[]
 }
@@ -23,14 +24,15 @@ export const AUTHORS: Record<string, Author> = {
     email: 'j.davis@aine.ws',
     beats: ['Search & AI Overviews', 'GEO Intelligence', 'Autonomous Tools']
   },
-  'marcus-vance': {
-    id: 'marcus-vance',
-    name: 'Marcus Vance',
+  'molly-perkins': {
+    id: 'molly-perkins',
+    name: 'Molly Perkins',
     role: 'Senior Voice AI & Lead Response Reporter',
     title: 'Lead Voice AI Correspondent',
-    bio: 'Marcus Vance investigates real-time sales voice AI, inbound call routing architectures, and automated speed-to-lead pipelines. He previously covered enterprise B2B software and telecom engineering.',
-    avatar: '/authors/marcus-vance.jpg',
-    email: 'm.vance@aine.ws',
+    bio: 'Molly Perkins investigates real-time conversational voice AI, inbound sales telephony, and automated speed-to-lead pipelines. Her reporting focuses on practical automation architectures, call routing telemetry, and enterprise communications.',
+    avatar: '/authors/molly-perkins.jpg',
+    facebook: 'https://www.facebook.com/molly.perkins',
+    email: 'm.perkins@aine.ws',
     beats: ['Voice AI', 'Speed-to-Lead', 'Missed-Call Text Back', 'Lead Response Automation']
   },
   'elena-chen': {
@@ -42,5 +44,15 @@ export const AUTHORS: Record<string, Author> = {
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',
     beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Telemetry']
+  },
+  'marcus-vance': {
+    id: 'marcus-vance',
+    name: 'Marcus Vance',
+    role: 'Contributing Analyst',
+    title: 'Former Technology Correspondent',
+    bio: 'Marcus Vance previously covered enterprise software and telecom infrastructure for AI News.',
+    avatar: '/authors/marcus-vance.jpg',
+    email: 'editorial@aine.ws',
+    beats: ['Enterprise Software', 'Archive']
   }
 }

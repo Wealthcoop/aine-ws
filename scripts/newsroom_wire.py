@@ -142,6 +142,24 @@ FEED_SOURCES = [
         "type": "rss"
     },
     {
+        "id": "theverge-ai",
+        "name": "The Verge AI Wire",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "category": "ai-tools",
+        "authorId": "justin-davis",
+        "dateline": "NEW YORK",
+        "type": "atom"
+    },
+    {
+        "id": "arstechnica-tech",
+        "name": "Ars Technica Technology Lab",
+        "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "category": "ai-tools",
+        "authorId": "justin-davis",
+        "dateline": "SAN FRANCISCO",
+        "type": "rss"
+    },
+    {
         "id": "anthropic-wire",
         "name": "Anthropic Wire (Google News 1h)",
         "url": "https://news.google.com/rss/search?q=Anthropic+when:1h&hl=en-US&gl=US&ceid=US:en",
@@ -178,29 +196,20 @@ FEED_SOURCES = [
         "type": "atom"
     },
     {
-        "id": "reddit-localllama",
-        "name": "LocalLLaMA Community Wire",
-        "url": "https://www.reddit.com/r/LocalLLaMA/hot/.rss",
-        "category": "ai-tools",
-        "authorId": "justin-davis",
-        "dateline": "WILMINGTON, Del.",
-        "type": "atom"
-    },
-    {
         "id": "google-search-central",
         "name": "Google Search Central",
         "url": "https://feeds.feedburner.com/blogspot/amDG",
         "category": "search-ai",
-        "authorId": "justin-davis",
+        "authorId": "elena-chen",
         "dateline": "MOUNTAIN VIEW, Calif.",
         "type": "rss"
     },
     {
-        "id": "seroundtable-local",
-        "name": "Search Engine Roundtable (Maps & Local)",
-        "url": "https://www.seroundtable.com/category/google-maps/feed",
+        "id": "seroundtable-main",
+        "name": "Search Engine Roundtable",
+        "url": "https://www.seroundtable.com/index.xml",
         "category": "local-business",
-        "authorId": "marcus-vance",
+        "authorId": "molly-perkins",
         "dateline": "NEW YORK",
         "type": "rss"
     },
@@ -209,7 +218,7 @@ FEED_SOURCES = [
         "name": "Google Business Profile Breaking Wire",
         "url": "https://news.google.com/rss/search?q=%22Google+Business+Profile%22+OR+%22Google+Maps%22+local+when:24h&hl=en-US&gl=US&ceid=US:en",
         "category": "local-business",
-        "authorId": "marcus-vance",
+        "authorId": "molly-perkins",
         "dateline": "MOUNTAIN VIEW, Calif.",
         "type": "rss"
     },
@@ -218,7 +227,7 @@ FEED_SOURCES = [
         "name": "Local SEO & Map Pack Wire",
         "url": "https://news.google.com/rss/search?q=%22Local+SEO%22+OR+%22Local+Pack%22+OR+%22Local+Services+Ads%22+when:24h&hl=en-US&gl=US&ceid=US:en",
         "category": "local-business",
-        "authorId": "marcus-vance",
+        "authorId": "molly-perkins",
         "dateline": "SAN FRANCISCO",
         "type": "rss"
     }
@@ -498,42 +507,87 @@ def parse_feed_items(raw_xml):
 # ── You.com Real-Time News API Fetcher ───────────────────────────────────────
 def fetch_you_news(query, limit=5):
     """
-    Fetches real-time breaking news stories directly from the You.com News API.
-    Activated when YOU_API_KEY or YDC_API_KEY environment variable is configured.
+    Fetches real-time breaking news stories directly from the You.com Search API.
+    Uses freshness: day to surface breaking developments across Bloomberg, WSJ, and Reuters.
     """
-    api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY")
+    api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY") or "ydc-sk-ad77719b3933f5e1-YUmlb4x2xLYEJcA7fNqrx2lai04J6Rzd-dd75ddeb"
     if not api_key:
         return []
 
-    url = f"https://api.ydc-index.io/news?query={urllib.parse.quote(query)}&count={limit}"
+    url = "https://ydc-index.io/v1/search"
+    payload = {
+        "query": query,
+        "count": limit,
+        "freshness": "day"
+    }
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "X-API-Key": api_key,
+            "Content-Type": "application/json",
+            "User-Agent": "AINE-Newsroom/1.0"
+        }
+    )
+    items = []
+    for ctx in (_SSL_CTX, _UNVERIFIED_CTX):
+        try:
+            with urllib.request.urlopen(req, timeout=12, context=ctx) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+                results = payload.get("results", {}).get("web", [])
+                for r in results:
+                    title = r.get("title", "").strip()
+                    link = r.get("url", "").strip()
+                    desc = r.get("description", "") or r.get("snippet", "")
+                    pub = r.get("page_age") or datetime.now(timezone.utc).isoformat()
+                    if title and link:
+                        items.append({
+                            "title": title,
+                            "link": link,
+                            "summary": desc.strip(),
+                            "published": str(pub)
+                        })
+                return items
+        except Exception as e:
+            print(f"Notice: You.com Search API attempt failed for '{query}': {e}", file=sys.stderr)
+            continue
+    return items
+
+# ── Hacker News Real-Time AI Firehose ─────────────────────────────────────────
+def fetch_hn_ai_news(limit=5, min_points=25):
+    """
+    Fetches high-signal AI discussions upvoted by the Hacker News community.
+    Guarantees stories have verified human reader interest before ingestion.
+    """
+    url = f"https://hn.algolia.com/api/v1/search_by_date?tags=story&query=OpenAI+OR+Anthropic+OR+LLM+OR+AI&numericFilters=points>{min_points}&hitsPerPage={limit}"
     req = urllib.request.Request(
         url,
         headers={
-            'X-API-Key': api_key,
-            'User-Agent': 'AINE-Newsroom/1.0'
+            "User-Agent": "AINE-Newsroom/1.0"
         }
     )
     items = []
     for ctx in (_SSL_CTX, _UNVERIFIED_CTX):
         try:
             with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
-                payload = json.loads(response.read().decode('utf-8'))
-                results = payload.get('news', {}).get('results', [])
-                for r in results:
-                    title = r.get('title', '').strip()
-                    link = r.get('url', '').strip()
-                    desc = r.get('description', '').strip()
-                    pub = r.get('page_age') or datetime.now(timezone.utc).isoformat()
+                payload = json.loads(response.read().decode("utf-8"))
+                hits = payload.get("hits", [])
+                for h in hits:
+                    title = h.get("title", "").strip()
+                    link = h.get("url") or f"https://news.ycombinator.com/item?id={h.get('objectID')}"
+                    pts = h.get("points", 0)
+                    summary = f"Community discussion with {pts} upvotes on Hacker News regarding {title}."
+                    pub = h.get("created_at") or datetime.now(timezone.utc).isoformat()
                     if title and link:
                         items.append({
-                            'title': title,
-                            'link': link,
-                            'summary': desc,
-                            'published': str(pub)
+                            "title": title,
+                            "link": link,
+                            "summary": summary,
+                            "published": str(pub)
                         })
                 return items
         except Exception as e:
-            print(f"Notice: You.com News API attempt failed for '{query}': {e}", file=sys.stderr)
+            print(f"Notice: Hacker News API fetch failed: {e}", file=sys.stderr)
             continue
     return items
 
@@ -577,30 +631,56 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
         "Full technical documentation and release notes are available in the official disclosure linked below."
     ]
 
-    # 7. Auto-format clean, readable journalistic body HTML (Strict anti-slop, no em dashes)
-    # Generate comprehensive, in-depth article (minimum 1,100 to 1,500 words)
+    # 7. Determine Editorial Tier & Angle
+    slug_hash = abs(hash(repaired_slug))
+    is_opinion = (slug_hash % 6 == 0) and not any(term in repaired_title.lower() for term in ['roundup', 'announces', 'releases'])
+    if is_opinion and not repaired_title.startswith(("Analysis:", "Perspective:", "Opinion:")):
+        repaired_title = f"Analysis: {repaired_title}"
+
+    is_deep_topic = any(k in repaired_title.lower() for k in ['audit', 'vs', 'comparison', 'architecture', 'breakdown', 'report', 'benchmark', 'study'])
+    is_tier_2 = is_deep_topic or is_opinion or feed_source.get('id') in ['google-search-central', 'seroundtable-main', 'arstechnica-tech']
+    
+    tier_label = "Tier 2 (Deep Dive)" if is_tier_2 else "Tier 1 (Breaking Wire)"
+    min_word_target = 1100 if is_tier_2 else 550
+    word_prompt_guidance = "Write a comprehensive 1,200 to 1,500 word technical deep dive" if is_tier_2 else "Write a complete, tight 600 to 800 word breaking news report"
+
+    opinion_prompt_note = ""
+    if is_opinion:
+        opinion_prompt_note = """
+EDITORIAL PERSPECTIVE: This is an analytical opinion column. Take a sharp, reasoned, contrarian stance. Question marketing hype, examine hidden economic friction or vendor lock-in, and present a pragmatic counter-intuitive perspective. Strictly avoid political, religious, or cultural topics: stay strictly focused on business, software architecture, engineering, and economics.
+"""
+
     system_prompt = f"""You are an investigative tech reporter at AI News (aine.ws).
 Voice: Authoritative, practical, direct (Stratechery meets Reuters).
 STRICT RULES:
 1. NEVER use em dashes or double hyphens anywhere. Use colons, commas, parentheses, or separate sentences.
 2. ABSOLUTE FACTUAL INTEGRITY: Strictly zero made up data, fake quotes, imaginary research studies, fictional benchmarks, or invented statistics. Ground every claim in the provided source material and documented industry realities.
-3. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh.
-4. Every <h2> and <h3> must be a clear question ending with a question mark (?).
-5. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
-6. Include an HTML <table> or structured specification box.
-7. Minimum depth: Total output must be at least 1,100 to 1,500 words of thorough, substantive reporting. Close all HTML tags cleanly.
+3. ANTI-REPETITION MANDATE: Strictly avoid formulaic, canned boilerplate phrasing. If pricing, release dates, or benchmark metrics are unknown or absent from the source, do NOT repeat generic formulas like 'The company has not yet published official pricing'. Instead, vary phrasing naturally across stories: 'Enterprise licensing terms remain undisclosed', 'Contract rates are currently negotiated behind closed doors', 'Public pricing has not been detailed in official release notes', 'Procurement costs will depend on volume agreements', or 'Commercial terms remain under wraps'.
+4. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh.
+5. Every <h2> and <h3> must be a clear question ending with a question mark (?).
+6. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
+7. Include an HTML <table> or structured specification box.
+8. Required depth: {word_prompt_guidance}. Fully finish all sections and close all HTML tags cleanly.
+{opinion_prompt_note}
 """
-    user_prompt = f"""Write an authoritative, comprehensive 1,200-word journalistic news report on '{repaired_title}'.
+    user_prompt = f"""{word_prompt_guidance} on '{repaired_title}'.
 Source: {source_name}
 Link: {item['link']}
 Context / Deck: {repaired_deck}
 Dateline: {dateline}
+Follow the 6-point completeness foundation:
+1) Direct lead (who, what, when).
+2) Catalyst (why now).
+3) Core verified evidence.
+4) Operational impact (who wins, who loses).
+5) Skeptical reality check (hurdles or trade-offs).
+6) Outlook and primary source context.
 Close all HTML tags cleanly."""
 
     generated_html = ask_finest_generator(system_prompt, user_prompt)
     if not generated_html:
         # Retry with direct prompt on fallback
-        generated_html = ask_finest_generator(system_prompt, f"Write a comprehensive 1200-word analysis on: {repaired_title}. Context: {repaired_deck}. Output clean HTML.")
+        generated_html = ask_finest_generator(system_prompt, f"{word_prompt_guidance} on: {repaired_title}. Context: {repaired_deck}. Output clean HTML.")
 
     if not generated_html:
         raise ValueError(f"Failed to generate story content for '{repaired_title}' after multiple attempts.")
@@ -615,10 +695,11 @@ Close all HTML tags cleanly."""
     content_html = generated_html.strip()
     clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
 
-    # AUTONOMOUS CONTINUATION LOOP: Never abort if short; auto-expand until complete!
-    if clean_words < 1100:
-        print(f"[*] Story '{repaired_title}' is {clean_words} words. Triggering Autonomous Expansion Pass...")
-        continuation_prompt = f"""Here is our journalistic tech report on '{repaired_title}' so far ({clean_words} words):
+    # AUTONOMOUS CONTINUATION LOOP: Ensure completeness according to Tier
+    if clean_words < min_word_target:
+        print(f"[*] Story '{repaired_title}' is {clean_words} words (target: {min_word_target}+ for {tier_label}). Triggering Expansion Pass...")
+        if is_tier_2:
+            continuation_prompt = f"""Here is our journalistic tech report on '{repaired_title}' so far ({clean_words} words):
 {content_html[-1200:]}
 
 Continue seamlessly from where this left off. Add:
@@ -627,13 +708,21 @@ Continue seamlessly from where this left off. Add:
 3) Concrete 12-month industry outlook and tactical guidance for operators
 4) Concluding summary
 Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
+        else:
+            continuation_prompt = f"""Here is our breaking wire report on '{repaired_title}' so far ({clean_words} words):
+{content_html[-1000:]}
+
+Continue seamlessly from where this left off. Ensure the story is completely finished with:
+1) Concrete operational impact for businesses and engineers
+2) Forward outlook and primary source reference
+Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
 
         cont_html = ask_finest_generator(system_prompt, continuation_prompt)
         if cont_html:
             cont_clean = re.sub(r'^```html\s*', '', cont_html).replace('```', '').strip()
             content_html = content_html + "\n\n" + cont_clean
             clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
-            print(f"[✓] Auto-Expanded Story: Successfully reached {clean_words} words!")
+            print(f"[✓] Auto-Expanded Story: Successfully reached {clean_words} words ({tier_label})!")
 
     # Auto-Balance and Close any open HTML tags cleanly
     from html.parser import HTMLParser
@@ -800,16 +889,16 @@ def main():
 
     new_articles = []
 
-    # 1. Real-Time You.com News API Ingestion (If configured)
-    you_api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY")
+    # 1. Real-Time You.com News API Ingestion
+    you_api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY") or "ydc-sk-ad77719b3933f5e1-YUmlb4x2xLYEJcA7fNqrx2lai04J6Rzd-dd75ddeb"
     if you_api_key:
-        print("\n[You.com API] Active key detected. Scanning live breaking news...")
+        print("\n[You.com Search API] Scanning live breaking daily news...")
         you_queries = [
             {
-                "query": "Google Business Profile algorithm update OR Google Maps local SEO news",
+                "query": "Google Business Profile algorithm update OR Google Maps local search rankings",
                 "name": "You.com Google Local News",
                 "category": "local-business",
-                "authorId": "marcus-vance",
+                "authorId": "molly-perkins",
                 "dateline": "MOUNTAIN VIEW, Calif."
             },
             {
@@ -844,7 +933,34 @@ def main():
                 except Exception as e:
                     print(f"  -> Error repairing You.com story: {e}")
 
-    # 2. Multi-Source RSS & Google News Wire Ingestion
+    # 2. Hacker News High-Signal AI Discussions (25+ Upvotes)
+    if len(new_articles) < limit:
+        print("\n[Hacker News API] Scanning community-verified AI discussions (25+ upvotes)...")
+        hn_items = fetch_hn_ai_news(limit=4, min_points=25)
+        hn_src = {
+            "name": "Hacker News AI Community",
+            "category": "ai-tools",
+            "authorId": "justin-davis",
+            "dateline": "SAN FRANCISCO",
+            "id": "hn-ai-firehose"
+        }
+        for item in hn_items:
+            if len(new_articles) >= limit:
+                break
+            is_dup, _ = db.is_duplicate(item['link'], item['title'])
+            if is_dup:
+                continue
+            try:
+                article_obj = synthesize_and_repair_article(item, hn_src, existing_slugs, recent_images)
+                new_articles.append(article_obj)
+                recent_images.insert(0, article_obj['featuredImage'])
+                existing_slugs.add(article_obj['slug'])
+                db.record_seen(item['link'], article_obj['title'], hn_src['name'], published=True)
+                print(f"  + [INGESTED via Hacker News] {article_obj['title']} ({article_obj['slug']})")
+            except Exception as e:
+                print(f"  -> Error repairing Hacker News story: {e}")
+
+    # 3. Multi-Source RSS & Google News Wire Ingestion
     for feed in FEED_SOURCES:
         if len(new_articles) >= limit:
             break

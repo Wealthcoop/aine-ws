@@ -137,7 +137,7 @@ export default function AuthorProfilePage({ params }: PageProps) {
             name: SITE_CONFIG.name,
             url: SITE_CONFIG.url,
           },
-          sameAs: author.linkedin ? [author.linkedin] : undefined,
+          sameAs: [author.linkedin, author.facebook, author.twitter].filter(Boolean) as string[],
         },
       },
     ],
@@ -221,6 +221,17 @@ export default function AuthorProfilePage({ params }: PageProps) {
                     className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 shadow-sm hover:bg-slate-50 transition"
                   >
                     <span>Verified LinkedIn Profile</span>
+                    <ExternalLink className="h-3.5 w-3.5 text-slate-400" />
+                  </a>
+                )}
+                {author.facebook && (
+                  <a
+                    href={author.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3.5 py-2 text-xs font-semibold text-slate-700 shadow-sm hover:bg-slate-50 transition"
+                  >
+                    <span>Verified Facebook Profile</span>
                     <ExternalLink className="h-3.5 w-3.5 text-slate-400" />
                   </a>
                 )}

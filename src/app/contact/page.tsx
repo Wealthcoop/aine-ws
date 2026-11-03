@@ -179,7 +179,7 @@ export default function ContactPage() {
                       <option value="news-tip">📰 Confidential News Tip / Industry Leak</option>
                       <option value="correction">✏️ Factual Correction Request</option>
                       <option value="justin-davis">👤 Message for Justin Davis (Search &amp; Algorithms)</option>
-                      <option value="marcus-vance">👤 Message for Marcus Vance (Sales Telephony)</option>
+                      <option value="molly-perkins">👤 Message for Molly Perkins (Voice AI & Telephony)</option>
                       <option value="elena-chen">👤 Message for Elena Chen (Local Business &amp; Maps)</option>
                       <option value="press">💼 Press, Syndication &amp; Media Inquiries</option>
                     </select>

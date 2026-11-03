@@ -94,8 +94,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/authors/marcus-vance" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
-                  Telephony &amp; RevOps Beat (Marcus Vance)
+                <Link href="/authors/molly-perkins" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
+                  Voice AI &amp; Telephony Beat (Molly Perkins)
                 </Link>
               </li>
               <li>

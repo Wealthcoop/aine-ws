@@ -30,7 +30,7 @@ BASE_URLS = [
     "https://aine.ws/desks/voice-lead-response",
     "https://aine.ws/desks/ai-tools",
     "https://aine.ws/authors/justin-davis",
-    "https://aine.ws/authors/marcus-vance",
+    "https://aine.ws/authors/molly-perkins",
     "https://aine.ws/authors/elena-chen"
 ]
 
