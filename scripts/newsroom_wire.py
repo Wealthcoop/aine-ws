@@ -64,7 +64,7 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
                 txt = res['choices'][0]['message']['content'].strip()
                 txt = re.sub(r'^```html\s*', '', txt)
                 txt = re.sub(r'\s*```$', '', txt)
-                txt = txt.replace('—', ', ').replace('--', ', ')
+                txt = txt.replace('\u2014', ', ').replace('--', ', ')
                 return txt
         except Exception as e:
             print(f"[!] Newsroom wire Finest API attempt {attempt+1} failed: {e}")
@@ -92,7 +92,7 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
                 txt = res['choices'][0]['message']['content'].strip()
                 txt = re.sub(r'^```html\s*', '', txt)
                 txt = re.sub(r'\s*```$', '', txt)
-                txt = txt.replace('—', ', ').replace('--', ', ')
+                txt = txt.replace('\u2014', ', ').replace('--', ', ')
                 return txt
         except Exception as e:
             print(f"[!] OpenRouter fallback failed: {e}")
@@ -273,11 +273,11 @@ def auto_repair_title(raw_title, feed_name=""):
     # 2. Strip HTML tags
     t = re.sub(r'<[^>]+>', ' ', t)
     # 3. Normalize quotes and dashes
-    t = t.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"').replace('—', ' - ').replace('–', ' - ')
+    t = t.replace('’', "'").replace('‘', "'").replace('“', '"').replace('”', '"').replace('\u2014', ' - ').replace('\u2013', ' - ')
     # 4. Strip noise prefixes e.g. [Breaking], [News], (Update), PSA:
     t = re.sub(r'^(?:\[[^\]]+\]|\([^\)]+\)|psa:\s*|review:\s*)\s*', '', t, flags=re.IGNORECASE)
     # 5. Strip publication trailing suffixes (e.g. " - The Verge", " | TechCrunch", " - OpenAI")
-    t = re.sub(r'\s*[-–—|]\s*(The Verge|TechCrunch|VentureBeat|OpenAI|Google Blog|Hacker News|Reddit|Ars Technica|Wired|Reuters|Bloomberg|Search Engine Land|Search Engine Roundtable)\s*$', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\s*[-\u2013\u2014|]\s*(The Verge|TechCrunch|VentureBeat|OpenAI|Google Blog|Hacker News|Reddit|Ars Technica|Wired|Reuters|Bloomberg|Search Engine Land|Search Engine Roundtable)\s*$', '', t, flags=re.IGNORECASE)
     # 6. Strip leading/trailing punctuation & excess whitespace
     t = re.sub(r'^[\[\(\"\'\s]+|[\]\)\"\'\s]+$', '', t)
     t = ' '.join(t.split())
@@ -583,11 +583,12 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
 Voice: Authoritative, practical, direct (Stratechery meets Reuters).
 STRICT RULES:
 1. NEVER use em dashes or double hyphens anywhere. Use colons, commas, parentheses, or separate sentences.
-2. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh, sub-300ms.
-3. Every <h2> and <h3> must be a clear question ending with a question mark (?).
-4. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
-5. Include an HTML <table> or structured specification box.
-6. Minimum depth: Total output must be at least 1,100 to 1,500 words of thorough, substantive reporting. Close all HTML tags cleanly.
+2. ABSOLUTE FACTUAL INTEGRITY: Strictly zero made up data, fake quotes, imaginary research studies, fictional benchmarks, or invented statistics. Ground every claim in the provided source material and documented industry realities.
+3. NEVER use banned words: unlock, embark, delve, tapestry, vibrant, realm, excels, vital, comprehensive, intricate, pivotal, moreover, arguably, notably, beacon, revolutionize, dive into, 64-node, 81-node, 121-node, proximity wall, decay cliff, algorithmic velocity, coordinate stacking, multi-entity mesh.
+4. Every <h2> and <h3> must be a clear question ending with a question mark (?).
+5. Immediately after every <h2> or <h3> question heading, the first <p> MUST start with a standalone 2-sentence answer that Google AI Overviews, Perplexity, and ChatGPT can quote directly.
+6. Include an HTML <table> or structured specification box.
+7. Minimum depth: Total output must be at least 1,100 to 1,500 words of thorough, substantive reporting. Close all HTML tags cleanly.
 """
     user_prompt = f"""Write an authoritative, comprehensive 1,200-word journalistic news report on '{repaired_title}'.
 Source: {source_name}
