@@ -31,8 +31,8 @@ export const AUTHORS: Record<string, Author> = {
     title: 'Lead Voice AI Correspondent',
     bio: 'Molly Perkins investigates real-time conversational voice AI, inbound sales telephony, and automated speed-to-lead pipelines. Her reporting focuses on practical automation architectures, call routing telemetry, and enterprise communications.',
     avatar: '/authors/molly-perkins.jpg',
-    facebook: 'https://www.facebook.com/molly.perkins',
-    email: 'm.perkins@aine.ws',
+    facebook: 'https://www.facebook.com/mollyperkins354',
+    email: 'mollyperkins354@gmail.com',
     beats: ['Voice AI', 'Speed-to-Lead', 'Missed-Call Text Back', 'Lead Response Automation']
   },
   'elena-chen': {
