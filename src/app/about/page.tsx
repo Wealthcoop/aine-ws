@@ -7,13 +7,13 @@ import { SITE_CONFIG } from '@/config/site'
 import { ShieldCheck, Award, MapPin, Mail, Globe, ArrowRight, ExternalLink, CheckCircle2, MessageSquare, Clock, Users, Wrench, Database, ChevronRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About AI News | Algorithmic Search & Generative Engine Intelligence',
-  description: 'AI News (AINE.WS) is an independent digital news and algorithmic research publication delivering empirical search audits, GEO benchmarks, and lead response testing.',
+  title: 'About Aine (AINE.ws) | Algorithmic Search & Generative Engine Intelligence',
+  description: 'Aine (AINE.ws) is an independent digital news and algorithmic research publication delivering empirical search audits, GEO benchmarks, and lead response testing.',
   alternates: {
     canonical: `${SITE_CONFIG.url}/about`,
   },
   openGraph: {
-    title: 'About AI News | Algorithmic Search & Generative Engine Intelligence',
+    title: 'About Aine (AINE.ws) | Algorithmic Search & Generative Engine Intelligence',
     description: 'Empirical reporting and data-backed teardowns on artificial intelligence, search algorithms, and commercial automation.',
     url: `${SITE_CONFIG.url}/about`,
   },
@@ -45,7 +45,7 @@ export default function AboutPage() {
         '@type': 'AboutPage',
         '@id': `${SITE_CONFIG.url}/about#webpage`,
         url: `${SITE_CONFIG.url}/about`,
-        name: 'About AI News',
+        name: 'About Aine (AINE.ws)',
         description: 'Independent reporting and algorithmic research on artificial intelligence, search systems, and speed-to-lead benchmarks.',
         isPartOf: {
           '@type': 'WebSite',
@@ -103,14 +103,14 @@ export default function AboutPage() {
             About {SITE_CONFIG.name}
           </h1>
           <p className="text-lg md:text-xl text-slate-700 font-serif leading-normal border-l-4 border-sky-600 pl-4 py-1">
-            AI News (AINE.WS) is an independent digital news and algorithmic research publication that delivers real-world search audits, generative engine benchmarks, and lead response testing for local business owners, search marketers, and technology operators.
+            Aine (AINE.ws) is an independent digital news and algorithmic research publication that delivers real-world search audits, generative engine benchmarks, and lead response testing for local business owners, search marketers, and technology operators.
           </p>
         </header>
 
-        {/* Section 2: What AI News Does */}
+        {/* Section 2: What Aine Does */}
         <section className="flex flex-col gap-6">
           <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
-            What AI News Does
+            What Aine Does
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl border border-slate-200 bg-slate-50/60 flex flex-col gap-2">

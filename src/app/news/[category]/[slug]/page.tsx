@@ -46,7 +46,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Article Not Found' }
   }
 
+  const isWire = article.is_original === false || article.category === 'wire'
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
+  const authorName = isWire ? 'Aine Wire Desk' : author.name
+  const authorUrl = isWire ? `${SITE_CONFIG.url}/standards` : `${SITE_CONFIG.url}/authors/${author.id}`
   const imageUrl = article.featuredImage.startsWith('http')
     ? article.featuredImage
     : `${SITE_CONFIG.url}${article.featuredImage}`
@@ -54,7 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: article.title,
     description: article.deck,
-    authors: [{ name: author.name, url: `${SITE_CONFIG.url}/authors/${author.id}` }],
+    authors: [{ name: authorName, url: authorUrl }],
     category: article.category,
     alternates: {
       canonical: `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`,
@@ -105,6 +108,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
   }
 
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
+  const isWire = article.is_original === false || article.category === 'wire'
   const formattedPublishDate = new Date(article.publishedAt).toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
@@ -170,31 +174,61 @@ export default function ArticleReaderPage({ params }: PageProps) {
 
           {/* Author Byline & Timestamps */}
           <div className="mt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-slate-200 bg-slate-50/70 p-4">
-            <div className="flex items-center gap-3">
-              <Link href={`/authors/${author.id}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-200">
-                <Image
-                  src={author.avatar}
-                  alt={author.name}
-                  width={48}
-                  height={48}
-                  className="h-full w-full object-cover"
-                />
-              </Link>
-              <div>
-                <div className="flex items-center gap-2">
-                  <Link
-                    href={`/authors/${author.id}`}
-                    className="font-sans text-sm font-bold text-slate-900 hover:text-sky-700 transition"
-                  >
-                    {author.name}
-                  </Link>
-                  <span className="text-[10px] rounded bg-slate-200 px-1.5 py-0.5 font-semibold text-slate-700">
-                    Verified
-                  </span>
+            {isWire ? (
+              <div className="flex items-center gap-3">
+                <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-[#0F172A] flex items-center justify-center p-1" aria-hidden="true">
+                  <svg viewBox="0 0 100 100" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" rx="18" fill="#0F172A"/>
+                    <text x="50" y="52" textAnchor="middle" fill="#FFFFFF" fontFamily="Georgia, 'Times New Roman', serif" fontWeight="800" fontSize="48" letterSpacing="1">AI</text>
+                    <polygon points="16,58 46,58 42,66 16,66" fill="#FFFFFF"/>
+                    <polygon points="50,58 84,58 84,66 46,66" fill="#FFFFFF"/>
+                    <text x="50" y="86" textAnchor="middle" fontFamily="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fontWeight="800" fontSize="21" letterSpacing="1">
+                      <tspan fill="#2563EB">NE</tspan><tspan fill="#E11D48">.</tspan><tspan fill="#2563EB">WS</tspan>
+                    </text>
+                  </svg>
                 </div>
-                <p className="text-xs text-slate-600">{author.title}</p>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href="/standards"
+                      className="font-sans text-sm font-bold text-slate-900 hover:text-sky-700 transition"
+                    >
+                      Aine Wire Desk
+                    </Link>
+                    <span className="text-[10px] rounded bg-blue-100 text-blue-800 px-1.5 py-0.5 font-bold">
+                      Official Wire
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-600">Automated &amp; Curated Dispatches · AINE.ws</p>
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className="flex items-center gap-3">
+                <Link href={`/authors/${author.id}`} className="h-12 w-12 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-200">
+                  <Image
+                    src={author.avatar}
+                    alt={author.name}
+                    width={48}
+                    height={48}
+                    className="h-full w-full object-cover"
+                  />
+                </Link>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href={`/authors/${author.id}`}
+                      className="font-sans text-sm font-bold text-slate-900 hover:text-sky-700 transition"
+                    >
+                      {author.name}
+                    </Link>
+                    <span className="text-[10px] rounded bg-slate-200 px-1.5 py-0.5 font-semibold text-slate-700">
+                      Verified
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-600">{author.title}</p>
+                </div>
+              </div>
+            )}
 
             <div className="flex flex-col sm:items-end text-xs text-slate-600 space-y-0.5">
               <div className="flex items-center gap-1.5">
@@ -212,7 +246,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
 
           {/* Quick Google Follow Action */}
           <div className="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
-            <span className="text-xs text-slate-600 font-medium">Follow AINE.WS breaking wire on Google:</span>
+            <span className="text-xs text-slate-600 font-medium">Follow Aine (AINE.ws) breaking wire on Google:</span>
             <GooglePreferredSource compact />
           </div>
         </header>
@@ -265,6 +299,18 @@ export default function ArticleReaderPage({ params }: PageProps) {
             duration="0:38"
             authorName={author.name}
           />
+        )}
+
+        {/* Optional Aine Take Callout Box */}
+        {article.founder_take && (
+          <div className="my-8 rounded-r-xl border-l-4 border-[#2563EB] bg-[#F8FAFC] p-5 shadow-sm">
+            <h2 className="text-xs font-bold uppercase tracking-wider text-[#2563EB]">
+              THE AINE TAKE: JUSTIN DAVIS:
+            </h2>
+            <p className="mt-2 text-base font-serif text-slate-800 leading-relaxed">
+              {article.founder_take}
+            </p>
+          </div>
         )}
 
         {/* Main Article Body (AP Style) */}
@@ -329,42 +375,88 @@ export default function ArticleReaderPage({ params }: PageProps) {
         </div>
 
         {/* Author Bio Box */}
-        <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="h-16 w-16 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-100">
-              <Image
-                src={author.avatar}
-                alt={author.name}
-                width={64}
-                height={64}
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="flex-1 text-center sm:text-left">
-              <h3 className="font-sans text-base font-bold text-slate-900">
-                Reported by {author.name}
-              </h3>
-              <p className="text-xs text-slate-500">{author.role}</p>
-              <p className="mt-2 text-xs text-slate-600 leading-relaxed">
-                {author.bio}
-              </p>
-              <div className="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
-                <Link
-                  href={`/authors/${author.id}`}
-                  className="font-semibold text-sky-700 hover:underline"
-                >
-                  View Author Profile &amp; Byline History &rarr;
-                </Link>
-                <Link
-                  href={`/contact?type=${author.id}`}
-                  className="text-slate-500 hover:text-slate-800"
-                >
-                  Contact Journalist Directly
-                </Link>
+        {isWire ? (
+          <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
+              <div className="h-16 w-16 shrink-0 overflow-hidden rounded-2xl bg-[#0F172A] flex items-center justify-center p-1.5 shadow-sm" aria-hidden="true">
+                <svg viewBox="0 0 100 100" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100" height="100" rx="18" fill="#0F172A"/>
+                  <text x="50" y="52" textAnchor="middle" fill="#FFFFFF" fontFamily="Georgia, 'Times New Roman', serif" fontWeight="800" fontSize="48" letterSpacing="1">AI</text>
+                  <polygon points="16,58 46,58 42,66 16,66" fill="#FFFFFF"/>
+                  <polygon points="50,58 84,58 84,66 46,66" fill="#FFFFFF"/>
+                  <text x="50" y="86" textAnchor="middle" fontFamily="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fontWeight="800" fontSize="21" letterSpacing="1">
+                    <tspan fill="#2563EB">NE</tspan><tspan fill="#E11D48">.</tspan><tspan fill="#2563EB">WS</tspan>
+                  </text>
+                </svg>
+              </div>
+              <div className="flex-1 text-center sm:text-left">
+                <div className="flex items-center justify-center sm:justify-start gap-2">
+                  <h3 className="font-sans text-base font-bold text-slate-900">
+                    Dispatched by Aine Wire Desk
+                  </h3>
+                  <span className="text-[10px] rounded bg-blue-100 text-blue-800 px-1.5 py-0.5 font-bold">
+                    Official Wire
+                  </span>
+                </div>
+                <p className="text-xs text-slate-500">Automated &amp; Curated Dispatches · AINE.ws</p>
+                <p className="mt-2 text-xs text-slate-600 leading-relaxed">
+                  Syndicated press releases, regulatory filings, corporate announcements, and industry dispatches monitored, formatted, and published under Aine editorial verification guidelines.
+                </p>
+                <div className="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
+                  <Link
+                    href="/standards"
+                    className="font-semibold text-sky-700 hover:underline"
+                  >
+                    View Editorial Standards &amp; Verification Protocol &rarr;
+                  </Link>
+                  <Link
+                    href="/contact?type=tip"
+                    className="text-slate-500 hover:text-slate-800"
+                  >
+                    Submit News Tip to Wire Desk
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
+              <div className="h-16 w-16 shrink-0 overflow-hidden rounded-full border border-slate-300 bg-slate-100">
+                <Image
+                  src={author.avatar}
+                  alt={author.name}
+                  width={64}
+                  height={64}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="flex-1 text-center sm:text-left">
+                <h3 className="font-sans text-base font-bold text-slate-900">
+                  Reported by {author.name}
+                </h3>
+                <p className="text-xs text-slate-500">{author.role}</p>
+                <p className="mt-2 text-xs text-slate-600 leading-relaxed">
+                  {author.bio}
+                </p>
+                <div className="mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs">
+                  <Link
+                    href={`/authors/${author.id}`}
+                    className="font-semibold text-sky-700 hover:underline"
+                  >
+                    View Author Profile &amp; Byline History &rarr;
+                  </Link>
+                  <Link
+                    href={`/contact?type=${author.id}`}
+                    className="text-slate-500 hover:text-slate-800"
+                  >
+                    Contact Journalist Directly
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Editorial Correction Notice */}
         <div className="mt-8 border-t border-slate-200 pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">

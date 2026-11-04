@@ -70,7 +70,7 @@ def main():
     num_articles = len(slugs)
     print(f"  Parsed {num_articles} published articles in database.")
 
-    allowed_cats = {'search-ai', 'local-business', 'voice-lead-response', 'ai-tools'}
+    allowed_cats = {'search-ai', 'local-business', 'voice-lead-response', 'ai-tools', 'wire', 'frame'}
     seen_slugs = set()
     adjacent_images = []
 

@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
-  name: 'AI News',
-  brandName: 'AI NE.WS',
-  legalName: 'AI News Network',
+  name: 'Aine (AINE.ws)',
+  brandName: 'Aine',
+  legalName: 'Aine Applied Intelligence Wire',
   tagline: 'The Applied AI & Algorithmic Commerce Wire',
   description: 'Independent reporting, empirical benchmarks, and technical analysis on artificial intelligence, algorithmic search, and business automation.',
   url: 'https://aine.ws',
@@ -24,6 +24,7 @@ export const SITE_CONFIG = {
     { id: 'search-ai', label: 'Search & AI Overviews', description: 'Google AI Overviews, algorithmic ranking updates, and GEO intelligence.' },
     { id: 'local-business', label: 'Local Business & Google Maps', description: 'How automation, review models, and AI impact local businesses and Google Business Profiles.' },
     { id: 'voice-lead-response', label: 'Voice AI & Lead Response', description: 'Speed-to-lead benchmarks, AI voice receptionists, whisper call routing, and CRM pipeline automation.' },
-    { id: 'ai-tools', label: 'AI Tools & Automation', description: 'Autonomous agent architectures, workflow productivity software, and generative commercial tools.' }
+    { id: 'ai-tools', label: 'AI Tools & Automation', description: 'Autonomous agent architectures, workflow productivity software, and generative commercial tools.' },
+    { id: 'wire', label: 'Aine Wire Desk', description: 'Automated dispatches, regulatory filings, corporate announcements, and syndicated wire releases.' }
   ]
 }

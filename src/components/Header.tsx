@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Menu, X, Radio, ArrowRight, ShieldCheck, Newspaper } from 'lucide-react'
 import { SITE_CONFIG } from '@/config/site'
 
@@ -102,36 +101,47 @@ export function Header({ breakingStory }: HeaderProps) {
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6">
-            <Link
-              href="/"
-              aria-label="AI News Homepage"
-              className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-sky-600 rounded-lg"
-            >
-              <Image
-                src="/aine-ws-logo.svg"
-                alt="AI News - Applied Intelligence News Network"
-                width={224}
-                height={56}
-                priority
-                className="h-12 w-auto sm:h-14 object-contain object-left"
-              />
+            <Link href="/" className="aine-brand-lockup" aria-label="Aine Home">
+              {/* Square AI / NE.WS Stamp Icon */}
+              <div className="aine-badge-icon" aria-hidden="true">
+                <svg viewBox="0 0 100 100" width="52" height="52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100" height="100" rx="18" fill="#0F172A"/>
+                  {/* Top Row: AI (Editorial Serif) */}
+                  <text x="50" y="52" textAnchor="middle" fill="#FFFFFF" fontFamily="Georgia, 'Times New Roman', serif" fontWeight="800" fontSize="48" letterSpacing="1">AI</text>
+                  {/* Center Split Divider Bar */}
+                  <polygon points="16,58 46,58 42,66 16,66" fill="#FFFFFF"/>
+                  <polygon points="50,58 84,58 84,66 46,66" fill="#FFFFFF"/>
+                  {/* Bottom Row: NE.WS */}
+                  <text x="50" y="86" textAnchor="middle" fontFamily="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fontWeight="800" fontSize="21" letterSpacing="1">
+                    <tspan fill="#2563EB">NE</tspan><tspan fill="#E11D48">.</tspan><tspan fill="#2563EB">WS</tspan>
+                  </text>
+                </svg>
+              </div>
+
+              {/* Right Side Wordmark & Phonetic Sub-label */}
+              <div className="aine-wordmark-group">
+                <div className="aine-wordmark-title">
+                  <span className="aine-main-name">AINE</span><span className="aine-domain-ext">.ws</span>
+                </div>
+                <div className="aine-wordmark-sub">
+                  <span className="aine-phonetic">/eɪn/ (rhymes with main)</span>
+                  <span className="aine-dot">·</span>
+                  <span className="aine-tagline">APPLIED INTELLIGENCE WIRE</span>
+                </div>
+              </div>
             </Link>
-            <div className="hidden lg:block border-l border-slate-200 pl-6">
-              <p className="text-xs font-semibold uppercase tracking-wider text-slate-600">
-                Independent Editorial Reporting
-              </p>
-              <p className="text-[11px] text-slate-600">
-                Tracking applied AI, algorithmic search updates &amp; commercial automation
-              </p>
-            </div>
           </div>
 
           {/* Right Header Actions */}
           <div className="hidden md:flex items-center gap-3">
-            <div className="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs text-slate-600">
+            <Link
+              href="/standards"
+              className="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs text-slate-600 hover:border-slate-300 hover:text-slate-900 transition"
+              aria-label="Editorial Standards Verified"
+            >
               <ShieldCheck className="h-4 w-4 text-sky-600" />
-              <span>Independent E-E-A-T Verified</span>
-            </div>
+              <span>Editorial Standards Verified</span>
+            </Link>
             <Link
               href="/contact?type=tip"
               className="inline-flex items-center gap-1.5 rounded-lg border border-slate-900 bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition hover:bg-slate-800 min-h-[44px]"
@@ -168,7 +178,7 @@ export function Header({ breakingStory }: HeaderProps) {
                 Top Stories
               </Link>
             </li>
-            {SITE_CONFIG.desks.map((desk) => (
+            {SITE_CONFIG.desks.filter((desk) => desk.id !== 'wire').map((desk) => (
               <li key={desk.id}>
                 <Link
                   href={`/desks/${desk.id}`}
@@ -178,6 +188,14 @@ export function Header({ breakingStory }: HeaderProps) {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/frame"
+                className="inline-flex items-center rounded-md px-3 py-2 text-slate-700 transition hover:bg-slate-100 hover:text-sky-700 min-h-[44px]"
+              >
+                The Aine Frame
+              </Link>
+            </li>
             <li>
               <Link
                 href="/about"
@@ -199,7 +217,7 @@ export function Header({ breakingStory }: HeaderProps) {
             >
               Top Stories
             </Link>
-            {SITE_CONFIG.desks.map((desk) => (
+            {SITE_CONFIG.desks.filter((desk) => desk.id !== 'wire').map((desk) => (
               <Link
                 key={desk.id}
                 href={`/desks/${desk.id}`}
@@ -209,6 +227,13 @@ export function Header({ breakingStory }: HeaderProps) {
                 {desk.label}
               </Link>
             ))}
+            <Link
+              href="/frame"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center rounded-lg px-3 py-3 text-base font-semibold text-slate-700 hover:bg-slate-100 hover:text-sky-700 min-h-[44px]"
+            >
+              The Aine Frame
+            </Link>
             <div className="border-t border-slate-200 pt-2 space-y-1 text-sm text-slate-600">
               <Link
                 href="/about"

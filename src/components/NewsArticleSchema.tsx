@@ -97,15 +97,23 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
         datePublished: pubDate,
         dateModified: modDate,
         articleSection: deskLabel,
-        author: [
-          {
-            '@type': 'Person',
-            name: author.name,
-            jobTitle: author.title,
-            url: `${SITE_CONFIG.url}/authors/${author.id}`,
-            sameAs: author.linkedin ? [author.linkedin] : undefined,
-          },
-        ],
+        author: (article.is_original === false || article.category === 'wire')
+          ? [
+              {
+                '@type': 'Organization',
+                name: 'Aine Wire Desk',
+                url: `${SITE_CONFIG.url}/standards`,
+              },
+            ]
+          : [
+              {
+                '@type': 'Person',
+                name: author.name,
+                jobTitle: author.title,
+                url: `${SITE_CONFIG.url}/authors/${author.id}`,
+                sameAs: author.linkedin ? [author.linkedin] : undefined,
+              },
+            ],
         publisher: {
           '@type': 'NewsMediaOrganization',
           '@id': `${SITE_CONFIG.url}/#organization`,

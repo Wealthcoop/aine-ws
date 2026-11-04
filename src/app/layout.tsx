@@ -10,11 +10,11 @@ import { ARTICLES } from '@/data/articles'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: `${SITE_CONFIG.name} | ${SITE_CONFIG.tagline}`,
-    template: `%s | ${SITE_CONFIG.name}`
+    default: 'Aine (AINE.ws): The Applied AI & Algorithmic Commerce Wire',
+    template: '%s | Aine (AINE.ws)'
   },
   description: SITE_CONFIG.description,
-  applicationName: SITE_CONFIG.name,
+  applicationName: 'Aine (AINE.ws)',
   authors: [{ name: 'Justin Davis', url: `${SITE_CONFIG.url}/authors/justin-davis` }],
   creator: SITE_CONFIG.legalName,
   publisher: SITE_CONFIG.legalName,
@@ -44,30 +44,30 @@ export const metadata: Metadata = {
     type: 'website',
     locale: SITE_CONFIG.locale,
     url: SITE_CONFIG.url,
-    siteName: SITE_CONFIG.name,
-    title: `${SITE_CONFIG.name} | ${SITE_CONFIG.tagline}`,
+    siteName: 'Aine (AINE.ws)',
+    title: 'Aine (AINE.ws): The Applied AI & Algorithmic Commerce Wire',
     description: SITE_CONFIG.description,
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: `${SITE_CONFIG.name} - Applied AI News Wire`,
+        alt: 'Aine (AINE.ws) - Applied AI News Wire',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${SITE_CONFIG.name} | ${SITE_CONFIG.tagline}`,
+    title: 'Aine (AINE.ws): The Applied AI & Algorithmic Commerce Wire',
     description: SITE_CONFIG.description,
     images: ['/og-image.jpg'],
   },
   icons: {
     icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    apple: [{ url: '/apple-touch-icon.png' }],
+    apple: [{ url: '/favicon.svg' }],
   },
   other: {
     'google-site-verification': process.env.NEXT_PUBLIC_GSC_VERIFICATION || 'ZCEez8R7ae_zvdcPy1nbioBNtFJ1zCpPXUgibCD155Q',
@@ -96,7 +96,9 @@ export default function RootLayout({
       <head>
         <OrganizationSchema />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="alternate" type="application/rss+xml" title="AI News RSS Feed" href="/feed.xml" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <link rel="alternate" type="application/rss+xml" title="Aine (AINE.ws) RSS Feed" href="/feed.xml" />
         <link rel="sitemap" type="application/xml" title="Google News Sitemap" href="/news-sitemap.xml" />
       </head>
       <body className="flex min-h-screen flex-col bg-slate-50 text-slate-900 antialiased selection:bg-sky-500 selection:text-white">

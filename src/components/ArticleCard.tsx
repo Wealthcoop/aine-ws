@@ -35,11 +35,26 @@ const CATEGORY_COLORS: Record<string, { bg: string; text: string; border: string
     text: 'text-purple-700',
     border: 'border-purple-200',
     label: 'AI Tools & Automation'
+  },
+  'wire': {
+    bg: 'bg-slate-100',
+    text: 'text-slate-800',
+    border: 'border-slate-300',
+    label: 'Aine Wire'
+  },
+  'frame': {
+    bg: 'bg-indigo-50',
+    text: 'text-indigo-800',
+    border: 'border-indigo-200',
+    label: 'The Aine Frame'
   }
 }
 
 export function ArticleCard({ article, variant = 'standard', showImage = true }: ArticleCardProps) {
+  const isWire = article.is_original === false || article.category === 'wire'
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
+  const authorName = isWire ? 'Aine Wire Desk' : author.name
+  const authorHref = isWire ? '/standards' : `/authors/${author.id}`
   const catStyle = CATEGORY_COLORS[article.category] || CATEGORY_COLORS['search-ai']
   const articleHref = `/news/${article.category}/${article.slug}`
   const formattedDate = new Date(article.publishedAt).toLocaleDateString('en-US', {
@@ -83,19 +98,23 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
 
           <div className="mt-6 flex items-center justify-between border-t border-slate-100 pt-4 text-xs text-slate-600">
             <Link
-              href={`/authors/${author.id}`}
+              href={authorHref}
               className="flex items-center gap-2 font-medium text-slate-800 hover:text-sky-700 transition"
             >
-              <div className="h-7 w-7 overflow-hidden rounded-full border border-slate-200 bg-slate-100">
-                <Image
-                  src={author.avatar}
-                  alt={author.name}
-                  width={28}
-                  height={28}
-                  className="h-full w-full object-cover"
-                />
+              <div className="h-7 w-7 overflow-hidden rounded-full border border-slate-200 bg-slate-900 flex items-center justify-center shrink-0">
+                {isWire ? (
+                  <span className="text-[9px] font-bold text-sky-400 font-mono">WIRE</span>
+                ) : (
+                  <Image
+                    src={author.avatar}
+                    alt={author.name}
+                    width={28}
+                    height={28}
+                    className="h-full w-full object-cover"
+                  />
+                )}
               </div>
-              <span>By {author.name}</span>
+              <span>By {authorName}</span>
             </Link>
             <div className="flex items-center gap-1">
               <Clock className="h-3.5 w-3.5" />
@@ -144,8 +163,8 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
           </h3>
         </div>
         <div className="mt-2 flex items-center justify-between text-[11px] text-slate-600">
-          <Link href={`/authors/${author.id}`} className="hover:text-slate-800 transition">
-            By {author.name}
+          <Link href={authorHref} className="hover:text-slate-800 transition">
+            By {authorName}
           </Link>
           <span>{article.readingTimeMinutes}m read</span>
         </div>
@@ -196,11 +215,11 @@ export function ArticleCard({ article, variant = 'standard', showImage = true }:
 
       <div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-3 text-xs text-slate-600">
         <Link
-          href={`/authors/${author.id}`}
+          href={authorHref}
           className="flex items-center gap-1.5 font-medium text-slate-700 hover:text-sky-700 transition"
         >
           <User className="h-3 w-3 text-slate-500" />
-          <span>{author.name}</span>
+          <span>{authorName}</span>
         </Link>
         <div className="flex items-center gap-1">
           <Clock className="h-3 w-3" />

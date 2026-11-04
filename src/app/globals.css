@@ -108,3 +108,83 @@
 .article-prose li {
   margin-bottom: 0.5rem;
 }
+
+/* Aine Brand Lockup Styles */
+.aine-brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.aine-badge-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.aine-wordmark-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aine-wordmark-title {
+  line-height: 1;
+  display: flex;
+  align-items: baseline;
+}
+
+.aine-main-name {
+  font-family: Georgia, 'Playfair Display', 'Times New Roman', serif;
+  font-weight: 800;
+  font-size: 34px;
+  color: #0F172A;
+  letter-spacing: -0.02em;
+}
+
+.aine-domain-ext {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: #2563EB;
+  letter-spacing: -0.01em;
+}
+
+.aine-wordmark-sub {
+  margin-top: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 10.5px;
+  line-height: 1.2;
+  color: #0F172A;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.aine-phonetic {
+  font-weight: 600;
+  color: #334155;
+}
+
+.aine-dot {
+  color: #94A3B8;
+}
+
+.aine-tagline {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0F172A;
+}
+
+/* Mobile responsive adjustment */
+@media (max-width: 640px) {
+  .aine-main-name { font-size: 26px; }
+  .aine-domain-ext { font-size: 17px; }
+  .aine-wordmark-sub { font-size: 9px; }
+  .aine-badge-icon svg { width: 42px; height: 42px; }
+}
+
