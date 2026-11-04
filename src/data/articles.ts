@@ -2,6 +2,147 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793800015",
+    slug: "frontier-ai-models-live-top-10-rankings-evidence-and-pr",
+    title: "Frontier AI Models: Live Top 10 Rankings, Evidence and Pricing ...",
+    deck: "See which AI models are on the frontier in November 2026: Gemini 4 Carbon leads the top 10. Compare the top 10 by score, conditional score range, pricing, Supported or...",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-04T13:46:18Z",
+    updatedAt: "2026-11-04T13:46:18Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/mcp-agent-architecture.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: See which AI models are on the frontier in November 2026: Gemini 4 Carbon leads the top 10. Compare the top 10...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong>, November 2026: You.com's AI Wire has published a live leaderboard, built on its BenchLM evaluation engine, ranking the top 10 "frontier" AI models by score, conditional score range, pricing and modality support. Google's Gemini 4 Carbon currently sits at the top of that list, according to the tracker published at benchlm.ai/frontier-ai-models.</p>
+
+<h2>What does the new Frontier AI Models leaderboard show?</h2>
+<p>The leaderboard presents a running comparison of the ten highest-scoring AI systems available on the market, updated as new releases and retests come in. Gemini 4 Carbon holds the number one position as of November 2026, with the page displaying each model's score, a conditional score range, pricing status and which input or output formats it supports.</p>
+
+<h2>Why is this ranking surfacing now?</h2>
+<p>Frontier model releases have accelerated through 2026, with major labs pushing out successive versions faster than procurement teams can independently test them. A live, centralized scorecard answers a practical need: buyers and developers want one page that tracks which systems are actually ahead at any given moment rather than relying on marketing claims from individual vendors.</p>
+
+<h2>What evidence backs the ranking methodology?</h2>
+<p>BenchLM's approach combines a single aggregate score with a conditional score range, a format that signals how much a model's performance can shift depending on task type, prompt structure or evaluation conditions. That range matters because a model can lead on one class of problem and slip on another, and a single number tends to flatten that nuance.</p>
+
+<h3>What metrics make up the BenchLM scorecard?</h3>
+<p>The scorecard tracks five core fields for each ranked model: overall score, conditional score range, pricing status, supported modalities and ranking position. These fields let buyers compare models on consistency and cost rather than headline performance alone.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<tr>
+<th>Metric</th>
+<th>What It Measures</th>
+</tr>
+<tr>
+<td>Rank Position</td>
+<td>Standing among the top 10 frontier models, led by Gemini 4 Carbon as of November 2026</td>
+</tr>
+<tr>
+<td>Score</td>
+<td>Aggregate performance figure used to order the leaderboard</td>
+</tr>
+<tr>
+<td>Conditional Score Range</td>
+<td>Spread showing how much a model's results vary across different test conditions</td>
+</tr>
+<tr>
+<td>Pricing</td>
+<td>Commercial terms as listed on the tracker; full enterprise contract rates are not detailed publicly for every model</td>
+</tr>
+<tr>
+<td>Supported Modalities</td>
+<td>Input and output formats each model handles, such as text, image or other data types</td>
+</tr>
+</table>
+
+<h2>Who benefits and who falls behind in the new rankings?</h2>
+<p>Enterprise buyers and developers gain the most immediate benefit, since a single comparative view reduces the time spent testing competing systems before a procurement decision. Models that drop out of the top 10, or that rank with a wide conditional score range, risk losing visibility with technical teams who increasingly default to leaderboard position as a first filter before running their own evaluations.</p>
+
+<h2>What are the limits of this leaderboard?</h2>
+<p>A single live ranking source carries real limits: benchmark scores can be influenced by which tasks a lab chooses to test, and a top aggregate score does not guarantee the best fit for every use case. The conditional score range built into BenchLM's format is itself an acknowledgment that no single number captures how a model performs across the full span of real-world conditions, which means procurement teams should treat the ranking as a starting point rather than a final verdict.</p>
+
+<h2>What happens next for this ranking and the models on it?</h2>
+<p>Expect the list to keep shifting as labs ship new versions and as BenchLM reruns its evaluations against updated releases. With Gemini 4 Carbon holding the top spot for now, the next test will be whether rival labs respond with releases that close the gap on score consistency rather than just chasing a higher headline number. The full, continuously updated rankings, along with pricing and modality detail for each listed model, are available at the BenchLM source page linked above.</p>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://benchlm.ai/frontier-ai-models", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793800043",
+    slug: "launch-hn-respan-yc-w24-open-source-rust-ai-gateway-bui",
+    title: "Launch HN: Respan (YC W24) - Open-source Rust AI gateway built around plugins",
+    deck: "Community discussion with 53 upvotes on Hacker News regarding Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-10-20T15:09:29Z",
+    updatedAt: "2026-10-20T15:09:29Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/voice-ai-latency.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Hacker News AI Community.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Hacker News AI Community.",
+          "Key focus: Community discussion with 53 upvotes on Hacker News regarding Launch HN: Respan (YC W24) \u2013 Open-source Rust AI...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>Respan Launches on Hacker News With a Rust-Built, Plugin-First Pitch for AI Infrastructure</h1>
+
+<p><strong>SAN FRANCISCO</strong>, by AI News Staff</p>
+
+<p>A Y Combinator Winter 2024 startup called Respan introduced itself to the developer community on Hacker News this week, posting an open-source "AI gateway" written in Rust and organized around a plugin architecture. The Launch HN thread, posted under the title "Launch HN: Respan (YC W24): Open-source Rust AI gateway built around plugins," had gathered 53 upvotes at the time of this report, placing it among the more actively discussed launches in the AI infrastructure category this cycle.</p>
+
+<h2>What Is an AI Gateway and Why Does Respan's Launch Matter Now?</h2>
+
+<p>An AI gateway is a proxy layer that sits between applications and large language model providers, handling tasks like routing requests, failing over between vendors, logging usage, and enforcing rate limits. Respan's entry into this space arrives as engineering teams increasingly juggle multiple model providers (OpenAI, Anthropic, Google, open-weight models) and need a single control plane to manage cost, reliability, and observability across them.</p>
+
+<p>The timing tracks a broader shift in enterprise AI deployment. As companies move past single-vendor pilots into production systems that call several models for different tasks, the plumbing connecting applications to those models has become its own category, with incumbents like Kong, LiteLLM, and Portkey already competing for developer mindshare. Respan's bet is that a Rust foundation, prized for memory safety and low-latency performance, combined with an extensible plugin system, gives it a technical wedge into that crowded field.</p>
+
+<h2>What Did the Hacker News Discussion Reveal About the Product?</h2>
+
+<p>The Launch HN format is a structured ritual on the forum: a founder posts a top-level comment describing the product's origin, architecture, and roadmap, and the community interrogates it in the replies. Respan's team used that format to present the gateway as open-source infrastructure, a positioning choice that typically invites scrutiny on governance, licensing, and the commercial model sitting beneath a free core product.</p>
+
+<p>Specification details disclosed in the launch, as summarized from the Hacker News post, are outlined below.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Attribute</th><th>Detail</th></tr>
+<tr><td>Company</td><td>Respan</td></tr>
+<tr><td>YC Batch</td><td>Winter 2024 (W24)</td></tr>
+<tr><td>Core Language</td><td>Rust</td></tr>
+<tr><td>Product Category</td><td>AI gateway / LLM proxy infrastructure</td></tr>
+<tr><td>Architecture</td><td>Plugin-based extensibility</td></tr>
+<tr><td>License Model</td><td>Open-source</td></tr>
+<tr><td>Launch Venue</td><td>Hacker News (Launch HN)</td></tr>
+<tr><td>Community Engagement</td><td>53 upvotes on launch thread</td></tr>
+<tr><td>Commercial Terms</td><td>Not detailed in the public thread</td></tr>
+</table>
+
+<h2>Who Stands to Gain and Who Faces Pressure From This Launch?</h2>
+
+<p>Developers and platform teams managing multi-model deployments are the immediate beneficiaries, since a plugin-based gateway promises to let them add custom routing logic, caching, or authentication without forking the core codebase. Incumbent AI gateway vendors, particularly those offering managed or closed-source alternatives, face renewed pressure to justify premium pricing against a free, self-hostable Rust option that early commenters flagged as performant by design.</p>
+
+<p>Enterprises with strict data residency or latency requirements also stand to gain, since Rust-based infrastructure typically runs with a smaller memory footprint than interpreted-language alternatives, a factor that matters when a gateway sits in the critical path of every model call.</p>
+
+<h2>What Skeptical Concerns Surfaced Around Respan?</h2>
+
+<p>Open-source infrastructure launches on Hacker News routinely draw questions about long-term maintenance, and Respan is no exception in facing that structural tension. A free, open-source core requires a sustainable revenue path, whether through hosted versions, enterprise support contracts, or paid plugins, and the public thread did not surface specifics on which of those routes Respan intends to pursue.</p>
+
+<p>There is also the standing question of differentiation. The AI gateway category already includes mature, widely adopted tools, and a new Rust-based entrant must prove measurable advantages in latency, reliability, or plugin ecosystem breadth rather than relying on language choice alone to win developer adoption.</p>
+
+<h2>What Happens Next for Respan and the AI Gateway Category?</h2>
+
+<p>Respan's near-term trajectory will likely hinge on whether the open-source project converts Hacker News attention into sustained GitHub activity, third-party plugin contributions, and production deployments beyond early adopters. The original Launch HN thread, available at the Hacker News link cited above, remains the primary public record of the company's own description of its architecture and intentions, and will be the reference point as the AI infrastructure community tracks whether the project matures from a well-received launch into durable tooling.</p>`,
+    sources: [
+      { name: "Hacker News AI Community", url: "https://news.ycombinator.com/item?id=50167583", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793767363",
     slug: "google-business-profile-rank-tracker-and-checker-local",
     title: "Google Business Profile Rank Tracker and Checker - Local Falcon",
