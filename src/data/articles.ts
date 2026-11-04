@@ -2,6 +2,123 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1793767363",
+    slug: "google-business-profile-rank-tracker-and-checker-local",
+    title: "Google Business Profile Rank Tracker and Checker - Local Falcon",
+    deck: "Check your Google Business Profile ranking from every point across your market. See where you rank in the Map Pack, who outranks you, and how to climb.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-04T04:42:16Z",
+    updatedAt: "2026-11-04T04:42:16Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/programmatic-seo-guidelines.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Check your Google Business Profile ranking from every point across your market. See where you rank in the Map ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> Local Falcon has rolled out expanded geo-grid tracking inside its Google Business Profile rank checker, giving small businesses and agencies a street-level view of where a listing surfaces in Google's Map Pack across an entire service area rather than a single search result. The tool, built around what the company calls grid search reporting, plots dozens of simulated search points on a map and returns a ranking position for each one.</p>
+
+<h2>What Does Local Falcon's Rank Tracker Actually Do?</h2>
+<p>Local Falcon generates a grid of simulated local searches across a defined geographic area and reports a business's Map Pack position at each point on that grid. The result is a visual heat map showing exactly where a Google Business Profile ranks well and where it falls out of the top three results entirely.</p>
+<p>Unlike a single keyword rank check from one address, the grid approach exposes how ranking volatility shifts block by block. A business might sit in the top three near its storefront but disappear from the pack ten minutes away, a gap that standard rank trackers built for organic web search were never designed to catch.</p>
+
+<h2>Why Is This Launching Now?</h2>
+<p>Google's local algorithm has leaned harder on proximity and profile completeness signals in recent years, making the Map Pack, the three-listing block shown above most local search results, the primary battleground for foot traffic and phone calls. Local Falcon's push to widen grid coverage and sharpen competitor comparisons arrives as more small businesses and marketing agencies report that generic SEO dashboards fail to explain inconsistent local visibility.</p>
+<p>Local search has become a budget line item that agencies must justify to clients, and clients increasingly ask for proof rather than promises. A geographic breakdown of ranking performance gives account managers something concrete to show at a renewal meeting.</p>
+
+<h2>What Evidence Backs the Visibility Problem It Solves?</h2>
+<p>Local Falcon's own product pages describe the core use case plainly: checking Google Business Profile ranking "from every point across your market," identifying who outranks a given listing, and surfacing tactics to close that gap. The feature set is built directly around the Map Pack, the three-pack of business listings embedded in Google Search and Google Maps results that drives the bulk of clicks for searches like "plumber near me" or "coffee shop downtown."</p>
+<p>The company positions competitor visibility as a core differentiator, letting users see not just their own ranking but the identity and relative strength of listings that consistently beat them within the same grid.</p>
+
+<h2>Who Gains and Who Loses From Granular Rank Data?</h2>
+<p>Local SEO agencies and multi-location brands stand to benefit most, since grid tracking lets them prioritize optimization spend on specific neighborhoods or franchise locations instead of guessing. Single-location small businesses also gain a clearer diagnostic tool, replacing anecdotal complaints like "we never show up on Google" with a map showing precisely where that is true.</p>
+<p>Businesses that have relied on review volume or keyword stuffing in their profile descriptions, without addressing proximity and category accuracy, are likely to see their weaknesses exposed once a grid report lays bare the actual ranking pattern. Consultants who sold vague "we'll improve your Google ranking" packages now face clients who can independently verify month-over-month movement on their own.</p>
+
+<h2>What Are the Trade-offs and Limitations?</h2>
+<p>Grid-based rank checking is a snapshot built on simulated searches, not live user behavior, so results can shift based on Google's real-time personalization, device type, and account history in ways a simulated grid cannot fully replicate. Businesses should treat the data as a directional indicator of local competitiveness rather than a guaranteed forecast of what every nearby customer sees on their phone.</p>
+<p>Ranking tools of this kind also depend entirely on Google's Maps and Search infrastructure remaining stable; any backend algorithm change can alter grid results overnight without warning, meaning historical trend lines require regular recalibration to stay meaningful.</p>
+
+<h2>What Comes Next for Local Search Measurement?</h2>
+<p>Local Falcon's expanded feature set signals a broader shift in local SEO tooling away from single-point keyword checks and toward geographic performance mapping, a trend likely to accelerate as more verticals compete for limited Map Pack slots. Full feature details and methodology are outlined on the company's product page.</p>
+<p>For agencies managing multiple clients across different cities, the ability to export grid comparisons and track competitor movement over time may become a baseline expectation rather than a premium add-on.</p>
+
+<h3>Key Specifications at a Glance</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+<tr><th>Feature</th><th>Description</th></tr>
+<tr><td>Core Function</td><td>Geo-grid Google Business Profile rank checking</td></tr>
+<tr><td>Output</td><td>Map Pack ranking position at each grid point</td></tr>
+<tr><td>Competitor View</td><td>Identifies which listings outrank the target business</td></tr>
+<tr><td>Coverage Area</td><td>User-defined market radius</td></tr>
+<tr><td>Primary Users</td><td>Local SEO agencies, multi-location brands, small businesses</td></tr>
+<tr><td>Source</td><td>localfalcon.com/features/google-business-profile</td></tr>
+</table>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.localfalcon.com/features/google-business-profile", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1793767387",
+    slug: "google-maps-seo-improve-your-businesss-local-visibility",
+    title: "Google Maps SEO: Improve Your Business's Local Visibility",
+    deck: "Learn how Google Maps SEO works, what to optimize first, and how to track local visibility, website visits and qualified leads from your Business Profile.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-04T04:42:43Z",
+    updatedAt: "2026-11-04T04:42:43Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/local-citation-audit.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Learn how Google Maps SEO works, what to optimize first, and how to track local visibility, website visits and...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> (AI News) ,  Small business owners searching for an edge in local search results are turning to Google Maps SEO as the primary lever for driving foot traffic and phone calls, according to a new guide published by Google My Business Service that breaks down how Business Profile optimization influences local pack rankings. The report, aimed at merchants and marketers, outlines the specific signals Google weighs when deciding which businesses appear in the coveted three-pack of map results shown for local queries.</p>
+
+<h2>What Is Google Maps SEO?</h2>
+<p>Google Maps SEO is the practice of optimizing a Business Profile and related signals so a company ranks higher in local search results and the map pack. It combines profile completeness, customer reviews, website signals, and citation consistency to influence how Google's algorithm evaluates relevance, distance, and prominence for a given search.</p>
+<p>Unlike traditional organic SEO, which centers on webpages and backlinks, Maps SEO lives inside the Google Business Profile dashboard. Categories, attributes, photos, posts, and Q&A sections all factor into how the algorithm interprets what a business does and how trustworthy it is for a searcher's intent.</p>
+
+<h2>Why Is This Getting Attention Now?</h2>
+<p>Interest in local search optimization has intensified as more consumers skip traditional web searches in favor of map-based discovery for restaurants, contractors, and service providers. Business owners are increasingly treating their Google Business Profile as a primary marketing asset rather than an afterthought, since it often appears before a company's own website in search results.</p>
+<p>The shift reflects a broader pattern documented across the local search industry: searchers frequently make purchase decisions directly from the map pack, checking star ratings, hours, and photos without ever clicking through to a business's site. That behavior puts pressure on owners to treat their profile data with the same rigor once reserved for website content.</p>
+
+<h2>What Does the Evidence Show About Ranking Factors?</h2>
+<p>Google has publicly confirmed that relevance, distance, and prominence are the three core factors determining local pack placement. The guide from Google My Business Service maps specific, actionable tasks to each of these pillars, giving business owners a checklist rather than vague advice.</p>
+
+<table>
+<tr><th>Ranking Factor</th><th>What It Measures</th><th>Primary Optimization Action</th></tr>
+<tr><td>Relevance</td><td>How well a profile matches search intent</td><td>Accurate categories, complete service descriptions, keyword-rich business description</td></tr>
+<tr><td>Distance</td><td>Physical proximity of business to searcher</td><td>Verified address, accurate service area settings</td></tr>
+<tr><td>Prominence</td><td>Overall reputation and visibility online</td><td>Review volume and quality, citation consistency, backlinks</td></tr>
+<tr><td>Engagement</td><td>How users interact with the profile</td><td>Regular posts, updated photos, prompt Q&A responses</td></tr>
+<tr><td>Tracking</td><td>Measuring visibility and conversion</td><td>Business Profile Insights for calls, direction requests, website clicks</td></tr>
+</table>
+
+<p>The guide also stresses that Business Profile Insights, Google's built-in analytics tool, lets owners track how many people viewed their listing, requested directions, or clicked through to their website, turning Maps SEO into a measurable channel rather than a guessing game.</p>
+
+<h2>Who Benefits and Who Falls Behind?</h2>
+<p>Local service businesses, restaurants, and brick-and-mortar retailers with limited marketing budgets stand to gain the most, since Maps optimization costs nothing beyond time and consistent upkeep. Businesses with multiple locations or franchise structures also benefit when citation data and category selections stay uniform across every listing.</p>
+<p>Businesses that neglect their profiles, leaving hours outdated, categories mismatched, or review responses unanswered, risk losing visibility to competitors who treat the listing as an active marketing channel. Agencies and freelance consultants offering Maps SEO services are also positioned to capture demand from owners who lack the time to manage profiles themselves.</p>
+
+<h2>What Are the Trade-offs and Limits of This Approach?</h2>
+<p>Maps SEO is not a guaranteed fix, and ranking improvements can take weeks or months to materialize depending on competition density in a given market. Google periodically adjusts its local algorithm without public notice, meaning tactics that work today may carry less weight after an update, and businesses in saturated categories like plumbers or dentists often face steeper competition regardless of profile quality.</p>
+<p>Review manipulation and fake listings remain a persistent problem that Google continues to police, so business owners pursuing aggressive review-generation tactics risk profile suspension if they cross into policy violations. Prominence signals built from genuine online citations and consistent business information take longer to establish than a single optimization session can deliver.</p>
+
+<h2>What Comes Next for Local Search Optimization?</h2>
+<p>The guide positions ongoing profile maintenance, not one-time setup, as the deciding factor in sustained local visibility. Businesses that regularly update photos, respond to reviews, and monitor Insights data are expected to maintain stronger rankings as Google continues refining how it weighs engagement signals.</p>
+<p>As local search increasingly becomes the first and sometimes only touchpoint between a business and a potential customer, the practical steps outlined in the source guide, covering profile completeness, review strategy, and performance tracking, offer a framework that owners and marketers can apply directly.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://googlemybusinessservice.com/blog/google-maps-seo/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793746324",
     slug: "google-business-profile-optimization-guide-for-2026",
     title: "Google Business Profile Optimization Guide for 2026",
