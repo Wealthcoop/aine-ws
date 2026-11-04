@@ -1,4 +1,23 @@
 <svg viewBox="0 0 100 100" width="100" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:cc="http://creativecommons.org/ns#">
+      <rdf:Description rdf:about="https://aine.ws">
+        <dc:title>Aine (AINE.ws) Official Stamp Favicon</dc:title>
+        <dc:description>Official SVG stamp icon of Aine: Applied Intelligence Wire (aine.ws). Editorial serif AI over monospace NE.WS.</dc:description>
+        <dc:creator>Justin Davis</dc:creator>
+        <dc:publisher>Aine Applied Intelligence Wire</dc:publisher>
+        <dc:rights>Copyright 2026 Aine Applied Intelligence Wire. All rights reserved.</dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Aine</rdf:li><rdf:li>AINE.ws</rdf:li><rdf:li>Applied AI</rdf:li><rdf:li>Generative Engine Optimization</rdf:li><rdf:li>GEO</rdf:li><rdf:li>Search &amp; AI Overviews</rdf:li><rdf:li>Voice AI Telephony</rdf:li><rdf:li>Inbound Lead Response Automation</rdf:li><rdf:li>Google Maps 3-Pack Algorithms</rdf:li><rdf:li>Google Business Profile Optimization</rdf:li><rdf:li>Autonomous Agent Architecture</rdf:li><rdf:li>Empirical Search Telemetry</rdf:li><rdf:li>Justin Davis</rdf:li><rdf:li>United States</rdf:li><rdf:li>California Tech Corridor</rdf:li><rdf:li>Sacramento Valley</rdf:li><rdf:li>Folsom CA</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:date>2026-11-04</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
   <rect width="100" height="100" rx="18" fill="#0F172A"/>
   <!-- Top Row: AI (Editorial Serif) -->
   <text x="50" y="52" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-weight="800" font-size="48" letter-spacing="1">AI</text>

@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-11-04T12:07:36.311809",
+  "total_assets_injected": 38,
+  "headquarters": {
+    "name": "Aine (AINE.ws)",
+    "legal_name": "Aine Applied Intelligence Wire",
+    "founder": "Justin Davis",
+    "founder_role": "Founder & Lead Search Analyst",
+    "url": "https://aine.ws",
+    "street": "705 Gold Lake Dr, Suite 250",
+    "city": "Folsom",
+    "state": "California",
+    "state_abbr": "CA",
+    "postal_code": "95630",
+    "country": "United States",
+    "country_code": "USA",
+    "cid_url": "https://maps.google.com/?cid=7895656689241912038",
+    "phone": "(916) 234-3457",
+    "email": "editorial@aine.ws",
+    "lat": 38.6778144,
+    "lon": -121.1792115,
+    "altitude_m": 67.0
+  },
+  "assets": [
+    {
+      "category": "Author Portrait",
+      "path": "public/authors/justin-davis.jpg"
+    },
+    {
+      "category": "Author Portrait",
+      "path": "public/authors/justin-davis-slate.jpg"
+    },
+    {
+      "category": "Author Portrait",
+      "path": "public/authors/molly-perkins.jpg"
+    },
+    {
+      "category": "Author Portrait",
+      "path": "public/authors/elena-chen.jpg"
+    },
+    {
+      "category": "Social Card",
+      "path": "public/og-image.jpg"
+    },
+    {
+      "category": "Brand Asset (SVG)",
+      "path": "public/favicon.svg"
+    },
+    {
+      "category": "Brand Asset (SVG)",
+      "path": "public/icon.svg"
+    },
+    {
+      "category": "Brand Asset (SVG)",
+      "path": "public/logo-square-512.svg"
+    },
+    {
+      "category": "Brand Asset (SVG)",
+      "path": "public/logo-wide-dark.svg"
+    },
+    {
+      "category": "Brand Asset (SVG)",
+      "path": "public/logo-wide-light.svg"
+    },
+    {
+      "category": "Brand Asset (PNG)",
+      "path": "public/logo-square-512.png"
+    },
+    {
+      "category": "Brand Asset (PNG)",
+      "path": "public/logo-wide-dark.png"
+    },
+    {
+      "category": "Brand Asset (PNG)",
+      "path": "public/logo-wide-light.png"
+    },
+    {
+      "category": "Brand Asset (PNG)",
+      "path": "public/favicon.png"
+    },
+    {
+      "category": "Brand Asset (PNG)",
+      "path": "public/apple-touch-icon.png"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/geo-entity-optimization.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/google-core-update.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/telephony-speed-to-lead.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/voice-ai-latency.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/crm-automation-blueprint.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/local-citation-audit.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/schema-graph-entity.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/mcp-agent-architecture.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/programmatic-seo-guidelines.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/contractor-video-seo.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/hubspot-vs-gohighlevel-2026-audit.jpg"
+    },
+    {
+      "category": "News Feature Image",
+      "path": "public/news/hubspot-vs-salesforce-2026-audit.jpg"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/reports/ainews-wire-publication-entity-protocol.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/reports/sacramento-regional-search-telemetry-81node-audit.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/reports/sacramento-regional-search-local-ranking-81node-audit.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/sacramento-regional-search-telemetry-81node-audit.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-gold-standard-folsom-headquarters-regional-grid-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-sacramento-regional-google-maps-3pack-authority-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-water-damage-3pack-revenue-engine-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-the-4-proprietary-systems-of-local-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-google-maps-3pack-domination-contractors-blueprint-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/roseville-ca-why-google-maps-3pack-ranking-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/roseville-ca-how-to-rank-in-google-maps-geo-authority.pdf"
+    }
+  ]
+}

@@ -1,4 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160" fill="none">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/"
+             xmlns:cc="http://creativecommons.org/ns#">
+      <rdf:Description rdf:about="https://aine.ws">
+        <dc:title>Aine (AINE.ws) Wide Light Vector Wordmark</dc:title>
+        <dc:description>Vector masthead wordmark with phonetic pronunciation for light displays.</dc:description>
+        <dc:creator>Justin Davis</dc:creator>
+        <dc:publisher>Aine Applied Intelligence Wire</dc:publisher>
+        <dc:rights>Copyright 2026 Aine Applied Intelligence Wire. All rights reserved.</dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Aine</rdf:li><rdf:li>AINE.ws</rdf:li><rdf:li>Applied AI</rdf:li><rdf:li>Generative Engine Optimization</rdf:li><rdf:li>GEO</rdf:li><rdf:li>Search &amp; AI Overviews</rdf:li><rdf:li>Voice AI Telephony</rdf:li><rdf:li>Inbound Lead Response Automation</rdf:li><rdf:li>Google Maps 3-Pack Algorithms</rdf:li><rdf:li>Google Business Profile Optimization</rdf:li><rdf:li>Autonomous Agent Architecture</rdf:li><rdf:li>Empirical Search Telemetry</rdf:li><rdf:li>Justin Davis</rdf:li><rdf:li>United States</rdf:li><rdf:li>California Tech Corridor</rdf:li><rdf:li>Sacramento Valley</rdf:li><rdf:li>Folsom CA</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:date>2026-11-04</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
   <!-- Tech Wire Symbol -->
   <g transform="translate(24, 20)">
     <rect width="120" height="120" rx="24" fill="#0f172a"/>
