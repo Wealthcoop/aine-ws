@@ -18,7 +18,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Justin Davis',
     role: 'Publisher & Editor-in-Chief',
     title: 'Founder & Lead Search Analyst',
-    bio: 'Justin Davis is the founder and publisher of AI News (aine.ws). He has spent over a decade analyzing programmatic search infrastructure, algorithmic local ranking systems, and autonomous digital business architecture.',
+    bio: 'Justin Davis is the founder and publisher of Aine (AINE.ws). He has spent over a decade analyzing programmatic search infrastructure, algorithmic local ranking systems, and autonomous digital business architecture.',
     avatar: '/authors/justin-davis.jpg',
     linkedin: 'https://www.linkedin.com/in/justin-davis-marketing',
     email: 'j.davis@aine.ws',
@@ -40,7 +40,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Elena Chen',
     role: 'Local Business & SMB Technology Reporter',
     title: 'Local Commerce & Maps Search Analyst',
-    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at AI News (aine.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile ranking data, AI review filtering systems, and automated voice telephony for trade contractors.',
+    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at Aine (AINE.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile ranking data, AI review filtering systems, and automated voice telephony for trade contractors.',
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',
     beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Strategies']
@@ -50,7 +50,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Marcus Vance',
     role: 'Contributing Analyst',
     title: 'Former Technology Correspondent',
-    bio: 'Marcus Vance previously covered enterprise software and telecom infrastructure for AI News.',
+    bio: 'Marcus Vance previously covered enterprise software and telecom infrastructure for Aine.',
     avatar: '/authors/marcus-vance.jpg',
     email: 'editorial@aine.ws',
     beats: ['Enterprise Software', 'Archive']

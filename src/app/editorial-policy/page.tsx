@@ -103,7 +103,7 @@ export default function EditorialPolicyPage() {
               In an era of generative machine learning, transparency regarding our own use of technology is critical:
             </p>
             <ul className="mt-3 space-y-2 text-sm text-sky-950 list-disc pl-5">
-              <li><strong>Zero Synthetic Hallucination:</strong> AI News does not publish unverified, fully automated synthetic articles. All stories are drafted, reviewed, contextualized, and approved by named human journalists on our masthead.</li>
+              <li><strong>Zero Synthetic Hallucination:</strong> Aine does not publish unverified, fully automated synthetic articles. All stories are drafted, reviewed, contextualized, and approved by named human journalists on our masthead.</li>
               <li><strong>Automated Newsroom Pipelines:</strong> Our newsroom employs real-time RSS and wire monitoring pipelines to track public announcements, API releases, and model benchmarks. These tools surface raw signals; human editors synthesize and report the story.</li>
               <li><strong>Accountability:</strong> Byline authors take full professional and legal responsibility for every sentence, graphic, and metric appearing under their names.</li>
             </ul>
@@ -118,7 +118,7 @@ export default function EditorialPolicyPage() {
             </p>
             <ul className="mt-3 space-y-2 list-disc pl-5">
               <li><strong>Clear Advertising Delimitation:</strong> Sponsored content, partner case studies, or native affiliate resources are explicitly labeled as such and strictly segregated from editorial reporting.</li>
-              <li><strong>No Pay-for-Coverage:</strong> AI News does not accept payment, gifts, or financial kickbacks in exchange for favorable news coverage, product reviews, or interview features.</li>
+              <li><strong>No Pay-for-Coverage:</strong> Aine does not accept payment, gifts, or financial kickbacks in exchange for favorable news coverage, product reviews, or interview features.</li>
               <li><strong>Disclosures:</strong> If an article analyzes a service or software with which our parent organization maintains an agency or vendor relationship, a prominent disclosure is included within the piece.</li>
             </ul>
           </section>

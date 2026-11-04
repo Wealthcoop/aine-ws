@@ -345,7 +345,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
               <span>Primary Source Verification &amp; Attributions</span>
             </div>
             <p className="mt-2 text-xs text-slate-500">
-              In adherence to AI News fact-checking standards, the statements in this report were verified against the following primary sources:
+              In adherence to Aine fact-checking standards, the statements in this report were verified against the following primary sources:
             </p>
             <ul className="mt-4 space-y-2 text-xs">
               {article.sources.map((source, idx) => (

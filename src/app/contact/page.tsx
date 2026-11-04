@@ -102,7 +102,7 @@ export default function ContactPage() {
                 <span>Source Protection Policy</span>
               </div>
               <p className="mt-2 text-xs text-emerald-900 leading-relaxed">
-                AI News protects the confidentiality of whistleblowers, corporate sources, and algorithm researchers under established journalistic privilege principles. You may submit anonymously.
+                Aine protects the confidentiality of whistleblowers, corporate sources, and algorithm researchers under established journalistic privilege principles. You may submit anonymously.
               </p>
             </div>
 
@@ -137,7 +137,7 @@ export default function ContactPage() {
                     Transmission Received
                   </h3>
                   <p className="mt-2 text-sm text-slate-600 max-w-md mx-auto">
-                    Your message has been securely logged with the AI News editorial newsroom desk. If you provided contact information, an assigning editor will follow up shortly.
+                    Your message has been securely logged with the Aine editorial newsroom desk. If you provided contact information, an assigning editor will follow up shortly.
                   </p>
                   <button
                     onClick={() => {

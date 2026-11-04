@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T12:07:36.311809",
-  "total_assets_injected": 38,
+  "generated_at": "2026-11-04T12:53:22.709386",
+  "total_assets_injected": 46,
   "headquarters": {
     "name": "Aine (AINE.ws)",
     "legal_name": "Aine Applied Intelligence Wire",
@@ -132,7 +132,15 @@
     },
     {
       "category": "Companion PDF",
+      "path": "public/reports/aine-editorial-standards-and-verification.pdf"
+    },
+    {
+      "category": "Companion PDF",
       "path": "public/reports/ainews-wire-publication-entity-protocol.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/reports/sacramento-local-search-market-report.pdf"
     },
     {
       "category": "Companion PDF",
@@ -144,15 +152,7 @@
     },
     {
       "category": "Companion PDF",
-      "path": "public/geo-vault/sacramento-regional-search-telemetry-81node-audit.pdf"
-    },
-    {
-      "category": "Companion PDF",
-      "path": "public/geo-vault/folsom-ca-gold-standard-folsom-headquarters-regional-grid-geo-authority.pdf"
-    },
-    {
-      "category": "Companion PDF",
-      "path": "public/geo-vault/folsom-ca-sacramento-regional-google-maps-3pack-authority-geo-authority.pdf"
+      "path": "public/geo-vault/folsom-water-damage-contractor-guide.pdf"
     },
     {
       "category": "Companion PDF",
@@ -160,7 +160,15 @@
     },
     {
       "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-local-search-foundations-guide.pdf"
+    },
+    {
+      "category": "Companion PDF",
       "path": "public/geo-vault/folsom-ca-the-4-proprietary-systems-of-local-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-contractors-google-maps-guide.pdf"
     },
     {
       "category": "Companion PDF",
@@ -168,11 +176,35 @@
     },
     {
       "category": "Companion PDF",
+      "path": "public/geo-vault/roseville-business-search-guide.pdf"
+    },
+    {
+      "category": "Companion PDF",
       "path": "public/geo-vault/roseville-ca-why-google-maps-3pack-ranking-geo-authority.pdf"
     },
     {
       "category": "Companion PDF",
+      "path": "public/geo-vault/roseville-google-maps-checklist.pdf"
+    },
+    {
+      "category": "Companion PDF",
       "path": "public/geo-vault/roseville-ca-how-to-rank-in-google-maps-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-regional-market-overview.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-gold-standard-folsom-headquarters-regional-grid-geo-authority.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/sacramento-regional-maps-performance-report.pdf"
+    },
+    {
+      "category": "Companion PDF",
+      "path": "public/geo-vault/folsom-ca-sacramento-regional-google-maps-3pack-authority-geo-authority.pdf"
     }
   ]
 }

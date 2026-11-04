@@ -151,10 +151,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Section 3: What Makes AI News Different */}
+        {/* Section 3: What Makes Aine Different */}
         <section className="flex flex-col gap-6 pt-6 border-t border-slate-200">
           <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
-            What Makes AI News Different
+            What Makes Aine Different
           </h2>
           <div className="flex flex-col gap-6">
             <div className="p-5 rounded-xl border border-slate-200 bg-white">
@@ -162,7 +162,7 @@ export default function AboutPage() {
                 Empirical Field Data Over Press Releases
               </h3>
               <p className="text-sm text-slate-600 mt-1">
-                Major technology outlets like TechCrunch and The Verge routinely republish corporate press releases without testing the underlying software. AI News conducts hands-on audits using live code, real local business profiles, and actual customer calls. Every claim is supported by reproducible data from the field.
+                Major technology outlets like TechCrunch and The Verge routinely republish corporate press releases without testing the underlying software. Aine conducts hands-on audits using live code, real local business profiles, and actual customer calls. Every claim is supported by reproducible data from the field.
               </p>
             </div>
 
@@ -171,7 +171,7 @@ export default function AboutPage() {
                 Zero Sponsored Editorial Bias
               </h3>
               <p className="text-sm text-slate-600 mt-1">
-                Trade portals like Search Engine Land and Search Engine Roundtable frequently accept paid vendor sponsorships that influence product recommendations. AI News maintains a strict firewall between editorial research and paid sponsorships. Our reporters test tools objectively, calling out flaws regardless of advertiser relationships.
+                Trade portals like Search Engine Land and Search Engine Roundtable frequently accept paid vendor sponsorships that influence product recommendations. Aine maintains a strict firewall between editorial research and paid sponsorships. Our reporters test tools objectively, calling out flaws regardless of advertiser relationships.
               </p>
             </div>
 
@@ -180,7 +180,7 @@ export default function AboutPage() {
                 Operator-Grade Math and Financial Impact
               </h3>
               <p className="text-sm text-slate-600 mt-1">
-                General business publications offer vague high-level commentary that never addresses real operational profit. AI News calculates exact financial outcomes, showing how a 60-second response window can yield a $20,000 monthly revenue difference. We translate technical AI changes into plain dollars and cents.
+                General business publications offer vague high-level commentary that never addresses real operational profit. Aine calculates exact financial outcomes, showing how a 60-second response window can yield a $20,000 monthly revenue difference. We translate technical AI changes into plain dollars and cents.
               </p>
             </div>
 
@@ -198,16 +198,16 @@ export default function AboutPage() {
                 Open-Access Benchmarks Without Expensive Paywalls
               </h3>
               <p className="text-sm text-slate-600 mt-1">
-                Industry research firms like Gartner and Forrester charge tens of thousands of dollars for gated market reports. AI News publishes our core search audits and speed-to-lead benchmarks completely free to the public. Operators of any size can access enterprise-grade intelligence without prohibitive advisory fees.
+                Industry research firms like Gartner and Forrester charge tens of thousands of dollars for gated market reports. Aine publishes our core search audits and speed-to-lead benchmarks completely free to the public. Operators of any size can access enterprise-grade intelligence without prohibitive advisory fees.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Section 4: Who Uses AI News */}
+        {/* Section 4: Who Uses Aine */}
         <section className="flex flex-col gap-6 pt-6 border-t border-slate-200">
           <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
-            Who Uses AI News
+            Who Uses Aine
           </h2>
           <p className="text-sm text-slate-600">
             Our readers and partners rely on our research to make critical software, search, and capital investment decisions:
@@ -236,10 +236,10 @@ export default function AboutPage() {
           </ul>
         </section>
 
-        {/* Section 5: The Team Behind AI News */}
+        {/* Section 5: The Team Behind Aine */}
         <section className="flex flex-col gap-6 pt-6 border-t border-slate-200">
           <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
-            The Team Behind AI News
+            The Team Behind Aine
           </h2>
           <div className="space-y-6">
             {Object.values(AUTHORS).map((author) => (
@@ -302,7 +302,7 @@ export default function AboutPage() {
             <div className="p-5 rounded-xl border border-slate-200 bg-white">
               <h3 className="font-sans text-base font-bold text-slate-900">Company Origin Story</h3>
               <p className="text-sm text-slate-600 mt-2">
-                AI News was launched in 2024 to replace speculation with verifiable data in the artificial intelligence and search industry. Our distributed newsroom pairs software engineers with investigative journalists to produce transparent, high-integrity reporting.
+                Aine was launched in 2024 to replace speculation with verifiable data in the artificial intelligence and search industry. Our distributed newsroom pairs software engineers with investigative journalists to produce transparent, high-integrity reporting.
               </p>
             </div>
 
@@ -315,10 +315,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Section 6: How AI News Works */}
+        {/* Section 6: How Aine Works */}
         <section className="flex flex-col gap-6 pt-6 border-t border-slate-200">
           <h2 className="font-sans text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
-            How AI News Works
+            How Aine Works
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="p-5 rounded-xl border border-slate-200 bg-white flex flex-col gap-2">
@@ -384,7 +384,7 @@ export default function AboutPage() {
               <tbody>
                 <tr className="border-b border-slate-200">
                   <th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50 w-1/3">Company Name</th>
-                  <td className="p-3.5 text-slate-700">AI News (AI News Network / AINE.WS)</td>
+                  <td className="p-3.5 text-slate-700">Aine (AINE.ws)</td>
                 </tr>
                 <tr className="border-b border-slate-200">
                   <th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50">Type</th>
@@ -467,16 +467,16 @@ export default function AboutPage() {
           <div className="flex flex-col gap-6">
             <div className="p-5 rounded-xl border border-slate-200 bg-white">
               <h3 className="font-sans text-base font-bold text-slate-900">
-                Is AI News an automated blog or run by real journalists?
+                Is Aine an automated blog or run by real journalists?
               </h3>
               <p className="text-sm text-slate-600 mt-2">
-                AI News is run by human journalists and systems architects led by Justin Davis. Every investigation, ranking teardown, and lead benchmark is researched, fact-checked, and written by our editorial team. We never publish unverified automated output.
+                Aine is run by human journalists and systems architects led by Justin Davis. Every investigation, ranking teardown, and lead benchmark is researched, fact-checked, and written by our editorial team. We never publish unverified automated output.
               </p>
             </div>
 
             <div className="p-5 rounded-xl border border-slate-200 bg-white">
               <h3 className="font-sans text-base font-bold text-slate-900">
-                How does AI News fund its investigative work?
+                How does Aine fund its investigative work?
               </h3>
               <p className="text-sm text-slate-600 mt-2">
                 We fund our operations through specialized enterprise research briefs, data licenses, and transparent corporate sponsorships. Advertisers have no editorial control over our reporting, test methodologies, or published ratings. Our journalism remains completely independent.

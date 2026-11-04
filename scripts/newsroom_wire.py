@@ -592,13 +592,29 @@ def fetch_hn_ai_news(limit=5, min_points=25):
     return items
 
 # ── Visual Diversity Image Selector ──────────────────────────────────────────
-def pick_diverse_image(category, recent_images):
-    pool = IMAGE_POOLS.get(category, IMAGE_POOLS['ai-tools'])
-    recent_set = set(recent_images[:3])
-    candidates = [img for img in pool if img not in recent_set]
+def pick_diverse_image(category, recent_images, story_title=""):
+    editorial_dir = os.path.join(PUBLIC_DIR, "news", "editorial")
+    all_editorial = []
+    if os.path.exists(editorial_dir):
+        all_editorial = [f"/news/editorial/{f}" for f in os.listdir(editorial_dir) if f.endswith(('.jpg', '.png'))]
+    
+    base_pool = IMAGE_POOLS.get(category, IMAGE_POOLS['ai-tools'])
+    full_pool = all_editorial + base_pool
+    recent_set = set(recent_images[:30])
+    
+    # Try topic keyword match first from unused images
+    words = re.findall(r'[a-z0-9]+', (story_title or "").lower())
+    for w in words:
+        if len(w) > 4:
+            matched = [img for img in full_pool if w in img.lower() and img not in recent_set]
+            if matched:
+                return matched[0]
+                
+    # Fallback to any unused candidate
+    candidates = [img for img in full_pool if img not in recent_set]
     if candidates:
         return candidates[0]
-    return pool[0]
+    return base_pool[0]
 
 # ── Auto-Repair Article Synthesizer ──────────────────────────────────────────
 def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_images):
@@ -619,7 +635,7 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
     repaired_date = auto_repair_date(item.get('published'))
 
     # 5. Pick diverse, non-adjacent image
-    chosen_image = pick_diverse_image(feed_source['category'], recent_images)
+    chosen_image = pick_diverse_image(feed_source['category'], recent_images, repaired_title)
 
     dateline = feed_source.get('dateline', 'WILMINGTON, Del.')
     source_name = feed_source['name']

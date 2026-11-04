@@ -18,6 +18,7 @@
       </rdf:Description>
     </rdf:RDF>
   </metadata>
+  
   <!-- Tech Wire Symbol -->
   <g transform="translate(24, 20)">
     <rect width="120" height="120" rx="24" fill="#0284c7"/>

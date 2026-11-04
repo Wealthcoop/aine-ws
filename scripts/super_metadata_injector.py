@@ -93,7 +93,7 @@ def build_xmp_packet(title, description, keywords, companion_url=None):
     now_iso = datetime.now().isoformat()
     title_esc = _xml_escape(title)
     desc_esc = _xml_escape(description)
-    comp_url_esc = _xml_escape(companion_url or "https://aine.ws/reports/ainews-wire-publication-entity-protocol.pdf")
+    comp_url_esc = _xml_escape(companion_url or "https://aine.ws/reports/aine-editorial-standards-and-verification.pdf")
 
     xmp = f"""<?xpacket begin="\ufeff" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Aine Multi-Tier Global Entity Engine 3.0">
@@ -680,59 +680,99 @@ def main():
     print("\n[Step 5/5] Injecting Companion Research & Telemetry PDFs...")
     pdf_targets = [
         (
+            os.path.join(PUBLIC_DIR, "reports", "aine-editorial-standards-and-verification.pdf"),
+            "Aine Editorial Standards, Source Verification, and Newsroom Methodology",
+            GLOBAL_KEYWORDS + ["Editorial Standards", "Source Verification", "Journalism Ethics", "Research Methodology"]
+        ),
+        (
             os.path.join(PUBLIC_DIR, "reports", "ainews-wire-publication-entity-protocol.pdf"),
-            "Aine (AINE.ws) Wire Publication Entity & Verification Protocol",
-            GLOBAL_KEYWORDS + ["Entity Protocol", "Publication Standards", "Whitepaper"]
+            "Aine Editorial Standards, Source Verification, and Newsroom Methodology",
+            GLOBAL_KEYWORDS + ["Editorial Standards", "Source Verification", "Journalism Ethics", "Research Methodology"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "reports", "sacramento-local-search-market-report.pdf"),
+            "Sacramento Local Search Market Study: Small Business Visibility and Proximity Dynamics",
+            GLOBAL_KEYWORDS + ["Sacramento Local Search", "Market Study", "Proximity Dynamics", "Business Visibility"]
         ),
         (
             os.path.join(PUBLIC_DIR, "reports", "sacramento-regional-search-telemetry-81node-audit.pdf"),
-            "Sacramento Regional Search Telemetry & 81-Node Proximity Grid Audit",
-            GLOBAL_KEYWORDS + ["Sacramento", "81-Node Grid", "Search Telemetry", "Proximity Audit"]
+            "Sacramento Local Search Market Study: Small Business Visibility and Proximity Dynamics",
+            GLOBAL_KEYWORDS + ["Sacramento Local Search", "Market Study", "Proximity Dynamics", "Business Visibility"]
         ),
         (
             os.path.join(PUBLIC_DIR, "reports", "sacramento-regional-search-local-ranking-81node-audit.pdf"),
-            "Sacramento Regional Local Search Ranking Audit: 81-Node Field Analysis",
-            GLOBAL_KEYWORDS + ["Sacramento Local Search", "81-Node Telemetry", "Map Pack"]
+            "Sacramento Local Search Market Study: Small Business Visibility and Proximity Dynamics",
+            GLOBAL_KEYWORDS + ["Sacramento Local Search", "Market Study", "Proximity Dynamics", "Business Visibility"]
         ),
         (
-            os.path.join(PUBLIC_DIR, "geo-vault", "sacramento-regional-search-telemetry-81node-audit.pdf"),
-            "Sacramento Regional Search Telemetry Geo-Vault Audit Archive",
-            GLOBAL_KEYWORDS + ["Sacramento Vault", "Search Telemetry", "Field Audit"]
-        ),
-        (
-            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-gold-standard-folsom-headquarters-regional-grid-geo-authority.pdf"),
-            "Folsom Headquarters Regional Grid Geo-Authority Whitepaper",
-            GLOBAL_KEYWORDS + ["Folsom HQ", "Regional Grid", "Entity Authority"]
-        ),
-        (
-            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-sacramento-regional-google-maps-3pack-authority-geo-authority.pdf"),
-            "Sacramento Regional Google Maps 3-Pack Authority Telemetry Report",
-            GLOBAL_KEYWORDS + ["Google Maps 3-Pack", "Sacramento", "Authority Protocol"]
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-water-damage-contractor-guide.pdf"),
+            "Folsom Water Damage Contractor Guide: Lead Response Speed and Local Search Visibility",
+            GLOBAL_KEYWORDS + ["Folsom Water Damage", "Lead Response Speed", "Contractor Guide", "Local Search"]
         ),
         (
             os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-water-damage-3pack-revenue-engine-geo-authority.pdf"),
-            "Emergency Services 3-Pack Revenue Engine & Speed-to-Lead Telemetry",
-            GLOBAL_KEYWORDS + ["Speed to Lead", "3-Pack Revenue", "Emergency Telemetry"]
+            "Folsom Water Damage Contractor Guide: Lead Response Speed and Local Search Visibility",
+            GLOBAL_KEYWORDS + ["Folsom Water Damage", "Lead Response Speed", "Contractor Guide", "Local Search"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-local-search-foundations-guide.pdf"),
+            "The Four Foundations of Local Search Performance: A Practical Guide for Folsom Businesses",
+            GLOBAL_KEYWORDS + ["Local Search Foundations", "Folsom Small Business", "Visibility Guide"]
         ),
         (
             os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-the-4-proprietary-systems-of-local-geo-authority.pdf"),
-            "The Four Proprietary Systems of Local GEO Authority",
-            GLOBAL_KEYWORDS + ["Four Proprietary Systems", "GEO Engine", "Whitepaper"]
+            "The Four Foundations of Local Search Performance: A Practical Guide for Folsom Businesses",
+            GLOBAL_KEYWORDS + ["Local Search Foundations", "Folsom Small Business", "Visibility Guide"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-contractors-google-maps-guide.pdf"),
+            "Folsom Contractor Guide to Google Business Profiles and Local Map Visibility",
+            GLOBAL_KEYWORDS + ["Google Business Profile", "Contractor Marketing", "Folsom Google Maps"]
         ),
         (
             os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-google-maps-3pack-domination-contractors-blueprint-geo-authority.pdf"),
-            "Google Maps 3-Pack Domination Blueprint for Trade Contractors",
-            GLOBAL_KEYWORDS + ["Contractor Blueprint", "Google Maps 3-Pack", "Lead Capture"]
+            "Folsom Contractor Guide to Google Business Profiles and Local Map Visibility",
+            GLOBAL_KEYWORDS + ["Google Business Profile", "Contractor Marketing", "Folsom Google Maps"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "roseville-business-search-guide.pdf"),
+            "Roseville Business Search Guide: Understanding Map Visibility and Customer Distance",
+            GLOBAL_KEYWORDS + ["Roseville Local Business", "Map Visibility", "Customer Proximity"]
         ),
         (
             os.path.join(PUBLIC_DIR, "geo-vault", "roseville-ca-why-google-maps-3pack-ranking-geo-authority.pdf"),
-            "Why Google Maps 3-Pack Ranking Telemetry Dictates Local Market Share",
-            GLOBAL_KEYWORDS + ["Roseville CA", "Maps Ranking Telemetry", "Market Share"]
+            "Roseville Business Search Guide: Understanding Map Visibility and Customer Distance",
+            GLOBAL_KEYWORDS + ["Roseville Local Business", "Map Visibility", "Customer Proximity"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "roseville-google-maps-checklist.pdf"),
+            "Roseville Local Business Checklist: Optimizing Your Google Maps Presence",
+            GLOBAL_KEYWORDS + ["Roseville Checklist", "Google Maps Optimization", "Local Search"]
         ),
         (
             os.path.join(PUBLIC_DIR, "geo-vault", "roseville-ca-how-to-rank-in-google-maps-geo-authority.pdf"),
-            "How to Rank in Google Maps: Algorithmic Geometry & Geo-Grid Strategy",
-            GLOBAL_KEYWORDS + ["How to Rank in Google Maps", "Geo-Grid Strategy", "Algorithmic Geometry"]
+            "Roseville Local Business Checklist: Optimizing Your Google Maps Presence",
+            GLOBAL_KEYWORDS + ["Roseville Checklist", "Google Maps Optimization", "Local Search"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-regional-market-overview.pdf"),
+            "Folsom and Sacramento Regional Market Overview: Local Business Search Trends",
+            GLOBAL_KEYWORDS + ["Folsom Market Overview", "Sacramento Regional Search", "Business Trends"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-gold-standard-folsom-headquarters-regional-grid-geo-authority.pdf"),
+            "Folsom and Sacramento Regional Market Overview: Local Business Search Trends",
+            GLOBAL_KEYWORDS + ["Folsom Market Overview", "Sacramento Regional Search", "Business Trends"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "sacramento-regional-maps-performance-report.pdf"),
+            "Sacramento Regional Google Maps Performance Report",
+            GLOBAL_KEYWORDS + ["Sacramento Google Maps", "Performance Report", "Regional Visibility"]
+        ),
+        (
+            os.path.join(PUBLIC_DIR, "geo-vault", "folsom-ca-sacramento-regional-google-maps-3pack-authority-geo-authority.pdf"),
+            "Sacramento Regional Google Maps Performance Report",
+            GLOBAL_KEYWORDS + ["Sacramento Google Maps", "Performance Report", "Regional Visibility"]
         )
     ]
     for path, title, kws in pdf_targets:

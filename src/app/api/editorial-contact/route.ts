@@ -101,7 +101,7 @@ Source: https://aine.ws/contact`
 
     return NextResponse.json({
       success: true,
-      message: 'Your transmission has been securely logged with the AI News editorial desk. Confidentiality protected under journalist shield standards.',
+      message: 'Your transmission has been securely logged with the Aine editorial desk. Confidentiality protected under journalist shield standards.',
       timestamp: new Date().toISOString(),
     })
   } catch (error: any) {

@@ -16,7 +16,7 @@ export function Footer() {
               <div>
                 <h4 className="text-sm font-bold text-white">Trust &amp; Verification Protocol</h4>
                 <p className="mt-1 text-xs text-slate-200 leading-relaxed">
-                  Every article published by AI News undergoes primary source verification, data validation, and strict editorial review prior to publication.
+                  Every article published by Aine undergoes primary source verification, data validation, and strict editorial review prior to publication.
                 </p>
               </div>
             </div>
@@ -49,12 +49,31 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
           {/* Masthead & Identity */}
           <div className="md:col-span-4">
-            <div className="flex items-center gap-3">
-              <span className="font-sans text-2xl font-black tracking-tight text-white">
-                AI NE<span className="text-sky-400">.WS</span>
-              </span>
-            </div>
-            <p className="mt-3 text-xs text-slate-200 leading-relaxed max-w-sm">
+            <Link href="/" className="inline-flex items-center gap-3 text-decoration-none group" aria-label="Aine Home">
+              <div className="flex items-center justify-center shrink-0" aria-hidden="true">
+                <svg viewBox="0 0 100 100" width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100" height="100" rx="18" fill="#0F172A" stroke="#334155" strokeWidth="2"/>
+                  <text x="50" y="52" textAnchor="middle" fill="#FFFFFF" fontFamily="Georgia, 'Times New Roman', serif" fontWeight="800" fontSize="48" letterSpacing="1">AI</text>
+                  <polygon points="16,58 46,58 42,66 16,66" fill="#FFFFFF"/>
+                  <polygon points="50,58 84,58 84,66 46,66" fill="#FFFFFF"/>
+                  <text x="50" y="86" textAnchor="middle" fontFamily="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" fontWeight="800" fontSize="21" letterSpacing="1">
+                    <tspan fill="#38BDF8">NE</tspan><tspan fill="#F43F5E">.</tspan><tspan fill="#38BDF8">WS</tspan>
+                  </text>
+                </svg>
+              </div>
+              <div className="flex flex-col justify-center">
+                <div className="leading-none flex items-baseline">
+                  <span className="font-serif font-extrabold text-2xl text-white tracking-tight">AINE</span>
+                  <span className="font-mono font-bold text-lg text-sky-400 tracking-tight">.ws</span>
+                </div>
+                <div className="mt-1 font-mono text-[10px] leading-tight text-slate-400 flex items-center gap-1.5 whitespace-nowrap">
+                  <span className="font-semibold text-slate-300">/eɪn/</span>
+                  <span className="text-slate-500">·</span>
+                  <span className="font-bold tracking-wider uppercase text-slate-300">APPLIED INTELLIGENCE WIRE</span>
+                </div>
+              </div>
+            </Link>
+            <p className="mt-4 text-xs text-slate-200 leading-relaxed max-w-sm">
               {SITE_CONFIG.legalName} is an independent digital news wire and research publication delivering investigative reporting on applied AI, search algorithms, and commercial automation infrastructure.
             </p>
 
@@ -210,7 +229,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {SITE_CONFIG.legalName}. All rights reserved. Registered in Delaware, USA.
           </p>
           <p className="mt-2 md:mt-0">
-            AI News is an independent digital news wire.
+            Aine is an independent digital news wire.
           </p>
         </div>
       </div>

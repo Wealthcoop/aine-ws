@@ -104,7 +104,7 @@ export default function DeskArchivePage({ params }: PageProps) {
         '@type': 'CollectionPage',
         '@id': `${deskUrl}#collection`,
         url: deskUrl,
-        name: `${desk.label} Desk - Latest AI News & Benchmarks`,
+        name: `${desk.label} Desk - Latest Aine News & Benchmarks`,
         description: desk.description,
         publisher: {
           '@type': 'NewsMediaOrganization',
