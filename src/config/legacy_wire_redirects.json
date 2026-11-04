@@ -1,5 +1,10 @@
 [
   {
+    "source": "/news/local-business/sacramento-regional-search-ranking-data-proximity-suppression-ai-inbound",
+    "destination": "/news/local-business/google-business-profile-service-area-ranking-radius",
+    "permanent": true
+  },
+  {
     "source": "/news/ai-tools/fair-use-benefits-everyone",
     "destination": "/desks/ai-tools",
     "permanent": true

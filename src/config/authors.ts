@@ -29,7 +29,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Molly Perkins',
     role: 'Senior Voice AI & Lead Response Reporter',
     title: 'Lead Voice AI Correspondent',
-    bio: 'Molly Perkins investigates real-time conversational voice AI, inbound sales telephony, and automated speed-to-lead pipelines. Her reporting focuses on practical automation architectures, call routing telemetry, and enterprise communications.',
+    bio: 'Molly Perkins investigates real-time conversational voice AI, inbound sales telephony, and automated speed-to-lead pipelines. Her reporting focuses on practical automation architectures, call routing workflows, and enterprise communications.',
     avatar: '/authors/molly-perkins.jpg',
     facebook: 'https://www.facebook.com/mollyperkins354',
     email: 'mollyperkins354@gmail.com',
@@ -39,11 +39,11 @@ export const AUTHORS: Record<string, Author> = {
     id: 'elena-chen',
     name: 'Elena Chen',
     role: 'Local Business & SMB Technology Reporter',
-    title: 'Local Commerce & AI Telemetry Analyst',
-    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at AI News (aine.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile telemetry, AI review filtering systems, and automated voice telephony for trade contractors.',
+    title: 'Local Commerce & Maps Search Analyst',
+    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at AI News (aine.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile ranking data, AI review filtering systems, and automated voice telephony for trade contractors.',
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',
-    beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Telemetry']
+    beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Strategies']
   },
   'marcus-vance': {
     id: 'marcus-vance',
