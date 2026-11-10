@@ -38,10 +38,17 @@ jobs:
           git config user.name "AINE News Wire Bot"
           git config user.email "bot@aine.ws"
           if [ -n "$(git status --porcelain src/data/articles.ts)" ]; then
-            git add src/data/articles.ts scripts/news_dedup.db WIRE_PUBLISHING_LEDGER.md
+            git add src/data/articles.ts scripts/news_dedup.db WIRE_PUBLISHING_LEDGER.md scripts/wire_health_status.json
             git commit -m "chore(newsroom): ingest breaking AI wire stories [skip ci]"
-            git push origin main
-            echo "Successfully committed and published new breaking articles to wire."
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || exit 1
+              if git push origin main; then
+                echo "Successfully committed and published new breaking articles to wire."
+                exit 0
+              fi
+              sleep 3
+            done
+            exit 1
           else
             echo "All news wire feeds are up to date. No new articles to commit."
           fi
