@@ -28,6 +28,9 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PUBLIC_DIR = os.path.join(BASE_DIR, "public")
+
 # ── SSL Context Setup ────────────────────────────────────────────────────────
 _SSL_CTX = ssl.create_default_context()
 try:
@@ -99,7 +102,7 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
 
     return None
 
-def record_publishing_ledger(title, slug, words, status="SUCCESS", error=None):
+def record_publishing_ledger(title, slug, words, status="SUCCESS", error=None, category="ai-tools"):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ledger_path = os.path.join(base_dir, "WIRE_PUBLISHING_LEDGER.md")
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
@@ -111,7 +114,7 @@ def record_publishing_ledger(title, slug, words, status="SUCCESS", error=None):
             f.write("|---|---|---|---|---|---|\n")
 
     if status == "SUCCESS":
-        link = f"https://aine.ws/news/ai-tools/{slug}"
+        link = f"https://aine.ws/news/{category}/{slug}"
         entry = f"| {now_str} | {title} | `{slug}` | **{words} words** | `PASSED` | [View Live]({link}) |\n"
     else:
         entry = f"| {now_str} | {title} | `{slug}` | {words} words | `ALERT: {error}` | - |\n"
@@ -119,6 +122,29 @@ def record_publishing_ledger(title, slug, words, status="SUCCESS", error=None):
     with open(ledger_path, "a", encoding="utf-8") as f:
         f.write(entry)
     print(f"[Ledger] Recorded: {title} ({words} words, status={status})")
+
+BANNED_WORDS_LIST = [
+    "unlock", "embark", "landscape", "delve", "tapestry", "vibrant", "realm",
+    "excels", "vital", "comprehensive", "intricate", "pivotal", "moreover",
+    "arguably", "notably", "beacon", "revolutionize", "dive into",
+    "telemetry", "proximity wall", "decay cliff", "algorithmic velocity",
+    "coordinate stacking", "multi-entity mesh", "it's important to note",
+    "it's important to remember", "navigating the complexities of",
+    "a testament to", "in today's fast-paced digital world"
+]
+
+class GuardrailViolationError(Exception):
+    pass
+
+def find_guardrail_violations(text):
+    clean = re.sub(r'<[^>]+>', ' ', text or '')
+    found = []
+    if '\u2014' in clean or '--' in clean:
+        found.append("em-dash/double-hyphen")
+    for bw in BANNED_WORDS_LIST:
+        if re.search(r'\b' + re.escape(bw) + r'\b', clean, re.IGNORECASE):
+            found.append(bw)
+    return found
 
 
 # ── Multi-Source Feed Matrix ─────────────────────────────────────────────────
@@ -287,7 +313,9 @@ def auto_repair_title(raw_title, feed_name=""):
     t = re.sub(r'^(?:\[[^\]]+\]|\([^\)]+\)|psa:\s*|review:\s*)\s*', '', t, flags=re.IGNORECASE)
     # 5. Strip publication trailing suffixes (e.g. " - The Verge", " | TechCrunch", " - OpenAI")
     t = re.sub(r'\s*[-\u2013\u2014|]\s*(The Verge|TechCrunch|VentureBeat|OpenAI|Google Blog|Hacker News|Reddit|Ars Technica|Wired|Reuters|Bloomberg|Search Engine Land|Search Engine Roundtable)\s*$', '', t, flags=re.IGNORECASE)
-    # 6. Strip leading/trailing punctuation & excess whitespace
+    # 6. Strip trailing ellipses/truncated words and leading/trailing punctuation
+    t = re.sub(r'(\s+(and|or|of|the|a|in|for|with|to))?\s*\.{2,}$', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\s*-\s*[A-Za-z0-9\s]{1,25}\s+Blog\s*$', '', t, flags=re.IGNORECASE)
     t = re.sub(r'^[\[\(\"\'\s]+|[\]\)\"\'\s]+$', '', t)
     t = ' '.join(t.split())
 
@@ -658,7 +686,7 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
     
     tier_label = "Tier 2 (Deep Dive)" if is_tier_2 else "Tier 1 (Breaking Wire)"
     min_word_target = 1100 if is_tier_2 else 550
-    word_prompt_guidance = "Write a comprehensive 1,200 to 1,500 word technical deep dive" if is_tier_2 else "Write a complete, tight 600 to 800 word breaking news report"
+    word_prompt_guidance = "Write a complete, deeply researched 1,200 to 1,500 word technical deep dive" if is_tier_2 else "Write a complete, tight 600 to 800 word breaking news report"
 
     opinion_prompt_note = ""
     if is_opinion:
@@ -764,6 +792,25 @@ Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
     if not any(content_html.endswith(end) for end in ['</p>', '</table>', '</ul>', '</ol>', '</article>', '</div>']):
         content_html += "</p>"
 
+    # Guardrail verification & 1-pass auto-clean if banned words leaked
+    violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
+    if violations:
+        print(f"[*] Guardrail check flagged terms {violations} on '{repaired_title}'. Running editorial clean pass...")
+        fix_prompt = f"""Rewrite ONLY the phrasing in the HTML below to eliminate these banned terms/characters: {', '.join(violations)}.
+Keep all exact facts, headings, HTML table, and structure intact. Zero em dashes.
+HTML:
+{content_html}"""
+        fixed_html = ask_finest_generator(system_prompt, fix_prompt)
+        if fixed_html:
+            content_html = fixed_html.strip()
+            clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
+            violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
+
+    if violations:
+        raise GuardrailViolationError(f"Editorial guardrail violation persisted ({violations}) on '{repaired_title}'")
+    if clean_words < (min_word_target - 50):
+        raise GuardrailViolationError(f"Word count guardrail failed ({clean_words} < {min_word_target}) on '{repaired_title}'")
+
     reading_time = max(4, round(clean_words / 225))
 
     article = {
@@ -791,9 +838,7 @@ Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
         ]
     }
 
-    # Record to Wire Publishing Ledger
-    record_publishing_ledger(article['title'], article['slug'], clean_words, "SUCCESS")
-
+    article["_clean_words"] = clean_words
     return article
 
 def format_article_ts(art):
@@ -803,6 +848,7 @@ def format_article_ts(art):
         f"""      {{ name: {json.dumps(s['name'])}, url: {json.dumps(s['url'])}, context: {json.dumps(s['context'])} }}"""
         for s in art["sources"]
     ) + "\n    ]"
+    safe_html = art["contentHtml"].replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
     return f"""  {{
     id: {json.dumps(art["id"])},
     slug: {json.dumps(art["slug"])},
@@ -818,7 +864,7 @@ def format_article_ts(art):
     isBreaking: {str(art["isBreaking"]).lower()},
     isFeatured: {str(art["isFeatured"]).lower()},
     keyTakeaways: {takeaways_formatted},
-    contentHtml: `{art["contentHtml"]}`,
+    contentHtml: `{safe_html}`,
     sources: {sources_str}
   }}"""
 
@@ -904,6 +950,24 @@ def main():
     print(f"Audited recent image memory: {recent_images[:3]}")
 
     new_articles = []
+    errors = []
+    guardrail_failures = []
+    health_file = os.path.join(script_dir, "wire_health_status.json")
+
+    def write_health_status(status, note=""):
+        payload = {
+            "last_run_utc": datetime.now(timezone.utc).isoformat(),
+            "status": status,
+            "published_count": len(new_articles),
+            "errors": errors[:10],
+            "guardrail_failures": guardrail_failures[:10],
+            "note": note
+        }
+        try:
+            with open(health_file, "w", encoding="utf-8") as hf:
+                json.dump(payload, hf, indent=2)
+        except Exception:
+            pass
 
     # 1. Real-Time You.com News API Ingestion
     you_api_key = os.environ.get("YOU_API_KEY") or os.environ.get("YDC_API_KEY") or "ydc-sk-ad77719b3933f5e1-YUmlb4x2xLYEJcA7fNqrx2lai04J6Rzd-dd75ddeb"
@@ -944,10 +1008,14 @@ def main():
                     new_articles.append(article_obj)
                     recent_images.insert(0, article_obj['featuredImage'])
                     existing_slugs.add(article_obj['slug'])
-                    db.record_seen(item['link'], article_obj['title'], y_src['name'], published=True)
+                    if not dry_run: db.record_seen(item['link'], article_obj['title'], y_src['name'], published=True)
                     print(f"  + [INGESTED via You.com] {article_obj['title']} ({article_obj['slug']})")
+                except GuardrailViolationError as ge:
+                    print(f"  [!] GUARDRAIL FAILURE (You.com): {ge}")
+                    guardrail_failures.append(str(ge))
                 except Exception as e:
                     print(f"  -> Error repairing You.com story: {e}")
+                    errors.append(f"You.com: {e}")
 
     # 2. Hacker News High-Signal AI Discussions (25+ Upvotes)
     if len(new_articles) < limit:
@@ -971,10 +1039,14 @@ def main():
                 new_articles.append(article_obj)
                 recent_images.insert(0, article_obj['featuredImage'])
                 existing_slugs.add(article_obj['slug'])
-                db.record_seen(item['link'], article_obj['title'], hn_src['name'], published=True)
+                if not dry_run: db.record_seen(item['link'], article_obj['title'], hn_src['name'], published=True)
                 print(f"  + [INGESTED via Hacker News] {article_obj['title']} ({article_obj['slug']})")
+            except GuardrailViolationError as ge:
+                print(f"  [!] GUARDRAIL FAILURE (Hacker News): {ge}")
+                guardrail_failures.append(str(ge))
             except Exception as e:
                 print(f"  -> Error repairing Hacker News story: {e}")
+                errors.append(f"HN: {e}")
 
     # 3. Multi-Source RSS & Google News Wire Ingestion
     for feed in FEED_SOURCES:
@@ -1008,7 +1080,7 @@ def main():
                 # Update local tracking
                 recent_images.insert(0, article_obj['featuredImage'])
                 existing_slugs.add(article_obj['slug'])
-                db.record_seen(item['link'], article_obj['title'], feed['name'], published=True)
+                if not dry_run: db.record_seen(item['link'], article_obj['title'], feed['name'], published=True)
 
                 print(f"  [+] AUTO-REPAIRED & QUALIFIED: {article_obj['title']}")
                 print(f"      Slug: {article_obj['slug']}")
@@ -1016,11 +1088,25 @@ def main():
                 print(f"      Deck:  {article_obj['deck']}")
                 break  # Advance to next feed for cross-source diversity
 
+            except GuardrailViolationError as ge:
+                print(f"  [!] GUARDRAIL FAILURE on '{item['title'][:30]}...': {ge}")
+                guardrail_failures.append(str(ge))
+                continue
             except Exception as e:
                 print(f"  -> Notice: Candidate auto-repair error on '{item['title'][:30]}...': {e}")
+                errors.append(f"{feed['name']}: {e}")
                 continue
 
     if not new_articles:
+        if guardrail_failures:
+            write_health_status("GUARDRAIL_FAILURE", "Zero stories published due to editorial guardrail rejections.")
+            print("\n[ALERT] CRITICAL: Zero stories published due to guardrail blocks!", file=sys.stderr)
+            sys.exit(2)
+        if errors:
+            write_health_status("PIPELINE_ERROR", "Zero stories published due to runtime errors.")
+            print("\n[ALERT] CRITICAL: Pipeline errors prevented all stories from publishing!", file=sys.stderr)
+            sys.exit(1)
+        write_health_status("OK_NO_NEW", "All monitored feeds are up to date. Zero duplicates detected.")
         print("\nAll monitored feeds are up to date. Zero duplicates detected.")
         return
 
@@ -1041,6 +1127,7 @@ def main():
 
     marker = "export const ARTICLES: NewsArticle[] = [\n"
     if marker not in articles_content:
+        write_health_status("PIPELINE_ERROR", "Target marker not found in articles.ts")
         print(f"Error: Target marker '{marker.strip()}' not found in articles.ts", file=sys.stderr)
         sys.exit(1)
 
@@ -1049,6 +1136,10 @@ def main():
     with open(articles_ts_path, "w", encoding="utf-8") as f:
         f.write(updated_content)
 
+    for art in new_articles:
+        record_publishing_ledger(art['title'], art['slug'], art.get('_clean_words', 700), "SUCCESS", category=art['category'])
+
+    write_health_status("OK", f"Published {len(new_articles)} article(s) cleanly.")
     print(f"Published {len(new_articles)} auto-repaired article(s) to {articles_ts_path}!")
 
     # Push real-time indexing notifications to search engines

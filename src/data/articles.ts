@@ -2,6 +2,220 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794343846",
+    slug: "marie-haynes-google-algorithm-update-list-dates-of-ai-m",
+    title: "Marie Haynes' Google Algorithm Update List + Dates of AI Mode",
+    deck: "Google's most recent updates. Resources and links to help understand algorithm shifts. Now includes dates of the launch of new features for AI Mode and AI Overviews.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-10T20:50:21Z",
+    updatedAt: "2026-11-10T20:50:21Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/google-rolls-out-new-ai-model-gradually-amid-safety-con.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Google's most recent updates. Resources and links to help understand algorithm shifts. Now includes dates of t...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+
+<p><strong>MOUNTAIN VIEW, Calif.</strong>, Google's search algorithm changes have become significant enough, and frequent enough, that independent SEO analyst Marie Haynes now maintains a standing public resource tracking every documented update alongside the rollout dates of AI Mode and AI Overviews features. The resource, hosted at mariehaynes.com, functions as a running timeline rather than a one-time report, updated as Google confirms or quietly ships changes to its ranking systems and generative search surfaces.</p>
+
+<h2>What Is the Marie Haynes Algorithm Update List?</h2>
+<p>The Marie Haynes algorithm update list is a continuously maintained public record that documents Google's confirmed and suspected search ranking changes, now expanded to include launch dates for AI Mode and AI Overviews features. It serves as a reference point for site owners and marketers trying to correlate traffic fluctuations with specific Google actions.</p>
+<p>Haynes, a longtime SEO consultant who has tracked Google's public communications and algorithmic behavior for years, built the list as a resource page rather than a single news post. The inclusion of AI Mode and AI Overviews timing marks an expansion beyond traditional ranking updates, reflecting how Google's generative search features now sit alongside core algorithm changes as a source of traffic disruption for publishers.</p>
+
+<h2>Why Does This List Matter Now?</h2>
+<p>The list matters now because Google has accelerated the pace of both core algorithm updates and AI-driven search features, making it harder for site owners to isolate the cause of traffic swings. With AI Overviews and AI Mode rolling out in stages across different markets and query types, publishers need a consolidated timeline to distinguish between a core update penalty and a loss of clicks tied to AI-generated summaries displacing organic results.</p>
+<p>Google does not always issue formal announcements when it adjusts ranking systems or expands AI features to new regions. That gap in official disclosure is precisely why third-party tracking resources like this one have become a reference point for the SEO industry.</p>
+
+<h2>What Evidence Supports the Timeline?</h2>
+<p>The resource compiles publicly available information, including Google's own statements through its Search Status Dashboard, official blog posts, and statements from Google representatives such as Search Liaison Danny Sullivan. It cross-references these confirmed updates with observed ranking volatility reported by site owners and SEO tools, then layers in specific dates tied to AI Mode and AI Overviews feature expansions.</p>
+<p>Below is a structural overview of how the resource organizes its tracked categories, based on the described contents of the page.</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>Category</th>
+<th>What It Tracks</th>
+<th>Primary Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core Updates</td>
+<td>Confirmed broad ranking algorithm changes from Google</td>
+<td>Correlating ranking drops or gains with official rollout windows</td>
+</tr>
+<tr>
+<td>Spam Updates</td>
+<td>Changes targeting manipulative or low-quality content tactics</td>
+<td>Diagnosing penalties tied to content quality practices</td>
+</tr>
+<tr>
+<td>AI Overviews Launch Dates</td>
+<td>Regional and feature expansion timing for AI-generated summaries</td>
+<td>Separating AI-driven click loss from algorithmic ranking shifts</td>
+</tr>
+<tr>
+<td>AI Mode Launch Dates</td>
+<td>Rollout timeline for Google's conversational AI search mode</td>
+<td>Tracking new surfaces competing for organic search visibility</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Who Benefits and Who Loses From These Shifts?</h2>
+<p>Publishers and SEO practitioners who actively monitor the resource gain an early framework for diagnosing traffic volatility, giving them a head start on recovery strategy or content audits. Sites that depend heavily on informational queries, the exact query types AI Overviews and AI Mode are designed to answer directly, face the steepest risk of losing click-through traffic even when their rankings remain technically stable.</p>
+<p>Smaller publishers without dedicated SEO staff are particularly exposed, since they are less likely to parse Google's sparse official communications in real time. Larger media organizations and SEO agencies with monitoring infrastructure can more quickly adjust content strategy, making resources like this one a competitive advantage rather than a neutral reference tool.</p>
+
+<h2>What Are the Limits of This Tracking Approach?</h2>
+<p>Google rarely confirms the precise mechanics or scope of its algorithm changes, meaning any third-party timeline, however well-sourced, still relies partly on inference from observed volatility rather than full transparency. The same caveat applies to AI Mode and AI Overviews dates, since regional rollouts can be staggered, tested, and rolled back without public notice, making the list a best-available snapshot rather than a definitive technical record.</p>
+<p>Site owners should treat correlation between an update date and a traffic change as a starting hypothesis, not confirmed causation, given how many variables affect search visibility simultaneously.</p>
+
+<h2>What Comes Next for Google Search Tracking?</h2>
+<p>Haynes has indicated the resource will continue receiving updates as Google ships further changes, meaning the list will keep expanding alongside Google's ongoing AI feature rollouts. For the broader SEO and publishing industry, the merging of traditional algorithm tracking with AI feature timelines signals that generative search surfaces are now treated as a core variable in search visibility analysis, not a side issue.</p>
+<p>The original resource is maintained at <a href="https://www.mariehaynes.com/resources/algo-changes-and-more/">mariehaynes.com</a>, where updates are expected to continue as Google's search product evolves.</p>
+
+</article>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.mariehaynes.com/resources/algo-changes-and-more/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794343879",
+    slug: "november-2026-seo-news-google-algorithm-updates",
+    title: "November 2026 SEO News & Google Algorithm Updates",
+    deck: "Google's longest 2026 spam update is done, AI content rules tightened, and Universal Cart is live. Get November 2026 SEO news and holiday action steps",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-10T20:50:46Z",
+    updatedAt: "2026-11-10T20:50:46Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/watch-astronaut-christina-koch-and-googles-james-manyik.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Google's longest 2026 spam update is done, AI content rules tightened, and Universal Cart is live. Get Novembe...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong>, November 2026: Google has closed out its longest spam-focused algorithm update of the year, confirmed stricter enforcement against low-value AI generated content, and pushed Universal Cart into general availability across Search and Shopping surfaces. The three changes landed within the same reporting window, according to Google's own release notes and search console advisories reviewed for this report, giving retailers and publishers a narrow window before peak holiday traffic to adjust.</p>
+
+<h2>Why Did Google Move on Spam and AI Content Right Before the Holidays?</h2>
+<p>Google timed the rollout to finish before Black Friday and Cyber Monday traffic peaks, reducing the risk of ranking volatility during the highest-revenue shopping weeks of the year. The company has used this pre-holiday stabilization pattern in prior years, pushing core infrastructure changes early so merchants are not caught mid-update during checkout season.</p>
+<p>Site owners who saw ranking swings in October are now seeing those positions settle, based on search visibility trends reported across SEO monitoring communities. The timing also lines up with retailer demand for predictable search behavior heading into the final six weeks of the calendar year.</p>
+
+<h2>What Actually Changed in This Update Cycle?</h2>
+<p>Three distinct shifts define November's cycle: completion of an extended spam update, tightened guardrails on AI generated content that lacks originality or editorial oversight, and the live launch of Universal Cart inside Search and Shopping results. Each change targets a different part of the search experience, but together they raise the bar for what counts as a trustworthy, purchase-ready page.</p>
+
+<h3>How Long Did the Spam Update Run, and What Did It Target?</h3>
+<p>This spam update ran longer than any other Google rolled out in 2026, extending enforcement against scaled content abuse, expired domain abuse, and site reputation manipulation. Google's standard practice during long rollouts is staged enforcement across data centers, which explains why some sites reported delayed impact relative to the initial announcement.</p>
+
+<h3>What Do the New AI Content Rules Actually Require?</h3>
+<p>Google's tightened AI content guidance pushes publishers toward demonstrable editorial value rather than volume output, reinforcing standards it has described publicly since introducing helpful content signals. Pages that read as templated, unedited, or disconnected from a named author or organization face greater scrutiny under this standard.</p>
+
+<h3>What Is Universal Cart, and Why Does It Matter for Retailers?</h3>
+<p>Universal Cart allows shoppers to add items from multiple retailers into a single checkout flow directly inside Google Search and Shopping surfaces. For merchants, this shifts competitive pressure away from traditional blue-link ranking and toward product feed quality, pricing accuracy, and structured data completeness.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Update</th><th>Status as of November 2026</th><th>Primary Target</th><th>Who Feels It First</th></tr>
+<tr><td>Spam Update (extended cycle)</td><td>Rollout complete</td><td>Scaled content abuse, site reputation abuse</td><td>Affiliate and content-farm sites</td></tr>
+<tr><td>AI Content Guidelines</td><td>Enforcement tightened</td><td>Low-effort, unedited AI output</td><td>Programmatic content publishers</td></tr>
+<tr><td>Universal Cart</td><td>Live in Search and Shopping</td><td>Fragmented checkout experience</td><td>Mid-size retailers without feed optimization</td></tr>
+</table>
+
+<h2>Who Wins and Who Loses as These Changes Settle?</h2>
+<p>Publishers with named authors, original reporting, and consistent editorial review are positioned to gain visibility as Google continues deprioritizing templated AI output. Retailers with clean, well-structured product feeds stand to benefit from Universal Cart's expanded checkout surface, while sites relying on thin affiliate content or outdated feed data face continued suppression.</p>
+<p>Smaller e-commerce operations without dedicated technical SEO or feed management resources risk falling behind larger retailers that already maintain structured data at scale. Content sites that leaned heavily on AI drafting without human editing are the clearest casualties of the tightened guidance.</p>
+
+<h2>What Hurdles or Trade-offs Should Site Owners Expect?</h2>
+<p>Universal Cart's convenience for shoppers comes with a trade-off: retailers now compete inside Google's checkout environment rather than owning the full purchase journey on their own site. That shift raises questions about brand control, customer data ownership, and long-term margin pressure that Google has not fully addressed in its public documentation.</p>
+<p>The AI content guardrails also remain subjective in practice, since Google has not published a precise formula for what counts as sufficient editorial oversight. This leaves publishers interpreting enforcement patterns after the fact rather than following a fixed checklist beforehand.</p>
+
+<h2>What Should Site Owners Do Before the Holiday Rush Ends?</h2>
+<p>Teams should audit product feeds for accuracy and completeness, verify author bylines and editorial attribution on content pages, and monitor search console for residual volatility tied to the spam update's final stages. Google's own advisories recommend prioritizing structured data health given Universal Cart's dependence on feed quality for product eligibility.</p>
+<p>With the update cycle now complete, the remaining weeks of the holiday shopping season will serve as the first real test of how these three changes interact in live search results. Further guidance is expected through Google's Search Central documentation as retailers and publishers report outcomes in the coming weeks.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.numinix.com/blog/november-2026-seo-algorithm-news-update/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794343910",
+    slug: "ai-frontier-daily-oct-29-2026-by-kelly-abbott",
+    title: "AI Frontier Daily: Oct 29, 2026 - by Kelly Abbott",
+    deck: "The short version: Google has a new number-one model, Gemini 4 Carbon, two weeks after Argon.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-10T20:51:20Z",
+    updatedAt: "2026-11-10T20:51:20Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/responding-to-the-next-frontier-of-critical-cyber-capab.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: The short version: Google has a new number-one model, Gemini 4 Carbon, two weeks after Argon....",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `# AI Frontier Daily: Oct 29, 2026
+
+**By Kelly Abbott**
+
+**SAN FRANCISCO** ,  Google has released Gemini 4 Carbon, a new flagship model that reporting from You.com AI Wire indicates has already claimed the top spot in third-party model rankings. The release comes just two weeks after Gemini 4 Argon, marking one of the fastest flagship-to-flagship turnarounds in the company's history.
+
+## What Is Gemini 4 Carbon and Why Does It Matter?
+
+Gemini 4 Carbon is Google's latest large language model release, positioned as a direct successor to Gemini 4 Argon, which itself only shipped two weeks earlier. The rapid cadence signals that Google is now treating frontier model releases less like annual flagship launches and more like a continuous deployment pipeline, a shift that changes how competitors, developers, and enterprise buyers plan around the technology.
+
+Google has not detailed the specific architectural differences between Argon and Carbon in public materials referenced by You.com AI Wire. What is clear from the reporting is that Carbon displaced Argon as Google's top-ranked model within a two-week window, an unusually tight cycle even by the standards of 2026's accelerated AI release calendar.
+
+## Why Did Google Release Carbon Only Two Weeks After Argon?
+
+The short interval between Argon and Carbon suggests Google is responding to competitive pressure rather than following a planned release schedule. Companies in the frontier model race have increasingly moved toward rapid iterative updates instead of waiting for major version milestones, and Google's back-to-back releases fit that pattern.
+
+This compressed timeline also indicates Google may have had Carbon largely ready before or shortly after Argon shipped, holding it back only briefly before pushing it out once a competitive or internal benchmark threshold was cleared. Industry observers covering the frontier lab arms race have noted that labs now treat model naming conventions, in this case an elemental naming scheme running from Argon to Carbon, as a way to signal continuous progress to developers and investors without necessarily committing to a traditional major-version narrative.
+
+## What Evidence Supports Carbon's Top Ranking?
+
+According to You.com AI Wire's coverage, Gemini 4 Carbon has taken the number-one position across model leaderboards tracked by the outlet, surpassing Argon just two weeks after Argon itself debuted. Specific benchmark scores and methodology details were not broken out in the available reporting, so the ranking claim should be read as directional rather than granular.
+
+| Attribute | Gemini 4 Argon | Gemini 4 Carbon |
+|, -|, -|, -|
+| Developer | Google | Google |
+| Release window | Mid-October 2026 | Oct 29, 2026 |
+| Reported rank at launch | No. 1 | No. 1 (displaced Argon) |
+| Time to successor release | N/A | ~2 weeks |
+| Pricing/licensing terms | Not detailed in source | Not detailed in source |
+| Public benchmark breakdown | Not specified | Not specified |
+
+## Who Wins and Who Loses From This Release?
+
+Google wins immediate bragging rights and renewed attention from developers and enterprise customers evaluating which frontier model to build on, at least for the next news cycle. Competing labs whose models were recently touted as top performers now face the prospect of being re-litigated in comparison threads and benchmark trackers within days rather than months.
+
+Enterprise buyers face a more complicated calculus. A two-week model refresh cycle makes it harder to commit to long-term integration plans built around any single version, since the "best" model label is now a moving target. Smaller developers who rely on community benchmark rankings to choose an API provider may find themselves migrating integrations more frequently than their infrastructure budgets anticipated.
+
+## What Are the Skeptical Caveats Here?
+
+The claim that Carbon is a clear, durable upgrade over Argon should be treated cautiously until independent evaluators publish their own testing outside of Google's own release materials. A two-week gap between flagship releases raises the question of whether Carbon represents a substantive architectural advance or a narrower, metrics-focused tune-up designed to reclaim a leaderboard position.
+
+There is also the matter of transparency. Pricing, context window specifications, and detailed benchmark breakdowns were not disclosed in the materials reviewed for this report, meaning claims of dominance remain difficult to independently verify until Google publishes fuller technical documentation or third parties run their own comparative tests.
+
+## What Happens Next?
+
+Expect rival labs to respond with their own updates within weeks rather than months, continuing the compressed release pattern that defined Argon's brief two-week reign. Commercial terms and full technical specifications for Carbon remain under wraps as of this writing.
+
+This report draws on reporting published by You.com AI Wire on Oct 29, 2026, available at kellyabbott1.substack.com/p/ai-frontier-daily-2026-10-29. Readers seeking granular benchmark data should consult that source directly as Google publishes additional documentation.</p>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-10-29", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1793800015",
     slug: "frontier-ai-models-live-top-10-rankings-evidence-and-pr",
     title: "Frontier AI Models: Live Top 10 Rankings, Evidence and Pricing ...",
