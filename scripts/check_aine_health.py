@@ -103,6 +103,19 @@ def main():
     except Exception:
         pass
 
+    # Check NUC 24/7 Watchdog unacknowledged alert state if reachable
+    try:
+        nuc_res = subprocess.run(
+            ["ssh", "-o", "ConnectTimeout=2", "-o", "BatchMode=yes", "goldclaw-1", "cat ~/projects/aine-ws/scripts/WIRE_ALERT_STATE.json 2>/dev/null || true"],
+            capture_output=True, text=True, timeout=4
+        )
+        if nuc_res.returncode == 0 and nuc_res.stdout.strip():
+            nuc_state = json.loads(nuc_res.stdout.strip())
+            if not nuc_state.get("acknowledged", False) and nuc_state.get("status") != "OK":
+                alerts.append(f"NUC Watchdog {nuc_state.get('status')} at {nuc_state.get('timestamp_utc')}: {nuc_state.get('reason')}")
+    except Exception:
+        pass
+
     if alerts:
         print("AINE_HEALTH_ALERT:")
         for a in alerts:
