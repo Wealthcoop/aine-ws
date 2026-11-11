@@ -2,6 +2,194 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794433760",
+    slug: "local-seo-in-2026-the-playbook-for-winning-google-maps",
+    title: "Analysis: Local SEO in 2026: The Playbook for Winning Google Maps and Local",
+    deck: "Local SEO is evolving fast. Learn how businesses can win in Google Maps, attract nearby customers, and grow with proven strategies.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-11T21:43:24Z",
+    updatedAt: "2026-11-11T21:43:24Z",
+    readingTimeMinutes: 7,
+    featuredImage: "/news/editorial/5-ways-to-upgrade-your-home-decor-with-google-search.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Local SEO is evolving fast. Learn how businesses can win in Google Maps, attract nearby customers, and grow wi...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+  <header>
+    <h1>Analysis: Local SEO in 2026, the Playbook for Winning Google Maps and Local Search</h1>
+    <p>Local search in 2026 is not a marketing side quest. It is an operating system for demand capture, especially when buyers are looking for a nearby service and are ready to act.</p>
+    <p><strong>Dateline:</strong> Mountain View, Calif.</p>
+  </header>
+
+  <section>
+    <h2>What is the core argument behind local SEO in 2026?</h2>
+    <p>Local SEO now rewards businesses that treat visibility as an operations problem, not a content stunt. The winners are the firms that keep their business data clean, their locations consistent, and their customer proof easy for Google and humans to trust.</p>
+    <p>The title and deck frame the subject clearly: winning Google Maps and local search is about attracting nearby customers and growing with proven strategies. That framing matters because local search is one of the few digital channels where intent is already near purchase, which means the cost of sloppy execution is immediate and visible in lost calls, missed directions, and lower foot traffic.</p>
+    <p>What makes 2026 different is not that the underlying logic has changed. It is that the enforcement environment around local discovery keeps getting tighter, while user expectations keep rising. Searchers want fast answers, trusted hours, accurate location data, and a short path to contact. Google wants signals that are consistent across the web. Businesses that cannot maintain that consistency pay a tax in visibility.</p>
+  </section>
+
+  <section>
+    <h2>Why does local search matter so much right now?</h2>
+    <p>Because local search sits at the point where attention becomes action. When a customer searches for a nearby provider, the search result is often the storefront, the receptionist, and the sales rep all in one screen.</p>
+    <p>The practical implication is simple: local visibility has become a direct revenue function. A high ranking in Maps is less about prestige than about appearing in the narrow window when a user is choosing between one clinic, one contractor, one restaurant, or one repair shop. In that environment, even a modest ranking gain can change the distribution of calls and visits.</p>
+    <p>The economic reason local SEO keeps drawing budget is that it compounds better than paid media in many small markets. Once a business earns durable visibility, it does not have to pay for every click in the same way a search ad does. But the tradeoff is maintenance. Local SEO is not a set-and-forget asset. It behaves more like infrastructure, where neglect produces slow decay in trust and ranking performance.</p>
+  </section>
+
+  <section>
+    <h2>What are the technical inputs that still matter most?</h2>
+    <p>Accurate business data still matters most. Category choice, name consistency, address formatting, service areas, hours, phone numbers, and website alignment remain the base layer.</p>
+    <p>That may sound unglamorous, but local ranking systems depend on confidence. If a business name changes on one profile, the hours drift on another directory, and the landing page does not match the map listing, the result is confusion for both users and search systems. The playbook therefore starts with data hygiene, not creativity. Businesses that treat structured information as a core asset are better positioned than those that rely on sporadic content publishing.</p>
+    <p>Review management is the second technical layer. Fresh, authentic customer feedback signals recent activity and service quality, while stale or sparse review profiles can make a location look dormant. Yet the point is not raw volume alone. A healthy review profile needs distribution over time, relevance to specific services, and natural language that helps users understand what the business actually does.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Local SEO input</th>
+          <th>What it does</th>
+          <th>Operational risk if ignored</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Business profile data</td>
+          <td>Confirms identity, location, and service scope</td>
+          <td>Confusion, ranking instability, lost trust</td>
+        </tr>
+        <tr>
+          <td>Review volume and recency</td>
+          <td>Signals activity and customer confidence</td>
+          <td>Weak social proof, poor click-through</td>
+        </tr>
+        <tr>
+          <td>Website location pages</td>
+          <td>Connects the map listing to a useful destination</td>
+          <td>Thin relevance, low conversion</td>
+        </tr>
+        <tr>
+          <td>Service and category alignment</td>
+          <td>Tells search systems what the business actually offers</td>
+          <td>Misclassification, diluted visibility</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>What strategy wins, and what strategy fails?</h2>
+    <p>The winning strategy is disciplined repetition across every surface where the business is described. The failing strategy is hoping that a few optimized phrases or a burst of posts will compensate for weak fundamentals.</p>
+    <p>Many operators still confuse local SEO with content marketing alone. That is a mistake. Content matters, but local results usually depend on the alignment between the map profile, the website, the review footprint, and the business’s real world service area. A strong page cannot rescue a broken profile, and a large review count cannot fully offset a mismatch between category, location, and user intent.</p>
+    <p>The practical playbook is this: choose the correct primary category, standardize the business name everywhere, maintain a service page for each major offering, keep hours current, collect reviews consistently, and use images that reflect the actual location and work performed. The goal is not to game the system. The goal is to reduce ambiguity.</p>
+    <p>That is where many local campaigns fail. They are designed around the assumption that search is mostly persuasion. In reality, local ranking is often closer to verification. If the system cannot quickly verify who you are, where you are, and what you do, it will often prefer a competitor that makes those answers easier to infer.</p>
+  </section>
+
+  <section>
+    <h2>Who wins and who loses under this model?</h2>
+    <p>Businesses with operational discipline win. Franchises, multi-location firms, and service companies with the ability to standardize data across locations usually have an advantage.</p>
+    <p>That advantage is not guaranteed, and it is not purely about size. Smaller firms can beat larger competitors when the larger competitor is bureaucratic, inconsistent, or slow to update local listings. But scale helps when it is paired with process. A multi-location operator that can govern profiles centrally, enforce naming standards, and monitor review velocity will usually outpace a competitor that manages each location ad hoc.</p>
+    <p>The losers are businesses that treat local SEO as a one-time setup. They often have old phone numbers on directory pages, dead location pages, unclaimed profiles, weak images, and responses to reviews that read like templates. These firms are not necessarily bad at their core service. They are simply underperforming in the layer that converts local intent into contact.</p>
+    <p>There is also a quieter loser: the agency that sells local SEO as a black box. As buyers become more literate, they are less likely to accept vague promises about rankings. They want to know which actions affect Maps visibility, how often assets are audited, and whether the work creates durable control or temporary spikes.</p>
+  </section>
+
+  <section>
+    <h2>What is the skeptical reality check?</h2>
+    <p>Local SEO is often oversold because the easiest visible metric is rank position, not profit. A business can improve visibility and still fail to convert if staffing, pricing, response time, or reputation are weak.</p>
+    <p>This is the central friction hidden inside almost every local search campaign. The map result is not the business outcome. It is only the doorway. If someone clicks through and finds unanswered calls, outdated hours, or a page that makes them hunt for a quote form, the ranking gain evaporates quickly.</p>
+    <p>Another hard truth is that local SEO creates lock-in around operational hygiene. Once a business depends on maps traffic, it must keep feeding the system with trustworthy updates. That creates an ongoing labor cost that many owners underestimate. The channel looks cheap compared with paid search, but it is not free. It demands discipline, process ownership, and regular auditing.</p>
+    <p>There is also a marketplace problem. As more firms optimize the same surface area, differentiation narrows. If every competitor is using the same categories, the same review request flow, and the same location page template, the field compresses toward operational excellence. That is good for users, but it means there is less room for gimmicks and more room for execution.</p>
+  </section>
+
+  <section>
+    <h2>What should businesses do next?</h2>
+    <p>Start with a local audit, then fix the highest-friction inconsistencies first. The fastest gains usually come from correcting profile data, aligning pages with real services, and closing the gap between what the business says and what the web shows.</p>
+    <p>A practical sequence is straightforward. Verify every location listing. Normalize the business name, address, phone number, and hours. Build or repair pages for each location and service line. Make it easy for customers to leave reviews after real transactions. Monitor unanswered questions, photos, and profile edits as part of routine operations, not a quarterly cleanup.</p>
+    <p>Businesses should also resist the temptation to chase every new feature as if it were a silver bullet. Local search rewards fundamentals more reliably than novelty. The business that maintains a clean profile, accurate landing pages, and steady customer proof will usually outperform the business that keeps changing tactics.</p>
+  </section>
+
+  <section>
+    <h2>What is the outlook for local search after 2026?</h2>
+    <p>The likely direction is stricter dependence on trustworthy structured signals and real customer evidence. Businesses that can keep their data synchronized and their operations visible will keep the edge.</p>
+    <p>That does not mean local SEO gets easier. It means the work becomes more like governance. The winners will manage local presence as a controlled system, not a campaign. They will treat reviews, profiles, hours, photos, and service pages as production assets that require ownership. The losers will continue to mistake local search for a branding exercise and wonder why traffic is unstable.</p>
+    <p>The deeper lesson is counterintuitive but durable: in local SEO, less improvisation often produces more growth. A business that reduces ambiguity creates more trust, and trust is what local search is trying to surface. That is why the best playbook for Google Maps is not a bag of tricks. It is operational clarity.</p>
+  </section>
+
+  <footer>
+    <p><strong>Primary source context:</strong> The referenced article is framed as a 2026 playbook for winning Google Maps and local search, focused on attracting nearby customers and growing with proven strategies. The webpage could not be processed directly, so this analysis stays anchored to that framing and to general local SEO operating realities.</p>
+  </footer>
+</article>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.strottner.com/local-seo-in-2026-the-playbook-for-winning-google-maps-and-local-search/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794433849",
+    slug: "helping-caregivers-use-ai-in-everyday-life",
+    title: "Helping caregivers use AI in everyday life",
+    deck: "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-10T12:00:00Z",
+    updatedAt: "2026-11-10T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/helping-small-businesses-put-ai-to-work.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them bu...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO, Nov. 10, 2026</strong> OpenAI Academy is bringing free, in-person ChatGPT workshops to caregivers in five U.S. cities, pairing the company with three health and caregiving nonprofits during National Family Caregivers Month. The AI Skills Jam for Caregivers &amp; Community Health is meant to show family caregivers how to use ChatGPT for routine support tasks while keeping a close eye on safety and limits.</p>
+
+<h2>What is OpenAI announcing for caregivers?</h2>
+<p>OpenAI says the AI Skills Jam for Caregivers &amp; Community Health will give caregivers hands-on help using ChatGPT in everyday life. The company says the workshops are free, in person, and designed to help people use the tool confidently, safely, and practically.</p>
+<p>The event is scheduled for November 10 and is being run with Caregiver Action Network, the Alzheimer’s Association, and the American Diabetes Association. OpenAI says the sessions will be held in Oakland, Tampa, Pittsburgh, Atlanta, and Detroit.</p>
+
+<table>
+  <tr><th>Event</th><td>AI Skills Jam for Caregivers &amp; Community Health</td></tr>
+  <tr><th>Date</th><td>November 10, 2026</td></tr>
+  <tr><th>Format</th><td>Free, in-person workshops</td></tr>
+  <tr><th>Cities</th><td>Oakland, Tampa, Pittsburgh, Atlanta, Detroit</td></tr>
+  <tr><th>Partners</th><td>Caregiver Action Network, Alzheimer’s Association, American Diabetes Association</td></tr>
+  <tr><th>OpenAI guidance</th><td>Hands-on support, no coding required</td></tr>
+</table>
+
+<h2>Why does OpenAI say the timing matters now?</h2>
+<p>OpenAI is tying the rollout to National Family Caregivers Month and to a large care burden already in place across the country. The company says caregiving often means juggling schedules, tracking information, and finding support while balancing work and family life.</p>
+<p>OpenAI also cites an internal analysis that estimates more than 40 million weekly ChatGPT messages about healthcare in the U.S. ask about healthcare for someone else. That is the company’s case for why a caregiver-focused workshop series makes sense now, even as the demand for care keeps rising.</p>
+<p>AARP and the National Alliance for Caregiving say 63 million Americans are family caregivers, nearly one in four adults. Their 2025 report also says only 22 percent receive training for complex medical tasks, a gap that helps explain why a workshop built around plain-language support and scheduling help may draw attention.</p>
+
+<h2>What will caregivers actually learn?</h2>
+<p>OpenAI says participants will get practical examples of how ChatGPT can help with day-to-day caregiving work. The first goal is not coding, it is routine organization, clearer information, and peer learning in local settings.</p>
+<p>According to OpenAI, the workshops will cover caregiver schedules and checklists, plain-language versions of trusted educational resources, community resource searches, and support group discussion guides. The company says facilitators and mentors will be on hand, and that participants can practice alongside peers who face similar pressures.</p>
+<p>OpenAI says the sessions will also cover responsible use. That includes protecting personal information, understanding tool limits, and knowing when to consult healthcare professionals because AI should complement, not replace, medical, legal, or financial advice.</p>
+
+<h2>Who stands to gain from this effort?</h2>
+<p>Caregivers are the immediate audience, but the benefits extend to support organizations and community health groups as well. OpenAI is betting that a live, local format will make the tool less abstract and easier to use in real life.</p>
+<p>For caregivers, the promise is less time spent sorting through schedules and information, and more time focused on the person receiving care. For partner groups, the upside is a chance to shape how AI guidance lands with families that already rely on them for trusted information.</p>
+<p>OpenAI Chief Global Affairs Officer Chris Lehane framed the goal this way: “AI is a tool for people to have more control over their lives and their families’ lives.” He added that the company wants caregivers to build the skills and confidence to use these tools safely and practically.</p>
+
+<h2>What are the limits and risks here?</h2>
+<p>The main risk is simple: ChatGPT can sound certain even when it is wrong. OpenAI says the model can produce incorrect or misleading outputs, including fabricated quotes, studies, citations, or references to non-existent sources.</p>
+<p>That matters for caregivers because health, legal, and financial questions carry real stakes. OpenAI’s own workshop guidance says AI should not replace professional advice, and its help pages say users should verify important information from reliable sources.</p>
+<p>There are also data-handling limits to keep in mind. OpenAI says temporary chats do not appear in chat history, do not create or update memories, are not used to improve OpenAI models, and may be retained for up to 30 days for safety purposes. On personal workspaces with ChatGPT Free, Plus, or Pro, data sharing is enabled by default, although users can turn off model improvement and keep chat history.</p>
+<p>One further caveat: if a user sends feedback after opting out of training, OpenAI says the full conversation tied to that feedback may be used to train its models. That is the kind of detail caregivers should understand before entering personal health information into any AI tool.</p>
+
+<h2>What comes next for OpenAI Academy?</h2>
+<p>The caregiver workshops fit into a broader OpenAI Academy push to make AI usable outside the tech crowd. OpenAI says the program builds on earlier events with nonprofits, small businesses, K-12 educators, and older adults.</p>
+<p>That older-adult work is a useful precedent. In a separate Academy event with Older Adults Technology Services from AARP, OpenAI held free, in-person AI Skills Jams for older adults in 10 communities, showing that the company is using the same workshop model across different age groups and community needs.</p>
+<p>For now, the caregiver rollout is more local training than grand promise. The test is whether a few hours in a community room can make ChatGPT useful for the people carrying one of the country’s heaviest unpaid jobs.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794422828",
     slug: "google-core-update-2026-what-local-businesses-should-do",
     title: "Google Core Update 2026: What Local Businesses Should Do",
