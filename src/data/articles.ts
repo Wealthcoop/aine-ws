@@ -2,6 +2,96 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794422828",
+    slug: "google-core-update-2026-what-local-businesses-should-do",
+    title: "Google Core Update 2026: What Local Businesses Should Do",
+    deck: "8 of Google's last 16 core updates ran past two weeks. What the November 2026 update means for local businesses, when to judge it, and what reviews can't do.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-11T18:45:03Z",
+    updatedAt: "2026-11-11T18:45:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/google-gemini-3-8-flash-low-latency-reasoning-autonomous-loops.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: 8 of Google's last 16 core updates ran past two weeks. What the November 2026 update means for local businesse...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>MOUNTAIN VIEW, Calif.</strong> Google began rolling out its November 2026 core update on November 10, and local businesses are already getting noisy advice about what to change. The safer read is simpler: keep operating, separate website data from map pack data, and wait for the rollout to finish before you judge the damage.</p>
+
+<h2>What did Google launch on November 10, 2026?</h2>
+<p>Google released the November 2026 core update on November 10, 2026 at 10:07 PST, after the incident began at 10:06 Pacific. The company said the rollout applies globally and to all languages, and may take up to two weeks to complete.</p>
+<p>The article checked on November 11 says the update was still rolling out and no end date had been posted yet. The Google incident page extract provided here confirms the launch time and scope, but it does not include a completion notice.</p>
+<table>
+  <thead>
+    <tr><th>Item</th><th>Verified detail</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Name</td><td>November 2026 core update</td></tr>
+    <tr><td>Start</td><td>November 10, 2026, 10:06 a.m. Pacific</td></tr>
+    <tr><td>Release time</td><td>10:07 PST</td></tr>
+    <tr><td>Scope</td><td>Global, all languages</td></tr>
+    <tr><td>Rollout estimate</td><td>May take up to 2 weeks to complete</td></tr>
+    <tr><td>Status in the article</td><td>Still rolling out as of November 11</td></tr>
+  </tbody>
+</table>
+
+<h2>Why should businesses wait before reading the data?</h2>
+<p>Google says core updates are broad changes that do not target specific sites or individual pages. Google also recommends waiting at least a full week after a core update completes before analyzing Search Console data.</p>
+<p>The recommended comparison is that week against the week before the rollout started. Google also tells site owners to analyze different search types separately, so Web Search, Images, Video, and News do not get lumped together.</p>
+
+<h2>What should a local business do during the rollout?</h2>
+<p>Keep the business running, avoid big sitewide changes, and record the date of any edits you do make. Routine work is fine, but redesigns, mass rewrites, and page deletions make it harder to tell what Google changed versus what you changed.</p>
+<p>Google’s guidance is blunt about fix chasing. It says to avoid quick fixes, and treats deleting content as a last resort only when the content cannot be salvaged.</p>
+<p>Local operators should also measure two systems separately. Business Profile performance shows views, clicks, directions, calls, website clicks, and other interactions on Search and Maps, while Search Console is the place to study organic website traffic and rankings.</p>
+
+<h2>What do reviews actually affect?</h2>
+<p>Reviews help local visibility, but they do not shield a website from a core update. Google says local results are mainly based on relevance, distance, and prominence, while more reviews and positive ratings can help local ranking.</p>
+<p>Whitespark’s 2026 survey supports that split. In the local pack, high Google ratings rank 6th, review count ranks 9th, and review recency ranks 11th, but in local organic results those same factors rank 81st, 104th, and 105th.</p>
+<p>The same survey puts a dedicated page for each service at number 1 for local organic results and number 24 for the map pack. Quality of inbound links to the domain ranks 3rd for organic results, while quality of inbound links to the GBP landing page ranks 25th for the map pack.</p>
+<p>That is the practical divide local businesses need to remember: reviews and profile work can help the map pack, but service pages and links are doing the heavier lift on organic rankings.</p>
+
+<h2>What is the realistic outlook from here?</h2>
+<p>Google’s two week estimate is a ceiling, not a promise. On the Search Status Dashboard, eight of the last 16 core updates ran longer than 14 days, including the last two November updates, which took 25 days and 23 days.</p>
+<p>That track record matters because holiday traffic can distort the numbers. If the rollout ends near Black Friday, comparing that week with an early November week will mix algorithm effects with seasonality, so year over year checks matter too.</p>
+<p>The better long view is less dramatic than the chatter suggests. Google says smaller, unannounced core updates can still lift content after improvements, so a business does not always have to wait for the next marquee update to recover.</p>
+<p>Sterling Sky’s September 30, 2026 analysis adds one more caution: organic losses and local pack visibility do not always move together. The firm says algorithmic classifiers can crush organic traffic while a Google Business Profile keeps top local pack positions, which is another reason to keep the two scoreboards separate.</p>
+
+<h2>What should owners do next?</h2>
+<p>Do not panic, and do not redesign the site in the middle of the rollout. Wait for Google to mark the update complete, wait another full week, then compare the right dates in Search Console and in your Business Profile reports.</p>
+<p>If the drop is small, Google says there is no need for drastic action. If the drop is large and broad, review the affected pages for usefulness, reliability, and people first content, then improve the pages that lost ground rather than chasing a shortcut.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://blaksheepcreative.com/seo/algorithm/google-core-update-local-business/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794423136",
+    slug: "show-hn-yogurt-free-private-open-source-alternative-to",
+    title: "Analysis: Show HN: Yogurt - Free, private, open-source alternative to Granola",
+    deck: "Community discussion with 52 upvotes on Hacker News regarding Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-11T15:33:06Z",
+    updatedAt: "2026-11-11T15:33:06Z",
+    readingTimeMinutes: 6,
+    featuredImage: "/news/editorial/trump-had-private-dinner-with-anthropic-ceo-dario-amode.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Hacker News AI Community.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Hacker News AI Community.",
+          "Key focus: Community discussion with 52 upvotes on Hacker News regarding Show HN: Yogurt \u2013 Free, private, open-source alt...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article><h1>Analysis: Yogurt wants to be the private Granola, but local AI still carries a bill</h1><p><strong>SAN FRANCISCO</strong> Yogurt appeared on Hacker News as a free, MIT licensed desktop app for private AI meeting notes, and the launch drew 54 points at the time of capture. The GitHub release feed shows v0.3.5 published on 11 Nov at 17:10, with earlier point releases landing hours apart, which is the mark of a product still being tuned in public.</p><h2>What exactly did Yogurt launch on Hacker News?</h2><p>Yogurt launched as a bot free meeting assistant that records calls, transcribes them, summarizes them, and lets you chat with the notes while keeping the work on your own machine. The author also positioned it as a free, open source alternative to Granola, with transcripts, call recordings, and summaries never leaving the computer.</p><p>The launch post matters because it was not framed as a hobby script or a privacy demo. The author described a polished daily driver built in free time, with UI animation work, local search, automatic model setup, echo reduction, and auto end recordings, which is a much larger promise than simple transcription.</p><p>That promise was tested immediately in the comments. One user asked how Yogurt identifies speakers without a meeting bot, and the author said it uses accessibility permissions to pull speaker names from Zoom, Google Meet, and similar apps; another user asked why not use a Rust native UI stack, and the answer was that Electron was chosen to keep the React ecosystem and the desired interface.</p><h2>Why does the timing matter now?</h2><p>The timing makes sense because local models have finally become practical enough to run useful meeting workflows on consumer hardware. Yogurt is built around that shift, using whisper.cpp for transcription, Apple’s on device SpeechAnalyzer when available, and a local open weight LLM through llama.cpp for summaries and questions.</p><p>That is the real catalyst behind the product, and it is also the reason the pitch lands. If the model runs on the laptop, the user avoids the recurring bill and the privacy argument changes from trust us to inspect the code or keep the data at home.</p><p>Yogurt also exposes a local MCP server, which gives the user a direct path to share notes with Anthropic, OpenAI, or another AI app without using a paid cloud middleman. That design is clever, but it also reveals the product’s real thesis: the app is not trying to make every meeting magically private, it is trying to make privacy and handoff control cheaper and easier.</p><h2>What does the code and build system say about the real architecture?</h2><p>The repository tree shows a desktop app with clear seams between hardware selection, storage, audio capture, engine logic, downloader logic, and MCP services. The build docs add the missing shape: Node.js 24, pnpm 10.7.0, CMake, and native toolchains for Mac, Windows, and Linux are all part of the path from source to app.</p><p>That is a heavier stack than the marketing copy suggests. Electron handles the shell, but the app still needs Rust, Vulkan SDK components, Windows C++ build tools, PulseAudio headers on Linux, Xcode Command Line Tools on Mac, and a separate Next.js website, so this is a real software system rather than a single binary wrapped in a nice icon.</p><p>The source layout is also revealing. Files such as app/src/main/hardware.ts, app/src/main/engine.ts, app/src/main/audio.ts, app/src/main/capture.ts, app/src/main/store.ts, app/src/main/backup.ts, and the MCP modules under app/src/main/mcp point to a product that separates model choice, local persistence, capture, backup, and integration layers.</p><table><thead><tr><th>Area</th><th>Evidence in the repo</th><th>What it suggests</th></tr></thead><tbody><tr><td>App shell</td><td>Electron, React, package scripts, separate Next.js site</td><td>Cross platform reach, but more moving parts</td></tr><tr><td>Transcription</td><td>whisper.cpp, Apple SpeechAnalyzer, audio and capture modules</td><td>Local speech paths, with platform specific branches</td></tr><tr><td>Summaries and chat</td><td>engine.ts, downloader.ts, llama.cpp, local open weight LLM</td><td>Model selection depends on device capacity</td></tr><tr><td>Storage</td><td>store.ts, backup.ts, paths.ts</td><td>Meetings and models persist locally, with export and restore</td></tr><tr><td>AI app bridge</td><td>mcp/index.ts, mcp/server.ts, mcp/socket.ts</td><td>External tools can read meeting data through a local server</td></tr><tr><td>Release flow</td><td>.github/workflows/release.yml, release assets</td><td>Distribution is automated, but the build chain is not simple</td></tr></tbody></table><p>The release artifacts reinforce that point. The latest release page shows a 508 MB Linux AppImage, a 401 MB Windows installer, and a 173 MB Mac DMG, which is far heavier than a lightweight utility and hints at bundled runtime and model weight.</p><h2>Who benefits from Yogurt, and who inherits the friction?</h2><p>Yogurt clearly helps people who want local control and who are willing to trade convenience for privacy. The win is strongest for solo users, small teams, and technical buyers who dislike recurring SaaS fees and who do not want their meeting data sitting in a vendor cloud by default.</p><p>The loser is anyone who expects a friction free install and forget experience. Yogurt requires at least 8 GB of memory, supports only Apple silicon on Mac, Windows 10 2004 or newer on x64, and Ubuntu 22.04 or similar on x64, and the docs also say Windows and Linux check transcription speed during setup and stop if the machine cannot keep up.</p><p>There is more friction after install. Windows still shows the unsigned app warning and asks the user to click More info, then Run anyway; Linux may need FUSE 2 plus a tray extension on GNOME; and calendar access plus speaker names from calls are Mac only for now.</p><p>The issue tracker gives more evidence that the product is still being sharpened. One open item asks for auto ejection of the DMG after install, and another asks for update settings that would let users disable background checks for a more offline profile, which means the team is still polishing basic desktop ergonomics rather than just shipping features.</p><h2>Where does the privacy story stop holding up?</h2><p>Yogurt’s privacy pitch is strong, but it stops at the device boundary. The docs say audio, transcripts, notes, and questions are processed locally with no usage reporting, yet the app still connects to Hugging Face for model downloads, Apple’s speech assets on Mac, and GitHub for update checks.</p><p>That distinction matters because local processing is not the same as zero network exposure. The local MCP server is read only from Yogurt’s side, but once a user connects another AI app, that app may send whatever it reads to its own online model, so the privacy guarantee becomes conditional on what the user links to it.</p><p>What is missing is just as important as what is present. In the cited launch pages, Yogurt emphasizes locality and open source status, but it does not surface a comparable security page, an encryption policy, SOC 2 language, or enterprise controls, so the buyer has to treat the privacy claim as a software property, not a procurement guarantee.</p><p>Granola’s current security and pricing pages show the contrast. Granola says third party model training is prohibited, audio is deleted after transcription, notes are stored in encrypted AWS infrastructure, and the product is sold at $0, $14, and $35 per user per month depending on plan, with SOC 2 Type II and enterprise controls on the paid tiers; Yogurt answers the same market demand by removing the cloud layer, but it also removes the vendor’s responsibility for many of those controls.</p><p>That is the core trade off. Granola is expensive and cloud centered, yet it is explicit about billing, retention, training opt outs, and enterprise policy, while Yogurt is free but shifts the burden of hardware, updates, storage, and risk management onto the user.</p><h2>What does the release cadence suggest about the outlook?</h2><p>Yogurt looks promising, but it is still a young product with moving parts. The release page shows 0.3.1, 0.3.2, and 0.3.5 all appearing within hours on the same day, which suggests quick iteration rather than long term stability.</p><p>That speed is good for feedback, but it also means buyers should read the project as an evolving local stack, not a finished standard. The author is clearly responding to rough edges, yet the architecture still depends on large model downloads, platform specific permissions, and a fairly deep install chain.</p><p>The contrarian conclusion is simple: free is not the same as cheap. Yogurt removes subscription cost, but it does so by moving the cost into the user’s machine, disk, install flow, and maintenance burden, and that may be the right trade for privacy minded people while still being a hard sell for broader teams.</p><p>Granola remains the cleaner enterprise product because it can answer the boring questions procurement asks. Yogurt has a sharper ideological edge and a stronger local control story, but the business reality is that the last mile of trust, support, and uptime still belongs to the person who installs it.</p></article>`,
+    sources: [
+      { name: "Hacker News AI Community", url: "https://github.com/FrigadeHQ/yogurt", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794404124",
     slug: "free-seo-text-content-tools-digitalaai",
     title: "Free SEO, Text & Content Tools | Digitalaai",
