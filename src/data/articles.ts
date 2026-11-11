@@ -2,6 +2,104 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794375691",
+    slug: "launch-hn-bloomy-yc-s26-ai-powered-mastery-learning-for",
+    title: "Launch HN: Bloomy (YC S26) - AI-powered mastery learning for K-12",
+    deck: "Community discussion with 102 upvotes on Hacker News regarding Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-20T16:32:10Z",
+    updatedAt: "2026-07-20T16:32:10Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/ftc-launches-broad-investigation-into-anthropic-openai.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Hacker News AI Community.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Hacker News AI Community.",
+          "Key focus: Community discussion with 102 upvotes on Hacker News regarding Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>Bloomy launches a K-12 AI tutoring bet as its founder pitches mastery learning, privacy controls, and a price reset</h1><p>SAN FRANCISCO: Bloomy has launched as a Y Combinator S26 company pitching AI-powered mastery learning for K-12 students. The launch post on Hacker News landed with 102 points and 107 comments, while the company now says it is active in San Francisco with founder Alex Southmayd at the helm.</p><p>The startup is making a straightforward claim: AI can help students move faster if it is kept inside a structured learning loop. That pitch now sits alongside a current pricing page, a privacy policy, and a safety page that together show how Bloomy wants schools and families to understand the product before they buy it.</p><h2>What did Bloomy launch on Hacker News?</h2><p>Bloomy launched on Hacker News as an AI-powered mastery learning platform for K-12 students. The launch record is timestamped at 2026-07-20 16:32:10 UTC, and the thread was posted under the title “Launch HN: Bloomy (YC S26) - AI-powered mastery learning for K-12.”</p><p>Southmayd introduced himself as Bloomy’s founder and said the company provides an AI tutor alongside adaptive curriculum in Math, English Language Arts, and Writing. He framed the product as an answer to Benjamin Bloom’s two-sigma problem, arguing that AI can make one-on-one style help more available than traditional classroom instruction. The launch post also said Bloomy was already being used across districts, charter schools, hybrid schools, microschools, homeschools, and families looking for extra support.</p><h2>How does Bloomy say the product works?</h2><p>Bloomy says it starts with diagnostics, builds a personalized learning path, and advances students only after they show mastery. The current site says students work through instruction, guided practice, and a no-hints mastery check, while BloomyBot gives Socratic help rather than just handing over answers.</p><p>The launch post gave the same structure in more detail. Southmayd said students work one skill at a time, get a short lesson, practice at adaptive difficulty, and only move forward after showing at least 90 percent mastery. He described three stages for each skill: Base Camp, Climb, and Summit. Base Camp teaches the concept with worked examples, Climb adds guided practice, and Summit is an independent ten-question assessment with no hints or AI help.</p><p>The company page now says Bloomy spans roughly 1,200 standards-aligned skills across ELA and Math, with Writing Studio extending the writing domain. It also says the system is built for K-12 grades and includes accessibility features such as read-aloud, adjustable text size, and keyboard and screen-reader support.</p><h2>What does Bloomy charge now?</h2><p>Bloomy’s family pricing page now lists all three subjects at the same rate. ELA, Math, and Writing each cost $39 per month per student or $279 per year per student.</p><table><thead><tr><th>Plan</th><th>Launch HN price</th><th>Current family price</th></tr></thead><tbody><tr><td>ELA</td><td>$39/month or $279/year</td><td>$39/month or $279/year</td></tr><tr><td>Writing</td><td>$19/month or $139/year</td><td>$39/month or $279/year</td></tr><tr><td>Math</td><td>Scheduled to launch July 31 at the same price as ELA</td><td>$39/month or $279/year</td></tr></tbody></table><p>That means the largest visible change from launch is on Writing, which was cheaper in the launch post than it is on the current site. The launch post also said schools and microschools pay per student with pricing that varies by subject coverage, enrollment, rostering, and implementation needs, so commercial terms remain partly custom for institutional buyers.</p><h2>What do Bloomy’s privacy and safety pages say?</h2><p>Bloomy’s current privacy policy is more detailed than the launch post. It says child personal information is deleted within 30 days after cancellation or termination unless security, legal, billing, or compliance reasons require longer retention, while parent account information can be kept for up to 12 months after cancellation.</p><p>The same policy says Bloomy does not sell personal information or use children’s data for behavioral advertising. It also says third-party AI providers are not allowed to use identifiable child personal information sent by Bloomy to train general-purpose models, but Bloomy may send a child’s message, lesson context, and related metadata to AI service providers to generate a response and support safety review. The policy also says Bloomy may log, automatically review, and manually review AI interactions, and that teachers or administrators in school-managed accounts may be able to view student progress, mastery data, chat logs, and safety alerts.</p><p>The safety page adds that BloomyBot is designed to guide thinking rather than give answers, is locked during mastery checks, and can trigger email alerts to parents when messages look unsafe or distressed. That is the practical guardrail set the company is offering: logged tutoring, adult visibility, and a hard stop during assessments.</p><h2>What should readers watch next?</h2><p>The near-term test is whether Bloomy can turn a pilot story into repeatable classroom and family demand. Southmayd said an early charter-school pilot in Massachusetts with about 150 students in grades 6 through 8 averaged roughly 1.8 times expected winter-to-spring NWEA MAP growth, but he also called it an observational pilot, not a randomized study.</p><p>He said Bloomy plans more pilots this fall, including additional student populations and the PSAT. That makes the next phase less about launch-day enthusiasm and more about whether the company can prove its mastery model, keep its privacy promises, and persuade schools that AI tutoring belongs inside core instruction rather than at the edge of it.</p></p>`,
+    sources: [
+      { name: "Hacker News AI Community", url: "https://news.ycombinator.com/item?id=48981136", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794375844",
+    slug: "show-hn-smart-model-routing-directly-in-claude-codex-an",
+    title: "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+    deck: "Community discussion with 216 upvotes on Hacker News regarding Show HN: Smart model routing directly in Claude, Codex and Cursor.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-06-26T16:40:11Z",
+    updatedAt: "2026-06-26T16:40:11Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/anthropic-warns-of-ai-worms-that-might-infect-smart-hom.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Hacker News AI Community.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Hacker News AI Community.",
+          "Key focus: Community discussion with 216 upvotes on Hacker News regarding Show HN: Smart model routing directly in Claude...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> WorkWeave used Hacker News to pitch a router that sits between coding agents and model APIs, then chooses which model handles each request. The company says the goal is to keep frontier models for hard work and shift routine turns to cheaper ones.</p>
+
+<h2>What did WorkWeave announce?</h2>
+<p>The June 26, 2026 Show HN post said the router plugs into Claude Code, Codex, Cursor, and other agent clients, then sends each inference request to the best model for the task. The post also said the system is trained on tens of thousands of agent traces and saved 40 percent on tokens internally, without a visible drop in quality or velocity.</p>
+<p>The submission was filed by adchurch, drew 216 points, and generated 113 comments. The launch post said the router was source available under Elastic License 2.0 and could be self hosted or used through a hosted version.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>What it said</th>
+      <th>Why it matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Show HN post</td>
+      <td>40 percent token savings, no visible quality loss, RL routing on tens of thousands of traces</td>
+      <td>These are the headline product claims at launch</td>
+    </tr>
+    <tr>
+      <td>HN metadata</td>
+      <td>June 26, 2026, 216 points, 113 comments</td>
+      <td>Shows the post had immediate attention</td>
+    </tr>
+    <tr>
+      <td>License commit</td>
+      <td>Elastic License 2.0, with a ban on hosted or managed service use</td>
+      <td>Sets the legal boundary for self hosting</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How does the router work in practice?</h2>
+<p>The repository now says the router makes a decision per action, meaning one upstream API request at a time. It speaks Anthropic Messages, OpenAI Chat Completions, and Gemini, and the docs say provider keys stay on the user's machine.</p>
+<p>The current docs also frame the router as cache aware. Once it starts using one model, the threshold to switch rises because the system weighs the savings from changing models against the cost of a cache miss.</p>
+<p>That is the central operational promise. The router is trying to preserve the fast path for simple work, while reserving costly frontier models for planning, rescue steps, or harder edits.</p>
+
+<h2>What did critics push back on?</h2>
+<p>Critics focused on cache misses, agent awareness, and training freshness. One common objection was that coding agents already know when they are exploring, planning, or implementing, so an extra proxy could break the control loop and burn more money through cache churn.</p>
+<p>Another challenge was durability. Commenters asked how a router trained on one organization's traces would keep up with new models and new task patterns, and they asked for public benchmarks on tools such as Terminal-Bench or SWE-Bench style tests.</p>
+<p>The poster replied that the router is cache aware, so the system raises the switching bar when a model change would be expensive. The response also said the team would keep growing the dataset and use production reward signals, then publish evals later.</p>
+
+<h2>What do the license and privacy terms mean?</h2>
+<p>The launch license is permissive for self hosting, but it is not an open field. The Elastic License 2.0 text in the repository commit says users may not provide the software as a hosted or managed service, and they may not move, change, disable, or circumvent the license key functionality.</p>
+<p>Privacy is better described as local control with clear edges. The current configuration docs say prompts go from the router straight to the chosen provider, provider keys remain on the operator's box, and OTLP tracing is opt in, while the optional HMM sidecar can call an external embedding provider at startup to verify the package's embedding space.</p>
+<p>That means the default scorer path is local, but the optional HMM path can depend on an external embedding service, such as Google or an OpenAI compatible endpoint, during startup checks. The sidecar README says those assets are verified before readiness and are not fetched on a live request.</p>
+
+<h2>What should readers watch next?</h2>
+<p>The launch post made a clear business claim, lower spend without a quality hit, but the public record still lacks an independent benchmark set from WorkWeave itself. The repo and docs are stronger on implementation detail than on third party validation.</p>
+<p>That leaves the next test simple: whether the router can keep saving money once it faces more users, more models, and more codebases. The launch showed demand, but the market will want public evals before it trusts the savings number.</p>`,
+    sources: [
+      { name: "Hacker News AI Community", url: "https://github.com/workweave/router", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794375304",
     slug: "local-rank-checker-7-best-tools-to-check-your-local-ran",
     title: "Local Rank Checker: 7 Best Tools to Check Your Local Rankings |",
