@@ -1,8 +1,10 @@
 {
-  "last_run_utc": "2026-11-11T05:44:04.558929+00:00",
+  "last_run_utc": "2026-11-11T10:56:48.568847+00:00",
   "status": "OK",
   "published_count": 2,
   "errors": [],
-  "guardrail_failures": [],
+  "guardrail_failures": [
+    "Editorial guardrail violation persisted (['comprehensive']) on 'Analysis: Google Search Algorithm Updates : Search Engine Roundtable'"
+  ],
   "note": "Published 2 article(s) cleanly."
 }
