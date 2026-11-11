@@ -44,7 +44,104 @@ FINEST_KEYS = [
     'fk_nZb9pbqyBF80RsTX_Ay1qj3oVH6QZMm6'
 ]
 
-def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
+YOU_RESEARCH_URL = 'https://api.you.com/v1/research'
+DEFAULT_YOU_API_KEY = 'ydc-sk-ad77719b3933f5e1-YUmlb4x2xLYEJcA7fNqrx2lai04J6Rzd-dd75ddeb'
+
+
+def _clean_generated_html(txt: str) -> str:
+    txt = (txt or '').strip()
+    txt = re.sub(r'^```html\s*', '', txt)
+    txt = re.sub(r'\s*```$', '', txt)
+    # Remove any inline numeric citation brackets emitted by research endpoints (e.g. [[1]], [[1, 2]])
+    txt = re.sub(r'\s*\[\[\d+(?:,\s*\d+)*\]\]', '', txt)
+    txt = txt.replace('\u2014', ', ').replace('--', ', ')
+    return txt.strip()
+
+
+def ask_you_research_generator(system_prompt, user_prompt):
+    """Primary editorial generator backed by You.com Research API (exhaustive -> deep tiers)."""
+    you_key = os.environ.get('YOU_API_KEY') or os.environ.get('YDC_API_KEY') or DEFAULT_YOU_API_KEY
+    if not you_key:
+        return None
+
+    combined_input = (
+        f"SYSTEM INSTRUCTIONS:\n{system_prompt}\n\n"
+        f"EDITORIAL ASSIGNMENT:\n{user_prompt}\n\n"
+        "OUTPUT FORMAT: Return the complete article HTML strictly inside the JSON field 'html_body'. "
+        "Do NOT include markdown fences or citation bracket markers like [[1]]."
+    )
+    schema = {
+        "type": "object",
+        "properties": {
+            "html_body": {"type": "string"}
+        },
+        "required": ["html_body"],
+        "additionalProperties": False,
+    }
+
+    for effort in ('exhaustive', 'deep'):
+        payload = {
+            "input": combined_input,
+            "research_effort": effort,
+            "output_schema": schema,
+        }
+        req = urllib.request.Request(
+            YOU_RESEARCH_URL,
+            data=json.dumps(payload).encode('utf-8'),
+            headers={
+                'X-API-Key': you_key,
+                'Content-Type': 'application/json',
+                'User-Agent': 'AINE-Newsroom/1.0',
+            },
+        )
+        for ctx in (_SSL_CTX, _UNVERIFIED_CTX):
+            try:
+                with urllib.request.urlopen(req, context=ctx, timeout=150) as resp:
+                    res = json.loads(resp.read().decode('utf-8'))
+                    content = (res.get('output') or {}).get('content')
+                    if isinstance(content, dict):
+                        html_out = _clean_generated_html(content.get('html_body', ''))
+                    else:
+                        html_out = _clean_generated_html(str(content or ''))
+                    if html_out:
+                        print(f"[✓] Story drafted via You.com Research ({effort} tier).")
+                        return html_out
+            except Exception as e:
+                print(f"[!] You.com Research ({effort}) attempt failed: {e}")
+                time.sleep(1)
+    return None
+
+
+def ask_editorial_generator(system_prompt, user_prompt, max_tokens=4500):
+    # Primary until further notice: You.com Research API (exhaustive -> deep)
+    you_html = ask_you_research_generator(system_prompt, user_prompt)
+    if you_html:
+        return you_html
+
+    # Secondary fallback to OpenRouter if configured
+    openrouter_key = os.environ.get('OPENROUTER_API_KEY')
+    if openrouter_key:
+        try:
+            headers = {
+                'Authorization': f'Bearer {openrouter_key}',
+                'Content-Type': 'application/json'
+            }
+            payload = {
+                'model': 'google/gemini-2.5-flash',
+                'messages': [
+                    {'role': 'system', 'content': system_prompt},
+                    {'role': 'user', 'content': user_prompt}
+                ],
+                'max_tokens': max_tokens
+            }
+            req = urllib.request.Request('https://openrouter.ai/api/v1/chat/completions', data=json.dumps(payload).encode('utf-8'), headers=headers)
+            with urllib.request.urlopen(req, context=_UNVERIFIED_CTX, timeout=60) as resp:
+                res = json.loads(resp.read().decode('utf-8'))
+                return _clean_generated_html(res['choices'][0]['message']['content'])
+        except Exception as e:
+            print(f"[!] OpenRouter fallback failed: {e}")
+
+    # Tertiary fallback: Finest gateway
     for attempt in range(len(FINEST_KEYS)):
         key = FINEST_KEYS[attempt]
         headers = {
@@ -64,43 +161,15 @@ def ask_finest_generator(system_prompt, user_prompt, max_tokens=4500):
         try:
             with urllib.request.urlopen(req, context=_UNVERIFIED_CTX, timeout=60) as resp:
                 res = json.loads(resp.read().decode('utf-8'))
-                txt = res['choices'][0]['message']['content'].strip()
-                txt = re.sub(r'^```html\s*', '', txt)
-                txt = re.sub(r'\s*```$', '', txt)
-                txt = txt.replace('\u2014', ', ').replace('--', ', ')
-                return txt
+                return _clean_generated_html(res['choices'][0]['message']['content'])
         except Exception as e:
             print(f"[!] Newsroom wire Finest API attempt {attempt+1} failed: {e}")
             time.sleep(1)
 
-    # Secondary fallback to OpenRouter if available
-    openrouter_key = os.environ.get('OPENROUTER_API_KEY')
-    if openrouter_key:
-        try:
-            headers = {
-                'Authorization': f'Bearer {openrouter_key}',
-                'Content-Type': 'application/json'
-            }
-            payload = {
-                'model': 'google/gemini-2.5-flash',
-                'messages': [
-                    {'role': 'system', 'content': system_prompt},
-                    {'role': 'user', 'content': user_prompt}
-                ],
-                'max_tokens': max_tokens
-            }
-            req = urllib.request.Request('https://openrouter.ai/api/v1/chat/completions', data=json.dumps(payload).encode('utf-8'), headers=headers)
-            with urllib.request.urlopen(req, context=_UNVERIFIED_CTX, timeout=60) as resp:
-                res = json.loads(resp.read().decode('utf-8'))
-                txt = res['choices'][0]['message']['content'].strip()
-                txt = re.sub(r'^```html\s*', '', txt)
-                txt = re.sub(r'\s*```$', '', txt)
-                txt = txt.replace('\u2014', ', ').replace('--', ', ')
-                return txt
-        except Exception as e:
-            print(f"[!] OpenRouter fallback failed: {e}")
-
     return None
+
+
+ask_finest_generator = ask_editorial_generator
 
 def record_publishing_ledger(title, slug, words, status="SUCCESS", error=None, category="ai-tools"):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

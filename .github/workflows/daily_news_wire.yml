@@ -25,6 +25,7 @@ jobs:
 
       - name: Run Newsroom Wire Ingestion Pipeline
         env:
+          YOU_API_KEY: ${{ secrets.YOU_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           python3 scripts/newsroom_wire.py
