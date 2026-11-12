@@ -2,6 +2,91 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794494195",
+    slug: "nvidias-board-mulls-showing-jensen-huang-the-door-after",
+    title: "Nvidia's board mulls showing Jensen Huang the door after a second",
+    deck: "Plus: Lutnick reportedly stalls chip crackdown, America said to near a chip-access rule, and more",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-12T14:34:12Z",
+    updatedAt: "2026-11-12T14:34:12Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/how-nvidia-scales-expertise-with-chatgpt-work.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: Plus: Lutnick reportedly stalls chip crackdown, America said to near a chip-access rule, and more...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+  <h1>Nvidia board weighs Jensen Huang’s future after second affair report, then the company moves to replace him</h1>
+  <p><strong>SAN FRANCISCO</strong> Nvidia’s board spent Wednesday weighing whether to push out Jensen Huang after a second affair report, only for the company to announce his immediate resignation on Thursday morning. The move comes after a week of intense reporting, a board probe into foreign intelligence concerns, and rising pressure on the chipmaker’s market value and leadership bench.</p>
+
+  <table>
+    <thead>
+      <tr><th>Item</th><th>What the record shows</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Newsletter report</td><td>The Hinge published a Nov. 12 item saying the board met to discuss whether to oust Huang after a second affair was reported.</td></tr>
+      <tr><td>Official board statement</td><td>Nvidia said on Nov. 8 it had opened an independent investigation, had no reason to believe secrets were compromised, and still had confidence in Huang.</td></tr>
+      <tr><td>Official transition</td><td>On Nov. 12 Nvidia said Huang resigned effective immediately, Colette Kress became interim CEO, and Harvey C. Jones became chair.</td></tr>
+      <tr><td>Market reaction</td><td>CNBC reported Nvidia shares fell sharply after the resignation news and were already under pressure before the open.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Why did the board move now?</h2>
+  <p>The immediate trigger was a second relationship report involving Kimberly Powell, a Nvidia vice president who reports to Huang. That followed Huang’s earlier admission that he had been unfaithful to his wife, and it arrived as the board was already dealing with a probe into whether he had been the target of a foreign intelligence effort.</p>
+  <p>The Hinge said directors met Wednesday to discuss ousting Huang and that some members were looking at Colette Kress as interim chief. Bloomberg reported the board had been working with an outside firm to identify possible replacements, while Semafor said some directors favored Kress for the interim role.</p>
+  <p>This was not a clean corporate reshuffle. The board had already said on Nov. 8 that an independent committee, assisted by outside counsel, would oversee the investigation, and that it saw no reason to believe national security or Nvidia secrets were compromised. That language kept the company in a holding pattern until the second affair report and the resignation announcement forced a decision.</p>
+
+  <h2>What is officially confirmed by Nvidia?</h2>
+  <p>Nvidia’s Nov. 12 release confirms the facts that matter most for governance. Huang resigned as president, chief executive officer, and board member effective immediately, Kress will serve as interim CEO while retaining her CFO job, and the board will search for a permanent chief executive from both internal and external candidates.</p>
+  <p>The same release says Harvey C. Jones is the board’s first-ever chair and that the company expects operations, customer commitments, and the product roadmap to continue without interruption. It also says Nvidia will report third-quarter fiscal 2027 results on Nov. 17 as scheduled.</p>
+  <p>The record is narrower than the rumor mill. The transition statement does not give a reason for Huang’s resignation, and it does not update the status of the investigation launched four days earlier. That matters because the public story now blends three separate strands: a personal conduct scandal, a national security probe, and a leadership change at one of the most important companies in AI.</p>
+  <p>Huang’s own email to employees, also dated Nov. 8, is more direct. He apologized for being unfaithful, said his actions hurt his family, took full responsibility, and said he would cooperate with the board’s investigation.</p>
+
+  <h2>Who absorbs the shock if Nvidia loses its founder?</h2>
+  <p>Nvidia’s customers get continuity language, but investors get uncertainty. CNBC reported the stock fell about 12% after the resignation announcement, with analysts warning that Huang’s departure would be hard on a company that has long been built around one founder and one management style.</p>
+  <p>The practical issue is succession. Reuters and CNBC both said the board had no obvious public successor in place, though analysts floated internal names such as Kress, Ian Buck, Bryan Catanzaro, Michael Kagan, and Bill Dally. Nvidia’s announcement makes clear the board is now searching under pressure rather than planning at leisure.</p>
+  <p>That creates winners and losers. Customers and partners may prefer the board’s promise of stability, but shareholders lose the figure most identified with Nvidia’s rise from gaming chip maker to central AI supplier. Competitors, from AMD to custom chip teams inside hyperscalers, may see an opening if Nvidia’s leadership question lingers.</p>
+
+  <h2>What should readers watch next?</h2>
+  <p>The next fight is no longer just about Huang’s conduct. It is also about export controls, government records, and whether Washington turns the scandal into a broader case over chip flows to China.</p>
+  <p>That case is already taking shape. Senator Chris Coons and Senator Elizabeth Warren sent a Nov. 11 letter to Howard Lutnick, Marco Rubio, and Stephen Miller asking them to preserve records on Nvidia chip exports, the Megaspeed matter, and communications tied to the suspected intelligence operation. Axios separately reported that Scott Bessent confronted Lutnick in the Situation Room over why Megaspeed had not been added to the Entity List, while Commerce denied the exchange happened.</p>
+  <p>Another policy thread is moving beside it. The Information reported that Commerce is finalizing a rule to bar Chinese AI firms from remotely accessing advanced chips through data centers in other countries, a move that would tighten a route around existing controls if it is issued.</p>
+  <p>For now, Nvidia is trying to separate business continuity from personal scandal. The official papers show a company replacing its chief executive in real time, while the surrounding reporting shows how quickly a leadership crisis can spill into national security policy, congressional oversight, and the fight over who gets access to the world’s most valuable AI hardware.</p>
+</article>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://hingedaily.substack.com/p/nvidias-board-mulls-showing-jensen", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794494291",
+    slug: "supporting-research-on-ai-and-childrens-safety",
+    title: "Supporting research on AI and children's safety",
+    deck: "OpenAI commits $2 million to research on AI and children's safety. The work supports shared tools to measure risks and opportunities for young people.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-12T00:00:00Z",
+    updatedAt: "2026-11-12T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/supporting-independent-journalism-in-ukraine.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: OpenAI commits $2 million to research on AI and children's safety. The work supports shared tools to measure r...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>Supporting research on AI and children's safety</h1><p>SAN FRANCISCO, Nov. 12, 2026: OpenAI says it will commit $2 million to research on AI's impact on children and to shared tools that can measure risks and opportunities for young users. The company said it signed the Charter of Engagement for Safer AI for Children at the Paris Peace Forum earlier this week, placing the pledge inside a broader coalition effort.</p><h2>What exactly did OpenAI announce?</h2><p>OpenAI is funding the scientific research network under the Coalition for Children's Rights and Protection in the Age of AI. The company says its contribution will support shared measurement work, which is meant to help researchers better understand and measure AI's risks and opportunities for children.</p><p>The post says the charter sets out shared principles for safe, age-appropriate AI and a research program with safeguards for independence. Research teams keep control over their conclusions, and the findings will be published even if they are negative or inconclusive.</p><h2>Why does the timing matter?</h2><p>The pledge follows a coalition roadmap that was advanced in September and set up first voluntary commitments for the Paris Peace Forum on Nov. 10 and 11. OpenAI's announcement is one of the first public signs of what those commitments look like in practice.</p><p>The coalition was launched on July 7 by France, Spain and Kenya, later joined by Australia, and now includes 23 states and eight UN entities. UNICEF is among the partners, alongside ITU, UNESCO, OHCHR, the Office of the Secretary-General's Envoy on Technology, the UN Department of Global Communications, the Special Representative of the Secretary-General on Violence against Children, and the Committee on the Rights of the Child.</p><p>France's president framed the issue bluntly in the coalition announcement: “We cannot repeat the mistakes of the past and wait twenty years to see the impact of chatbots on minors. We must act now.”</p><h2>How will the research work?</h2><p>The charter organizes the work around three connected streams. One tracks children's uses and experiences across ages, countries and cultural contexts. Another develops shared measures and open-source tools, including classifiers and graders. A third uses evidence reviews, experiments and longitudinal studies to examine development and wellbeing.</p><table><thead><tr><th>Workstream</th><th>What it is meant to do</th></tr></thead><tbody><tr><td>Human and AI Observatory</td><td>Define priority developmental outcomes and model behaviors, then track AI use patterns and research gaps across age groups and regions.</td></tr><tr><td>Shared Measurement</td><td>Build and validate shared measures and open-source tools so researchers can compare results across products, countries and time.</td></tr><tr><td>Evidence and Developmental Outcomes</td><td>Run evidence reviews, experiments and longitudinal studies on how AI affects children's development and wellbeing.</td></tr></tbody></table><p>The charter also says companies may contribute access to models and relevant data when lawfully permitted, along with research and technical expertise, in-kind resources and local partnerships. It says the purpose, resources and delivery timetable of each contribution will be made public, and contributors will report on implementation and material changes.</p><h2>What are the guardrails and trade-offs?</h2><p>The charter tries to keep funders from steering the science. Financial or in-kind support gives no control over individual funding decisions or findings and no publication veto, while relevant interests must be declared and managed.</p><p>It also draws a line around funding. Industry money supports shared measurement, while the Observatory, Evidence and Developmental Outcomes, Scientific Committee pay, and Assessment and Standards are to be funded only through public and independent philanthropic sources. The document says no privileged access to children's personal data is allowed, and participation terms must preserve rights, consent and data protection.</p><p>That said, the release leaves several questions unanswered. It does not spell out grant eligibility, application rules, allocation dates or a specific implementation schedule. The charter is a voluntary commitment, not a binding enforcement regime.</p><h2>What does UNICEF's research lens add?</h2><p>UNICEF says AI evaluation for children must move past a narrow search for catastrophic harm. The organization wants evidence on whether AI supports learning, development and children's rights, and it warns that children are not a single group because age, language, culture and circumstances change how they experience AI.</p><p>At a September UNGA side event, UNICEF's Lily Caprani said: “We don't just want to prevent the worst from happening. We want to make sure that children who are using AI in their daily lives are actually learning and flourishing.” UNICEF also said evaluations should look at repeated use over time, because some risks emerge only after extended interaction.</p><p>The practical value of OpenAI's pledge is clear enough: it adds money to a research track that already has political backing. The harder part is turning that research into shared methods, credible evidence and policy that holds up when companies, regulators and educators disagree on how fast AI should move into children's lives.</p></html_body></p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/children-first-declaration", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794476837",
     slug: "google-maps-ranking-services-in-jaipur-get-more-local-c",
     title: "Google Maps Ranking Services in Jaipur: Get More Local Calls &",
