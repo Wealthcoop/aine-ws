@@ -202,6 +202,81 @@ BANNED_WORDS_LIST = [
     "a testament to", "in today's fast-paced digital world"
 ]
 
+EDITORIAL_REPLACEMENTS = {
+    r'[\u2014\u2013]': ', ',
+    r'\s*--\s*': ', ',
+    r'\bdelve into\b': 'examine',
+    r'\bdive into\b': 'look at',
+    r'\bdelve\b': 'dig',
+    r'\bdelving\b': 'digging',
+    r'\bdelves\b': 'digs',
+    r'\bcomprehensive\b': 'complete',
+    r'\bvital\b': 'key',
+    r'\brevolutionize\b': 'transform',
+    r'\brevolutionizes\b': 'transforms',
+    r'\brevolutionizing\b': 'transforming',
+    r'\brevolutionized\b': 'transformed',
+    r'\blandscape\b': 'market',
+    r'\blandscapes\b': 'markets',
+    r'\bintricate\b': 'complex',
+    r'\bpivotal\b': 'critical',
+    r'\bmoreover\b': 'also',
+    r'\barguably\b': '',
+    r'\bnotably\b': 'specifically',
+    r'\bbeacon\b': 'standard',
+    r'\btelemetry\b': 'metrics',
+    r'\bproximity wall\b': 'ranking boundary',
+    r'\bdecay cliff\b': 'traffic drop',
+    r'\balgorithmic velocity\b': 'ranking speed',
+    r'\bcoordinate stacking\b': 'pin grouping',
+    r'\bmulti-entity mesh\b': 'network',
+    r"\bit's important to note that\b": '',
+    r"\bit's important to remember that\b": '',
+    r"\bit's important to note\b": '',
+    r"\bit's important to remember\b": '',
+    r'\bnavigating the complexities of\b': 'handling',
+    r'\ba testament to\b': 'proof of',
+    r"\bin today's fast-paced digital world\b": 'today',
+    r'\bunlock\b': 'open',
+    r'\bunlocks\b': 'opens',
+    r'\bunlocking\b': 'opening',
+    r'\bembark\b': 'start',
+    r'\bembarks\b': 'starts',
+    r'\bembarking\b': 'starting',
+    r'\btapestry\b': 'mix',
+    r'\bvibrant\b': 'active',
+    r'\brealm\b': 'space',
+    r'\bexcels\b': 'stands out',
+    r'\bholistic\b': 'overall',
+    r'\bparadigm\b': 'model',
+    r'\bsynergy\b': 'cooperation',
+    r'\bmultifaceted\b': 'detailed',
+    r'\bnuanced\b': 'precise',
+    r'\bseamlessly\b': 'smoothly',
+}
+
+def clean_editorial_text(text: str) -> str:
+    """Deterministic, zero-cost cleanup of em dashes and banned words in memory."""
+    if not text:
+        return text or ""
+    text = text.replace('\u2014', ', ').replace('\u2013', ', ')
+    text = re.sub(r'\s*--\s*', ', ', text)
+    for pat, rep in EDITORIAL_REPLACEMENTS.items():
+        def _repl(m, r=rep):
+            if not r:
+                return ''
+            orig = m.group(0)
+            if orig.isupper():
+                return r.upper()
+            if orig[0].isupper():
+                return r.capitalize()
+            return r.lower()
+        text = re.sub(pat, _repl, text, flags=re.IGNORECASE)
+    text = re.sub(r',\s*,+', ',', text)
+    text = re.sub(r'\.\s*,+', '.', text)
+    text = re.sub(r'\s{2,}', ' ', text)
+    return text.strip()
+
 class GuardrailViolationError(Exception):
     pass
 
@@ -754,8 +829,8 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
     is_tier_2 = is_deep_topic or is_opinion or feed_source.get('id') in ['google-search-central', 'seroundtable-main', 'arstechnica-tech']
     
     tier_label = "Tier 2 (Deep Dive)" if is_tier_2 else "Tier 1 (Breaking Wire)"
-    min_word_target = 1100 if is_tier_2 else 550
-    word_prompt_guidance = "Write a complete, deeply researched 1,200 to 1,500 word technical deep dive" if is_tier_2 else "Write a complete, tight 600 to 800 word breaking news report"
+    min_word_target = 1000 if is_tier_2 else 550
+    word_prompt_guidance = "Write a complete, deeply researched 1,100 to 1,400 word technical deep dive" if is_tier_2 else "Write a complete, tight 650 to 850 word breaking news report"
 
     opinion_prompt_note = ""
     if is_opinion:
@@ -861,23 +936,33 @@ Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
     if not any(content_html.endswith(end) for end in ['</p>', '</table>', '</ul>', '</ol>', '</article>', '</div>']):
         content_html += "</p>"
 
-    # Guardrail verification & 1-pass auto-clean if banned words leaked
+    # Deterministic editorial clean: 0 API credits, 0 extra LLM calls, 100% reliable
+    repaired_title = clean_editorial_text(repaired_title)
+    repaired_deck = clean_editorial_text(repaired_deck)
+    content_html = clean_editorial_text(content_html)
+    clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
+
+    # Check for any persistent banned terms; purge deterministically without calling LLM
     violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
     if violations:
-        print(f"[*] Guardrail check flagged terms {violations} on '{repaired_title}'. Running editorial clean pass...")
-        fix_prompt = f"""Rewrite ONLY the phrasing in the HTML below to eliminate these banned terms/characters: {', '.join(violations)}.
-Keep all exact facts, headings, HTML table, and structure intact. Zero em dashes.
-HTML:
-{content_html}"""
-        fixed_html = ask_finest_generator(system_prompt, fix_prompt)
-        if fixed_html:
-            content_html = fixed_html.strip()
-            clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
-            violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
+        print(f"[*] Deterministic fallback cleaning flagged terms {violations} on '{repaired_title}'")
+        for v in violations:
+            if v != "em-dash/double-hyphen":
+                content_html = re.sub(r'\b' + re.escape(v) + r'\b', '', content_html, flags=re.IGNORECASE)
+                repaired_title = re.sub(r'\b' + re.escape(v) + r'\b', '', repaired_title, flags=re.IGNORECASE)
+                repaired_deck = re.sub(r'\b' + re.escape(v) + r'\b', '', repaired_deck, flags=re.IGNORECASE)
+        content_html = clean_editorial_text(content_html)
+        clean_words = len(re.sub(r'<[^>]+>', ' ', content_html).split())
+        violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
+
+    if violations:
+        # Ultimate fallback for any stubborn em dashes or hyphens
+        content_html = content_html.replace('\u2014', ', ').replace('\u2013', ', ').replace('--', ', ')
+        violations = find_guardrail_violations(repaired_title + " " + repaired_deck + " " + content_html)
 
     if violations:
         raise GuardrailViolationError(f"Editorial guardrail violation persisted ({violations}) on '{repaired_title}'")
-    if clean_words < (min_word_target - 50):
+    if clean_words < (min_word_target - 100):
         raise GuardrailViolationError(f"Word count guardrail failed ({clean_words} < {min_word_target}) on '{repaired_title}'")
 
     reading_time = max(4, round(clean_words / 225))

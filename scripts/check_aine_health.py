@@ -103,7 +103,7 @@ def main():
     except Exception:
         pass
 
-    # Check NUC 24/7 Watchdog unacknowledged alert state if reachable
+    # Check NUC 24/7 Watchdog alert state if reachable
     try:
         nuc_res = subprocess.run(
             ["ssh", "-o", "ConnectTimeout=2", "-o", "BatchMode=yes", "goldclaw-1", "cat ~/projects/aine-ws/scripts/WIRE_ALERT_STATE.json 2>/dev/null || true"],
@@ -111,8 +111,11 @@ def main():
         )
         if nuc_res.returncode == 0 and nuc_res.stdout.strip():
             nuc_state = json.loads(nuc_res.stdout.strip())
-            if not nuc_state.get("acknowledged", False) and nuc_state.get("status") != "OK":
-                alerts.append(f"NUC Watchdog {nuc_state.get('status')} at {nuc_state.get('timestamp_utc')}: {nuc_state.get('reason')}")
+            fails = nuc_state.get("consecutive_failures", 0)
+            status = nuc_state.get("status", "OK")
+            # Only alert if unrecovered with 2 or more consecutive failures per policy
+            if status not in ("OK", "RECOVERED_FROM_OUTAGE") and not nuc_state.get("recovered", False) and fails >= 2:
+                alerts.append(f"NUC Watchdog {status} (streak: {fails}) at {nuc_state.get('timestamp_utc')}: {nuc_state.get('reason')}")
     except Exception:
         pass
 
