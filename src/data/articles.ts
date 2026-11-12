@@ -2,6 +2,89 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794462204",
+    slug: "closing-the-ai-guidance-gap-in-education",
+    title: "Closing the AI guidance gap in education",
+    deck: "New ThinkYoung research and lessons from OpenAI's EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-10T09:00:00Z",
+    updatedAt: "2026-11-10T09:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/could-akamais-116-billion-tie-up-with-anthropic-be-as-b.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: New ThinkYoung research and lessons from OpenAI's EMEA education partnerships on supporting teachers, AI liter...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO, November 10, 2026:</strong> OpenAI is saying education systems need to close the gap between student use of AI and the guidance schools provide. The company’s new report argues that teachers, not software, remain the key layer that can turn AI from a shortcut into a learning tool.</p><h2>What is OpenAI saying happened?</h2><p>OpenAI says the gap is between what students are already doing with AI and what schools have taught them to do. The company says clearer rules, stronger teacher support, and better evidence are now needed.</p><p>The article, published on November 10, is framed around a simple claim: AI has moved into classrooms faster than education policy. OpenAI says that has forced a reassessment of what schools should prepare young people for, and it points to recent OECD debate on AI and PISA as part of that shift. The message is direct, teachers still matter, and their judgment is essential if schools want to set fair rules for AI use.</p><p>OpenAI says it is working across EMEA with governments and education systems in Estonia, Slovakia, Greece and Italy, among others. Those partnerships, the company says, focus on access to frontier AI tools, jointly designed AI literacy programmes, and ongoing measurement and evaluation adapted to local language, curriculum, and institutions.</p><h2>What does the ThinkYoung research show?</h2><p>The clearest finding is that 79% of surveyed students said they had used AI for homework or assignments, while only 47% said they had been shown how to use it for those tasks. The report says that mismatch is the guidance gap OpenAI wants education leaders to confront.</p><table>
+  <thead>
+    <tr>
+      <th>Survey snapshot</th>
+      <th>Figure</th>
+      <th>What it means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Student sample</td>
+      <td>5,000</td>
+      <td>Secondary students aged 13 to 19</td>
+    </tr>
+    <tr>
+      <td>Countries</td>
+      <td>10 European countries</td>
+      <td>Austria, Estonia, France, Germany, Greece, Italy, Poland, Spain, Sweden and the UK</td>
+    </tr>
+    <tr>
+      <td>Fieldwork</td>
+      <td>April 14 to May 15, 2026</td>
+      <td>Student survey period</td>
+    </tr>
+    <tr>
+      <td>Teacher sample</td>
+      <td>600</td>
+      <td>Teachers in France, Germany, Greece, Italy, Kenya, Poland, Spain, Sweden, the UAE and the UK</td>
+    </tr>
+    <tr>
+      <td>Teacher fieldwork</td>
+      <td>April 10 to May 12, 2026</td>
+      <td>Teacher survey period</td>
+    </tr>
+  </tbody>
+</table><p>The ThinkYoung PDF gives the underlying methodology. It says the student survey used quotas by gender and region, weighted the results to population statistics, and cross-tabulated responses by country, gender and age. It also says the teacher survey covered personal AI use, classroom adoption, student engagement, critical thinking, and the current and future impact of AI on education.</p><p>The same report adds a sharper policy warning. Students whose teachers do not guide them are more than twice as likely to use AI to do work for them, 36% versus 18%. It also says teachers who encourage AI are linked to better student habits and more responsible use. Another key number: 41% of teens said teachers discourage GenAI use, while 16% said teachers encourage it and 13% said teachers show how to use it.</p><h2>Which partnerships does OpenAI point to?</h2><p>OpenAI highlights several country cases to show how policy can be built around teachers. The company says the examples are early experiences, not a single model for every system.</p><p>In Greece, a joint ministerial decision published in May 2026 set common requirements for AI use in secondary education. The framework includes voluntary participation, trained teacher oversight, rules for exams and assignments, data protection impact assessments, and a requirement that each participating school appoint an AI coordinator. It also prohibits fully automated assessment decisions and profiling of students and teachers.</p><p>In Estonia, the AI Leap programme opened ChatGPT access to teachers in August 2025, followed by a customised version for learning in January 2026. In a spring survey, 794 of 828 respondents said they used AI professionally, and 723 teachers estimated average weekly time savings of 1.8 hours. OpenAI also says the first-year review of its ITI tutor surfaced a student satisfaction score of 3.07 out of 5, with a net promoter score of minus 27.5 from 182 respondents.</p><p>In Slovakia, a senior adviser used AI to help draft updated professional standards for teachers. OpenAI says that task took under an hour with AI support, where it would normally take months, but the adviser kept professional judgment and review in place. In Malta, the AIforAll programme pairs access with AI literacy modules, and users complete those modules before receiving a free premium AI subscription.</p><h2>What is the reality check?</h2><p>The report itself is careful about limits. OpenAI says country examples reflect local context and should be interpreted within those limits. It also says surveys and programme monitoring can show adoption and reported time savings, but they do not prove better learning.</p><p>That caution matters because the wider OECD evidence is mixed. The OECD article cited by OpenAI says some students who use AI chatbots score lower in science on average, but the relationship is not causal and depends on how AI is used. The same OECD piece says purpose, frequency, and guidance matter, and that students who use AI thoughtfully and learn to check outputs may do better than peers who use it casually or without support.</p><p>OpenAI says the next step is more research through its Learning Lab, along with partnerships that preserve local control over educational goals. Its broader point is that schools need guidance before AI use becomes routine by default. Without that, the company says, students will keep using AI, but too many will do it without the guardrails that make the technology educational rather than merely convenient.</p></html_body>},</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/closing-ai-guidance-gap-education", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794462537",
+    slug: "gemini-decisions-api-fast-calibrated-multimodal-decisio",
+    title: "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    deck: "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+    category: "search-ai",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-11T18:00:00Z",
+    updatedAt: "2026-11-11T18:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/gemini-4-argon-built-to-solve-your-hardest-problems.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by Google AI News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by Google AI News.",
+          "Key focus: Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated mult...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article><header><p>MOUNTAIN VIEW, Calif. ,  Google on Nov. 11, 2026 introduced the Gemini Decisions API, a new endpoint built for fast, closed-set multimodal judgments across text, images, audio, video, and PDFs. The company says the service is designed for bounded tasks such as tool selection, policy checks, model routing, and context grading, with decisions returned in a single forward pass.</p></header><h2>What did Google announce?</h2><p>Google launched the Gemini Decisions API as a new way to make calibrated yes/no, choice, and rubric-scoring decisions from multimodal inputs. The company says it is powered by Gemini Decision 1, available through the Gemini API in Google AI Studio.</p><p>The pitch is straightforward: instead of asking a model to generate free-form text, developers can send one shared input and up to 1,000 independent questions, then receive probabilities and confidence scores for each result. Google says the API is meant to handle constrained decisions quickly, without the overhead of token-by-token generation.</p><table><tr><th>Item</th><th>Details</th></tr><tr><td>Launch date</td><td>Nov. 11, 2026</td></tr><tr><td>Model</td><td>Gemini Decision 1 (gemini-decision-1)</td></tr><tr><td>Input types</td><td>Text, images, audio, video, PDFs</td></tr><tr><td>Question types</td><td>Yes/no, multiple choice, ordered rubric scoring</td></tr><tr><td>Maximum questions</td><td>Up to 1,000 per request</td></tr><tr><td>Context window</td><td>Up to 256K tokens for inputs, with performance noted across contexts up to 16K tokens</td></tr><tr><td>Latency</td><td>150 to 250 ms end-to-end, 50 to 100 ms model compute median</td></tr><tr><td>Price</td><td>$0.10 per 1M input tokens, zero output tokens billed</td></tr></table><h2>Why now?</h2><p>Google is aiming at a class of problems that usually sit between brittle rules and heavier generative workflows. The company frames the Decisions API as a control plane for routing, moderation, grading, and other decisions where developers want speed, calibration, and predictable outputs.</p><p>The timing also reflects a broader push to make model choice cheaper and more targeted. Google says the Decisions API can be nearly five times cheaper than Gemini 3.5 Flash-Lite with the Interactions API across the shared benchmark suite, while keeping latency flat as the number of questions rises from 1 to 100.</p><h2>What does Gemini Decision 1 actually do?</h2><p>Gemini Decision 1 scores candidate options in one pass and returns probabilities rather than generating prose. Google says the model handles three decision types: noul for yes or no checks, choice for selecting among 2 to 255 options, and score for ordered rubric grading starting at zero.</p><p>Every answer includes a confidence score from 0 to 1, which lets applications send ambiguous cases to fallback logic or a human reviewer. Google also says the API supports a shared input format, so a developer can pair a call recording with metadata, or a scanned claim form with damage photos, and ask several questions against that same context at once.</p><h3>How is it positioned for developers?</h3><p>The company is targeting teams that want fast classification without training custom models. Google says the API can classify intent in milliseconds, support dynamic routing, and help teams decide what should happen next before a heavier model or workflow is invoked.</p><p>Google gives several examples from its own products. Gemini Notebook uses the Decisions API as a router to send requests to the right model tier and thinking level. Stitch uses it for rapid design iteration and quick wireframe generation. CC from Google Labs uses it to pick emoji reactions from a palette of more than 200 options. Google Search uses it as a safety layer for MCP tools.</p><h2>Who stands to gain, and who may hesitate?</h2><p>Developers building product flows, moderation layers, routing systems, and human-in-the-loop review tools stand to gain the most. The API is especially attractive where latency matters and the decision space is bounded, because Google says it can return results in a single pass and bill only for input tokens.</p><p>There are trade-offs. This is not a general-purpose generation model, and the product is shaped around closed-set decisions. Teams with open-ended summarization, creative drafting, or multi-step reasoning will still need other tools. Google also notes that the shared input is billed once per request, but each question adds its own instructions and criteria tokens, so costs still scale with prompt design.</p><h2>What is the skeptical read?</h2><p>The main question is whether the performance claims hold up in real deployments outside Google’s own examples. Google says Gemini Decision 1 leads across benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, with the lowest calibration error, but those claims come from the company’s own evaluation framing.</p><p>There are also practical limits to note. Google says the API works across inputs up to 256K tokens, while the latency and flat scaling claims are described for contexts up to 16K tokens. That matters for teams trying to move from demo workloads to larger, messier production data.</p><h2>How is it priced and where can teams use it?</h2><p>Google says Gemini Decision 1 costs $0.10 per 1M input tokens and $0 for output tokens. The company also says there is a no-cost tier in Google AI Studio for prototyping, with API keys available there and docs for Python, JavaScript, and REST.</p><p>The rollout extends beyond Google’s own studio. The company says ecosystem integrations are arriving across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit, and OpenCode, with support coming soon to Gemini in Google Cloud. For now, the primary access point is Google AI Studio and the Gemini API.</p><h2>What should readers watch next?</h2><p>The immediate test is whether developers adopt the API as a routing and decision layer rather than as a replacement for existing model calls. If the latency, calibration, and pricing claims hold in real workloads, Google may have found a useful niche between rules engines and full generation.</p><p>For now, the company is making a direct case: faster decisions, lower cost, and less output noise for tasks that do not need free-form text. That is a clear product bet, and a sign that Google sees structured decision-making as a distinct market inside multimodal AI.</p></article>`,
+    sources: [
+      { name: "Google AI News", url: "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794451843",
     slug: "google-maps-wikipedia-architecture-and-benchmark-analys",
     title: "Analysis: Google Maps - Wikipedia: Architecture and Benchmark Analysis",
