@@ -2,6 +2,84 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794574047",
+    slug: "how-to-increase-google-business-profile-traffic-in-2026",
+    title: "How to Increase Google Business Profile Traffic in 2026",
+    deck: "What drives Google Business Profile rankings in 2026: core signals, reviews, accurate data, and tracking calls, directions, and clicks.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-13T12:45:03Z",
+    updatedAt: "2026-11-13T12:45:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/google-vicinity-update-local-search-proximity.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: What drives Google Business Profile rankings in 2026: core signals, reviews, accurate data, and tracking calls...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>How to Increase Google Business Profile Traffic in 2026</h1>
+<p>MOUNTAIN VIEW, Calif. Google Business Profile traffic in 2026 is being shaped by one simple rule: make the listing more useful and more trustworthy. Google’s own guidance points to relevance, distance, and prominence, while the 2026 Whitespark report shows experts putting the most weight on the primary category, proximity, title keywords, open status, ratings, and review recency.</p> <h2>What is driving Google Business Profile traffic in 2026?</h2>
+<p>Google says local results are mainly based on relevance, distance, and prominence. In practical terms, that means complete business information, accurate categories, current hours, strong reviews, and a profile that gives searchers a clear reason to click.</p>
+<p>The search giant’s help pages also say businesses should verify ownership, keep information up to date, respond to reviews, and add photos and videos. Google adds that there is no way to request or pay for a better local ranking, which makes clean data and steady maintenance the only durable path to more traffic.</p> <table> <thead> <tr> <th>Lever</th> <th>What to do</th> <th>Why it matters</th> </tr> </thead> <tbody> <tr> <td>Category</td> <td>Choose the most specific primary category that matches the real business</td> <td>Google and Whitespark both place category choice near the top of local ranking signals</td> </tr> <tr> <td>Hours</td> <td>Keep opening hours and special hours current</td> <td>Accurate hours help searchers decide, and the 2026 survey ranks open status near the top</td> </tr> <tr> <td>Reviews</td> <td>Earn real reviews over time and reply to them</td> <td>Google ties reviews to prominence, and the 2026 report puts review recency high on the list</td> </tr> <tr> <td>Photos and proof</td> <td>Add real photos, videos, products, and service details</td> <td>More complete profiles give users more reasons to choose the listing</td> </tr> <tr> <td>Measurement</td> <td>Watch calls, directions, and website clicks in Performance</td> <td>Those are the actions that show whether traffic is turning into demand</td> </tr> </tbody>
+</table> <h2>What actions actually increase clicks and calls?</h2>
+<p>The fastest gains come from tightening the basics rather than chasing tricks. A verified profile, a precise address or service area, the right category, correct map pin placement, and consistent name, address, and phone data across the web all help Google understand the business and help customers trust it.</p>
+<p>The source guide adds a second layer: keep hours perfect, use relevant attributes, enable booking where available, upload photos and videos, list products and services, publish Google Posts, and ask for reviews without incentives. The article also says profile completeness can translate into more calls, direction requests, and website visits, but those claims are presented as cited research in the guide rather than as Google’s own figures.</p> <h3>What should the measurement stack look like?</h3>
+<p>Track the actions, not just the views. Google’s Performance report shows searches, views, directions, calls, website clicks, messages, bookings, products, menus, and offers, and it can be downloaded from Business Profile Manager for one location or multiple profiles at once.</p>
+<p>Google also says the report blends data from organic search results and Google Ads. That matters because a rise in calls or website clicks may reflect paid visibility, organic visibility, or both, so teams should compare profile data with ad spend and site analytics before making a ranking call.</p> <h2>Who wins, who loses, and what are the trade-offs?</h2>
+<p>Businesses that keep their data clean and their profiles active are the likely winners. Single-location stores, service businesses, and multi-location brands that can enforce the same standards everywhere will get more out of Google Business Profile than operators that treat it like a set-and-forget listing.</p>
+<p>The losers are the profiles with duplicate listings, mismatched addresses, stale hours, wrong categories, or review tactics that cross Google’s policy line. Google says fake engagement will be removed, incentives for reviews are not allowed, merchants may not selectively solicit positive reviews, and misuse can lead to suspension or account termination.</p> <h3>What is the biggest policy risk?</h3>
+<p>Review manipulation is the clearest line Google draws. Offer incentives for reviews, steer only happy customers toward ratings, or pressure people for specific wording, and the result can be removal of content and enforcement against the profile.</p>
+<p>That makes review growth a discipline problem, not a shortcut problem. The safe approach is to ask for genuine feedback after a real transaction, reply to it, and keep the process consistent enough that recent reviews arrive steadily instead of in bursts.</p> <h2>What is the outlook for the rest of 2026?</h2>
+<p>Expect local traffic to reward maintenance, not one-time optimization. The 2026 Whitespark survey says the field still revolves around Google Business Profile signals, proximity, and reviews, but it also shows more weight on review recency, open status, and other signals that reflect whether the business is current right now.</p>
+<p>That means the playbook is getting less forgiving. Profiles that are accurate, verified, and actively managed should keep winning more clicks and calls, while businesses that rely on outdated data or risky review tactics will keep losing ground.</p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://gmbapi.com/news/increase-google-business-profile-traffic/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794574280",
+    slug: "google-business-profile-updates-everything-you-need-to",
+    title: "Google Business Profile Updates - Everything you need to know",
+    deck: "Discover the latest Google Business Profile updates, including AI recommendations, reviews and why regularly managing your profile matters.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-13T12:47:27Z",
+    updatedAt: "2026-11-13T12:47:27Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/watch-astronaut-christina-koch-and-googles-james-manyik.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Discover the latest Google Business Profile updates, including AI recommendations, reviews and why regularly m...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>MOUNTAIN VIEW, Calif. Google Business Profile owners are facing a sharper local search playbook as Google tests more prominent Posts placement, pushes offers into Search AI Overviews, and broadens customer messaging options. The changes matter because the profile is now one of the first things a customer sees, often before they reach a business website.</p> <h2>What is changing in Google Business Profiles now?</h2>
+<p>Google is turning Business Profiles into a more active sales and service surface, not just a static listing. The biggest shifts in the source material are Posts rising higher in the profile, offers appearing in Search AI Overviews, and new messaging features that can route some customer questions through an AI agent.</p>
+<p>The source article says Google has been testing Posts higher within Business Profiles, which could make updates, events, and service notices easier for searchers to see. It also says selected businesses now show a Messages area with sections labeled “Handled by your AI agent” and “Needs your attention,” although the feature is still emerging and not widely documented.</p> <table> <thead> <tr> <th>Update</th> <th>What the source says</th> <th>Why it matters</th> </tr> </thead> <tbody> <tr> <td>Posts placement</td> <td>Google is testing Posts higher in profiles.</td> <td>Fresh updates may get more visibility.</td> </tr> <tr> <td>Offers in AI search</td> <td>Offers can appear in Search AI Overviews.</td> <td>Promotions may surface earlier in the buying journey.</td> </tr> <tr> <td>Messaging</td> <td>Some profiles show AI handled and human review queues.</td> <td>Replies may depend on accurate profile data.</td> </tr> <tr> <td>Review appeals</td> <td>Google says appeal processing is slowed by high demand.</td> <td>Response times can stretch out for disputed reviews.</td> </tr> </tbody>
+</table> <h2>Why does this matter for local search right now?</h2>
+<p>Because customers are already using Google first, and increasingly using AI tools alongside it. The source article cites BrightLocal research showing 84% of US consumers searched online for a local business in the previous three months, with more than half starting on Google Search and 9% starting on Google Maps.</p>
+<p>BrightLocal’s separate research page also says 31% of consumers now use AI tools for local business recommendations at least monthly. That makes profile accuracy, review quality, and current offers more important, since AI systems and searchers are both pulling from the same business data.</p>
+<p>Google’s own help pages back up the local ranking basics. The company says local results are mainly based on relevance, distance, and prominence, and that more reviews and positive ratings can help a business’s local visibility.</p> <h2>What should businesses do with Posts, Offers, and reviews?</h2>
+<p>Use the profile as a live channel, not a set it and forget it listing. The practical move is to post regularly, keep offers current, and ask for genuine reviews that reflect the business accurately.</p>
+<p>Google’s Posts policy says Updates can include a photo, video, description, and action button, while Offers require a title, dates, and time. The same page warns that posts with phone numbers in the description can be rejected if the number cannot be verified as tied to the business, and posts older than six months are archived unless a date range is set.</p>
+<p>That policy detail matters because the profile is being judged by both people and systems. A stale offer, an unverified phone number, or a thin description can reduce trust before a customer ever clicks through.</p> <h2>What is the reality check on the review side?</h2>
+<p>Review appeals are not moving quickly, and Google has said processing times are currently extended because of unusually high demand. Google also warns businesses not to submit duplicate appeals, since that can add more delay.</p>
+<p>The review help page is clear about what qualifies for removal. Google says only reviews that violate policy can be removed, and it does not get involved simply because a business disagrees with a negative rating.</p>
+<p>The company’s local ranking page adds another reality check: there is no way to pay for a better local ranking. Businesses that want more visibility still need complete information, active review management, and a profile that clearly matches what they actually sell.</p> <h2>What does the next few months look like?</h2>
+<p>Expect more AI surface area, not less. Google is already showing offers in Search AI Overviews, and the source article suggests it is experimenting with AI assisted messaging inside Business Profiles.</p>
+<p>For owners, the winning play is simple: keep hours, services, photos, descriptions, and offers current, respond to reviews, and check which contact buttons are visible on the live profile. The businesses that treat Google Business Profile as an operating channel, instead of a directory entry, will be better positioned as search becomes more conversational and more automated.</p>
+<p>One more detail deserves attention: Google says chat options such as WhatsApp or text messaging are available only in select regions and may not appear on every profile. That makes regular profile checks a basic maintenance task, not an optional one.</p>
+</html_body></p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.onetothree.co.uk/blog-google-business-profile-updates-everything-you-need-to-know/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794556164",
     slug: "nonprofits-sue-openai-anthropic-google-and-meta-to-halt",
     title: "Nonprofits Sue OpenAI, Anthropic, Google and Meta to Halt Frontier",
