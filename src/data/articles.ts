@@ -2,6 +2,75 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794692809",
+    slug: "devrev-delivers-autonomous-self-service-with-gpt-61-sol",
+    title: "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+    deck: "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-04T00:00:00Z",
+    updatedAt: "2026-11-04T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/introducing-chatgpt-for-financial-services.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise se...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO, Nov. 4, 2026. DevRev said it is using GPT-6.1 Sol to power Computer and Operator for enterprise self-service. The OpenAI customer story frames the move as an extension of an existing product stack, not a fresh product launch.</p>
+<h2>What did DevRev say on Nov. 4?</h2>
+<p>DevRev said GPT-6.1 Sol now helps power Computer and Operator, its agents for employee and customer service work. The company’s pitch is simple: use OpenAI models for reasoning, then keep company knowledge, permissions, and action controls inside DevRev’s own software.</p>
+<p>In the OpenAI customer story, DevRev says Computer and Operator are built to carry difficult requests through to completion. That includes technical support, IT approvals, and incident coordination, with the system routing people to an authorized next step when human approval is required. Ahmed Bashir, DevRev’s chief technology officer, said the company needs “the right reasoning capabilities,” trust, alignment, and latency that works in production.</p>
+<p>DevRev also says the setup is not model-only. It combines OpenAI models, including GPT-6 Astra and GPT-6.1 Sol, with a harness that connects company knowledge and gives teams control over what an agent can do. In the company’s telling, answers should point back to their sources, actions should be reversible, and sensitive cases should move to a person when judgment or access rules require it.</p>
+<table> <thead> <tr><th>Item</th><th>What the source says</th></tr> </thead> <tbody> <tr><td>Public headline</td><td>“DevRev delivers autonomous self-service with GPT-6.1 Sol”</td></tr> <tr><td>Core products</td><td>Computer and Operator</td></tr> <tr><td>Main design idea</td><td>Reasoning over live company data with permissions and workflows intact</td></tr> <tr><td>Control model</td><td>Actions are permissioned, auditable, and reversible</td></tr> <tr><td>Benchmark context</td><td>Enterprise-Bench</td></tr> </tbody>
+</table>
+<h2>Why does this matter for enterprise self-service?</h2>
+<p>This matters because DevRev is trying to sell a full operating model for AI service, not just a better chatbot. The company wants Computer and Operator to move a request from first question to approved action, while keeping the existing systems of record in place.</p>
+<p>The OpenAI partnership post says that for an employee asking for access, Computer can help find the applicable policy and start the approved process. If a manager or IT administrator must step in, the request is handed off with the relevant details. For a customer, the next step might be an immediate answer, or it might be a specialist transfer that preserves the conversation and account history.</p>
+<p>DevRev is also using OpenAI’s partner channels to widen distribution. The company says customers can already explore solutions in its marketplace, and that as an OpenAI Marketplace launch partner it aims to give eligible enterprise customers another way to discover its self-service products. The listing is described as a route to contract directly with DevRev, which suggests channel expansion rather than a new product debut.</p>
+<h2>What evidence does DevRev offer for the claim?</h2>
+<p>DevRev points to Enterprise-Bench. The company says its benchmark evaluates whether models and surrounding software can handle fragmented data, multiple systems, and access rules that mirror real enterprise work.</p>
+<p>On the OpenAI customer story, DevRev says Computer was 48% more accurate than a leading AI model on identical enterprise tasks, while using 4.4x fewer tokens per correct response. The company says the two systems were tested on the same tasks and data with the same underlying model. That is a meaningful claim about system design, but it is still a company-run evaluation, not an external audit.</p>
+<p>Independent context from ITBrief and DevRev’s GitHub repository fills in the benchmark frame. The current Enterprise-Bench release covers L1 and L2 tasks, with 42 tasks in the v2 bundle, while L3 and L4 are planned for later releases. The README says the benchmark is meant to test deterministic retrieval and multi-step reasoning today, then move toward strategic coordination and autonomous operation later.</p>
+<p>That matters because the benchmark is broader than one customer story. It tests enterprise AI agents on cross-functional workflows, multiple systems, access constraints, and answer traceability. It does not, by itself, prove that GPT-6.1 Sol autonomously resolves support cases in production.</p>
+<h2>What should readers be skeptical about?</h2>
+<p>The biggest caution is scope. The OpenAI post describes a customer story and a product direction, not an independent validation of outcomes in the field. It gives no public pricing, no latency figures, no customer volume, and no third-party reliability study.</p>
+<p>The benchmark results also need context. DevRev’s own materials say the benchmark evaluates the full software stack around the model, including permissions, tool selection, and company context. That means the scores reflect the system, not just GPT-6.1 Sol, and they should not be read as a universal measure of model quality.</p>
+<p>Even DevRev’s own language keeps humans in the loop. The company says people step in when access, judgment, or exceptions require it, and it says the existing IT system remains the system of record for approvals. In other words, the promise is faster self-service with controlled escalation, not full replacement of enterprise workflows.</p>
+<p>The likely next test is whether DevRev can turn this story into repeatable customer results. If the company can show shorter handling times, fewer handoffs, and better resolution rates without weakening controls, the pitch gets stronger. For now, the public record shows an ambitious deployment, a benchmark built to defend it, and a cautious admission that enterprise AI still needs guardrails.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/devrev-enterprise-self-service", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794692923",
+    slug: "lets-talk-about-jensen-huangs-many-affairs",
+    title: "Let's talk about Jensen Huang's many affairs!",
+    deck: "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't...",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-13T12:00:00Z",
+    updatedAt: "2026-11-13T12:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/anthropics-ceo-is-about-to-have-dinner-with-president-t.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by The Verge AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by The Verge AI Wire.",
+          "Key focus: Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any a...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article> <h1>Nvidia resets after Jensen Huang's resignation and the affair fallout</h1> <p>Jensen Huang resigned as Nvidia's president, chief executive officer, and board member on Nov. 12, and the company said the move took effect immediately. Colette Kress is now interim CEO, Harvey C. Jones is board chair, and Nvidia says its operations, customer commitments, and product roadmap should continue without interruption.</p> <p>The resignation follows a week of disclosures that began with Huang's apology to employees and then widened into questions about personal conduct, board oversight, and national security. Nvidia's public response has been to pair a fast leadership reset with an internal investigation led by outside counsel.</p> <h2>What changed at Nvidia on Nov. 12?</h2> <p>Jensen Huang stepped down as chief executive, president, and a member of the board, and Nvidia said the decision was effective immediately. The company installed CFO Colette Kress as interim CEO and elevated Harvey C. Jones to board chair.</p> <p>That is a clean governance answer for a company that had depended on one leader for decades. Nvidia also said it will keep the business moving while it searches for a permanent CEO and considers internal and external candidates.</p> <table> <thead> <tr> <th>Date</th> <th>Confirmed development</th> <th>What it shows</th> </tr> </thead> <tbody> <tr> <td>Nov. 8</td> <td>Huang emailed employees apologizing for being unfaithful and said he would cooperate with an investigation.</td> <td>The company had already moved from rumor to formal inquiry.</td> </tr> <tr> <td>Nov. 10</td> <td>Independent directors said they had retained Joon H. Kim and Wachtell, Lipton, Rosen &amp; Katz.</td> <td>Nvidia put outside lawyers in charge of a thorough and independent review.</td> </tr> <tr> <td>Nov. 12</td> <td>Nvidia announced Huang's resignation, Kress's interim appointment, and Jones's board role.</td> <td>The company chose continuity over delay.</td> </tr> <tr> <td>Nov. 13</td> <td>Reports said Huang had agreed to testify before Congress after subpoena threats.</td> <td>The issue had moved beyond corporate discipline and into government oversight.</td> </tr> </tbody> </table> <h2>What did Nvidia officially confirm?</h2> <p>Nvidia's own record starts with Huang's Nov. 8 message to employees. He said he was unfaithful to his wife, accepted responsibility, apologized to his family, and said he supported the board's independent investigation.</p> <p>On Nov. 10, the independent members of the board said they had retained former acting U.S. Attorney Joon H. Kim and Wachtell, Lipton, Rosen &amp; Katz to conduct a thorough and independent investigation. On Nov. 12, the company thanked Huang for his contributions, said Kress would remain CFO while serving as interim CEO, and said the business would keep operating without interruption.</p> <p>The statement did not dwell on the allegations. It framed the transition as a management and governance step, not a long public argument over Huang's private life.</p> <h2>What is proven, and what is still allegation?</h2> <p>The resignation and the board's response are confirmed, but the intelligence side of the story is not settled. CNN reported that U.S. intelligence has not proven Alice Huang was acting as a spy for Beijing, and Attorney General Todd Blanche said the Justice Department had reached no conclusions about who she is or is not.</p> <p>That uncertainty matters because the public narrative has moved faster than the evidence. The New York Times reported that officials believed Alice Huang had a close relationship with Huang, that Trump was briefed on the matter, and that the Commerce Department had investigated whether Megaspeed was helping divert Nvidia chips to China, but many details remain under review.</p> <p>The reporting also separates the personal disclosures from the broader policy question. The personal relationship is confirmed by Huang's own apology, but the claim that it amounted to espionage is still being tested by investigators and is not established in the public record supplied here.</p> <h2>Who is under pressure now?</h2> <p>Investors took the immediate hit, with Nvidia shares closing down 4.3 percent after larger intraday losses, and the company shed roughly $500 billion in value over the week. The board gains a cleaner succession plan, but Nvidia loses the stability that came from Huang's long tenure and singular control.</p> <p>Lawmakers, by contrast, now have a wider opening. Reports said Huang had already been asked to appear before Congress, and Bloomberg later said he agreed to testify after lawmakers threatened subpoenas, while Senate and House requests set specific December dates for hearings or interviews.</p> <p>The practical stakes are bigger than one executive's resignation. If Congress and regulators focus on export controls, Megaspeed, and the handling of Chinese market access, Nvidia's real challenge may shift from reputational damage to a longer regulatory fight.</p>
+</article>`,
+    sources: [
+      { name: "The Verge AI Wire", url: "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794685343",
     slug: "a-thousand-fewer-paths-to-root",
     title: "A thousand fewer paths to root",
