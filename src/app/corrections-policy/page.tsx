@@ -48,7 +48,7 @@ export default function CorrectionsPolicyPage() {
       date: '2026-07-14',
       articleTitle: 'FCC Carrier Registration Requirements for Voice AI',
       correctionText: 'Clarified that STIR/SHAKEN certification level B requires cryptographic token signing through an authorized telecom carrier, rather than direct FCC portal registration.',
-      resolvedBy: 'Marcus Vance, Senior Telephony Reporter'
+      resolvedBy: 'Marcus Vance, Senior Telecom Reporter'
     }
   ]
 

@@ -28,10 +28,10 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  // Sort all articles by published date descending (freshest first)
-  const sortedArticles = [...ARTICLES].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
+  // Prioritize indexable original reporting on homepage by published date descending (freshest first)
+  const sortedArticles = [...ARTICLES]
+    .filter((a) => !a.noIndex)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   // Lead article is the newest breaking or featured story, or the absolute freshest story
   const leadArticle = sortedArticles[0]

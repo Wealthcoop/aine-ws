@@ -26,7 +26,7 @@ export async function GET() {
 ${Object.values(AUTHORS).map(a => `- **${a.name}** (${a.title}): Beats include ${a.beats.join(', ')}. Contact: ${a.email}`).join('\n')}
 
 ## Canonical Editorial Archive
-${ARTICLES.map(art => `- [${art.title}](${SITE_CONFIG.url}/news/${art.category}/${art.slug}): ${art.deck} (Published: ${art.publishedAt})`).join('\n')}
+${ARTICLES.filter((art) => !art.noIndex).map(art => `- [${art.title}](${SITE_CONFIG.url}/news/${art.category}/${art.slug}): ${art.deck} (Published: ${art.publishedAt})`).join('\n')}
 
 ## Syndication Feeds
 - Google News Sitemap: ${SITE_CONFIG.url}/news-sitemap.xml

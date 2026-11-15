@@ -18,9 +18,13 @@ function ensureAbsoluteUrl(pathOrUrl: string): string {
 export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
   const articleUrl = `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`
-  const deskUrl = `${SITE_CONFIG.url}/desks/${article.category}`
+  const isFrame = article.category === 'frame'
+  const deskUrl = isFrame ? `${SITE_CONFIG.url}/frame` : `${SITE_CONFIG.url}/desks/${article.category}`
   const imageUrl = ensureAbsoluteUrl(article.featuredImage)
-  const deskLabel = article.category.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
+  const deskLabel = isFrame
+    ? 'The Aine Frame'
+    : article.category.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
+  const deskBreadcrumbName = isFrame ? 'The Aine Frame' : `${deskLabel} Desk`
 
   const pubDate = article.publishedAt || new Date().toISOString()
   const modDate = article.updatedAt || pubDate
@@ -60,13 +64,13 @@ export function NewsArticleSchema({ article }: NewsArticleSchemaProps) {
           {
             '@type': 'ListItem',
             position: 1,
-            name: 'Wire',
+            name: 'Home',
             item: SITE_CONFIG.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: `${deskLabel} Desk`,
+            name: deskBreadcrumbName,
             item: deskUrl,
           },
           {

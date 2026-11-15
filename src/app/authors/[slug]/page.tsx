@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Author Not Found' }
   }
 
+  const hasIndexableArticles = ARTICLES.some((a) => a.authorId === author.id && !a.noIndex)
   const avatarUrl = author.avatar.startsWith('http')
     ? author.avatar
     : `${SITE_CONFIG.url}${author.avatar}`
@@ -36,10 +37,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `${SITE_CONFIG.url}/authors/${params.slug}`,
     },
     robots: {
-      index: true,
+      index: hasIndexableArticles,
       follow: true,
       googleBot: {
-        index: true,
+        index: hasIndexableArticles,
         follow: true,
         'max-video-preview': -1,
         'max-image-preview': 'large',
@@ -77,7 +78,7 @@ export default function AuthorProfilePage({ params }: PageProps) {
     notFound()
   }
 
-  const authorArticles = ARTICLES.filter((a) => a.authorId === author.id)
+  const authorArticles = ARTICLES.filter((a) => a.authorId === author.id && !a.noIndex)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const authorUrl = `${SITE_CONFIG.url}/authors/${author.id}`

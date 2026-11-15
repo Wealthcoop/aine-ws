@@ -107,7 +107,7 @@ export default function ContactPage() {
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h4 className="font-sans text-sm font-bold text-slate-900">Editorial Response Protocol</h4>
+              <h4 className="font-sans text-sm font-bold text-slate-900">Editorial Response Schedule</h4>
               <ul className="mt-3 space-y-2 text-xs text-slate-600">
                 <li className="flex items-center gap-2">
                   <span className="h-1.5 w-1.5 rounded-full bg-rose-500" />
@@ -179,7 +179,7 @@ export default function ContactPage() {
                       <option value="news-tip">📰 Confidential News Tip / Industry Leak</option>
                       <option value="correction">✏️ Factual Correction Request</option>
                       <option value="justin-davis">👤 Message for Justin Davis (Search &amp; Algorithms)</option>
-                      <option value="molly-perkins">👤 Message for Molly Perkins (Voice AI & Telephony)</option>
+                      <option value="molly-perkins">👤 Message for Molly Perkins (Voice AI & Phone Systems)</option>
                       <option value="elena-chen">👤 Message for Elena Chen (Local Business &amp; Maps)</option>
                       <option value="press">💼 Press, Syndication &amp; Media Inquiries</option>
                     </select>

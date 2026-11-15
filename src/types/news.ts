@@ -26,6 +26,7 @@ export interface NewsArticle {
   isBreaking?: boolean
   isFeatured?: boolean
   is_original?: boolean
+  noIndex?: boolean
   founder_take?: string
   videoUrl?: string
   videoThumbnail?: string

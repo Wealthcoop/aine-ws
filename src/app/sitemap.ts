@@ -6,6 +6,8 @@ import { SITE_CONFIG } from '@/config/site'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.url
 
+  const indexableArticles = ARTICLES.filter((a) => !a.noIndex)
+
   // Core Static Pages
   const staticPages: MetadataRoute.Sitemap = [
     {
@@ -15,10 +17,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${baseUrl}/frame`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date('2026-09-10'),
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/standards`,
+      lastModified: new Date('2026-09-10'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/editorial-policy`,
@@ -58,24 +72,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Category Desks
-  const deskPages: MetadataRoute.Sitemap = SITE_CONFIG.desks.map((desk) => ({
-    url: `${baseUrl}/desks/${desk.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'daily',
-    priority: 0.9,
-  }))
+  // Category Desks (exclude syndicated wire dump)
+  const deskPages: MetadataRoute.Sitemap = SITE_CONFIG.desks
+    .filter((desk) => desk.id !== 'wire')
+    .map((desk) => ({
+      url: `${baseUrl}/desks/${desk.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
+    }))
 
-  // Authors
-  const authorPages: MetadataRoute.Sitemap = Object.keys(AUTHORS).map((authorId) => ({
-    url: `${baseUrl}/authors/${authorId}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }))
+  // Authors with active indexable articles
+  const authorPages: MetadataRoute.Sitemap = Object.keys(AUTHORS)
+    .filter((authorId) => indexableArticles.some((a) => a.authorId === authorId))
+    .map((authorId) => ({
+      url: `${baseUrl}/authors/${authorId}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    }))
 
-  // Articles
-  const articlePages: MetadataRoute.Sitemap = ARTICLES.map((article) => ({
+  // Indexable Original Articles
+  const articlePages: MetadataRoute.Sitemap = indexableArticles.map((article) => ({
     url: `${baseUrl}/news/${article.category}/${article.slug}`,
     lastModified: new Date(article.updatedAt || article.publishedAt),
     changeFrequency: 'daily',

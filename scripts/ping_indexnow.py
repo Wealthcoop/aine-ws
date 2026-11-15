@@ -18,6 +18,8 @@ KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
 
 BASE_URLS = [
     "https://aine.ws/",
+    "https://aine.ws/frame",
+    "https://aine.ws/standards",
     "https://aine.ws/about",
     "https://aine.ws/contact",
     "https://aine.ws/editorial-policy",
@@ -41,8 +43,15 @@ def get_all_article_urls():
         return []
     with open(articles_path, "r", encoding="utf-8") as f:
         text = f.read()
-    matches = re.findall(r"slug:\s*[\x27\"]([^\x27\"]+)[\x27\"].*?category:\s*[\x27\"]([^\x27\"]+)[\x27\"]", text, re.DOTALL)
-    urls = [f"https://aine.ws/news/{cat}/{slug}" for slug, cat in matches]
+    blocks = re.split(r'\n(?=  \{\n    (?:id|is_original):)', text)
+    urls = []
+    for blk in blocks[1:]:
+        if re.search(r"noIndex:\s*true", blk):
+            continue
+        sm = re.search(r"slug:\s*['\"]([^'\"]+)['\"]", blk)
+        cm = re.search(r"category:\s*['\"]([^'\"]+)['\"]", blk)
+        if sm and cm:
+            urls.append(f"https://aine.ws/news/{cm.group(1)}/{sm.group(1)}")
     return urls
 
 def submit_indexnow():

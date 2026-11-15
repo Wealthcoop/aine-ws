@@ -14,7 +14,7 @@ export function Footer() {
             <div className="flex items-start gap-3">
               <ShieldCheck className="h-6 w-6 text-sky-400 shrink-0 mt-0.5" />
               <div>
-                <h4 className="text-sm font-bold text-white">Trust &amp; Verification Protocol</h4>
+                <h4 className="text-sm font-bold text-white">Trust &amp; Verification Standards</h4>
                 <p className="mt-1 text-xs text-slate-200 leading-relaxed">
                   Every article published by Aine undergoes primary source verification, data validation, and strict editorial review prior to publication.
                 </p>
@@ -36,7 +36,7 @@ export function Footer() {
               <div>
                 <h4 className="text-sm font-bold text-white">Independent &amp; Grounded Standards</h4>
                 <p className="mt-1 text-xs text-slate-200 leading-relaxed">
-                  We cover AI, telephony, and local search based on measurable benchmarks, verified code audits, and live field data.
+                  We cover AI, phone systems, and local search based on measurable benchmarks, verified code audits, and live field data.
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/authors/molly-perkins" className="hover:text-white transition inline-flex items-center py-1 text-slate-200">
-                  Voice AI &amp; Telephony Beat (Molly Perkins)
+                  Voice AI &amp; Speed-to-Lead Beat (Molly Perkins)
                 </Link>
               </li>
               <li>

@@ -5,8 +5,8 @@ import { SITE_CONFIG } from '@/config/site'
 import { ShieldCheck, CheckCircle2, FileCheck, Award, ChevronRight, Check } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Editorial Standards & Verification Protocol',
-  description: `The editorial standards, multi-source verification protocols, and algorithmic reporting ethics governing ${SITE_CONFIG.name}.`,
+  title: 'Editorial Standards & Verification Process',
+  description: `The editorial standards, multi-source verification rules, and algorithmic reporting ethics governing ${SITE_CONFIG.name}.`,
   alternates: {
     canonical: `${SITE_CONFIG.url}/standards`,
   },
@@ -53,10 +53,10 @@ export default function StandardsPage() {
         <div className="border-b border-slate-200 pb-8">
           <div className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-3 py-1 text-xs font-bold text-sky-800 uppercase tracking-wider mb-4">
             <ShieldCheck className="h-4 w-4 text-sky-600" />
-            Verification Protocol
+            Verification Standards
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900">
-            Editorial Standards &amp; Verification Protocol
+            Editorial Standards &amp; Verification Process
           </h1>
           <p className="mt-4 text-lg text-slate-600 font-serif leading-relaxed">
             How Aine verifies empirical data, separates original field research from syndicated wire dispatches, and enforces rigorous sourcing.
@@ -77,7 +77,7 @@ export default function StandardsPage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-sky-800 block">Condition A</span>
                 <h3 className="mt-1 font-bold text-slate-900 text-base">Original Analysis &amp; The Aine Frame</h3>
                 <p className="mt-2 text-xs text-slate-600 leading-relaxed">
-                  Deep investigative reporting, empirical telemetry, proprietary rank tracking benchmarks, and founder perspectives signed with a verified personal byline.
+                  Deep investigative reporting, empirical field measurements, proprietary rank tracking benchmarks, and founder perspectives signed with a verified personal byline.
                 </p>
               </div>
               <div className="rounded-xl border border-slate-200 bg-slate-50 p-5">
@@ -93,7 +93,7 @@ export default function StandardsPage() {
           <section>
             <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
               <FileCheck className="h-5 w-5 text-sky-600" />
-              2. Empirical Telemetry &amp; Sourcing Standards
+              2. Empirical Data &amp; Sourcing Standards
             </h2>
             <p className="mt-3 text-sm text-slate-700 leading-relaxed">
               Reports citing search ranking shifts, Google Maps proximity suppression, or voice AI latency must cite reproducible datasets or primary source documentation. Unverifiable third-party rumors are rejected.

@@ -24,7 +24,6 @@ export const metadata: Metadata = {
     telephone: true,
   },
   alternates: {
-    canonical: './',
     types: {
       'application/rss+xml': '/feed.xml',
     },
@@ -71,7 +70,7 @@ export const metadata: Metadata = {
   },
   other: {
     'google-site-verification': process.env.NEXT_PUBLIC_GSC_VERIFICATION || 'ZCEez8R7ae_zvdcPy1nbioBNtFJ1zCpPXUgibCD155Q',
-    'news_keywords': 'artificial intelligence, search algorithms, google ai overview, telephony automation, local seo, agent architecture',
+    'news_keywords': 'artificial intelligence, search algorithms, google ai overview, voice ai automation, local seo, agent architecture',
   },
 }
 
@@ -80,10 +79,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  // Find freshest breaking news story once on server (keeps client bundle lean)
-  const sortedArticles = [...ARTICLES].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
+  // Find freshest breaking news story from indexable original coverage once on server
+  const sortedArticles = [...ARTICLES]
+    .filter((a) => !a.noIndex)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
   const latest = sortedArticles.find((a) => a.isBreaking) || sortedArticles[0]
   const breakingStory = latest ? {
     title: latest.title,

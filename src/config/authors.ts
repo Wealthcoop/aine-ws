@@ -29,7 +29,7 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Molly Perkins',
     role: 'Senior Voice AI & Lead Response Reporter',
     title: 'Lead Voice AI Correspondent',
-    bio: 'Molly Perkins investigates real-time conversational voice AI, inbound sales telephony, and automated speed-to-lead pipelines. Her reporting focuses on practical automation architectures, call routing workflows, and enterprise communications.',
+    bio: 'Molly Perkins investigates real-time conversational voice AI, inbound phone systems, and automated speed-to-lead pipelines. Her reporting focuses on practical automation workflows, call routing setups, and commercial communications.',
     avatar: '/authors/molly-perkins.jpg',
     facebook: 'https://www.facebook.com/mollyperkins354',
     email: 'mollyperkins354@gmail.com',
@@ -40,10 +40,10 @@ export const AUTHORS: Record<string, Author> = {
     name: 'Elena Chen',
     role: 'Local Business & SMB Technology Reporter',
     title: 'Local Commerce & Maps Search Analyst',
-    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at Aine (AINE.ws), where she investigates the tools and algorithmic shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile ranking data, AI review filtering systems, and automated voice telephony for trade contractors.',
+    bio: 'Elena Chen is the Local Business and SMB Technology Reporter at Aine (AINE.ws), where she investigates the tools and search shifts reshaping how service businesses compete online. Her reporting examines Google Business Profile ranking data, AI review filtering systems, and automated phone response for trade contractors.',
     avatar: '/authors/elena-chen.jpg',
     email: 'e.chen@aine.ws',
-    beats: ['Google Maps AI', 'SMB Telephony', 'Review Automation', 'Local SEO Strategies']
+    beats: ['Google Maps AI', 'Business Phone Systems', 'Review Automation', 'Local SEO Strategies']
   },
   'marcus-vance': {
     id: 'marcus-vance',

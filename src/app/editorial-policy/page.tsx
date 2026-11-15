@@ -71,7 +71,7 @@ export default function EditorialPolicyPage() {
               1. Fundamental Journalistic Commitment
             </h2>
             <p className="mt-3">
-              {SITE_CONFIG.legalName} publishes under the standard canons of American journalism: accuracy, independence, fairness, and accountability. Our coverage focuses on the technical, operational, and commercial impacts of artificial intelligence, search engine ranking algorithms, and sales telephony automation.
+              {SITE_CONFIG.legalName} publishes under the standard canons of American journalism: accuracy, independence, fairness, and accountability. Our coverage focuses on the technical, operational, and commercial impacts of artificial intelligence, search engine ranking algorithms, and business phone automation.
             </p>
             <p className="mt-3">
               We operate with strict editorial independence. No advertiser, sponsor, venture capital backer, or corporate entity exerts editorial veto power over our reporting, headline choices, or source selections.
@@ -83,7 +83,7 @@ export default function EditorialPolicyPage() {
               2. Fact-Checking &amp; Primary Source Verification
             </h2>
             <p className="mt-3">
-              Factual integrity is non-negotiable. Our reporters follow a three-tier verification protocol:
+              Factual integrity is non-negotiable. Our reporters follow a three-tier verification process:
             </p>
             <ul className="mt-3 space-y-2 list-disc pl-5">
               <li><strong>Empirical Data &amp; Field Benchmarks:</strong> Whenever an algorithm update or latency claim is reported (e.g. speed-to-lead response times, map-pack ranking shifts), reporters must reference documented test methodology, sample size, and date range.</li>

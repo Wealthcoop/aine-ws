@@ -18,16 +18,67 @@ export const metadata: Metadata = {
 
 export default function FrameArchivePage() {
   const author = AUTHORS['justin-davis']
+  const frameUrl = `${SITE_CONFIG.url}/frame`
   // Filter for original research, opinion pieces, or articles by Justin Davis marked as original
-  const frameArticles = ARTICLES.filter((a) => 
-    a.category === 'frame' || (a.is_original === true && a.authorId === 'justin-davis')
+  const frameArticles = ARTICLES.filter((a) =>
+    !a.noIndex && (a.category === 'frame' || (a.is_original === true && a.authorId === 'justin-davis'))
   ).sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const leadArticle = frameArticles[0]
   const otherArticles = frameArticles.slice(1)
 
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${frameUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'The Aine Frame',
+            item: frameUrl,
+          },
+        ],
+      },
+      {
+        '@type': 'CollectionPage',
+        '@id': `${frameUrl}#collection`,
+        url: frameUrl,
+        name: 'The Aine Frame: Founder Essays & Empirical Opinion',
+        description: 'Original essays, empirical field studies, and strategic frameworks on artificial intelligence, search algorithms, and algorithmic commerce by Justin Davis.',
+        publisher: {
+          '@type': 'NewsMediaOrganization',
+          '@id': `${SITE_CONFIG.url}/#organization`,
+          name: SITE_CONFIG.name,
+          url: SITE_CONFIG.url,
+        },
+        mainEntity: {
+          '@type': 'ItemList',
+          itemListElement: frameArticles.slice(0, 15).map((art, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            url: `${SITE_CONFIG.url}/news/${art.category}/${art.slug}`,
+            name: art.title,
+          })),
+        },
+      },
+    ],
+  }
+
   return (
     <div className="bg-slate-50 py-10 sm:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">

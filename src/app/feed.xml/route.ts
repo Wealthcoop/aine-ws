@@ -17,7 +17,7 @@ function escapeXml(unsafe: string): string {
 }
 
 export async function GET() {
-  const items = ARTICLES.map((article) => {
+  const items = ARTICLES.filter((article) => !article.noIndex).map((article) => {
     const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
     const link = `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`
     const pubDate = new Date(article.publishedAt).toUTCString()

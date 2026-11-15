@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ARTICLES } from '@/data/articles'
@@ -47,6 +47,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const isWire = article.is_original === false || article.category === 'wire'
+  const shouldIndex = !article.noIndex
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
   const authorName = isWire ? 'Aine Wire Desk' : author.name
   const authorUrl = isWire ? `${SITE_CONFIG.url}/standards` : `${SITE_CONFIG.url}/authors/${author.id}`
@@ -63,10 +64,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`,
     },
     robots: {
-      index: true,
+      index: shouldIndex,
       follow: true,
       googleBot: {
-        index: true,
+        index: shouldIndex,
         follow: true,
         'max-video-preview': -1,
         'max-image-preview': 'large',
@@ -107,8 +108,14 @@ export default function ArticleReaderPage({ params }: PageProps) {
     notFound()
   }
 
+  if (article.category !== params.category) {
+    permanentRedirect(`/news/${article.category}/${article.slug}`)
+  }
+
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
   const isWire = article.is_original === false || article.category === 'wire'
+  const categoryHref = article.category === 'frame' ? '/frame' : `/desks/${article.category}`
+  const categoryLabel = article.category === 'frame' ? 'The Aine Frame' : article.category.replace(/-/g, ' ')
   const formattedPublishDate = new Date(article.publishedAt).toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
@@ -121,13 +128,14 @@ export default function ArticleReaderPage({ params }: PageProps) {
     timeZoneName: 'short',
   })
 
-  // Related articles prioritized by same category desk first, then same author, then latest
-  const sameCategory = ARTICLES.filter((a) => a.id !== article.id && a.category === article.category)
-  const sameAuthor = ARTICLES.filter(
-    (a) => a.id !== article.id && a.category !== article.category && a.authorId === article.authorId
+  // Related articles prioritized by indexable original reports in same desk, then same author, then latest
+  const indexablePool = ARTICLES.filter((a) => a.id !== article.id && !a.noIndex)
+  const sameCategory = indexablePool.filter((a) => a.category === article.category)
+  const sameAuthor = indexablePool.filter(
+    (a) => a.category !== article.category && a.authorId === article.authorId
   )
-  const fallbackOther = ARTICLES.filter(
-    (a) => a.id !== article.id && a.category !== article.category && a.authorId !== article.authorId
+  const fallbackOther = indexablePool.filter(
+    (a) => a.category !== article.category && a.authorId !== article.authorId
   )
   const relatedArticles = [...sameCategory, ...sameAuthor, ...fallbackOther].slice(0, 6)
 
@@ -139,10 +147,10 @@ export default function ArticleReaderPage({ params }: PageProps) {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-slate-600 mb-6">
-          <Link href="/" className="hover:text-slate-900 transition py-1">Wire</Link>
+          <Link href="/" className="hover:text-slate-900 transition py-1">Home</Link>
           <ChevronRight className="h-3 w-3" />
-          <Link href={`/desks/${article.category}`} className="hover:text-slate-900 transition uppercase font-semibold py-1">
-            {article.category.replace('-', ' ')}
+          <Link href={categoryHref} className="hover:text-slate-900 transition uppercase font-semibold py-1">
+            {categoryLabel}
           </Link>
           <ChevronRight className="h-3 w-3" />
           <span className="text-slate-600 truncate max-w-xs">{article.title}</span>
@@ -152,10 +160,10 @@ export default function ArticleReaderPage({ params }: PageProps) {
         <header className="border-b border-slate-200 pb-8">
           <div className="flex flex-wrap items-center gap-3">
             <Link
-              href={`/desks/${article.category}`}
+              href={categoryHref}
               className="rounded-full bg-sky-100 px-3 py-1 text-xs font-bold uppercase tracking-wider text-sky-800 hover:bg-sky-200 transition"
             >
-              {article.category.replace('-', ' ')}
+              {categoryLabel}
             </Link>
             {article.isBreaking && (
               <span className="inline-flex items-center gap-1.5 rounded-full bg-rose-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
@@ -407,7 +415,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
                     href="/standards"
                     className="font-semibold text-sky-700 hover:underline"
                   >
-                    View Editorial Standards &amp; Verification Protocol &rarr;
+                    View Editorial Standards &amp; Verification Process &rarr;
                   </Link>
                   <Link
                     href="/contact?type=tip"

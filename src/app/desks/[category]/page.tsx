@@ -23,6 +23,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Desk Not Found' }
   }
 
+  const shouldIndexDesk = desk.id !== 'wire'
+
   return {
     title: `${desk.label} Desk - Latest News & Benchmarks`,
     description: desk.description,
@@ -30,10 +32,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: `${SITE_CONFIG.url}/desks/${desk.id}`,
     },
     robots: {
-      index: true,
+      index: shouldIndexDesk,
       follow: true,
       googleBot: {
-        index: true,
+        index: shouldIndexDesk,
         follow: true,
         'max-video-preview': -1,
         'max-image-preview': 'large',
@@ -71,7 +73,7 @@ export default function DeskArchivePage({ params }: PageProps) {
     notFound()
   }
 
-  const deskArticles = ARTICLES.filter((a) => a.category === desk.id)
+  const deskArticles = ARTICLES.filter((a) => a.category === desk.id && (desk.id === 'wire' || !a.noIndex))
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const leadArticle = deskArticles[0]

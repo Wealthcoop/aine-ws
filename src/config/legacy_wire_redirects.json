@@ -1363,5 +1363,50 @@
     "source": "/news/ai-tools/how-fyxer-built-an-ai-executive-assistant-people-trust",
     "destination": "/desks/ai-tools",
     "permanent": true
+  },
+  {
+    "source": "/news/local-business/local-rank-checker-google-maps-rank-tracker-geogrid",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/google-maps-ranking-services-in-jaipur-get-more-local-c",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/search-ai/experience-the-art-and-legacy-of-dr-esther-mahlangu",
+    "destination": "/desks/search-ai",
+    "permanent": true
+  },
+  {
+    "source": "/news/search-ai/try-tabletop-customizable-collaborative-spaces-for-grou",
+    "destination": "/desks/search-ai",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/free-seo-text-content-tools-digitalaai",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/local-seo-for-accounting-and-tax-firms-the-ad-firm",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/local-rank-checker-7-best-tools-to-check-your-local-ran",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/google-business-profile-rank-tracker-and-checker-local",
+    "destination": "/desks/local-business",
+    "permanent": true
+  },
+  {
+    "source": "/news/local-business/google-maps-proximity-update-what-to-do-now-distribb",
+    "destination": "/desks/local-business",
+    "permanent": true
   }
 ]
