@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 
 export async function GET() {
   const content = `# Aine (AINE.ws) : The Applied AI & Algorithmic Commerce Wire
@@ -26,7 +27,7 @@ export async function GET() {
 ${Object.values(AUTHORS).map(a => `- **${a.name}** (${a.title}): Beats include ${a.beats.join(', ')}. Contact: ${a.email}`).join('\n')}
 
 ## Canonical Editorial Archive
-${ARTICLES.filter((art) => !art.noIndex).map(art => `- [${art.title}](${SITE_CONFIG.url}/news/${art.category}/${art.slug}): ${art.deck} (Published: ${art.publishedAt})`).join('\n')}
+${ARTICLES.filter(isArticleIndexable).map(art => `- [${art.title}](${SITE_CONFIG.url}/news/${art.category}/${art.slug}): ${art.deck} (Published: ${art.publishedAt})`).join('\n')}
 
 ## Syndication Feeds
 - Google News Sitemap: ${SITE_CONFIG.url}/news-sitemap.xml

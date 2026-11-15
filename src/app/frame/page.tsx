@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { SITE_CONFIG } from '@/config/site'
 import { AUTHORS } from '@/config/authors'
 import { ARTICLES } from '@/data/articles'
+import { isArticleIndexable } from '@/lib/articleFilters'
 import { ArticleCard } from '@/components/ArticleCard'
 import { ChevronRight, Feather, ShieldCheck } from 'lucide-react'
 
@@ -21,7 +22,7 @@ export default function FrameArchivePage() {
   const frameUrl = `${SITE_CONFIG.url}/frame`
   // Filter for original research, opinion pieces, or articles by Justin Davis marked as original
   const frameArticles = ARTICLES.filter((a) =>
-    !a.noIndex && (a.category === 'frame' || (a.is_original === true && a.authorId === 'justin-davis'))
+    isArticleIndexable(a) && (a.category === 'frame' || (a.is_original === true && a.authorId === 'justin-davis'))
   ).sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const leadArticle = frameArticles[0]

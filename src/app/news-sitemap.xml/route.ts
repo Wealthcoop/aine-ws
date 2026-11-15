@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { ARTICLES } from '@/data/articles'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 
 function escapeXml(unsafe: string): string {
   if (!unsafe) return ''
@@ -23,7 +24,7 @@ export async function GET() {
   const fortyEightHoursAgo = new Date(now - 48 * 60 * 60 * 1000)
 
   const sortedArticles = [...ARTICLES]
-    .filter((a) => !a.noIndex)
+    .filter(isArticleIndexable)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   let activeArticles = sortedArticles.filter(

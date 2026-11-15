@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer'
 import { OrganizationSchema } from '@/components/OrganizationSchema'
 import { SITE_CONFIG } from '@/config/site'
 import { ARTICLES } from '@/data/articles'
+import { isArticleIndexable } from '@/lib/articleFilters'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
@@ -81,7 +82,7 @@ export default function RootLayout({
 }) {
   // Find freshest breaking news story from indexable original coverage once on server
   const sortedArticles = [...ARTICLES]
-    .filter((a) => !a.noIndex)
+    .filter(isArticleIndexable)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
   const latest = sortedArticles.find((a) => a.isBreaking) || sortedArticles[0]
   const breakingStory = latest ? {

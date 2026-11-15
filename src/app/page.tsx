@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
+import { isArticleIndexable } from '@/lib/articleFilters'
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import TrendingTools from '@/components/TrendingTools'
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   // Prioritize indexable original reporting on homepage by published date descending (freshest first)
   const sortedArticles = [...ARTICLES]
-    .filter((a) => !a.noIndex)
+    .filter(isArticleIndexable)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   // Lead article is the newest breaking or featured story, or the absolute freshest story

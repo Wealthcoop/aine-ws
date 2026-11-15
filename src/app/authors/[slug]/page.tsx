@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { AUTHORS } from '@/config/authors'
 import { ARTICLES } from '@/data/articles'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 import { ArticleCard } from '@/components/ArticleCard'
 import { Mail, ExternalLink, ShieldCheck, Newspaper, ChevronRight } from 'lucide-react'
 
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Author Not Found' }
   }
 
-  const hasIndexableArticles = ARTICLES.some((a) => a.authorId === author.id && !a.noIndex)
+  const hasIndexableArticles = ARTICLES.some((a) => a.authorId === author.id && isArticleIndexable(a))
   const avatarUrl = author.avatar.startsWith('http')
     ? author.avatar
     : `${SITE_CONFIG.url}${author.avatar}`
@@ -78,7 +79,7 @@ export default function AuthorProfilePage({ params }: PageProps) {
     notFound()
   }
 
-  const authorArticles = ARTICLES.filter((a) => a.authorId === author.id && !a.noIndex)
+  const authorArticles = ARTICLES.filter((a) => a.authorId === author.id && isArticleIndexable(a))
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const authorUrl = `${SITE_CONFIG.url}/authors/${author.id}`

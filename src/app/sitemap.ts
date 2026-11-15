@@ -2,11 +2,12 @@ import { MetadataRoute } from 'next'
 import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.url
 
-  const indexableArticles = ARTICLES.filter((a) => !a.noIndex)
+  const indexableArticles = ARTICLES.filter(isArticleIndexable)
 
   // Core Static Pages
   const staticPages: MetadataRoute.Sitemap = [

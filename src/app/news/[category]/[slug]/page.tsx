@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 import { NewsArticleSchema } from '@/components/NewsArticleSchema'
 import { SponsorSlot } from '@/components/SponsorSlot'
 import { MONETIZATION_CONFIG } from '@/config/monetization'
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const isWire = article.is_original === false || article.category === 'wire'
-  const shouldIndex = !article.noIndex
+  const shouldIndex = isArticleIndexable(article)
   const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
   const authorName = isWire ? 'Aine Wire Desk' : author.name
   const authorUrl = isWire ? `${SITE_CONFIG.url}/standards` : `${SITE_CONFIG.url}/authors/${author.id}`
@@ -129,7 +130,7 @@ export default function ArticleReaderPage({ params }: PageProps) {
   })
 
   // Related articles prioritized by indexable original reports in same desk, then same author, then latest
-  const indexablePool = ARTICLES.filter((a) => a.id !== article.id && !a.noIndex)
+  const indexablePool = ARTICLES.filter((a) => a.id !== article.id && isArticleIndexable(a))
   const sameCategory = indexablePool.filter((a) => a.category === article.category)
   const sameAuthor = indexablePool.filter(
     (a) => a.category !== article.category && a.authorId === article.authorId

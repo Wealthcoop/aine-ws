@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { ARTICLES } from '@/data/articles'
 import { AUTHORS } from '@/config/authors'
 import { SITE_CONFIG } from '@/config/site'
+import { isArticleIndexable } from '@/lib/articleFilters'
 
 function escapeXml(unsafe: string): string {
   return unsafe.replace(/[<>&'"]/g, (c) => {
@@ -17,7 +18,7 @@ function escapeXml(unsafe: string): string {
 }
 
 export async function GET() {
-  const items = ARTICLES.filter((article) => !article.noIndex).map((article) => {
+  const items = ARTICLES.filter(isArticleIndexable).map((article) => {
     const author = AUTHORS[article.authorId] || AUTHORS['justin-davis']
     const link = `${SITE_CONFIG.url}/news/${article.category}/${article.slug}`
     const pubDate = new Date(article.publishedAt).toUTCString()

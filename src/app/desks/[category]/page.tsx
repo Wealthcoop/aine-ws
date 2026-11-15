@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { SITE_CONFIG } from '@/config/site'
 import { ARTICLES } from '@/data/articles'
+import { isArticleIndexable } from '@/lib/articleFilters'
 import { ArticleCard } from '@/components/ArticleCard'
 import { ChevronRight, Layers } from 'lucide-react'
 
@@ -73,7 +74,7 @@ export default function DeskArchivePage({ params }: PageProps) {
     notFound()
   }
 
-  const deskArticles = ARTICLES.filter((a) => a.category === desk.id && (desk.id === 'wire' || !a.noIndex))
+  const deskArticles = ARTICLES.filter((a) => a.category === desk.id && (desk.id === 'wire' || isArticleIndexable(a)))
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
   const leadArticle = deskArticles[0]
