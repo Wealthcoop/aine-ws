@@ -113,6 +113,20 @@ def newest_article_age_hours():
         return 999.0, "unknown"
     return (datetime.now(timezone.utc) - newest).total_seconds() / 3600.0, newest.isoformat()
 
+def commit_and_push():
+    st = run(["git", "status", "--porcelain", "src/data/articles.ts"])
+    if not st.stdout.strip():
+        return "no_changes", ""
+    run(["git", "config", "user.name", "AINE NUC Watchdog"])
+    run(["git", "config", "user.email", "bot@aine.ws"])
+    run(["git", "add", "src/data/articles.ts", "scripts/news_dedup.db", "WIRE_PUBLISHING_LEDGER.md", "scripts/wire_health_status.json"])
+    run(["git", "commit", "-m", "chore(watchdog): NUC auto-recovery wire publish [skip ci]"])
+    push_res = run(["git", "push", "origin", "main"])
+    if push_res.returncode == 0:
+        return "pushed", ""
+    return "push_failed", push_res.stderr
+
+
 def main():
     prev_state = load_alert_state()
     consecutive_failures = prev_state.get("consecutive_failures", 0)
@@ -122,16 +136,24 @@ def main():
 
     age_h, newest_ts = newest_article_age_hours()
     gh_failed = False
+    gh_active = False
     gh_reason = ""
     gh_res = run(["gh", "run", "list", "--workflow", "daily_news_wire.yml", "--limit", "1", "--json", "conclusion,status,url"])
     if gh_res.returncode == 0 and gh_res.stdout.strip():
         try:
             runs = json.loads(gh_res.stdout)
-            if runs and runs[0].get("conclusion") == "failure":
-                gh_failed = True
-                gh_reason = f"GH Actions daily_news_wire failed ({runs[0].get('url')})"
+            if runs:
+                if runs[0].get("status") in ("in_progress", "queued", "requested", "waiting"):
+                    gh_active = True
+                elif runs[0].get("conclusion") == "failure":
+                    gh_failed = True
+                    gh_reason = f"GH Actions daily_news_wire failed ({runs[0].get('url')})"
         except Exception:
             pass
+
+    if gh_active:
+        print(f"[OK] GitHub Actions daily_news_wire currently active; skipping concurrent NUC run (newest={newest_ts}).")
+        return
 
     if age_h <= 4.5 and not gh_failed:
         # Feed is completely fresh
@@ -166,23 +188,36 @@ def main():
 
         sys.exit(1)
 
-    st = run(["git", "status", "--porcelain", "src/data/articles.ts"])
-    if st.stdout.strip():
-        run(["git", "config", "user.name", "AINE NUC Watchdog"])
-        run(["git", "config", "user.email", "bot@aine.ws"])
-        run(["git", "add", "src/data/articles.ts", "scripts/news_dedup.db", "WIRE_PUBLISHING_LEDGER.md", "scripts/wire_health_status.json"])
-        run(["git", "commit", "-m", "chore(watchdog): NUC auto-recovery wire publish [skip ci]"])
-        push_res = run(["git", "push", "origin", "main"])
-        if push_res.returncode != 0:
-            consecutive_failures += 1
-            write_alert("PIPELINE_ERROR", f"Push failed: {push_res.stderr[:250]}", recovered=False, consecutive_failures=consecutive_failures)
-            send_resend_email("[AINE.WS NOTICE] Git push failed during auto-recovery", push_res.stderr[:300])
-            if consecutive_failures >= 2:
-                send_telnyx_sms(f"AINE.WS ALERT: Auto-recovery push failed for 2 consecutive runs: {push_res.stderr[:160]}")
-            sys.exit(1)
+    status, push_err = commit_and_push()
+    if status == "push_failed":
+        # Check whether another runner (such as GitHub Actions) pushed fresh articles while we worked
+        run(["git", "fetch", "origin", "main"])
+        run(["git", "reset", "--hard", "origin/main"])
+        age_after, ts_after = newest_article_age_hours()
+        if age_after <= 4.5:
+            write_alert("OK", f"Synced cleanly with fresh origin/main ({age_after:.2f}h old, newest={ts_after}).", recovered=True, consecutive_failures=0)
+            print(f"[OK] Remote already updated with fresh articles ({age_after:.2f}h old). Reset cleanly, no alert needed.")
+            return
 
-        # Successfully recovered and published!
-        # STRICT RULE: Zero SMS / Zero Email if it auto-recovers.
+        # Origin moved forward with a non-article commit; regenerate cleanly once and retry push
+        print("[WATCHDOG] Origin advanced without fresh articles; retrying clean publish...")
+        wire_retry = run(["python3", "scripts/newsroom_wire.py", "--limit", "2"])
+        audit_retry = run(["python3", "scripts/audit_indexing_health.py"])
+        if wire_retry.returncode == 0 and audit_retry.returncode == 0:
+            status, push_err = commit_and_push()
+        else:
+            push_err = (wire_retry.stderr or wire_retry.stdout or audit_retry.stderr or "")[-250:]
+
+    if status == "push_failed":
+        consecutive_failures += 1
+        write_alert("PIPELINE_ERROR", f"Push failed: {push_err[:250]}", recovered=False, consecutive_failures=consecutive_failures)
+        send_resend_email("[AINE.WS NOTICE] Git push failed during auto-recovery", push_err[:300])
+        if consecutive_failures >= 2:
+            send_telnyx_sms(f"AINE.WS ALERT: Auto-recovery push failed for {consecutive_failures} consecutive runs: {push_err[:160]}")
+        sys.exit(1)
+
+    if status == "pushed":
+        # Successfully recovered and published. Zero SMS / Zero Email if it auto-recovers.
         write_alert("OK", f"Auto-recovered cleanly after: {trigger_reason}. Published fresh articles.", recovered=True, consecutive_failures=0)
         print("[RECOVERED] Published & pushed cleanly. Alerts suppressed per policy.")
     else:
