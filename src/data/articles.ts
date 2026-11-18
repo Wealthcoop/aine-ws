@@ -2,6 +2,96 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794999956",
+    slug: "three-ai-models-agree-on-just-one-of-121-potential-code",
+    title: "Three AI Models Agree on Just One of 121 Potential Code Flaws -",
+    deck: "Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-18T11:04:07Z",
+    updatedAt: "2026-11-18T11:04:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/anthropic-proposes-ai-models-can-be-blocked-only-if-the.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: Echo tested Claude Mythos, GPT-5.6 Sol and GLM-5.3 on the same code and found little overlap...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>Three AI Models Agree on Just One of 121 Potential Code Flaws</h1>
+<p><strong>SAN FRANCISCO, Nov. 18, 2026</strong> Infosecurity Magazine reported that Echo tested three frontier models on the same open-source code and found almost no overlap in what they flagged as security issues. The result undercuts the idea that one large language model can stand in for a reliable vulnerability scanner.</p>
+<h2>What did Echo actually find?</h2>
+<p>Echo says Claude Mythos 5.1, OpenAI&apos;s GPT-5.6 Sol through Daybreak, and Z.ai&apos;s GLM-5.3 agreed on just one of 121 potential issues. The company says 83 percent of those potential issues were found by just one model, which means the overlap was thin even before validation.</p>
+<p>Before cleanup, the models produced 446 potential findings. Echo said only eight of those were flagged by all three models, and after filtering repeats, unreachable issues, documented behavior, and false positives, just 121 distinct potential issues remained, with 100 found by one model, 20 by two, and one by all three.</p>
+<p>The release says 74 of the distinct findings were rated High or Critical, while 55 high or critical findings moved to automated proof-of-concept testing and 42 passed, with 31 confirmed at High severity in the release. Model behavior split in ways that matter operationally, with Claude Mythos logging the most validation passes overall at 25, compared with nine for GLM-5.3 and eight for GPT-5.6 Sol.</p>
+<h2>How was the test set up?</h2>
+<p>Echo ran each model once against two Maven libraries and one npm package, using the same hunting framework and validation setup each time. The company says that makes the comparison a controlled test, not a full benchmark.</p>
+<table>
+<thead>
+<tr><th>Item</th><th>Echo&apos;s result</th></tr>
+</thead>
+<tbody>
+<tr><td>Models</td><td>Claude Mythos 5.1, GPT-5.6 Sol via Daybreak, GLM-5.3</td></tr>
+<tr><td>Code tested</td><td>Two Maven libraries and one npm package, including one Maven project with more than 24,000 GitHub stars, another with more than 80,000 lines of code, and an npm package with more than 350 million monthly downloads</td></tr>
+<tr><td>Findings</td><td>446 initial findings, then 121 distinct potential issues after cleanup</td></tr>
+<tr><td>Validation</td><td>55 high or critical findings sent to automated proof-of-concept testing, 42 passed, 31 confirmed at High severity in the release</td></tr>
+<tr><td>Speed and cost</td><td>About 24 minutes for GPT-5.6 Sol, about 198 minutes for Claude Mythos, and about 174 minutes for GLM-5.3. Hunt-only costs were about $303, $30, and $22 respectively; including GLM-5.3 proof-of-concept validation, Echo said totals were about $363, $45, and $40.</td></tr>
+</tbody>
+</table>
+<p>Echo said the projects would stay unnamed and the technical details unpublished until their maintainers had been notified. It also said automated validation does not amount to confirmation from project maintainers, and that the exercise was a single comparison rather than a repeatable benchmark series.</p>
+<h2>What does this mean for security teams?</h2>
+<p>The practical lesson is that one model can miss flaws another model finds, so model branding is less useful than a disciplined validation process. The loser is anyone who assumes a single scanner can see the same risks an attacker sees.</p>
+<p>Echo security researcher Yuval Saggie said, &quot;Everyone is racing to figure out which AI model is best at finding vulnerabilities, but our research shows that&apos;s the wrong question.&quot; He added that if an attacker hunts with one model and a defender relies on another, &quot;the defender might never even see the vulnerability the attacker is about to exploit.&quot;</p>
+<p>Eylam Milner, Echo&apos;s co-founder and CTO, said, &quot;AI is making it dramatically easier and cheaper to find vulnerabilities, but protecting against them is a different story.&quot; He said running multiple frontier models is only the beginning, because teams still need to validate findings, develop and test patches, and deliver fixes across thousands of software components.</p>
+<p>That message also points to Echo&apos;s wider product pitch. The company says Frontier hunts for unknown vulnerabilities, validates them against working proof of concept tests, develops and backports fixes when needed, and delivers patched libraries through existing supply chain workflows before public disclosure.</p>
+<p>For now, the study is best read as a warning shot, not a settled ranking of model quality. Echo&apos;s data suggests that security teams using AI need more than a single model and more than raw output, because the hard part starts after the first finding lands on the screen.</p></h1></p>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://www.infosecurity-magazine.com/news/ai-models-vulnerability-findings/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795000049",
+    slug: "le-groupe-figaro-and-openai-partner-to-bring-le-figaro",
+    title: "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+    deck: "Le Groupe Figaro and OpenAI partner to bring Le Figaro's journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-18T00:00:00Z",
+    updatedAt: "2026-11-18T00:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/sophos-cuts-threat-investigation-time-by-96-with-openai.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by OpenAI Official News.",
+          "Key focus: Le Groupe Figaro and OpenAI partner to bring Le Figaro's journalism to ChatGPT through summaries and excerpts,...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO:</strong> OpenAI and Le Groupe Figaro announced on Wednesday, November 18, 2026, that they are partnering to bring Le Figaro journalism into ChatGPT. The agreement will surface summaries, excerpts, and links to original reporting from the publisher’s current and archived coverage.</p> <h2>What did OpenAI and Le Groupe Figaro announce in San Francisco?</h2>
+<p>OpenAI and Le Groupe Figaro said they have struck a strategic partnership to make Le Figaro journalism discoverable in ChatGPT. The deal covers current reporting and archive content from Le Figaro and associated publications, across news, business, culture, and lifestyle.</p>
+<p>OpenAI said the collaboration is designed to help more people discover and engage with the publisher’s work, while Le Figaro said the arrangement reflects its ambition to build closer ties with a major AI company. Marc Feuillée, chief executive of Groupe Figaro, said the partnership combines the group’s editorial heritage and trusted brands, supported by more than 600 journalists, with OpenAI’s technological expertise and global reach to create new opportunities for innovation and long-term value for readers.</p> <table> <thead> <tr> <th>Deal point</th> <th>What the sources say</th> </tr> </thead> <tbody> <tr> <td>Content type</td> <td>Current reporting and archives from Le Figaro and associated publications</td> </tr> <tr> <td>Display format</td> <td>Summaries, excerpts, and links to original stories</td> </tr> <tr> <td>Editorial control</td> <td>Le Figaro keeps full editorial independence and control</td> </tr> <tr> <td>Internal use</td> <td>ChatGPT Enterprise is planned across various teams</td> </tr> <tr> <td>Money and training rights</td> <td>Not disclosed in OpenAI’s announcement</td> </tr> </tbody>
+</table> <h2>Why does the timing matter now?</h2>
+<p>The timing fits a wider scramble by publishers to shape how their journalism appears inside AI products. It also comes after OpenAI announced a similar French media deal with LVMH’s media division on November 16, 2026, and after Le Monde became the first French publisher to sign with OpenAI in 2024.</p>
+<p>That earlier Le Monde and Prisa Media agreement is the clearest contrast. OpenAI said in March 2024 that those publishers’ content would contribute to model training, and Reuters reported the same point in its coverage of the deal. For Figaro, the company’s own announcement does not say that ChatGPT will train on its journalism, which leaves a central question open.</p> <h2>What exactly will ChatGPT show?</h2>
+<p>ChatGPT will show summaries and excerpts, plus links back to the original stories. The sources describe that as a discovery layer, not a replacement for the publisher’s own site.</p>
+<p>Independent reporting from Le Monde and France 24 says the Figaro package includes Le Figaro, Le Figaro Magazine, Madame Figaro, Gala, and Le Journal du Net. Those reports also say the arrangement makes Figaro the third French media group to announce a deal with OpenAI, after Le Monde and the LVMH media division.</p>
+<p>Varun Shetty, OpenAI’s vice president of media partnerships, said Le Figaro’s reporting helps readers make sense of the stories shaping France and the wider world, and that OpenAI wants AI to help more people discover that work. He said the company’s aim is to support quality journalism and connect it with new audiences.</p> <h2>What is still undisclosed?</h2>
+<p>The financial terms remain under wraps. OpenAI’s announcement does not state licensing fees, revenue sharing, exclusivity, pricing, duration, or any model training provisions for this agreement.</p>
+<p>That omission matters because publisher deals in this market can differ sharply on rights and economics. Reuters notes that news organizations are wrestling with compensation and copyright issues as AI systems use news content, while some outlets have chosen court fights instead of commercial agreements.</p>
+<p>Le Figaro’s own AI charter adds another layer. The charter says all published content will continue to be produced and supervised by Figaro journalists, that generative AI must not replace writing, investigation, analysis, or opinion work, and that the paper does not intend to publish AI-generated articles. It also says any use of such tools will be done under human supervision and no automated publication process will be launched without journalist validation.</p> <h2>Who gains, and what are the tradeoffs?</h2>
+<p>Readers gain easier access to Figaro journalism inside ChatGPT, with direct links back to the source. Figaro gains a new distribution channel and a possible workplace rollout through ChatGPT Enterprise, but it also deepens its dependence on a platform it does not control.</p>
+<p>For OpenAI, the deal strengthens its publisher network and helps it frame ChatGPT as a place for reliable news discovery rather than a pure text generator. For publishers, the upside is reach and possible revenue, but the tradeoff is clear: AI summaries can redirect attention away from the publisher’s own site unless the referral flow is strong enough to hold audience value.</p>
+<p>Feuillée said the agreement is a recognition of journalists’ work and said it should improve the quality of ChatGPT’s answers, which he said matters in the run up to the presidential campaign. That is the clearest political edge in the announcement, and it shows why this is more than a branding exercise. It is a distribution deal, an internal AI rollout, and a bet that editorial control can survive inside a platform built to mediate information for millions of users.</p> <h2>What should readers watch next?</h2>
+<p>The next question is whether OpenAI and Figaro ever disclose more about economics, training rights, and rollout timing. Those details will determine whether the partnership is mainly about visibility, or whether it becomes a deeper commercial and operational integration.</p>
+<p>For now, the primary source points to a narrow but important deal: summaries, excerpts, links, editorial safeguards, and an enterprise plan inside the newsroom. The rest, including payment and training language, stays out of public view.</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794988027",
     slug: "better-google-maps-keyword-results-for-businesses-the-2",
     title: "Better Google Maps Keyword Results for Businesses: The 2026 Playbook",
