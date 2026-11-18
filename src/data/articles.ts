@@ -2,6 +2,89 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1794988027",
+    slug: "better-google-maps-keyword-results-for-businesses-the-2",
+    title: "Better Google Maps Keyword Results for Businesses: The 2026 Playbook",
+    deck: "Get better Google Maps keyword results for businesses with proven 2026 strategies on category picks, reviews, and citations. Start optimizing today.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-18T07:45:01Z",
+    updatedAt: "2026-11-18T07:45:01Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/how-we-will-do-better-for-australia.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Get better Google Maps keyword results for businesses with proven 2026 strategies on category picks, reviews, ...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>Dateline: Mountain View, Calif.</strong></p>
+<p>Google Maps is changing again, and the new pressure point is whether a business profile can satisfy both classic local ranking signals and conversational AI answers. The latest playbook centers on category choice, complete profile data, real review activity, and policy-clean reputation management.</p>
+<h2>What is driving the new Google Maps keyword playbook?</h2>
+<p>The short answer is that local discovery is getting more demanding, not less. Google is still ranking businesses with relevance, distance, and prominence, while Ask Maps now turns many searches into a conversation instead of a simple list.</p>
+<p>The timing matters. Google says Ask Maps starts rolling out in the U.S. and India on Android and iOS, with desktop coming soon, and it can personalize results using places you have searched for or saved in Maps. That makes profile completeness and clarity more important than ever because the system has to answer a question, not just match a keyword.</p>
+<h3>How does Google say local ranking works?</h3>
+<p>Google’s own guidance is plain: local results are mainly based on relevance, distance, and prominence. The company also says complete and accurate information helps businesses show up in local search results, and that positive reviews and helpful replies can help a business stand out.</p>
+<p>Relevance is about how well the profile matches the search. Distance is the searcher’s location or the place named in the query, and prominence is how well known the business is, including signals such as links and reviews.</p>
+<table>
+<thead>
+<tr><th>Signal</th><th>What Google says</th><th>Operational takeaway</th></tr>
+</thead>
+<tbody>
+<tr><td>Category</td><td>Choose the fewest categories that describe the core business, and make them specific.</td><td>Use the most precise primary category available.</td></tr>
+<tr><td>Completeness</td><td>Complete and accurate info helps Google match relevant searches.</td><td>Fill hours, address or service area, and service details.</td></tr>
+<tr><td>Reviews</td><td>More reviews and positive ratings can help local ranking.</td><td>Build real review volume and reply to customers.</td></tr>
+<tr><td>Name</td><td>Use the real-world business name only.</td><td>Avoid keyword stuffing that can trigger suspension.</td></tr>
+<tr><td>Performance data</td><td>Searches, views, calls, and clicks are tracked for verified profiles.</td><td>Measure movement with the profile dashboard.</td></tr>
+</tbody>
+</table>
+<h2>Which profile edits matter most for businesses?</h2>
+<p>The strongest controllable move is usually category selection. Google says the category should match what the business actually is, should be as specific as possible, and should not be used as a keyword list.</p>
+<p>That guidance extends to names, addresses, and service areas. Google requires the business name to match real-world signage and branding, warns that unnecessary information in the name can lead to suspension, and says service-area businesses should use a precise address or hide it when they do not meet customers there.</p>
+<h3>What is the risk of getting the profile details wrong?</h3>
+<p>Google says it may ask a business to verify again after a category change, and performance data is only available for verified profiles. If the address, service area, or category is off, the listing can miss relevant searches or create compliance problems.</p>
+<p>The article’s practical advice on precision is directionally sound, but Google’s own documents are stricter than the broad local SEO advice found elsewhere. The company wants the fewest categories needed to describe the core business, no made-up labels, and no extra words in the business name that do not reflect the real world.</p>
+<h2>What do reviews, posts, and penalties mean for visibility?</h2>
+<p>Reviews matter, but Google draws a hard line around how they are collected. Incentives, discounts, free goods, selective solicitation of only happy customers, and pressure to write a certain kind of review are all prohibited.</p>
+<p>Google also says fake and incentivized reviews can trigger restrictions, including temporary blocks on new reviews, unpublishing existing reviews, warning labels, and appeals review. By contrast, an independent Sterling Sky test says Google Posts do not directly affect local search ranking, even if they can still help with engagement.</p>
+<h3>What is the skeptical reality check?</h3>
+<p>Not every popular local SEO tactic is a direct ranking signal. Google’s own ranking page does not describe citations or NAP consistency as core factors, while the guidance it does publish emphasizes links, reviews, and profile accuracy.</p>
+<p>That does not make citations useless, but it does mean businesses should separate confirmed Google guidance from industry habit. The safer bet is to keep every field accurate, collect genuine reviews from real customers, and use posts and updates as support work rather than as a ranking shortcut.</p>
+<h2>What should businesses do next?</h2>
+<p>The immediate action list is practical: choose the most specific category, clean up the business name, complete every profile field, and keep hours and services current. Then monitor the verified profile dashboard for searches, views, calls, website clicks, and directions, since Google says those figures include both organic results and Google Ads.</p>
+<p>Ask Maps raises the stakes because fewer places can now fit a more conversational answer. Businesses that give Google clear, accurate, and policy-safe information are better positioned than those relying on old keyword tricks, vague descriptions, or review games that can be removed or penalized.</p>
+</html_body></p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://successknocks.com/better-google-maps-keyword-results-for-businesses/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1794988142",
+    slug: "google-business-profile-optimization-checklist-the-only",
+    title: "Google Business Profile Optimization Checklist: The Only List You",
+    deck: "Follow this complete Google Business Profile optimization checklist for 2026 to boost visibility and drive better Google Maps keyword results for businesses.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-18T07:47:07Z",
+    updatedAt: "2026-11-18T07:47:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/google-gemini-3-8-flash-low-latency-reasoning-autonomous-loops.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: Follow this complete Google Business Profile optimization checklist for 2026 to boost visibility and drive bet...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article><h1>Google Business Profile Optimization Checklist: The Only List You Need in 2026</h1><p>MOUNTAIN VIEW, Calif. A new 2026 checklist from Success Knocks, written by Alex Watson, is pushing the same message Google has been repeating for years: a Business Profile works best when it is accurate, complete, and maintained. The page is editorial advice, not a Google announcement, but Google’s own help center supports the core idea that complete and accurate business info, plus reviews, photos, and verification, shape local visibility.</p><p>The article does not show a publication date. That matters because the most useful parts of the checklist line up with Google’s current guidance, while some of the article’s ranking language is presented as commentary rather than sourced platform policy.</p><h2>What does Google itself say moves local visibility?</h2><p>Google says local results are mainly based on relevance, distance, and prominence. It also says businesses with complete and accurate information are more likely to appear in local search results, and it flatly states there is no way to request or pay for a better local ranking.</p><p>That is the hard boundary around every optimization checklist. You can strengthen relevance with detailed business information, and you can support prominence with reviews, photos, and broader web signals, but you cannot buy your way into a better map position.</p><table><thead><tr><th>Priority</th><th>What to fix</th><th>Why it matters</th></tr></thead><tbody><tr><td>Critical</td><td>Name, category, address, hours</td><td>Google says the name should match real-world use, the address must be precise, and the fewest specific categories should describe the core business.</td></tr><tr><td>High</td><td>Description and services</td><td>The description is capped at 750 characters, should avoid URLs and HTML, and should focus on what the business offers. Services should be listed clearly and individually.</td></tr><tr><td>High</td><td>Reviews and replies</td><td>Google says reviews should reflect genuine experience, and fake or incentivized reviews can trigger restrictions.</td></tr><tr><td>Medium</td><td>Photos, posts, and updates</td><td>Posts can promote updates, offers, and events, while photos and videos help customers recognize the business.</td></tr><tr><td>Medium</td><td>Site-side schema and citations</td><td>LocalBusiness structured data can reinforce business details on the website, while consistent off-profile data helps reduce confusion.</td></tr></tbody></table><h2>What should businesses fix first on the profile?</h2><p>Start with the basics: business name, primary category, address or service area, phone number, hours, description, services, and attributes. Google’s own profile guidelines say the business should be represented the way it is known in the real world, and that unnecessary additions in the name, like taglines, phone numbers, or extra keyword stuffing, can trigger suspension risk.</p><p>Then move to the parts that make the profile feel current. Google says businesses can add photos and videos, selected attributes such as Wi-Fi or outdoor seating, and a brief description that stays within the 750 character limit and avoids promotional clutter.</p><h2>Where does the checklist go beyond Google’s own rules?</h2><p>The article’s tactical advice goes farther than Google’s help pages in a few places. It recommends monthly photo uploads, weekly posts, quarterly audits, and a 30 day rollout plan, while Google’s own posting guidance focuses on what a post can contain, how it can be scheduled, and how long it stays live before archive rules apply.</p><p>That difference matters. The checklist is useful as an operating routine, but Google does not publish a one size fits all quota for posts, reviews, or photos in the materials reviewed here, so businesses should treat those cadence suggestions as editorial guidance rather than platform policy.</p><h2>What changed with chat, reviews, and performance tracking?</h2><p>Google says the old chat and call history features ended on July 31, 2024, although eligible claimed and verified profiles in select regions can add a text message or WhatsApp contact option. Google also says performance data now includes views, searches, and actions from both organic results and Google Ads, with calls counted as clicks on the call button and website clicks counted as taps on the website link.</p><p>That makes the metrics more useful and more limited at the same time. Search terms refresh monthly, directions requests are adjusted for multiple taps and spam, and review activity remains tightly policed: Google forbids incentives in exchange for reviews or review removal, and it can restrict profiles that violate fake engagement rules, including blocking new reviews or unpublishing existing ones for a period.</p><p>For brands that want a cleaner technical layer, LocalBusiness structured data can add business hours, address, telephone, menu, and other details to the site, but it is a site signal, not a substitute for the profile itself. The practical outlook for 2026 is simple: keep the profile accurate, keep the website aligned, keep reviews genuine, and treat every field as maintenance, not a one time project.</p></article>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://successknocks.com/google-business-profile-optimization-checklist-2/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1794969866",
     slug: "openai-and-anthropic-agent-hacks-trace-back-to-training",
     title: "OpenAI and Anthropic agent hacks trace back to training | AI Weekly",
