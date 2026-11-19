@@ -2,6 +2,86 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795118180",
+    slug: "era-of-autonomous-ai-cyberattacks-has-arrived-google-wa",
+    title: "Era of Autonomous AI Cyberattacks Has Arrived, Google Warns -",
+    deck: "Search engine giant Google has warned in a report that the era of cyberattacks conducted by autonomous artificial intelligence (AI) has arrived [1][2]. According to the...",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-19T19:54:49Z",
+    updatedAt: "2026-11-19T19:54:49Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/new-insights-from-googles-ai-economy-atlas.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: Search engine giant Google has warned in a report that the era of cyberattacks conducted by autonomous artific...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article>
+<p>SAN FRANCISCO: Google is warning that autonomous AI cyberattacks have moved from theory to practice. In a report published by Google Threat Intelligence Group on Nov. 16, the company said malicious actors are using autonomous LLM frameworks to scan software updates, identify patched flaws, and build attacks without human involvement.</p>
+<p>The warning lands as independent coverage in The Hill and Business Standard echoed the same core claim: attackers are shifting from AI as an assistant to AI as an operator. Google paired that warning with a defense pitch of its own, saying enterprises need agentic security tools to keep up with machine-speed intrusions.</p>
+<table>
+<tr><th>Key point</th><th>What Google said</th></tr>
+<tr><td>Report date</td><td>Nov. 16, 2026</td></tr>
+<tr><td>Main finding</td><td>Threat actors are using autonomous LLM frameworks to scan patches and build exploits without human involvement</td></tr>
+<tr><td>Observed example</td><td>exploit_agent, a multi-agent framework that automated vulnerability discovery and exploitation</td></tr>
+<tr><td>Near-term forecast</td><td>Unsophisticated attacks with little to no human interaction in about three months; sophisticated fully autonomous attacks in about six months</td></tr>
+<tr><td>Google response</td><td>Google AI Threat Defense, combining Gemini, Wiz, CodeMender, and Mandiant</td></tr>
+</table>
+<h2>What did Google say this week?</h2>
+<p>Google said the era of autonomous attacks has arrived. The company said attackers are now using autonomous LLM frameworks to continuously scan software updates, figure out what flaw was patched, and build an attack without human involvement.</p>
+<p>The clearest public line came from Google Threat Intelligence Group chief analyst John Hultquist, who said attackers are still going after known, unfixed issues, but are doing so with much greater speed and scale. He added that defenders will have to embrace agentic defense or risk falling behind.</p>
+<h2>Why does Google think the timing matters now?</h2>
+<p>The report says the shift is not about a new class of weakness, but about speed. Google argues that attackers are taking familiar targets, including unpatched systems and exposed services, and automating the steps that used to require a human operator.</p>
+<p>That matters because the company says the attack cycle is now compressing to machine speed. In Google’s telling, the defense problem is no longer just stopping one exploit, but keeping pace with software changes, patch analysis, exploit generation, and post compromise activity all at once.</p>
+<h2>What evidence did Google cite?</h2>
+<p>Google pointed to an exposed staging server hosting a multi-agent vulnerability research and weaponization framework called exploit_agent. The framework, Google said, integrated with multiple frontier and local LLMs and automated differential analysis of popular web apps.</p>
+<p>According to the report, exploit_agent compared code before and after patch announcements, analyzed the changes for possible vulnerabilities, drafted exploits, and then executed them without human intervention. Google also said the server contained scripts for internal reconnaissance, brute forcing, installing webshells, and removing other attackers’ webshells, along with victim data that suggested interest in French media, entertainment, and education sites.</p>
+<h2>How far along is the automation curve?</h2>
+<p>Google and independent coverage describe a fast move from AI assisted tasks to more autonomous workflows. The Hill reported that Google’s analysts placed the threat at Stage 5, where multiple attack lifecycle stages can be carried out by AI models with at least one human operator involved.</p>
+<p>Google’s own report text goes further on the forecast side. It says threat actors may be able to launch unsophisticated attacks with little to no human interaction within three months, and that sophisticated, fully autonomous agentic attacks are likely within six months.</p>
+<h2>Who gains, and who loses, if this trend holds?</h2>
+<p>Attackers gain scale, speed, and lower labor costs. Defenders lose time, because the patch window shrinks when an AI system can spot the patch, study the change, and weaponize it before many targets have updated.</p>
+<p>The report also says financially motivated actors are turning to LLMJacking, stealing model credentials and cloud resources and reselling access through underground proxy services. Google’s broader point is that AI is now a tool for intrusion, monetization, and influence operations, not just a helper for writing code or phishing lures.</p>
+<h2>What are the limits and trade-offs?</h2>
+<p>Google says the current systems are powerful, but not invisible. The report says autonomous execution can leave forensic traffic, recognizable identifiers, and code level traces, and that AI generated exploits can create false leads that burden defenders.</p>
+<p>That is the main skeptical check inside Google’s own report: current tools are fast, but they trade stealth for velocity. Google says the longer term risk is that as the models improve, these attacks will become harder to spot and easier to scale.</p>
+<h2>How is Google responding?</h2>
+<p>Google is pairing the warning with a commercial defense stack called Google AI Threat Defense. The company says the system combines Gemini and other frontier models, Wiz’s risk prioritization, CodeMender’s automated patching, and Mandiant’s expertise.</p>
+<p>On Google’s security page, the company describes a four step framework built around Prepare, Scan, Remediate, and Monitor. It says the aim is to find exposed risks, validate exploitability, generate fixes, and use machine-speed detection and response against the same kind of autonomous workflows it says attackers are now using.</p>
+</article>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://www.naturalnews.com/2026-11-19-era-autonomous-ai-cyberattacks-has-arrived-google.html", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795118457",
+    slug: "9-frontier-ai-models-tested-live-nov-2026-pricing-inver",
+    title: "9 Frontier AI Models Tested Live (Nov 2026): Pricing Inversions,",
+    deck: "Between November 9 and November 18, 2026, Google, OpenAI, and Anthropic shipped six flagship and...",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-19T19:56:20Z",
+    updatedAt: "2026-11-19T19:56:20Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/in-2027-ai-isnt-frontier-unless-general-models-control-robot.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: Between November 9 and November 18, 2026, Google, OpenAI, and Anthropic shipped six flagship and......",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<article><header><h1>9 Frontier AI Models Tested Live in November 2026: Pricing Inversions and Thinking Token Traps</h1><p>SAN FRANCISCO, Nov. 19, 2026</p></header><h2>Why does this report matter now?</h2><p>The report lands in the middle of a tight launch window. Between Nov. 9 and Nov. 18, Google, OpenAI, and Anthropic shipped new flagship and midtier models, each backed by launch claims that favored its own benchmarks and billing story.</p><p>The Dev.to post, published Nov. 19 and attributed to Mika, says it ran a controlled OpenRouter test across nine production models with temperature set to 0.2 and max_tokens set to 3000. It used three practical traps: a false-premise SQLite bug, a budget and timezone collision, and a strict word-count task that exposed hidden thinking costs in Google's Gemini 4 family.</p><h2>What did the live benchmark find?</h2><p>The clearest result is that price and usefulness did not move in lockstep. Some models were cheap and solid, some were fast but incomplete, and some turned hidden reasoning into a larger bill than their sticker price suggested.</p><table><thead><tr><th>Model</th><th>Official rate per 1M tokens</th><th>Live test note</th></tr></thead><tbody><tr><td>Claude Opus 5.5</td><td>$4 input, $20 output</td><td>Passed both practical traps</td></tr><tr><td>Claude Fable 5.2</td><td>$8 input, $40 output</td><td>Passed both practical traps</td></tr><tr><td>Gemini 4 Argon</td><td>$2 input, $10 output</td><td>Passed both traps with no reasoning tokens recorded in the article</td></tr><tr><td>Gemini 4 Carbon</td><td>$2 input, $10 output through Nov. 30, then $4 and $20</td><td>Passed both traps, but the strict summary task later hit an empty or near empty response</td></tr><tr><td>Gemini 4 Neon</td><td>$3 input, $15 output</td><td>Partial on the code trap, passed the ops task, then burned thousands of thinking tokens on the short summary prompt</td></tr><tr><td>Gemini 4 Hydrogen</td><td>$1.50 input, $7.50 output</td><td>Passed the code trap, partial on the ops task</td></tr><tr><td>GPT-6.2 Astra</td><td>$8 input, $40 output</td><td>Fastest average run, partial on the code trap</td></tr><tr><td>GPT-6.2 Sol</td><td>$2 input, $10 output</td><td>Failed the code trap, passed the ops task</td></tr><tr><td>Grok 4.7</td><td>$2 input, $6 output, with a higher tier above 200K input tokens</td><td>Failed the code trap, partial on the ops task</td></tr></tbody></table><p>The most striking inversion was inside Google's own lineup. Carbon's introductory rate holds at $2 and $10 through Nov. 30, while Neon sits at $3 and $15, which makes the midtier model more expensive than the flagship for a short stretch even before hidden reasoning is counted. The report says Neon also burned 4,424 hidden thinking tokens across two prompts, pushing its real cost well above Carbon's.</p><p>OpenAI's pair shows a different split. Astra is the premium model at $8 and $40, while Sol keeps the everyday work price at $2 and $10, so the pricing ladder is clear even before performance is considered. Anthropic's Fable 5.2 sits at $8 and $40 as well, but the company's announcement says Fable and Mythos are the same underlying model, with Fable carrying stronger cybersecurity and biology safeguards for broad release.</p><h2>Why did some models look expensive on simple tasks?</h2><p>Because reasoning tokens are not free. OpenRouter says reasoning tokens are output tokens, they are billed as output, and they count against the request's output limit, so a model can spend the entire budget thinking and return an incomplete or empty answer.</p><p>Google's own docs say the same thing in different language: max_output_tokens covers thought tokens and output together, and if the limit is hit while the model is still reasoning, the response can come back truncated or empty while still being billed. That is the key to the report's empty summary runs on Carbon and Neon, where the model spent the budget internally instead of producing visible text.</p><p>That behavior matters for buyers who judge models by sticker price alone. A cheaper rate card can still produce a bigger bill if the model reasons more, if the prompt is strict enough to trigger long internal deliberation, or if the harness gives the model too little room to finish the answer.</p><h2>What should readers watch next?</h2><p>The near term watchpoint is simple: Google's introductory pricing changes on Dec. 1, and that will flip the Neon versus Carbon comparison again. Until then, Carbon is cheaper per token than Neon even though Neon sits below it in the lineup, and the report argues that creates a temporary pricing inversion inside the same family.</p><p>The broader takeaway is that vendor launch pages now matter as much as benchmark charts. Google, OpenAI, and Anthropic have all published dated release notes and live pricing, while the OpenRouter docs explain why hidden reasoning can distort costs and turn a neat benchmark into a messy operational bill.</p><p>That is why the report reads less like a leaderboard and more like a field test. For production teams, the winners were the models that kept output clean under pressure, respected the token budget, and avoided the trap of spending money on invisible reasoning that never became useful text.</p></article>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://dev.to/m1kulya/9-frontier-ai-models-tested-live-nov-2026-pricing-inversions-thinking-token-traps--1k2h", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795103326",
     slug: "how-to-rank-in-google-maps-local-3-pack-in-2026",
     title: "How to Rank in Google Maps Local 3-Pack in 2026",
