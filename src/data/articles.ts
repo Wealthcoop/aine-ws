@@ -2,6 +2,70 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795276043",
+    slug: "google-algorithm-ai-search-update-tracker-demandsphere",
+    title: "Google Algorithm & AI Search Update Tracker | DemandSphere",
+    deck: "170+ Google Search ranking updates since 2000. Live from Google's Status Dashboard plus 20 years of historical data. Florida to AI Mode.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-21T15:45:03Z",
+    updatedAt: "2026-11-21T15:45:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/5-ways-to-upgrade-your-home-decor-with-google-search.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com Google Local News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com Google Local News.",
+          "Key focus: 170+ Google Search ranking updates since 2000. Live from Google's Status Dashboard plus 20 years of historical...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<h1>DemandSphere tracks 178 Google ranking updates as November 2026 core update stays active</h1><p>MOUNTAIN VIEW, Calif. DemandSphere's Google Search Algorithm &amp; AI Search Update Tracker now lists 178 updates from 2000 through 2026, and its latest entry is the November 2026 core update. The page ties live Google incident data to a long historical archive, giving SEOs one place to watch ranking shifts, spam actions, and AI milestones.</p><h2>What does the tracker show right now?</h2><p>The tracker shows 178 updates, covering 2000 through 2026, and marks the newest item as the November 2026 core update. It also says the average duration is 14 days, while core updates average 16 days each.</p><table><thead><tr><th>Key tracker fact</th><th>What the page says</th></tr></thead><tbody><tr><td>Total updates</td><td>178</td></tr><tr><td>Core updates</td><td>54</td></tr><tr><td>Spam updates</td><td>29</td></tr><tr><td>Years covered</td><td>25 years</td></tr><tr><td>Longest rollout</td><td>45 days, March 2024 core update</td></tr><tr><td>Live source</td><td>Google Search Status Dashboard for 2021 and later</td></tr><tr><td>Historical source</td><td>DemandSphere historical annotation database for earlier years</td></tr></tbody></table><p>DemandSphere says the tracker draws from three sources: Google's Search Status Dashboard, its own historical records, and Google Research publications for AI milestones. The page also says the live data feed is updated from Google incidents, while the older record stretches back to the early 2000s.</p><h2>How should publishers read a drop during a core update?</h2><p>Google says not to judge the effect until the rollout finishes, then wait at least a full week before analyzing Search Console data. It also says small position drops do not call for drastic action, while large drops deserve a deeper review of the pages and queries most affected.</p><p>The official advice is simple: compare the week after the update with the week before rollout began, review top pages and queries, and separate Web, Images, Video, and News performance if the traffic pattern is unclear. If improvements are made, Google says results can appear in a few days, but the learning period can stretch to several months, and some sites may need to wait for the next core update.</p><p>The live Google status page gives the current incident a start time of November 10, 2026 at 10:06 a.m. Pacific and says the release applies globally and to all languages. Google also says the rollout may take up to two weeks to finish, and the status dashboard currently lists the incident as active.</p><h2>Why does AI search matter in this tracker?</h2><p>DemandSphere treats AI as part of the ranking story, not a side note. It says Google has been building AI into search since at least Hummingbird, and its current coverage includes eight AI milestones from Hummingbird to AI Mode.</p><p>Google's own AI features page says AI Overviews and AI Mode surface relevant links, use query fan-out, and need no extra technical setup beyond being indexed and eligible for a snippet. Google also says AI Overviews and AI Mode appear when the system thinks they add value, and Search Console reports that traffic inside the Web search type alongside other search traffic.</p><p>That creates a practical trade-off for publishers: visibility can improve, but measurement is harder because the features are folded into broader Search Console reporting and their link sets can change by query, model, and response type. Google says existing SEO basics still matter, including crawlability, internal links, page experience, textual content, and structured data that matches the visible page.</p><p>Google's launch history gives that shift a clear date trail. AI Overviews began rolling out to everyone in the U.S. on May 14, 2024, and Google introduced AI Mode as an experiment on March 5, 2025.</p><h2>How complete is DemandSphere's historical record?</h2><p>The tracker says it covers 25 years of updates, from the first documented update in 2002 through 2026. DemandSphere's changelog says the Radar section launched in April 2026 with 173 historical updates, then added per-update descriptions, AI milestones, a live data feed, and a JSON API.</p><p>The API page says the dataset now contains 178 updates, with fields for name, start and end dates, duration, category, AI flag, incident ID, and description. It also says the data comes from three sources: Google's Search Status Dashboard for live ranking incidents from 2021 onward, DemandSphere's historical database for the pre dashboard years, and Google Research publications for AI milestones.</p><p>There is one small internal mismatch in the tracker copy. The header says 2000 to 2026, while the explainer says the first documented update is 2002, so the page is best read as a live tracker with a slightly broader date range in its summary than in its narrative.</p><p>For now, the practical read is straightforward: wait for the core update to finish, compare the right weeks, and do not rewrite pages in panic. DemandSphere's tracker is useful because it puts the active incident next to two decades of precedent, but it is still a reporting layer, not a substitute for Google's own records.</p></h2></p>`,
+    sources: [
+      { name: "You.com Google Local News", url: "https://www.demandsphere.com/research/demandsphere-radar/algorithm-update-tracker/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795276142",
+    slug: "frontier-models-get-a-price-cut-world-models-go-ga",
+    title: "Frontier Models Get a Price Cut, World Models Go GA -",
+    deck: "GPT-6.2 and Gemini 4 Neon cut flagship prices, Genie 4 goes GA, and open-weight models/adapters push agent efficiency.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-21T15:47:23Z",
+    updatedAt: "2026-11-21T15:47:23Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/securing-our-frontier-model-training-environment.jpg",
+    featuredImageCaption: "Documentation and technical briefing released by You.com AI Wire.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Verified announcement published directly by You.com AI Wire.",
+          "Key focus: GPT-6.2 and Gemini 4 Neon cut flagship prices, Genie 4 goes GA, and open-weight models/adapters push agent eff...",
+          "Full technical documentation and release notes are available in the official disclosure linked below."
+    ],
+    contentHtml: `<p><strong>SAN FRANCISCO</strong> OpenAI and Google spent the week cutting flagship prices, widening access to world simulation, and pushing agent builders toward cheaper inference paths. The result is a cleaner split in the market: one wave of higher-end models is now cheaper to run, while another set of tools is aimed at reducing the token overhead around those models.</p> <h2>What changed in the flagship model race?</h2>
+<p>OpenAI lowered the price of GPT-6.2 Astra, while Google introduced Gemini 4 Neon at a mid-tier price and kept Genie 4 behind a paid API gate. The common theme is efficiency, but the pricing math is different for each release.</p>
+<p>OpenAI says GPT-6.2 Astra is now 20 percent cheaper on input and output tokens than GPT-6 Astra, with cached input cut by 60 percent to $0.40 per million tokens. GPT-6.2 Sol keeps GPT-6.1 Sol pricing at $2 input, $0.10 cached input, and $10 output per million tokens, and both models are live in ChatGPT Work, Codex, and the API.</p>
+<p>Google’s Gemini 4 Neon launched on Nov. 18 at $3 per million input tokens, $15 per million output tokens, and $0.15 per million cached input tokens. It is available on the paid tier only, with a 1 million token context window and rollout through the Gemini API, Google AI Studio, Gemini for business, Google Antigravity, and the Gemini app for paid subscribers.</p> <table> <thead> <tr> <th>Model or product</th> <th>Launch status</th> <th>Price and access</th> <th>Key note</th> </tr> </thead> <tbody> <tr> <td>GPT-6.2 Astra</td> <td>Available</td> <td>$8 input, $0.40 cached input, $40 output per million tokens</td> <td>OpenAI says it is cheaper than GPT-6 Astra and ships with tighter cyber safeguards</td> </tr> <tr> <td>Gemini 4 Neon</td> <td>Available</td> <td>$3 input, $0.15 cached input, $15 output per million tokens</td> <td>Paid tier only, 1 million token context window</td> </tr> <tr> <td>Genie 4</td> <td>Available in preview</td> <td>$1.50 input, $9 text output, $17.50 video and audio output per million tokens</td> <td>About $0.10 per second of generation at 24 fps</td> </tr> </tbody>
+</table> <h2>Is Gemini 4 Neon really the cheaper option?</h2>
+<p>Neon is cheaper than the post promotion price of Gemini 4 Carbon, but it is not cheaper than Carbon’s temporary discount. Right now, Carbon is listed at $2 per million input tokens and $10 per million output tokens through Nov. 30, then moves to $4 and $20 on Dec. 1.</p>
+<p>That makes Neon a clearer product split than a simple price cut story. For the moment, Carbon remains the lower priced option on Google’s own table, while Neon is the newer model with a slightly higher current sticker price and a broader access story across Pro and Ultra tiers.</p>
+<p>Simon Willison’s comparison captures the awkward timing: Neon sits above discounted Carbon today, but below Carbon after the price change takes effect. The practical takeaway is that Google is not just trimming prices, it is reshaping the lineup around speed, depth, and who gets access first.</p> <h2>What does Genie 4 actually let developers do?</h2>
+<p>Genie 4 is a paid API product that generates a continuous 16:9 world at 24 fps with synchronized 48 kHz stereo audio. It bills by video output tokens, and the docs translate that into roughly $0.10 per second.</p>
+<p>The generation flow is built for live steering, not batch clips. Users create an interaction, connect over WebRTC or WebSocket, send world setup and movement events, and must call complete() to stop server-side generation and billing.</p>
+<p>The practical limits matter as much as the launch headline. Initial setup takes about 5 to 9 seconds, text edits can take 1 to 2 seconds to show up, the service is served from the United States, Western Europe, and Japan, and leaving a browser tab does not stop billing unless the session is properly completed.</p> <h2>Where do the efficiency gains come from outside the models?</h2>
+<p>The week also brought two smaller but important efficiency stories: Tool Retrieval in the Gemini API and harness adapters from Hugging Face. Both are about reducing wasted context and wasted work instead of asking for a larger base model.</p>
+<p>Google’s Tool Retrieval lets an agent keep a large tool library on standby and load schemas only when needed. The feature is in preview, has no separate charge, works with Gemini 3.6 and later including all Gemini 4 models, and is billed at normal token rates with a small fixed token overhead for tool search.</p>
+<p>Hugging Face’s harness adapters take a different route. The team trained LoRA adapters on top of Qwen3.8-27B inside real harnesses, then reported gains such as Terminal-Bench 2.1 rising from about 39 percent to 55 percent while average token use dropped from about 2.9K to 1.5K in the pi harness.</p> <h2>What is the skeptical read on these launches?</h2>
+<p>The gains are real inside the vendor and author reports, but the evidence is uneven across products. The strongest claims come from first party benchmark tables, while the independent checks are thinner, and some results were produced under settings that are not easy to replay outside the original harness.</p>
+<p>That matters for both model quality and buying decisions. OpenAI’s Astra and Sol claims rely on internal benchmarking and safety filters, Google’s Neon and Genie claims come with their own evaluation frames, and Hugging Face’s adapter results are tied to the exact harness, rollout, and task mix used in training.</p>
+<p>For buyers, the near term lesson is practical: the cheapest path is not always the newest model, and the best result may come from reducing context, tool calls, or session waste before you pay for more raw capability.</p>`,
+    sources: [
+      { name: "You.com AI Wire", url: "https://dev.to/felipe0liveira/frontier-models-get-a-price-cut-world-models-go-ga-and-efficiency-tricks-steal-the-show-a4h", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795257596",
     slug: "google-business-profile-optimization-9-proven-ways",
     title: "Google Business Profile Optimization: 9 Proven Ways",
