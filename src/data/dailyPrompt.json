@@ -1,0 +1,8 @@
+{
+  "title": "Audit Your Local Competitor Gap in 5 Minutes",
+  "useCase": "Local Businesses & Agencies",
+  "prompt": "Act as a local search analyst. Compare my business ([Business Name], [City], [Primary Service]) against the top 3 competitors listed on Google Maps for [Target Keyword]. Build a 4-column table showing: (1) missing service pages on my site, (2) questions buyers ask that we do not answer directly, (3) review count gap, and (4) the single fastest fix to execute this week.",
+  "model": "ChatGPT / Claude / Gemini",
+  "sourceEdition": "AINE.WS Newsroom Desk",
+  "updatedAt": "2026-11-23"
+}

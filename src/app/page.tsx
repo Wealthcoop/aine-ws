@@ -7,6 +7,7 @@ import { isArticleIndexable } from '@/lib/articleFilters'
 import { ArticleCard } from '@/components/ArticleCard'
 import { NewsletterForm } from '@/components/NewsletterForm'
 import TrendingTools from '@/components/TrendingTools'
+import DailyPrompt from '@/components/DailyPrompt'
 import {
   Radio,
   Flame,
@@ -132,6 +133,10 @@ export default function HomePage() {
             {/* Trending Tools Showcase */}
             <div className="mt-6">
               <TrendingTools />
+            </div>
+
+            <div className="mt-6">
+              <DailyPrompt />
             </div>
           </aside>
         </section>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { MONETIZATION_CONFIG } from '@/config/monetization'
+import trendingToolsData from '@/data/trendingTools.json'
 
 export interface TrendingTool {
   name: string
@@ -8,38 +9,10 @@ export interface TrendingTool {
   emoji: string
   description: string
   category?: string
+  pinned?: boolean
 }
 
-export const TRENDING_TOOLS: TrendingTool[] = [
-  {
-    name: 'HubSpot',
-    url: 'https://www.hubspot.com',
-    emoji: '🧡',
-    description: 'Customer platform for marketing automation, sales pipelines, and CRM workflows.',
-    category: 'CRM & Marketing Automation',
-  },
-  {
-    name: 'Hailuo AI',
-    url: 'https://hailuoai.video',
-    emoji: '🎬',
-    description: 'Video generation engine and AI animations from text prompts.',
-    category: 'Generative AI Video',
-  },
-  {
-    name: 'Claude',
-    url: 'https://claude.ai',
-    emoji: '🤖',
-    description: 'Frontier AI assistant by Anthropic for analysis, code synthesis, and deep research.',
-    category: 'Frontier AI Workspace',
-  },
-  {
-    name: 'InVideo',
-    url: 'https://invideo.io',
-    emoji: '⚡',
-    description: 'Video creation platform with automated voiceovers and editing tools.',
-    category: 'Video Production',
-  },
-]
+export const TRENDING_TOOLS: TrendingTool[] = trendingToolsData as TrendingTool[]
 
 interface TrendingToolsProps {
   className?: string
@@ -103,4 +76,3 @@ export default function TrendingTools({ className = '', limit }: TrendingToolsPr
     </aside>
   )
 }
-
