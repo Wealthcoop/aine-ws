@@ -813,10 +813,11 @@ def synthesize_and_repair_article(item, feed_source, existing_slugs, recent_imag
     source_name = feed_source['name']
 
     # 6. Generate 3 informative, story-specific takeaways
+    repaired_title = re.sub(r'\s+-\s+(?:WSJ|Reuters|Bloomberg|TechCrunch|CNBC|The Verge|Wikipedia)$', '', repaired_title).strip()
     takeaways = [
-        f"Verified announcement published directly by {source_name}.",
+        f"Primary reporting tracked by AINE.WS Newsroom ({source_name}).",
         f"Key focus: {repaired_deck[:110]}...",
-        "Full technical documentation and release notes are available in the official disclosure linked below."
+        "Full technical documentation and release notes are linked in the primary sources below."
     ]
 
     # 7. Determine Editorial Tier & Angle
@@ -978,7 +979,7 @@ Close all HTML tags cleanly. Output only continuation HTML. No em dashes."""
         "updatedAt": repaired_date,
         "readingTimeMinutes": reading_time,
         "featuredImage": chosen_image,
-        "featuredImageCaption": f"Documentation and technical briefing released by {source_name}.",
+        "featuredImageCaption": f"AINE.WS Newsroom analysis referencing {source_name}.",
         "isBreaking": True,
         "isFeatured": False,
         "keyTakeaways": takeaways,
@@ -1130,14 +1131,14 @@ def main():
         you_queries = [
             {
                 "query": "Google Business Profile algorithm update OR Google Maps local search rankings",
-                "name": "You.com Google Local News",
+                "name": "Local Search Desk",
                 "category": "local-business",
                 "authorId": "molly-perkins",
                 "dateline": "MOUNTAIN VIEW, Calif."
             },
             {
                 "query": "Frontier AI models OpenAI Anthropic Google breaking news",
-                "name": "You.com AI Wire",
+                "name": "AI Industry Desk",
                 "category": "ai-tools",
                 "authorId": "justin-davis",
                 "dateline": "SAN FRANCISCO"
@@ -1151,6 +1152,8 @@ def main():
             for item in y_items:
                 if len(new_articles) >= limit:
                     break
+                if any(bad in (item.get("link", "") + " " + item.get("title", "")).lower() for bad in ["wikipedia.org", "wikipedia", "elfsight.com", "widget"]):
+                    continue
                 full_text = f"{item['title']} {item['summary']}"
                 if not AI_KEYWORDS_REGEX.search(full_text):
                     continue
