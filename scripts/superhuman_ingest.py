@@ -5,9 +5,11 @@ Polls Resend Inbound (`wire@goldstandard.monster`) for newly forwarded Superhuma
 editions across all formats (full weekday, short weekday, Sunday Robotics & AI).
 
 Editorial & Copyright Policy:
-- Uses forwarded newsletter editions strictly as a topic and primary-source radar.
-- Follows tracking links to primary publisher URLs and drafts 100% original
-  AINE.WS analysis using existing `newsroom_wire.py` synthesis & guardrails.
+- Uses forwarded newsletter editions strictly as a topic and entity radar.
+- Resolves real primary publisher URLs via You.com Search API (never scraping
+  Cloudflare-gated email click trackers and never copying newsletter prose).
+- Drafts 100% original AINE.WS analysis using existing `newsroom_wire.py` synthesis
+  and editorial guardrails.
 - Updates `src/data/trendingTools.json` ONLY when a Trending Tools section exists,
   preserving pinned monetization/affiliate entries.
 - Updates `src/data/dailyPrompt.json` ONLY when a prompt/tutorial theme exists,
@@ -48,6 +50,8 @@ IGNORE_DOMAINS = (
     "facebook.com",
     "tiktok.com",
     "youtube.com",
+    "youtu.be",
+    "reddit.com",
     "wikipedia.org",
     "elfsight.com",
     "mailto:",
@@ -96,8 +100,14 @@ def resend_get(api_key: str, path: str) -> dict:
             "User-Agent": "AINE-Newsroom-Wire/1.0",
         },
     )
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    last_err = None
+    for ctx in (nw._SSL_CTX, nw._UNVERIFIED_CTX):
+        try:
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            last_err = e
+    raise last_err
 
 
 def strip_utm_params(url: str) -> str:
@@ -113,34 +123,6 @@ def strip_utm_params(url: str) -> str:
         )
     except Exception:
         return url
-
-
-def unwrap_url(raw_url: str) -> str:
-    """Resolve newsletter tracking redirects to the real primary destination URL."""
-    url = unescape(raw_url).strip()
-    if not url.startswith(("http://", "https://")):
-        return ""
-    try:
-        req = urllib.request.Request(
-            url,
-            method="HEAD",
-            headers={"User-Agent": "Mozilla/5.0 (compatible; AINE-Wire/1.0)"},
-        )
-        with urllib.request.urlopen(req, timeout=8) as r:
-            final = r.geturl()
-            return strip_utm_params(final)
-    except Exception:
-        try:
-            req = urllib.request.Request(
-                url,
-                method="GET",
-                headers={"User-Agent": "Mozilla/5.0 (compatible; AINE-Wire/1.0)"},
-            )
-            with urllib.request.urlopen(req, timeout=8) as r:
-                final = r.geturl()
-                return strip_utm_params(final)
-        except Exception:
-            return strip_utm_params(url)
 
 
 def is_valid_primary_url(url: str) -> bool:
@@ -162,54 +144,98 @@ def html_to_clean_text(html: str) -> str:
     return "\n".join(ln for ln in lines if ln)
 
 
-def extract_links_from_html(html: str) -> list:
-    out = []
-    seen = set()
-    for m in re.finditer(r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, flags=re.I | re.S):
-        href = unescape(m.group(1)).strip()
-        anchor = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", m.group(2)))).strip()
-        if not href.startswith(("http://", "https://")) or len(anchor) < 3:
+def strip_raw_urls(text: str) -> str:
+    """Remove long inline email tracking URLs so truncation never hides bottom sections."""
+    cleaned = re.sub(r"<https?://[^>]+>", "", text)
+    cleaned = re.sub(r"https?://\S+", "", cleaned)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def resolve_primary_source_via_you(query: str, freshness: str = "week", limit: int = 5) -> dict:
+    """
+    Use the official You.com Search API to resolve a primary publisher URL and
+    fresh snippet for a newsletter story topic or AI tool homepage.
+    """
+    api_key = (
+        os.environ.get("YOU_API_KEY")
+        or os.environ.get("YDC_API_KEY")
+        or "ydc-sk-ad77719b3933f5e1-YUmlb4x2xLYEJcA7fNqrx2lai04J6Rzd-dd75ddeb"
+    )
+    if not api_key or not query.strip():
+        return {}
+
+    payload = {"query": query.strip()[:220], "count": limit}
+    if freshness:
+        payload["freshness"] = freshness
+
+    req = urllib.request.Request(
+        "https://ydc-index.io/v1/search",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "X-API-Key": api_key,
+            "Content-Type": "application/json",
+            "User-Agent": "AINE-Newsroom/1.0",
+        },
+    )
+    for ctx in (nw._SSL_CTX, nw._UNVERIFIED_CTX):
+        try:
+            with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                results = data.get("results", {}).get("web", [])
+                for r in results:
+                    link = strip_utm_params((r.get("url") or "").strip())
+                    if is_valid_primary_url(link):
+                        return {
+                            "url": link,
+                            "title": (r.get("title") or "").strip(),
+                            "summary": ((r.get("description") or r.get("snippet") or "").strip()),
+                            "published": str(r.get("page_age") or datetime.now(timezone.utc).isoformat()),
+                        }
+                return {}
+        except Exception as e:
+            print(f"  -> You.com primary-source lookup attempt failed for '{query[:55]}': {e}")
             continue
-        if any(skip in anchor.lower() for skip in ("unsubscribe", "privacy", "sponsor", "advertise", "read online", "view in browser", "refer a friend")):
-            continue
-        if href in seen:
-            continue
-        seen.add(href)
-        out.append({"raw_url": href, "anchor": anchor[:140]})
-    return out
+    return {}
 
 
 def extract_structured_radar(subject: str, html_body: str, text_body: str) -> dict:
     """
     Use the editorial LLM strictly to parse an incoming Superhuman newsletter into
-    a structured radar (primary story topics + links, optional trending tools,
+    a structured topic radar (top primary news stories, optional trending tools,
     optional prompt theme). Returns empty lists/None cleanly for short editions.
     """
-    clean_text = text_body.strip() if text_body and len(text_body.strip()) > 300 else html_to_clean_text(html_body or "")
-    links = extract_links_from_html(html_body or "")[:45]
-    link_index = "\n".join(f"- [{i}] {lk['anchor']} -> {lk['raw_url']}" for i, lk in enumerate(links))
+    # Prefer clean stripped text so huge Beehiiv tracking URLs never consume context
+    if html_body and len(html_body.strip()) > 400:
+        clean_text = strip_raw_urls(html_to_clean_text(html_body))
+    else:
+        clean_text = strip_raw_urls(text_body or "")
 
     sys_prompt = (
-        "You extract structured metadata from a forwarded AI newsletter so a newsroom can "
-        "independently report on the underlying primary news stories. Return STRICT JSON only, "
-        "with keys: edition_type ('full'|'short'|'robotics'), stories (array of up to 2 objects: "
-        "{title, topic_summary, link_index, is_robotics}), tools (array of objects if a Trending Tools "
-        "section exists else []: {name, link_index, description, category, emoji}), prompt_idea "
-        "(object if a prompt or productivity workflow section exists else null: "
-        "{title, useCase, prompt, model}). Never include sponsor ads or newsletter promos. "
+        "You extract structured metadata from a forwarded AI newsletter so an independent "
+        "newsroom can locate the underlying primary news sources and report original stories. "
+        "Return STRICT JSON only with keys:\n"
+        "- edition_type: 'full' | 'short' | 'robotics'\n"
+        "- stories: array of up to 2 top non-sponsored news stories (skip sponsor ads, "
+        "newsletter promos, and pure social-media video clips when major tech/business news "
+        "exists): [{title, topic_summary, search_query, is_robotics}]\n"
+        "- tools: array of objects ONLY if a Trending AI Tools / Productivity Tools section "
+        "exists in the email (otherwise []): [{name, search_query, description, category, emoji}]\n"
+        "- prompt_idea: object ONLY if a Prompt of the Day / AI Prompt / tutorial workflow "
+        "section exists in the email (otherwise null): {title, useCase, prompt, model}\n"
+        "For search_query, provide a crisp 6 to 12 word Google/news query naming the exact "
+        "company, product, and event so a search API finds the primary publisher article.\n"
         "For prompt_idea, write an original practical prompt for small business owners and agencies."
     )
     user_prompt = (
         f"Subject: {subject}\n\n"
-        f"Newsletter Text (truncated):\n{clean_text[:9500]}\n\n"
-        f"Links:\n{link_index}\n\n"
+        f"Full Newsletter Text (tracking URLs removed):\n{clean_text[:14000]}\n\n"
         "Return strict valid JSON only."
     )
     raw = nw.ask_editorial_generator(sys_prompt, user_prompt, max_tokens=1800)
     if not raw:
         return {"edition_type": "short", "stories": [], "tools": [], "prompt_idea": None}
 
-    # Strip possible code fences
     raw = re.sub(r"^```(?:json)?\s*", "", raw.strip())
     raw = re.sub(r"\s*```$", "", raw.strip())
     try:
@@ -218,20 +244,20 @@ def extract_structured_radar(subject: str, html_body: str, text_body: str) -> di
         m = re.search(r"\{[\s\S]*\}", raw)
         parsed = json.loads(m.group(0)) if m else {}
 
-    # Resolve raw links for stories and tools
-    for st in parsed.get("stories") or []:
-        idx = st.get("link_index")
-        if isinstance(idx, int) and 0 <= idx < len(links):
-            st["url"] = unwrap_url(links[idx]["raw_url"])
-        else:
-            st["url"] = ""
+    # Resolve primary source URLs via You.com Search API (clean, no tracker scraping)
+    for st in (parsed.get("stories") or [])[:3]:
+        q = (st.get("search_query") or st.get("title") or "").strip()
+        hit = resolve_primary_source_via_you(q, freshness="week", limit=6)
+        if not hit:
+            hit = resolve_primary_source_via_you(q, freshness="month", limit=6)
+        st["url"] = hit.get("url", "")
+        st["primary_summary"] = hit.get("summary") or st.get("topic_summary") or ""
+        st["primary_published"] = hit.get("published") or ""
 
-    for tl in parsed.get("tools") or []:
-        idx = tl.get("link_index")
-        if isinstance(idx, int) and 0 <= idx < len(links):
-            tl["url"] = unwrap_url(links[idx]["raw_url"])
-        else:
-            tl["url"] = ""
+    for tl in (parsed.get("tools") or [])[:6]:
+        q = (tl.get("search_query") or f"{tl.get('name', '')} AI tool official website").strip()
+        hit = resolve_primary_source_via_you(q, freshness="", limit=4)
+        tl["url"] = hit.get("url", "")
 
     return parsed
 
@@ -273,7 +299,7 @@ def update_trending_tools(new_tools: list, dry_run: bool = False) -> int:
         if len(merged) >= 6:
             break
 
-    # Fill remaining slots from previous non-pinned tools if fewer than 4
+    # Fill remaining slots from previous non-pinned tools if fewer than 5
     for old in existing:
         if len(merged) >= 5:
             break
@@ -345,6 +371,7 @@ def main():
     with open(ARTICLES_TS_PATH, "r", encoding="utf-8") as f:
         articles_content = f.read()
 
+    db.seed_from_existing_articles(articles_content)
     recent_images = re.findall(r"featuredImage:\s*['\"]([^'\"]+)['\"]", articles_content)
     existing_slugs = set(re.findall(r"slug:\s*['\"]([^'\"]+)['\"]", articles_content))
     new_articles = []
@@ -371,13 +398,21 @@ def main():
             subject, full.get("html") or "", full.get("text") or ""
         )
         edition_type = radar.get("edition_type") or "full"
-        print(f"  -> Parsed edition_type={edition_type}, stories={len(radar.get('stories') or [])}, tools={len(radar.get('tools') or [])}, has_prompt={bool(radar.get('prompt_idea'))}")
+        stories = radar.get("stories") or []
+        tools = radar.get("tools") or []
+        prompt_idea = radar.get("prompt_idea")
+        print(
+            f"  -> Parsed edition_type={edition_type}, stories={len(stories)}, "
+            f"tools={len(tools)}, has_prompt={bool(prompt_idea)}"
+        )
 
-        # 1. Draft original AINE.WS articles from primary source URLs (max 2 per edition)
-        for st in (radar.get("stories") or [])[:2]:
+        published_from_email = 0
+        # 1. Draft original AINE.WS articles from verified primary source URLs (max 2 per edition)
+        for st in stories[:2]:
             primary_url = st.get("url") or ""
             st_title = (st.get("title") or "").strip()
             if not st_title or not is_valid_primary_url(primary_url):
+                print(f"  -> Skipping story '{st_title[:55]}': no valid primary source URL resolved ('{primary_url[:60]}').")
                 continue
             is_dup, reason = db.is_duplicate(primary_url, st_title)
             if is_dup:
@@ -394,30 +429,36 @@ def main():
             item = {
                 "title": st_title,
                 "link": primary_url,
-                "summary": st.get("topic_summary") or st_title,
-                "published": full.get("created_at") or datetime.now(timezone.utc).isoformat(),
+                "summary": st.get("primary_summary") or st.get("topic_summary") or st_title,
+                "published": st.get("primary_published") or full.get("created_at") or datetime.now(timezone.utc).isoformat(),
             }
+            print(f"  -> Primary source resolved for '{st_title[:55]}': {primary_url}")
+            if dry_run:
+                print(f"  [DRY-RUN] Would draft original article for: {st_title}")
+                published_from_email += 1
+                continue
             try:
                 art = nw.synthesize_and_repair_article(item, feed_source, existing_slugs, recent_images)
                 new_articles.append(art)
                 existing_slugs.add(art["slug"])
                 recent_images.insert(0, art["featuredImage"])
-                if not dry_run:
-                    db.record_article(primary_url, art["title"], art["slug"])
+                db.record_seen(primary_url, art["title"], feed_source["name"], published=True)
+                published_from_email += 1
                 print(f"  + Drafted original story: {art['title']} ({art['slug']})")
             except Exception as e:
                 print(f"  -> Skipped story '{st_title[:45]}': {e}")
 
         # 2. Update Trending Tools ONLY when this edition includes tools
-        tools_added = update_trending_tools(radar.get("tools") or [], dry_run=dry_run)
+        tools_added = update_trending_tools(tools, dry_run=dry_run)
         if tools_added:
             print(f"  + Updated trendingTools.json ({tools_added} candidate tools merged).")
 
         # 3. Update Daily Business Prompt ONLY when this edition includes a prompt
-        if update_daily_prompt(radar.get("prompt_idea"), f"AINE.WS {edition_type.title()} Edition", dry_run=dry_run):
+        prompt_updated = update_daily_prompt(prompt_idea, f"AINE.WS {edition_type.title()} Edition", dry_run=dry_run)
+        if prompt_updated:
             print("  + Updated dailyPrompt.json.")
 
-        if not dry_run:
+        if not dry_run and (published_from_email > 0 or tools_added > 0 or prompt_updated):
             mark_email_processed(DB_PATH, email_id, subject)
 
     if new_articles and not dry_run:
@@ -429,7 +470,13 @@ def main():
             with open(ARTICLES_TS_PATH, "w", encoding="utf-8") as f:
                 f.write(updated)
             for a in new_articles:
-                nw.record_publishing_ledger(a["title"], a["slug"], a.get("_clean_words", 750), "SUCCESS", category=a["category"])
+                nw.record_publishing_ledger(
+                    a["title"],
+                    a["slug"],
+                    a.get("_clean_words", 750),
+                    "SUCCESS",
+                    category=a["category"],
+                )
             nw.push_search_engine_indexing(new_articles)
             print(f"[Superhuman Ingest] Published {len(new_articles)} original article(s) to articles.ts.")
 
