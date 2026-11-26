@@ -2,6 +2,72 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795733193",
+    slug: "how-deutsche-telekom-is-rewiring-telecommunications-wit",
+    title: "How Deutsche Telekom is rewiring telecommunications with AI",
+    deck: "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-10T07:00:00Z",
+    updatedAt: "2026-07-10T07:00:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/corporate-ai-costs-are-falling-but-companies-are-using.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (OpenAI Official News).",
+          "Key focus: How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workfl...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<article>
+<p><strong>SAN FRANCISCO</strong> , July 10, 2026: Deutsche Telekom is turning its December collaboration with OpenAI into a broader operating change, using ChatGPT Enterprise and API tooling across employee workflows, customer service, and network operations. The company says it serves more than 300 million customers across Europe and the United States and employs more than 200,000 people, which makes this a scale test, not a pilot in a corner of the business.</p> <h2>What did Deutsche Telekom and OpenAI actually announce?</h2>
+<p>Deutsche Telekom and OpenAI announced a multi-year collaboration on December 9, 2025. OpenAI said Deutsche Telekom would get early access to an alpha-phase model, and that the first pilots were planned for Q1 2026.</p>
+<p>The companies framed the deal as a product shift and an operating-model shift. Deutsche Telekom said it would make ChatGPT Enterprise available across the organization, with AI used more deeply in customer care, internal copilots, and network operations.</p> <table border='1' cellspacing='0' cellpadding='6'> <thead> <tr> <th>Milestone</th> <th>What the source says</th> </tr> </thead> <tbody> <tr> <td>December 9, 2025</td> <td>Multi-year collaboration announced, early access to an alpha-phase model, first pilots planned for Q1 2026.</td> </tr> <tr> <td>July 10, 2026</td> <td>OpenAI case study says Deutsche Telekom has 50,000+ monthly active users of ChatGPT and API tooling and a 546% increase in AI tool usage since the start of 2026.</td> </tr> <tr> <td>March 2, 2026</td> <td>Telekom separately announced the Magenta AI Call Assistant with ElevenLabs for live call support.</td> </tr> </tbody>
+</table> <h2>How is AI changing the telco's internal work?</h2>
+<p>Deutsche Telekom says the first phase focused on employees, with ChatGPT Enterprise and broad experimentation. The company now says more than 50,000 people use ChatGPT and API tooling monthly, and AI tool usage is up 546% since the start of 2026.</p>
+<p>The stated goal is process redesign, not just automation. Jonathan Abrahamson, the company's chief product and digital officer, said: &quot;Becoming AI-native is not about adding AI to the way we work today. It is about redesigning the work itself.&quot;</p>
+<p>That logic is already shaping how Deutsche Telekom describes customer care. The company says AI-powered service is still early, but it sees medium and longer-term potential as systems gain context, learn from each interaction, and reduce handoffs and wait times.</p> <h2>What is changing for customers and networks?</h2>
+<p>In the July case study, Deutsche Telekom says AI is moving into live customer interactions through live translation, in-call assistants, and post-call summaries, without requiring customers to adopt new applications. It also says AI is being used with various partners to optimize mobile network performance in real time as demand shifts through the day.</p>
+<p>The company is selling this as a way to make support faster and communications more useful while keeping the experience inside the network people already use. The operational bet is clear: if AI can handle routine work at telco scale, it can reduce friction for customers and free staff for cases that still need human judgment.</p>
+<p>That promise comes with a harder test than most enterprise AI deployments. Telecom networks are massive, heavily regulated, and exposed to spikes in demand from commuters, sporting events, and other high-volume moments that can stress even mature systems.</p> <h2>What is live today, and what still looks experimental?</h2>
+<p>The most concrete live evidence in the source material is the employee rollout and the usage numbers from the July OpenAI case study. The voice product is a separate Telekom initiative with ElevenLabs, not OpenAI, and Telekom presented it in March 2026 as a vision for AI-supported calls rather than a finished consumer product.</p>
+<p>Magenta AI Call Assistant has its own guardrails. Users must say &quot;Hey Magenta&quot; to activate it, all call participants are notified, and no conversation content is stored or analyzed before activation. Telekom said the first features would include live translation, conversation summaries, and contextual assistance, with customers in Germany first and support for up to 50 languages planned over the next 12 months.</p>
+<p>The company also said the technical integration at the network level was carried out by Radisys. Heise reported the assistant was not yet ready for testing and that Telekom had not disclosed pricing, which is a useful reminder that demo-stage ambition is not the same thing as a finished commercial service.</p> <h2>What does this mean for the telecom industry?</h2>
+<p>Deutsche Telekom is trying to make AI a network feature, not just a desktop tool. If the company can keep turning routine support, translation, and call assistance into embedded services, it could set a template for how major carriers use generative AI without forcing customers into new apps or devices.</p>
+<p>The bigger lesson is that telco AI will be judged on execution, not slogans. Deutsche Telekom has put real numbers behind the shift, but the hardest work is still ahead: moving from internal adoption and polished demos to services that are reliable, secure, and useful every day.</p>
+<p>For now, the company has shown the outline of an AI-native telco. The real test is whether customers and employees feel the difference when the novelty fades and the systems become part of the daily routine.</p>
+</article>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/deutsche-telekom", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795733308",
+    slug: "history-warns-anthropic-nasdaq-ant-investors-every-comp",
+    title: "History Warns Anthropic (NASDAQ: ANT) Investors: Every Comparable Mega-IPO Lost At Least A Third Within Two",
+    deck: "History Warns Anthropic (NASDAQ: ANT) Investors: Every Comparable Mega-IPO Lost At Least A Third Within Two Years Foreign Policy Journal",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-26T22:35:00Z",
+    updatedAt: "2026-11-26T22:35:00Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/anthropic-warns-of-ai-worms-that-might-infect-smart-hom.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (Anthropic Wire (Google News 1h)).",
+          "Key focus: History Warns Anthropic (NASDAQ: ANT) Investors: Every Comparable Mega-IPO Lost At Least A Third Within Two Ye...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<article> <h2>What happened to Anthropic's stock this week?</h2> <p>Anthropic fell to $82.79 on Nov. 25, five trading sessions after its Nasdaq debut. That puts the stock 14.8% below its $97.17 first close and just under its $83 offer price.</p> <p>The move began with a strong opening day, when the company priced its offering at $83 a share, opened at $111.50, and finished its first session at $97.17. By the close on Nov. 25, the shares had given back most of that debut pop even though the broader market was not moving in the same direction.</p> <table> <thead> <tr> <th>Item</th> <th>Verified detail</th> </tr> </thead> <tbody> <tr> <td>IPO price</td> <td>$83.00 per share</td> </tr> <tr> <td>First trade</td> <td>$111.50 on Nov. 19, 2026</td> </tr> <tr> <td>First close</td> <td>$97.17</td> </tr> <tr> <td>Nov. 25 close</td> <td>$82.79</td> </tr> <tr> <td>Change from first close</td> <td>Down 14.8%</td> </tr> <tr> <td>Historical comparison set</td> <td>Facebook, Uber, Snap, Lyft, Airbnb, Snowflake, DoorDash, Tesla, Coinbase</td> </tr> </tbody> </table> <h2>Why is this comparison gaining attention now?</h2> <p>The headline is getting traction because the stock has already slipped into a pattern that often worries IPO buyers. A Foreign Policy Journal analysis says every one of nine comparable U.S. technology listings eventually fell at least 33.9% from its first close within two years.</p> <p>That same report says the nine stocks all dropped at least 10% below their first close within six trading days, which is the screen used to build the sample. Four of the nine, including Facebook and Lyft, broke that line within a single session after listing, while the median worst decline across the group reached 64.3% below the first close.</p> <h2>What does the historical sample actually show?</h2> <p>The sample is small, but it is concrete. It includes only nine major U.S. tech listings that weakened quickly after their debuts, and it measures them against their first trading-day close rather than the offer price.</p> <p>That framing matters because it captures what happens after the initial fanfare fades. The report says Tesla was the most resilient comparison, still falling 33.9% from its first close before recovering in 90 trading days, while Coinbase was the worst case, dropping 90.1% from its first close.</p> <p>Facebook is the clearest long-form example in the set. It closed its first day at $38.23, sank to $17.73 by Sept. 4, 2012, then climbed back above its first close 303 trading days later and finished 58.3% higher two years after listing.</p> <p>Lyft shows the opposite outcome. It never traded back above its $78.29 first close after its March 2020 debut, and the report uses that path to remind readers that some IPOs take much longer to recover, or do not recover at all.</p> <h2>How does Anthropic compare with those earlier deals?</h2> <p>The comparison is useful, but it is not exact. Anthropic is much larger than any of the nine historical cases were at their own listings, so the stock’s path will not mirror those names line for line.</p> <p>Even so, the article argues that size does not erase risk. It points out that Anthropic entered this period with a market value around $1.11 trillion at Wednesday’s close, while the broader market was not under clear strain, with the S&amp;P 500 tracking fund SPY up 0.1% over the same stretch.</p> <p>The company’s own public filings show why investors are watching closely. Anthropic reported $33.242 billion in revenue for the nine months ended Sept. 30, 2026, and an operating loss of $1.260 billion for that period, according to its SEC filing.</p> <h2>What is the next test for the stock?</h2> <p>The next checkpoints are earnings and the first big lock-up date. Anthropic’s first quarterly report as a public company will test whether sales remain above the $68 billion annualized pace cited for its September quarter, and Dec. 15 is the next release date investors are watching.</p> <p>According to the prospectus, up to 303 million shares become eligible for sale on Dec. 15, split into 174 million Class A shares and 129 million Class N shares. That supply overhang, plus the company’s heavy compute commitments and steep loss profile, is why the early trading range matters more than a single headline close.</p> <p>Foreign Policy Journal, reporting from San Francisco, is making a simple point: the first week after an IPO can be misleading, and history has a way of humbling buyers who chase the debut excitement. For Anthropic investors, the question is not whether the stock had a hot opening, but whether it can hold up after the market shifts from story to numbers.</p>
+</article>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSmxIcHNWMTdzNXk1OTBva1ZrOW9wTU1hVWhUYjNxbEtoQlNLOVJNUnVOWkExb3JyU0xjbmJOcl90ejZyQmFhaWRZUXM2aU1kUHlxUjBmZXk4a0VpR3FaNU40VE1IMUJJQkM3Y3NBS3hfbDY2V1lQYjFTcExURzdocXZKUTM3V25qZEticGtDZjYzek9nNEk3Rk9Qdk80VldkRWxXLWRGcUpGMWRfZXljWWpYcXU5TnRfVm9UMkkyUE51aGhETndHMDNvYTFNYmFtVEN5dTRGcjYxb0xaeVVrR3ZnaHNjVFVSTmppZFlhQQ?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795729625",
     slug: "the-us-is-advancing-ai-safety-through-state-and-federal",
     title: "The US is advancing AI safety through state and federal action",
