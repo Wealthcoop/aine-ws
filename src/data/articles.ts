@@ -2,6 +2,69 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795780026",
+    slug: "how-to-improve-a-google-business-profile-so-it-shows-up",
+    title: "How to improve a Google Business Profile so it shows up in Maps -",
+    deck: "Google Maps SEO is the work of making a Google Business Profile complete, accurate and well reviewed so it appears in Maps and the local pack when nearby\u2026",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-27T11:45:03Z",
+    updatedAt: "2026-11-27T11:45:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/lowes-answers-millions-of-home-improvement-questions-wi.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing Local Search Desk.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (Local Search Desk).",
+          "Key focus: Google Maps SEO is the work of making a Google Business Profile complete, accurate and well reviewed so it app...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<p>Mountain View, Calif. The Ranking Store has published a guide on how to improve a Google Business Profile so it shows up in Maps, but the page itself does not show a byline, a publication date, or any Google announcement tied to a fresh product change. Instead, it restates Google’s standing local ranking advice: make the profile complete and accurate, choose the right category, collect real reviews, and keep the listing active.</p><h2>What is the actual news peg?</h2><p>There is no breaking Google product announcement in the source page. The piece is an evergreen how-to guide, and the page does not identify an author, an update date, or a measurable before-and-after case study.</p><p>That matters because the article reads more like a practical checklist than a news event. It promotes profile cleanup, reputation work, and local link building, and it also points readers toward The Ranking Store’s own SEO tools, including Backlink Factory, without offering verified benchmark data from a client campaign.</p><table><thead><tr><th>Profile lever</th><th>What Google says</th><th>What this means in practice</th></tr></thead><tbody><tr><td>Verification</td><td>Verified profiles are more likely to show up in search results.</td><td>Claim the listing and complete verification before doing anything else.</td></tr><tr><td>Business information</td><td>Complete and accurate info helps Google understand the business.</td><td>Fill in the name, hours, phone, website, address or service area, description, photos, and attributes.</td></tr><tr><td>Categories</td><td>The categories you select affect local ranking.</td><td>Pick the most specific primary category that truly fits the core business, then add only a few relevant extras.</td></tr><tr><td>Reviews</td><td>More reviews and positive ratings can help local ranking.</td><td>Ask real customers for honest reviews, then reply in a direct and professional way.</td></tr></tbody></table><h2>Which profile fixes matter most?</h2><p>Google says the biggest levers are relevance, distance, and prominence. The practical job is to make the profile match the search, the place, and the business’s reputation as closely as possible.</p><p>The source guide follows that logic step by step. It says to verify the listing, use the business name exactly as it appears in the real world, choose the primary category that best describes the business, add accurate hours and contact details, and keep photos current. It also says to use products, services, attributes, and posts where they fit, and to answer questions on the profile instead of leaving them to strangers.</p><p>Google’s own help pages add a few sharper points. Business description fields should be useful and honest, not stuffed with promos or links. Categories should be as few as possible, and they should describe what the business is rather than every service it offers. If a profile has public-facing departments that are separately owned and operated, those departments need their own profiles.</p><h2>What should businesses avoid?</h2><p>Google forbids paying for a better local ranking, and it forbids incentives for reviews. It also requires the business name to match real-world branding, and it treats keyword stuffing, fake addresses, and fake service areas as policy problems.</p><p>The service-area rules are clear. A business that serves customers at its location can show its address and also set a service area if it is a hybrid business. A service-area business that travels to customers should hide its address, enter service areas by city, postal code, or another area, and avoid setting a radius around the business. Google says the overall area should not stretch beyond about two hours of driving time from the base, and it allows up to 20 service areas.</p><p>On reviews, the policy line is just as firm. Google says reviews must reflect a genuine experience, and it bans incentives such as free or discounted goods or services in exchange for posting, changing, or removing reviews. The source guide adds a practical rule that fits that policy: ask customers when the job is finished, send them to a Google review link or QR code, and reply without sounding scripted or promotional.</p><h2>How should owners measure success?</h2><p>Performance data is useful, but it is not proof that one edit caused a ranking jump. Google says the report includes views, searches, and actions from both organic search results and Google Ads, so it is best used to track movement over time rather than to claim a single-cause win.</p><p>The exact metrics are straightforward. Owners and managers can see views, searches, directions, calls, website clicks, messages, bookings, products, menus, and offers, though only the metrics that apply will appear. Google also says calls are the number of times a customer clicked the call button on the profile, directions counts have been adjusted to account for multiple taps, cancellations, and spam, and search queries in the report cannot be directly managed. That makes the report a monitoring tool, not a shortcut.</p><p>The source page is strongest when it explains how to build trust signals that are under the business’s control. Keep the profile current, use the right category, match the real name and address, fix inconsistent citations, gather authentic reviews, and keep earning links from organizations tied to the town or trade. Without those basics, the listing can exist, but it is less likely to stand out when nearby customers search for what the business sells.</p><p>The missing piece is newsworthiness. There is no new Google release, no verified benchmark, and no live case study in the page itself. What it offers is a usable local search checklist, and the hard part is execution, not discovery.</p></html_body>},</p>`,
+    sources: [
+      { name: "Local Search Desk", url: "https://therankingstore.com/how-to-improve-a-google-business-profile-so-it-shows-up-in-maps/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795780320",
+    slug: "10-llm-launches-in-november-2026-new-ai-models",
+    title: "10 LLM Launches in November 2026: New AI Models",
+    deck: "Explore 10 major LLM launches in November 2026, including GPT-6 Cyber, Gemini 4 Hydrogen, Claude 5.2, Meta Muse Ember and Sarvam Prism",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-27T11:47:07Z",
+    updatedAt: "2026-11-27T11:47:07Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/ftc-launches-broad-investigation-into-anthropic-openai.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing AI Industry Desk.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (AI Industry Desk).",
+          "Key focus: Explore 10 major LLM launches in November 2026, including GPT-6 Cyber, Gemini 4 Hydrogen, Claude 5.2, Meta Mus...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<h2>November 27 roundup check: main discrepancies vs. primary sources</h2>
+<p>I checked the <strong>AI FrontPage November 27 roundup</strong> against the available first-party announcements. Most entries line up on <em>model name</em> and <em>launch window</em>, but there are a few important mismatches.</p> <h3>1) GPT-6 Cyber , date is off by one day</h3>
+<ul> <li><strong>Roundup:</strong> November 6, 2026.</li> <li><strong>OpenAI primary source:</strong> <strong>November 5, 2026</strong>. The post is titled “GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents” and describes it as a cybersecurity model for finding/validating vulnerabilities within researcher-defined scope.</li>
+</ul>
+<p><strong>Conclusion:</strong> the roundup’s date is incorrect.</p> <h3>2) Claude Fable 5.2 / Mythos 5.2 , date is off by one day, and the roundup collapses two models into one line</h3>
+<ul> <li><strong>Roundup:</strong> November 10, 2026.</li> <li><strong>Anthropic primary source:</strong> <strong>November 9, 2026</strong>. Anthropic says Fable 5.2 and Mythos 5.2 are the same underlying model, with Fable available broadly and Mythos restricted to verification-program access. Pricing is $8/$40 per million input/output tokens, with optional fast mode at $16/$80.</li>
+</ul>
+<p><strong>Conclusion:</strong> the roundup’s date is incorrect. Counting the two models under one entry is editorially reasonable, but it does compress two distinct access paths into one headline.</p> <h3>3) ERNIE 5.5 Flash Preview , licensing/status is overstated</h3>
+<ul> <li><strong>Roundup:</strong> says Baidu made the weights open under Apache 2.0.</li> <li><strong>Baidu primary source:</strong> the launch page says the API is available on Qianfan and that the weights will be open-sourced under Apache 2.0 <em>soon</em>, not that they were already released under Apache 2.0 on launch day. The model is 280B total / 14B active with a 1M-token context.</li>
+</ul>
+<p><strong>Conclusion:</strong> the roundup is too strong on the weights/licensing claim. “Will be open-sourced soon” is not the same as “already open.”</p> <h3>4) Everything else is broadly aligned</h3>
+<ul> <li><strong>Sarvam Prism:</strong> official launch is November 3, 2026; the roundup’s date matches. The model is a System One decision model on Sarvam 105B, with 44 ms median latency and open weights under Apache 2.0.</li> <li><strong>Ripple-65B Preview:</strong> the official Ricursive page says it was released “today” in the November 4, 2026 launch window, with 12T-token pretraining, 1M context, and dense architecture.</li> <li><strong>Inkling 2 Small:</strong> official date is November 5, 2026; the roundup matches. It is a 594B total / 17B active MoE model with image input support and variable effort, initially on Tinker with closed weights.</li> <li><strong>Arete-27B:</strong> the roundup’s November 6 date matches the official Nous Research post date. The model is a Qwen3.8-27B post-train using supervised fine-tuning only, with no RL or architectural changes.</li> <li><strong>Muse Ember:</strong> official date is November 9, 2026; the roundup matches. It is a 1M-context model with 512K max output tokens and API availability at $0.10/$0.50 per million input/output tokens.</li> <li><strong>Gemini 4 Hydrogen:</strong> official date is November 12, 2026; the roundup matches. It has a 1M-token context and flat $1.50/$7.50 pricing per million input/output tokens.</li> <li><strong>Hy4 flash:</strong> the official Tencent page corresponds to the November 16, 2026 release, with 224B total / 12B active parameters, multimodal input, 1M context, and launch pricing around $0.070/$0.281 per million input/output tokens.</li>
+</ul> <h3>Bottom line</h3>
+<p>The roundup is <strong>mostly accurate on the ten-entry list</strong>, but it has at least <strong>three notable issues</strong>:</p>
+<ol> <li>GPT-6 Cyber date is off by one day.</li> <li>Claude Fable/Mythos 5.2 date is off by one day, and the roundup collapses two model names into one entry.</li> <li>ERNIE 5.5 Flash Preview’s weights/licensing are described as already open when the primary source says they were only planned to be open-sourced soon.</li>
+</ol>`,
+    sources: [
+      { name: "AI Industry Desk", url: "https://aifront-page.com/llm-launches-november-2026/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795765610",
     slug: "our-approach-to-government-and-national-security-partne",
     title: "Our approach to government and national security partnerships",
