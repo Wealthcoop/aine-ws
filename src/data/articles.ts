@@ -2,6 +2,122 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795750365",
+    slug: "gpt-55-bio-bug-bounty-architecture-and-benchmark-analys",
+    title: "GPT-5.5 Bio Bug Bounty: Architecture and Benchmark Analysis",
+    deck: "Details about the OpenAI Bio Bounty program",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-07-09T10:00:00Z",
+    updatedAt: "2026-07-09T10:00:00Z",
+    readingTimeMinutes: 7,
+    featuredImage: "/news/editorial/introducing-dots-architecture-and-benchmark-analysis.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing OpenAI Official News.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (OpenAI Official News).",
+          "Key focus: Details about the OpenAI Bio Bounty program...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<h1>GPT-5.5 Bio Bug Bounty: Architecture and Benchmark Analysis</h1><p>SAN FRANCISCO, July 9, 2026: OpenAI turned its GPT-5.5 Bio Bug Bounty into an ongoing private Bio Bounty Program, raised the top reward to $50,000, and kept GPT-5.5 in scope through July 27, 2026. The original April 23 program was narrower: it asked researchers to find one universal jailbreak that could answer all five bio safety questions from a clean chat without prompting moderation, with $25,000 for the first true win.</p><p>The public record shows a program designed for a single abuse pattern, then widened into a recurring red-team channel for later frontier models. It also shows what OpenAI did not publish: the full biosafety challenge text, the model architecture behind the bounty platform, and a complete benchmark package for the bounty itself.</p><table><thead><tr><th>Program element</th><th>April 23, 2026 launch</th><th>July 9, 2026 update</th></tr></thead><tbody><tr><td>Model in scope</td><td>GPT-5.5 in Codex Desktop only</td><td>GPT-5.5 remains in scope through July 27, 2026, then only GPT-5.6</td></tr><tr><td>Core task</td><td>One universal jailbreak that solves all five bio safety questions from a clean chat</td><td>Same universal jailbreak framing, now for GPT-5.6 and GPT-5.5</td></tr><tr><td>Top reward</td><td>$25,000</td><td>$50,000 for both GPT-5.6 and GPT-5.5</td></tr><tr><td>Access model</td><td>Invite and application, vetted bio red-teamers, NDA, existing ChatGPT account</td><td>Rolling applications continue, accepted applicants onboarded to the bio bug bounty platform</td></tr><tr><td>Disclosure</td><td>Short application with name, affiliation, experience</td><td>Past applicants do not need to reapply</td></tr></tbody></table><h2>What changed on July 9, 2026?</h2><p>The July 9 update extends the program rather than replacing it. OpenAI kept the original GPT-5.5 scope alive until July 27, moved the effort into an ongoing private program, and raised the reward ceiling for a universal jailbreak to $50,000.</p><p>That update also changes the operational shape of the bounty. OpenAI says accepted researchers will be onboarded to the bio bug bounty platform, past applicants do not need to reapply, and future scope changes will be communicated to researchers, while the public page itself does not expose a separate testing calendar or the architecture of the challenge platform.</p><p>For researchers, this means continuity and a higher payout. For everyone else, it means the company is institutionalizing an invite based biosafety channel rather than treating the GPT-5.5 bounty as a one off release exercise.</p><h2>How was the original GPT-5.5 bounty structured?</h2><p>The original program was tightly scoped and easy to state. It targeted GPT-5.5 in Codex Desktop only, and the task was to find one universal jailbreak that could answer all five bio safety questions from a clean chat without prompting moderation.</p><p>The application page lists the practical rules: applications opened April 23, 2026 at 8:00 AM PDT, the deadline was June 22, 2026 at 11:59 PM PDT, and the displayed reward range ran from $0.00 to $25,000.00. OpenAI said it would extend invitations to a vetted list of trusted bio red-teamers, review new applications, require an existing ChatGPT account, and place all prompts, completions, findings, and communications under NDA.</p><p>The page also says smaller awards may be granted for partial wins at OpenAI’s discretion. What it does not show is a separate testing schedule, a formal public rubric, or a detailed explanation of how the five bio safety questions were built.</p><h2>What does the system card reveal about safeguards and architecture?</h2><p>OpenAI describes GPT-5.5 as a reasoning model trained through reinforcement learning, with safety classifiers, data filtering, and instruction hierarchy controls layered into deployment. The company also says GPT-5.5 Pro is the same underlying model using a setting that makes use of parallel test time compute, and that the April 24 update added more deployment detail for GPT-5.5 and GPT-5.5 Pro in the API.</p><p>The card says the training pipeline uses rigorous filtering to maintain data quality and reduce personal information, and that safety classifiers help prevent or reduce harmful or sensitive content. It also says the model is trained to follow both platform level policy for high risk actions and configurable developer provided confirmation policy in the developer message, with the confirmation policy delivered in the system message for ChatGPT and API deployment.</p><p>For cyber related controls, the card describes a layered oversight system: a fast topical classifier first decides whether content is cybersecurity related, then a safety reasoner classifies the threat taxonomy and blocks high risk responses. OpenAI says it uses that stack to restrict frontier, dual use assistance for users outside its trusted access program, and it can escalate accounts that hit cyber risk thresholds for automated review or human review.</p><h2>What do the biology evaluations say about actual safety performance?</h2><p>OpenAI’s internal biology testing suggests the model is harder to misuse, but not invulnerable. The company says it ran bio safeguard testing with expert red teamers using biological misuse prompts and rubrics, found that sustained expert jailbreaking could produce model level failures, and then used a safety reasoning classifier to identify the high priority jailbreaks before launch.</p><p>In the final launch configuration, OpenAI says the safeguard stack blocked the identified and verified high severity biological misuse jailbreaks. The same system card also says the model was treated as High capability in the Biological and Chemical domain, with safeguards activated under the Preparedness Framework.</p><p>Third party testing fits the same pattern. SecureBio assessed two pre release GPT-5.5 checkpoints from April 2 to 9 with API level content filtering and system level biological risk filters disabled, found strong results on static evaluations, and still warned that it had not systematically tested jailbreak robustness. CAISI, meanwhile, tested a representative launch checkpoint and a reduced refusals checkpoint and did not find a broad increase in national security relevant biological capability relative to GPT-5 helpful only.</p><h2>How do the benchmark results read in context?</h2><p>The strongest takeaway is that GPT-5.5’s biology gains look bounded rather than explosive. OpenAI’s own benchmark suite says the model sits near its predecessors on production safety, while some biology tasks improve modestly and others remain well below thresholds that the company uses to flag higher concern.</p><p>The table below captures the most relevant numbers from the system card. The values are useful because they show both the measurement style and the limits of the model’s performance.</p><table><thead><tr><th>Evaluation</th><th>What it measures</th><th>GPT-5.5 result</th><th>Key benchmark note</th></tr></thead><tbody><tr><td>Production Benchmarks</td><td>Disallowed content safety with not_unsafe</td><td>Near prior models across categories</td><td>Designed to be difficult, not representative of average traffic</td></tr><tr><td>Biochemistry knowledge</td><td>General biology uplift</td><td>32.32% reward@4 versus 30.97% for GPT-5.4-thinking</td><td>Difference of 1.35%, below the 30% concern threshold</td></tr><tr><td>Hard negative protein binding</td><td>Distinguish binder from non-binder proteins</td><td>1.48% pass@4</td><td>43 targets, 492 hotspots, five candidates per task, ipTM at least 0.8</td></tr><tr><td>DNA sequence design</td><td>Design sequences for TF binding</td><td>13.82% pass@1</td><td>11 TFs, 50 prompts per TF, 3000 basepair starting sequences</td></tr><tr><td>TroubleshootingBench</td><td>Hands on lab troubleshooting</td><td>Below the 80th percentile expert score of 36.4%</td><td>52 protocols, 12 PhD experts, non public procedures</td></tr></tbody></table><p>The Production Benchmarks matter because they show OpenAI using not_unsafe to judge whether a response avoids disallowed content, and because the company explicitly warns that those scores are point in time snapshots. The system card also says the evaluations only capture the model itself, not the other layers of the safety stack, so the real deployment picture should be better than the raw benchmark numbers alone.</p><p>There is one correction worth keeping in view. OpenAI later corrected GPT-5.5’s pass@4 score on the hard negative protein binding evaluation from 0.4% to 1.48%, which is a reminder that even official safety reports can change after review.</p><h2>Where are the weak spots and trade offs?</h2><p>The weak spot is not a single benchmark. It is the gap between strong controlled results and the open question of whether a highly motivated user can still find a universal jailbreak that slips past the stack.</p><p>OpenAI says SecureBio did not systematically assess jailbreak robustness, and it says its own lower bound evaluations could be exceeded by additional prompting, fine tuning, longer rollouts, or different scaffolding. That is a standard limitation for frontier safety work, but it matters here because the bounty is explicitly about finding a universal jailbreak that survives ordinary guardrails.</p><p>There is also a trade off in the program design. A private invite and application system can improve signal quality and reduce noise, but it also narrows external visibility into what researchers tested, what failed, and how much of the response came from model behavior versus platform controls.</p><h2>What should readers take away from the July 9 update?</h2><p>The update shows OpenAI moving from a one model challenge to a standing biosafety review channel. The practical message is that GPT-5.5 was good enough to justify a public bounty, but not good enough to stop the company from keeping the same attack class in scope for GPT-5.6.</p><p>That is the core significance of the program. OpenAI is betting that a smaller, private, NDA bound red teaming pool can surface universal jailbreaks before they appear in wider deployment, while the system card says the current safeguard stack already blocks the verified high severity biological jailbreaks it found in testing.</p><p>For the record, the primary source trail is straightforward: the April 23 program page, the April 23 and April 24 system card updates, the July 9 announcement, and the bio testing sections in the GPT-5.5 deployment safety hub. Together, they show a narrow bounty that became a persistent safety program, plus a benchmark picture that is reassuring on controlled tests and still incomplete on real world adversarial pressure.</p></html_body>},</p>`,
+    sources: [
+      { name: "OpenAI Official News", url: "https://openai.com/index/bio-bug-bounty", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795750776",
+    slug: "anthropic-ipo-creates-5100-millionaires-as-giving-movem",
+    title: "Analysis: Anthropic IPO Creates 5100 Millionaires as Giving Movement Expands - cwibc.co.id",
+    deck: "Anthropic IPO Creates 5100 Millionaires as Giving Movement Expands cwibc.co.id",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-27T02:49:20Z",
+    updatedAt: "2026-11-27T02:49:20Z",
+    readingTimeMinutes: 7,
+    featuredImage: "/news/editorial/us-court-sides-with-pentagon-in-anthropic-ai-ban-the-st.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing Anthropic Wire (Google News 1h).",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (Anthropic Wire (Google News 1h)).",
+          "Key focus: Anthropic IPO Creates 5100 Millionaires as Giving Movement Expands cwibc.co.id...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<h2>Anthropic IPO: key prospectus evidence</h2>
+<ul>
+<li><b>IPO price / date / ticker</b>: The prospectus states, “The initial public offering price per share is <b>$83.00</b>” and “our Class A common stock [is] on the Nasdaq Global Select Market under the symbol <b>‘ANT’</b>.” It is dated <b>November 18, 2026</b>.</li>
+<li><b>Lock-up / early resale</b>: “Our directors, officers, and the holders of substantially all of our capital stock… have entered into market standoff agreements… restrict transfers of their shares for up to <b>180 days</b> or, in the case of our co-founders and certain… stockholders holding more than <b>0.5%</b>… up to <b>365 days</b> after the date of this prospectus.” The prospectus also says “<b>up to 10%</b> of the aggregate number of lock-up securities held by our non-founder directors, officers, and current and former employees and consultants… may be transferred or sold beginning on the <b>first trading day</b> of our Class A common stock.”</li>
+<li><b>Founder 80% pledge caveat</b>: Anthropic’s prospectus says the co-founders “have each pledged to dedicate <b>80%</b> of their personal equity in Anthropic to philanthropic causes.” A later filing snippet quoted from the S-1 says these are “<b>voluntary, revocable expressions</b>” of philanthropic intent and “<b>do not constitute legally binding obligations</b>.”</li>
+<li><b>Employee donation match</b>: The prospectus says Anthropic maintains “a donation matching program through which employees can pledge a meaningful portion of their equity awards toward charitable giving, which we match with shares of our Class N common stock.” It also specifies that in May 2024 the board changed the match for new employees “generally from a <b>3-for-1</b> basis for up to <b>50%</b> of an employee’s equity awards to a <b>1-for-1</b> basis for up to <b>25%</b> of an employee’s initial equity award.”</li>
+<li><b>Public Benefit Fund: what it is</b>: Anthropic says it contributed <b>846,840,960</b> shares of Class N common stock, representing <b>5%</b> of fully diluted shares as of June 30, 2026, to the <b>Anthropic Public Benefit Fund, LLC</b>, described as a wholly owned subsidiary dedicated to the Company Purpose. The board may, in its discretion, issue up to an additional <b>2%</b> of then-outstanding shares each time the share price rises <b>50%</b> above the prior milestone, beginning with the IPO price. This is an equity/share issuance framework, not a cash grant.</li>
+<li><b>Governance / control</b>: The prospectus describes Anthropic as a Delaware <b>public benefit corporation</b>, with a Long-Term Benefit Trust (LTBT) using Class T stock to elect/remove a majority of the board, and a Founder LLC holding Class F stock with votes equal to <b>50.1%</b> of total voting power on stockholder matters generally. Class T and Class F have no economic rights; Class N also has no voting rights except as required by law.</li>
+<li><b>Important practical point</b>: the “5% fund” and the price-step “Public Benefit Issuances” are described as transfers of <b>shares of Class N common stock</b> into the fund/LLC, not a cash transfer. The fund structure is an LLC “to give adjustability between different forms of giving,” and the company says none of the equity held by the LLC will be used for lobbying or political giving.</li>
+</ul> <h2>What this means for the headline</h2>
+<ul>
+<li>The headline-sized charitable figure is mostly an <b>equity commitment</b>, not cash already available for charities.</li>
+<li>The founder pledge is <b>aspirational/nonbinding</b> rather than a legal promise to donate on a fixed timetable.
+</li>
+<li>The employee program is materially important, but the company match is denominated in <b>shares</b> and subject to vesting/lock-up constraints, so nonprofit access depends on later liquidity events and donor choices.
+</li>
+<li>The Public Benefit Fund itself is an <b>LLC</b> with flexibility, not a traditional grantmaking charity; the prospectus excerpt provided does not show an explicit irrevocability clause, and the practical effect is that Anthropic is committing stock and governance discretion, not immediately spendable cash.</li>
+</ul> <h2>Financial metrics and obligations in the prospectus</h2>
+<ul>
+<li>For the <b>nine months ended September 30, 2026</b>, Anthropic reported <b>revenue of $33,242 million</b> and <b>operating loss of $(1,260) million</b>.</li>
+<li>As of and subsequent to September 30, 2026, Anthropic said it had purchase commitments and lease agreements with aggregate committed spend of approximately <b>$900.9 billion</b>, with approximately <b>$70.7 billion</b> due in the 12 months following September 30, 2026.</li>
+</ul> <h2>Primary-source evidence</h2> <h3>1) Financial commitments, revenue, and operating loss</h3>
+<table>
+<tr><td><b>Contracted spend</b></td><td>“As of and subsequent to September 30, 2026, we have entered into purchase commitments and lease agreements… with an aggregate committed spend of approximately <b>$900.9 billion</b>, substantially all of which is related to compute and infrastructure.”</td></tr>
+<tr><td><b>Near-term / long-term timing</b></td><td>“These commitments include approximately <b>$451.6 billion</b> expected to be incurred before December 31, 2030, and substantially all of the remainder is expected to be incurred between 2031 and 2045. Approximately <b>$70.7 billion</b> of these commitments are due in the 12 months following September 30, 2026.”</td></tr>
+<tr><td><b>Nine months ended Sep. 30, 2026</b></td><td>“Our revenue was <b>$33.2 billion</b> for the nine months ended September 30, 2026… Our operating loss was <b>$1.3 billion</b> for the nine months ended September 30, 2026…”</td></tr>
+<tr><td><b>Nine months ended Sep. 30, 2025</b></td><td>“…up from <b>$2.5 billion</b> for the nine months ended September 30, 2025… down from <b>$5.2 billion</b> for the nine months ended September 30, 2025.”</td></tr>
+</table> <h3>2) Infrastructure dependencies</h3>
+<p>The prospectus is explicit that Anthropic’s scale depends on compute and cloud partners:</p>
+<blockquote>
+“Our Approach to Compute… across <b>AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs</b>…”
+</blockquote>
+<blockquote>
+“Claude is accessible on all three major cloud platforms, Amazon Web Services (‘AWS’), Google Cloud Platform (‘GCP’), and Microsoft Azure (‘Azure’)… we establish direct contractual relationships with our customers while paying a fee to each CSP.”
+</blockquote>
+<p>The prospectus also defines compute as including “<b>specialized accelerators, memory, networking, storage, and power systems</b> that are deployed in data centers or other physical computing environments.”</p> <h3>3) IPO proceeds</h3>
+<p><b>Prospectus estimate:</b> “We estimate that the net proceeds from the sale of shares… will be approximately <b>$104.8 billion</b> (or approximately <b>$117.0 billion</b> if the underwriters’ option… is exercised in full).”</p>
+<p><b>Closing announcement:</b> Anthropic later said the IPO closed with “aggregate gross proceeds… approximately <b>$93.5 billion</b>, of which approximately <b>$91.6 billion</b> was received by Anthropic,” and the concurrent private placement added approximately <b>$26.0 billion</b>; total aggregate gross proceeds were approximately <b>$119.5 billion</b>.</p>
+<p>The company also said: “Anthropic did not receive any proceeds from the sale of shares by the selling stockholders.”</p> <h3>4) Public benefit fund, equity governance, and revocability</h3>
+<p>Anthropic’s own announcement says:</p>
+<blockquote>
+“Subject to stockholder approval, <b>5% of Anthropic’s shares</b> will be committed today, with an additional <b>2%</b> added at the board’s discretion for every 50% increase in the company’s value above a set baseline.”
+</blockquote>
+<blockquote>
+“We’re establishing the Anthropic Public Benefit Fund as an <b>LLC</b>, rather than a 501(c)(3) or other format, to give adjustability between different forms of giving.”
+</blockquote>
+<p>On revocability, the prospectus says the co-founders’ pledge is not binding:</p>
+<blockquote>
+“These commitments are <b>voluntary, revocable</b> expressions of each co-founder’s philanthropic intent and do not constitute legally binding obligations.”
+</blockquote> <h3>5) Liquidity restrictions / employee sell-down limits</h3>
+<p>The prospectus describes the liquidity mechanics and restrictions around insider sales:</p>
+<blockquote>
+“...subject to specific exceptions including specified early expiration provisions… [holders are restricted] during the period ending…”</blockquote>
+<blockquote>
+“Up to <b>315 million shares</b> of our Class A common stock may become eligible for sale beginning on the first trading day following the date of this prospectus, and up to <b>3.4 billion</b> additional shares may become eligible for sale prior to the expiration of the period…”</blockquote>
+<p>It also states that the shares sold in the concurrent private placement “will not be subject to any market standoff agreement or lock-up agreement,” but they are “restricted securities” and may be resold only pursuant to registration or an exemption.</p> <h3>6) 5,100 employee-millionaire claim: support and reliability</h3>
+<p>The claim appears in secondary reporting, not in Anthropic’s filings:</p>
+<blockquote>
+“After Anthropic priced its IPO at $83 a share, about <b>600 employees</b> entered the rarefied ‘centi-millionaire’ club, with equity holdings valued north of $100 million, according to data from Hill.com…”</blockquote>
+<p>Reuters’ syndication version also says the estimates were not independently verified:</p>
+<blockquote>
+“Private-markets research firm Sacra estimates that roughly 2,800 current and former Anthropic employees could hold at least $1 million of pretax vested equity… <b>Reuters could not independently verify the estimates</b>…”</blockquote>
+<p>So the “5,100 employees” figure should be treated as a <b>modeled paper-wealth estimate</b>, not cash in hand, and the prospectus’s lock-up / resale limits mean much of that wealth is not immediately liquid.</p> <h3>Bottom line</h3>
+<ul>
+<li><b>$900.9B</b> is the aggregate committed compute/infrastructure spend, with <b>$70.7B</b> due in the next 12 months after Sep. 30, 2026.</li>
+<li>For the <b>nine months ended Sep. 30, 2026</b>, revenue was <b>$33.2B</b> and operating loss was <b>$1.3B</b>; the comparable 2025 figures were <b>$2.5B</b> revenue and <b>$5.2B</b> operating loss.</li>
+<li>The IPO economics appear in two stages: <b>prospectus estimates</b> for net proceeds and the <b>closing announcement</b> with actual gross proceeds and the separate $26.0B private placement.</li>
+<li>The “5,100 millionaires” story is a <b>secondary estimate</b>, while the prospectus confirms <b>liquidity restrictions</b> and staged share eligibility, which is why it is best described as <b>paper wealth</b>, not immediate cash.</li>
+</ul>`,
+    sources: [
+      { name: "Anthropic Wire (Google News 1h)", url: "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOFBHX1dIN0p2VC1YVUVfcWZXZW0tdC15YXR1VG02WDQ3Z2k0eTJBRWlhMXpLci1vcmZYeElnOUw3dDVjWnJITUxFTVN3VFNMMnRaQnNkREtrdEFYS2ItYnF1eTAtUkZJRkdubUZRcW84Zw?oc=5", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795747781",
     slug: "google-reviews-for-seo-what-they-do-and-how-to-earn-mor",
     title: "Analysis: Google Reviews for SEO: What They Do and How to Earn More",
