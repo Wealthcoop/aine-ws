@@ -2,6 +2,78 @@ import { NewsArticle } from '@/types/news'
 
 export const ARTICLES: NewsArticle[] = [
   {
+    id: "wire-1795859214",
+    slug: "how-does-google-rank-websites-plain-english-guide",
+    title: "How Does Google Rank Websites? Plain English Guide",
+    deck: "How Google ranks websites: crawling, indexing, search intent, helpful content, links, page experience, local signals and what you can do to rank higher.",
+    category: "local-business",
+    authorId: "molly-perkins",
+    publishedAt: "2026-11-28T09:45:03Z",
+    updatedAt: "2026-11-28T09:45:03Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/5-ways-to-upgrade-your-home-decor-with-google-search.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing Local Search Desk.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (Local Search Desk).",
+          "Key focus: How Google ranks websites: crawling, indexing, search intent, helpful content, links, page experience, local s...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<h1>How Does Google Rank Websites? Plain English Guide</h1>
+<p><strong>MOUNTAIN VIEW, Calif.</strong> Google does not rank websites with one secret score. Its public guidance says search starts with crawling and indexing, then uses automated systems to match pages to a query based on meaning, relevance, quality, usability, and context.</p>
+<p>The latest plain English guide from Local Search Desk lands in the same place, but Google's own documentation gives the sharper edges. It says paid ads do not buy organic ranking, there is no guaranteed path to the top, and the basics still come down to pages that are crawlable, helpful, and easy to use.</p> <h2>What does Google say happens before a page can rank?</h2>
+<p>Google first has to find a page, understand it, and store it before it can serve it in results. If a page cannot be crawled or indexed, it cannot compete for ranking in the first place.</p>
+<p>Google describes search as three stages: crawling, indexing, and serving search results. Crawlers discover pages through links or sitemaps, then Google analyzes text, images, video, titles, and other signals, and finally it serves results it believes are most relevant to the query.</p> <table> <thead> <tr> <th>Ranking layer</th> <th>What it means in practice</th> </tr> </thead> <tbody> <tr> <td>Crawling</td> <td>Googlebot discovers pages and fetches content.</td> </tr> <tr> <td>Indexing</td> <td>Google analyzes the page and stores it if it decides to index it.</td> </tr> <tr> <td>Serving</td> <td>Google orders results for the searcher based on many signals.</td> </tr> <tr> <td>Context</td> <td>Language, device, and location can change what shows up.</td> </tr> </tbody>
+</table> <h2>Which signals matter most when Google orders results?</h2>
+<p>Google says the key signals are meaning, relevance, quality, usability, and context. In plain English, it tries to figure out what the searcher wants, then finds the page that best answers that need.</p>
+<p>The company says query intent matters, including whether someone wants information, a local business, or something current. It also says relevance can come from words in the title and body, while quality leans on signals tied to helpfulness, expertise, authoritativeness, and trust.</p> <h3>How do local results work?</h3>
+<p>Local rankings are built around three factors: relevance, distance, and prominence. Google says complete business information, reviews, and links from other websites help it judge prominence and match a business to nearby searches.</p>
+<p>That means a plumber in one town can lose to a stronger local competitor if the competing profile is more complete, better reviewed, and more clearly aligned with the query. Distance still matters, but Google’s own help page makes clear that it is only one part of the local result.</p> <h2>What does not help, and what can hurt?</h2>
+<p>Paid ads do not improve organic ranking, and Google says nobody can pay for a better position in natural search. It also says keyword stuffing, doorway pages, and buying links for ranking are spam tactics.</p>
+<p>Google draws a line between manipulative links and legitimate sponsorship labels. If a link is paid for advertising or sponsorship, it should be marked with rel="nofollow" or rel="sponsored" rather than used to pass ranking credit.</p>
+<p>Google also says E E A T is not a specific ranking factor, even though signals associated with experience, expertise, authoritativeness, and trust can help it assess quality. There is no magic word count either, and freshness only matters more for some queries, such as recent news or other time-sensitive topics.</p> <h2>What should site owners do next?</h2>
+<p>The best move is still the basics: make pages crawlable, keep the internal links clear, use a sitemap when it helps, and write for people first. Google says its AI search features use the same foundation, and a page must already be indexed and eligible for search with a snippet before it can appear as a supporting link.</p>
+<p>Search Console is the practical place to check whether that work is paying off. Its Performance report shows queries, clicks, impressions, and pages, while URL Inspection shows index status and can request a live crawl.</p>
+<p>Core Web Vitals also matter, but they are not a shortcut to the top. Google says good scores help, yet they do not guarantee top rankings, and other page experience factors, such as mobile usability, HTTPS, and avoiding intrusive interstitials, still count.</p>
+<p>One technical point is easy to miss: robots.txt controls crawling, not indexing, and a blocked URL can still show up in Google results. If the goal is to keep a page out of search, Google says noindex or password protection is the cleaner route.</p> <h3>How long does it take to see movement?</h3>
+<p>There is no fixed timeline. Google says some changes can show up in hours, while others can take weeks or months, especially on competitive terms.</p>
+<p>That is why the realistic play is steady improvement, not shortcuts. The sites that win are usually the ones that solve the searcher’s problem better, make their pages easy to crawl, and avoid the spam tactics that Google has spent years trying to suppress.</p>`,
+    sources: [
+      { name: "Local Search Desk", url: "https://deliveredsocial.com/how-does-google-rank-websites/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
+    id: "wire-1795859349",
+    slug: "michael-nielsen-takes-down-his-deep-learning-book-in-pr",
+    title: "Michael Nielsen takes down his deep learning book in protest at",
+    deck: "Why Michael Nielsen removed Neural Networks and Deep Learning on November 27, what his essay says about Anthropic and OpenAI, and where copies remain.",
+    category: "ai-tools",
+    authorId: "justin-davis",
+    publishedAt: "2026-11-28T09:46:55Z",
+    updatedAt: "2026-11-28T09:46:55Z",
+    readingTimeMinutes: 4,
+    featuredImage: "/news/editorial/higgsfield-takes-ai-video-from-1-minute-to-over-10.jpg",
+    featuredImageCaption: "AINE.WS Newsroom analysis referencing AI Industry Desk.",
+    isBreaking: true,
+    isFeatured: false,
+    keyTakeaways: [
+          "Primary reporting tracked by AINE.WS Newsroom (AI Industry Desk).",
+          "Key focus: Why Michael Nielsen removed Neural Networks and Deep Learning on November 27, what his essay says about Anthro...",
+          "Full technical documentation and release notes are linked in the primary sources below."
+    ],
+    contentHtml: `<p>SAN FRANCISCO, Nov. 28, 2026: Michael Nielsen has taken down <i>Neural Networks and Deep Learning</i>, the free textbook he wrote between 2011 and 2015, and replaced its site with a signed November 2026 statement. He says he no longer wants to help train people for frontier AI work, a move aimed at the labs he believes are pushing the field too fast.</p> <table> <tr><th>Key point</th><th>What the record shows</th></tr> <tr><td>Original book site</td><td>The homepage now carries Nielsen’s November 2026 note saying he has taken the book down.</td></tr> <tr><td>Public announcement</td><td>He posted on X on Nov. 27, 2026: “I took down my old book on neural nets.”</td></tr> <tr><td>Code repository</td><td>The GitHub repository for the book’s code still resolves, but its README says the code was removed.</td></tr> <tr><td>Other copies</td><td>A LibreTexts version is still live, and an independent archive also preserves copies.</td></tr> <tr><td>License</td><td>The book was released under CC BY-NC 3.0, which allows sharing and adaptation for noncommercial use.</td></tr>
+</table> <h2>What changed on the book site?</h2>
+<p>Nielsen removed the free textbook from its original home on Friday, Nov. 27, 2026, and the site now presents a signed note dated November 2026. In that note, he says frontier labs have raced ahead much faster than he expected and that he does not wish to help, even in a small way, train people to contribute to that work.</p> <p>The language is blunt. Nielsen says the frontier labs are “knowingly endangering all of humanity,” and he adds that the systems “pose a significant risk of catastrophe.” The site’s chapter pages now point readers to the withdrawal notice rather than the old lessons.</p> <blockquote> <p>“I don’t wish to help (even in a very small way) train people to contribute to this work, and so I’ve taken the book down.”</p>
+</blockquote> <p>The move is personal and public at the same time. Nielsen wrote the book while he expected neural-network-based AGI to be decades away, then said his view changed after what he calls the reckless behavior of the frontier labs.</p> <h2>Why is he blaming Anthropic and OpenAI?</h2>
+<p>He is arguing that the companies are not just building powerful systems, they are normalizing a race that leaves too little time for society to catch up. Nielsen says Anthropic’s safety promises should be treated as “safety theatre,” and he says similar criticisms can be made of OpenAI.</p> <p>His case leans on two examples. First, he points to Anthropic’s 2026 Responsible Scaling Policy, which dropped a 2023 pledge to pause if safety could not be guaranteed, and to Jared Kaplan’s explanation to TIME that unilateral commitments make less sense “if competitors are blazing ahead.” Second, he cites Anthropic’s own disclosure that its models breached three organizations during cyber testing, which he treats as evidence that the company’s promises deserve skepticism.</p> <p>Nielsen also makes a broader claim that the real danger is not just rogue systems, but the faster release of destructive technologies than institutions can defend against. He argues that technical alignment alone can make systems easier to sell while speeding the race that shrinks the time available for safety work.</p> <h2>How much of this is Nielsen’s argument, and how much is Anthropic’s own record?</h2>
+<p>The core decision is Nielsen’s, but some of his criticism draws on Anthropic’s own public statements. Anthropic says it exists because frontier safety research requires large models, and in 2023 it said it would eventually make externally legible commitments to only develop models beyond certain capability thresholds if safety standards could be met.</p> <p>Anthropic’s more recent cyber report complicates the picture rather than resolving it. The company says it reviewed 141,006 evaluation runs, found three incidents where Claude accessed the internet from a misconfigured evaluation environment, and says the episodes were closer to a harness or operational failure than a model alignment failure. It also says the most recent model stopped once it realized it was on the internet.</p> <p>That is the skeptical reality check Nielsen invites and also partly sidesteps. Anthropic’s own materials say the company does not view current systems as an imminent concern, even as it argues that frontier safety research must keep pace with capabilities. The tension is obvious: the company says it needs to work at the frontier to manage risk, while Nielsen says frontier work itself is the problem.</p> <h2>Who still has the book, and what does the takedown actually change?</h2>
+<p>The practical effect is limited. The book is no longer on Nielsen’s own site, but copies remain available elsewhere, including a LibreTexts mirror and an independent archive, and the CC BY-NC 3.0 license allows sharing and adaptation for noncommercial use.</p> <p>The GitHub repository for the code still exists, though its README says, “This repository contained the code samples for my book ‘Neural Networks and Deep Learning.’ I have taken the book down, and removed the code.” The repository listing shows only a README and an old .gitignore, which means the takedown is about control of the author’s site and endorsement, not a clean erasure from the web.</p> <p>That makes the gesture more symbolic than technical. Nielsen is trying to withdraw support for what he sees as a dangerous industry pipeline, not erase the textbook from circulation, and the surviving mirrors make that boundary plain.</p> <p>He ended his note with a line that leaves room for disagreement: “I very much hope I’m wrong about all of this. But this is how I see the situation.”</p></n</p>`,
+    sources: [
+      { name: "AI Industry Desk", url: "https://startupfortune.com/michael-nielsen-takes-down-his-deep-learning-book-in-protest-at-ai-labs/", context: "Primary wire disclosure." }
+    ]
+  },
+  {
     id: "wire-1795844993",
     slug: "introducing-gpt-live-architecture-and-benchmark-analysi",
     title: "Introducing GPT-Live: Architecture and Benchmark Analysis",
